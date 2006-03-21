@@ -1,8 +1,8 @@
 ---
 layout: page
 title:  "Java Servlet Pages"
-author: anonymous
-date:   2005-01-01 00:00:00
+author: jevon
+date:   2006-03-21 22:26:16 +1300
 ---
 
 ==JSP Page Directive Reference==
@@ -10,7 +10,7 @@ date:   2005-01-01 00:00:00
   [ language="java" ]
   [ extends="package.class" ]
   [ import="{package.class | package.*}, ..." ]
-  [ session="true|false" ]
+  [ session="true|false" ] 
   [ buffer="none|8kb|sizekb" ]
   [ autoFlush="true|false" ]
   [ isThreadSafe="true|false" ]
