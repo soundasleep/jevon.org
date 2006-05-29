@@ -1,0 +1,10 @@
+---
+layout: page
+title:  "Firefox"
+author: jevon
+date:   2006-05-29 13:29:41 +1200
+---
+
+Firefox is a nice internet browser which is standards compliant, fast, safe, secure and easy to install. Get it from http://www.getfirefox.com 
+
+[[Category:Technology]]
