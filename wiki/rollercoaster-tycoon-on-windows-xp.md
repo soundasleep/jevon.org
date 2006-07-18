@@ -1,8 +1,8 @@
 ---
 layout: page
 title:  "Rollercoaster Tycoon on Windows XP"
-author: anonymous
-date:   2006-07-18 19:27:45 +1200
+author: jevon
+date:   2006-07-18 19:30:04 +1200
 ---
 
 ==Problem==
