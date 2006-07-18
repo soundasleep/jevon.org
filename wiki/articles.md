@@ -1,8 +1,8 @@
 ---
 layout: page
 title:  "Articles"
-author: jevon
-date:   2006-01-11 06:43:46 +1300
+author: anonymous
+date:   2006-07-18 19:27:38 +1200
 ---
 
 Some random ramblings... under construction, and I'm always adding more.
@@ -17,6 +17,8 @@ Some random ramblings... under construction, and I'm always adding more.
 # [[Jevon Online Whatpulse Team]]
 # [[Changing your MSN Colour]]
 # [[Converting Webshots files to JPEGs]]
+# [[Rollercoaster Tycoon on Windows XP]]
+# [[Simple Right Click Convert WAV to MP3 in Windows]]
 
 ==Programming==
 # [[Articles/Using mod_rewrite With PHP]]
