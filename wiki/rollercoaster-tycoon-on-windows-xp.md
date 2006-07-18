@@ -1,8 +1,8 @@
 ---
 layout: page
 title:  "Rollercoaster Tycoon on Windows XP"
-author: jevon
-date:   2006-07-17 08:43:05 +1200
+author: anonymous
+date:   2006-07-18 19:27:45 +1200
 ---
 
 ==Problem==
@@ -13,4 +13,4 @@ Install Microsoft Virtual PC, install [[Windows 98]], install Rollercoaster Tyco
 
 [[Category:Technology]]
 [[Category:Games]]
-[[Category:Articles]]
+[[Category:Article]]
