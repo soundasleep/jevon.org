@@ -1,8 +1,8 @@
 ---
 layout: page
 title:  "Signs of ugly HTML"
-author: jevon
-date:   2006-08-17 11:50:05 +1200
+author: anonymous
+date:   2006-08-18 09:35:12 +1200
 ---
 
 ==Severe==
@@ -27,5 +27,8 @@ Use of align, valign
 ==Trivial==
 Use of B instead of STRONG
 Use of I instead of EM
+
+==Warnings==
+INPUT elements outside of FORMs
 
 [[Category:Technology]]
