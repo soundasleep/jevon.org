@@ -1,8 +1,8 @@
 ---
 layout: page
 title:  "Changing your MSN Colour"
-author: jevon
-date:   2006-05-31 07:34:53 +1200
+author: anonymous
+date:   2006-09-02 06:57:30 +1200
 ---
 
 [[Articles]]
