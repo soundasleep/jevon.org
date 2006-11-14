@@ -1,10 +1,8 @@
 ---
 layout: page
 title:  "Puzzle Making"
-author: jevon
-date:   2006-05-31 07:34:19 +1200
+author: anonymous
+date:   2006-11-15 06:29:21 +1300
 ---
 
-This is a way to make [[Puzzles|puzzles]]. The code is quite old (it's from my old site) and is likely to break - use at your own risk! ;) 
-
-{{$makepuzzle}}
+puzzles are gay
