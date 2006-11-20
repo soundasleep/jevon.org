@@ -1,8 +1,8 @@
 ---
 layout: page
 title:  "Writing to a Console in Eclipse"
-author: jevon
-date:   2005-12-09 08:14:52 +1300
+author: anonymous
+date:   2006-11-21 04:16:04 +1300
 ---
 
 [[Articles]]
