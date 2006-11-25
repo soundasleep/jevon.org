@@ -1,8 +1,8 @@
 ---
 layout: page
 title:  "Eclipse"
-author: jevon
-date:   2005-12-15 11:06:56 +1300
+author: anonymous
+date:   2006-11-25 22:55:39 +1300
 ---
 
 [[Articles]]
