@@ -1,8 +1,8 @@
 ---
 layout: page
 title:  "Articles"
-author: anonymous
-date:   2006-07-18 19:27:38 +1200
+author: jevon
+date:   2006-11-29 19:52:56 +1300
 ---
 
 Some random ramblings... under construction, and I'm always adding more.
@@ -19,6 +19,7 @@ Some random ramblings... under construction, and I'm always adding more.
 # [[Converting Webshots files to JPEGs]]
 # [[Rollercoaster Tycoon on Windows XP]]
 # [[Simple Right Click Convert WAV to MP3 in Windows]]
+# [[Installing Soundblaster Live! Drivers in Windows XP]]
 
 ==Programming==
 # [[Articles/Using mod_rewrite With PHP]]
