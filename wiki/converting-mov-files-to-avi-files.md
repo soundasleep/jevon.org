@@ -1,17 +1,17 @@
 ---
 layout: page
 title:  "Converting MOV files to AVI files"
-author: anonymous
-date:   2007-03-16 08:16:50 +1300
+author: jevon
+date:   2007-03-16 10:49:04 +1300
 ---
 
 [[Articles]]
 
-It's pretty simple, actually. Download '''mplayer''' (which includes '''mencoder'''), set it up into your path, and then use this simple command line to convert .mov files into .avis (assuming, of course, mplayer can play them):
+It's pretty simple, actually. Download '''<a href="http://www.mplayerhq.hu">mplayer</a>''' (which includes '''mencoder'''), set it up into your path, and then use this simple command line to convert .mov files into .avis (assuming, of course, mplayer can play them):
 
-[quote]mencoder FILE.mov -o OUTPUT_NAME.avi -oac mp3lame -ovc x264[/quote]
+[code]mencoder FILE.mov -o OUTPUT_NAME.avi -oac mp3lame -ovc x264[/code]
 
-This will convert it into an [[x264]] (mpeg-4 video codec)/lame [[mp3]] (mpeg-3 audio codec) .avi, which both mplayer and normal Windows Media codecs can play fine.
+This will convert it into an [[x264]] (mpeg-4 video codec)/lame [[mp3]] (mpeg-3 audio codec) .avi, which both mplayer and <a href="http://www.free-codecs.com/FFDShow_download.htm">normal Windows Media codecs</a> can play fine.
 
 Hooray, no more crappy .mov files!
 
