@@ -1,11 +1,11 @@
 ---
 layout: page
 title:  "Articles"
-author: jevon
-date:   2006-11-29 19:52:56 +1300
+author: anonymous
+date:   2007-03-19 10:56:18 +1300
 ---
 
-Some random ramblings... under construction, and I'm always adding more.
+Some random ramblings... under construction, and I'm always adding more..
 
 # [[ICQ Contacts in XML]]
 # [[HTML Entities]]
@@ -20,6 +20,7 @@ Some random ramblings... under construction, and I'm always adding more.
 # [[Rollercoaster Tycoon on Windows XP]]
 # [[Simple Right Click Convert WAV to MP3 in Windows]]
 # [[Installing Soundblaster Live! Drivers in Windows XP]]
+# [[Converting MOV files to AVI files]]
 
 ==Programming==
 # [[Articles/Using mod_rewrite With PHP]]
