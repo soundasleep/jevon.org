@@ -1,8 +1,8 @@
 ---
 layout: page
 title:  "Converting Webshots files to JPEGs"
-author: anonymous
-date:   2007-02-08 05:28:47 +1300
+author: jevon
+date:   2007-03-19 13:00:07 +1300
 ---
 
 [[Articles]]
