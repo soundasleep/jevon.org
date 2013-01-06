@@ -2,7 +2,7 @@
 layout: page
 title:  "New Features for Jevon.org"
 author: jevon
-date:   2013-01-07 01:09:01 +1300
+date:   2013-01-07 01:10:23 +1300
 ---
 
 Some ideas that I'd like to implement for the new Jevon.org...
@@ -40,7 +40,7 @@ Some ideas that I'd like to implement for the new Jevon.org...
 # Add CV
 # Add a cron job to identify broken links, and possibly replace link with local mirror
 
-=Possible Activity Feed Sources=
+===Possible Activity Feed Sources===
 # SVN commits, records
 # Blog posts, journal posts
 # Last.fm scrobbles, journals, records
