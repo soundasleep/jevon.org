@@ -2,7 +2,7 @@
 layout: page
 title:  "New Features for Jevon.org"
 author: jevon
-date:   2013-01-06 15:46:57 +1300
+date:   2013-01-06 18:37:03 +1300
 ---
 
 Some ideas that I'd like to implement for the new Jevon.org...
@@ -12,7 +12,7 @@ Some ideas that I'd like to implement for the new Jevon.org...
 # <span class="done">An actually functioning OpenID server</span> - <a href="http://journals.jevon.org/users/server/entry/20123">completed</a> 6 January 2013
 # <span class="done">Slightly improved Wiki syntax</span> - [[Special:Formatting|completed]] in r4531
 # <span class="done">Support for redirections in Wiki</span> - completed in r4540 using `#REDIRECT [[Title]]`
-# Wiki pages actually support versions and diff between them
+# <span class="done">Wiki pages actually support versions and diff between them</span> - completed in r4546, see [[History:TODO]]
 # A SPAM detection framework, that allows for spammy phrases to be tagged, and perhaps a callback interface to permit asynchronous moderation
 # Revisit all links in the [[TODO]] category
 # <span class="done">Support syntax highlighting (see <a href="http://code.google.com/p/google-code-prettify/">Google Code syntax highlighting</a>)</span> - [[Special:Formatting|completed]] in r4531
