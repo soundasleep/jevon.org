@@ -2,10 +2,10 @@
 layout: page
 title:  "Last.fm"
 author: jevon
-date:   2011-07-19 09:07:27 +1200
+date:   2013-01-07 02:32:02 +1300
 ---
 
-# <a href="http://www.last.fm/user/jdub_dub">My last.fm (jdub_dub)</a>
+# {{lastfm}} <a href="http://www.last.fm/user/jdub_dub">My last.fm (jdub_dub)</a>
 
 ==Mass Track Delete==
 Occasionally I accidentally leave a machine running while it is playing music (e.g. through headphones), and as a result my Last.fm gets polluted with tracks. I don't know of any way in Last.fm to delete multiple tracks, so I finally got fed up and developed the following bookmarklet.
