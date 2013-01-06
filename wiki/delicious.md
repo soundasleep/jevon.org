@@ -2,7 +2,7 @@
 layout: page
 title:  "delicious"
 author: jevon
-date:   2010-05-24 16:03:30 +1200
+date:   2013-01-07 02:14:32 +1300
 ---
 
-<img src="http://static.delicious.com/img/delicious.16.gif" width="12" height="12"> [[Category:Template]]
+<img src="img/socialmedia/delicious-16x16.gif" width="16" height="16" style="vertical-align: text-bottom;"> [[Category:Template]]
