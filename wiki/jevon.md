@@ -2,7 +2,9 @@
 layout: page
 title:  "Jevon"
 author: jevon
-date:   2007-11-08 11:02:03 +1300
+date:   2013-01-07 02:45:24 +1300
 ---
 
-See [[Jevon Wright]]
+#REDIRECT [[Jevon Wright]]
+
+[[Category:Redirect]]
