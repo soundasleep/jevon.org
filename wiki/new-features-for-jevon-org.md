@@ -2,7 +2,7 @@
 layout: page
 title:  "New Features for Jevon.org"
 author: jevon
-date:   2013-01-06 18:37:24 +1300
+date:   2013-01-06 18:45:30 +1300
 ---
 
 Some ideas that I'd like to implement for the new Jevon.org...
@@ -13,7 +13,6 @@ Some ideas that I'd like to implement for the new Jevon.org...
 # <span class="done">Slightly improved Wiki syntax</span> - [[Special:Formatting|completed]] in r4531
 # <span class="done">Support for redirections in Wiki</span> - completed in r4540 using `#REDIRECT [[Title]]`
 # <span class="done">Wiki pages actually support versions and diff between them</span> - completed in r4546, see [[History:42]] or [[History:43]]
-# A SPAM detection framework, that allows for spammy phrases to be tagged, and perhaps a callback interface to permit asynchronous moderation
 # Revisit all links in the [[TODO]] category
 # <span class="done">Support syntax highlighting (see <a href="http://code.google.com/p/google-code-prettify/">Google Code syntax highlighting</a>)</span> - [[Special:Formatting|completed]] in r4531
 # Update profile page
@@ -31,6 +30,8 @@ Some ideas that I'd like to implement for the new Jevon.org...
 # An "activity feed" displaying my activity around the Internet
 # Screenshots of all old Jevon.org websites and versions
 # Add a cron job to mirror all links (text-only) (just for me)
+# A SPAM detection framework, that allows for spammy phrases to be tagged, and perhaps a callback interface to permit asynchronous moderation
+# Allow deletion of old history entries (should not require any weird diff magic)
 
 ==Low Priority==
 # Rewrite/refactor the [[Journals]]
