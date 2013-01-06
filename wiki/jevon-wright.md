@@ -2,12 +2,12 @@
 layout: page
 title:  "Jevon Wright"
 author: jevon
-date:   2013-01-07 02:40:31 +1300
+date:   2013-01-07 02:41:57 +1300
 ---
 
 <img src="/img/jevon/graduation.jpg" width="166" height="219" alt="A Photo of Jevon Wright" align="right" style="border:1px solid #666;">Hey, that's me ^_^
 
-You can also see some [[Photos|photos of me]] and find out how to [[Contact|contact me]].
+You can also see some [[Photos|photography]] and find out how to [[Contact|contact me]].
 
 ==Vitals==
 '''Age:''' 27
