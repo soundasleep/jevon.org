@@ -2,7 +2,7 @@
 layout: page
 title:  "Articles/Using mod_rewrite With PHP"
 author: jevon
-date:   2007-09-14 12:36:00 +1200
+date:   2013-01-07 01:22:59 +1300
 ---
 
 [[Articles]]
@@ -22,4 +22,5 @@ RewriteRule ^wiki/([^.]*)$ /w/index.php?title=$1 [L,QSA]
 RewriteRule ^wiki/(.*)$ /w/$1 [L,QSA][/code]
 
 [[Category:Article]]
-[[Category:Protected]]
+[[Category:Apache]]
+[[Category:PHP]]
