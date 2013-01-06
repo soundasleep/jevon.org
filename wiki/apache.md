@@ -2,7 +2,7 @@
 layout: page
 title:  "Apache"
 author: jevon
-date:   2013-01-07 03:48:35 +1300
+date:   2013-01-07 03:48:48 +1300
 ---
 
 '''configuration error: couldn't check user. check your authn provider!''' with [[Subversion]]:
@@ -18,7 +18,7 @@ If your Apache log config (in `/etc/apache2/apache.conf`) defines a log format l
 
 Then you need to modify the awstats.domain.conf LogFormat and HostAliases:
 
-[code conf]LogFile="/var/log/apache2/other_vhosts_access.log
+[code conf]LogFile="/var/log/apache2/other_vhosts_access.log"
 LogFormat="%virtualname %host %other %logname %time1 %methodurl %code %bytesd %refererquote %uaquot"
 HostAliases="localhost 127.0.0.1 jevon.org:80"[/code]
 
