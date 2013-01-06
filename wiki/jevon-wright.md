@@ -2,7 +2,7 @@
 layout: page
 title:  "Jevon Wright"
 author: jevon
-date:   2013-01-07 02:42:57 +1300
+date:   2013-01-07 02:51:03 +1300
 ---
 
 <img src="/img/jevon/graduation.jpg" width="166" height="219" alt="A Photo of Jevon Wright" align="right" style="border:1px solid #666;">Hey, that's me ^_^
@@ -17,10 +17,10 @@ You can also see some [[Photos|photography]] and find out how to [[Contact|conta
 * '''Occupation:''' [[Research|Researcher]], [[Web Development|Software Engineer]], <a href="http://journals.jevon.org/users/soundasleep/">Rock Star</a>
 * '''Location:''' [[Wellington]], New Zealand at <a href="http://maps.google.com/maps?f=q&hl=en&geocode=&q=Wellington&sll=-41.293382,174.775679&sspn=0.088691,0.160675&ie=UTF8&t=k&z=13&iwloc=addr">174.78, -41.29</a>
 * '''Journal:''' [user=jevon]
-* *Last.fm:* {{lastfm}} <a href="http://www.last.fm/user/jdub_dub" title="My last.fm profile">jdub_dub</a>
-* *Twitter:* {{twitter}} <a href="http://twitter.com/soundasleep" title="My Twitter account">@soundasleep</a>
-* *LinkedIn:* {{linkedin}} <a href="http://www.linkedin.com/in/jevonwright" title="My LinkedIn profile">LinkedIn</a>
-* *Delicious:* {{delicious}} <a href="http://www.delicious.com/jevonwright/" title="My Delicious bookmarks">jevonwright</a>
+* *Last.fm:* <a href="http://www.last.fm/user/jdub_dub" title="My last.fm profile" class="lastfm">jdub_dub</a>
+* *Twitter:* <a href="http://twitter.com/soundasleep" title="My Twitter account" class="twitter">@soundasleep</a>
+* *LinkedIn:* <a href="http://www.linkedin.com/in/jevonwright" title="My LinkedIn profile" class="linkedin">LinkedIn</a>
+* *Delicious:* <a href="http://www.delicious.com/jevonwright/" title="My Delicious bookmarks" class="delicious">jevonwright</a>
 
 ==Favourites==
 
