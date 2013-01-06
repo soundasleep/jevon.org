@@ -2,7 +2,7 @@
 layout: page
 title:  "New Features for Jevon.org"
 author: jevon
-date:   2013-01-06 18:45:30 +1300
+date:   2013-01-06 19:47:15 +1300
 ---
 
 Some ideas that I'd like to implement for the new Jevon.org...
@@ -23,6 +23,7 @@ Some ideas that I'd like to implement for the new Jevon.org...
 # Automatically add links to RFC nnnn, ISO nnnn, DOI nnnn, ISBN
 
 ==Normal Priority==
+# <span class="done">Favicon</span> - done in r4551 (to the icon from [user=jevon])
 # Support Cron jobs, along with an interface to job status
 # An improved user interface/new design
 # Allow users to place comments on Wiki pages (with Captcha for spam, etc)
