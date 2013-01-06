@@ -2,33 +2,25 @@
 layout: page
 title:  "Articles"
 author: jevon
-date:   2012-12-08 19:14:04 +1300
+date:   2013-01-07 01:19:22 +1300
 ---
 
 Some random ramblings... under construction, and I'm always adding more.
-
-<div style="width:45%; float: left;">
-==Random Articles==
+<table class="articles-table"><tr><td class="left-bar"><h2 class="heading-random">Random Articles</h2>
+# [[Site Credits]]
 # [[Old Content]]
-# [[ICQ Contacts in XML]]
 # [[HTML Entities]]
-# [[Setting up the BPFTP FTP Server]]
 # [[Random Troubleshooting]]
-# [[Playing Deus Ex Music in Winamp]]
-# [[Making MSN 7 use Winamp for Now Playing]]
-# [[XMLSpy]]
-# [[Jevon Online Whatpulse Team]]
 # [[Changing your MSN Colour]]
 # [[Simple Right Click Convert WAV to MP3 in Windows]]
 # [[Converting MOV files to AVI files]]
-# [[MSN Emoticons]]
 # [[Changing Open Dialog Default Sort Order in Windows]]
-# [[SVN]]
+# [[Subversion]]
 # [[Slow Subversion Performance over HTTPS]]
 # [[Last.fm]]
 # [[Windows XP Automatically Logs Out]]
 
-==Hardware==
+<h2 class="heading-hardware">Hardware</h2>
 # [[Samsung ZV10]]
 # [[Installing Soundblaster Live! Drivers in Windows XP]]
 # [[Setting up a Networked Laserjet 4M Printer]]
@@ -38,17 +30,24 @@ Some random ramblings... under construction, and I'm always adding more.
 # [[Toshiba NB300]]
 # [[Galaxy S3]]
 
-==Games==
+<h2 class="heading-applications">Software</h2>
+# [[ICQ Contacts in XML]]
+# [[Setting up the BPFTP FTP Server]]
+# [[Playing Deus Ex Music in Winamp]]
+# [[Making MSN 7 use Winamp for Now Playing]]
+# [[MSN Emoticons]]
+# [[XMLSpy]]
+# [[Jevon Online Whatpulse Team]]
+
+<h2 class="heading-gaming">Gaming</h2>
 # [[Converting Webshots files to JPEGs]]
 # [[Rollercoaster Tycoon on Windows XP]]
 # [[Creating Realistic Simcity 4 Terrains]]
 # [[Simcity 4 Europa Terrain]]
 # [[Simcity 4 Music Track Names]]
 # [[Black Sun in Morrowind Steam]]
-</div>
 
-<div style="width:45%; float: left;">
-==Model-Driven Development Technologies==
+</td><td class="right-bar"><h2 class="heading-mdd">Model-Driven Development</h2>
 # [[EMF]]
 # [[GMF]]
 # [[JET]]
@@ -57,10 +56,8 @@ Some random ramblings... under construction, and I'm always adding more.
 # [[Eclipse]]
 # [[Ecore]]
 # more...
-</div>
 
-<div style="width:45%; float: left;">
-==Semantic Web Technologies==
+<h2 class="heading-semantic">Semantic Web</h2>
 # [[RDF]]
 # [[OWL]]
 # [[Jena]]
@@ -69,10 +66,8 @@ Some random ramblings... under construction, and I'm always adding more.
 # [[OpenID]]
 # [[Jess]]
 # more...
-</div>
 
-<div style="width:45%; float: left;">
-==Programming==
+<h2 class="heading-software">Software Development</h2>
 # [[Articles/Using mod_rewrite With PHP]]
 # [[Programming Snippets]]
 # [[Visual Basic Array Speeds]]
@@ -85,10 +80,6 @@ Some random ramblings... under construction, and I'm always adding more.
 # [[PHP]]
 # [[Symfony]]
 # [[Comparing Two SimpleXML Documents]]
-# [[Creating a new GMF Editor]]
-# [[GMF Diagram Partitioning]]
-# [[GMF Troubleshooting]]
-# [[GMF Code Samples]]
 # [[Log4J]]
 # [[JUnit]]
 # [[Maven]]
@@ -99,16 +90,19 @@ Some random ramblings... under construction, and I'm always adding more.
 # [[FTL]]
 # [[Android]]
 # [[JMonkeyEngine]]
-</div>
 
-<div style="width:45%; float: left;">
-==Fun Stuff==
+<h2 class="heading-gmf">Graphical Modelling</h2>
+# [[GMF]]
+# [[Creating a new GMF Editor]]
+# [[GMF Diagram Partitioning]]
+# [[GMF Troubleshooting]]
+# [[GMF Code Samples]]
+
+<h2 class="heading-fun">Fun Stuff</h2>
 # [[Booga's Musical Tastes]]
 # [[Recipes]]
 # [[Hub Quotes]]
 # [[Hub Actions]]
-</div>
-
-<div style="clear:both;"></div>
+</td></tr></table>
 
 [[Category:Article]]
