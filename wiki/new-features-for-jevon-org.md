@@ -2,7 +2,7 @@
 layout: page
 title:  "New Features for Jevon.org"
 author: jevon
-date:   2013-01-07 01:10:23 +1300
+date:   2013-01-07 01:14:34 +1300
 ---
 
 Some ideas that I'd like to implement for the new Jevon.org...
@@ -15,9 +15,9 @@ Some ideas that I'd like to implement for the new Jevon.org...
 # <span class="done">Wiki pages actually support versions and diff between them</span> - completed in r4546, see [[History:42]] or [[History:43]]
 # Revisit all links in the [[TODO]] category
 # <span class="done">Support syntax highlighting (see <a href="http://code.google.com/p/google-code-prettify/">Google Code syntax highlighting</a>)</span> - [[Special:Formatting|completed]] in r4531
-# Update profile page
-# Update research profile page
-# Add new photos
+# Update [[Jevon Wright|profile page]]
+# Update [[Research|research profile page]]
+# Add new [[Photos|photos]]
 # <span class="done">Use `_italic_` and `*bold*` Wiki syntax instead</span> - completed in r4520
 # <span class="done">Fix [[Special:Recent Changes]]</span> - completed in r4529
 # Automatically add links to RFC nnnn, ISO nnnn, DOI nnnn, ISBN
