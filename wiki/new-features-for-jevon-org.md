@@ -2,7 +2,7 @@
 layout: page
 title:  "New Features for Jevon.org"
 author: jevon
-date:   2013-01-06 19:47:15 +1300
+date:   2013-01-07 01:09:01 +1300
 ---
 
 Some ideas that I'd like to implement for the new Jevon.org...
@@ -25,11 +25,11 @@ Some ideas that I'd like to implement for the new Jevon.org...
 ==Normal Priority==
 # <span class="done">Favicon</span> - done in r4551 (to the icon from [user=jevon])
 # Support Cron jobs, along with an interface to job status
-# An improved user interface/new design
+# <span class="done">An improved user interface/new design</span> - done in r4558
 # Allow users to place comments on Wiki pages (with Captcha for spam, etc)
 # <span class="done">Allow `code` blocks to specify language</span> - [[Special:Formatting|completed]] in r4531 using `[code java]`
 # An "activity feed" displaying my activity around the Internet
-# Screenshots of all old Jevon.org websites and versions
+# Screenshots of all old Jevon.org websites and versions (started)
 # Add a cron job to mirror all links (text-only) (just for me)
 # A SPAM detection framework, that allows for spammy phrases to be tagged, and perhaps a callback interface to permit asynchronous moderation
 # Allow deletion of old history entries (should not require any weird diff magic)
