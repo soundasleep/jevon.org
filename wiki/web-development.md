@@ -2,7 +2,7 @@
 layout: page
 title:  "Web Development"
 author: jevon
-date:   2009-05-06 11:00:39 +1200
+date:   2013-01-07 01:27:52 +1300
 ---
 
 A partial list of the sites that [[Jevon Wright|I have worked on]]:
@@ -10,7 +10,7 @@ A partial list of the sites that [[Jevon Wright|I have worked on]]:
 # http://www.jevon.org
 # http://journals.jevon.org
 # http://openiaml.org ([[IAML]])
-# http://[[Gigs.jevon.org|gigs.jevon.org]] (now defunct)
+# http://[[Gigs.jevon.org]] (now defunct)
 # http://simplectest.sourceforge.net
 # http://tcosy.inspire.net.nz
 # http://www.mgham.co.nz
