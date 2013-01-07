@@ -2,7 +2,7 @@
 layout: page
 title:  "Linux"
 author: jevon
-date:   2013-01-07 20:50:39 +1300
+date:   2013-01-07 20:51:09 +1300
 ---
 
 [[Articles]]
@@ -86,7 +86,7 @@ If you are tailing a file and trying to execute multiple greps, you can't just c
 
 [code bash]tail -f /my/file.log | grep -v a | grep -v b | grep -v c[/code]
 
-You need to add the flag `--line-buffered" to each grep.
+You <a href="https://makandracards.com/makandra/5403-how-to-combine-greps-on-log-files-opened-with-tail-f">need to add</a> the flag `--line-buffered" to each grep.
 
 [code bash]tail -f /my/file.log | grep --line-buffered -v a | grep --line-buffered -v b | ...[/code]
 
