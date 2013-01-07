@@ -2,7 +2,7 @@
 layout: page
 title:  "SVN"
 author: jevon
-date:   2012-09-04 20:33:10 +1200
+date:   2013-01-07 20:53:32 +1300
 ---
 
 [[SVN]] is the acronym for [[Subversion]].
@@ -34,7 +34,7 @@ Note that this means that per-path authentication <a href="http://svnbook.red-be
 
 One possible symptom of this problem is that you can `svn update` individual directories fine, but trying to `svn update` a huge directory fails. Another solution may be to refactor your repository into smaller chunks, to prevent this memory/time/stability leak.
 
-=Alternately=
+===Alternately===
 You might have a file listed locally as added, but remotely not within the repository. Check your [[Apache]] `error.log` for messages like these:
 
 [code][error] [client 10.1.1.31] Provider encountered an error while streaming a REPORT response.  [404, #0]
