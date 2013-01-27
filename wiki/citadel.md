@@ -2,7 +2,7 @@
 layout: page
 title:  "Citadel"
 author: jevon
-date:   2013-01-27 20:56:14 +1300
+date:   2013-01-27 20:56:49 +1300
 ---
 
 [[Citadel]] is a mail server and groupware thing for [[Linux]]. It supports [[SMTP]], [[IMAP]], [[POP3]] and [[SSL]].
@@ -16,7 +16,7 @@ If your SSL certificate needs to be installed alongside a `SSLCertificateChainFi
 If you don't do this, you may get errors from [[Gmail]] saying <a href="http://productforums.google.com/d/topic/gmail/lE1ogJCo-o0/discussion">"SSL error: unable to verify the first certificate"</a> (<a href="http://productforums.google.com/d/topic/gmail/uPP9EsiY1rA/discussion">more discussion</a>).
 
 ==Cannot forward/receive abuse@domain emails==
-By default, Citadel defines five addresses which are given "aide" permissions, meaning that incoming messages will not be subject to the normal server-side email filters: `bbs`, `root`, `Auto`, `postmaster`, and `abuse`.
+By default, Citadel defines five addresses which are given "aide" permissions, meaning that incoming messages will not be subject to the normal server-side email filters: `bbs`, `root`, `Auto`, `postmaster`, and `abuse`. When replying within Webcit, the error message _Higher access is required to post in this room_ will also be displayed; otherwise, the e-mail message may simply bounce back with a similar error.
 
 <a href="http://uncensored.citadel.org/readfwd?go=Citadel%20Support?start_reading_at=3385800#3385800">These can be removed as special user accounts</a> by editing `/etc/citadel/mail.aliases`.
 
