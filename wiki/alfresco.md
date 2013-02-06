@@ -2,7 +2,7 @@
 layout: page
 title:  "Alfresco"
 author: jevon
-date:   2012-11-15 17:05:33 +1300
+date:   2013-02-06 19:22:04 +1300
 ---
 
 [[Alfresco]] is a content management system for [[Tomcat]] and written in [[Java]].
@@ -147,6 +147,17 @@ The problem is the "*" parameter for the site type filter. The correct way to se
 
 ==Type Error: items is undefined==
 If you receive this [[Javascript]] exception when running a Share client-side page, then the problem may be that you are trying to read an invalid [[JSON]] response. Check [[Firebug]] and  double check the syntax of the JSON the script is trying to process.
+
+==Secure FTP connection fails: bad record MAC==
+I was getting this error when trying to connect to an Alfresco Secure FTP server using FireFTP (using Auth TLS or Auth SSL). However using Filezilla (explicit secure FTP) worked fine. The error log that I was receiving:
+
+[code]
+220 FTP server ready
+       AUTH SSL
+234 Switching to SSL secure session
+       PBSZ 0
+502 Command not implemented
+[/code]
 
 [[Category:Alfresco]]
 [[Category:Java]]
