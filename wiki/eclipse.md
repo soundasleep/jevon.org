@@ -2,7 +2,7 @@
 layout: page
 title:  "Eclipse"
 author: jevon
-date:   2012-11-28 16:26:04 +1300
+date:   2013-02-11 18:34:12 +1300
 ---
 
 [[Articles]]
@@ -35,6 +35,7 @@ Also see:
 # [[No Classloader Found for Plug-in when running a JUnit Plugin Test]]
 # [[Only one of the following can be installed at once: Core Resource Management]]
 # [[Disabling DTD validation for Ant xmlvalidate task within Eclipse]]
+# <a href="http://www.ibm.com/developerworks/java/library/os-eclipse-javadebug/index.html">Debugging Java applications remotely with Eclipse</a>
 
 ==Null Argument with IWizardPage==
 If you get the following error while you are trying to implement '''IWizardPage'''/'''IWizard''', using the provided abstract classes '''WizardPage'''/'''Wizard''':
