@@ -2,7 +2,7 @@
 layout: page
 title:  "EMF"
 author: jevon
-date:   2011-05-17 12:39:27 +1200
+date:   2013-02-17 20:40:48 +1300
 ---
 
 [[EMF]] is the [[Eclipse]] Modelling Framework. It is based on the [[Ecore]] metamodelling language. Also have a look at [[GMF]] for the Graphical Modelling Framework. Also see [[openArchitectureWare]].
@@ -17,6 +17,7 @@ date:   2011-05-17 12:39:27 +1200
 # <a href="http://www.ibm.com/developerworks/library/os-eclipse-emfmetamodel/index.html">Extending Ecore to define a new M3</a>
 # [[Resolving Proxy EMF Elements]]
 # [[EMF Validation Framework]]
+# <a href="http://www.delicious.com/jevonwright/emf" class="delicious">Other pages tagged as "emf"</a>
 
 ==Upper Bound in EMF==
 To set the upper bound of an association to unbounded/unlimited, instead of using "*" or "many" or "n", use "-1". :roll:
