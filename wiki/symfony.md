@@ -2,12 +2,13 @@
 layout: page
 title:  "Symfony"
 author: jevon
-date:   2012-04-25 13:26:35 +1200
+date:   2013-02-17 20:41:46 +1300
 ---
 
-[[Symfony]] is a neat little application framework for [[PHP]]. More information: http://www.symfony-project.com/
+[[Symfony]] is a neat little web application framework for [[PHP]]. More information: http://www.symfony-project.com/
 
 # [[Symfony: csrf token: Required.]]
+# <a href="http://www.delicious.com/jevonwright/symfony" class="delicious">Other pages tagged as "symfony"</a>
 
 =Notice: Array to string conversion sfToolkit.class.php on line 329=
 
@@ -24,7 +25,7 @@ valid_name:
   param:
     match:       Yes
     match_error: The name has invalid characters or is too short/long.
-    pattern:     /^[a-z0-9\-]{2,63}$/im
+    pattern:     /^[a-z0-9-]{2,63}$/im
 
 valid_name_hyphen:
   class:       sfRegexValidator
