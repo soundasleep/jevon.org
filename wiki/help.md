@@ -2,7 +2,7 @@
 layout: page
 title:  "Help"
 author: jevon
-date:   2007-09-19 11:07:23 +1200
+date:   2013-02-17 20:43:35 +1300
 ---
 
 These pages can help you in your wiki quest. If you have any good ideas or suggestions, add them! :)
@@ -20,3 +20,4 @@ Also, you might be looking for [[Music:Journals Help]] or [[Music:Help|Help on t
 
 [[Category:Help]]
 [[Category:Todo]]
+[[Category:Meta]]
