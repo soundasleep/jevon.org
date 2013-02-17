@@ -2,7 +2,7 @@
 layout: page
 title:  "Symfony"
 author: jevon
-date:   2013-02-17 20:42:48 +1300
+date:   2013-02-17 20:44:47 +1300
 ---
 
 [[Symfony]] is a neat little web application framework for [[PHP]]. More information: http://www.symfony-project.com/
@@ -108,4 +108,4 @@ Remove the "`required: true`" declaration and this error message will not appear
 [[Category:Article]]
 [[Category:Language]]
 [[Category:Programming]]
-[[Category:Web]]
+[[Category:Web Development]]
