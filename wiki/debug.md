@@ -2,10 +2,14 @@
 layout: page
 title:  "Debug"
 author: jevon
-date:   2013-02-17 20:39:19 +1300
+date:   2013-02-17 20:39:46 +1300
 ---
 
 Did you mean:
 
 # <a href="http://www.delicious.com/redirect?url=http%3A//www.ibm.com/developerworks/opensource/library/os-eclipse-javadebug/index.html">Debug Java applications remotely with Eclipse</a>
-# <a href="http://www.delicious.com/jevonwright/debug">Other pages tagged as "debug"</a>
+# <a href="http://www.delicious.com/jevonwright/debug" class="delicious">Other pages tagged as "debug"</a>
+
+Also see [[Java]].
+
+[[Category:Java]]
