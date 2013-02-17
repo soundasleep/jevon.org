@@ -2,7 +2,7 @@
 layout: page
 title:  "Booga's Musical Tastes"
 author: jevon
-date:   2005-07-06 12:27:36 +1200
+date:   2013-02-17 20:38:26 +1300
 ---
 
 [[Articles]]
@@ -317,7 +317,7 @@ From a ''certain'' character on [[Direct Connect]] ;)...
 [2004-01-14 22:53] &lt;Lord_Booga&gt; /me is listening to: 281. [[Music:The Monkeys - I'm a Believer]]
 [2004-01-14 23:17] &lt;Lord_Booga&gt; /me is listening to: 66. [[Music:Classical - Tchaikovsky - Chinese Mushrooms]]
 [2004-01-14 23:19] &lt;Lord_Booga&gt; /me is listening to: 228. [[Music:Rammstein - Rammstein]]
-[2004-01-14 23:19] &lt;Lord_Booga&gt; /me is listening to: 310. [[Music:Unknown Artist - Pokèmon the Movie 2000]]
+[2004-01-14 23:19] &lt;Lord_Booga&gt; /me is listening to: 310. [[Music:Unknown Artist - Pok�mon the Movie 2000]]
 [2004-01-14 23:39] &lt;Lord_Booga&gt; /me is listening to: 53. [[Music:Classical - Beethoven - 5th Symphony 1st Movement]]
 [2004-01-15 00:14] &lt;Lord_Booga&gt; /me is listening to: 221. [[Music:Rammstein - Du Hast]]
 [2004-01-15 00:16] &lt;Lord_Booga&gt; /me is listening to: 191. [[Music:Outkast - Hey Ya]]
@@ -406,6 +406,5 @@ From a ''certain'' character on [[Direct Connect]] ;)...
 [2004-01-18 18:47] &lt;Lord_Booga&gt; /me is listening to: 316. [[Music:Unknown Artist - The Muppets Theme Song]]
 ''[2004-01-18 18:48] &lt;Lord_Booga&gt; You people have strange musical taste.''
 ''[2004-01-18 18:54] &lt;Lord_Booga&gt; /me is listening to: 198. [[Music:Pokemon - Do ya really wanna play?]]''
-----
+
 [[Category:Article]]
-[[Category:Todo]]
