@@ -2,7 +2,7 @@
 layout: page
 title:  "PHP"
 author: jevon
-date:   2012-01-12 07:22:52 +1300
+date:   2013-02-17 20:41:09 +1300
 ---
 
 [[Articles]]
@@ -13,6 +13,7 @@ date:   2012-01-12 07:22:52 +1300
 # [[Uploading via POST with PHP and CURL]]
 # [[Comparing Two SimpleXML Documents]]
 # [[Installing PHP 5.2 on CentOS]]
+# <a href="http://www.delicious.com/jevonwright/php" class="delicious">Other pages tagged as "php"</a>
 
 And here is some code that is completely disgusting:
 [code]return (isset($this->values[$name]) && $this->values[$name]) ? $this->values[$name] : ($default ? $default : 
