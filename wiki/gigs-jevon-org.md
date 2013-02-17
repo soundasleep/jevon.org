@@ -2,7 +2,7 @@
 layout: page
 title:  "Gigs.jevon.org"
 author: jevon
-date:   2008-02-11 12:45:46 +1300
+date:   2013-02-17 20:44:26 +1300
 ---
 
 The '''Gigs.jevon.org''' website was a site that automatically retrieved event listings from local <a href="http://www.myspace.com">MySpace</a> bands, integrated them with <a href="http://www.last.fm">last.fm data</a>, and sent out weekly e-mails about upcoming events in your area.
@@ -14,5 +14,5 @@ However, I've now stopped this site, for two main reasons:
 
 So there's no point in putting extra content into the Internet ;)
 
-[[Category:Todo]]
+[[Category:Removed Features]]
 [[Category:Web Development]]
