@@ -2,7 +2,7 @@
 layout: page
 title:  "Black Sun in Morrowind Steam"
 author: jevon
-date:   2010-01-10 17:21:45 +1300
+date:   2013-02-17 20:36:36 +1300
 ---
 
 [[Morrowind]] is a computer game. When I bought my copy off [[Steam]], I had "the issue" with the sun appearing black. After some time, this is what was finally necessary to run it in [[widescreen]] on [[Windows 7]], and without the black sun:
@@ -24,4 +24,4 @@ If MGEgui crashes with a .Net System.NullReferenceException, make sure that you 
 
 Finally, you can play Morrowind.
 
-[[Category:Todo]]
+[[Category:Games]]
