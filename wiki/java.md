@@ -2,7 +2,7 @@
 layout: page
 title:  "Java"
 author: jevon
-date:   2013-02-17 20:40:14 +1300
+date:   2013-02-17 20:40:29 +1300
 ---
 
 Is a programming language. See also [[Eclipse]], [[EMF]], [[JMonkeyEngine]].
@@ -18,7 +18,7 @@ Is a programming language. See also [[Eclipse]], [[EMF]], [[JMonkeyEngine]].
 # <a href="http://www.javaworld.com/javaworld/jw-12-2000/jw-1229-traps.html">When Process.waitFor() hangs forever</a>
 # [[Runtime.exec returns -1073741515 when providing environment variables]]
 # <a href="http://www.ibm.com/developerworks/java/library/os-eclipse-javadebug/index.html">Debugging Java applications remotely with Eclipse</a>
-# <a href="http://www.delicious.com/jevonwright/debug" class="java">Other pages tagged as "java"</a>
+# <a href="http://www.delicious.com/jevonwright/java" class="delicious">Other pages tagged as "java"</a>
 
 [code]private abstract static strictfp class X { public static final synchronized strictfp void x(Object[] e, List x) { 
 	for (int i = 0; i < e.length; i++) if (e[i] instanceof IType || (showMembers && e[i] instanceof IMember && 
