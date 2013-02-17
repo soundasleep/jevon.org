@@ -2,9 +2,9 @@
 layout: page
 title:  "Calendar"
 author: jevon
-date:   2005-07-06 08:59:59 +1200
+date:   2013-02-17 20:37:32 +1300
 ---
 
 The Jevon.org calendar has been discontinued. Please go back [[Home]].
-----
-[[Category:Todo]]
+
+[[Category:Removed Features]]
