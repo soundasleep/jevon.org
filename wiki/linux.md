@@ -2,7 +2,7 @@
 layout: page
 title:  "Linux"
 author: jevon
-date:   2013-01-07 20:51:09 +1300
+date:   2013-02-17 20:41:21 +1300
 ---
 
 [[Articles]]
@@ -10,6 +10,7 @@ date:   2013-01-07 20:51:09 +1300
 # [[A Crude Latex Diff Script in Linux]]
 # [[Installing PHP 5.2 on CentOS]]
 # [[Citadel]]
+# <a href="http://www.delicious.com/jevonwright/linux" class="delicious">Other pages tagged as "linux"</a>
 
 [code bash]ln -s <target> <source>     # create symbolic link
 echo $?                     # print last return value int
