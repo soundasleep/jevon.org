@@ -2,7 +2,7 @@
 layout: page
 title:  "Ant"
 author: jevon
-date:   2012-05-08 12:20:04 +1200
+date:   2013-02-17 20:36:19 +1300
 ---
 
 [[Ant]] allows for [[build]] scripts.
@@ -15,11 +15,9 @@ If you are trying to only execute an Ant task if a certain file exists, you can 
 
 Another similar task is checking whether a file exists, and failing if it does not:
 
-[code]<target name="...">
+[code xml]<target name="...">
   <available property="file.exists" file="my/file" />
   <fail unless="file.exists" message="The file my/file does not exist." />
 </target>[/code]
 
-{{tag-todo|clean up page, put down actual notes, link to iaml build.xml, perhaps stick into JUnit or Eclipse page too}}
-[[Category:Todo]]
 [[Category:Technology]]
