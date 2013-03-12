@@ -2,7 +2,7 @@
 layout: page
 title:  "Linux"
 author: jevon
-date:   2013-02-17 20:41:21 +1300
+date:   2013-03-12 16:59:24 +1300
 ---
 
 [[Articles]]
@@ -90,6 +90,22 @@ If you are tailing a file and trying to execute multiple greps, you can't just c
 You <a href="https://makandracards.com/makandra/5403-how-to-combine-greps-on-log-files-opened-with-tail-f">need to add</a> the flag `--line-buffered" to each grep.
 
 [code bash]tail -f /my/file.log | grep --line-buffered -v a | grep --line-buffered -v b | ...[/code]
+
+==spamd: still running as root, safe_lock: cannot create tmp lockfile /nonexistent/.spamassassin==
+If you have <a href="http://library.linode.com/email/citadel/ubuntu-10.04-lucid#sph_enabling-spamassassin-filtering">configured your site to use Spamassassain</a>, and your `/var/log/mail.log` includes messages such as:
+
+[code]
+spamd: still running as root: user not specified with -u, not found, or set to root, falling back to nobody
+plugin: eval failed: bayes: (in learn) locker: safe_lock: cannot create tmp lockfile /nonexistent/.spamassassin/bayes.lock.my.domain.6304 for /nonexistent/.spamassassin/bayes.lock: No such file or directory
+[/code]
+
+This is because [[spamassassin]] is not being run as a particular user, or is being run as root. According to `/usr/share/doc/spamassassin/README.spamd` this is technically OK, but it's easier just to create a new user for spamd to run as. Create a new user with `adduser --system`, and then modify `/etc/default/spamassassin` (<a href="http://superuser.com/questions/354944/what-is-the-purpose-of-etc-default">designed to be edited</a> on [[Ubuntu]]):
+
+[code]
+OPTIONS="--create-prefs --max-children 5 --helper-home-dir -u spamd"
+[/code]
+
+(<a href="http://www.webhostingtalk.com/showthread.php?t=879143">Reference</a>)
 
 [[Category:Article]]
 [[Category:Linux]]
