@@ -2,7 +2,7 @@
 layout: page
 title:  "Litecoin"
 author: jevon
-date:   2013-04-03 18:18:51 +1300
+date:   2013-04-03 18:19:13 +1300
 ---
 
 ==Configuring Abe to work with Litecoin using [[MySQL]]==
@@ -20,6 +20,7 @@ connect-args {"user":"abe","db":"abe","passwd":"password"}
 port 12345
 host localhost
 [/code]
+
 # Add in the following to `abe.conf`, to prevent `Chain not found for magic number`:
 [code]
 datadir += [{
@@ -30,6 +31,7 @@ datadir += [{
   "magic": "u00fbu00c0u00b6u00db"
 }]
 [/code]
+
 # Build and install Abe: `python setup.py build`, `python setup.py install`
 # Configure Abe to start by scanning: `python -m Abe.abe --config abe.conf --rescan`. You should get a whole lot of `block_tx xxx xxx` and `commit`s.
 # You should now be able to connect to Abe via http://localhost:12345.
