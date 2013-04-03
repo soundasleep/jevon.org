@@ -2,7 +2,7 @@
 layout: page
 title:  "Litecoin"
 author: jevon
-date:   2013-04-03 18:19:13 +1300
+date:   2013-04-03 18:19:48 +1300
 ---
 
 ==Configuring Abe to work with Litecoin using [[MySQL]]==
@@ -37,3 +37,6 @@ datadir += [{
 # You should now be able to connect to Abe via http://localhost:12345.
 
 References: <a href="https://bitcointalk.org/index.php?topic=131781.0">Configuring Abe with Terracoin</a>, <a href="http://pastebin.com/tyf2xN9t">this magic file</a>
+
+[[Category:Python]]
+[[Category:Cryptocurrencies]]
