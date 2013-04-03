@@ -2,7 +2,7 @@
 layout: page
 title:  "Litecoin"
 author: jevon
-date:   2013-04-03 18:19:48 +1300
+date:   2013-04-03 18:20:08 +1300
 ---
 
 ==Configuring Abe to work with Litecoin using [[MySQL]]==
