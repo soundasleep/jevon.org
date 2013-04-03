@@ -2,7 +2,7 @@
 layout: page
 title:  "Litecoin"
 author: jevon
-date:   2013-04-03 18:20:08 +1300
+date:   2013-04-03 18:20:21 +1300
 ---
 
 ==Configuring Abe to work with Litecoin using [[MySQL]]==
@@ -27,8 +27,8 @@ datadir += [{
   "dirname" : "/path/to/.litecoin",
   "chain": "Litecoin",
   "code3": "LTC",
-  "address_version": "u0030",
-  "magic": "u00fbu00c0u00b6u00db"
+  "address_version": "\u0030",
+  "magic": "\u00fb\u00c0\u00b6\u00db"
 }]
 [/code]
 
