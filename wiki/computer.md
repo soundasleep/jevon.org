@@ -2,7 +2,7 @@
 layout: page
 title:  "Computer"
 author: jevon
-date:   2013-04-07 20:50:28 +1200
+date:   2013-04-09 23:01:18 +1200
 ---
 
 [[Jevon Wright|About me]]
@@ -14,7 +14,7 @@ Over time, I will try and fill the details of my current machine on this page.
 # '''Antec Three Hundred (Black) Mid-Tower Case''' from <a href="http://www.pp.co.nz/products.php?pp_id=AA06578">Paradigm PCs</a>
 # '''Antec EarthWatts EA-750 Green 750W ATX Power Supply Unit''' from <a href="http://www.pp.co.nz/products.php?pp_id=AA31697">Paradigm PCs</a>
 # '''Asus P8Z77-V Socket LGA1155 Motherboard''' from <a href="http://www.pp.co.nz/products.php?pp_id=AA36301">Paradigm PCs</a>
-# '''Sapphire ATI Radeon HD7850 OC 2GB PCI-Express Video Card''' from <a href="http://www.pp.co.nz/products.php?pp_id=AA39474">Paradigm PCs</a>
+# '''Sapphire VAPOR-X HD 7950 OC with Boost Video Card''' from <a href="http://www.pp.co.nz/products.php?pp_id=AA39957">Paradigm PCs</a>
 # '''Intel Core i7 3770 3.4GHz 8MB Cache LGA 1155 77W Quad-Core Hyperthreading Processor''' from <a href="http://www.playtech.co.nz/afa.asp?idWebPage=39235&CATID=17&ID=17394&SID=712334944">Playtech</a>
 
 ==Machine 2==
