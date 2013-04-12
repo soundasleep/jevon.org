@@ -2,7 +2,7 @@
 layout: page
 title:  "Windows"
 author: jevon
-date:   2013-04-12 22:44:54 +1200
+date:   2013-04-12 22:48:49 +1200
 ---
 
 ==Failed to format the selected partition 0x8004242d==
@@ -28,7 +28,7 @@ cd /windows/panther
 tracerpt setup.etl -o logfile.csv -of CSV
 [/code]
 
-Another option is to install Windows 7 <a href="http://social.technet.microsoft.com/Forums/en-US/w7itproinstall/thread/67b56539-d7e6-4642-890c-d4600ba7f6a1/">in legacy mode</a> instead of UEFI mode. I've never had a single problem installing Windows in legacy/BIOS mode.
+Another option is to install Windows 7 <a href="http://social.technet.microsoft.com/Forums/en-US/w7itproinstall/thread/67b56539-d7e6-4642-890c-d4600ba7f6a1/">in legacy mode</a> instead of UEFI mode. I've never had a single problem installing Windows in legacy/BIOS mode. There are some <a href="http://superuser.com/questions/429003/sysprepped-image-will-not-complete-setup">other steps that didn't help me</a>.
 
 But if you are post-SP1, there are significantly fewer options. The answer that worked for me <a href="http://answers.microsoft.com/en-us/windows/forum/windows_7-windows_install/windows-could-not-complete-the-installation-to/bf09c3c5-298b-459f-aed5-4f431b8398f5">was posted by MarkBeacom</a>:
 
