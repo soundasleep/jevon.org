@@ -2,7 +2,7 @@
 layout: page
 title:  "Windows"
 author: jevon
-date:   2013-04-12 22:41:17 +1200
+date:   2013-04-12 22:44:54 +1200
 ---
 
 ==Failed to format the selected partition 0x8004242d==
@@ -15,10 +15,18 @@ To fix this error, instead of trying to "format" the partition, I just deleted i
 This took me two hours to debug and finally resolve. This error can mean almost anything. There are some important tools that will help you solve this error:
 
 * Shift-F10 - opens up a command prompt
-* C:windowspanther - contains setup logs
+* C:/windows/panther - contains setup logs
 * mmc - opens up the management console, you can then add Computer Management (etc) snap-ins
+* findstr - <a href="http://superuser.com/questions/300815/command-prompt-msdos-windows-7-grep-equivalent">a grep-ish string finder</a>, so you can `type file | findstr /r /c:"string" /i`
 
 If you are installing Windows pre-SP1, the most common answer on the Internet is that a registry entry over 8KB is trying to be installed. There is a <a href="http://support.microsoft.com/kb/981542">hotfix available</a>, which you can install by copying onto a USB stick and accessing it via command line. Make sure you get the correct (x86 or x64) fix.
+
+You can also use `tracerpt` to translate the setup log (binary) <a href="http://theblownlightbulb.com/2011/01/03/fix-windows-could-not-finish-configuring-the-system-oobe-error-message/">into a human-readable format</a>, you can do this all within the command prompt. This can help you find invalid/bad registry keys that you can delete with `REG DELETE <key>`:
+
+[code]
+cd /windows/panther
+tracerpt setup.etl -o logfile.csv -of CSV
+[/code]
 
 Another option is to install Windows 7 <a href="http://social.technet.microsoft.com/Forums/en-US/w7itproinstall/thread/67b56539-d7e6-4642-890c-d4600ba7f6a1/">in legacy mode</a> instead of UEFI mode. I've never had a single problem installing Windows in legacy/BIOS mode.
 
@@ -38,7 +46,7 @@ Now, restart.  Should be good to go.
  
 If this doesn't work try next step:
 SHIFT-F10 to bring up command prompt.
-type:  CD C:windowssystem32oobe
+type:  CD C:/windows/system32/oobe
 type msoobe
 enter
 Make a generic account and password.  hit finish (if it requests a product key and you have one, enter it now.  if OEM/No key required, just finish).  Set time/date.  Finish.
