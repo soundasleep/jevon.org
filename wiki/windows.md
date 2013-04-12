@@ -2,7 +2,7 @@
 layout: page
 title:  "Windows"
 author: jevon
-date:   2013-04-12 22:48:49 +1200
+date:   2013-04-12 22:49:37 +1200
 ---
 
 ==Failed to format the selected partition 0x8004242d==
@@ -19,7 +19,7 @@ This took me two hours to debug and finally resolve. This error can mean almost 
 * mmc - opens up the management console, you can then add Computer Management (etc) snap-ins
 * findstr - <a href="http://superuser.com/questions/300815/command-prompt-msdos-windows-7-grep-equivalent">a grep-ish string finder</a>, so you can `type file | findstr /r /c:"string" /i`
 
-If you are installing Windows pre-SP1, the most common answer on the Internet is that a registry entry over 8KB is trying to be installed. There is a <a href="http://support.microsoft.com/kb/981542">hotfix available</a>, which you can install by copying onto a USB stick and accessing it via command line. Make sure you get the correct (x86 or x64) fix.
+If you are installing Windows pre-SP1, the most common answer on the Internet is that a registry entry over 8KB is trying to be installed. There is a <a href="http://support.microsoft.com/kb/981542">hotfix available</a>, which you can install by copying onto a USB stick and accessing it via command line. Make sure you get the correct (x86 or x64) fix, x64 is hidden away on the captcha'd page. If you try to install over SP1 you will get "This update is not applicable for your computer."
 
 You can also use `tracerpt` to translate the setup log (binary) <a href="http://theblownlightbulb.com/2011/01/03/fix-windows-could-not-finish-configuring-the-system-oobe-error-message/">into a human-readable format</a>, you can do this all within the command prompt. This can help you find invalid/bad registry keys that you can delete with `REG DELETE <key>`:
 
