@@ -2,7 +2,7 @@
 layout: page
 title:  "Windows"
 author: jevon
-date:   2013-04-12 22:49:37 +1200
+date:   2013-04-12 22:51:15 +1200
 ---
 
 ==Failed to format the selected partition 0x8004242d==
@@ -67,6 +67,7 @@ My next three options after this were to:
 * Try to Repair Install using the same install media (not confident this would have worked)
 * Use a different install media (e.g. Windows 7 without SP1) to reinstall
 * Re-slipstream the ISO image and add all of the device drivers specific to my new hardware (I would have had to learn how to slipstream drivers into an ISO), rewrite the ISO to USB and then reinstall - to verify that it wasn't a driver issue
+* Install Linux instead.
 
 A lot of the other solutions required access to another existing Windows 7 machine, which I did not have.
 
