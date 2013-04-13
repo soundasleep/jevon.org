@@ -2,7 +2,7 @@
 layout: page
 title:  "Computer"
 author: jevon
-date:   2013-04-09 23:01:18 +1200
+date:   2013-04-13 22:07:39 +1200
 ---
 
 [[Jevon Wright|About me]]
@@ -16,28 +16,26 @@ Over time, I will try and fill the details of my current machine on this page.
 # '''Asus P8Z77-V Socket LGA1155 Motherboard''' from <a href="http://www.pp.co.nz/products.php?pp_id=AA36301">Paradigm PCs</a>
 # '''Sapphire VAPOR-X HD 7950 OC with Boost Video Card''' from <a href="http://www.pp.co.nz/products.php?pp_id=AA39957">Paradigm PCs</a>
 # '''Intel Core i7 3770 3.4GHz 8MB Cache LGA 1155 77W Quad-Core Hyperthreading Processor''' from <a href="http://www.playtech.co.nz/afa.asp?idWebPage=39235&CATID=17&ID=17394&SID=712334944">Playtech</a>
+# 2x '''Samsung S22A450BW Black 22" 5ms 1680 x 1050 DVI/VGA LED Monitor Business Grade Tilt/Pivot stand - MTR466''' from Playtech
+# '''Samsung 1.5TB Spinpoint F2 EcoGreen SATA 3.5' Hard Drive''' from XP Computer
+# '''Kingston 4GB 1333MHz DDR3 Non-ECC CL9 DIMM (Kit of 2) Single Rank''' from <a href="http://www.itexpress.co.nz/epages/shop.sf/?ObjectPath=/Shops/itexpress/Products/57947">itexpress</a>
+# '''Kingston 8GB 1600MHz DDR3 Non-ECC DIMM (K2)''' from <a href="http://www.alphacity.co.nz/index.php?main_page=product_info&cPath=117_312_120&products_id=101620">AlphaCity</a>
+# '''ADATA SP900 256GB SATA3 SSD 2.5''' (SSD hard drive) from <a href="http://www.alphacity.co.nz/index.php?main_page=product_info&cPath=39_46&products_id=104151">AlphaCity</a>
+# Other less interesting parts
 
 ==Machine 2==
 
 # '''Antec EARTHWATTS 650W Continue True Power''' from <a href="http://www.2moroit.co.nz/product-antec_earthwatts_650w_continue_true_power-11848">2moro & IT</a>
-# 2x '''Samsung S22A450BW Black 22" 5ms 1680 x 1050 DVI/VGA LED Monitor Business Grade Tilt/Pivot stand - MTR466''' from Playtech
 # '''Intel Core 2 Quad Q9400 2.66Ghz LGA775 6M FSB1333 Retail''' from XP Computer
-# '''Samsung 1.5TB Spinpoint F2 EcoGreen SATA 3.5' Hard Drive''' from XP Computer
 # 2x '''Apacer 2GB DDR3-1333mhz cl9 (128x8) retail pack w/ lifetime warranty''' from UEC
 # '''Intel DP45SG Intel P45 Socket T (LGA775) ATX Motherboard''' from Paradigm PCs
 # '''Sapphire Radeon HD7850 OC HDMI Dual-DisplayPort 2GB''' from <a href="http://www.pcforce.co.nz/index.php?main_page=product_info&cPath=26&products_id=2095">PCForce</a>
-# '''ADATA SP900 256GB SATA3 SSD 2.5''' (SSD hard drive) from <a href="http://www.alphacity.co.nz/index.php?main_page=product_info&cPath=39_46&products_id=104151">AlphaCity</a>
 # '''Samsung Galaxy S3 i9300 Black 1.4GHz Quad Core 1GB RAM 16GB''' from <a href="http://www.playtech.co.nz/afawcs0139235/CATID=548/ID=19016/SID=438565600/productdetails.html">Playtech</a>
-# ''(more details to come...)''
+# Other less interesting parts
 
 Things that have failed:
 
 # '''Sapphire ATI Radeon HD4870 1GB PCI-Express Video Card Dual DVI''' from Paradigm PCs
-
-Still need to be integrated:
-
-# '''Kingston 4GB 1333MHz DDR3 Non-ECC CL9 DIMM (Kit of 2) Single Rank''' from <a href="http://www.itexpress.co.nz/epages/shop.sf/?ObjectPath=/Shops/itexpress/Products/57947">itexpress</a>
-# '''Kingston 8GB 1600MHz DDR3 Non-ECC DIMM (K2)''' from <a href="http://www.alphacity.co.nz/index.php?main_page=product_info&cPath=117_312_120&products_id=101620">AlphaCity</a>
 
 The last time I updated this page, my computer was of the following components:
 
