@@ -2,7 +2,7 @@
 layout: page
 title:  "Textpad"
 author: jevon
-date:   2013-04-23 02:34:19 +1200
+date:   2013-04-23 02:53:41 +1200
 ---
 
 [[Textpad]] is a very slim and efficient text editor for [[Windows]].
@@ -10,7 +10,7 @@ date:   2013-04-23 02:34:19 +1200
 My default file name filter:
 
 [code]
-*.txt; *.cpp; *.c; *.htm*; *.java; *.properties; *.xml; *.css; *.js; *.php
+*.txt; *.cpp; *.c; *.htm*; *.java; *.properties; *.xml; *.css; *.js; *.php; *.conf
 [/code]
 
 [[Category:Software]]
