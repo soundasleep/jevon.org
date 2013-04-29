@@ -2,10 +2,13 @@
 layout: page
 title:  "Citadel"
 author: jevon
-date:   2013-01-27 20:56:49 +1300
+date:   2013-04-30 03:21:15 +1200
 ---
 
 [[Citadel]] is a mail server and groupware thing for [[Linux]]. It supports [[SMTP]], [[IMAP]], [[POP3]] and [[SSL]].
+
+==Citadel removes "From" name or replaces it with username==
+While apparently you can fix this by correctly specifying the users' address book entry, this didn't fix it for me at all. Just turn off <a href="http://www.citadel.org/doku.php/faq:everydayuse:citadel_sends_my_mail_out_with_a_different_from_than_i_specified_in_my_email_client">"Correct forged From: lines during authenticated SMTP"</a>. Perhaps if you were less braindead, Citadel, this feature would actually be useful.
 
 ==Installing a custom SSL==
 The <a href="http://www.citadel.org/doku.php/faq:systemadmin:how_to_install_a_certificate_signed_by_a_recognized_certificate_authority">instructions on the Citadel site</a> are pretty close, but if you already have the [[SSL]] certificate that you want to install - replace `/etc/ssl/citadel/citadel.*` with your new certificates and keys (make sure the certificate is .cer, not .crt).
