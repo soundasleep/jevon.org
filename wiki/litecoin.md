@@ -2,7 +2,7 @@
 layout: page
 title:  "Litecoin"
 author: jevon
-date:   2013-05-27 05:50:42 +1200
+date:   2013-05-27 05:50:59 +1200
 ---
 
 ==Configuring Abe to work with Litecoin using [[MySQL]]==
@@ -74,6 +74,7 @@ And these scripts are owned by root so they can be started as root in /etc/rc.lo
 
 [code]
 chown root:root mine.sh mine-launcher.sh
+chmod a+x mine.sh mine-launcher.sh
 [/code]
 
 [[Category:Python]]
