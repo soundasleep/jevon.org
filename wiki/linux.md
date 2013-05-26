@@ -2,7 +2,7 @@
 layout: page
 title:  "Linux"
 author: jevon
-date:   2013-03-12 16:59:24 +1300
+date:   2013-05-27 01:13:08 +1200
 ---
 
 [[Articles]]
@@ -10,6 +10,8 @@ date:   2013-03-12 16:59:24 +1300
 # [[A Crude Latex Diff Script in Linux]]
 # [[Installing PHP 5.2 on CentOS]]
 # [[Citadel]]
+# [[Ubuntu]]
+# [[UEFI]]
 # <a href="http://www.delicious.com/jevonwright/linux" class="delicious">Other pages tagged as "linux"</a>
 
 [code bash]ln -s <target> <source>     # create symbolic link
