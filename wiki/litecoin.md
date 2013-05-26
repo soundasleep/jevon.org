@@ -2,7 +2,7 @@
 layout: page
 title:  "Litecoin"
 author: jevon
-date:   2013-05-27 05:41:03 +1200
+date:   2013-05-27 05:50:42 +1200
 ---
 
 ==Configuring Abe to work with Litecoin using [[MySQL]]==
@@ -40,7 +40,7 @@ References: <a href="https://bitcointalk.org/index.php?topic=131781.0">Configuri
 
 ==Setting up Litecoin mining on Ubuntu 12.04.2 LTS==
 
-* I followed <a href="http://www.reddit.com/r/litecoinmining/comments/1c4n7i/guide_getting_started_with_n_x_radeon_7950_on/">this guide mainly</a>, with some help from <a href="http://www.reddit.com/r/litecoinmining/comments/1c4n7i/guide_getting_started_with_n_x_radeon_7950_on/ca6t3hb">my comment</a> and <a href="http://www.cryptobadger.com/2013/04/build-a-litecoin-mining-rig-linux/">this guide</a>.
+* I followed <a href="http://www.reddit.com/r/litecoinmining/comments/1c4n7i/guide_getting_started_with_n_x_radeon_7950_on/">this guide mainly</a>, with some help from <a href="http://www.reddit.com/r/litecoinmining/comments/1c4n7i/guide_getting_started_with_n_x_radeon_7950_on/ca6t3hb">my comment</a> and <a href="http://www.cryptobadger.com/2013/04/build-a-litecoin-mining-rig-linux/">this guide</a> and <a href="https://docs.google.com/document/d/1Gw7YPYgMgNNU42skibULbJJUx_suP_CpjSEdSi8_z9U/preview?sle=true#">this guide</a>.
 * I had to install the [[Linux]] beta drivers (13.3 Beta 3) from ATI to get things to work.
 * If you installed the server package, you need to have an X server. The easiest way to set this up is to install a desktop manager (Gnome) along with <a href="https://help.ubuntu.com/community/ServerGUI#X11_Server_Installation">a minimal X</a>: `sudo apt-get install xorg gdm`
 * After installing new drivers, execute `sudo aticonfig --adapter=all --initial -f` and restart.
@@ -70,11 +70,10 @@ sleep $DELAY
 sudo su -c "screen -dmS cgm /home/<username>/mine.sh"
 [/code]
 
-And these scripts have the setuid bit enabled (not very secure at all, perhaps I can improve it one day):
+And these scripts are owned by root so they can be started as root in /etc/rc.local:
 
 [code]
 chown root:root mine.sh mine-launcher.sh
-chown u+s mine.sh mine-launcher.sh
 [/code]
 
 [[Category:Python]]
