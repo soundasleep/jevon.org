@@ -2,7 +2,7 @@
 layout: page
 title:  "Linux"
 author: jevon
-date:   2013-05-27 01:13:08 +1200
+date:   2013-05-27 02:06:37 +1200
 ---
 
 [[Articles]]
@@ -108,6 +108,15 @@ OPTIONS="--create-prefs --max-children 5 --helper-home-dir -u spamd"
 [/code]
 
 (<a href="http://www.webhostingtalk.com/showthread.php?t=879143">Reference</a>)
+
+==Installing an X server to startup at boot==
+I tried installing a basic X server (called a "client") using `sudo apt-get install xauth` and `sudo apt-get install xorg` (<a href="https://help.ubuntu.com/community/ServerGUI">as recommended by Ubuntu</a>). However I couldn't get the X server to start at boot. I even tried creating a file `/etc/init.d/xserver` with the single command `exec startx`, but this didn't do anything unless I executed the script as a user (no, I don't know enough about `init.d` yet).
+
+The solution was to install a display manager such as Gnome's. `sudo apt-get install gdm` followed by a `sudo shutdown -r now`, and now an X server was running at startup so I can do things like this:
+
+[code]
+DISPLAY=:0 sudo aticonfig --adapter=all --odgt
+[/code]
 
 [[Category:Article]]
 [[Category:Linux]]
