@@ -2,7 +2,7 @@
 layout: page
 title:  "UEFI"
 author: jevon
-date:   2013-05-27 01:12:57 +1200
+date:   2013-05-27 01:14:22 +1200
 ---
 
 ==My experiences with Ubuntu 12.04 LTS and UEFI==
@@ -13,9 +13,9 @@ It still wouldn't setup correctly. This took about two hours because my USB disk
 
 *Installing Ubuntu 12.04.1 via UEFI:* worked straight away (maybe a USB disk error? but the USB disk is brand new).
 
-However I couldn't at all get the machine to boot straight into Ubuntu after install. The machine would get stuck on "Windows Boot Manager: The boot selection failed because a required device is inaccessible". Of course it was inaccessible - I reformatted the disk to install [[Linux]].
+However I couldn't at all get the machine to boot straight into Ubuntu after install. The machine would get stuck on "Windows Boot Manager: The boot selection failed because a required device is inaccessible". Of course it was inaccessible - I reformatted the disk to install [[Linux]]. Pressing F10 to manually select _ubuntu_ as the boot disk would work fine, but I had no way to set this UEFI boot disk as default.
 
-I did almost everything I could think of: update the [[Grub]] entries (but the problem occurs before Grub is even loaded), removed the boot entries using efibootmgr, even manually removing files from `/mnt/boot/efi/EFI/Microsoft` (which just broke it further). It seemed like there was a boot entry that couldn't be removed or reset by the BIOS (reset to defaults did nothing), and asserted that a [[Windows]] would _always_ exist.
+I did almost everything I could think of: update the [[Grub]] entries (but the problem occurs before Grub is even loaded), removed the boot entries using `efibootmgr`, made sure that the boot order was correct in `efibootmgr`, even manually removing files from `/mnt/boot/efi/EFI/Microsoft` (which just broke it further). It seemed like there was a boot entry that couldn't be removed or reset by the BIOS (reset to defaults did nothing), and asserted that a [[Windows]] would _always_ exist.
 
 <a href="http://sourceforge.net/p/boot-repair/home/Home/">Boot-repair</a> was often recommended, but this requires a GUI (i.e. X11) to run.
 
