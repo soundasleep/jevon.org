@@ -2,7 +2,7 @@
 layout: page
 title:  "genderqueer-heading"
 author: jevon
-date:   2013-06-08 05:58:27 +1200
+date:   2013-06-08 05:59:40 +1200
 ---
 
 <span class="genderqueer">
@@ -15,4 +15,4 @@ date:   2013-06-08 05:58:27 +1200
 * [[Genderqueer/Resources]]
 * [[Genderqueer/Feminism]]
 * [[Genderqueer/Being an Ally]]
-</span>
+</span><style>.genderqueer ul, .genderqueer li { list-style: none; display: inline-block; padding: 0; margin: 0; }</style>[[Category:Template]]
