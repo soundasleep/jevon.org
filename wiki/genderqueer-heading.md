@@ -2,11 +2,10 @@
 layout: page
 title:  "genderqueer-heading"
 author: jevon
-date:   2013-06-08 06:08:59 +1200
+date:   2013-06-08 06:09:19 +1200
 ---
 
-<span class="genderqueer">
-*[[Genderqueer]]:*
+<span class="genderqueer">*[[Genderqueer]]:*
 * [[Genderqueer/What is?]]
 * [[Genderqueer/Am I?]]
 * [[Genderqueer/Transition]]
