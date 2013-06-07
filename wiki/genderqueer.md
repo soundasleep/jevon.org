@@ -2,11 +2,10 @@
 layout: page
 title:  "Genderqueer"
 author: jevon
-date:   2013-06-08 05:58:01 +1200
+date:   2013-06-08 06:18:19 +1200
 ---
 
 {{genderqueer-heading}}
-
 *NOTE:* Contents currently under construction (and may be deleted at any time).
 
 * [[Genderqueer/What is?]]
