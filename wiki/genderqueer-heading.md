@@ -2,7 +2,7 @@
 layout: page
 title:  "genderqueer-heading"
 author: jevon
-date:   2013-06-08 06:11:45 +1200
+date:   2013-06-08 06:11:53 +1200
 ---
 
 <div class="genderqueer">*[[Genderqueer]]:*
@@ -15,4 +15,4 @@ date:   2013-06-08 06:11:45 +1200
 * [[Genderqueer/Resources|Resources]]
 * [[Genderqueer/Feminism|Feminism]]
 * [[Genderqueer/Being an Ally|Being an Ally]]
-</div><style>.genderqueer { display: block; border: 1px solid #63c; background: #dbf; margin: 5px auto; padding: 10px; width: 70%; text-align: center; font-size: 120%; } .genderqueer ul { display: inline; list-style: none; margin: 0; padding: 0; white-space: nowrap; } .genderqueer li { display: inline-block; margin: 0; padding: 0; white-space: nowrap; } .genderqueer a { color: #309; text-decoration: none; } .genderqueer a:hover { color: #206; text-decoration: underline; } .genderqueer li+li:before { content: '-'; padding-left: 5px; padding-right: 8px; } .genderqueer b { padding-right: 5px; } </style>[[Category:Template]]
+</div><style>.genderqueer { display: block; border: 1px solid #63c; background: #dbf; margin: 5px auto; padding: 10px; width: 90%; text-align: center; font-size: 120%; } .genderqueer ul { display: inline; list-style: none; margin: 0; padding: 0; white-space: nowrap; } .genderqueer li { display: inline-block; margin: 0; padding: 0; white-space: nowrap; } .genderqueer a { color: #309; text-decoration: none; } .genderqueer a:hover { color: #206; text-decoration: underline; } .genderqueer li+li:before { content: '-'; padding-left: 5px; padding-right: 8px; } .genderqueer b { padding-right: 5px; } </style>[[Category:Template]]
