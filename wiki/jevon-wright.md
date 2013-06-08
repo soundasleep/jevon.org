@@ -2,7 +2,7 @@
 layout: page
 title:  "Jevon Wright"
 author: jevon
-date:   2013-01-07 02:53:21 +1300
+date:   2013-06-09 06:15:34 +1200
 ---
 
 <img src="/img/jevon/graduation.jpg" width="166" height="219" alt="A Photo of Jevon Wright" align="right" style="border:1px solid #666;">Hey, that's me ^_^
@@ -11,7 +11,7 @@ You can also see some [[Photos|photography]].
 
 ==Vitals==
 
-* '''Age:''' 27
+* '''Age:''' 28
 * '''Star Sign:''' Gemini
 * '''E-mail:''' jevon@jevon.org
 * *<a href="http://talk.google.com">Google Talk</a>*: soundasleep@gmail.com
