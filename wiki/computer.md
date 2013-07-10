@@ -2,7 +2,7 @@
 layout: page
 title:  "Computer"
 author: jevon
-date:   2013-04-13 22:07:39 +1200
+date:   2013-07-10 14:55:18 +1200
 ---
 
 [[Jevon Wright|About me]]
@@ -14,7 +14,7 @@ Over time, I will try and fill the details of my current machine on this page.
 # '''Antec Three Hundred (Black) Mid-Tower Case''' from <a href="http://www.pp.co.nz/products.php?pp_id=AA06578">Paradigm PCs</a>
 # '''Antec EarthWatts EA-750 Green 750W ATX Power Supply Unit''' from <a href="http://www.pp.co.nz/products.php?pp_id=AA31697">Paradigm PCs</a>
 # '''Asus P8Z77-V Socket LGA1155 Motherboard''' from <a href="http://www.pp.co.nz/products.php?pp_id=AA36301">Paradigm PCs</a>
-# '''Sapphire VAPOR-X HD 7950 OC with Boost Video Card''' from <a href="http://www.pp.co.nz/products.php?pp_id=AA39957">Paradigm PCs</a>
+# '''Sapphire 3GB VAPOR-X HD 7950 OC with Boost Video Card''' from <a href="http://www.pp.co.nz/products.php?pp_id=AA39957">Paradigm PCs</a>
 # '''Intel Core i7 3770 3.4GHz 8MB Cache LGA 1155 77W Quad-Core Hyperthreading Processor''' from <a href="http://www.playtech.co.nz/afa.asp?idWebPage=39235&CATID=17&ID=17394&SID=712334944">Playtech</a>
 # 2x '''Samsung S22A450BW Black 22" 5ms 1680 x 1050 DVI/VGA LED Monitor Business Grade Tilt/Pivot stand - MTR466''' from Playtech
 # '''Samsung 1.5TB Spinpoint F2 EcoGreen SATA 3.5' Hard Drive''' from XP Computer
