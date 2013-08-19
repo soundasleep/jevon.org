@@ -2,7 +2,7 @@
 layout: page
 title:  "Jevon Wright"
 author: jevon
-date:   2013-08-20 08:50:23 +1200
+date:   2013-08-20 08:52:01 +1200
 ---
 
 <img src="/img/jevon/graduation.jpg" width="166" height="219" alt="A Photo of Jevon Wright" align="right" style="border:1px solid #666;">Hey, that's me ^_^
@@ -36,7 +36,7 @@ You can also see some [[Photos|photography]].
 
 * '''Proficient Technologies:''' [[Visual Basic]], [[PHP]], [[C]], [[C++]], [[Java]], [[Javascript]], [[Lua]], [[ASP]], [[SQL]], [[Haskell]], [[Smalltalk]], [[8051]], [[Brainfuck]], [[Java Servlet Pages]], [[HTML]], [[XHTML]], [[XML]], [[CSS]], [[XSLT]], [[XML Schema]], [[DTD]], [[MySQL]], [[JUnit]], [[JWebUnit]], [[UML]], [[WebML]], [[AJAX]], [[OpenArchitectureWare]], [[Xpand]], [[GMF]], [[OWL]], [[Eclipse|Eclipse Plugins]], [[Apache Ant]], [[IAML]], [[Drools]], [[YAML]], [[OCL]], [[Crocopat]], [[Jess]], [[Jena]], [[Xtend]], [[NuSMV]], [[MOF]], [[EMF]], [[LTL]], [[Alloy]], [[Latex]], [[Alfresco]], [[Profiling]], [[Debugging]]
 * '''Software:''' [[Eclipse]], [[Microsoft Windows]], [[Microsoft Office]], [[Paint Shop Pro]], [[MS-DOS]], [[Cygwin]], ...
-* '''Other Knowledge:''' [[SWT]], [[XPath]], [[XQuery]], [[XLink]], [[RSS]], [[RDF]], [[FOAF]], [[WML]], [[USDP]], [[Symfony]], [[XML-RPC]], [[Agile Development]], [[Smarty]], [[Extreme Programming]], [[Delphi]], [[Prolog]], [[MIPS Assembly]], [[SMIL]], [[Linux]], [[JET]], [[UWE]], [[Tomcat]]
+* '''Other Knowledge:''' [[SWT]], [[XPath]], [[XQuery]], [[XLink]], [[RSS]], [[RDF]], [[FOAF]], [[WML]], [[USDP]], [[Symfony]], [[XML-RPC]], [[Agile Development]], [[Smarty]], [[Extreme Programming]], [[Delphi]], [[Prolog]], [[MIPS Assembly]], [[SMIL]], [[Linux]], [[JET]], [[UWE]], [[Tomcat]], [[GPG]]
 * '''Interests:''' [[Link:Music]], <a href="http://journals.jevon.org/users/soundasleep/">playing music</a> (guitar/drums/keyboard/singing), [[Computer|computer hardware]], open source, computer gaming, gender studies, [[Web Development|web development]], [[Software|software development]], hiking, travel
 
 [[Category:Protected]]
