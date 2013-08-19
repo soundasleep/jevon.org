@@ -2,7 +2,7 @@
 layout: page
 title:  "Jevon Wright"
 author: jevon
-date:   2013-06-09 06:15:34 +1200
+date:   2013-08-20 08:50:23 +1200
 ---
 
 <img src="/img/jevon/graduation.jpg" width="166" height="219" alt="A Photo of Jevon Wright" align="right" style="border:1px solid #666;">Hey, that's me ^_^
@@ -22,6 +22,7 @@ You can also see some [[Photos|photography]].
 * *Twitter:* <a href="http://twitter.com/soundasleep" title="My Twitter account" class="twitter">@soundasleep</a>
 * *LinkedIn:* <a href="http://www.linkedin.com/in/jevonwright" title="My LinkedIn profile" class="linkedin">LinkedIn</a>
 * *Delicious:* <a href="http://www.delicious.com/jevonwright/" title="My Delicious bookmarks" class="delicious">jevonwright</a>
+* [[GPG]]: [[Public Key]]
 
 ==Favourites==
 
