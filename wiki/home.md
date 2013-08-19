@@ -2,7 +2,7 @@
 layout: page
 title:  "Home"
 author: jevon
-date:   2013-01-07 02:29:06 +1300
+date:   2013-08-20 08:51:14 +1200
 ---
 
 <table class="home-table"><tr valign="top"><td class="left-bar">Hello!
@@ -21,6 +21,7 @@ I'm passionate about software engineering, open source, gender studies, computer
 * [[Research]]
 * [[Software|My Software]]
 * [[Articles]]
+* [[Public Key|GPG Public Key]]
 * [[Downloads]]
 
 * [[Link:Journals]] - free online journals for anybody
