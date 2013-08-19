@@ -2,11 +2,12 @@
 layout: page
 title:  "Articles"
 author: jevon
-date:   2013-07-22 23:11:57 +1200
+date:   2013-08-20 08:50:38 +1200
 ---
 
 Some random ramblings... under construction, and I'm always adding more.
 <table class="articles-table"><tr><td class="left-bar"><h2 class="heading-random">Random Articles</h2>
+# [[Public Key]]
 # [[Site Credits]]
 # [[Old Content]]
 # [[HTML Entities]]
