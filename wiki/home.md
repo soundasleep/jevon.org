@@ -2,12 +2,12 @@
 layout: page
 title:  "Home"
 author: jevon
-date:   2013-08-20 08:51:40 +1200
+date:   2013-09-09 21:06:51 +1200
 ---
 
 <table class="home-table"><tr valign="top"><td class="left-bar">Hello!
 
-My name's [[Jevon Wright]] and I'm the creator of the [[Journals]], the [[Link:Music|Lyrics Wiki]] and many other things. This is my home page! ;)
+My name's [[Jevon Wright]] and I'm the creator of <a href="http://cryptfolio.com">CryptFolio</a>, the [[Journals]], the [[Link:Music|Lyrics Wiki]] and many other things. This is my home page! ;)
 
 I'm passionate about software engineering, open source, gender studies, computer gaming and music. Recently completed my [[Research|PhD in Computer Science]], and am now the lead developer of the <a href="http://www.hubnet.asia">One Health in Epidemiology</a> project (based off [[Alfresco]]). Drummer for <a href="http://www.breaklikewaves.com">Break Like Waves</a> and living in <a href="http://www.wellingtonnz.com/">Wellington</a>. Contact me at jevon@jevon.org and use my [[Public Key]].
 
