@@ -2,7 +2,7 @@
 layout: page
 title:  "Redirects"
 author: jevon
-date:   2005-12-27 06:57:11 +1300
+date:   2013-09-11 20:10:35 +1200
 ---
 
 This is a list of redirects that visitors to the old Jevon.org will come across. They are applied in order (with regular expression matching). Hits that don't match these will show up in [[Redirects Broken]].
@@ -45,3 +45,4 @@ This is a list of redirects that visitors to the old Jevon.org will come across.
 /dotest.php/: Tests
 /board.php/: Tag Board
 /boardarchive.php/: Tag Board
+/quote.php/: Old Content/Quotes
