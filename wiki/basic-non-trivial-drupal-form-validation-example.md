@@ -2,12 +2,12 @@
 layout: page
 title:  "Basic non-trivial Drupal form validation example"
 author: jevon
-date:   2013-09-11 17:15:35 +1200
+date:   2013-09-11 17:16:26 +1200
 ---
 
 [[Drupal]]
 
-Recall that in Drupal, hooks are defined through function naming patterns. This covers the basic implementation of a form (included on a page) with non-trivial validation (i.e. not just through <a href="https://api.drupal.org/api/drupal/developer!topics!forms_api_reference.html/7">`#maxlength`</a> etc) necessary before successful form submission.
+Recall that in Drupal, hooks are defined through function naming patterns. This covers the basic implementation of a form (included on a page) with non-trivial validation (i.e. not just through <a href="https://api.drupal.org/api/drupal/developer!topics!forms_api_reference.html/7">`#maxlength`</a> etc) necessary before successful form submission. We also split up the module into `my_hook.module` (core hooks) and `my_hook.inc` (necessary includes).
 
 Define the Drupal pages in `my_hook.module`:
 
