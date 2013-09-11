@@ -2,7 +2,7 @@
 layout: page
 title:  "Basic non-trivial Drupal form validation example"
 author: jevon
-date:   2013-09-11 17:15:11 +1200
+date:   2013-09-11 17:15:35 +1200
 ---
 
 [[Drupal]]
@@ -49,6 +49,8 @@ Define the form in `my_hook.inc`:
       '#size' => 32,
       '#maxlength' => 128,
       '#required' => true,
+      '#prefix' => '<div>',
+      '#suffix' => '</div>',
    );
 
    $form['submit'] = array('#type' => 'submit', '#value' => t('Subscribe'));
