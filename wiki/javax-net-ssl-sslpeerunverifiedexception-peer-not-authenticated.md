@@ -2,7 +2,7 @@
 layout: page
 title:  "javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated"
 author: jevon
-date:   2013-09-11 17:18:31 +1200
+date:   2013-09-11 17:18:41 +1200
 ---
 
 [[Java]] / [[SSL]]
@@ -35,6 +35,6 @@ You can import the self-signed certificate into an existing store by <a href="ht
 By default, creating a new keystore will not reuse the existing list of certificate authorities. You can copy the local `cacerts` list of authorities and add certificates directly to this keystore; the <a href="http://www.java-samples.com/showtutorial.php?tutorialid=210">default keystore password is `changeit`</a>.
 
 ==A different certificate is being provided==
-<a href="http://stackoverflow.com/questions/8700042/download-ssl-certificate-in-unix">To export a copy of the SSL certificate</a> provided by a particular URL, use the command `openssl s_client -showcerts -connect google.de:443 </dev/null `. You can then copy the certificate directly from here into a new certificate file.
+<a href="http://stackoverflow.com/questions/8700042/download-ssl-certificate-in-unix">To export a copy of the SSL certificate</a> provided by a particular URL, use the command `openssl s_client -showcerts -connect google.de:443 &lt;/dev/null`. You can then copy the certificate directly from here into a new certificate file.
 
 [[Category:Java]]
