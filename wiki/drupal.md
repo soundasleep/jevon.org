@@ -2,7 +2,7 @@
 layout: page
 title:  "Drupal"
 author: jevon
-date:   2013-09-11 17:12:03 +1200
+date:   2013-10-01 19:19:42 +1300
 ---
 
 [[Drupal]] is a [[PHP]]-based web application framework, similar to [[Symfony]] (but also wildly different and with much worse documentation).
@@ -27,6 +27,9 @@ Also make sure that it is group writable and directory executable:
 chmod -R a+X sites/default/files
 chmod -R g+rwX sites/default/files
 [/code]
+
+==The destination directory is not configured correctly==
+The Drupal notice _File temporary://xxx could not be copied, because the destination directory public://avatars is not configured correctly._ means that the folder `sites/default/files/avatars` (based on your location for `public://`) does not exist or cannot be written by Drupal.
 
 [[Category:Drupal]]
 [[Category:PHP]]
