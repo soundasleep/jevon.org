@@ -2,7 +2,7 @@
 layout: page
 title:  "Home"
 author: jevon
-date:   2013-09-09 21:07:16 +1200
+date:   2013-10-13 16:57:49 +1300
 ---
 
 <table class="home-table"><tr valign="top"><td class="left-bar">Hello!
@@ -13,7 +13,7 @@ I'm passionate about software engineering, open source, gender studies, cryptocu
 
 <a href="http://www.last.fm/user/jdub_dub"><img src="http://imagegen.last.fm/sideRed/artists/jdub_dub.gif" border="0" alt="jdub_dub's Last.fm Weekly Artists Chart" /></a>
 
-<a href='https://www.ohloh.net/accounts/24901?ref=Detailed'><img alt='Ohloh profile for jevon' height='33' src='https://www.ohloh.net/accounts/24901/widgets/account_detailed.gif' width='193' /></a>
+<a href='https://www.ohloh.net/accounts/24901?ref=Detailed'><img alt='Ohloh profile for jevon' src='https://www.ohloh.net/accounts/24901/widgets/account_detailed.gif' /></a>
 </td><td class="right-bar">
 [widget user=jevon id=570]<span class="ipv6"><a href="http://ipv6-test.com/validate.php?url=referer"><img src="http://ipv6-test.com/button-ipv6-80x15.png" alt="IPv6 ready" border="0"></a></span>
 * [[Jevon Wright|About Me]], including [[Photos|photos]]
