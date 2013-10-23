@@ -2,7 +2,7 @@
 layout: page
 title:  "Registering with Bitcoin-otc"
 author: jevon
-date:   2013-10-23 19:48:20 +1300
+date:   2013-10-23 19:48:51 +1300
 ---
 
 [[Bitcoin]]
@@ -38,7 +38,7 @@ nickname: ;;gpg everify freenode:#bitcoin-otc:32e5dae7c90dfe6dac755baa277524d431
 gribble: Registration successful. You are now authenticated for user nickname with key ABCDEF1234567890
 [/code]
 
-You are now authenticated with gribble, listed in http://bitcoin-otc.com/viewratings.php, and you can see your total trust:
+You are now authenticated with gribble, listed in <a href="http://bitcoin-otc.com/viewratings.php">Bitcoin-otc web of trust data</a>, and you can see your total trust:
 
 [code]
 nickname: ;;rated jevon
