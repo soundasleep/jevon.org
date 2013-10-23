@@ -2,7 +2,7 @@
 layout: page
 title:  "Registering with Bitcoin-otc"
 author: jevon
-date:   2013-10-23 19:47:04 +1300
+date:   2013-10-23 19:47:16 +1300
 ---
 
 [[Bitcoin]]
@@ -11,11 +11,11 @@ Based on the original <a href="http://wiki.bitcoin-otc.com/wiki/GPG_authenticati
 
 # Generate a GPG public/private key (for example, here is my [[public key]])
 # List the keys, and look for a line starting with `pub`. The 16-character code is your key ID:
-<code>
+[code]
 $ gpg --list-keys --keyid-format long
 ...
 pub  2048R/ABCDEF1234567890 2013-01-01
-</code>
+[/code]
 # Publish your public key to keyservers:
 <code>
 $ gpg --send-keys --keyserver pgp.mit.edu ABCDEF1234567890
