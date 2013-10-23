@@ -2,10 +2,12 @@
 layout: page
 title:  "Registering with Bitcoin-otc"
 author: jevon
-date:   2013-10-23 19:46:26 +1300
+date:   2013-10-23 19:47:04 +1300
 ---
 
-Based on the original wiki guide.
+[[Bitcoin]]
+
+Based on the original <a href="http://wiki.bitcoin-otc.com/wiki/GPG_authentication">GPG authentication</a> and <a href="http://wiki.bitcoin-otc.com/wiki/OTC_Rating_System">OTC Rating System</a> guides.
 
 # Generate a GPG public/private key (for example, here is my [[public key]])
 # List the keys, and look for a line starting with `pub`. The 16-character code is your key ID:
