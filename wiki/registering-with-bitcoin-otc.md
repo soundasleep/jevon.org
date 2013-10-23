@@ -2,7 +2,7 @@
 layout: page
 title:  "Registering with Bitcoin-otc"
 author: jevon
-date:   2013-10-23 19:47:16 +1300
+date:   2013-10-23 19:47:27 +1300
 ---
 
 [[Bitcoin]]
@@ -17,9 +17,10 @@ $ gpg --list-keys --keyid-format long
 pub  2048R/ABCDEF1234567890 2013-01-01
 [/code]
 # Publish your public key to keyservers:
-<code>
+[code]
 $ gpg --send-keys --keyserver pgp.mit.edu ABCDEF1234567890
 $ gpg --send-keys --keyserver subset.pool.sks-keyservers.net ABCDEF1234567890
+[/code]
 # Login into #bitcoin-otc and register your key with _gribble_ by PM:
 <code>
 nickname: ;;gpg eregister <nickname> ABCDEF1234567890
