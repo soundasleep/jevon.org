@@ -2,12 +2,10 @@
 layout: page
 title:  "Jevon Wright"
 author: jevon
-date:   2013-10-30 19:03:10 +1300
+date:   2013-10-30 19:03:18 +1300
 ---
 
-<!--<img src="/img/jevon/graduation.jpg" width="166" height="219" alt="A Photo of Jevon Wright" align="right" style="border:1px solid #666;">-->Hey, that's me ^_^
-
-<!--You can also see some [[Photos|photography]].-->
+<!--<img src="/img/jevon/graduation.jpg" width="166" height="219" alt="A Photo of Jevon Wright" align="right" style="border:1px solid #666;">-->Hey, that's me ^_^ <!--You can also see some [[Photos|photography]].-->
 
 ==Vitals==
 
