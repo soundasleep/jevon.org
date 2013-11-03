@@ -2,7 +2,7 @@
 layout: page
 title:  "Comparing Two SimpleXML Documents"
 author: jevon
-date:   2008-09-23 09:29:15 +1200
+date:   2013-11-03 19:29:41 +1300
 ---
 
 [[Articles]] > [[PHP]]
@@ -149,6 +149,8 @@ if ($result === true) {
 }[/code]
 
 {{tag-todo|put code onto SVN and link to actual SVN code}}
+
+License: MIT
 
 [[Category:Article]]
 [[Category:PHP]]
