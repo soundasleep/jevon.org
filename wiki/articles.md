@@ -2,7 +2,7 @@
 layout: page
 title:  "Articles"
 author: jevon
-date:   2013-11-24 13:38:26 +1300
+date:   2013-11-24 13:38:54 +1300
 ---
 
 Some random ramblings... under construction, and I'm always adding more.
@@ -57,6 +57,7 @@ Some random ramblings... under construction, and I'm always adding more.
 # [[openArchitectureWare]]
 # [[Eclipse]]
 # [[Ecore]]
+# [[FTL]]
 # more...
 
 <h2 class="heading-semantic">Semantic Web</h2>
@@ -91,7 +92,6 @@ Some random ramblings... under construction, and I'm always adding more.
 # [[Thunderbird]]
 # [[Visio]]
 # [[IPv6]]
-# [[FTL]]
 # [[Android]]
 # [[JMonkeyEngine]]
 
