@@ -2,7 +2,7 @@
 layout: page
 title:  "Thunderbird"
 author: jevon
-date:   2013-11-24 13:30:35 +1300
+date:   2013-11-24 13:31:45 +1300
 ---
 
 An [[email]] client from [[Mozilla]].
@@ -28,6 +28,8 @@ You have received an invalid certificate.  Please contact the server administrat
 [/code]
 
 This means you need to follow <a href="http://www.avast.com/faq.php?article=AVKB91">these instructions</a> to export the Avast authority certificate and import it into the Thunderbird security manager.
+
+*Make sure* that you have deleted any other Avast! mail scanner certificates.
 
 [code]
 imap.gmail.com:993 uses an invalid security certificate.
