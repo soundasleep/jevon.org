@@ -2,10 +2,14 @@
 layout: page
 title:  "Apache"
 author: jevon
-date:   2013-01-07 03:48:48 +1300
+date:   2013-11-26 19:49:26 +1300
 ---
 
-'''configuration error: couldn't check user. check your authn provider!''' with [[Subversion]]:
+[[Apache]] is a web server.
+
+# [[Installing SSL on Apache]]
+
+===configuration error: couldn't check user. check your authn provider!''' with [[Subversion]]===
 
 This error can occur if you have digest authentication enabled to authenticate against [[Subversion]], but you haven't enabled the actual digest authentication mod, like so:
 
