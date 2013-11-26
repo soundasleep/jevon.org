@@ -2,7 +2,7 @@
 layout: page
 title:  "Installing SSL on Apache"
 author: jevon
-date:   2013-11-26 19:49:01 +1300
+date:   2013-11-26 19:49:51 +1300
 ---
 
 [[Apache]] / [[SSL]]
@@ -19,8 +19,8 @@ openssl req -new -key <filename for your private key> -out <filename for the CSR
 # Create a new site e.g. /etc/apache2/sites-available/my-domain-ssl:
 [code]
 <VirtualHost *:443>
-  ServerName jevon.org
-  ServerAlias www.jevon.org
+  ServerName domain.org
+  ServerAlias www.domain.org
   // etc
 
   SSLEngine on
