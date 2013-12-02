@@ -2,7 +2,7 @@
 layout: page
 title:  "awstats"
 author: jevon
-date:   2013-12-02 20:59:55 +1300
+date:   2013-12-02 21:00:32 +1300
 ---
 
 [[awstats]] is a web statistics program.
@@ -15,7 +15,7 @@ date:   2013-12-02 20:59:55 +1300
 [code]
 sudo apt-get install awstats libnet-ip-perl libnet-dns-perl
 [/code]
-# Edit /etc/awstats/awstats.conf, modify `LogFile` to merge archived data and `LogFormat` to use [[Apache]] log format (see below):
+# Edit /etc/awstats/awstats.conf, modify `LogFile` to merge archived data, `LogFormat` to use [[Apache]] log format (see below), and `LoadPlugin="ipv6"` :
 [code]
 LogFile="perl /usr/share/awstats/tools/logresolvemerge.pl /var/log/apache2/other_vhosts_access.log /var/log/apache2/other_vhosts_access.log.1 /var/log/apache2/other_vhosts_access.log.2.gz |"
 [/code]
