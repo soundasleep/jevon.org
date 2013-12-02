@@ -2,10 +2,12 @@
 layout: page
 title:  "awstats"
 author: jevon
-date:   2013-12-02 15:01:32 +1300
+date:   2013-12-02 15:04:31 +1300
 ---
 
 [[awstats]] is a web statistics program.
+
+# <a href="https://help.ubuntu.com/community/AWStats">Installing awstats on Ubuntu 12.04</a>
 
 ==Apache Log Format==
 If your [[Apache]] log config (in `/etc/apache2/apache.conf`) defines a log format like this:
