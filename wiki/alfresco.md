@@ -2,7 +2,7 @@
 layout: page
 title:  "Alfresco"
 author: jevon
-date:   2013-12-02 20:54:35 +1300
+date:   2013-12-02 20:54:46 +1300
 ---
 
 [[Alfresco]] is a content management system for [[Tomcat]] and written in [[Java]].
@@ -161,7 +161,7 @@ I was getting this error when trying to connect to an Alfresco Secure [[FTP]] se
 
 ==How to run a server-side Javascript in Alfresco Explorer==
 
-# Upload the Javascript to `Company Home/Data Dictionary/Scripts`.
+# Upload the [[Javascript]] to `Company Home/Data Dictionary/Scripts`.
 # View "More Details" on the Javascript.
 # Select "Run Action"
 # Select the action "Run a script"
