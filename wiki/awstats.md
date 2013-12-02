@@ -2,13 +2,13 @@
 layout: page
 title:  "awstats"
 author: jevon
-date:   2013-12-02 15:01:25 +1300
+date:   2013-12-02 15:01:32 +1300
 ---
 
 [[awstats]] is a web statistics program.
 
 ==Apache Log Format==
-If your Apache log config (in `/etc/apache2/apache.conf`) defines a log format like this:
+If your [[Apache]] log config (in `/etc/apache2/apache.conf`) defines a log format like this:
 
 [code conf]LogFormat "%v:%p %h %l %u %t "%r" %>s %O "%{Referer}i" "%{User-Agent}i"" vhost_combined[/code]
 
