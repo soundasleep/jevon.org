@@ -2,7 +2,7 @@
 layout: page
 title:  "Alfresco"
 author: jevon
-date:   2013-02-06 19:22:22 +1300
+date:   2013-12-02 20:54:35 +1300
 ---
 
 [[Alfresco]] is a content management system for [[Tomcat]] and written in [[Java]].
@@ -157,6 +157,22 @@ I was getting this error when trying to connect to an Alfresco Secure [[FTP]] se
 234 Switching to SSL secure session
        PBSZ 0
 502 Command not implemented
+[/code]
+
+==How to run a server-side Javascript in Alfresco Explorer==
+
+# Upload the Javascript to `Company Home/Data Dictionary/Scripts`.
+# View "More Details" on the Javascript.
+# Select "Run Action"
+# Select the action "Run a script"
+# Select your uploaded script
+# Click Finish to run the script
+
+==Loading and deleting a node by reference in Javascript==
+
+[code js]
+var node = utils.getNodeFromString("workspace://SpacesStore/8cf7277f-a753-43dc-b498-f352c8ca815c");
+node.remove();
 [/code]
 
 [[Category:Alfresco]]
