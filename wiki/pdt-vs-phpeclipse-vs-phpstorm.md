@@ -2,14 +2,14 @@
 layout: page
 title:  "PDT vs PHPEclipse vs PhpStorm"
 author: jevon
-date:   2013-12-05 20:54:42 +1300
+date:   2013-12-05 20:55:17 +1300
 ---
 
 I did a quick test of three leading [[PHP]] editors: [[PDT]], [[PHPEclipse]] (both based on [[Eclipse]]), and [[PhpStorm]] (based on IntelliJ). This isn't intended to be a complete review or test, I just wanted to see if I could find a better IDE than [[Textpad]].
 
 All of the editors had colour syntax highlighting. I didn't test debugging support. None seemed to support unit testing out of the box.
 
-My most important requirements are displaying Javadoc on mouseover (because that's how you learn function contracts), displaying overlays on files (both errors and warnings), being quick and responsive, supporting automatic refactoring, and code completion.
+My most important requirements are displaying Javadoc on mouseover (because that's how you generally are aware of function contracts), displaying overlays on files (both errors and warnings), being quick and responsive, supporting automatic refactoring, and code completion.
 
 In summary PhpStorm is more powerful, but PDT feels more comfortable.
 
