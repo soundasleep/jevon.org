@@ -2,10 +2,10 @@
 layout: page
 title:  "PDT vs PHPEclipse vs PhpStorm"
 author: jevon
-date:   2013-12-05 20:52:46 +1300
+date:   2013-12-05 20:52:56 +1300
 ---
 
-I did a quick test of three leading [[PHP]] editors: [[PDT]], [[PHPEclipse]] (both based on [[Eclipse]]), and [[PhpStorm]] (based on IntelliJ). This isn't intended to be a complete review or test, I just wanted to see if I could find a better IDE than Textpad.
+I did a quick test of three leading [[PHP]] editors: [[PDT]], [[PHPEclipse]] (both based on [[Eclipse]]), and [[PhpStorm]] (based on IntelliJ). This isn't intended to be a complete review or test, I just wanted to see if I could find a better IDE than [[Textpad]].
 
 All of the editors had colour syntax highlighting. I didn't test debugging support. None seemed to support unit testing out of the box.
 
