@@ -2,7 +2,7 @@
 layout: page
 title:  "PDT vs PHPEclipse vs PhpStorm"
 author: jevon
-date:   2013-12-05 20:52:56 +1300
+date:   2013-12-05 20:54:42 +1300
 ---
 
 I did a quick test of three leading [[PHP]] editors: [[PDT]], [[PHPEclipse]] (both based on [[Eclipse]]), and [[PhpStorm]] (based on IntelliJ). This isn't intended to be a complete review or test, I just wanted to see if I could find a better IDE than [[Textpad]].
@@ -27,6 +27,7 @@ PDT seems to be more Eclipsey and refined than PHPEclipse.
 * No code completion
 * No overlays on files of warnings
 * No HTML autocompletion
+* Has no "find uses of" search
 
 ==PHPEclipse==
 PHPEclipse seems to be a less refined editor.
@@ -48,6 +49,7 @@ Seems to be very powerful, but also a bit messy. I don't like any of the default
 * Has a neat CSS editor that also displays warnings (e.g. "0px" should be "0")
 * Has a better HTML editor than PDT
 * Has database integration
+* Has "find uses of" search
 ===Cons===
 * No display Javadoc on mouseover
 * No overlays on files of warnings
