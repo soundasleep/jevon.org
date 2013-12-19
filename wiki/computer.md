@@ -2,7 +2,7 @@
 layout: page
 title:  "Computer"
 author: jevon
-date:   2013-07-10 14:55:18 +1200
+date:   2013-12-19 20:07:21 +1300
 ---
 
 [[Jevon Wright|About me]]
@@ -32,6 +32,10 @@ Over time, I will try and fill the details of my current machine on this page.
 # '''Sapphire Radeon HD7850 OC HDMI Dual-DisplayPort 2GB''' from <a href="http://www.pcforce.co.nz/index.php?main_page=product_info&cPath=26&products_id=2095">PCForce</a>
 # '''Samsung Galaxy S3 i9300 Black 1.4GHz Quad Core 1GB RAM 16GB''' from <a href="http://www.playtech.co.nz/afawcs0139235/CATID=548/ID=19016/SID=438565600/productdetails.html">Playtech</a>
 # Other less interesting parts
+
+==Laptops==
+
+# Toshiba Satellite Pro A300 Notebook, Core 2 Duo T8100 2.1 GHz, 2GB RAM, 200GB HDD, 15.4" TFT, DVD writer, WLAN, Bluetooth, Win Vista Business, with XP Pro Downgrade Media from Ascent
 
 Things that have failed:
 
