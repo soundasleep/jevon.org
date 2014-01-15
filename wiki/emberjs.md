@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-01-15 15:41:59 +1300
+date:   2014-01-15 15:42:33 +1300
 ---
 
 [[Javascript]]
@@ -22,6 +22,7 @@ I'll be using the tutorial at http://emberjs.com/guides/getting-started.
 # Create a new Github repository https://github.com/soundasleep/todomvc-emberjs-coffee
 # Checkout: `git clone https://github.com/soundasleep/todomvc-emberjs-coffee`
 # Update push.default on git to <a href="http://stackoverflow.com/questions/13148066/warning-push-default-is-unset-its-implicit-value-is-changing-in-git-2-0">a more intuitive value</a> (and also removes a warning): `git config --global push.default simple`
+# Follow the instructions in the <a href="http://emberjs.com/guides/getting-started">EmberJS getting started tutorial</a>, committing and pushing as necessary.
 
 [[Category:Web Development]]
 [[Category:Javascript]]
