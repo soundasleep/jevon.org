@@ -2,12 +2,12 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-01-15 15:33:02 +1300
+date:   2014-01-15 15:41:59 +1300
 ---
 
 [[Javascript]]
 
-==How I learnt EmberJS and [[Coffeescript]]==
+==How I learnt EmberJS and [[Coffeescript]] and [[Git]]==
 
 I'll be using the tutorial at http://emberjs.com/guides/getting-started.
 
@@ -19,6 +19,9 @@ I'll be using the tutorial at http://emberjs.com/guides/getting-started.
 # Install the <a href="https://github.com/Xavura/CoffeeScript-Sublime-Plugin">CoffeeScript ST2 plugin</a> by going _Preferences > Package Control > Install Package > (wait for list to load) > CoffeeScript_
 # Sublime Text should now support coffeescript linting. (I couldn't get this to work properly yet.)
 # Edit the [[csslint]] settings because they are pretty insane. _Preferences > Package Settings > SublimeLinter > Settings - Default_ and change `csslint_options`: `ids` to `false`, `overqualified-elements` to `false`
+# Create a new Github repository https://github.com/soundasleep/todomvc-emberjs-coffee
+# Checkout: `git clone https://github.com/soundasleep/todomvc-emberjs-coffee`
+# Update push.default on git to <a href="http://stackoverflow.com/questions/13148066/warning-push-default-is-unset-its-implicit-value-is-changing-in-git-2-0">a more intuitive value</a> (and also removes a warning): `git config --global push.default simple`
 
 [[Category:Web Development]]
 [[Category:Javascript]]
