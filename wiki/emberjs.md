@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-01-15 17:34:48 +1300
+date:   2014-01-15 17:38:16 +1300
 ---
 
 [[Javascript]]
@@ -30,6 +30,7 @@ I'll be using the tutorial at http://emberjs.com/guides/getting-started.
 # Create a <a href="https://github.com/soundasleep/todomvc-emberjs-coffee/blob/7a7f44bfa9d935e38e523bf57311d84cffaa7848/Gruntfile.js">Gruntfile.js</a>.
 # Install all of the necessary packages referenced in the Gruntfile: `npm install grunt-contrib-uglify grunt-contrib-qunit grunt-contrib-concat grunt-contrib-watch --save-dev`. `--save-dev` will also modify `package.json` with the new dependencies (under `devDependencies`).
 # Install https://github.com/gruntjs/grunt-contrib-coffee to compile coffeescript in Grunt: `npm install grunt-contrib-coffee --save-dev`
+# You can now compile Coffeescript by running `grunt coffee`. You can also configure Grunt to watch for new files by <a href="https://github.com/soundasleep/todomvc-emberjs-coffee/commit/8d1a7b2ed0134d310d619f4a7a180a9ea61a448c#diff-35b4a816e0441e6a375cd925af50752c">modifying your Gruntfile</a> and running `grunt watch`.
 
 [[Category:Web Development]]
 [[Category:Javascript]]
