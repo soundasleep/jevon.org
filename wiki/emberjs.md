@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-01-15 16:36:27 +1300
+date:   2014-01-15 16:40:15 +1300
 ---
 
 [[Javascript]]
@@ -26,8 +26,9 @@ I'll be using the tutorial at http://emberjs.com/guides/getting-started.
 # Try to <a href="http://arcturo.github.io/library/coffeescript/05_compiling.html">Cake building</a>; unfortunately I couldn't get this to work <a href="http://stackoverflow.com/questions/17516772/using-nodejss-spawn-causes-unknown-option-and-error-spawn-enoent-err">because of win32 problems</a>
 # Install Grunt for <a href="http://takazudo.github.io/blog/entry/2012-04-14-grunt-coffee.html">building Coffeescript</a> instead: `npm install -g grunt`
 # Install the Grunt CLI: `npm install -g grunt-cli`
-# Create a package.json (TODO link)
+# Create a package.json (TODO link). <a href="http://package.json.nodejitsu.com/">Understanding package.json</a>
 # Create a Gruntfile.js (TODO link)
+# Install all of the necessary packages referenced in the Gruntfile: `npm install grunt-contrib-uglify grunt-contrib-qunit grunt-contrib-concat --save-dev`. `--save-dev` will also modify `package.json` with the new dependencies (under `devDependencies`).
 # Install https://github.com/gruntjs/grunt-contrib-coffee to compile coffeescript in Grunt: `npm install grunt-contrib-coffee --save-dev`
 
 [[Category:Web Development]]
