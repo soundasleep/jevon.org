@@ -2,10 +2,10 @@
 layout: page
 title:  "SVN"
 author: jevon
-date:   2013-01-07 20:53:32 +1300
+date:   2014-01-15 19:56:56 +1300
 ---
 
-[[SVN]] is the acronym for [[Subversion]].
+[[SVN]] is the acronym for [[Subversion]]. Also see [[Git]].
 
 # <a href="http://journals.jevon.org/users/jevon-phd/entry/19739">Subclipse vs Subversive</a> - a discussion on [[Eclipse]] plugins
 # [[StatSVN]]
