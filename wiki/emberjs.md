@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-01-15 17:38:16 +1300
+date:   2014-01-15 18:14:22 +1300
 ---
 
 [[Javascript]]
@@ -11,7 +11,7 @@ date:   2014-01-15 17:38:16 +1300
 
 I'll be using the tutorial at http://emberjs.com/guides/getting-started.
 
-# Install Sublime Text 2 as an IDE
+# Install [[Sublime Text 2]] as an IDE, along with node.js (which installs npm)
 # Install the Sublime Linter by checking out <a href="https://github.com/SublimeLinter/SublimeLinter">SublimeLinter</a> into your ST2 packages directory (since Sublime Linter is ST3 now): `%APPDATA%Sublime Text 2Packages`. This will give you things like [[PHP]] syntax error checking.
 # <a href="http://nodejs.org/download/">Install Node.js</a> which will also install NPM (Node.js package manager)
 # Use npm to install coffeescript: `npm install -g coffee-script`
@@ -31,6 +31,7 @@ I'll be using the tutorial at http://emberjs.com/guides/getting-started.
 # Install all of the necessary packages referenced in the Gruntfile: `npm install grunt-contrib-uglify grunt-contrib-qunit grunt-contrib-concat grunt-contrib-watch --save-dev`. `--save-dev` will also modify `package.json` with the new dependencies (under `devDependencies`).
 # Install https://github.com/gruntjs/grunt-contrib-coffee to compile coffeescript in Grunt: `npm install grunt-contrib-coffee --save-dev`
 # You can now compile Coffeescript by running `grunt coffee`. You can also configure Grunt to watch for new files by <a href="https://github.com/soundasleep/todomvc-emberjs-coffee/commit/8d1a7b2ed0134d310d619f4a7a180a9ea61a448c#diff-35b4a816e0441e6a375cd925af50752c">modifying your Gruntfile</a> and running `grunt watch`.
+# Configure Sublime Text to treat [[Handlebars]] templates as HTML: [[HTML syntax validation within Handlebars templates in Sublime Text 2]]
 
 [[Category:Web Development]]
 [[Category:Javascript]]
