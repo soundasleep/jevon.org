@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-01-15 18:15:00 +1300
+date:   2014-01-15 18:32:35 +1300
 ---
 
 [[Javascript]]
@@ -11,7 +11,7 @@ date:   2014-01-15 18:15:00 +1300
 
 I'll be using the tutorial at http://emberjs.com/guides/getting-started.
 
-# Install [[Sublime Text 2]] as an IDE, along with node.js (which installs npm)
+# Install [[Sublime Text 2]] as an IDE
 # Install the Sublime Linter plugin for ST2, which will provide syntax checking support, by checking out <a href="https://github.com/SublimeLinter/SublimeLinter">SublimeLinter</a> into your ST2 packages directory (since Sublime Linter is ST3 now): `%APPDATA%/Sublime Text 2/Packages`. This will give you things like [[PHP]] syntax error checking.
 # <a href="http://nodejs.org/download/">Install Node.js</a> which will also install NPM (Node.js package manager)
 # Use npm to install coffeescript: `npm install -g coffee-script`
