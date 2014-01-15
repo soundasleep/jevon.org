@@ -2,7 +2,7 @@
 layout: page
 title:  "HTML syntax validation within Handlebars templates in Sublime Text 2"
 author: jevon
-date:   2014-01-15 18:06:42 +1300
+date:   2014-01-15 18:37:23 +1300
 ---
 
 To enable [[HTML]] syntax validation within [[Handlebars]] templates in [[Sublime Text 2]], follow similar instructions to http://stackoverflow.com/questions/5578472/amend-html-grammar-based-on-attributes-in-textmate.
@@ -17,7 +17,9 @@ To enable [[HTML]] syntax validation within [[Handlebars]] templates in [[Sublim
 </body>
 [/code]
 
-That is, edit `%APPDATA%/Sublime Text 2/Packages/HTML/HTML.tmLanguage` and change:
+Even with ST2 plugins such as <a href="https://github.com/nrw/sublime-text-handlebars">sublime-text-handlebars</a>, the HTML code still would not be presented as HTML (and you had to change the syntax of the file to Handlebars, removing ALL HTML syntax validation). Ideally we would keep the HTML file syntax as HTML.
+
+Edit `%APPDATA%/Sublime Text 2/Packages/HTML/HTML.tmLanguage` and change:
 
 [code xml]
 		<dict>
