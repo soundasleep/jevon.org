@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-01-15 18:32:35 +1300
+date:   2014-01-15 19:05:59 +1300
 ---
 
 [[Javascript]]
@@ -11,13 +11,15 @@ date:   2014-01-15 18:32:35 +1300
 
 I'll be using the tutorial at http://emberjs.com/guides/getting-started.
 
-# Install [[Sublime Text 2]] as an IDE
+# Install [[Sublime Text 2]] as an IDE.
+# Install [[git]] and [[nano]]. Use [[nano]] as the default git commit message editor, because vim support on the Windows command prompt is pretty poor: `git config --global core.editor nano`
 # Install the Sublime Linter plugin for ST2, which will provide syntax checking support, by checking out <a href="https://github.com/SublimeLinter/SublimeLinter">SublimeLinter</a> into your ST2 packages directory (since Sublime Linter is ST3 now): `%APPDATA%/Sublime Text 2/Packages`. This will give you things like [[PHP]] syntax error checking.
 # <a href="http://nodejs.org/download/">Install Node.js</a> which will also install NPM (Node.js package manager)
 # Use npm to install coffeescript: `npm install -g coffee-script`
 # Check that coffeescript is working: `coffee -v`
 # Install the <a href="https://github.com/Xavura/CoffeeScript-Sublime-Plugin">CoffeeScript ST2 plugin</a> by going _Preferences > Package Control > Install Package > (wait for list to load) > CoffeeScript_
 # Sublime Text should now support coffeescript linting. (I couldn't get this to work properly yet.)
+# Create a file `%APPDATA%/Sublime Text 2/Packages/Default/CoffeeScript.sublime-settings` and configure ST2 to <a href="https://github.com/soundasleep/sublime-settings/blob/master/CoffeeScript.sublime-settings">use spaces rather than tabs for CoffeeScript files</a>.
 # Edit the [[csslint]] settings because they are pretty insane. _Preferences > Package Settings > SublimeLinter > Settings - Default_ and change `csslint_options`: `ids` to `false`, `overqualified-elements` to `false`
 # Create a new Github repository https://github.com/soundasleep/todomvc-emberjs-coffee
 # Checkout: `git clone https://github.com/soundasleep/todomvc-emberjs-coffee`
