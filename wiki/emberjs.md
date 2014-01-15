@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-01-15 16:40:15 +1300
+date:   2014-01-15 16:41:25 +1300
 ---
 
 [[Javascript]]
@@ -28,7 +28,7 @@ I'll be using the tutorial at http://emberjs.com/guides/getting-started.
 # Install the Grunt CLI: `npm install -g grunt-cli`
 # Create a package.json (TODO link). <a href="http://package.json.nodejitsu.com/">Understanding package.json</a>
 # Create a Gruntfile.js (TODO link)
-# Install all of the necessary packages referenced in the Gruntfile: `npm install grunt-contrib-uglify grunt-contrib-qunit grunt-contrib-concat --save-dev`. `--save-dev` will also modify `package.json` with the new dependencies (under `devDependencies`).
+# Install all of the necessary packages referenced in the Gruntfile: `npm install grunt-contrib-uglify grunt-contrib-qunit grunt-contrib-concat grunt-contrib-watch --save-dev`. `--save-dev` will also modify `package.json` with the new dependencies (under `devDependencies`).
 # Install https://github.com/gruntjs/grunt-contrib-coffee to compile coffeescript in Grunt: `npm install grunt-contrib-coffee --save-dev`
 
 [[Category:Web Development]]
