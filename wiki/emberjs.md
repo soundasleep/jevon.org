@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-01-15 19:05:59 +1300
+date:   2014-01-15 20:04:23 +1300
 ---
 
 [[Javascript]]
@@ -34,6 +34,8 @@ I'll be using the tutorial at http://emberjs.com/guides/getting-started.
 # Install https://github.com/gruntjs/grunt-contrib-coffee to compile coffeescript in Grunt: `npm install grunt-contrib-coffee --save-dev`
 # You can now compile Coffeescript by running `grunt coffee`. You can also configure Grunt to watch for new files by <a href="https://github.com/soundasleep/todomvc-emberjs-coffee/commit/8d1a7b2ed0134d310d619f4a7a180a9ea61a448c#diff-35b4a816e0441e6a375cd925af50752c">modifying your Gruntfile</a> and running `grunt watch`.
 # Configure Sublime Text to treat [[Handlebars]] templates as HTML: [[HTML syntax validation within Handlebars templates in Sublime Text 2]]
+# Use the <a href="http://js2coffee.org/">js2coffee</a> interpreter a lot
+# You will have problems with things like `function(){...}.property("x")`; <a href="http://stackoverflow.com/questions/12777782/ember-computed-properties-in-coffeescript">wrap the function with brackets</a>
 
 [[Category:Web Development]]
 [[Category:Javascript]]
