@@ -2,7 +2,7 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-01-21 15:03:41 +1300
+date:   2014-01-21 15:09:33 +1300
 ---
 
 ==Things [[SVN]] can do that [[Git]] can't==
@@ -13,16 +13,15 @@ date:   2014-01-21 15:03:41 +1300
 
 Create a branch:
 
-# `git branch <new-branch-name>` - create a new branch
+# `git branch <new-branch-name>` - *create* a new branch
 # `git push origin <new-branch-name>` - ??
-# `git checkout <new-branch-name>` - update local copy to branch
+# `git checkout <new-branch-name>` - switch to branch and update local copy to branch
 # `git commit -p` - commit changes to local Git
 # `git push --set-upstream origin <new-branch-name>` - push local Git changes to remote Git
 
 Switching branches:
 
-# `git branch master` - switch back to master branch
-# `git checkout master` - update local copy to master
+# `git checkout master` - switch back to master and update local copy to master
 # `git pull` - download remote Git to local Git
 
 [[Category:Git]]
