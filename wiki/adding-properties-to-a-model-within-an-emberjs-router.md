@@ -2,7 +2,7 @@
 layout: page
 title:  "Adding properties to a model within an EmberJS router"
 author: jevon
-date:   2014-01-21 20:46:16 +1300
+date:   2014-01-21 20:46:41 +1300
 ---
 
 [[EmberJS]]
@@ -49,6 +49,8 @@ This can then be used as normal Handlebars code, i.e.:
   </ul>
 </script>
 [/code]
+
+See also <a href="http://stackoverflow.com/questions/14905264/unable-to-render-template-with-data-set-in-setupcontroller/21274223#21274223">this StackOverflow discussion</a> (not sure if it's related).
 
 [[Category:Web Development]]
 [[Category:Javascript]]
