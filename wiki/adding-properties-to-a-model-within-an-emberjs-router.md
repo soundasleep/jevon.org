@@ -2,7 +2,7 @@
 layout: page
 title:  "Adding properties to a model within an EmberJS router"
 author: jevon
-date:   2014-01-21 20:47:01 +1300
+date:   2014-01-21 20:47:21 +1300
 ---
 
 [[EmberJS]]
@@ -41,11 +41,11 @@ This can then be used as normal Handlebars code, i.e.:
 
 [code handlebars]
 <script type="text/x-handlebars" data-template-name="todos/index">
-  {<!-- -->{route}}
+  {{{empty}}{route}}
   <ul id="todo-list">
-    {<!-- -->{#each itemController="todo"}}
+    {{{empty}}{#each itemController="todo"}}
       // ...
-    {<!-- -->{/each}}
+    {{{empty}}{/each}}
   </ul>
 </script>
 [/code]
