@@ -2,7 +2,7 @@
 layout: page
 title:  "Adding properties to a model within an EmberJS router"
 author: jevon
-date:   2014-01-21 20:48:01 +1300
+date:   2014-01-21 20:48:50 +1300
 ---
 
 [[EmberJS]]
@@ -41,16 +41,16 @@ This can then be used as normal Handlebars code, i.e.:
 
 [code handlebars]
 <script type="text/x-handlebars" data-template-name="todos/index">
-  {{{empty}}{route}}
+  {{route}}
   <ul id="todo-list">
-    {{{empty}}{#each itemController="todo"}}
+    {{#each itemController="todo"}}
       // ...
-    {{{empty}}{/each}}
+    {{/each}}
   </ul>
 </script>
 [/code]
 
-See also <a href="http://stackoverflow.com/questions/14905264/unable-to-render-template-with-data-set-in-setupcontroller/21274223#21274223">this StackOverflow discussion</a> (not sure if it's related).
+See also <a href="http://stackoverflow.com/questions/14905264/unable-to-render-template-with-data-set-in-setupcontroller/21274223#21274223">this StackOverflow discussion</a> (not sure if it's related) and my Github commit that covers a related use case.
 
 [[Category:Web Development]]
 [[Category:Javascript]]
