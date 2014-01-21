@@ -2,7 +2,7 @@
 layout: page
 title:  "Adding properties to a model within an EmberJS router"
 author: jevon
-date:   2014-01-21 20:47:21 +1300
+date:   2014-01-21 20:48:01 +1300
 ---
 
 [[EmberJS]]
