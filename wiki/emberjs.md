@@ -2,10 +2,12 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-01-21 20:45:02 +1300
+date:   2014-01-21 20:46:03 +1300
 ---
 
 [[Javascript]]
+
+# [[Adding properties to a model within an EmberJS router]]
 
 ==How I learnt EmberJS and [[Coffeescript]] and [[Git]]==
 
@@ -37,50 +39,6 @@ I'll be using the tutorial at http://emberjs.com/guides/getting-started.
 # Use the <a href="http://js2coffee.org/">js2coffee</a> interpreter a lot
 # You will have problems with things like `function(){...}.property("x")`; <a href="http://stackoverflow.com/questions/12777782/ember-computed-properties-in-coffeescript">wrap the function with brackets</a>
 
-==Adding properties to a model within a router==
-
-With the following router and handlebars code, I wanted to add a runtime property from the router to the template/view (note, using [[CoffeeScript]]):
-
-[code coffee]
-Todos.TodosIndexRoute = Ember.Route.extend(
-	model: ->
-		@modelFor 'todos'
-
-	renderTemplate: (controller) ->
-		@render 'todos/index',
-			controller: controller
-)
-[/code]
-
-What you need to do is create a new `setupController` function, but this must both set the `model` _again_, along with any other parameters:
-
-[code coffee]
-Todos.TodosIndexRoute = Ember.Route.extend(
-	model: ->
-		@modelFor 'todos'
-
-	renderTemplate: (controller) ->
-		@render 'todos/index',
-			controller: controller
-
-	setupController: (controller, model) ->
-		controller.set 'route', 'index'
-		controller.set 'model', model
-)
-[/code]
-
-This can then be used as normal Handlebars code, i.e.:
-
-[code handlebars]
-<script type="text/x-handlebars" data-template-name="todos/index">
-  {{route}}
-  <ul id="todo-list">
-    {{#each itemController="todo"}}
-      // ...
-    {{/each}}
-  </ul>
-</script>
-[/code]
-
+[[Category:EmberJS]]
 [[Category:Web Development]]
 [[Category:Javascript]]
