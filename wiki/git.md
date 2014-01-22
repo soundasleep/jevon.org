@@ -2,7 +2,7 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-01-21 20:57:17 +1300
+date:   2014-01-22 19:37:42 +1300
 ---
 
 ==Things [[SVN]] can do that [[Git]] can't==
@@ -23,6 +23,13 @@ Switching branches:
 
 # `git checkout master` - switch back to master and update local copy to master
 # `git pull` - download remote Git to local Git
+
+<a href="http://stackoverflow.com/questions/5601931/best-and-safest-way-to-merge-a-git-branch-into-master">Merge branch back in</a>:
+
+# `git checkout master` - switch back to master and update local copy to master
+# `git pull origin master` - update local Git from remote Git
+# `git merge (new-branch-name)` - do the merge from the given branch (I don't know what happens with conflicts!)
+# `git push origin master` - push local Git to remote Git
 
 [[Category:Git]]
 [[Category:Subversion]]
