@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-01-21 20:46:03 +1300
+date:   2014-01-22 18:56:18 +1300
 ---
 
 [[Javascript]]
@@ -38,6 +38,33 @@ I'll be using the tutorial at http://emberjs.com/guides/getting-started.
 # Configure Sublime Text to treat [[Handlebars]] templates as HTML: [[HTML syntax validation within Handlebars templates in Sublime Text 2]]
 # Use the <a href="http://js2coffee.org/">js2coffee</a> interpreter a lot
 # You will have problems with things like `function(){...}.property("x")`; <a href="http://stackoverflow.com/questions/12777782/ember-computed-properties-in-coffeescript">wrap the function with brackets</a>
+
+==DEPRECATION: Action handlers implemented directly on controllers are deprecated in favor of action handlers on an `actions` object==
+
+Can also mean that an error has been thrown and your ApplicationController does not define an 'error' action (or EmberJS has created you an 'error' action and its incorrectly misinterpreting it as a directly implemented action? I have no idea). 
+
+This looks like an EmberJS bug and I guess it can be ignored - any other errors will be correctly reported (just sadly with no reliable stacktrace).
+
+==arrangedContent.addArrayObserver is not a function==
+
+Are you trying to #each over a bare JS object rather than an Ember array? e.g. instead of going:
+
+[code]
+Todos.TodosIndexRoute = Ember.Route.extend(
+	model: ->
+		todos: @store.find 'todo'
+		feeds: @store.find 'feed'
+		# ...
+)
+
+{{#each itemController="todo"}}
+[/code]
+
+Going:
+
+[code]
+{{#each todos itemController="todo"}}
+[/code]
 
 [[Category:EmberJS]]
 [[Category:Web Development]]
