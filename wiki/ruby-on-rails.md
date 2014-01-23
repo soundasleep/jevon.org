@@ -2,7 +2,7 @@
 layout: page
 title:  "Ruby on Rails"
 author: jevon
-date:   2014-01-23 15:03:54 +1300
+date:   2014-01-23 17:54:41 +1300
 ---
 
 [[Ruby]]
@@ -15,6 +15,10 @@ Following the <a href="http://guides.rubyonrails.org/getting_started.html">Getti
 # Install Ruby 1.9.3 from <a href="http://rubyinstaller.org/downloads/">the Windows Installer package</a>
 # Install the Ruby 1.9.3 devkit: <a href="http://rubyinstaller.org/downloads/">download the executable</a>, extract it somewhere, <a href="https://github.com/oneclick/rubyinstaller/wiki/Development-Kit#installation-instructions">follow the install instructions</a>
 # Install rails: `gem install rails`
+
+==Partial not rendering==
+
+Make sure you use `<%= render 'form' %>`, not the non-printing form without equals `<% render 'form' %>`. I'm guessing this is a different render to `render text:` in a controller.
 
 [[Category:Ruby]]
 [[Category:Rails]]
