@@ -2,7 +2,7 @@
 layout: page
 title:  "Ruby on Rails"
 author: jevon
-date:   2014-01-23 17:54:41 +1300
+date:   2014-01-23 18:56:02 +1300
 ---
 
 [[Ruby]]
@@ -19,6 +19,22 @@ Following the <a href="http://guides.rubyonrails.org/getting_started.html">Getti
 ==Partial not rendering==
 
 Make sure you use `<%= render 'form' %>`, not the non-printing form without equals `<% render 'form' %>`. I'm guessing this is a different render to `render text:` in a controller.
+
+==Adding a new database field after generation==
+
+Initial generation of a database table:
+
+[code]
+rails generate model User openid_identity:string created_at:date name:string
+rake db:migrate
+[/code]
+
+<a href="http://stackoverflow.com/questions/4805836/how-do-i-add-a-field-after-ive-run-rails-generate-model-scaffold">Adding a new field</a> 'last_login':
+
+[code]
+rails generate migration add_last_login_to_users last_login:date
+rake db:migrate
+[/code]
 
 [[Category:Ruby]]
 [[Category:Rails]]
