@@ -2,13 +2,13 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-01-23 14:10:35 +1300
+date:   2014-01-23 14:10:45 +1300
 ---
 
 ==Things [[SVN]] can do that [[Git]] can't==
 
 # Checkout into a non-empty directory; you have to checkout into a temporary directory, move the .git folder into the non-empty directory, and run a `git reset --hard`
-# Add an empty folder. <a href="http://stackoverflow.com/a/115992/39531>It's impossible in Git</a>! `.keep` files everywhere!
+# Add an empty folder. <a href="http://stackoverflow.com/a/115992/39531">It's impossible in Git</a>! `.keep` files everywhere!
 
 ==Branching==
 
