@@ -2,7 +2,7 @@
 layout: page
 title:  "SVN"
 author: jevon
-date:   2014-01-15 19:56:56 +1300
+date:   2014-01-30 19:36:00 +1300
 ---
 
 [[SVN]] is the acronym for [[Subversion]]. Also see [[Git]].
@@ -10,6 +10,7 @@ date:   2014-01-15 19:56:56 +1300
 # <a href="http://journals.jevon.org/users/jevon-phd/entry/19739">Subclipse vs Subversive</a> - a discussion on [[Eclipse]] plugins
 # [[StatSVN]]
 # [[Slow Subversion Performance over HTTPS]]
+# [[Synchronising SVN and Git]]
 
 ==Error: XYZ has no ancestry information.==
 This was using the Eclipse SVN client. I tried and tried and couldn't get around this error. Eventually I gave up and just moved my workspace to a new location, and checked out all my projects again.
