@@ -2,7 +2,7 @@
 layout: page
 title:  "Synchronising SVN and Git"
 author: jevon
-date:   2014-01-30 19:07:08 +1300
+date:   2014-01-30 19:14:38 +1300
 ---
 
 [[SVN]] / [[Git]]
@@ -43,6 +43,8 @@ This will create individual commits for each SVN revision.
 # Pull from remote Git into local Git: `git pull`
 # Update the local Git from remote SVN: `git svn rebase`
 # Commit changes to remote SVN: `git svn dcommit` (each commit will appear as a new revision)
+
+I haven't found any way for Github to correctly recognise my old e-mail address commits as part of my Github profile: https://github.com/soundasleep/svntime/commits/master - even new commits made after adding my Google Code e-mail address as an email address to my Github profile.
 
 [[Category:Subversion]]
 [[Category:Git]]
