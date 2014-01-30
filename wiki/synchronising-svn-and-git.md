@@ -2,7 +2,7 @@
 layout: page
 title:  "Synchronising SVN and Git"
 author: jevon
-date:   2014-01-30 19:14:38 +1300
+date:   2014-01-30 19:27:50 +1300
 ---
 
 [[SVN]] / [[Git]]
@@ -13,9 +13,19 @@ Based on <a href="http://viget.com/extend/effectively-using-git-with-subversion"
 
 Note that this means that all revisions and issues will all appear to come from the same user. Setting up SVN/Git synchronisation to support multiple users with correct authentication requires <a href="https://github.com/mrts/git-svn-bridge">a lot of extra architecture and work and security for storing passwords</a>.
 
+==0. Create a map of SVN authors to Git authors==
+
+This will let Github blame your commits properly with the `-A` flag. For example `svn-authors.txt`:
+
+[code]
+soundasleep@gmail.com = Jevon Wright <jevon@jevon.org>
+soundasleep = Jevon Wright <jevon@jevon.org>
+(no author) = Google Code <code@google.com>
+[/code]
+
 ==1. Clone remote SVN into local Git==
 
-# Execute `git svn clone -s https://svntime.googlecode.com/svn/trunk/ svntime`
+# Execute `git svn clone -s https://svntime.googlecode.com/svn/ svntime -A svn-authors.txt` (NOT the /trunk dir! The `-s` flag assumes `/trunk`.)
 
 ==2. Push local Git into remote Git==
 
