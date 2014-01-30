@@ -2,8 +2,10 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-01-23 14:10:45 +1300
+date:   2014-01-30 18:53:55 +1300
 ---
+
+# [[Synchronising SVN and Git]]
 
 ==Things [[SVN]] can do that [[Git]] can't==
 
