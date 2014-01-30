@@ -2,7 +2,7 @@
 layout: page
 title:  "Synchronising SVN and Git"
 author: jevon
-date:   2014-01-30 19:05:50 +1300
+date:   2014-01-30 19:07:08 +1300
 ---
 
 [[SVN]] / [[Git]]
@@ -35,8 +35,8 @@ This will create individual commits for each SVN revision.
 
 ==4. Merge remote SVN changes into local Git==
 
-# Update the local Git from remote SVN: `git svn rebase`
-# Push to remote Git: `git push` (each revision will appear as a new commit)
+# Update the local Git from remote SVN: `git svn rebase` (each revision will appear as a new commit)
+# Push to remote Git: `git push` 
 
 ==5. Merge remote Git changes into SVN==
 
