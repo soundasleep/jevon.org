@@ -2,7 +2,7 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-01-30 18:53:55 +1300
+date:   2014-02-02 17:25:29 +1300
 ---
 
 # [[Synchronising SVN and Git]]
@@ -33,6 +33,13 @@ Switching branches:
 # `git pull origin master` - update local Git from remote Git
 # `git merge (new-branch-name)` - do the merge from the given branch (I don't know what happens with conflicts!)
 # `git push origin master` - push local Git to remote Git
+
+Merge two different branches (e.g. you are working on _target_ and want to merge in branch _source_):
+
+# `git checkout (target-branch-name)` - switch back to master and update local copy to master
+# `git pull origin (target-branch-name)` - update local Git from remote Git
+# `git merge (source-branch-name)` - do the merge from the given branch (I don't know what happens with conflicts!)
+# `git push --set-upstream origin (target-branch-name)` - push local Git to remote Git
 
 [[Category:Git]]
 [[Category:Subversion]]
