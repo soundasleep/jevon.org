@@ -2,10 +2,11 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-02-09 17:20:36 +1300
+date:   2014-02-09 17:48:22 +1300
 ---
 
 # [[Synchronising SVN and Git]]
+# To check out: <a href="https://github.com/nvie/gitflow/wiki/Windows">Using Git on Windows</a>
 
 ==Things [[SVN]] can do that [[Git]] can't==
 
