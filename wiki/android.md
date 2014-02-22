@@ -2,7 +2,7 @@
 layout: page
 title:  "Android"
 author: jevon
-date:   2014-02-23 01:52:39 +1300
+date:   2014-02-23 01:53:14 +1300
 ---
 
 [[Articles]]
@@ -25,18 +25,18 @@ This error can occur within the Android SDK Manager on Windows 7, if the SDK man
 ==Displaying a message box==
 
 [code java]
-					new AlertDialog.Builder(MainActivity.this)
-						.setTitle("Result")
-						.setMessage("Downloaded " + json.getJSONObject("rates").length() + " rates")
-						.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
-							@Override
-							public void onClick(DialogInterface dialog, int which) {
-								// do nothing
-							}
-						})
-						.show();
+new AlertDialog.Builder(MainActivity.this)
+	.setTitle("Result")
+	.setMessage("Downloaded " + json.getJSONObject("rates").length() + " rates")
+	.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+		@Override
+		public void onClick(DialogInterface dialog, int which) {
+			// do nothing
+		}
+	})
+	.show();
 [/code]
 
-(You have to `setPositiveButton` for the OK button to appear.)
+Based on <a href="http://stackoverflow.com/questions/2115758/how-to-display-alert-dialog-in-android">StackOverflow answer</a>. (You have to `setPositiveButton` for the OK button to appear.)
 
 [[Category:Android]]
