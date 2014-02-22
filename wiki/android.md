@@ -2,7 +2,7 @@
 layout: page
 title:  "Android"
 author: jevon
-date:   2014-02-23 01:53:14 +1300
+date:   2014-02-23 01:53:28 +1300
 ---
 
 [[Articles]]
@@ -27,7 +27,7 @@ This error can occur within the Android SDK Manager on Windows 7, if the SDK man
 [code java]
 new AlertDialog.Builder(MainActivity.this)
 	.setTitle("Result")
-	.setMessage("Downloaded " + json.getJSONObject("rates").length() + " rates")
+	.setMessage("Hello world!")
 	.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
 		@Override
 		public void onClick(DialogInterface dialog, int which) {
