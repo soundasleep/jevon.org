@@ -2,12 +2,14 @@
 layout: page
 title:  "Android"
 author: jevon
-date:   2014-02-23 01:53:28 +1300
+date:   2014-02-23 03:01:46 +1300
 ---
 
 [[Articles]]
 
 Also see [[Java]], [[Eclipse]], [[Galaxy S3]]
+
+# <a href="http://developer.android.com/tools/building/index.html">Building and Releasing with Eclipse ADT</a>
 
 ==URL not found: Access is denied==
 
