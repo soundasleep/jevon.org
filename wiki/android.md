@@ -2,7 +2,7 @@
 layout: page
 title:  "Android"
 author: jevon
-date:   2014-02-20 15:19:59 +1300
+date:   2014-02-23 01:52:39 +1300
 ---
 
 [[Articles]]
@@ -21,5 +21,22 @@ This error can occur within the Android SDK Manager on Windows 7, if the SDK man
 # Download the SDK Tools for an Existing IDE from https://developer.android.com/sdk/index.html#ExistingIDE, install, but do not run the Android SDK manager
 # Install the Eclipse ADT Plugins from https://developer.android.com/sdk/installing/installing-adt.html
 # Install packages using the Android SDK manager, as in https://developer.android.com/sdk/installing/adding-packages.html
+
+==Displaying a message box==
+
+[code java]
+					new AlertDialog.Builder(MainActivity.this)
+						.setTitle("Result")
+						.setMessage("Downloaded " + json.getJSONObject("rates").length() + " rates")
+						.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+							@Override
+							public void onClick(DialogInterface dialog, int which) {
+								// do nothing
+							}
+						})
+						.show();
+[/code]
+
+(You have to `setPositiveButton` for the OK button to appear.)
 
 [[Category:Android]]
