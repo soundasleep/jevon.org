@@ -2,7 +2,7 @@
 layout: page
 title:  "Android"
 author: jevon
-date:   2014-02-23 03:01:46 +1300
+date:   2014-02-23 15:23:22 +1300
 ---
 
 [[Articles]]
@@ -10,6 +10,7 @@ date:   2014-02-23 03:01:46 +1300
 Also see [[Java]], [[Eclipse]], [[Galaxy S3]]
 
 # <a href="http://developer.android.com/tools/building/index.html">Building and Releasing with Eclipse ADT</a>
+# <a href="http://stackoverflow.com/a/11493625/39531">Attaching source to `android.jar`</a> (does not require any additional software installation; just link through to `android-sdk/sources/android-18/`)
 
 ==URL not found: Access is denied==
 
