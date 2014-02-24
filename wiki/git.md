@@ -2,7 +2,7 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-02-24 20:26:09 +1300
+date:   2014-02-24 21:09:28 +1300
 ---
 
 # [[Synchronising SVN and Git]]
@@ -44,6 +44,20 @@ Merge two different branches (e.g. you are working on _target_ and want to merge
 # `git pull origin (target-branch-name)` - update local Git from remote Git
 # `git merge (source-branch-name)` - do the merge from the given branch (I don't know what happens with conflicts!)
 # `git push --set-upstream origin (target-branch-name)` - push local Git to remote Git
+
+==Merging with TortoiseMerge==
+
+I really like TortoiseSVN's merge tool, and with a bit of wrangling <a href="http://stackoverflow.com/questions/5190188/why-cant-i-use-tortoisemerge-as-my-git-merge-tool-on-windows">you can get Git to use it too</a>.
+
+Add the following files to `Gitsharegit-guilibmergetool.tcl` just before the `error_popup [mc "Unsupported merge tool '%s'" $tool]` block:
+
+[code tcl]
+tortoisemerge {
+    set cmdline [list TortoiseMerge.exe -base:"$BASE" -mine:"$LOCAL" -theirs:"$REMOTE" -merged:"$MERGED"]
+}
+[/code]
+
+And then you can run GUI merges using `git mergetool -t tortoisemerge`.
 
 [[Category:Git]]
 [[Category:Subversion]]
