@@ -2,7 +2,7 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-02-24 21:09:55 +1300
+date:   2014-02-24 21:23:19 +1300
 ---
 
 # [[Synchronising SVN and Git]]
@@ -44,6 +44,11 @@ Merge two different branches (e.g. you are working on _target_ and want to merge
 # `git pull origin (target-branch-name)` - update local Git from remote Git
 # `git merge (source-branch-name)` - do the merge from the given branch (I don't know what happens with conflicts!)
 # `git push --set-upstream origin (target-branch-name)` - push local Git to remote Git
+
+Other commands:
+
+# `git merge --abort` - revert a merge
+# `git diff --cached myfile.txt` - see the diff of a _staged_ file (i.e. already been resolved)
 
 ==Merging with TortoiseMerge==
 
