@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-01-22 18:56:18 +1300
+date:   2014-02-24 17:06:44 +1300
 ---
 
 [[Javascript]]
@@ -15,7 +15,7 @@ I'll be using the tutorial at http://emberjs.com/guides/getting-started.
 
 # Install [[Sublime Text 2]] as an IDE.
 # Install [[git]] and [[nano]]. Use [[nano]] as the default git commit message editor, because vim support on the Windows command prompt is pretty poor: `git config --global core.editor nano`
-# Install the Sublime Linter plugin for ST2, which will provide syntax checking support, by checking out <a href="https://github.com/SublimeLinter/SublimeLinter">SublimeLinter</a> into your ST2 packages directory (since Sublime Linter is ST3 now): `%APPDATA%/Sublime Text 2/Packages`. This will give you things like [[PHP]] syntax error checking.
+# Install the Sublime Linter plugin for ST2, which will provide syntax checking support, --by checking out <a href="https://github.com/SublimeLinter/SublimeLinter">SublimeLinter</a> into your ST2 packages directory (since Sublime Linter is ST3 now): `%APPDATA%/Sublime Text 2/Packages`-- by installing <a href="https://sublime.wbond.net/installation#st2">Package Control</a> and installing _Preferences > Package Control > Install Package > (wait for list to load) > Sublime Linter for ST3_ (seems to work OK). This will give you things like [[PHP]] syntax error checking.
 # <a href="http://nodejs.org/download/">Install Node.js</a> which will also install NPM (Node.js package manager)
 # Use npm to install coffeescript: `npm install -g coffee-script`
 # Check that coffeescript is working: `coffee -v`
