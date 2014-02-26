@@ -2,7 +2,7 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-02-24 21:23:56 +1300
+date:   2014-02-26 19:02:17 +1300
 ---
 
 # [[Synchronising SVN and Git]]
@@ -20,7 +20,7 @@ date:   2014-02-24 21:23:56 +1300
 
 Create a branch:
 
-# `git branch (new-branch-name)` - *create* a new branch
+# `git branch (new-branch-name)` - *create* a new branch, does not switch to branch
 # `git push origin (new-branch-name)` - ??
 # `git checkout (new-branch-name)` - switch to branch and update local copy to branch
 # `git commit -p` - commit changes to local Git
