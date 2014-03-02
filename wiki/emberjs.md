@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-02-25 18:25:01 +1300
+date:   2014-03-02 19:47:08 +1300
 ---
 
 [[Javascript]]
@@ -65,6 +65,29 @@ Going:
 
 [code]
 {{#each todos itemController="todo"}}
+[/code]
+
+==Computed model properties==
+
+An idea. Instead of:
+
+[code coffeescript]
+date: DS.attr('string')
+time: DS.attr('string')
+[/code]
+
+Maybe:
+
+[code coffeescript]
+datetime: DS.attr('date')
+date: (->
+  datetime = @get('datetime')
+  moment(datetime).format('YYYY-MM-DD') unless Em.isEmpty(datetime)
+).property('datetime')
+time: (->
+  datetime = @get('datetime')
+  moment(datetime).format('HH:mm) unless Em.isEmpty(datetime)
+).property('datetime')
 [/code]
 
 [[Category:EmberJS]]
