@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-03-02 19:47:08 +1300
+date:   2014-03-04 16:01:23 +1300
 ---
 
 [[Javascript]]
@@ -88,6 +88,26 @@ time: (->
   datetime = @get('datetime')
   moment(datetime).format('HH:mm) unless Em.isEmpty(datetime)
 ).property('datetime')
+[/code]
+
+==Cannot perform operations on a Metamorph that is not in the DOM==
+
+The *Error: Cannot perform operations on a Metamorph that is not in the DOM.* can be caused if you have a [[Handlebars]] template <a href="http://stackoverflow.com/questions/17495659/ember-js-cannot-perform-operations-on-a-metamorph-that-is-not-in-the-dom-cau">using HTML comments rather than Handlebars comments</a>. e.g.:
+
+[code]
+<!-- something
+      {{#each controller}}
+    ...
+-->
+[/code]
+
+This should be:
+
+[code]
+{{!-- something
+      {{#each controller}}
+    ...
+--}}
 [/code]
 
 [[Category:EmberJS]]
