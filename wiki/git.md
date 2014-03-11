@@ -2,7 +2,7 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-02-26 20:01:48 +1300
+date:   2014-03-11 16:30:41 +1300
 ---
 
 # [[Synchronising SVN and Git]]
@@ -42,7 +42,8 @@ Merge two different branches (e.g. you are working on _target_ and want to merge
 
 # `git checkout (target-branch-name)` - switch back to master and update local copy to master
 # `git pull origin (target-branch-name)` - update local Git from remote Git
-# `git merge (source-branch-name)` - do the merge from the given branch (I don't know what happens with conflicts!)
+# `git pull origin (source-branch-name)` - update local Git from remote Git, merge in branch
+# `git merge (source-branch-name)` - do the merge from the given branch (use `git mergetool` to handle unresolved conflicts)
 # `git push --set-upstream origin (target-branch-name)` - push local Git to remote Git
 
 Other commands:
