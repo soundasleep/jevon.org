@@ -2,7 +2,7 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-03-11 16:30:41 +1300
+date:   2014-03-11 21:02:46 +1300
 ---
 
 # [[Synchronising SVN and Git]]
@@ -45,6 +45,12 @@ Merge two different branches (e.g. you are working on _target_ and want to merge
 # `git pull origin (source-branch-name)` - update local Git from remote Git, merge in branch
 # `git merge (source-branch-name)` - do the merge from the given branch (use `git mergetool` to handle unresolved conflicts)
 # `git push --set-upstream origin (target-branch-name)` - push local Git to remote Git
+
+Revert a branch merge on another branch without destroying the commits used elsewhere (technically just reverse merging):
+
+# `git checkout (target-branch-name)`
+# `git revert HEAD^^` - `^^` means revert back the last two commits on this branch
+# `git commit && git push` - add commit message, push the reverse merge to remote Git
 
 Other commands:
 
