@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-03-12 21:44:41 +1300
+date:   2014-03-12 21:55:04 +1300
 ---
 
 [[Javascript]]
@@ -119,6 +119,44 @@ You can modify an existing `View` to handle `valueBinding` in any way you want:
     # this.value is set to the date, correctly
     @$().select2 "val", @value
   ).observes('value')
+[/code]
+
+==Prevent JQuery.ajax.error from triggering an error state in Ember==
+
+Normally if you call $.ajax() and the requests results in an error, your `errorCallback` will still be called, but then Ember in all its wisdom will redirect you to the error state regardless.
+
+One way to solve this is to wrap the AJAX call in a Promise, which prevents the error state from being called - it looks like Ember assumes that a JQuery.ajax() error can reject the entire Promise within say, an `afterModel` callback.
+
+[code coffeescript]
+App.MyAPI =
+  query: (method, data, callback, errorCallback) ->
+
+    App.MyAPI.queryPromise(method, data).then (results) ->
+      # promise passed
+      callback(results)
+    , (status) ->
+      # promise failed
+      errorCallback(status)
+
+  queryPromise: (method, data) ->
+    new Ember.RSVP.Promise (resolve, reject) ->
+
+      $.ajax
+        type: "get"
+        url: "http://whatever.com"
+        crossDomain: true
+        dataType: "json"
+        success: (data) ->
+          # All async code has to be wrapped with an Ember.run
+          Ember.run ->
+            resolve(data)
+        error: (xhr, ajaxOptions, thrownError) ->
+          Ember.run ->
+            if (xhr.responseJSON) 
+              resolve(xhr.responseJSON)
+            else
+              reject(xhr)
+              
 [/code]
 
 [[Category:EmberJS]]
