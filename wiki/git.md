@@ -2,7 +2,7 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-03-11 21:02:46 +1300
+date:   2014-03-12 17:32:07 +1300
 ---
 
 # [[Synchronising SVN and Git]]
@@ -49,7 +49,8 @@ Merge two different branches (e.g. you are working on _target_ and want to merge
 Revert a branch merge on another branch without destroying the commits used elsewhere (technically just reverse merging):
 
 # `git checkout (target-branch-name)`
-# `git revert HEAD^^` - `^^` means revert back the last two commits on this branch
+# `git revert HEAD^` - `^` means revert back the last commit on this branch
+# `git revert HEAD^^` - `^^` means revert back the second-last commit on this branch (*Git cares not about the order of commits on a branch, only individual commits with no relationship to each other!)
 # `git commit && git push` - add commit message, push the reverse merge to remote Git
 
 Other commands:
