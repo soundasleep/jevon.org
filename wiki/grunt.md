@@ -2,7 +2,7 @@
 layout: page
 title:  "Grunt"
 author: jevon
-date:   2014-03-12 18:42:26 +1300
+date:   2014-03-12 18:43:24 +1300
 ---
 
 [[Grunt]] is a build tool much like [[Ant]] or [[Maven]], but using the beauty of [[Javascript]].
@@ -20,3 +20,7 @@ See <a href="http://gruntjs.com/creating-plugins">Creating Plugins in Grunt</a>.
 # Author your plugin.
 # Run `npm adduser` to create a new user for publishing plugins - use any username/password/etc you want.
 # Run `npm publish` to publish the Grunt plugin to npm!
+
+[[Category:Javascript]]
+[[Category:Coffeescript]]
+[[Category:Build tools]]
