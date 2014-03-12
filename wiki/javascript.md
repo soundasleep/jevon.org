@@ -2,12 +2,14 @@
 layout: page
 title:  "Javascript"
 author: jevon
-date:   2012-02-22 09:17:38 +1300
+date:   2014-03-12 18:43:39 +1300
 ---
 
 Some Javascript snippets:
 
 # <a href="http://journals.jevon.org/users/jevon-phd/entry/19924">Block Scope in Javascript</a>
+# [[Grunt]]
+# [[EmberJS]]
 
 ==Confirm Page Exit==
 To pop up a dialog saying "Are you sure you want to navigate away from this page? Press OK to continue, or Cancel to stay on the current page." when you try to leave the page, you can use this:
@@ -33,11 +35,11 @@ To select all the checkbox elements in a &lt;select&gt; form (until it reaches a
 ==Check E-mail Validity==
 A simple check to check the validity of e-mail addresses (I think it works for most cases):
 [code]function check_email(obj) {
-	x = new RegExp("\\w+@\\w+\\.\\w");
+	x = new RegExp("\w+@\w+\.\w");
 	if (x.test(obj.value)) {
 		return true;
 	} else {
-		alert("Your value of \"" + obj.value + "\" is not a valid e-mail address.");
+		alert("Your value of "" + obj.value + "" is not a valid e-mail address.");
 		return false;
 	}
 }[/code]
