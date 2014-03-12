@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-03-12 18:43:10 +1300
+date:   2014-03-12 21:44:41 +1300
 ---
 
 [[Javascript]]
@@ -108,6 +108,17 @@ This should be:
       {{#each controller}}
     ...
 --}}
+[/code]
+
+==Hooking to `valueBinding`==
+
+You can modify an existing `View` to handle `valueBinding` in any way you want:
+
+[code coffeescript]
+  updateValue: (->
+    # this.value is set to the date, correctly
+    @$().select2 "val", @value
+  ).observes('value')
 [/code]
 
 [[Category:EmberJS]]
