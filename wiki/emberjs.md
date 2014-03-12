@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-03-12 21:55:04 +1300
+date:   2014-03-12 21:55:41 +1300
 ---
 
 [[Javascript]]
@@ -121,7 +121,7 @@ You can modify an existing `View` to handle `valueBinding` in any way you want:
   ).observes('value')
 [/code]
 
-==Prevent JQuery.ajax.error from triggering an error state in Ember==
+==Prevent JQuery.ajax.error from triggering an error state in Ember<a name="ajax_promises"></a>==
 
 Normally if you call $.ajax() and the requests results in an error, your `errorCallback` will still be called, but then Ember in all its wisdom will redirect you to the error state regardless.
 
