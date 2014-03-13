@@ -2,10 +2,10 @@
 layout: page
 title:  "Jevon Wright"
 author: jevon
-date:   2014-03-13 20:12:59 +1300
+date:   2014-03-13 20:13:12 +1300
 ---
 
-Hey, that's me ^_^ <!--You can also see some [[Photos|photography]].-->
+Hey, that's me ^_^
 
 ==Vitals==
 
