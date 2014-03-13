@@ -2,7 +2,7 @@
 layout: page
 title:  "Software"
 author: jevon
-date:   2013-10-30 19:05:08 +1300
+date:   2014-03-13 20:08:39 +1300
 ---
 
 As [[Jevon Wright|I'm]] a software developer, I use the Internet to distribute my work around. Here's a list of some of the programs I've made.
@@ -22,6 +22,7 @@ As [[Jevon Wright|I'm]] a software developer, I use the Internet to distribute m
 
 ==Major Releases==
 # <a href="http://cryptfolio.com">CryptFolio</a>
+# <a href="https://play.google.com/store/apps/details?id=com.cryptfolio.calculator">Crypto Converter</a> (Android)
 # [[Text Deformer]]
 # [[Galaxy Games Online]]
 # <a href="http://simplectest.sf.net">Simple C++ Testing Framework (simplectest)</a>
