@@ -2,20 +2,22 @@
 layout: page
 title:  "Software"
 author: jevon
-date:   2014-03-13 20:09:11 +1300
+date:   2014-03-13 20:09:39 +1300
 ---
 
 As [[Jevon Wright|I'm]] a software developer, I use the Internet to distribute my work around. Here's a list of some of the programs I've made.
 
 ==Open Source==
 <ul><li><a href="https://github.com/soundasleep">Projects on Github</a></li></ul>
+
 <ul><li><a href="http://code.google.com/u/soundasleep/">Projects on Google Code</a>
   <ul><li><a href="http://code.google.com/p/fridgex/">Fridgex</a></li>
   <li><a href="http://code.google.com/p/iacleaner/">Internet Application Formatter/Cleaner</a></li>
   <li><a href="http://code.google.com/p/iaml/">Internet Application Modelling Language</a> (<a href="http://openiaml.org/">home page</a>)</li>
   <li><a href="http://code.google.com/p/openclerk/">openclerk</a> (<a href="http://openclerk.org/">home page</a>)</li>
-  <li><a href="http://code.google.com/p/svntime/">svntime</a></li></ul></li>
-<li><a href="http://sourceforge.net/users/jevonwright/">Projects on Sourceforge.net</a>
+  <li><a href="http://code.google.com/p/svntime/">svntime</a></li></ul></li></ul>
+
+<ul><li><a href="http://sourceforge.net/users/jevonwright/">Projects on Sourceforge.net</a>
   <ul><li><a href="http://sourceforge.net/projects/iaml/">Internet Application Modelling Language</a> (old)</li>
   <li><a href="http://sourceforge.net/projects/webofpatterns/">Web of Patterns</a></li>
   <li><a href="http://sourceforge.net/projects/simplectest/">Simple C++ Testing Framework</a></li>
