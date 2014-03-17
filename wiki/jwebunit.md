@@ -2,7 +2,7 @@
 layout: page
 title:  "JWebUnit"
 author: jevon
-date:   2012-09-05 20:29:21 +1200
+date:   2014-03-17 20:03:30 +1300
 ---
 
 [[Articles]]
@@ -36,6 +36,12 @@ public void testSearchWithEmptySearchString() {
 	}
 	// ...
 }[/code]
+
+# Running arbitrary Javascript
+
+[code java]
+((HtmlPage) ((HtmlUnitTestingEngineImpl) getTestingEngine()).getCurrentWindow().getEnclosedPage()).executeJavaScript("alert('hello, world!');");
+[/code]
 
 [[Category:Java]]
 [[Category:Testing]]
