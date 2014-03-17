@@ -2,10 +2,10 @@
 layout: page
 title:  "Maven"
 author: jevon
-date:   2012-05-08 12:12:08 +1200
+date:   2014-03-17 16:02:32 +1300
 ---
 
-[[Maven]] is a build/release tool, but <a href="http://twitter.com/soundasleep/status/9608999562">I don't like it very much</a>.
+[[Maven]] is a build/release tool mostly for [[Java]], but <a href="http://twitter.com/soundasleep/status/9608999562">I don't like it very much</a>.
 
 ==Commands==
 
@@ -35,7 +35,7 @@ This means there is no "pom.xml" in the current directory. Perhaps you are not i
          <id>i_hate_maven</id>
      </provides>
      <configuration>
-        <jdkHome>C:\program files\java\jdk1.6.0_02</jdkHome>
+        <jdkHome>C:program filesjavajdk1.6.0_02</jdkHome>
      </configuration>
   </toolchain>
 </toolchains>[/code]
@@ -52,7 +52,7 @@ This will still not work, because Maven is insisting on a 1.5 JVM, and supplying
          <id>i_hate_maven</id>
      </provides>
      <configuration>
-        <jdkHome>C:\program files\java\jdk1.6.0_02</jdkHome>
+        <jdkHome>C:program filesjavajdk1.6.0_02</jdkHome>
      </configuration>
   </toolchain>
   <toolchain>
@@ -63,7 +63,7 @@ This will still not work, because Maven is insisting on a 1.5 JVM, and supplying
          <id>i_hate_maven_2</id>
      </provides>
      <configuration>
-        <jdkHome>C:\program files\java\jdk1.6.0_02</jdkHome>
+        <jdkHome>C:program filesjavajdk1.6.0_02</jdkHome>
      </configuration>
   </toolchain>
 </toolchains>[/code]
