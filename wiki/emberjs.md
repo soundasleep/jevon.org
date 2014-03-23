@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-03-12 21:55:41 +1300
+date:   2014-03-23 15:24:18 +1300
 ---
 
 [[Javascript]]
@@ -158,6 +158,10 @@ App.MyAPI =
               reject(xhr)
               
 [/code]
+
+==Get an object from the data store synchronously==
+
+`this.store.getById('user', 1)` (thanks @eoinkelly)
 
 [[Category:EmberJS]]
 [[Category:Web Development]]
