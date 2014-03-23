@@ -2,7 +2,7 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-03-12 17:32:17 +1300
+date:   2014-03-23 16:52:49 +1300
 ---
 
 # [[Synchronising SVN and Git]]
@@ -58,6 +58,7 @@ Other commands:
 # `git merge --abort` - revert a merge
 # `git diff --cached myfile.txt` - see the diff of a _staged_ file (i.e. already been resolved)
 # `git reset --hard` - throw away all local changes *including any committed, but unpushed, changes*
+# `git checkout myfile.txt` - analogous to `svn revert myfile.txt`
 
 ==Merging with TortoiseMerge==
 
