@@ -2,7 +2,7 @@
 layout: page
 title:  "Bower"
 author: jevon
-date:   2014-03-24 16:58:53 +1300
+date:   2014-03-24 16:59:36 +1300
 ---
 
 [[Bower]] is a package manager, similar to [[npm]], but seems to be more about client side stuff.
@@ -20,5 +20,7 @@ This is particularly complicated if you are <a href="https://github.com/bower/bo
 
 For example, my first Bower component: 
 
-[[Category:Project management]]
+[[Category:Dependencies]]
+[[Category:Git]]
+[[Category:Web development]]
 [[Category:Javascript]]
