@@ -2,13 +2,14 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-03-23 15:24:18 +1300
+date:   2014-03-24 16:59:14 +1300
 ---
 
 [[Javascript]]
 
 # [[Adding properties to a model within an EmberJS router]]
 # <a href="http://stackoverflow.com/questions/17923340/how-to-sort-model-in-ember-js">Sorting controller model results in EmberJS with `sortProperties`</a>
+# [[npm]], [[bower]]
 
 ==How I learnt EmberJS and [[Coffeescript]] and [[Git]]==
 
