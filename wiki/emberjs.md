@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-03-24 16:59:14 +1300
+date:   2014-03-25 19:14:26 +1300
 ---
 
 [[Javascript]]
@@ -163,6 +163,10 @@ App.MyAPI =
 ==Get an object from the data store synchronously==
 
 `this.store.getById('user', 1)` (thanks @eoinkelly)
+
+==ManyArray==
+
+A `ManyArray` has no `.length` or `[index]` or `for obj in array`. Instead, use `.get('length')`, `.objectAt(index)` and `array.forEach(function(obj) { ... })`.
 
 [[Category:EmberJS]]
 [[Category:Web Development]]
