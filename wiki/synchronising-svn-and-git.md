@@ -2,10 +2,12 @@
 layout: page
 title:  "Synchronising SVN and Git"
 author: jevon
-date:   2014-03-27 19:50:29 +1300
+date:   2014-03-27 19:51:01 +1300
 ---
 
 [[SVN]] / [[Git]]
+
+# <a href="http://stackoverflow.com/questions/22549055/re-establishing-a-git-svn-clone-on-a-separate-machine">Re-establishing a git svn clone on a separate machine</a>
 
 I wanted to clone my existing SVN repository, https://code.google.com/p/svntime/, into a new Git repository https://github.com/soundasleep/svntime.
 
