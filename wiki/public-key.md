@@ -2,10 +2,10 @@
 layout: page
 title:  "Public Key"
 author: jevon
-date:   2013-08-20 08:49:54 +1200
+date:   2014-03-27 16:18:41 +1300
 ---
 
-Here's my [[GPG]] public key. Use this if you'd like to encrypt any communications sent to me.
+Here's my [[GPG]] public key. Use this if you'd like to encrypt any communications sent to me. Also see https://keybase.io/jevon
 
 [code]
 -----BEGIN PGP PUBLIC KEY BLOCK-----
