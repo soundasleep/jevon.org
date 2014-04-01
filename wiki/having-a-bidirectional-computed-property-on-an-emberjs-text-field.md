@@ -2,7 +2,7 @@
 layout: page
 title:  "Having a bidirectional computed property on an EmberJS text field"
 author: jevon
-date:   2014-04-01 21:28:11 +1300
+date:   2014-04-01 21:28:25 +1300
 ---
 
 [[EmberJS]]
@@ -45,7 +45,7 @@ App.TextFieldTime = Ember.TextField.extend
 Finally, using this in a [[Handlebars]] template:
 
 [code handlebars]
-{{view App.TextFieldTime valueBinding="timeHumanReadable" isVisibleBinding="isNormalTime" class="my-time-input-class"}}[
+{{view App.TextFieldTime valueBinding="timeHumanReadable" isVisibleBinding="isNormalTime" class="my-time-input-class"}}
 [/code]
 
 [[Category:Javascript]]
