@@ -2,14 +2,14 @@
 layout: page
 title:  "Having a bidirectional computed property on an EmberJS text field"
 author: jevon
-date:   2014-04-01 21:27:00 +1300
+date:   2014-04-01 21:28:11 +1300
 ---
 
 [[EmberJS]]
 
 We had an issue where we had an EmberJS model with an attribute `time`, but we wanted to display this as a human-readable time that was also user-editable. 
 
-We couldn't just add a computed property and `valueBinding` to this, because `valueBinding` is bidirectional only. It seemed too messy to create a new model property `timeHumanReadable` that would then be updated accordingly - we only want to store the original time for API purposes.
+We couldn't just add a computed property and use an {{input valueBinding="..."}}, because `valueBinding` is one directional only (if we change the _TextField_, it may change the computed property but this computed property will not change the original property). It seemed too messy to create a new model property `timeHumanReadable` that would then be updated accordingly - we only want to store the original time for API purposes.
 
 The solution was to first create a computed property `timeHumanReadable` on the original Ember model:
 
