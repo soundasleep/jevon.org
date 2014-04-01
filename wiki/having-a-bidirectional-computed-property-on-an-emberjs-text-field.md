@@ -2,7 +2,7 @@
 layout: page
 title:  "Having a bidirectional computed property on an EmberJS text field"
 author: jevon
-date:   2014-04-01 21:26:31 +1300
+date:   2014-04-01 21:27:00 +1300
 ---
 
 [[EmberJS]]
@@ -11,7 +11,7 @@ We had an issue where we had an EmberJS model with an attribute `time`, but we w
 
 We couldn't just add a computed property and `valueBinding` to this, because `valueBinding` is bidirectional only. It seemed too messy to create a new model property `timeHumanReadable` that would then be updated accordingly - we only want to store the original time for API purposes.
 
-The solution was to first create a computed property `timeHumanReadable`:
+The solution was to first create a computed property `timeHumanReadable` on the original Ember model:
 
 [code coffee]
 App.MyModel = DS.Model.extend
@@ -42,7 +42,7 @@ App.TextFieldTime = Ember.TextField.extend
     @model.set('timeHumanReadable', moment(converted, 'HH:mm').format('h:mma'))
 [/code]
 
-Finally, use this in a Handlebars template:
+Finally, using this in a [[Handlebars]] template:
 
 [code handlebars]
 {{view App.TextFieldTime valueBinding="timeHumanReadable" isVisibleBinding="isNormalTime" class="my-time-input-class"}}[
