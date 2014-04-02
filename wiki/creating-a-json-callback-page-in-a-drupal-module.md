@@ -2,12 +2,12 @@
 layout: page
 title:  "Creating a JSON callback page in a Drupal module"
 author: jevon
-date:   2014-04-02 14:57:42 +1300
+date:   2014-04-02 14:57:51 +1300
 ---
 
 [[Drupal]]
 
-This can useful for [[AJAX]] scripts or [[REST]] applications. In your `my_module.module`, extend your `hook_menu()`:
+This can useful for [[AJAX]] scripts or [[REST]] applications that need [[JSON]] output. In your `my_module.module`, extend your `hook_menu()`:
 
 [code php]
 /**
