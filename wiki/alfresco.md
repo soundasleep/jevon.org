@@ -2,7 +2,7 @@
 layout: page
 title:  "Alfresco"
 author: jevon
-date:   2013-12-02 20:54:46 +1300
+date:   2014-04-02 16:17:15 +1300
 ---
 
 [[Alfresco]] is a content management system for [[Tomcat]] and written in [[Java]].
@@ -174,6 +174,10 @@ I was getting this error when trying to connect to an Alfresco Secure [[FTP]] se
 var node = utils.getNodeFromString("workspace://SpacesStore/8cf7277f-a753-43dc-b498-f352c8ca815c");
 node.remove();
 [/code]
+
+==Failed to execute search: Caused by: java.lang.RuntimeException: net.sf.acegisecurity.AuthenticationCredentialsNotFoundException: A valid SecureContext was not provided in the RequestContext==
+
+Are you trying to create a Webscript with `<authentication>none</authentication>`? _Even if you pass in valid authentication through Basic (etc)`, the Webscript still won't be authorised to do anything. You need to change this to `<authentication>user</authentication>`.
 
 [[Category:Alfresco]]
 [[Category:Java]]
