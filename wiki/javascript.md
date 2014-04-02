@@ -2,7 +2,7 @@
 layout: page
 title:  "Javascript"
 author: jevon
-date:   2014-03-12 18:43:39 +1300
+date:   2014-04-02 14:59:27 +1300
 ---
 
 Some Javascript snippets:
@@ -35,7 +35,7 @@ To select all the checkbox elements in a &lt;select&gt; form (until it reaches a
 ==Check E-mail Validity==
 A simple check to check the validity of e-mail addresses (I think it works for most cases):
 [code]function check_email(obj) {
-	x = new RegExp("\w+@\w+\.\w");
+	x = new RegExp("w+@w+.w");
 	if (x.test(obj.value)) {
 		return true;
 	} else {
@@ -65,3 +65,4 @@ Note that this can reduce accessibility.
 [[Category:Languages]]
 [[Category:Programming Snippets]]
 [[Category:Technology]]
+[[Category:Javascript]]
