@@ -2,7 +2,7 @@
 layout: page
 title:  "Alfresco"
 author: jevon
-date:   2014-04-02 16:18:16 +1300
+date:   2014-04-02 16:18:32 +1300
 ---
 
 [[Alfresco]] is a content management system for [[Tomcat]] and written in [[Java]].
@@ -179,11 +179,11 @@ node.remove();
 
 Are you trying to create a Webscript with the following authentication?
 
-[code]<authentication>none</authentication>[/code]
+[code xml]<authentication>none</authentication>[/code]
 
 _Even if you pass in valid authentication through Basic (etc)_, the Webscript still won't be authorised to do anything. You need to change this Webscript authentication to:
 
-[code]`<authentication>user</authentication>`[/code]
+[code xml]<authentication>user</authentication>[/code]
 
 [[Category:Alfresco]]
 [[Category:Java]]
