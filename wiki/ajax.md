@@ -2,10 +2,10 @@
 layout: page
 title:  "AJAX"
 author: jevon
-date:   2006-03-21 22:26:19 +1300
+date:   2014-04-02 14:59:05 +1300
 ---
 
-[[AJAX]] stands for ''Asynchronous Javascript and XML''.
+[[AJAX]] stands for _Asynchronous [[Javascript]] and [[XML]]_.
 
 XMLHttpRequest object reference: http://www.xulplanet.com/references/objref/XMLHttpRequest.html
  
