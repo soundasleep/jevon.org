@@ -2,12 +2,13 @@
 layout: page
 title:  "Drupal"
 author: jevon
-date:   2013-10-01 19:19:42 +1300
+date:   2014-04-02 14:54:46 +1300
 ---
 
 [[Drupal]] is a [[PHP]]-based web application framework, similar to [[Symfony]] (but also wildly different and with much worse documentation).
 
 # [[Basic non-trivial Drupal form validation example]]
+# [[Creating a JSON callback page in Drupal]]
 
 ==Disabling Broken Drupal Modules==
 Enabled modules are stored within the database (such as [[MySQL]]), so you will need to edit the database manually. To list all the currently enabled modules:
