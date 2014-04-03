@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-04-03 14:56:17 +1300
+date:   2014-04-03 14:56:58 +1300
 ---
 
 [[Javascript]]
@@ -173,7 +173,7 @@ A `ManyArray` has no `.length` or `[index]` or `for obj in array`. Instead, use 
 
 * `Em.set(App, 'mapInstance', Map)`
 * `Em.get(App, 'mapInstance')` or `App.get('mapInstance')`
-* `App.__container__.lookup('store:main')` - maybe to get the data store instance
+* `App.__container__.lookup('store:main')` - maybe to get the data store instance (thanks @jamesotron)
 
 [[Category:EmberJS]]
 [[Category:Web Development]]
