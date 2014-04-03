@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-04-03 14:55:34 +1300
+date:   2014-04-03 14:56:17 +1300
 ---
 
 [[Javascript]]
@@ -169,9 +169,11 @@ App.MyAPI =
 
 A `ManyArray` has no `.length` or `[index]` or `for obj in array`. Instead, use `.get('length')`, `.objectAt(index)` and `array.forEach(function(obj) { ... })`.
 
-==Storing properties==
+==Untested==
 
-(untested) `Em.set(App, 'mapInstance', Map)` -> `Em.get(App, 'mapInstance')` or `App.get('mapInstance')`
+* `Em.set(App, 'mapInstance', Map)`
+* `Em.get(App, 'mapInstance')` or `App.get('mapInstance')`
+* `App.__container__.lookup('store:main')` - maybe to get the data store instance
 
 [[Category:EmberJS]]
 [[Category:Web Development]]
