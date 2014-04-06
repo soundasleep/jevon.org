@@ -2,7 +2,7 @@
 layout: page
 title:  "Synchronising SVN and Git"
 author: jevon
-date:   2014-03-27 19:51:01 +1300
+date:   2014-04-06 21:41:19 +1200
 ---
 
 [[SVN]] / [[Git]]
@@ -59,6 +59,17 @@ This will create individual commits for each SVN revision.
 # Commit changes to remote SVN: `git svn dcommit` (each commit will appear as a new revision)
 
 If you correctly set up the author map list, then your Github will correctly recognise old commits.
+
+==6. Merge a Pull Request==
+
+# For example, https://github.com/soundasleep/openclerk/pull/1
+# Follow the Github command line instructions to checkout the pull request branch as a separate remote branch
+# Execute `git rebase` to rebase this branch to the latest master - you'll probably have to `git mergetool` a lot, since the branch will have no knowledge of master's commits
+# `git push` and `git svn dcommit` as usual
+
+==Unable to extract revision information from commit==
+
+If you get this during a `git svn dcommit`, then you've probably messed up the merge somewhere - <a href="http://stackoverflow.com/a/7772948/39531">you need to</a> `git rebase` before you merge changes between branches.
 
 [[Category:Subversion]]
 [[Category:Git]]
