@@ -2,7 +2,7 @@
 layout: page
 title:  "Synchronising SVN and Git"
 author: jevon
-date:   2014-04-06 21:41:19 +1200
+date:   2014-04-06 22:01:59 +1200
 ---
 
 [[SVN]] / [[Git]]
@@ -70,6 +70,10 @@ If you correctly set up the author map list, then your Github will correctly rec
 ==Unable to extract revision information from commit==
 
 If you get this during a `git svn dcommit`, then you've probably messed up the merge somewhere - <a href="http://stackoverflow.com/a/7772948/39531">you need to</a> `git rebase` before you merge changes between branches.
+
+==git svn rebase: Unknown option: strategy-option==
+
+Good luck. I think this is a bug.
 
 [[Category:Subversion]]
 [[Category:Git]]
