@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-04-08 16:07:16 +1200
+date:   2014-04-08 16:07:41 +1200
 ---
 
 [[Javascript]]
@@ -174,14 +174,14 @@ A `ManyArray` has no `.length` or `[index]` or `for obj in array`. Instead, use 
 From http://stackoverflow.com/questions/10468164/using-ember-js-text-field-ids-for-a-label-tag, the following won't work:
 
 [code hbs]
-<label {{bindAttr for="content.field_id"}}> {{content.label}}</label>
+<label {{bind-attr for="content.field_id"}}> {{content.label}}</label>
 {{view Ember.TextField valueBinding="content.data" id="content.field_id"}}
 [/code]
 
 You need to instead use:
 
 [code hbs]
-<label {{bindAttr for="view.textField.elementId"}}> {{content.label}}</label>
+<label {{bind-attr for="view.textField.elementId"}}> {{content.label}}</label>
 {{view Ember.TextField valueBinding="content.value" viewName="textField"}}
 [/code]
 
