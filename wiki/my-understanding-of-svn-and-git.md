@@ -2,7 +2,7 @@
 layout: page
 title:  "My understanding of SVN and Git"
 author: jevon
-date:   2014-04-08 20:51:25 +1200
+date:   2014-04-08 20:52:14 +1200
 ---
 
 [[SVN]] / [[Git]]
@@ -19,7 +19,7 @@ This is critical, and explains why Git struggles to merge without conflicts (it 
 * In Subversion, a revision may store references to related (parent) revisions through metadata.
 * In Git, a commit has multiple parents and is stored as a tree.
 
-This means Git can _only_ be considered as a tree of repository snapshots, whereas Subversion can be considered a tree of repository changesets. To get the HEAD of a branch, in Git you just take the top commit; in Subversion, you replay through all the changesets.
+This means Git can _only_ be considered as a tree of repository snapshots, whereas Subversion can be considered a tree of repository changesets. To get the HEAD of a branch, in Git you just take the top commit; in Subversion, you replay through all the changesets from the root.
 
 For a long time, Subversion did not store enough information about merged parents in metadata, which is why it had a bit of history about being terrible to merge. It now stores plenty of metadata now (and this metadata is revisioned too).
 
