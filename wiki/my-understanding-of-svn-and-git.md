@@ -2,7 +2,7 @@
 layout: page
 title:  "My understanding of SVN and Git"
 author: jevon
-date:   2014-04-08 20:47:13 +1200
+date:   2014-04-08 20:47:51 +1200
 ---
 
 [[SVN]] / [[Git]]
