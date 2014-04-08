@@ -2,12 +2,13 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-04-08 19:13:29 +1200
+date:   2014-04-08 20:23:44 +1200
 ---
 
 # [[Synchronising SVN and Git]]
 # <a href="http://www.uvd.co.uk/blog/labs/configuring-jenkins-continuous-integration-server-to-work-with-git/">Configuring Jenkins CI to work with Git on Ubuntu</a>
 # To check out: <a href="https://github.com/nvie/gitflow/wiki/Windows">Using Git on Windows</a>
+# [[My understanding of SVN and Git]]
 
 ==Things [[SVN]] can do that [[Git]] can't==
 
