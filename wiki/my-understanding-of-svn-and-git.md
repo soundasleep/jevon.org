@@ -2,7 +2,7 @@
 layout: page
 title:  "My understanding of SVN and Git"
 author: jevon
-date:   2014-04-08 20:35:56 +1200
+date:   2014-04-08 20:36:04 +1200
 ---
 
 [[SVN]] / [[Git]]
@@ -10,7 +10,7 @@ date:   2014-04-08 20:35:56 +1200
 Based on the short white paper _Git: from the bottom up_, I think I can personally understand the differences between Subversion and Git as:
 
 ===Commit===
-* In Subversion, a commit is a set of changes to some files in your repository ("revision").
+* In Subversion, a commit is a set of changes to some files in your repository ("revision" or "changeset").
 * In Git, a commit is a snapshot of your repository ("branch").
 
 This is critical, and explains why Git struggles to merge without conflicts (it has no idea of changes - only different snapshots) without using advanced functionality like `rerere` (which isn't turned on by default) or using custom merge strategies.
