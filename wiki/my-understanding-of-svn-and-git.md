@@ -2,7 +2,7 @@
 layout: page
 title:  "My understanding of SVN and Git"
 author: jevon
-date:   2014-04-08 20:47:51 +1200
+date:   2014-04-08 20:48:20 +1200
 ---
 
 [[SVN]] / [[Git]]
@@ -13,13 +13,13 @@ Based on the short white paper _Git: from the bottom up_, I've interpreted the d
 * In Subversion, a commit is a set of changes to some files in your repository ("revision" or "changeset").
 * In Git, a commit is a snapshot of your repository ("branch").
 
-This is critical, and explains why Git struggles to merge without conflicts (it has no idea of changes - only top-level repository snapshots) without using advanced functionality like `rerere` (which isn't turned on by default) or using custom merge strategies.
+This is critical, and explains why Git struggles to merge without conflicts (it has no idea of changes - only top-level branch snapshots) without using advanced functionality like `rerere` (which isn't turned on by default) or using custom merge strategies.
 
 ===Parents===
 * In Subversion, a revision may store references to related (parent) revisions through metadata.
 * In Git, a commit has multiple parents and is stored as a tree.
 
-This means Git can _only_ be considered as a tree of repository snapshots, whereas Subversion can be considered a tree of repository changesets. To get the HEAD of a repository, in Git you just take the top commit; in Subversion, you replay through all the changesets.
+This means Git can _only_ be considered as a tree of repository snapshots, whereas Subversion can be considered a tree of repository changesets. To get the HEAD of a branch, in Git you just take the top commit; in Subversion, you replay through all the changesets.
 
 For a long time, Subversion did not store enough information about merged parents in metadata, which is why it had a bit of history about being terrible to merge. It now stores plenty of metadata now (and this metadata is revisioned too).
 
