@@ -2,7 +2,7 @@
 layout: page
 title:  "My understanding of SVN and Git"
 author: jevon
-date:   2014-04-08 20:37:53 +1200
+date:   2014-04-08 20:38:22 +1200
 ---
 
 [[SVN]] / [[Git]]
@@ -29,7 +29,7 @@ For a long time, Subversion did not store enough information about merged parent
 
 I think this means there's almost no difference between `git merge A` into B, and `git merge B` into A - they do the same thing - but in the first case, we have A and C as tree heads, and in the second base, B and C.
 
-This also means that a Git merge only considers the two top commits (repository snapshots) of each branch, which is why merge conflicts are so massive and requires you to re-edit whole files. Whereas Subversion considers the combination of all change sets, and only requires editing of conflicting individual merges.
+This also means that a Git merge only considers the two top commits (repository snapshots) of each branch, which is why merge conflicts are so massive and requires you to re-edit whole files. Whereas Subversion considers the combination of all change sets, and only requires editing of conflicting individual diffs.
 
 ===Rebase===
 * In Git, a "rebase" sets the parent commit of the current branch root, to the parent commit of the source branch, and then transforms every previous branch commit to a new tree, and sets the parent commit of this tree to the top of the new branch root.
