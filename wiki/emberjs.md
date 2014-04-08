@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-04-08 16:10:20 +1200
+date:   2014-04-08 16:10:42 +1200
 ---
 
 [[Javascript]]
@@ -178,7 +178,7 @@ From http://stackoverflow.com/questions/10468164/using-ember-js-text-field-ids-f
 {{view Ember.TextField valueBinding="content.data" id="content.field_id"}}
 [/code]
 
-You need to instead use:
+You need to instead use a `viewName` and reference this with a `bind-attr`:
 
 [code hbs]
 <label {{bind-attr for="view.textField.elementId"}}> {{content.label}}</label>
