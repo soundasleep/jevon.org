@@ -2,7 +2,7 @@
 layout: page
 title:  "My understanding of SVN and Git"
 author: jevon
-date:   2014-04-08 20:48:20 +1200
+date:   2014-04-08 20:48:56 +1200
 ---
 
 [[SVN]] / [[Git]]
@@ -34,7 +34,7 @@ This also means that a Git merge only considers the two top commits (repository 
 ===Rebase===
 * In Git, a "rebase" sets the parent commit of the current branch root, to the parent commit of the source branch, and then transforms every previous branch commit to a new tree, and sets the parent commit of this tree to the top of the new branch root.
 
-It looks like this is great as long as the commits aren't related, otherwise you'll have endless conflicts for every conflicting commit in both branches, because snapshots can only be compared in terms of files (rather than changes). Which is my experience too.
+It looks like this is great as long as the commits aren't related, otherwise you'll have endless conflicts for every conflicting commit in both branches, because snapshots can only be compared in terms of files (rather than changes). Which is my experience too. However, because it's considering each commit individually rather than just the top two commits (as in the case of `merge`), it produces better results.
 
 The closest concept in Subversion for a rebase would be branching the target branch into a new branch, and then merging in all changesets from a different branch. This is identical to a Subversion merge, which is why the concept doesn't make sense.
 
