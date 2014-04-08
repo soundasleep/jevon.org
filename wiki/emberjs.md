@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-04-08 16:07:41 +1200
+date:   2014-04-08 16:10:20 +1200
 ---
 
 [[Javascript]]
@@ -169,7 +169,7 @@ App.MyAPI =
 
 A `ManyArray` has no `.length` or `[index]` or `for obj in array`. Instead, use `.get('length')`, `.objectAt(index)` and `array.forEach(function(obj) { ... })`.
 
-==Adding a `<label from="id">` to an Ember text field or view==
+==Adding a `label from="id"` to an Ember text field or view==
 
 From http://stackoverflow.com/questions/10468164/using-ember-js-text-field-ids-for-a-label-tag, the following won't work:
 
