@@ -2,7 +2,7 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-04-02 14:36:44 +1300
+date:   2014-04-08 19:13:04 +1200
 ---
 
 # [[Synchronising SVN and Git]]
@@ -74,6 +74,21 @@ tortoisemerge {
 [/code]
 
 And then you can run GUI merges using `git mergetool -t tortoisemerge`.
+
+==Your configuration specifies to merge with the ref 'branch' from the remote, but no such ref was fetched.==
+
+[code]
+~$ git checkout my-branch
+Switched to branch 'my-branch'
+Your branch is behind 'origin/my-branch' by 3 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+~$ git pull
+Your configuration specifies to merge with the ref 'my-branch'
+from the remote, but no such ref was fetched.
+[/code]
+
+This is secret Git speak for "your remote branch no longer exists". Try running a `git remote prune origin` to remove all branches that no longer exist on remote.
 
 [[Category:Git]]
 [[Category:Subversion]]
