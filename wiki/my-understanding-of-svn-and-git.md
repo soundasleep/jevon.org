@@ -2,7 +2,7 @@
 layout: page
 title:  "My understanding of SVN and Git"
 author: jevon
-date:   2014-04-08 20:38:22 +1200
+date:   2014-04-08 20:40:22 +1200
 ---
 
 [[SVN]] / [[Git]]
@@ -43,6 +43,12 @@ The closest concept in Subversion for a rebase would be branching the target bra
 * In Git, a tag is hidden away, similar to a branch but by default isn't pulled, and you can only interact with tags using voodoo magic
 
 I guess this is because there's no concept of `/trunk` in Git, so there's no where to place a `/tags`.
+
+===Conclusion===
+
+Git seems great if you want to spend most of your time acting as a version control repository administrator, and you want lots of powerful functionality.
+
+The critical concept (a commit being either a changeset or a repository snapshot) does not preclude a version control system from being centralised or distributed, so why isn't there a distributed version control system based around changesets?
 
 [[Category:Git]]
 [[Category:Subversion]]
