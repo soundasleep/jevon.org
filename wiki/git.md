@@ -2,7 +2,7 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-04-08 19:13:04 +1200
+date:   2014-04-08 19:13:29 +1200
 ---
 
 # [[Synchronising SVN and Git]]
@@ -88,7 +88,7 @@ Your configuration specifies to merge with the ref 'my-branch'
 from the remote, but no such ref was fetched.
 [/code]
 
-This is secret Git speak for "your remote branch no longer exists". Try running a `git remote prune origin` to remove all branches that no longer exist on remote.
+This is secret Git speak for "your remote branch no longer exists". Try running a `git remote prune origin` to <a href="http://stackoverflow.com/a/1072178/39531">remove all branches that no longer exist on remote</a>.
 
 [[Category:Git]]
 [[Category:Subversion]]
