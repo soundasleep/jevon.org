@@ -2,7 +2,7 @@
 layout: page
 title:  "My understanding of SVN and Git"
 author: jevon
-date:   2014-04-08 20:37:11 +1200
+date:   2014-04-08 20:37:53 +1200
 ---
 
 [[SVN]] / [[Git]]
@@ -25,7 +25,7 @@ For a long time, Subversion did not store enough information about merged parent
 
 ===Merge===
 * In Subversion, a "merge" combines the sets of changes from two branches into a new set of changes.
-* In Git, a "merge" sets the parent commits of a new commit to the two trees of both branches.
+* In Git, a "merge" sets the parent commits of a new commit to the two trees of both branches, and this commit contains the entire merge at once.
 
 I think this means there's almost no difference between `git merge A` into B, and `git merge B` into A - they do the same thing - but in the first case, we have A and C as tree heads, and in the second base, B and C.
 
