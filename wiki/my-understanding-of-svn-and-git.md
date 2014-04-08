@@ -2,12 +2,12 @@
 layout: page
 title:  "My understanding of SVN and Git"
 author: jevon
-date:   2014-04-08 20:40:22 +1200
+date:   2014-04-08 20:47:13 +1200
 ---
 
 [[SVN]] / [[Git]]
 
-Based on the short white paper _Git: from the bottom up_, I think I can personally understand the differences between Subversion and Git as:
+Based on the short white paper _Git: from the bottom up_, I've interpreted the differences between Subversion and Git as:
 
 ===Commit===
 * In Subversion, a commit is a set of changes to some files in your repository ("revision" or "changeset").
