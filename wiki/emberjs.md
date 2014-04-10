@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-04-10 18:35:07 +1200
+date:   2014-04-10 18:35:21 +1200
 ---
 
 [[Javascript]]
@@ -190,7 +190,7 @@ You need to instead use a `viewName` and reference this with a `bind-attr`:
 * `Em.set(App, 'mapInstance', Map)`
 * `Em.get(App, 'mapInstance')` or `App.get('mapInstance')`
 * `App.__container__.lookup('store:main')` - maybe to get the data store instance (thanks @jamesotron)
-* `App.__container__.lookup('router:main').router.transitionTo('myroute')` - manually transition to a route
+* `App.__container__.lookup('router:main').router.transitionTo('myroute')` - manually transition to a route (thanks @eoinkelly)
 
 [[Category:EmberJS]]
 [[Category:Web Development]]
