@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-04-13 17:01:55 +1200
+date:   2014-04-13 17:21:42 +1200
 ---
 
 [[Javascript]]
@@ -12,6 +12,7 @@ date:   2014-04-13 17:01:55 +1200
 # [[Having a bidirectional computed property on an EmberJS text field]]
 # <a href="http://www.akshay.cc/blog/2013-02-22-debugging-ember-js-and-ember-data.html">EmberJS debugging tips</a>
 # [[Adding a Select2 View in EmberJS]]
+# [[Using Radio Buttons in EmberJS]]
 # [[npm]], [[bower]]
 
 ==How I learnt EmberJS and [[Coffeescript]] and [[Git]]==
