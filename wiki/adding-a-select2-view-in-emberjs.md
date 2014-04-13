@@ -2,7 +2,7 @@
 layout: page
 title:  "Adding a Select2 View in EmberJS"
 author: jevon
-date:   2014-04-13 17:06:06 +1200
+date:   2014-04-13 17:06:18 +1200
 ---
 
 [[EmberJS]]
@@ -37,7 +37,7 @@ App.SelectOrder = Ember.TextField.extend
     # this.value is set to the date, correctly
     @$().select2 "val", @value
   ).observes('value')
-[/coffee]
+[/code]
 
 `updateValue()` is important to reflect changes in the model/controller.
 
