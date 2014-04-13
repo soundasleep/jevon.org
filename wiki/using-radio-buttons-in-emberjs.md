@@ -2,12 +2,12 @@
 layout: page
 title:  "Using Radio Buttons in EmberJS"
 author: jevon
-date:   2014-04-13 17:23:52 +1200
+date:   2014-04-13 17:24:06 +1200
 ---
 
 [[EmberJS]]
 
-Based on <a href="http://thoughts.z-dev.org/2013/07/04/post/">Ember.RadioButton</a>, this updated view also updates radio buttons (with [[JQuery]]) if the model changes outside of clicking the buttons themselves:
+Based on <a href="http://thoughts.z-dev.org/2013/07/04/post/">Ember.RadioButton</a>, this updated view also updates radio buttons (with [[JQuery]]) if the model changes outside of clicking the buttons themselves with `updateChecked()`:
 
 [code coffee]
 App.RadioButton = Ember.View.extend
