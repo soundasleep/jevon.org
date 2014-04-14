@@ -2,7 +2,7 @@
 layout: page
 title:  "Grunt"
 author: jevon
-date:   2014-04-15 02:29:12 +1200
+date:   2014-04-15 03:47:42 +1200
 ---
 
 [[Grunt]] is a build tool much like [[Ant]] or [[Maven]], but using the beauty of [[Javascript]].
