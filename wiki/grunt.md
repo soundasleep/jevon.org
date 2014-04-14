@@ -2,7 +2,7 @@
 layout: page
 title:  "Grunt"
 author: jevon
-date:   2014-03-12 18:45:26 +1300
+date:   2014-04-15 02:29:12 +1200
 ---
 
 [[Grunt]] is a build tool much like [[Ant]] or [[Maven]], but using the beauty of [[Javascript]].
@@ -24,6 +24,17 @@ See <a href="http://gruntjs.com/creating-plugins">Creating Plugins in Grunt</a>.
 # Author your plugin.
 # Run `npm adduser` to create a new user for publishing plugins - use any username/password/etc you want.
 # Run `npm publish` to publish the Grunt plugin to npm!
+
+==Getting Gruntfile.coffee working==
+
+# Install necessary Grunt packages: `npm install --save-dev grunt grunt-contrib-coffee grunt-cli`
+# Create a `Gruntfile.coffee`:
+[code coffeescript]
+module.exports = (grunt) ->
+  grunt.registerTask 'default', 'Try Logging', ->
+    grunt.log.write('Running the default task')
+[/code]
+# Run `grunt`
 
 [[Category:Javascript]]
 [[Category:Coffeescript]]
