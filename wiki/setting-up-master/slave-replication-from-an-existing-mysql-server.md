@@ -2,7 +2,7 @@
 layout: page
 title:  "Setting up Master/Slave Replication from an existing MySQL server"
 author: jevon
-date:   2014-04-16 20:10:12 +1200
+date:   2014-04-16 20:13:14 +1200
 ---
 
 [[MySQL]]
@@ -17,6 +17,17 @@ Currently https://cryptfolio.com is running off a single MySQL server. I want to
 
 I'll be using the <a href="http://dev.mysql.com/doc/refman/5.5/en/replication-howto.html">MySQL guide</a> to set up replication and cover my steps here.
 
-==todo==
+==1. Setup master==
+<a href="http://dev.mysql.com/doc/refman/5.5/en/replication-howto-masterbaseconfig.html">16.1.1.1 Setting the Replication Master Configuration</a>
+
+# Edit `my.cnf` and set:
+[code]
+[mysqld]
+log-bin=mysql-bin            # enable binary logging
+server-id=1                  # this ID cannot be used by any other server
+[/code]
+# Restart server
+
+
 
 [[Category:MySQL]]
