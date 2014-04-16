@@ -2,7 +2,7 @@
 layout: page
 title:  "Setting up Master/Slave Replication from an existing MySQL server"
 author: jevon
-date:   2014-04-16 21:30:13 +1200
+date:   2014-04-16 22:35:35 +1200
 ---
 
 [[MySQL]]
@@ -57,6 +57,23 @@ Make sure you have an existing session open. Also have another command line read
 ==4. Import the master snapshot and initialise the slave==
 
 # Copy over the snapshot from master to slave: `scp user@hostname:/path/to/dbdump.db ~/dbdump.db`
+# Shut down slave MySQL. Edit `/etc/mysql/my.cnf` and set `skip-slave-start=true` (so that the slave doesn't start while we're importing data). Start up MySQL.
 # Import the database into slave: `mysql -u user -p < dbdump.db`
+# Log into slave MySQL.
+# Execute `SHOW SLAVE STATUS;` to make sure that `Slave_IO_Running=No` (master/slave binlog) and `Slave_SQL_Running=No` (importing SQL). Make sure that `Read_Master_Log_Pos` is the same value as reported with `SHOW MSATER STATUS` earlier.
+# <a href="http://dev.mysql.com/doc/refman/5.5/en/replication-howto-slaveinit.html">Configure the master connection data</a>: `CHANGE MASTER TO master_host='...',master_user='...',master_password='...';` (the log pos and file will have been set with `mysqldump --master-data`)
+# Start the slave: `START SLAVE;`
+
+`SHOW SLAVE STATUS;` is your friend and primary means to understand what's going on. Interesting keys: 
+
+# `Slave_IO_Running` - if _Yes_, then the slave is connected to master (should be Yes)
+# `Slave_SQL_Running`- if _Yes_, then the slave is processing SQL queries from the binlog (should be Yes)
+# `Last_Error` - if `Slave_SQL_Running` is _No_, this field will display the last SQL error that caused sync to fail (should be empty)
+# `Seconds_Behind_Master` - a guess of how far slave is behind master. Should be 0.
+
+==Lots of Duplicate entry errors==
+
+# Check to see if the duplicate entries are of auto_increment fields and primary keys. Check to see if the data is already in the slave database. If so, you might be able to skip the failing query with `stop slave; set global sql_slave_skip_counter=2; start slave;`
+# If there are lots of duplicate primary keys, maybe the mysqldump failed. You can try temporarily setting (in `my.cnf`) `slave_skip_errors=1062` to get past the initial failing queries, and then turning it off while the slave catches up to master.
 
 [[Category:MySQL]]
