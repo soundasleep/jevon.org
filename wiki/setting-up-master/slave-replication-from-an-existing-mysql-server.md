@@ -2,7 +2,7 @@
 layout: page
 title:  "Setting up Master/Slave Replication from an existing MySQL server"
 author: jevon
-date:   2014-04-16 20:43:36 +1200
+date:   2014-04-16 21:00:28 +1200
 ---
 
 [[MySQL]]
@@ -32,6 +32,12 @@ server-id=1                  # this ID cannot be used by any other server
 
 # Purchase new Linode.
 # Set up <a href="https://library.linode.com/databases/mysql/ubuntu-12.04-precise-pangolin">MySQL</a>, <a href="https://library.linode.com/securing-your-server">iptables and SSH</a> appropriately.
-# Tune mysql 
+# Tune mysql with `mysqltuner` and previous experience
+# Edit `my.cnf` and set:
+[code]
+[mysqld]
+server-id=99                 # this ID cannot be used by any other server
+[/code]
+# Restart server
 
 [[Category:MySQL]]
