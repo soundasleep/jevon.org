@@ -2,7 +2,7 @@
 layout: page
 title:  "Setting up Master/Slave Replication from an existing MySQL server"
 author: jevon
-date:   2014-04-16 21:00:28 +1200
+date:   2014-04-16 21:04:03 +1200
 ---
 
 [[MySQL]]
@@ -27,6 +27,11 @@ log-bin=mysql-bin            # enable binary logging
 server-id=1                  # this ID cannot be used by any other server
 [/code]
 # Restart server
+# Create a <a href="http://dev.mysql.com/doc/refman/5.5/en/replication-howto-repuser.html">new slave user</a>
+[code]
+CREATE USER 'repl'@'%.mydomain.com' IDENTIFIED BY 'slavepass';
+GRANT REPLICATION SLAVE ON *.* TO 'repl'@'%.mydomain.com';
+[/code]
 
 ==2. Setup slave==
 
