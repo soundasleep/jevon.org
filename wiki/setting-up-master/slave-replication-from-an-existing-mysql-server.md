@@ -2,7 +2,7 @@
 layout: page
 title:  "Setting up Master/Slave Replication from an existing MySQL server"
 author: jevon
-date:   2014-04-16 22:35:47 +1200
+date:   2014-04-16 23:54:23 +1200
 ---
 
 [[MySQL]]
@@ -70,6 +70,8 @@ Make sure you have an existing session open. Also have another command line read
 * `Slave_SQL_Running`- if _Yes_, then the slave is processing SQL queries from the binlog (should be Yes)
 * `Last_Error` - if `Slave_SQL_Running` is _No_, this field will display the last SQL error that caused sync to fail (should be empty)
 * `Seconds_Behind_Master` - a guess of how far slave is behind master. Should be 0.
+
+Once you've got everything setup and running, edit `my.cnf` and disable `skip-slave-start`, and restart the MySQL server to make sure everything works OK.
 
 ==Lots of Duplicate entry errors==
 
