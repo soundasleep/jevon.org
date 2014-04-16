@@ -2,7 +2,7 @@
 layout: page
 title:  "Setting up Master/Slave Replication from an existing MySQL server"
 author: jevon
-date:   2014-04-16 23:54:23 +1200
+date:   2014-04-17 03:19:36 +1200
 ---
 
 [[MySQL]]
@@ -74,6 +74,8 @@ Make sure you have an existing session open. Also have another command line read
 Once you've got everything setup and running, edit `my.cnf` and disable `skip-slave-start`, and restart the MySQL server to make sure everything works OK.
 
 ==Lots of Duplicate entry errors==
+
+**Make sure that you aren't accidentally writing to your slave database!** Your slave database will have all the same users and permissions, so bad writes won't be noticed.
 
 # Check to see if the duplicate entries are of auto_increment fields and primary keys. Check to see if the data is already in the slave database. If so, you might be able to skip the failing query with `stop slave; set global sql_slave_skip_counter=2; start slave;`
 # If there are lots of duplicate primary keys, maybe the mysqldump failed. You can try temporarily setting (in `my.cnf`) `slave_skip_errors=1062` to get past the initial failing queries, and then turning it off while the slave catches up to master.
