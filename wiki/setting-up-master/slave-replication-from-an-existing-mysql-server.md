@@ -2,7 +2,7 @@
 layout: page
 title:  "Setting up Master/Slave Replication from an existing MySQL server"
 author: jevon
-date:   2014-04-16 20:13:14 +1200
+date:   2014-04-16 20:35:24 +1200
 ---
 
 [[MySQL]]
@@ -28,6 +28,10 @@ server-id=1                  # this ID cannot be used by any other server
 [/code]
 # Restart server
 
+==2. Setup slave==
 
+# Purchase new Linode.
+# Set up <a href="https://library.linode.com/databases/mysql/ubuntu-12.04-precise-pangolin">MySQL</a>, iptables and SSH appropriately.
+# Tune mysql 
 
 [[Category:MySQL]]
