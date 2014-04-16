@@ -2,7 +2,7 @@
 layout: page
 title:  "Setting up Master/Slave Replication from an existing MySQL server"
 author: jevon
-date:   2014-04-16 22:35:35 +1200
+date:   2014-04-16 22:35:47 +1200
 ---
 
 [[MySQL]]
@@ -66,10 +66,10 @@ Make sure you have an existing session open. Also have another command line read
 
 `SHOW SLAVE STATUS;` is your friend and primary means to understand what's going on. Interesting keys: 
 
-# `Slave_IO_Running` - if _Yes_, then the slave is connected to master (should be Yes)
-# `Slave_SQL_Running`- if _Yes_, then the slave is processing SQL queries from the binlog (should be Yes)
-# `Last_Error` - if `Slave_SQL_Running` is _No_, this field will display the last SQL error that caused sync to fail (should be empty)
-# `Seconds_Behind_Master` - a guess of how far slave is behind master. Should be 0.
+* `Slave_IO_Running` - if _Yes_, then the slave is connected to master (should be Yes)
+* `Slave_SQL_Running`- if _Yes_, then the slave is processing SQL queries from the binlog (should be Yes)
+* `Last_Error` - if `Slave_SQL_Running` is _No_, this field will display the last SQL error that caused sync to fail (should be empty)
+* `Seconds_Behind_Master` - a guess of how far slave is behind master. Should be 0.
 
 ==Lots of Duplicate entry errors==
 
