@@ -2,7 +2,7 @@
 layout: page
 title:  "Setting up Master/Slave Replication from an existing MySQL server"
 author: jevon
-date:   2014-04-16 21:27:34 +1200
+date:   2014-04-16 21:30:13 +1200
 ---
 
 [[MySQL]]
@@ -56,6 +56,7 @@ Make sure you have an existing session open. Also have another command line read
 
 ==4. Import the master snapshot and initialise the slave==
 
-# Copy over the snapshot: `scp user@hostname:/path/to/dbdump.db ~/dbdump.db`
+# Copy over the snapshot from master to slave: `scp user@hostname:/path/to/dbdump.db ~/dbdump.db`
+# Import the database into slave: `mysql -u user -p < dbdump.db`
 
 [[Category:MySQL]]
