@@ -2,7 +2,7 @@
 layout: page
 title:  "Linux"
 author: jevon
-date:   2013-05-27 02:06:37 +1200
+date:   2014-04-16 20:33:40 +1200
 ---
 
 [[Articles]]
@@ -74,11 +74,11 @@ Enter the new value, or press ENTER for the default
 Is the information correct? [Y/n] y
 [/code]
 
-<a href="http://www.ubuntuka.com/add-user-to-existing-group-ubuntu/">Add it to the</a> admin user group:
+<a href="http://www.ubuntuka.com/add-user-to-existing-group-ubuntu/">Add it to the</a> admin user group (or `adm` group):
 
 [code]sudo usermod -a -G admin username[/code]
 
-Or, define it as an explicit member of the admin group:
+Or, define it as an explicit member of the admin group (or `adm` group):
 
 [code]sudo usermod -g admin username[/code]
 
