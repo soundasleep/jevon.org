@@ -2,7 +2,7 @@
 layout: page
 title:  "Linux"
 author: jevon
-date:   2014-04-16 20:33:40 +1200
+date:   2014-04-16 20:50:51 +1200
 ---
 
 [[Articles]]
@@ -74,13 +74,17 @@ Enter the new value, or press ENTER for the default
 Is the information correct? [Y/n] y
 [/code]
 
-<a href="http://www.ubuntuka.com/add-user-to-existing-group-ubuntu/">Add it to the</a> admin user group (or `adm` group):
+<a href="http://www.ubuntuka.com/add-user-to-existing-group-ubuntu/">Add it to the</a> admin user group (or `adm`):):
 
 [code]sudo usermod -a -G admin username[/code]
 
 Or, define it as an explicit member of the admin group (or `adm` group):
 
 [code]sudo usermod -g admin username[/code]
+
+Or, define it explicitly as someone who can sudo (necessary on new Ubuntu releases):
+
+[code]sudo adduser username sudo[/code]
 
 Alternatively, you could use `visudo`, but be careful when editing the `sudoers` file!
 
