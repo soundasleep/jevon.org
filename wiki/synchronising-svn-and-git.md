@@ -2,7 +2,7 @@
 layout: page
 title:  "Synchronising SVN and Git"
 author: jevon
-date:   2014-04-06 22:01:59 +1200
+date:   2014-04-17 21:23:10 +1200
 ---
 
 [[SVN]] / [[Git]]
@@ -27,7 +27,7 @@ soundasleep = Jevon Wright <jevon@jevon.org>
 
 ==1. Clone remote SVN into local Git==
 
-# Execute `git svn clone -s https://svntime.googlecode.com/svn/ svntime -A svn-authors.txt` (NOT the /trunk dir! The `-s` flag assumes `/trunk`.)
+# Execute `git svn clone -s https://svntime.googlecode.com/svn/ svntime -A svn-authors.txt --prefix=origin/` (NOT the /trunk dir! The `-s` flag assumes `/trunk`.)
 
 You can also do subdirectories within the repository for subprojects without the `-s` flag, e.g. `git svn clone https://svntime.googlecode.com/svn/trunk/sub-project/ sub-project -A svn-authors.txt`.
 
