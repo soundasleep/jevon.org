@@ -2,10 +2,10 @@
 layout: page
 title:  "Bower"
 author: jevon
-date:   2014-03-24 16:59:36 +1300
+date:   2014-04-17 17:57:16 +1200
 ---
 
-[[Bower]] is a package manager, similar to [[npm]], but seems to be more about client side stuff.
+[[Bower]] is a package manager, similar to [[npm]] and [[composer]], but seems to be more about client side stuff.
 
 ==Registering and publishing a package on bower==
 
