@@ -2,7 +2,7 @@
 layout: page
 title:  "Composer"
 author: jevon
-date:   2014-04-17 17:57:27 +1200
+date:   2014-04-17 17:57:38 +1200
 ---
 
 [[PHP]]
@@ -11,7 +11,7 @@ date:   2014-04-17 17:57:27 +1200
 
 ==The requested package could not be found in any version, there may be a typo in the package name.==
 
-I got this error while trying to install a forked package.
+I got this error while trying to install a forked package https://github.com/soundasleep/html5lib-php.
 
 # Check that the package `composer.json` is referencing the new package name and GitHub URL everywhere.
 # Check that you have pushed your changes to Github.
