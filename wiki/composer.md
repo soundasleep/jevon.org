@@ -2,14 +2,14 @@
 layout: page
 title:  "Composer"
 author: jevon
-date:   2014-04-17 17:56:42 +1200
+date:   2014-04-17 17:57:27 +1200
 ---
 
 [[PHP]]
 
 <a href="https://getcomposer.org/">Composer</a> is a package management software similar to [[bower]] or [[npm]].
 
-==The requested package soundasleep/html5lib-php could not be found in any version, there may be a typo in the package name.==
+==The requested package could not be found in any version, there may be a typo in the package name.==
 
 I got this error while trying to install a forked package.
 
