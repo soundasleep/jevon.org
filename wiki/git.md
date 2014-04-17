@@ -2,7 +2,7 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-04-08 20:23:44 +1200
+date:   2014-04-17 19:17:57 +1200
 ---
 
 # [[Synchronising SVN and Git]]
@@ -90,6 +90,14 @@ from the remote, but no such ref was fetched.
 [/code]
 
 This is secret Git speak for "your remote branch no longer exists". Try running a `git remote prune origin` to <a href="http://stackoverflow.com/a/1072178/39531">remove all branches that no longer exist on remote</a>.
+
+==Having two remote repositories==
+
+[code]
+git clone https://github.com/original/foo
+git remote add thirdparty https://github.com/better/foo
+git push -u thirdparty master
+[/code]
 
 [[Category:Git]]
 [[Category:Subversion]]
