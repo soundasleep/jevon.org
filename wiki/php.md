@@ -2,7 +2,7 @@
 layout: page
 title:  "PHP"
 author: jevon
-date:   2013-12-05 20:53:05 +1300
+date:   2014-04-17 17:56:52 +1200
 ---
 
 [[Articles]]
@@ -14,6 +14,7 @@ date:   2013-12-05 20:53:05 +1300
 # [[Comparing Two SimpleXML Documents]]
 # [[Installing PHP 5.2 on CentOS]]
 # [[PDT vs PHPEclipse vs PhpStorm]]
+# [[Composer]]
 # <a href="http://www.delicious.com/jevonwright/php" class="delicious">Other pages tagged as "php"</a>
 
 And here is some code that is completely disgusting:
