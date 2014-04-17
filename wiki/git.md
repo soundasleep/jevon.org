@@ -2,7 +2,7 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-04-17 19:17:57 +1200
+date:   2014-04-17 19:19:50 +1200
 ---
 
 # [[Synchronising SVN and Git]]
@@ -97,6 +97,7 @@ This is secret Git speak for "your remote branch no longer exists". Try running 
 git clone https://github.com/original/foo
 git remote add thirdparty https://github.com/better/foo
 git push -u thirdparty master
+git pull -u thirdparty
 [/code]
 
 [[Category:Git]]
