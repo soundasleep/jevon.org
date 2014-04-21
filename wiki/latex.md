@@ -2,7 +2,7 @@
 layout: page
 title:  "Latex"
 author: jevon
-date:   2011-10-14 14:16:30 +1300
+date:   2014-04-21 16:49:18 +1200
 ---
 
 [[Latex]] is both a great typesetting system which separates presentation from content, and also makes it as difficult as machinely possible to let you properly present your content.
@@ -14,7 +14,7 @@ date:   2011-10-14 14:16:30 +1300
 # [[SVG in Latex]]
 # <a href="http://www.msu.edu/~harris41/latex_tablespacing.html">Vertical Spacing in Latex Tables</a>
 # [[Horizonal Spacing in Latex Tables]]
-# <a href="http://amath.colorado.edu/documentation/LaTeX/reference/faq/bibstyles.pdf">A reference of different types of bibliography styles in Latex</a> {{pdf-icon}}
+# <a href="http://www.univie.ac.at/nuhag-php/bibtex/bibstyles.pdf">A reference of different types of bibliography styles in Latex</a> {{pdf-icon}}
 # <a href="http://www.imsc.res.in/Computer/symbols-letter.pdf">Comprehensive Latex Symbol List</a> {{pdf-icon}}
 # [[My Latex Setup]]
 # [[Changing the Default Font for the Report documentclass in Latex]]
@@ -44,21 +44,21 @@ Here are some tips I've found when using [[Latex]].
 ==References==
 Using the '''natbib''' package, you can use these commands... see the '''natbib.sty''' file for more details:
 
-[code]\renewcommand{\cite}{\citep}    (makes \cite the same as \citep)
-\cite{key}            => (Jones et al., 1990)
-\citep{key}           => (Jones et al., 1990)
-\citet{key}           => Jones et al. (1990)
-\citep[pg. 34]{key}   => (Jones et al., 1990, pg. 34)
-\citet[ABC:][]{key}   => (ABC: Jones et al., 1990)[/code]
+[code]renewcommand{cite}{citep}    (makes cite the same as citep)
+cite{key}            => (Jones et al., 1990)
+citep{key}           => (Jones et al., 1990)
+citet{key}           => Jones et al. (1990)
+citep[pg. 34]{key}   => (Jones et al., 1990, pg. 34)
+citet[ABC:][]{key}   => (ABC: Jones et al., 1990)[/code]
 
 ==Remove Date from Titlepage==
-When you use \maketitle, it uses the following attributes:
-[code]\title
-\author
-\date[/code]
+When you use maketitle, it uses the following attributes:
+[code]title
+author
+date[/code]
 
 If you want to get rid of the date field, just add
-[code]\date{}[/code]
+[code]date{}[/code]
 
 ==Clickable Wrapped URLs in Bibtex Bibliography==
 Argh. For every hour you gain from abandoning [[Microsoft Word]], you lose trying to configure [[Latex]] to do things that would otherwise be trivial.
@@ -66,9 +66,9 @@ Argh. For every hour you gain from abandoning [[Microsoft Word]], you lose tryin
 If you are using the '''latex > dvips > ps2pdf''' compilation route for your documents, you may have problems trying to <a href="http://www.tex.ac.uk/cgi-bin/texfaq2html?label=setURL">have URLs in your bibliography</a> that are very long. One option is to manually wrap them yourself (using a space). However, this is better, put at the end of your .tex preamble:
 
 [code]% this package adds clickable links to http addresses and footnotes
-\usepackage{hyperref}
+usepackage{hyperref}
 % this package makes url's breakable with hyperref (but loses the cyan boxes)
-\usepackage{breakurl}[/code]
+usepackage{breakurl}[/code]
 
 ==Word Count in Latex==
 Just use this script somewhere in your compilation process:
@@ -80,33 +80,33 @@ Just use this script somewhere in your compilation process:
 ==Rotating Table Rows==
 Add this to the prelude:
 
-[code]% provides \rotatebox{}
-\usepackage{graphics}
+[code]% provides rotatebox{}
+usepackage{graphics}
 
 % provides multirow
-\usepackage{multirow}[/code]
+usepackage{multirow}[/code]
 
 And then this to the table (this counts as one row):
 
-[code]\multirow{4}{*}{\rotatebox{90}{hi there}}
-	& a \\
-  & b \\
-  & c \\
-  & d \\[/code]
+[code]multirow{4}{*}{rotatebox{90}{hi there}}
+	& a \
+  & b \
+  & c \
+  & d \[/code]
 
 ==Changing the Font Size of a Table==
 
 Just add the font size line in the Table:
 
-[code]\begin{table}[hbt]
-  \centering
-  \small
+[code]begin{table}[hbt]
+  centering
+  small
 
-  \begin{tabular}
+  begin{tabular}
     .. table content ...
-  \end{tabular}
-  \caption{caption}
-\end{table}[/code]
+  end{tabular}
+  caption{caption}
+end{table}[/code]
 
 ==IEEE Formatting: 8.5 x 11-inch Proceedings Manuscripts==
 For some reason, IEEE does not provide a Latex version of this publication format <a href="ftp://pubftp.computer.org/press/outgoing/proceedings/">on its FTP site</a>. However, this Latex file covers most of the basics of the format: http://cisedu.us/storage/old/cts07/doc/latexformat.htm
@@ -126,23 +126,23 @@ I was having issue submitting an IEEE paper as they were saying that my fonts, '
 ==Overriding and Re-using a Latex Command==
 If you try to re-use a renewed command like so, Latex will crash with (essentially) an infinite loop:
 
-[code]\renewcommand\foo{something \foo something}[/code]
+[code]renewcommandfoo{something foo something}[/code]
 
-As discussed by <a href="http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/extending_latex.html">this document on extending Latex</a>, you can use the primitive '''\let''' to save a "snapshot" of the current command:
+As discussed by <a href="http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/extending_latex.html">this document on extending Latex</a>, you can use the primitive '''let''' to save a "snapshot" of the current command:
 
-[code]\let\oldFoo\foo
-\renewcommand\foo{something \oldFoo something}[/code]
+[code]letoldFoofoo
+renewcommandfoo{something oldFoo something}[/code]
 
 ==Making all URLs in Helvetica==
-If you use the command [code]\urlstyle{sf}[/code] after the initial ''\begin{document}'', all URLs in the document (as specified by ''\url{...}'') will be rendered as a sans-serif font (i.e. Helvetica, or equivalent).
+If you use the command [code]urlstyle{sf}[/code] after the initial ''begin{document}'', all URLs in the document (as specified by ''url{...}'') will be rendered as a sans-serif font (i.e. Helvetica, or equivalent).
 
 ==Tick and Cross Symbols==
 {{gmf-css}}<img src="/img/gmf/latex-ticks.png" class="gmf">Creating output similar to the right, I found the following symbols worked well:
 
-[code]\usepackage{amsfonts}
-\newcommand{\tickYes}{\checkmark}
-\usepackage{pifont}
-\newcommand{\tickNo}{\hspace{1pt}\ding{55}}[/code]
+[code]usepackage{amsfonts}
+newcommand{tickYes}{checkmark}
+usepackage{pifont}
+newcommand{tickNo}{hspace{1pt}ding{55}}[/code]
 
 ==pdflatex vs dvipdfm vs dvips-ps2pdf==
 # '''pdflatex''': I couldn't get it to work with the `hyperref` package (to make bookmarks in Adobe), and it cannot include [[EPS]] images.
@@ -150,17 +150,17 @@ If you use the command [code]\urlstyle{sf}[/code] after the initial ''\begin{doc
 # '''dvips-ps2pdf''': Not possible to create Tagged PDFs (I think), cannot handle JPEG, PNG images (etc) directly
 
 ==Coloured Table Borders==
-If you have a normal table, you can make borders coloured by <a href="http://dobrzanski.net/2007/04/10/latex-tables/#comment-32726">doing the following</a>. It will also work with '''\hline''' and '''\cline''':
+If you have a normal table, you can make borders coloured by <a href="http://dobrzanski.net/2007/04/10/latex-tables/#comment-32726">doing the following</a>. It will also work with '''hline''' and '''cline''':
 
-[code]\usepackage{array,colortbl}
-\begin{tabular}{lc}
-\hline
-\arrayrulecolor{green} %always at the beginning of a table row
+[code]usepackage{array,colortbl}
+begin{tabular}{lc}
+hline
+arrayrulecolor{green} %always at the beginning of a table row
 ...[/code]
 
-If you are using '''\vline''', this won't work; you need to wrap the '''\vline''' with the colour explicitly:
+If you are using '''vline''', this won't work; you need to wrap the '''vline''' with the colour explicitly:
 
-[code]{\color{green}\vline}[/code]
+[code]{color{green}vline}[/code]
 
 ==Cannot use -dPDFSETTINGS in Ghostscript==
 On [[Windows]], you cannot use the '''=''' character <a href="http://pages.cs.wisc.edu/~ghost/doc/cvs/Use.htm#MS_Windows">in the command line</a>; <a href="http://freshmeat.net/articles/making-presentations-with-latex-and-prosper">you need to use '''#'''</a>. i.e.:
@@ -175,21 +175,21 @@ The solution was to tell [[Ghostscript]] to use ''prepress'' [[PDF]] settings.
 ==@ (at sign) in LaTeX index==
 I wanted an index entry with an `@` sign. After much stress, I found the <a href="http://linux.die.net/man/1/makeindex">man page for makeindex</a>, and found one solution:
 
-[code]\index{"@@"@generated tag}[/code]
+[code]index{"@@"@generated tag}[/code]
 
 This will create an index entry named "@generated tag". I couldn't work out ''any'' way to also apply additional formatting, i.e. none of these worked:
 
-[code]\index{generated tag@$@$\texttt{generated} tag}
-\index{"@@"@generated tag@\texttt{"@@"@generated} tag}
-\index{"@@"@generated tag@\texttt{@generated} tag}
-\index{"@@"@generated tag@"@@"\texttt{@generated} tag}[/code]
+[code]index{generated tag@$@$texttt{generated} tag}
+index{"@@"@generated tag@texttt{"@@"@generated} tag}
+index{"@@"@generated tag@texttt{@generated} tag}
+index{"@@"@generated tag@"@@"texttt{@generated} tag}[/code]
 
 Perhaps if you read the <a href="http://www.tex.ac.uk/tex-archive/indexing/makeindex/doc/makeindex.pdf" class="pdf">makeindex documentation</a> you might work it out ;)
 
 ==Disabling Footnotes==
 It is fairly simple to remove all footnotes throughout your LaTeX document, just define the following command in the preamble:
 
-[code]\renewcommand{\footnote}[1]{}[/code]
+[code]renewcommand{footnote}[1]{}[/code]
 
 [[Category:Article]]
 [[Category:Programming]]
