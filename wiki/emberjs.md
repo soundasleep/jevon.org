@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-04-13 17:21:42 +1200
+date:   2014-04-22 16:09:41 +1200
 ---
 
 [[Javascript]]
@@ -186,6 +186,18 @@ You need to instead use a `viewName` and reference this with a `bind-attr`:
 [code hbs]
 <label {{bind-attr for="view.textField.elementId"}}> {{content.label}}</label>
 {{view Ember.TextField valueBinding="content.value" viewName="textField"}}
+[/code]
+
+==Initialising model properties==
+
+See also <a href="http://reefpoints.dockyard.com/2014/04/17/ember-object-self-troll.html">this discussion</a> on why Ember uses prototype inheritance and how it can mess things up wonderfully.
+
+[code javascript]
+var Month = Ember.Object.extend({
+  setWeeks: function() {
+    this.set('weeks', Em.A());
+  }.on('init')
+});
 [/code]
 
 ==Untested==
