@@ -2,14 +2,14 @@
 layout: page
 title:  "Integration Testing with EmberJS and JQuery"
 author: jevon
-date:   2014-04-30 19:30:03 +1200
+date:   2014-04-30 19:30:32 +1200
 ---
 
 [[EmberJS]] / [[JQuery]]
 
 We use `mocha` and `chai` and `sinon` and `sinon-chai` for testing our [[EmberJS]] applications.
 
-If you have functionality that needs to be tested by changing form elements directly (e.g. `$()`) but requires asynchronous behaviour, such as updating the underlying Ember model, you can use `andThen(function)` to chain these asynchronous events:
+If you have functionality that needs to be tested by changing form elements directly (e.g. `$(".class").val('hello')`) but requires asynchronous behaviour, such as updating the underlying Ember model, you can use `andThen(function)` to chain these asynchronous events:
 
 [code coffeescript]
 describe 'interface', ->
@@ -29,7 +29,7 @@ describe 'interface', ->
 
       # now change
       $(".time-type").val('change')
-      $(".time-type").change()  # this will update model.date-input
+      $(".time-type").change()  # trigger on('change'), this will update model.date-input
 
       andThen ->
         # should now have changed
