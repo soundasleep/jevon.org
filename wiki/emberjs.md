@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-04-22 16:09:41 +1200
+date:   2014-04-30 18:03:13 +1200
 ---
 
 [[Javascript]]
@@ -13,6 +13,7 @@ date:   2014-04-22 16:09:41 +1200
 # <a href="http://www.akshay.cc/blog/2013-02-22-debugging-ember-js-and-ember-data.html">EmberJS debugging tips</a>
 # [[Adding a Select2 View in EmberJS]]
 # [[Using Radio Buttons in EmberJS]]
+# [[Capturing EmberJS errors with Raygun.io]]
 # [[npm]], [[bower]]
 
 ==How I learnt EmberJS and [[Coffeescript]] and [[Git]]==
