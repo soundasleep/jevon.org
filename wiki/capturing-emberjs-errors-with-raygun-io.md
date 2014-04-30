@@ -2,12 +2,12 @@
 layout: page
 title:  "Capturing EmberJS errors with Raygun.io"
 author: jevon
-date:   2014-04-30 18:05:24 +1200
+date:   2014-04-30 18:05:34 +1200
 ---
 
 [[EmberJS]]
 
-To capture <a href="https://raygun.io">raygun.io</a> errors within an Ember application, at the most basic level you can add an error handler to Ember.onerror:
+To capture <a href="https://raygun.io">raygun.io</a> errors within an Ember application, at the most basic level you can add an error handler to `Ember.onerror`:
 
 [code coffeescript]
 Ember.onerror = (error) ->
