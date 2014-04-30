@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-04-30 18:03:13 +1200
+date:   2014-04-30 19:27:11 +1200
 ---
 
 [[Javascript]]
@@ -14,6 +14,7 @@ date:   2014-04-30 18:03:13 +1200
 # [[Adding a Select2 View in EmberJS]]
 # [[Using Radio Buttons in EmberJS]]
 # [[Capturing EmberJS errors with Raygun.io]]
+# [[Integration Testing with EmberJS and JQuery]]
 # [[npm]], [[bower]]
 
 ==How I learnt EmberJS and [[Coffeescript]] and [[Git]]==
