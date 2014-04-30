@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-04-30 22:23:25 +1200
+date:   2014-04-30 22:24:13 +1200
 ---
 
 [[Javascript]]
@@ -16,7 +16,8 @@ date:   2014-04-30 22:23:25 +1200
 # [[Capturing EmberJS errors with Raygun.io]]
 # [[Integration Testing with EmberJS and JQuery]]
 # [[Adding an Index to an each iteration over a computed property in EmberJS]]
-# [[npm]], [[bower]], [[Handlebars]]
+# <a href="https://github.com/soundasleep/emberjs-handlebars-sanity">EmberJS Handlebars sanity tests with Grunt</a>
+# [[npm]], [[bower]], [[Handlebars]], [[Grunt]]
 
 ==How I learnt EmberJS and [[Coffeescript]] and [[Git]]==
 
@@ -117,6 +118,8 @@ This should be:
     ...
 --}}
 [/code]
+
+Also see <a href="https://github.com/soundasleep/emberjs-handlebars-sanity">emberjs-handlebars-sanity</a>.
 
 ==Hooking to `valueBinding`==
 
