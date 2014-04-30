@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-04-30 19:27:11 +1200
+date:   2014-04-30 22:05:01 +1200
 ---
 
 [[Javascript]]
@@ -15,6 +15,7 @@ date:   2014-04-30 19:27:11 +1200
 # [[Using Radio Buttons in EmberJS]]
 # [[Capturing EmberJS errors with Raygun.io]]
 # [[Integration Testing with EmberJS and JQuery]]
+# [[Adding an Index to an each iteration over a computed property in EmberJS]]
 # [[npm]], [[bower]]
 
 ==How I learnt EmberJS and [[Coffeescript]] and [[Git]]==
