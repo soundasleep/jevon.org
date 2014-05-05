@@ -2,7 +2,7 @@
 layout: page
 title:  "Capturing EmberJS errors with Raygun.io"
 author: jevon
-date:   2014-04-30 18:05:34 +1200
+date:   2014-05-05 19:23:43 +1200
 ---
 
 [[EmberJS]]
@@ -12,6 +12,7 @@ To capture <a href="https://raygun.io">raygun.io</a> errors within an Ember appl
 [code coffeescript]
 Ember.onerror = (error) ->
   Raygun.send(error)
+  console.error(error)    # optional: fixes https://github.com/emberjs/ember.js/issues/4817
 [/code]
 
 If you have an error handler in your ApplicationRoute that captures and discards all errors, you should also capture the errors within the `error` action:
