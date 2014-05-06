@@ -2,14 +2,12 @@
 layout: page
 title:  "Waiting for EmberJS to update its views manually"
 author: jevon
-date:   2014-05-06 18:02:10 +1200
+date:   2014-05-06 18:20:02 +1200
 ---
 
 [[EmberJS]]
 
 If you are writing [[integration tests]] for [[EmberJS]] and you have a situation where Promises and async calls are not being used everywhere, you might have a problem where `andThen()` and `wait()` do not work:
-
-It's much more likely though, that you have an error in your tests or you are failing to capture an asynchronous event. So you should not do what follows next.
 
 [code coffeescript]
 describe 'feature', ->
@@ -23,6 +21,8 @@ describe 'feature', ->
         expect($('button:contains("Go"):disabled').length).to.equal(0)
         done()
 [/code]
+
+It's much more likely though, that you have an error in your tests or you are failing to capture an asynchronous event. So you should not do what follows next.
 
 Here is a terrible approach, inspired by <a href="http://stackoverflow.com/questions/12086848/emberjs-how-to-wait-until-a-template-is-fully-rendered-before-accessing-its-ch">this StackOverflow answer</a>, which can be used to wait until a given view has been updated correctly:
 
