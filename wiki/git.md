@@ -2,7 +2,7 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-05-07 21:12:02 +1200
+date:   2014-05-07 21:13:19 +1200
 ---
 
 # [[Synchronising SVN and Git]]
@@ -17,7 +17,7 @@ date:   2014-05-07 21:12:02 +1200
 # Store passwords on Windows without having to first install some horrible abomination of Cygwin/credential stores/SSH agents, or having to use the GUI client. (<a href="https://confluence.atlassian.com/display/BITBUCKET/Set+up+SSH+for+Git">Setup SSH for Git</a> and <a href="https://help.github.com/articles/why-is-git-always-asking-for-my-password">updating Git to use SSH instead of HTTPS</a>)
 # Display `--help` information without opening up a `man` page or a web document (if using Windows?). The `--help` flag should _only_ print out a summary of help information to the command line.
 # Keep track of resolved conflicts in other branches when merging the same branches together later on (unless `rerere` is enabled, which it isn't by default).
-# Merge any branch into any other branch. In Git you can't ever merge a branch into another branch because this will mess up history, and possibly cause a commit loop in the future.
+# Merge any branch into any other branch without later breaking history. In Git you can't ever merge a branch into another branch because this will mess up history, and possibly cause a commit loop in the future.
 # SVN can never have a commit loop unless you're really trying hard (and editing metadata manually).
 # Have multiple mainlines. In Git you can only ever have one mainline otherwise you risk having commit loops.
 
