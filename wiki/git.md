@@ -2,7 +2,7 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-05-07 21:13:19 +1200
+date:   2014-05-07 21:14:23 +1200
 ---
 
 # [[Synchronising SVN and Git]]
@@ -20,6 +20,11 @@ date:   2014-05-07 21:13:19 +1200
 # Merge any branch into any other branch without later breaking history. In Git you can't ever merge a branch into another branch because this will mess up history, and possibly cause a commit loop in the future.
 # SVN can never have a commit loop unless you're really trying hard (and editing metadata manually).
 # Have multiple mainlines. In Git you can only ever have one mainline otherwise you risk having commit loops.
+
+==Things you should never do==
+
+# `git checkout branch; git merge master`
+# `git push; git rebase`
 
 ==Branching==
 
