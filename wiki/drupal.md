@@ -2,7 +2,7 @@
 layout: page
 title:  "Drupal"
 author: jevon
-date:   2014-04-02 14:54:55 +1300
+date:   2014-05-07 17:27:26 +1200
 ---
 
 [[Drupal]] is a [[PHP]]-based web application framework, similar to [[Symfony]] (but also wildly different and with much worse documentation).
@@ -31,6 +31,10 @@ chmod -R g+rwX sites/default/files
 
 ==The destination directory is not configured correctly==
 The Drupal notice _File temporary://xxx could not be copied, because the destination directory public://avatars is not configured correctly._ means that the folder `sites/default/files/avatars` (based on your location for `public://`) does not exist or cannot be written by Drupal.
+
+==Fatal error: Class 'CMISService' not found==
+
+If you are using the CMIS 2.x module, make sure that you have placed the CMIS library into `sites/all/libraries/cmis-phplib/cmis-lib.php`, and refresh your cache.
 
 [[Category:Drupal]]
 [[Category:PHP]]
