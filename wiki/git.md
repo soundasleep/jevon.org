@@ -2,7 +2,7 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-05-07 21:14:23 +1200
+date:   2014-05-07 21:19:16 +1200
 ---
 
 # [[Synchronising SVN and Git]]
@@ -25,6 +25,7 @@ date:   2014-05-07 21:14:23 +1200
 
 # `git checkout branch; git merge master`
 # `git push; git rebase`
+# `git merge --ff` (always use `--no-ff`, I don't know why this is even a Git default)
 
 ==Branching==
 
