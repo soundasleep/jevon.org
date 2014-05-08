@@ -2,7 +2,7 @@
 layout: page
 title:  "Jevon Wright"
 author: jevon
-date:   2014-03-13 20:13:12 +1300
+date:   2014-05-08 20:48:50 +1200
 ---
 
 Hey, that's me ^_^
@@ -33,22 +33,23 @@ Hey, that's me ^_^
 
 ==Technology Experience==
 
-* '''General-purpose languages:''' [[Java]], [[Javascript]], [[Lua]], [[C]], [[C++]], [[Visual Basic 6]]
+* '''General-purpose languages:''' [[Java]], [[Ruby]], [[Javascript]], [[Coffeescript]], [[Lua]], [[C]], [[C++]], [[Visual Basic 6]]
 * '''Web languages:''' [[PHP]], [[ASP]], [[JSP]], [[VBScript]], [[CSS]], [[HTML]], [[XML]], [[RSS]], [[Smarty]]
-* '''Server web frameworks:''' [[Drupal]] (PHP), [[Alfresco]] (Java), [[Symfony]] (PHP), [[JET]]
-* '''Client web frameworks:''' [[JQuery]], [[bootstrap]], [[AJAX]], [[REST]] etc.
+* '''Server web frameworks:''' [[Ruby on Rails]] (Ruby), [[Drupal]] (PHP), [[Alfresco]] (Java), [[Symfony]] (PHP), [[JET]]
+* '''Client web frameworks:''' [[EmberJS]], [[Handlebars]], [[JQuery]], [[bootstrap]], [[AJAX]], [[REST]] etc.
 * '''RDBMSes:''' [[MySQL]], [[sqlite]]
-* '''Web servers:''' [[Apache]], [[Tomcat]], [[IIS]]
+* '''Web servers:''' [[Apache]], [[Tomcat]], [[IIS]], [[nginx]]
 * '''[[Linux]]:''' [[Ubuntu]] 10.04 LTS, 12.04 LTS
 * '''[[Eclipse]] technologies:''' [[EMF]], [[GMF]], [[PDE]], [[openArchitectureWare]], [[Xpand]], [[Xtend]], [[SWT]]
-* '''Testing frameworks:''' [[JUnit]], [[JWebUnit]], [[simplectest]] (C), [[SimpleTest]] (PHP)
+* '''Testing frameworks:''' [[Mocha]], [[JUnit]], [[JWebUnit]], [[simplectest]] (C), [[SimpleTest]] (PHP)
 * '''Domain-specific languages:''' [[UML]], [[MOF]], [[WebML]], [[IAML]], [[UWE]]
 * '''Verification & semantic languages:''' [[Drools]], [[OCL]], [[CrocoPat]], [[Jess]], [[Jena]], [[NuSMV]], [[Alloy]], [[LTL]], [[Atom]], [[RDF]], [[FOAF]], [[OWL]]
 * '''Visualisation technology:''' [[JMonkeyEngine]], [[X3D]], [[VRML]], [[dot]]
-* '''Version control systems:''' [[CVS]], [[SVN]]
+* '''Version control systems:''' [[Git]], [[SVN]], [[CVS]]
 * '''Office tools:''' [[Microsoft Office]], [[LibreOffice]], [[Paint Shop Pro]], [[Cygwin]] etc.
-* '''Build tools:''' [[Ant]], [[Hudson]], [[Maven]], [[make]]
-* '''Other experience:''' [[LaTeX]], [[XPath]], [[Delphi]], [[Prolog]], [[Matlab]], [[XML schema]], [[XML stylesheets]], [[YAML]], [[CMIS]], [[GPG]], [[Amazon Glacier]], [[MIPS Assembly]], [[Android]] etc.
+* '''Build tools:''' [[Grunt]], [[Jenkins]], [[Ant]], [[Hudson]], [[Maven]], [[make]]
+* '''Packaging tools:''' [[npm]], [[bower]]
+* '''Other experience:''' [[LaTeX]], [[XPath]], [[Delphi]], [[Prolog]], [[Matlab]], [[XML schema]], [[XML stylesheets]], [[YAML]], [[CMIS]], [[GPG]], [[Amazon Glacier]], [[MIPS Assembly]], [[CMIS]], [[IRC]], [[Android]] etc.
 * '''[[Cryptocurrency|Cryptocurrencies]]:''' [[Bitcoin]], [[Litecoin]], [[Namecoin]] etc.
 * '''Methodologies:''' Test-driven, iterative, evolutionary, and agile development; continuous integration and automation; documentation generation
 
