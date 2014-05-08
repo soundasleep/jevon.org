@@ -2,7 +2,7 @@
 layout: page
 title:  "Testing Mocha applications with Grunt using Jenkins"
 author: jevon
-date:   2014-05-08 20:42:51 +1200
+date:   2014-05-08 20:43:03 +1200
 ---
 
 [[Grunt]] / [[Jenkins]] / [[Mocha]]
@@ -17,7 +17,7 @@ mocha: {
     options: {
       run: true,
       log: true,
-      reporter: 'XUnit',
+      reporter: 'XUnit',       # note - case-sensitive
       urls: [
         'http://localhost:<%= connect.options.port %>/test.html'
       ]
