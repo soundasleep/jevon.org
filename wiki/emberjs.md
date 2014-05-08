@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-05-06 17:58:11 +1200
+date:   2014-05-08 17:16:08 +1200
 ---
 
 [[Javascript]]
@@ -120,7 +120,7 @@ This should be:
 --}}
 [/code]
 
-Also see <a href="https://github.com/soundasleep/emberjs-handlebars-sanity">emberjs-handlebars-sanity</a>.
+Tested with <a href="https://github.com/soundasleep/emberjs-handlebars-sanity">emberjs-handlebars-sanity</a>.
 
 ==Hooking to `valueBinding`==
 
