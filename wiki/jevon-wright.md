@@ -2,7 +2,7 @@
 layout: page
 title:  "Jevon Wright"
 author: jevon
-date:   2014-05-08 20:48:50 +1200
+date:   2014-05-08 20:49:44 +1200
 ---
 
 Hey, that's me ^_^
@@ -41,7 +41,7 @@ Hey, that's me ^_^
 * '''Web servers:''' [[Apache]], [[Tomcat]], [[IIS]], [[nginx]]
 * '''[[Linux]]:''' [[Ubuntu]] 10.04 LTS, 12.04 LTS
 * '''[[Eclipse]] technologies:''' [[EMF]], [[GMF]], [[PDE]], [[openArchitectureWare]], [[Xpand]], [[Xtend]], [[SWT]]
-* '''Testing frameworks:''' [[Mocha]], [[JUnit]], [[JWebUnit]], [[simplectest]] (C), [[SimpleTest]] (PHP)
+* '''Testing frameworks:''' [[Mocha]] (Javascript), [[PHPUnit]] (PHP), [[JUnit]] (Java), [[JWebUnit]] (Java), [[simplectest]] (C), [[SimpleTest]] (PHP)
 * '''Domain-specific languages:''' [[UML]], [[MOF]], [[WebML]], [[IAML]], [[UWE]]
 * '''Verification & semantic languages:''' [[Drools]], [[OCL]], [[CrocoPat]], [[Jess]], [[Jena]], [[NuSMV]], [[Alloy]], [[LTL]], [[Atom]], [[RDF]], [[FOAF]], [[OWL]]
 * '''Visualisation technology:''' [[JMonkeyEngine]], [[X3D]], [[VRML]], [[dot]]
