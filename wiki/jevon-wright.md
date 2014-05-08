@@ -2,7 +2,7 @@
 layout: page
 title:  "Jevon Wright"
 author: jevon
-date:   2014-05-08 20:50:44 +1200
+date:   2014-05-08 20:51:20 +1200
 ---
 
 Hey, that's me ^_^
@@ -20,6 +20,7 @@ Hey, that's me ^_^
 * *Twitter:* <a href="http://twitter.com/soundasleep" title="My Twitter account" class="twitter">@soundasleep</a>
 * *LinkedIn:* <a href="http://www.linkedin.com/in/jevonwright" title="My LinkedIn profile" class="linkedin">LinkedIn</a>
 * *Delicious:* <a href="http://www.delicious.com/jevonwright/" title="My Delicious bookmarks" class="delicious">jevonwright</a>
+* *GitHub:* <a href="https://github.com/soundasleep" title="My GitHub profile" class="github">soundasleep</a>
 * *Ohloh:* <a href="https://www.ohloh.net/accounts/jevon" title="My Ohloh profile" class="ohloh">jevon</a>
 * [[GPG]]: [[Public Key]]
 
