@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-05-08 20:34:51 +1200
+date:   2014-05-08 20:35:03 +1200
 ---
 
 [[Javascript]]
@@ -18,7 +18,7 @@ date:   2014-05-08 20:34:51 +1200
 # [[Adding an Index to an each iteration over a computed property in EmberJS]]
 # <a href="https://github.com/soundasleep/emberjs-handlebars-sanity">EmberJS Handlebars sanity tests with Grunt</a>
 # [[Waiting for EmberJS to update its views manually]]
-# [[Testing EmberJS applications with Grunt using Jenkins]]
+# [[Testing Mocha applications with Grunt using Jenkins]]
 # [[npm]], [[bower]], [[Handlebars]], [[Grunt]]
 
 ==How I learnt EmberJS and [[Coffeescript]] and [[Git]]==
