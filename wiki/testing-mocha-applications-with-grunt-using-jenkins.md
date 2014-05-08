@@ -2,7 +2,7 @@
 layout: page
 title:  "Testing Mocha applications with Grunt using Jenkins"
 author: jevon
-date:   2014-05-08 20:41:21 +1200
+date:   2014-05-08 20:42:21 +1200
 ---
 
 [[Grunt]] / [[Jenkins]] / [[Mocha]]
@@ -27,9 +27,11 @@ mocha: {
 },
 [/code]
 
-And add a `build:report` task to your Grunt task as necessary.
+And add a `mocha:report` task to your Grunt task (such as `report`) as necessary.
 
 ==Jenkins==
+
+Add a build step `grunt report` after whatever else you might need to do (e.g. `cd test && bower install` if you are using Yeoman generated applications).
 
 *You shouldn't install the <a href="https://wiki.jenkins-ci.org/display/JENKINS/xUnit+Plugin">xUnit plugin for Jenkins</a>.* It is expecting a totally different input format to that provided by the Mocha XUnit reporter.
 
