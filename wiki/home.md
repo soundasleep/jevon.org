@@ -2,7 +2,7 @@
 layout: page
 title:  "Home"
 author: jevon
-date:   2014-03-13 20:15:32 +1300
+date:   2014-05-08 20:51:47 +1200
 ---
 
 <table class="home-table"><tr valign="top"><td class="left-bar">Hello!
@@ -33,6 +33,7 @@ I'm passionate about software engineering, open source, gender studies, cryptocu
 <a href="http://www.linkedin.com/in/jevonwright" title="My LinkedIn profile">LinkedIn</a>
 <a href="http://www.delicious.com/jevonwright/" title="My Delicious bookmarks">jevonwright</a>
 <a href="https://www.ohloh.net/accounts/jevon" title="My Ohloh profile">jevon</a></div>
+<a href="https://github.com/soundasleep" title="My GitHub profile">soundasleep</a></div>
 
 ===Friends===
 * <a href="http://www.jngaio.com">Jessie Ngaio</a>
