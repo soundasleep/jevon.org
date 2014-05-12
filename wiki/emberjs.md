@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-05-08 20:35:03 +1200
+date:   2014-05-12 17:29:24 +1200
 ---
 
 [[Javascript]]
@@ -206,6 +206,24 @@ var Month = Ember.Object.extend({
     this.set('weeks', Em.A());
   }.on('init')
 });
+[/code]
+
+==Run Javascript after EmberJS Route Render==
+
+For example, if you need to enable JQuery tooltips on an element in a Handlebars template, you can <a href="http://stackoverflow.com/questions/18838405/why-is-ember-run-afterrender-not-working-for-css-transitions">Ember.run.next</a>:
+
+[code coffeescript]
+App.FoosNewRoute = Ember.Route.extend
+  model: (params) ->
+    @store.createRecord('foo')
+
+  renderTemplate: ->
+    @render 'foos.new',
+      controller: 'foosNew'
+
+    Ember.run.next @, ->
+      $(".tooltip-span").tooltip
+        container: 'body'
 [/code]
 
 ==Untested==
