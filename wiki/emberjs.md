@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-05-12 17:29:24 +1200
+date:   2014-05-12 17:35:55 +1200
 ---
 
 [[Javascript]]
@@ -221,6 +221,18 @@ App.FoosNewRoute = Ember.Route.extend
     @render 'foos.new',
       controller: 'foosNew'
 
+    Ember.run.next @, ->
+      $(".tooltip-span").tooltip
+        container: 'body'
+[/code]
+
+Or, if you are using a view:
+
+[code coffeescript]
+App.FooFormView = Ember.View.extend
+  templateName: "foo/form"
+
+  didInsertElement: ->
     Ember.run.next @, ->
       $(".tooltip-span").tooltip
         container: 'body'
