@@ -2,10 +2,10 @@
 layout: page
 title:  "CSS"
 author: jevon
-date:   2007-09-19 10:35:44 +1200
+date:   2014-05-14 22:29:55 +1200
 ---
 
-Cascading Stylesheets is a way to specify presentational aspects of [[HTML]] pages.
+Cascading Stylesheets is a way to specify presentational aspects of [[HTML]] pages. See also [[SASS]]
 
 ==Reference==
 [code]h2               { /* style all h2 elements */ }
