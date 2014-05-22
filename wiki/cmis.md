@@ -2,7 +2,7 @@
 layout: page
 title:  "CMIS"
 author: jevon
-date:   2014-05-22 17:26:43 +1200
+date:   2014-05-22 17:27:31 +1200
 ---
 
 [[CMIS]] is an [[API]] for interacting mostly with [[Alfresco]]; there is a [[Drupal]] CMIS module which I have forked and extended: https://github.com/soundasleep/cmis
@@ -18,5 +18,6 @@ Make sure that your CMIS query is valid. This is suggesting that it's trying to 
 It needs to be:
 
 * `SELECT d.*, t.cm:title FROM %s AS d JOIN cm:titled AS t ON d.cmis:objectId = t.cmis:objectId WHERE ...`
+* `SELECT d.*, t.cm:title, t.cm:description FROM %s AS d JOIN cm:titled AS t ON d.cmis:objectId = t.cmis:objectId WHERE ...`
 
 [[Category:CMIS]]
