@@ -2,7 +2,7 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-05-07 21:20:14 +1200
+date:   2014-05-22 19:24:56 +1200
 ---
 
 # [[Synchronising SVN and Git]]
@@ -108,6 +108,10 @@ git remote add thirdparty https://github.com/better/foo
 git push -u thirdparty master
 git pull -u thirdparty
 [/code]
+
+==Getting the Github patch for a commit==
+
+Append `.patch` to the end of the commit URL, e.g. https://github.com/soundasleep/cmis/commit/70303e60d437c1c0ee650bcf820c3a13dd4782d1.patch
 
 [[Category:Git]]
 [[Category:Subversion]]
