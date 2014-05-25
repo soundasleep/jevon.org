@@ -2,7 +2,7 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-05-25 18:58:16 +1200
+date:   2014-05-25 19:26:11 +1200
 ---
 
 # [[Synchronising SVN and Git]]
@@ -20,7 +20,7 @@ date:   2014-05-25 18:58:16 +1200
 # Merge any branch into any other branch without later breaking history. In Git you can't ever merge a branch into another branch because this will mess up history, and possibly cause a commit loop in the future.
 # SVN can never have a commit loop unless you're really trying hard (and editing metadata manually).
 # Have multiple mainlines. In Git you can only ever have one mainline otherwise you risk having commit loops.
-# Revert a merge before it's pushed using a standard command. You have to use `git reset --hard COMMIT_HASH`.
+# Revert a merge before it's pushed using a standard command. You have to use `git reset --hard COMMIT_HASH`. (Maybe `git reset â€”soft origin/master` works? Thanks @four_seven)
 
 ==Things you should never do==
 
