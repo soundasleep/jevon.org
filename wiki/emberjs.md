@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-05-12 17:35:55 +1200
+date:   2014-06-03 17:30:24 +1200
 ---
 
 [[Javascript]]
@@ -19,6 +19,7 @@ date:   2014-05-12 17:35:55 +1200
 # <a href="https://github.com/soundasleep/emberjs-handlebars-sanity">EmberJS Handlebars sanity tests with Grunt</a>
 # [[Waiting for EmberJS to update its views manually]]
 # [[Testing Mocha applications with Grunt using Jenkins]]
+# [[Extending App.reset() in EmberJS]]
 # [[npm]], [[bower]], [[Handlebars]], [[Grunt]]
 
 ==How I learnt EmberJS and [[Coffeescript]] and [[Git]]==
