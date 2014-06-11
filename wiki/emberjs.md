@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-06-11 21:59:45 +1200
+date:   2014-06-11 22:23:10 +1200
 ---
 
 [[Javascript]]
@@ -21,6 +21,7 @@ date:   2014-06-11 21:59:45 +1200
 # [[Testing Mocha applications with Grunt using Jenkins]]
 # [[Extending App.reset() in EmberJS]]
 # <a href="http://www.cerebris.com/blog/2012/03/06/understanding-ember-object/">Understanding Ember.Object</a>
+# [[Transient DS.Model Attributes in EmberJS]]
 # [[npm]], [[bower]], [[Handlebars]], [[Grunt]]
 
 ==How I learnt EmberJS and [[Coffeescript]] and [[Git]]==
