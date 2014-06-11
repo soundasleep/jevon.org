@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-06-11 22:23:42 +1200
+date:   2014-06-11 22:26:44 +1200
 ---
 
 [[Javascript]]
@@ -243,7 +243,7 @@ App.FooFormView = Ember.View.extend
 
 ==TypeError: cyclic object value==
 
-It looks like EmberJS/DS doesn't support cycles in your object graph when they are in [[LocalStorage]]. It is possible - <a href="http://stackoverflow.com/questions/9382167/serializing-object-that-contains-cyclic-object-value">`JSON.stringify()` can exclude already seen objects</a>, and DS uses JSON.stringify to store objects in your [[LocalStorage]] - but you'd have to write your own custom serializer it seems.
+Make sure that you aren't trying to save an object property that isn't a DS.Model object. If you are, you may need to define a transient flag on the property, so that the JSONSerializer does not try to serialize the cycle: see [[Transient DS.Model Attributes in EmberJS]].
 
 ==Untested==
 
