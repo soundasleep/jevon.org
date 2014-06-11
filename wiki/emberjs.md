@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-06-11 22:23:10 +1200
+date:   2014-06-11 22:23:42 +1200
 ---
 
 [[Javascript]]
