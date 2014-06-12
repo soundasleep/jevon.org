@@ -2,7 +2,7 @@
 layout: page
 title:  "Transient DS.Model Attributes in EmberJS"
 author: jevon
-date:   2014-06-11 22:25:43 +1200
+date:   2014-06-12 15:13:47 +1200
 ---
 
 [[EmberJS]]
@@ -14,7 +14,7 @@ By extending the JSONSerializer (<a href="https://github.com/emberjs/data/pull/3
 [code javascript]
 DS.JSONSerializer.reopen({
   serializeAttribute: function(record, json, key, attribute) {
-    if (!attribute.type.transient) {
+    if (!attribute.options.transient) {
       return this._super(record, json, key, attribute);
     }
   }
