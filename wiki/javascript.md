@@ -2,14 +2,17 @@
 layout: page
 title:  "Javascript"
 author: jevon
-date:   2014-04-02 14:59:27 +1300
+date:   2014-06-16 21:51:00 +1200
 ---
 
-Some Javascript snippets:
+Also see [[Coffeescript]].
 
 # <a href="http://journals.jevon.org/users/jevon-phd/entry/19924">Block Scope in Javascript</a>
 # [[Grunt]]
 # [[EmberJS]]
+# [[Chai]]
+
+Some (very old) Javascript snippets:
 
 ==Confirm Page Exit==
 To pop up a dialog saying "Are you sure you want to navigate away from this page? Press OK to continue, or Cancel to stay on the current page." when you try to leave the page, you can use this:
