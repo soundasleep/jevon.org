@@ -2,7 +2,7 @@
 layout: page
 title:  "The Problems with Chai"
 author: jevon
-date:   2014-06-16 21:51:10 +1200
+date:   2014-06-16 21:54:05 +1200
 ---
 
 [[Javascript]] - [[EmberJS]] - [[Testing]]
@@ -28,6 +28,20 @@ define 'my thing', ->
 [/code]
 
 This won't work. I haven't found a way to do parameterised tests yet.
+
+==Chaining your own properties is way too hard==
+
+It's easy enough to define a basic assertion, for example `expect(foo).to.be.present`.
+
+But if you want to also support `expect(foo).to.not.be.present`, then you have to go through a huge amount of work to store these properties through the assertion chains or something.
+
+==All assertions are defined in terms of the expect() object==
+
+That means you cannot (easily) have a new assertion like `expect(".class").to.be.present`, because we need to define the ".present" w.r.t. the `".class"` string, and not what would eventually be a $() selector.
+
+That also means that you can not have an easy-to-understand message for the presence (or not) of elements, because the only context that you have available is the tested object.
+
+(In our project, we could not use the `jquery` module because it interfered with [[EmberJS]].)
 
 [[Category:Testing]]
 [[Category:Chai]]
