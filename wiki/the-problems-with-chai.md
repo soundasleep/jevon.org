@@ -2,10 +2,10 @@
 layout: page
 title:  "The Problems with Chai"
 author: jevon
-date:   2014-06-16 21:50:24 +1200
+date:   2014-06-16 21:50:35 +1200
 ---
 
-[[Javascript]]
+[[Javascript]] - [[Testing]]
 
 [[Chai]] is a pretty reasonable testing framework. But there are some key problems that make it much harder than it should be to test.
 
