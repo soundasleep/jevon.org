@@ -2,7 +2,7 @@
 layout: page
 title:  "The Problems with Chai"
 author: jevon
-date:   2014-06-16 21:54:05 +1200
+date:   2014-06-16 22:12:37 +1200
 ---
 
 [[Javascript]] - [[EmberJS]] - [[Testing]]
@@ -41,7 +41,7 @@ That means you cannot (easily) have a new assertion like `expect(".class").to.be
 
 That also means that you can not have an easy-to-understand message for the presence (or not) of elements, because the only context that you have available is the tested object.
 
-(In our project, we could not use the `jquery` module because it interfered with [[EmberJS]].)
+(In our project, we could not use the `chai-jquery` plugin because it interfered with [[EmberJS]]: it messes up `expect(find(...)).to.be.empty` from EmberJS (`find()` returns a JQuery object).)
 
 [[Category:Testing]]
 [[Category:Chai]]
