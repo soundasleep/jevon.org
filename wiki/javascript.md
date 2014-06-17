@@ -2,7 +2,7 @@
 layout: page
 title:  "Javascript"
 author: jevon
-date:   2014-06-17 16:56:17 +1200
+date:   2014-06-17 16:57:46 +1200
 ---
 
 Also see [[Coffeescript]].
@@ -10,8 +10,10 @@ Also see [[Coffeescript]].
 # <a href="http://journals.jevon.org/users/jevon-phd/entry/19924">Block Scope in Javascript</a>
 # [[Grunt]]
 # [[EmberJS]]
-# [[Chai]]
-# [[Selectize]]
+# [[Bower]]
+# [[Chai]] and [[Mocha]]
+# [[Leaflet]]
+# [[Selectize]] and [[Select2]]
 
 Some (very old) Javascript snippets:
 
