@@ -2,7 +2,7 @@
 layout: page
 title:  "Selectize"
 author: jevon
-date:   2014-06-17 16:58:29 +1200
+date:   2014-06-17 16:58:40 +1200
 ---
 
 [[Javascript]]
@@ -15,7 +15,7 @@ It seems that `selectize` is a smaller and simpler component, but is dreadful to
 
 Because the placeholder text is actually an `&lt;input type="text" placeholder="..."&gt;`, we need to override each browsers' implementation of the placeholder text ourselves, using <a href="http://stackoverflow.com/questions/2610497/change-an-inputs-html5-placeholder-color-with-css">rowser-specific selectors and individual selectors for each browser</a>:
 
-[code]
+[code css]
   .container {
     // the text is rendered in grey because it's an <input placeholder="..">;
     // to override it, we need to use lots of vendor-specific prefixes
