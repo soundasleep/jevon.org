@@ -2,7 +2,7 @@
 layout: page
 title:  "Javascript"
 author: jevon
-date:   2014-06-16 21:51:00 +1200
+date:   2014-06-17 16:56:17 +1200
 ---
 
 Also see [[Coffeescript]].
@@ -11,6 +11,7 @@ Also see [[Coffeescript]].
 # [[Grunt]]
 # [[EmberJS]]
 # [[Chai]]
+# [[Selectize]]
 
 Some (very old) Javascript snippets:
 
