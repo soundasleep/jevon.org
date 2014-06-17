@@ -2,12 +2,12 @@
 layout: page
 title:  "Selectize"
 author: jevon
-date:   2014-06-17 16:55:11 +1200
+date:   2014-06-17 16:55:23 +1200
 ---
 
 [[Javascript]]
 
-[[Selectize]] is a [[Javascript]] component, similar to [[Select2]], that provides a "better" `<select>` element, or something.
+[[Selectize]] is a [[Javascript]] component, similar to [[Select2]], that provides a "better" `select` element, or something.
 
 It seems that `selectize` is a smaller and simpler component, but is dreadful to restyle.
 
