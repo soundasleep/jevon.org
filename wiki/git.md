@@ -2,7 +2,7 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-05-25 20:00:47 +1200
+date:   2014-06-17 17:48:57 +1200
 ---
 
 # [[Synchronising SVN and Git]]
@@ -20,6 +20,10 @@ date:   2014-05-25 20:00:47 +1200
 # Merge any branch into any other branch without later breaking history. In Git you can't ever merge a branch into another branch because this will mess up history, and possibly cause a commit loop in the future.
 # SVN can never have a commit loop unless you're really trying hard (and editing metadata manually).
 # Have multiple mainlines. In Git you can only ever have one mainline otherwise you risk having commit loops.
+# Keep track of which branches a commit has been on. In Git, branches are entirely local to developers, and once they are merged and deleted remotely the history is completely lost. The best case scenario is <a href="http://stackoverflow.com/questions/4535251/show-the-original-branch-for-a-commit"
+>if you still have the branch in your local repository</a> or the branch has not been deleted remotely yet.
+
+In Git, if you do a fast-forward merge (which is the default), the commits will basically be inserted directly into the trunk, and any history 
 
 ==Things you should never do==
 
