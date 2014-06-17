@@ -2,7 +2,7 @@
 layout: page
 title:  "Selectize"
 author: jevon
-date:   2014-06-17 16:55:49 +1200
+date:   2014-06-17 16:58:29 +1200
 ---
 
 [[Javascript]]
@@ -19,7 +19,7 @@ Because the placeholder text is actually an `&lt;input type="text" placeholder="
   .container {
     // the text is rendered in grey because it's an <input placeholder="..">;
     // to override it, we need to use lots of vendor-specific prefixes
-    // see http://css-tricks.com/snippets/css/style-placeholder-text/
+    // see http://stackoverflow.com/questions/19143364/how-to-change-placeholder-of-selectize-js-dropdown
     // and we need to have separate rules for each browser, because
     // "a group of selectors containing an invalid selector is invalid"
     ::-webkit-input-placeholder { /* WebKit browsers */
