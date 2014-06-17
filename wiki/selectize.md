@@ -1,0 +1,42 @@
+---
+layout: page
+title:  "Selectize"
+author: jevon
+date:   2014-06-17 16:55:11 +1200
+---
+
+[[Javascript]]
+
+[[Selectize]] is a [[Javascript]] component, similar to [[Select2]], that provides a "better" `<select>` element, or something.
+
+It seems that `selectize` is a smaller and simpler component, but is dreadful to restyle.
+
+==Preventing placeholder text from being greyed out==
+
+Because the placeholder text is actually an `<input type="text" placeholder="...">`, we need to override each browsers' implementation of the placeholder text ourselves, using <a href="http://stackoverflow.com/questions/2610497/change-an-inputs-html5-placeholder-color-with-css">rowser-specific selectors and individual selectors for each browser</a>:
+
+[code]
+  .container {
+    // the text is rendered in grey because it's an <input placeholder="..">;
+    // to override it, we need to use lots of vendor-specific prefixes
+    // see http://css-tricks.com/snippets/css/style-placeholder-text/
+    // and we need to have separate rules for each browser, because
+    // "a group of selectors containing an invalid selector is invalid"
+    ::-webkit-input-placeholder { /* WebKit browsers */
+      color: $text-black;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+      color: $text-black;
+      opacity: 1;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+      color: $text-black;
+      opacity: 1;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+      color: $text-black;
+    }
+  }
+[/code]
+
+[[Category:Javascript]]
