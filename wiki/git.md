@@ -2,7 +2,7 @@
 layout: page
 title:  "Git"
 author: jevon
-date:   2014-06-22 18:10:40 +1200
+date:   2014-06-22 18:12:00 +1200
 ---
 
 # [[Synchronising SVN and Git]]
@@ -22,7 +22,7 @@ date:   2014-06-22 18:10:40 +1200
 # Have multiple mainlines. In Git you can only ever have one mainline otherwise you risk having commit loops.
 # Keep track of which branches a commit has been on. In Git, branches are entirely local to developers, and once they are merged and deleted remotely the history is completely lost (unless a non-fast-forward merge, in which case you'll have a commit stating there was a merge), because the commits are _replaced_ into the target branch. The best case scenario is <a href="http://stackoverflow.com/questions/4535251/show-the-original-branch-for-a-commit"
 >if you still have the branch in your local repository</a> or the branch has not been deleted remotely yet.
-# Do more than one reverse merge from a previous commit, without having to perform an intermediary commit. "<a href="https://twitter.com/soundasleep/status/480876419518455808">`revert` is not possible because you have unmerged files.</a>"
+# Do more than one reverse merge from a previous commit, without having to perform an intermediary commit. "<a href="https://twitter.com/soundasleep/status/480876419518455808">`revert` is not possible because you have unmerged files.</a>" You would need to use `git revert --no-commit` instead.
 
 ==Things you should never do==
 
