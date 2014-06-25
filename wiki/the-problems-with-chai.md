@@ -2,7 +2,7 @@
 layout: page
 title:  "The Problems with Chai"
 author: jevon
-date:   2014-06-18 21:37:23 +1200
+date:   2014-06-25 21:47:23 +1200
 ---
 
 [[Javascript]] - [[EmberJS]] - [[Testing]]
@@ -27,7 +27,19 @@ define 'my thing', ->
       expect(i).to.equal(i)
 [/code]
 
-This won't work. I haven't found a way to do parameterised tests yet.
+This won't work. <strike>I haven't found a way to do parameterised tests yet.</strike> It looks like `async.each` may help (not tested yet): http://stackoverflow.com/a/17573188/39531
+
+[code]
+async.each([1,2,3], function(itemNumber, callback) {
+  describe('Test # ' + itemNumber, function () {
+    it("should be a number", function (done) {
+      expect(itemNumber).to.be.a('number')
+      done()
+    });
+  });
+callback()
+});
+[/code]
 
 ==Chaining your own properties is way too hard==
 
