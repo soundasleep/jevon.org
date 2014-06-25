@@ -2,7 +2,7 @@
 layout: page
 title:  "The Problems with Chai"
 author: jevon
-date:   2014-06-25 21:47:23 +1200
+date:   2014-06-25 23:08:46 +1200
 ---
 
 [[Javascript]] - [[EmberJS]] - [[Testing]]
@@ -14,9 +14,9 @@ date:   2014-06-25 21:47:23 +1200
 * `expect(true).to.be.false('message')`
 * `expect(undefined).to.exist('message')`
 
-Both of these assertions will fail with "is not a function". This means the only message you will get back is _expected true to be false_ and _expected undefined to be defined_. How helpful.
+Both of these assertions will fail with "is not a function". This means the only message you will get back is _expected true to be false_ and _expected undefined to be defined_. How helpful. I've created https://github.com/chaijs/chai/issues/272 to hopefully resolve this.
 
-I've created https://github.com/chaijs/chai/issues/272 to hopefully resolve this.
+*Update:* It may be the best way to do this is `expect(true).to.equal(true, 'message')`.
 
 ==`define` and `it` cannot have parameterised tests==
 
