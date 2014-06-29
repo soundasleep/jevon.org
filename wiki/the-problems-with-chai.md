@@ -2,7 +2,7 @@
 layout: page
 title:  "The Problems with Chai"
 author: jevon
-date:   2014-06-25 23:08:46 +1200
+date:   2014-06-29 16:35:17 +1200
 ---
 
 [[Javascript]] - [[EmberJS]] - [[Testing]]
@@ -20,16 +20,16 @@ Both of these assertions will fail with "is not a function". This means the only
 
 ==`define` and `it` cannot have parameterised tests==
 
-[code]
+[code coffeescript]
 define 'my thing', ->
   for i in [0..6]
     it 'tests ' + i, ->
       expect(i).to.equal(i)
 [/code]
 
-This won't work. <strike>I haven't found a way to do parameterised tests yet.</strike> It looks like `async.each` may help (not tested yet): http://stackoverflow.com/a/17573188/39531
+This won't work. <strike>I haven't found a way to do parameterised tests yet.</strike> One option is to use `async.each`: http://stackoverflow.com/a/17573188/39531
 
-[code]
+[code javascript]
 async.each([1,2,3], function(itemNumber, callback) {
   describe('Test # ' + itemNumber, function () {
     it("should be a number", function (done) {
@@ -39,6 +39,15 @@ async.each([1,2,3], function(itemNumber, callback) {
   });
 callback()
 });
+[/code]
+
+Or, you can use Array#forEach (thanks <a href="https://twitter.com/jamesotron/status/482042859017625601">@jamesotron</a>):
+
+[code coffeescript]
+define 'my thing', ->
+  [0..6].forEach (i) ->
+    it 'tests ' + i, ->
+      expect(i).to.equal(i)
 [/code]
 
 ==Chaining your own properties is way too hard==
