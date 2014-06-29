@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-06-16 21:46:59 +1200
+date:   2014-06-29 21:17:30 +1200
 ---
 
 [[Javascript]]
@@ -22,6 +22,7 @@ date:   2014-06-16 21:46:59 +1200
 # [[Extending App.reset() in EmberJS]]
 # <a href="http://www.cerebris.com/blog/2012/03/06/understanding-ember-object/">Understanding Ember.Object</a>
 # [[Transient DS.Model Attributes in EmberJS]]
+# [[Listing the Attributes of an EmberJS DS.Model at Runtime]]
 # [[The Problems with Chai]]
 # [[npm]], [[bower]], [[Handlebars]], [[Grunt]]
 
