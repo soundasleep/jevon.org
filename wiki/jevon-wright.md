@@ -2,7 +2,7 @@
 layout: page
 title:  "Jevon Wright"
 author: jevon
-date:   2014-05-08 20:51:20 +1200
+date:   2014-07-18 02:07:10 +1200
 ---
 
 Hey, that's me ^_^
@@ -13,7 +13,7 @@ Hey, that's me ^_^
 * '''Star Sign:''' Gemini
 * '''E-mail:''' jevon@jevon.org
 * *<a href="http://talk.google.com">Google Talk</a>*: soundasleep@gmail.com
-* '''Occupation:''' [[Research|Researcher]], [[Web Development|Software Engineer]], <a href="http://journals.jevon.org/users/soundasleep/">Rock Star</a>
+* '''Occupation:''' [[Research|Researcher]], [[Web Development|Software Engineer]]
 * '''Location:''' [[Wellington]], New Zealand at <a href="http://maps.google.com/maps?f=q&hl=en&geocode=&q=Wellington&sll=-41.293382,174.775679&sspn=0.088691,0.160675&ie=UTF8&t=k&z=13&iwloc=addr">174.78, -41.29</a>
 * '''Journal:''' [user=jevon]
 * *Last.fm:* <a href="http://www.last.fm/user/jdub_dub" title="My last.fm profile" class="lastfm">jdub_dub</a>
