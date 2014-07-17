@@ -2,7 +2,7 @@
 layout: page
 title:  "Jevon Wright"
 author: jevon
-date:   2014-07-18 02:07:10 +1200
+date:   2014-07-18 04:15:33 +1200
 ---
 
 Hey, that's me ^_^
@@ -49,7 +49,7 @@ Hey, that's me ^_^
 * '''Version control systems:''' [[Git]], [[SVN]], [[CVS]]
 * '''Office tools:''' [[Microsoft Office]], [[LibreOffice]], [[Paint Shop Pro]], [[Cygwin]] etc.
 * '''Build tools:''' [[Grunt]], [[Jenkins]], [[Ant]], [[Hudson]], [[Maven]], [[make]]
-* '''Packaging tools:''' [[npm]], [[bower]]
+* '''Packaging tools:''' [[npm]], [[bower]], [[PDE]], [[Composer]]
 * '''Other experience:''' [[LaTeX]], [[XPath]], [[Delphi]], [[Prolog]], [[Matlab]], [[XML schema]], [[XML stylesheets]], [[YAML]], [[CMIS]], [[GPG]], [[Amazon Glacier]], [[MIPS Assembly]], [[IRC]], [[Android]] etc.
 * '''[[Cryptocurrency|Cryptocurrencies]]:''' [[Bitcoin]], [[Litecoin]], [[Namecoin]] etc.
 * '''Methodologies:''' Test-driven, iterative, evolutionary, and agile development; continuous integration and automation; documentation generation
