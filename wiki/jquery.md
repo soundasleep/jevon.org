@@ -2,7 +2,7 @@
 layout: page
 title:  "JQuery"
 author: jevon
-date:   2014-07-28 17:35:54 +1200
+date:   2014-07-28 17:36:28 +1200
 ---
 
 [[JQuery]] is a [[Javascript]] framework for interacting with the [[DOM]], doing [[AJAX]] requests and lots of new modern things.
@@ -15,7 +15,7 @@ date:   2014-07-28 17:35:54 +1200
 
 ==Loading multiple JQuery versions in a page==
 
-From http://forum.jquery.com/topic/multiple-versions-of-jquery-on-the-same-page:
+From http://forum.jquery.com/topic/multiple-versions-of-jquery-on-the-same-page, you can use <a href="http://api.jquery.com/jquery.noconflict/">jQuery.noConflict()</a> to load multiple versions:
 
 [code html]
     <script src='jquery-1.3.2.js'></script>
