@@ -2,12 +2,13 @@
 layout: page
 title:  "JQuery"
 author: jevon
-date:   2014-07-28 17:36:28 +1200
+date:   2014-07-28 17:36:45 +1200
 ---
 
 [[JQuery]] is a [[Javascript]] framework for interacting with the [[DOM]], doing [[AJAX]] requests and lots of new modern things.
 
 # [[Integration Testing with EmberJS and JQuery]]
+# [[Multiple JQuery versions with EmberJS]]
 
 ==Checking JQuery version==
 
