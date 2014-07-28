@@ -2,7 +2,7 @@
 layout: page
 title:  "EmberJS"
 author: jevon
-date:   2014-07-21 20:43:28 +1200
+date:   2014-07-28 17:40:42 +1200
 ---
 
 [[Javascript]]
@@ -25,7 +25,8 @@ date:   2014-07-21 20:43:28 +1200
 # [[Listing the Attributes of an EmberJS DS.Model at Runtime]]
 # [[The Problems with Chai]]
 # <a href="http://stackoverflow.com/questions/14999745/emberjs-loading-screen-at-the-beginning">Adding an 'application loading' screen to an EmberJS application</a>
-# [[npm]], [[bower]], [[Handlebars]], [[Grunt]]
+# [[Multiple JQuery versions with EmberJS]]
+# [[npm]], [[bower]], [[Handlebars]], [[Grunt]], [[JQuery]]
 
 ==How I learnt EmberJS and [[Coffeescript]] and [[Git]]==
 
