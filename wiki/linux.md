@@ -2,7 +2,7 @@
 layout: page
 title:  "Linux"
 author: jevon
-date:   2014-04-16 20:50:51 +1200
+date:   2014-08-03 17:28:45 +1200
 ---
 
 [[Articles]]
@@ -14,12 +14,15 @@ date:   2014-04-16 20:50:51 +1200
 # [[UEFI]]
 # <a href="http://www.delicious.com/jevonwright/linux" class="delicious">Other pages tagged as "linux"</a>
 
-[code bash]ln -s <target> <source>     # create symbolic link
+[code bash]
+ln -s <target> <source>     # create symbolic link
 echo $?                     # print last return value int
 tar -zcf out.tar.gz folder  # compress folder to .tar.gz
 tar xzf out.tar.gz folder   # extract .tar.gz to folder
 mogrify -format eps *.png   # convert all *.png to *.eps
-sh -x <script>              # show all commands executed by given script for debug[/code]
+sh -x <script>              # show all commands executed by given script for debug
+df -h                       # show disk usage
+[/code]
 
 If this fails, the version of tar may not support gzip compression. In this case, you can use the traditional two-stage command:
 gzip -dc filename.tar.gz | tar xf -
