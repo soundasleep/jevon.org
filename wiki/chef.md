@@ -2,10 +2,13 @@
 layout: page
 title:  "Chef"
 author: jevon
-date:   2014-08-03 22:07:30 +1200
+date:   2014-08-03 22:08:27 +1200
 ---
 
 [[Chef]] is similar to [[Puppet]], an open source server configuration manager thing.
+
+# <a href="http://gettingstartedwithchef.com/first-steps-with-chef.html">Getting started with Chef</a> (excellent tutorial)
+# <a href="https://github.com/applicationsonline/librarian-chef" class="github">librarian-chef</a> (manage `Cheffile`s rather than manually managing a repository of download cookbooks)
 
 ==File /var/www exists, but is a directory==
 
