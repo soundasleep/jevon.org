@@ -2,7 +2,7 @@
 layout: page
 title:  "Linux"
 author: jevon
-date:   2014-08-03 17:28:45 +1200
+date:   2014-08-03 17:28:53 +1200
 ---
 
 [[Articles]]
@@ -21,7 +21,7 @@ tar -zcf out.tar.gz folder  # compress folder to .tar.gz
 tar xzf out.tar.gz folder   # extract .tar.gz to folder
 mogrify -format eps *.png   # convert all *.png to *.eps
 sh -x <script>              # show all commands executed by given script for debug
-df -h                       # show disk usage
+df -h                       # show disk usage and free space
 [/code]
 
 If this fails, the version of tar may not support gzip compression. In this case, you can use the traditional two-stage command:
