@@ -2,7 +2,7 @@
 layout: page
 title:  "Synchronising SVN and Git"
 author: jevon
-date:   2014-04-17 21:23:10 +1200
+date:   2014-08-05 17:57:48 +1200
 ---
 
 [[SVN]] / [[Git]]
@@ -74,6 +74,10 @@ If you get this during a `git svn dcommit`, then you've probably messed up the m
 ==git svn rebase: Unknown option: strategy-option==
 
 Good luck. I think this is a bug.
+
+==ignore-paths not matching files==
+
+It turns out the regexp accepted by `--ignore-paths` is not a complete regexp; it needs an anchor (^ or $) in order to match. So instead of doing something like `--ignore-paths=".+custom.css"`, you need to do `--ignore-paths="custom.css$"`.
 
 [[Category:Subversion]]
 [[Category:Git]]
