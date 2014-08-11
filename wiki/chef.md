@@ -2,7 +2,7 @@
 layout: page
 title:  "Chef"
 author: jevon
-date:   2014-08-03 22:52:11 +1200
+date:   2014-08-11 20:22:44 +1200
 ---
 
 [[Chef]] is similar to [[Puppet]], an open source server configuration manager thing.
@@ -23,6 +23,7 @@ end
 The problem is that you are trying to replace a directory with a file. You should be using `path "/var/www/phpinfo.php"` instead, that way it will just replace the file.
 
 ==had an error: LoadError: cannot load such file -- mysql==
+==could not find recipe ruby for cookbook mysql==
 
 If you are getting this while trying to execute `mysql_database()`, then you may not be loading the `database::mysql` recipe in your recipe.
 
