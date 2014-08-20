@@ -2,7 +2,7 @@
 layout: page
 title:  "Ruby on Rails"
 author: jevon
-date:   2014-08-20 21:54:21 +1200
+date:   2014-08-20 22:16:13 +1200
 ---
 
 [[Ruby]]
@@ -17,6 +17,21 @@ Following the <a href="http://guides.rubyonrails.org/getting_started.html">Getti
 # Install Ruby 1.9.3 from <a href="http://rubyinstaller.org/downloads/">the Windows Installer package</a>
 # Install the Ruby 1.9.3 devkit: <a href="http://rubyinstaller.org/downloads/">download the executable</a>, extract it somewhere, <a href="https://github.com/oneclick/rubyinstaller/wiki/Development-Kit#installation-instructions">follow the install instructions</a>
 # Install rails: `gem install rails`
+
+==SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed==
+
+On [[Windows]], this error occurs because the Ruby on Rails install does not come with a server certificate package. As per <a href="http://stackoverflow.com/a/16134586/39531">this StackOverflow answer</a>:
+
+# Download http://curl.haxx.se/ca/cacert.pem into `C:Railscacert.pem`
+# Go to your Computer -> Advanced Settings -> Environment Variables
+# Create a new System Variable: `SSL_CERT_FILE`=`C:Railscacert.pem`
+
+Close all your command prompts, including your `rails server`, and open up a new `irb` command prompt to test that it works:
+
+[code]
+$irb> require 'open-uri'
+$irb> open('https://www.gmail.com')
+[/code]
 
 ==Partial not rendering==
 
