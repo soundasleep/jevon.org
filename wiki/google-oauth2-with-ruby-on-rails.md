@@ -2,7 +2,7 @@
 layout: page
 title:  "Google OAuth2 with Ruby on Rails"
 author: jevon
-date:   2014-08-20 22:12:30 +1200
+date:   2014-08-20 22:12:53 +1200
 ---
 
 [[Ruby on Rails]] / [[OAuth2]]
@@ -24,12 +24,7 @@ gem 'omniauth-google-oauth2'
 [code]
 rails generate session_migration
 rails generate controller sessions
-rails generate model user provider:string 
-  uid:string 
-  name:string 
-  refresh_token:string 
-  access_token:string 
-  expires:timestamp
+rails generate model User provider:string uid:string name:string refresh_token:string access_token:string expires:timestamp
 rake db:migrate
 [/code]
 
