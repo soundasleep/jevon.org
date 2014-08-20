@@ -2,12 +2,12 @@
 layout: page
 title:  "Google OAuth2 with Ruby on Rails"
 author: jevon
-date:   2014-08-20 22:10:33 +1200
+date:   2014-08-20 22:12:30 +1200
 ---
 
 [[Ruby on Rails]] / [[OAuth2]]
 
-I tried doing this <a href="http://nationbuilder.com/ruby_api_example">manually using the `oauth2` gem</a>, but while it kind-of works, getting any sort of user information requires you to <a href="http://openid.net/specs/draft-jones-json-web-token-07.html">decode a JWT payload</a> (ugh, [[OpenID]] why does [[Google]] no longer support you).
+I tried doing this <a href="http://nationbuilder.com/ruby_api_example">manually using the `oauth2` gem</a>, but while it <a href="https://github.com/soundasleep/rrw/commit/6f83482fe0d25fa05ddc24c9020b69afefddf0a2">kind-of works</a>, getting any sort of user information requires you to <a href="http://openid.net/specs/draft-jones-json-web-token-07.html">decode a JWT payload</a> (ugh, [[OpenID]] why does [[Google]] no longer support you).
 
 Instead I got it working with just the `omniauth-google-oauth2` gem. Based on <a href="http://blog.myitcv.org.uk/2013/02/19/omniauth-google-oauth2-example.html">this tutorial</a> which is for an older version of Rails:
 
