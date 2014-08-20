@@ -2,10 +2,12 @@
 layout: page
 title:  "Ruby on Rails"
 author: jevon
-date:   2014-01-23 18:56:02 +1300
+date:   2014-08-20 21:54:21 +1200
 ---
 
 [[Ruby]]
+
+# [[Google OAuth2 with Ruby on Rails]]
 
 ==How I learnt Ruby on Rails==
 
