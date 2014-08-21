@@ -2,12 +2,13 @@
 layout: page
 title:  "Ruby on Rails"
 author: jevon
-date:   2014-08-20 22:16:13 +1200
+date:   2014-08-21 18:48:07 +1200
 ---
 
 [[Ruby]]
 
 # [[Google OAuth2 with Ruby on Rails]]
+# <a href="http://stackoverflow.com/a/1829515/39531">Loading `seeds.rb` data into test database through `rake test`</a>
 
 ==How I learnt Ruby on Rails==
 
