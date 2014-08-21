@@ -2,14 +2,14 @@
 layout: page
 title:  "Jevon Wright"
 author: jevon
-date:   2014-07-18 04:15:33 +1200
+date:   2014-08-21 19:34:13 +1200
 ---
 
 Hey, that's me ^_^
 
 ==Vitals==
 
-* '''Age:''' 28
+* '''Age:''' 29
 * '''Star Sign:''' Gemini
 * '''E-mail:''' jevon@jevon.org
 * *<a href="http://talk.google.com">Google Talk</a>*: soundasleep@gmail.com
@@ -35,8 +35,8 @@ Hey, that's me ^_^
 ==Technology Experience==
 
 * '''General-purpose languages:''' [[Java]], [[Ruby]], [[Javascript]], [[Coffeescript]], [[Lua]], [[C]], [[C++]], [[Visual Basic 6]]
-* '''Web languages:''' [[PHP]], [[ASP]], [[JSP]], [[VBScript]], [[CSS]], [[HTML]], [[XML]], [[RSS]], [[Smarty]]
-* '''Server web frameworks:''' [[Ruby on Rails]] (Ruby), [[Drupal]] (PHP), [[Alfresco]] (Java), [[Symfony]] (PHP), [[JET]]
+* '''Web languages:''' [[PHP]], [[ASP]], [[JSP]], [[VBScript]], [[CSS]], [[HTML]], [[XML]], [[RSS]], [[Smarty]], [[HAML]]
+* '''Server web frameworks:''' [[Ruby on Rails]] ([[Ruby]]), [[Drupal]] (PHP), [[Alfresco]] (Java), [[Symfony]] (PHP), [[JET]]
 * '''Client web frameworks:''' [[EmberJS]], [[Handlebars]], [[JQuery]], [[bootstrap]], [[AJAX]], [[REST]] etc.
 * '''RDBMSes:''' [[MySQL]], [[sqlite]]
 * '''Web servers:''' [[Apache]], [[Tomcat]], [[IIS]], [[nginx]]
