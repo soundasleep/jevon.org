@@ -2,7 +2,7 @@
 layout: page
 title:  "Enabling Jenkins support with Ruby on Rails tests"
 author: jevon
-date:   2014-08-21 19:46:17 +1200
+date:   2014-08-21 19:48:42 +1200
 ---
 
 [[Ruby on Rails]]
@@ -29,6 +29,8 @@ task :test => 'ci:setup:minitest'
 [/code]
 
 4. Run `rake test`, and `test/reports/*.xml` should be generated!
+
+5. Configure Jenkins to _Publish JUnit test result report_ from `test/reports/*.xml,spec/reports/*.xml`
 
 [[Category:Ruby on Rails]]
 [[Category:Testing]]
