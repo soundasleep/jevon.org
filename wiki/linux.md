@@ -2,13 +2,14 @@
 layout: page
 title:  "Linux"
 author: jevon
-date:   2014-08-03 19:57:48 +1200
+date:   2014-08-24 19:32:38 +1200
 ---
 
 [[Articles]]
 
 # [[A Crude Latex Diff Script in Linux]]
 # [[Installing PHP 5.2 on CentOS]]
+# [[Setting up a Samba client on Ubuntu 12.04]]
 # [[Citadel]]
 # [[Ubuntu]]
 # [[UEFI]]
