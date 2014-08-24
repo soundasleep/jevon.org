@@ -2,7 +2,7 @@
 layout: page
 title:  "Setting up a Samba client on Ubuntu 12.04"
 author: jevon
-date:   2014-08-24 19:38:01 +1200
+date:   2014-08-24 19:38:39 +1200
 ---
 
 [[Linux]] / [[Ubuntu]] / [[Samba]]
@@ -67,6 +67,7 @@ e.g.
 
 [code]
 sudo mount -a
+ls -la /home/$USER/mount
 [/code]
 
 [[Category:Linux]]
