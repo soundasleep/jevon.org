@@ -2,12 +2,12 @@
 layout: page
 title:  "Setting up a Samba client on Ubuntu 12.04"
 author: jevon
-date:   2014-08-24 19:37:43 +1200
+date:   2014-08-24 19:38:01 +1200
 ---
 
 [[Linux]] / [[Ubuntu]] / [[Samba]]
 
-Based on <a href="https://help.ubuntu.com/community/MountWindowsSharesPermanently">MountWindowsSharesPermanently</a>:
+Based on <a href="https://help.ubuntu.com/community/MountWindowsSharesPermanently">MountWindowsSharesPermanently</a>, for [[Ubuntu]] after 12.04:
 
 1. Create a share on your Windows machine (the remote share)
 
