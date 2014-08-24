@@ -2,13 +2,14 @@
 layout: page
 title:  "Ruby on Rails"
 author: jevon
-date:   2014-08-21 19:43:06 +1200
+date:   2014-08-24 22:25:54 +1200
 ---
 
 [[Ruby]]
 
 # [[Google OAuth2 with Ruby on Rails]]
 # <a href="http://stackoverflow.com/a/1829515/39531">Loading `seeds.rb` data into test database through `rake test`</a>
+# [[Installing capybara-webkit on Ubuntu]]
 # [[Enabling Jenkins support with Ruby on Rails tests]]
 
 ==How I learnt Ruby on Rails==
