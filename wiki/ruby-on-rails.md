@@ -2,7 +2,7 @@
 layout: page
 title:  "Ruby on Rails"
 author: jevon
-date:   2014-09-03 16:25:58 +1200
+date:   2014-09-03 16:26:09 +1200
 ---
 
 [[Ruby]]
@@ -56,7 +56,7 @@ rails generate migration add_last_login_to_users last_login:date
 rake db:migrate
 [/code]
 
-==Could not find generator monban:scaffold==
+==Could not find generator `monban:scaffold`==
 
 The generators were moved into a separate Gem, <a href="https://github.com/halogenandtoast/monban-generators">monban-generators</a> - add this to your Gemfile.
 
