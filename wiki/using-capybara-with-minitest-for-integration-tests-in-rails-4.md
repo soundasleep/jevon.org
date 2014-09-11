@@ -2,7 +2,7 @@
 layout: page
 title:  "Using Capybara with Minitest for Integration Tests in Rails 4"
 author: jevon
-date:   2014-09-11 20:30:44 +1200
+date:   2014-09-11 21:16:23 +1200
 ---
 
 [[Ruby on Rails]] / [[Capybara]]
@@ -66,6 +66,12 @@ end
 4. Run your tests with `rake test:integration` (which will also be run as part of `rake test`).
 
 Assertions such as `expect(current_path).to == "/player/new"` and `current_path.should == "/player/new"` are [[RSpec]] idioms, and they won't work with <a href="http://ruby-doc.org/stdlib-2.1.1/libdoc/test/unit/rdoc/Test/Unit/Assertions.html">[[Minitest]] assertions</a>.
+
+Optionally you may wish to add the <a href="https://github.com/ordinaryzelig/capybara_minitest_spec">`capybara_minitest_spec` gem</a> so you can have more informational failure messages:
+
+[code ruby]
+page.must_have_content('Important!')
+[/code]
 
 [[Category:Ruby]]
 [[Category:Ruby on Rails]]
