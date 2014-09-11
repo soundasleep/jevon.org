@@ -2,11 +2,12 @@
 layout: page
 title:  "Ruby on Rails"
 author: jevon
-date:   2014-09-11 20:31:29 +1200
+date:   2014-09-11 20:31:38 +1200
 ---
 
 [[Ruby]]
 
+# [[Rake]]
 # [[Google OAuth2 with Ruby on Rails]]
 # [[Using Capybara with Minitest for Integration Tests in Rails 4]]
 # <a href="http://stackoverflow.com/a/1829515/39531">Loading `seeds.rb` data into test database through `rake test`</a>
