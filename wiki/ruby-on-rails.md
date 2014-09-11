@@ -2,12 +2,13 @@
 layout: page
 title:  "Ruby on Rails"
 author: jevon
-date:   2014-09-11 17:26:13 +1200
+date:   2014-09-11 20:31:29 +1200
 ---
 
 [[Ruby]]
 
 # [[Google OAuth2 with Ruby on Rails]]
+# [[Using Capybara with Minitest for Integration Tests in Rails 4]]
 # <a href="http://stackoverflow.com/a/1829515/39531">Loading `seeds.rb` data into test database through `rake test`</a>
 # <a href="http://stackoverflow.com/questions/11354656/error-error-error-installing-capybara-webkit">Installing capybara-webkit on Ubuntu</a>
 # [[Enabling Jenkins support with Ruby on Rails tests]]
