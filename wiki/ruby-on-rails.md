@@ -2,7 +2,7 @@
 layout: page
 title:  "Ruby on Rails"
 author: jevon
-date:   2014-09-03 16:26:09 +1200
+date:   2014-09-11 17:26:13 +1200
 ---
 
 [[Ruby]]
@@ -59,6 +59,18 @@ rake db:migrate
 ==Could not find generator `monban:scaffold`==
 
 The generators were moved into a separate Gem, <a href="https://github.com/halogenandtoast/monban-generators">monban-generators</a> - add this to your Gemfile.
+
+==RuntimeError: @controller is nil: make sure you set it in your test's setup method.==
+
+Are you trying to write an integration test in `test/integration/foo_test.rb`? Make sure that you are using `ActionDispatch::IntegrationTest` as your test superclass, rather than `ActionController::TestCase`:
+
+[code ruby]
+require 'test_helper'
+
+class FooTest < ActionDispatch::IntegrationTest
+  def setup
+  ...
+[/code]
 
 [[Category:Ruby]]
 [[Category:Rails]]
