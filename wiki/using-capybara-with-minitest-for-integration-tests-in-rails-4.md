@@ -2,12 +2,12 @@
 layout: page
 title:  "Using Capybara with Minitest for Integration Tests in Rails 4"
 author: jevon
-date:   2014-09-11 20:30:24 +1200
+date:   2014-09-11 20:30:35 +1200
 ---
 
 [[Ruby on Rails]] / [[Capybara]]
 
-Not as obvious or straightforward as it should be, since most Capybara code is based on RSpec, but Rails 4 comes with [[Minitest]]. Based on <a href="http://techiferous.com/2010/04/using-capybara-in-rails-3/">this Rails 3 guide</a>:
+Not as obvious or straightforward as it should be, since most Capybara code is based on [[RSpec]], but Rails 4 comes with [[Minitest]] by default. Based on <a href="http://techiferous.com/2010/04/using-capybara-in-rails-3/">this Rails 3 guide</a>:
 
 1. Add new bundles and run `bundle install`:
 
