@@ -2,10 +2,12 @@
 layout: page
 title:  "Ruby"
 author: jevon
-date:   2014-08-21 19:32:52 +1200
+date:   2014-09-11 16:42:49 +1200
 ---
 
 [[Ruby]] is a programming language which is used as the basis of [[Ruby on Rails]].
+
+# [[Rake]]
 
 ==ERROR:  While executing gem ... (Gem::RemoteFetcher::FetchError) too many connection resets ==
 
