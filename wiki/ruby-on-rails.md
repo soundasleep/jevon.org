@@ -2,7 +2,7 @@
 layout: page
 title:  "Ruby on Rails"
 author: jevon
-date:   2014-09-11 20:31:38 +1200
+date:   2014-09-16 19:43:26 +1200
 ---
 
 [[Ruby]]
@@ -73,6 +73,16 @@ class FooTest < ActionDispatch::IntegrationTest
   def setup
   ...
 [/code]
+
+==Loading additional autoload paths==
+
+In your `config/application.rb`:
+
+[code ruby]
+    # load additional paths
+    config.autoload_paths += Dir["#{config.root}/app/services/**/"]
+[/code]
+
 
 [[Category:Ruby]]
 [[Category:Rails]]
