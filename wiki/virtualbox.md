@@ -2,15 +2,15 @@
 layout: page
 title:  "Virtualbox"
 author: jevon
-date:   2014-09-23 21:04:44 +1200
+date:   2014-09-23 21:04:52 +1200
 ---
 
 [[Virtualbox]] allows you to run a [[VM]] for [[Linux]], [[Windows]] or anything else.
 
 ==Getting Shared Folders working==
 
-Guest OS: Ubuntu 12.04
-Host OS: Windows 7 x64
+* Guest OS: Ubuntu 12.04
+* Host OS: Windows 7 x64
 
 1. Set up a new folder in Windows e.g. `C:/vm` which will be used to host the shared folder
 
