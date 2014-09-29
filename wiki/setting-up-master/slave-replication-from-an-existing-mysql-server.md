@@ -2,10 +2,12 @@
 layout: page
 title:  "Setting up Master/Slave Replication from an existing MySQL server"
 author: jevon
-date:   2014-04-17 03:19:36 +1200
+date:   2014-09-29 22:06:44 +1300
 ---
 
 [[MySQL]]
+
+# <a href="http://firelitdesign.blogspot.co.nz/2011/04/how-to-fix-mysql-replication-error-1236.html">Got fatal error 1236: 'Client requested master to start replication from impossible position'</a>
 
 Currently https://cryptfolio.com is running off a single MySQL server. I want to switch this to a master/slave setup, which I intend will:
 
