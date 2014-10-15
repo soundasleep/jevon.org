@@ -2,7 +2,7 @@
 layout: page
 title:  "Ruby on Rails"
 author: jevon
-date:   2014-09-16 19:43:26 +1200
+date:   2014-10-15 17:56:55 +1300
 ---
 
 [[Ruby]]
@@ -13,6 +13,7 @@ date:   2014-09-16 19:43:26 +1200
 # <a href="http://stackoverflow.com/a/1829515/39531">Loading `seeds.rb` data into test database through `rake test`</a>
 # <a href="http://stackoverflow.com/questions/11354656/error-error-error-installing-capybara-webkit">Installing capybara-webkit on Ubuntu</a>
 # [[Enabling Jenkins support with Ruby on Rails tests]]
+# <a href="https://github.com/ci-reporter/ci_reporter_minitest">Testing reports with Rails 4 and Minitest</a> (just follow the instructions as is)
 
 ==How I learnt Ruby on Rails==
 
@@ -82,7 +83,6 @@ In your `config/application.rb`:
     # load additional paths
     config.autoload_paths += Dir["#{config.root}/app/services/**/"]
 [/code]
-
 
 [[Category:Ruby]]
 [[Category:Rails]]
