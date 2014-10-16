@@ -2,8 +2,10 @@
 layout: page
 title:  "Visual Basic"
 author: jevon
-date:   2007-10-24 12:51:19 +1300
+date:   2014-10-16 18:28:12 +1300
 ---
+
+# [[Visual Basic Runtimes]]
 
 ==Invalid Picture==
 If you are getting an ''Run-time error 481: Invalid picture'' error by running code like this:
@@ -24,16 +26,16 @@ ShellExecute hwnd, "open", "http://www.jevon.org", vbNullString, vbNullString, c
 
 ==Get the Filename/Directory From a String==
 [code]Function GetDirectoryFromFn(fn As String)
-    GetDirectoryFromFn = Mid(fn, 1, Len(fn) - InStr(StrReverse(fn), "\"))
+    GetDirectoryFromFn = Mid(fn, 1, Len(fn) - InStr(StrReverse(fn), ""))
 End Function
 
 Function GetFilenameFromFn(fn As String)
-    GetFilenameFromFn = Mid(fn, Len(fn) - InStr(StrReverse(fn), "\") + 2)
+    GetFilenameFromFn = Mid(fn, Len(fn) - InStr(StrReverse(fn), "") + 2)
 End Function[/code]
 
 Examples:
-[code]GetDirectoryFromFn("c:\somewhere\directory\file.ext") = "c:\somewhere\directory"
-GetFilenameFromFn("c:\somewhere\directory\file.ext") = "file.ext"[/code]
+[code]GetDirectoryFromFn("c:somewheredirectoryfile.ext") = "c:somewheredirectory"
+GetFilenameFromFn("c:somewheredirectoryfile.ext") = "file.ext"[/code]
 
 ==Load Text File==
 This code will attempt to load a text file, read all the text in it, and return the text. This should only be used on actual text files, without any binary in the file. Also, you should implement some error checking for making sure the file exists before running the function, because although an error message will pop up, no text will be returned in case of an error. Also, the function doesn't include any error catching other than checking that the file exists. (If you want a function to do this, write it yourself :D)
