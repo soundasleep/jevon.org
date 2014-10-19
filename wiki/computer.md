@@ -2,7 +2,7 @@
 layout: page
 title:  "Computer"
 author: jevon
-date:   2014-04-17 18:12:41 +1200
+date:   2014-10-19 17:21:32 +1300
 ---
 
 [[Jevon Wright|About me]]
@@ -35,7 +35,7 @@ Over time, I will try and fill the details of my current machine on this page.
 
 ==Laptops==
 
-# '''Lenovo ThinkPad T430s Notebook, Core i5-3320M 2.6 GHz, 8GB RAM, 180GB SSD, DVD writer, 14", Win 7 Professional 64-bit, 3G, Black''' from Ascent
+# '''Lenovo ThinkPad T430s Notebook, Core i5-3320M 2.6 GHz, 8GB RAM, 180GB SSD, DVD writer, 14", Win 7 Professional 64-bit, 3G, Black''' from <a href="http://www.ascent.co.nz/productspecification.aspx?ItemID=406967">Ascent</a>
 # '''Toshiba Satellite Pro A300 Notebook, Core 2 Duo T8100 2.1 GHz, 2GB RAM, 200GB HDD, 15.4" TFT, DVD writer, WLAN, Bluetooth, Win Vista Business, with XP Pro Downgrade Media''' from Ascent
 
 Things that have failed:
