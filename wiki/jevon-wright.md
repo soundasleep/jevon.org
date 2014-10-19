@@ -2,7 +2,7 @@
 layout: page
 title:  "Jevon Wright"
 author: jevon
-date:   2014-08-21 19:34:13 +1200
+date:   2014-10-19 17:20:23 +1300
 ---
 
 Hey, that's me ^_^
@@ -38,9 +38,9 @@ Hey, that's me ^_^
 * '''Web languages:''' [[PHP]], [[ASP]], [[JSP]], [[VBScript]], [[CSS]], [[HTML]], [[XML]], [[RSS]], [[Smarty]], [[HAML]]
 * '''Server web frameworks:''' [[Ruby on Rails]] ([[Ruby]]), [[Drupal]] (PHP), [[Alfresco]] (Java), [[Symfony]] (PHP), [[JET]]
 * '''Client web frameworks:''' [[EmberJS]], [[Handlebars]], [[JQuery]], [[bootstrap]], [[AJAX]], [[REST]] etc.
-* '''RDBMSes:''' [[MySQL]], [[sqlite]]
+* '''RDBMSes:''' [[MySQL]], [[sqlite]], [[Microsoft Access]], [[PostgreSQL]]
 * '''Web servers:''' [[Apache]], [[Tomcat]], [[IIS]], [[nginx]]
-* '''[[Linux]]:''' [[Ubuntu]] 10.04 LTS, 12.04 LTS
+* '''[[Linux]]:''' [[Ubuntu]] 10.04 LTS, 12.04 LTS, 14.04 LTS
 * '''[[Eclipse]] technologies:''' [[EMF]], [[GMF]], [[PDE]], [[openArchitectureWare]], [[Xpand]], [[Xtend]], [[SWT]]
 * '''Testing frameworks:''' [[Mocha]] (Javascript), [[PHPUnit]] (PHP), [[JUnit]] (Java), [[JWebUnit]] (Java), [[simplectest]] (C), [[SimpleTest]] (PHP)
 * '''Domain-specific languages:''' [[UML]], [[MOF]], [[WebML]], [[IAML]], [[UWE]]
@@ -49,6 +49,7 @@ Hey, that's me ^_^
 * '''Version control systems:''' [[Git]], [[SVN]], [[CVS]]
 * '''Office tools:''' [[Microsoft Office]], [[LibreOffice]], [[Paint Shop Pro]], [[Cygwin]] etc.
 * '''Build tools:''' [[Grunt]], [[Jenkins]], [[Ant]], [[Hudson]], [[Maven]], [[make]]
+* '''System scripting languages:''' [[Batch scripts]], [[Bash]] etc.
 * '''Packaging tools:''' [[npm]], [[bower]], [[PDE]], [[Composer]]
 * '''Other experience:''' [[LaTeX]], [[XPath]], [[Delphi]], [[Prolog]], [[Matlab]], [[XML schema]], [[XML stylesheets]], [[YAML]], [[CMIS]], [[GPG]], [[Amazon Glacier]], [[MIPS Assembly]], [[IRC]], [[Android]] etc.
 * '''[[Cryptocurrency|Cryptocurrencies]]:''' [[Bitcoin]], [[Litecoin]], [[Namecoin]] etc.
