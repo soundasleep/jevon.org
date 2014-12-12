@@ -2,7 +2,7 @@
 layout: page
 title:  "Grunt"
 author: jevon
-date:   2014-12-12 18:21:10 +1300
+date:   2014-12-12 19:33:48 +1300
 ---
 
 [[Grunt]] is a build tool much like [[Ant]] or [[Maven]], but using the beauty of [[Javascript]].
@@ -13,6 +13,7 @@ date:   2014-12-12 18:21:10 +1300
 My Grunt plugins:
 
 # <a href="https://github.com/soundasleep/emberjs-handlebars-sanity">emberjs-handlebars-sanity</a>
+# <a href="https://github.com/soundasleep/grunt-contrib-spritify">grunt-contrib-spritify</a>
 
 ==Publishing a new Grunt plugin==
 
