@@ -2,7 +2,7 @@
 layout: page
 title:  "Grunt"
 author: jevon
-date:   2014-12-12 19:33:48 +1300
+date:   2014-12-15 14:47:06 +1300
 ---
 
 [[Grunt]] is a build tool much like [[Ant]] or [[Maven]], but using the beauty of [[Javascript]].
@@ -46,6 +46,19 @@ module.exports = (grunt) ->
     grunt.log.write('Running the default task')
 [/code]
 # Run `grunt`
+
+==Concatenating Javascript files together==
+
+Use the <a href="https://github.com/trek/grunt-neuter">grunt-neuter</a> task.
+
+[code coffee]
+    neuter:
+      dist:
+        src: 'site/generated/js/generated-coffee.js',
+        dest: 'site/generated/js/generated-coffee-compiled.js'
+[/code]
+
+`generated-coffee.js` can have things like `require('path/*')`.
 
 [[Category:Javascript]]
 [[Category:Coffeescript]]
