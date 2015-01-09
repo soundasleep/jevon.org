@@ -2,12 +2,14 @@
 layout: page
 title:  "Web Development"
 author: jevon
-date:   2013-05-16 18:54:07 +1200
+date:   2015-01-09 19:51:01 +1300
 ---
 
 A partial list of the sites that [[Jevon Wright|I have worked on]]:
 
-# http://cryptfolio.com
+# http://www.metroinfo.co.nz/journeyplanner/index.html?region=christchurch#/journey_plans/new
+# https://cryptfolio.com
+# http://openclerk.org
 # http://namecoin.jevon.org
 # http://www.breaklikewaves.com
 # http://www.hubnet.asia
