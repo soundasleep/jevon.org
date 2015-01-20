@@ -2,7 +2,7 @@
 layout: page
 title:  "Why I switched back from Ubuntu to Windows 7"
 author: jevon
-date:   2015-01-20 16:07:21 +1300
+date:   2015-01-20 16:07:54 +1300
 ---
 
 I tried [[Ubuntu]] 14.04 LTS at work pretty seriously for a couple of months on my [[Computer|Lenovo T430s laptop]]. I really wanted it to work out and found <a href="https://delicious.com/jevonwright/ubuntu">a lot of tricks and guides</a> to clean up the default install; [[Ruby]] development on [[Windows]] is a pain and package management with `apt` is very comfortable.
@@ -36,7 +36,7 @@ However I've decided that Ubuntu just isn't ready for me. It's lots of little, t
 # System file dialogs. Why does typing in `".."` cause the file dialog to navigate to some arbitrary, random location on your disk, rather than the parent folder (as it does in [[Windows]])?
 # System file dialogs did not use the same favourites/left-hand navigation across all instances.
 # File dialogs would sort icons in different orders for seemingly no reason. Sometimes they'd be sorted alphabetically, sometimes they'd be sorted by character, sometimes they'd be sorted by hidden status. Sometimes dialogs would remember your last location; sometimes they'd be using your cwd. Every time a file dialog would open, I'd have to step back and identify _where_ I was, _how_ the files were being displayed, and _how_ I could possibly get to where I wanted to  go.
-# On [[Windows]] I can easily copy/paste the current folder location. On Ubuntu there seems to be no way to copy/paste the current folder location.
+# On [[Windows]] I can easily copy/paste the current folder location from any Explorer window (just click on the address). On Ubuntu there seems to be no way to copy/paste the current folder location.
 # No way to move close buttons from the left-hand side of the top window, to the right-hand side. Surely this shouldn't be that difficult to add as a feature.
 # Sometimes maximizing a window would not actually integrate the menu into the top menu bar, and I'd have two menu bars for the same application, stacked on top of each other. The whole concept of the top menu bar is an abomination when coming from Windows.
 # Chromium crashed. A lot. So much that I couldn't rely on it being stable.
