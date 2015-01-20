@@ -2,7 +2,7 @@
 layout: page
 title:  "Why I switched back from Ubuntu to Windows 7"
 author: jevon
-date:   2015-01-20 16:05:20 +1300
+date:   2015-01-20 16:07:21 +1300
 ---
 
 I tried [[Ubuntu]] 14.04 LTS at work pretty seriously for a couple of months on my [[Computer|Lenovo T430s laptop]]. I really wanted it to work out and found <a href="https://delicious.com/jevonwright/ubuntu">a lot of tricks and guides</a> to clean up the default install; [[Ruby]] development on [[Windows]] is a pain and package management with `apt` is very comfortable.
@@ -29,7 +29,9 @@ However I've decided that Ubuntu just isn't ready for me. It's lots of little, t
 # Closing my laptop to hibernate the machine would either work fine; not work, running the battery out; shut down the machine, but mouse settings would be all messed up when opening it again; or shut down instead of hibernate.
 # Sometimes, applications will just freeze for ~10-30 seconds, grey up and not take any input. Firefox was really good at doing this.
 # Sometimes, the entire system would freeze for ~10-30 seconds, and one character in a font would become corrupt across all applications permanently. Only logout would fix this.
-# `alt-tab` and `shift-~`, argh. Why is it not possible to get [[Windows]] style `alt-tab`, which swaps between _all_ windows in the system? On Ubuntu, `alt-tab` just switches between different _applications_ on the system; you have to use a combination of `alt-tab` and `shift-~`.
+# `alt-tab` and `shift-~`, argh. Why is it not possible to get [[Windows]] style `alt-tab`, which swaps between _all_ windows in the system? On Ubuntu, `alt-tab` just switches between different _applications_ on the system; you have to use a combination of `alt-tab` and `shift-~`, which switches between different _windows_ of the current application.
+# Hold down `alt-tab` and after a delay, would suddenly switch to switching between different instances of the selected application, and there's no way to get back to the previous `alt-tab` behaviour. This is extremely frustrating for a Windows user who uses `alt-tab` a _lot_.
+# When using `alt-tab`, don't try and use the mouse as well to select screens. There will be a lot of fighting and boxing with the interface.
 # Sometimes, windows would simply disappear from the screen. They'd still be listed in the launcher, but you cannot access them at all. You have to restart the application completely.
 # System file dialogs. Why does typing in `".."` cause the file dialog to navigate to some arbitrary, random location on your disk, rather than the parent folder (as it does in [[Windows]])?
 # System file dialogs did not use the same favourites/left-hand navigation across all instances.
