@@ -2,7 +2,7 @@
 layout: page
 title:  "Why I switched back from Ubuntu to Windows 7"
 author: jevon
-date:   2015-01-20 16:10:55 +1300
+date:   2015-01-20 16:11:42 +1300
 ---
 
 I tried [[Ubuntu]] 14.04 LTS at work pretty seriously for a couple of months on my [[Computer|Lenovo T430s laptop]]. I really wanted it to work out and found <a href="https://delicious.com/jevonwright/ubuntu">a lot of tricks and guides</a> to clean up the default install; [[Ruby]] development on [[Windows]] is a pain and package management with `apt` is very comfortable.
@@ -21,7 +21,7 @@ However I've decided that Ubuntu just isn't ready for me. It's lots of little, t
 
 # Every time I started the machine up, I'd get a <a href="http://askubuntu.com/questions/230670/apportcheckresume-recurring-error-and-gnome-shell-fixations">"system error occurred"</a> dialog, but after a software update, asking the dialog to submit the error would cause the dialog to just disappear silently.
 # It was extremely difficult to turn mouse acceleration off. I had to set up a <a href="http://askubuntu.com/questions/22589/how-to-change-my-mouse-wheel-scroll-rate">script to fix it</a> on every login.
-# The interface simultaneously suffers from too many options and not enough options. I was always fighting with the user interface, trying to make it more [[Windows]]-like.
+# The interface simultaneously suffers from too many options and not enough options. I was always fighting with the user interface, trying to make it more [[Windows]]-like. Installing _CompizConfig Settings Manager_ helps a lot, but can make your user interface extremely unstable. Some of these options should probably be defaults in the operating system.
 # Mapping a keyboard shortcut to an application would, if the application was already open, just cause the application to wiggle in the taskbar ("launcher"); it wouldn't actually bring the application to the front.
 # Using the Ubuntu file/application searcher/loader thing would jump around a lot as search results came in, had to be customised to turn off all the advertising introduced by default, and sometimes not be able to find what you're looking for.
 # For some reason [[Firefox]] insisted on opening _all_ downloaded files (when opened within Firefox) with the Packer program (which is designed for ZIPs). JPEGs should probably be displayed with an image viewer, Firefox.
