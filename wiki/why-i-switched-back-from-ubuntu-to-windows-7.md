@@ -2,7 +2,7 @@
 layout: page
 title:  "Why I switched back from Ubuntu to Windows 7"
 author: jevon
-date:   2015-01-21 15:07:50 +1300
+date:   2015-01-21 15:07:58 +1300
 ---
 
 I tried [[Ubuntu]] 14.04 LTS at work pretty seriously for a couple of months on my [[Computer|Lenovo T430s laptop]]. I really wanted it to work out and found <a href="https://delicious.com/jevonwright/ubuntu">a lot of tricks and guides</a> to clean up the default install; [[Ruby]] development on [[Windows]] is a pain and package management with `apt` is very comfortable.
@@ -45,6 +45,6 @@ However I've decided that Ubuntu just isn't ready for me. It's lots of little, t
 # Running Hangouts as a standalone application on Ubuntu was a mess. Somehow I managed to get it to always run maximized and I couldn't restore it.
 # [[Ruby]] development is actually about as awkward on Ubuntu as it is on Windows, having to deal with binaries across multiple platforms. It seems Ruby is only for MacOS, and Ruby/MySQL is a very awkward combination.
 
-I've now switched back to Windows and I'm using a <a href="https://twitter.com/soundasleep/status/557663609011339266">combination of terminal software</a> to achieve the same excellent terminal experience. --Still need to fix [[Git]] though-- See [[Getting Git to work over SSH in Windows]]).
+I've now switched back to Windows and I'm using a <a href="https://twitter.com/soundasleep/status/557663609011339266">combination of terminal software</a> to achieve the same excellent terminal experience. --Still need to fix [[Git]] though-- See [[Getting Git to work over SSH in Windows]].
 
 [[Category:Ubuntu]]
