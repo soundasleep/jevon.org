@@ -2,7 +2,7 @@
 layout: page
 title:  "Getting Git to work over SSH in Windows"
 author: jevon
-date:   2015-01-21 15:07:01 +1300
+date:   2015-01-21 15:07:22 +1300
 ---
 
 [[Git]]
@@ -15,6 +15,6 @@ Good luck! You need to do something like this:
 # Import these SSH public keys into your <a href="https://github.com/settings/ssh">GitHub account SSH keys</a>
 # Make sure that your `GIT_SSH` environment variable is set to `c:/cygwin/bin/ssh` or something similar; if you installed TortoiseGit, this may be messed up to point to a Putty console
 # Add the <a href="https://help.github.com/articles/working-with-ssh-key-passphrases/">ssh-agent script</a> to your `~/.bashrc`
-# Now, you can just run `bash` in any command prompt, which will ask you for your SSH keyphrase, and you can `git push` to your hearts content.
+# Now, you can just run `bash` in any command prompt, which will ask you for your SSH keyphrase, and you can `git push` to your hearts content without having to re-enter your passphrase every time
 
 [[Category:Git]]
