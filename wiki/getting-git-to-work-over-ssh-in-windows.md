@@ -2,14 +2,14 @@
 layout: page
 title:  "Getting Git to work over SSH in Windows"
 author: jevon
-date:   2015-01-21 15:16:24 +1300
+date:   2015-01-21 15:29:59 +1300
 ---
 
 [[Git]] / [[Windows]]
 
 Good luck! You need to do something like this:
 
-# Install [[Cygwin]] to install [[bash]] and openssh
+# Install [[Cygwin]] to install [[bash]] and openssh and Cygwin's [[git]]
 # You will now have a home directory `~` which will be something like `C:/cygwin/home/Jevon`
 # Create new `~/.ssh/id_rsa.pub` public keys with `ssh-keygen -t rsa` by following <a href="http://guides.beanstalkapp.com/version-control/git-on-windows.html">this article</a>
 # Import these SSH public keys into your <a href="https://github.com/settings/ssh">GitHub account SSH keys</a>
