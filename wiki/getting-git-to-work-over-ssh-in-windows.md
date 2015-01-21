@@ -2,10 +2,10 @@
 layout: page
 title:  "Getting Git to work over SSH in Windows"
 author: jevon
-date:   2015-01-21 15:07:22 +1300
+date:   2015-01-21 15:09:42 +1300
 ---
 
-[[Git]]
+[[Git]] / [[Windows]]
 
 Good luck! You need to do something like this:
 
@@ -18,3 +18,4 @@ Good luck! You need to do something like this:
 # Now, you can just run `bash` in any command prompt, which will ask you for your SSH keyphrase, and you can `git push` to your hearts content without having to re-enter your passphrase every time
 
 [[Category:Git]]
+[[Category:Windows]]
