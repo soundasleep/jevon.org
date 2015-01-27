@@ -2,7 +2,7 @@
 layout: page
 title:  "Why I switched back from Ubuntu to Windows 7"
 author: jevon
-date:   2015-01-21 15:07:58 +1300
+date:   2015-01-27 18:04:09 +1300
 ---
 
 I tried [[Ubuntu]] 14.04 LTS at work pretty seriously for a couple of months on my [[Computer|Lenovo T430s laptop]]. I really wanted it to work out and found <a href="https://delicious.com/jevonwright/ubuntu">a lot of tricks and guides</a> to clean up the default install; [[Ruby]] development on [[Windows]] is a pain and package management with `apt` is very comfortable.
@@ -16,6 +16,8 @@ It has some awesome things.
 # Font rendering is sometimes better for smaller font sizes.
 # The `terminator` terminal emulator is amazing and very smooth.
 # It's much easier than setting up a VM and trying to get it to play nicely with Windows.
+# [[Firefox]] is much faster and [[Firebug]] does not bug out as much.
+# [[Ruby]] tools such as [[HAML]] and [[SASS]] launch instantly and do not have to go through weird spawn processes to run. This can make build processes much faster.
 
 However I've decided that Ubuntu just isn't ready for me. It's lots of little, tiny things that cause my productivity to plummet, both regularly and randomly during the day.
 
