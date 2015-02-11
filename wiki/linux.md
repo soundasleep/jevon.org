@@ -2,7 +2,7 @@
 layout: page
 title:  "Linux"
 author: jevon
-date:   2014-08-24 19:32:38 +1200
+date:   2015-02-11 17:47:04 +1300
 ---
 
 [[Articles]]
@@ -12,6 +12,7 @@ date:   2014-08-24 19:32:38 +1200
 # [[Setting up a Samba client on Ubuntu 12.04]]
 # [[Citadel]]
 # [[Ubuntu]]
+# [[Why I switched back from Ubuntu to Windows 7]]
 # [[UEFI]]
 # <a href="http://www.delicious.com/jevonwright/linux" class="delicious">Other pages tagged as "linux"</a>
 
