@@ -2,7 +2,7 @@
 layout: page
 title:  "Linux"
 author: jevon
-date:   2015-02-11 17:47:04 +1300
+date:   2015-02-15 17:34:37 +1300
 ---
 
 [[Articles]]
@@ -126,6 +126,14 @@ The solution was to install a display manager such as Gnome's. `sudo apt-get ins
 [code]
 DISPLAY=:0 sudo aticonfig --adapter=all --odgt
 [/code]
+
+==Compare two directories with files recursively==
+
+[code]
+diff -rq dir1 dir2
+[/code]
+
+Based off <a href="http://lifehacker.com/compare-the-contents-of-two-folders-with-the-diff-comma-598872057">this article</a>
 
 [[Category:Article]]
 [[Category:Linux]]
