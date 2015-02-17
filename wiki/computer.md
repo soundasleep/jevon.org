@@ -2,7 +2,7 @@
 layout: page
 title:  "Computer"
 author: jevon
-date:   2014-10-19 17:21:32 +1300
+date:   2015-02-17 19:11:09 +1300
 ---
 
 [[Jevon Wright|About me]]
@@ -21,6 +21,7 @@ Over time, I will try and fill the details of my current machine on this page.
 # '''Kingston 4GB 1333MHz DDR3 Non-ECC CL9 DIMM (Kit of 2) Single Rank''' from <a href="http://www.itexpress.co.nz/epages/shop.sf/?ObjectPath=/Shops/itexpress/Products/57947">itexpress</a>
 # '''Kingston 8GB 1600MHz DDR3 Non-ECC DIMM (K2)''' from <a href="http://www.alphacity.co.nz/index.php?main_page=product_info&cPath=117_312_120&products_id=101620">AlphaCity</a>
 # '''ADATA SP900 256GB SATA3 SSD 2.5''' (SSD hard drive) from <a href="http://www.alphacity.co.nz/index.php?main_page=product_info&cPath=39_46&products_id=104151">AlphaCity</a>
+# '''[[HP LaserJet 1022n]]'''
 # Other less interesting parts
 
 ==Machine 2==
