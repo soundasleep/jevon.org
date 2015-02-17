@@ -2,7 +2,7 @@
 layout: page
 title:  "Articles"
 author: jevon
-date:   2014-01-15 18:03:08 +1300
+date:   2015-02-17 19:13:41 +1300
 ---
 
 Some random ramblings... under construction, and I'm always adding more.
@@ -30,6 +30,7 @@ Some random ramblings... under construction, and I'm always adding more.
 # [[Nokia 2730]]
 # [[Toshiba NB300]]
 # [[Galaxy S3]]
+# [[HP LaserJet 1022n]]
 
 <h2 class="heading-applications">Software</h2>
 # [[ICQ Contacts in XML]]
