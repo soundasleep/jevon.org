@@ -2,7 +2,7 @@
 layout: page
 title:  "Simple Right Click Convert WAV to MP3 in Windows"
 author: jevon
-date:   2015-02-20 12:24:59 +1300
+date:   2015-02-20 12:25:07 +1300
 ---
 
 ==Problem==
@@ -10,7 +10,7 @@ There's no easy way to convert [[WAV]] files to [[MP3]] files instantly - usuall
 
 ==Solution==
 # Download '''lame encoder''' from <a href="http://www.free-codecs.com/Lame_Encoder_download.htm">http://www.free-codecs.com/Lame_Encoder_download.htm</a>
-# Extract '''lame.exe''' to somewhere sensible (e.g. `C:Program Fileslame.exe`)
+# Extract '''lame.exe''' to somewhere sensible (e.g. `C:/Program Files/lame.exe`)
 # In an Explorer window, go '''Tools > Folder Options'''
 # Click on the '''File Types''' tab
 # Scroll down to '''WAV'''; select it
