@@ -2,7 +2,7 @@
 layout: page
 title:  "Simple Right Click Convert WAV to MP3 in Windows"
 author: jevon
-date:   2015-02-20 12:24:39 +1300
+date:   2015-02-20 12:24:59 +1300
 ---
 
 ==Problem==
@@ -17,7 +17,7 @@ There's no easy way to convert [[WAV]] files to [[MP3]] files instantly - usuall
 # Click on the '''Advanced''' button
 # Click '''New...''' to add a new right click association
 # In '''Action''', type in ''Lame MP3 128kbps'' (or something descriptive)
-# In '''Application used''', type in the following (including quotes): [code]"C:Program Fileslame.exe" -b 128 -h "%1" "%1-mp3.mp3"[/code]
+# In '''Application used''', type in the following (including quotes): `"C:/Program Files/lame.exe" -b 128 -h "%1" "%1-mp3.mp3"`
 # Click '''OK''', '''OK''', '''Close'''
 # Voila! You can now right click [[WAV]] files in [[Windows]], and an option will appear to convert it automatically into an [[MP3]]. You can also do this for batch conversion.
 
