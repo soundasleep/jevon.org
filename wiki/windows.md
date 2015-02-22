@@ -2,7 +2,7 @@
 layout: page
 title:  "Windows"
 author: jevon
-date:   2015-02-22 19:18:03 +1300
+date:   2015-02-22 19:18:13 +1300
 ---
 
 ==Failed to format the selected partition 0x8004242d==
@@ -75,7 +75,7 @@ A lot of the other solutions required access to another existing Windows 7 machi
 
 Within a command prompt as administrator:
 
-[code]mklink /j "c:virtual directory" "c:actual source directory"[/code]
+[code]mklink /j "c:/virtual directory" "c:/actual source directory"[/code]
 
 [[Category:Windows]]
 [[Category:Troubleshooting]]
