@@ -2,7 +2,7 @@
 layout: page
 title:  "Google OAuth2 with Ruby on Rails"
 author: jevon
-date:   2014-08-20 22:12:53 +1200
+date:   2015-02-24 17:51:44 +1300
 ---
 
 [[Ruby on Rails]] / [[OAuth2]]
@@ -17,12 +17,13 @@ Instead I got it working with just the `omniauth-google-oauth2` gem. Based on <a
 gem 'haml'
 gem 'figaro'
 gem 'omniauth-google-oauth2'
+gem 'activerecord-session_store'         # necessary for Rails 4+
 [/code]
 
 2. Create a new controller for sessions, and a new database model for users:
 
 [code]
-rails generate session_migration
+rails generate session_migration         # or active_record:session_migration for Rails 4+
 rails generate controller sessions
 rails generate model User provider:string uid:string name:string refresh_token:string access_token:string expires:timestamp
 rake db:migrate
