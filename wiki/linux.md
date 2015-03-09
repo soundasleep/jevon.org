@@ -2,7 +2,7 @@
 layout: page
 title:  "Linux"
 author: jevon
-date:   2015-02-15 17:34:37 +1300
+date:   2015-03-09 15:17:58 +1300
 ---
 
 [[Articles]]
@@ -24,6 +24,7 @@ tar xzf out.tar.gz folder   # extract .tar.gz to folder
 mogrify -format eps *.png   # convert all *.png to *.eps
 sh -x <script>              # show all commands executed by given script for debug
 df -h                       # show disk usage and free space
+apt-mark hold jenkins       # hold a package at the current version
 [/code]
 
 If this fails, the version of tar may not support gzip compression. In this case, you can use the traditional two-stage command:
