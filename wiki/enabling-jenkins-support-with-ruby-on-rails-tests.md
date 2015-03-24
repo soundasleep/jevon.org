@@ -2,14 +2,14 @@
 layout: page
 title:  "Enabling Jenkins support with Ruby on Rails tests"
 author: jevon
-date:   2014-08-21 19:48:42 +1200
+date:   2015-03-24 20:25:56 +1300
 ---
 
 [[Ruby on Rails]]
 
 1. Make sure you are using Rails 4.1+.
 
-2. Use the <a href="https://github.com/ci-reporter/ci_reporter_minitest">ci_reporter_minitest</a> gem in your `Gemfile`, and run `bundle update`:
+2. Use the <a href="https://github.com/ci-reporter/ci_reporter_minitest">`ci_reporter_minitest`</a> gem in your `Gemfile`, and run `bundle update`:
 
 [code]
 gem 'ci_reporter_minitest', '~> 1.0.0'
