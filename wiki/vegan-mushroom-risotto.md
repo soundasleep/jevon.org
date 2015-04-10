@@ -2,7 +2,7 @@
 layout: page
 title:  "Vegan Mushroom Risotto"
 author: jevon
-date:   2015-04-10 18:33:48 +1200
+date:   2015-04-10 18:34:28 +1200
 ---
 
 [[Recipes]]
@@ -10,7 +10,7 @@ date:   2015-04-10 18:33:48 +1200
 ==Ingredients==
 
 [code]
-1-2 brown onions, diced
+1-2 brown onions, diced finely
 500 g mushrooms
 6 C vegetable stock
 2 tbsp crushed garlic
