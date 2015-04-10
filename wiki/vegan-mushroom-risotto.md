@@ -2,7 +2,7 @@
 layout: page
 title:  "Vegan Mushroom Risotto"
 author: jevon
-date:   2015-04-10 18:33:13 +1200
+date:   2015-04-10 18:33:25 +1200
 ---
 
 [[Recipes]]
@@ -20,7 +20,7 @@ date:   2015-04-10 18:33:13 +1200
 
 ==Instructions==
 
-# Use a wide-based non-stick pan if possible
+# Use a wide non-stick pan if possible
 # Create vegetable stock by bringing water to boil; leave simmering
 # Slice mushrooms up, fry until cooked, set aside
 # In the same pan, fry up some oil + diced onion + crushed garlic on full heat, until the onion turns clear
