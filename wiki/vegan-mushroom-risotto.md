@@ -2,7 +2,7 @@
 layout: page
 title:  "Vegan Mushroom Risotto"
 author: jevon
-date:   2015-04-10 18:33:25 +1200
+date:   2015-04-10 18:33:48 +1200
 ---
 
 [[Recipes]]
@@ -27,7 +27,7 @@ date:   2015-04-10 18:33:25 +1200
 # Add arborio rice, fry briefly
 # Add wine, let it simmer briefly
 # Turn pan heat down to ~half
-# Slowly add vegetable stock, half a cup at a time; let it simmer until the risotto has the texture and movement of "lava"
+# Slowly add simmering vegetable stock, half a cup at a time, stirring; let the rice simmer until the risotto has the texture and movement of "lava"
 # Continue until almost all vegetable stock is added
 # Finally, add mushrooms and remaining vegetable stock. Also add a bit more oil to improve the texture and taste
 # Optionally add parmesan, salt or pepper
