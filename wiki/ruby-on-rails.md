@@ -2,7 +2,7 @@
 layout: page
 title:  "Ruby on Rails"
 author: jevon
-date:   2014-10-15 17:56:55 +1300
+date:   2015-06-09 21:11:30 +1200
 ---
 
 [[Ruby]]
@@ -82,6 +82,12 @@ In your `config/application.rb`:
 [code ruby]
     # load additional paths
     config.autoload_paths += Dir["#{config.root}/app/services/**/"]
+[/code]
+
+==Running a single Rspec file==
+
+[code]
+$ rspec spec/games/playable_spec.rb --require rails_helper
 [/code]
 
 [[Category:Ruby]]
