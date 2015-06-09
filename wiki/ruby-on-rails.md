@@ -2,7 +2,7 @@
 layout: page
 title:  "Ruby on Rails"
 author: jevon
-date:   2015-06-09 21:11:30 +1200
+date:   2015-06-09 21:11:58 +1200
 ---
 
 [[Ruby]]
@@ -77,11 +77,11 @@ class FooTest < ActionDispatch::IntegrationTest
 
 ==Loading additional autoload paths==
 
-In your `config/application.rb`:
+In your `config/application.rb` (note everything within app/**/* should be autoloaded anyway!):
 
 [code ruby]
     # load additional paths
-    config.autoload_paths += Dir["#{config.root}/app/services/**/"]
+    config.autoload_paths += Dir["#{config.root}/custom/services/**/"]
 [/code]
 
 ==Running a single Rspec file==
