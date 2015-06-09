@@ -2,7 +2,7 @@
 layout: page
 title:  "Ruby on Rails"
 author: jevon
-date:   2015-06-09 21:11:58 +1200
+date:   2015-06-09 21:12:08 +1200
 ---
 
 [[Ruby]]
@@ -77,7 +77,7 @@ class FooTest < ActionDispatch::IntegrationTest
 
 ==Loading additional autoload paths==
 
-In your `config/application.rb` (note everything within app/**/* should be autoloaded anyway!):
+In your `config/application.rb` (note everything within `app/**/*` should be autoloaded anyway!):
 
 [code ruby]
     # load additional paths
