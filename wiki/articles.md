@@ -2,7 +2,7 @@
 layout: page
 title:  "Articles"
 author: jevon
-date:   2015-02-17 19:13:41 +1300
+date:   2015-06-15 19:00:44 +1200
 ---
 
 Some random ramblings... under construction, and I'm always adding more.
@@ -41,6 +41,9 @@ Some random ramblings... under construction, and I'm always adding more.
 # [[XMLSpy]]
 # [[Jevon Online Whatpulse Team]]
 # [[Facebook]]
+# [[Windows]]
+# [[Linux]]
+# [[Mac OS X]]
 
 <h2 class="heading-gaming">Gaming</h2>
 # [[Converting Webshots files to JPEGs]]
