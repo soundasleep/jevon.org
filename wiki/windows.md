@@ -2,8 +2,10 @@
 layout: page
 title:  "Windows"
 author: jevon
-date:   2015-02-22 19:18:13 +1300
+date:   2015-06-15 19:01:05 +1200
 ---
+
+[[Articles]]
 
 ==Failed to format the selected partition 0x8004242d==
 
