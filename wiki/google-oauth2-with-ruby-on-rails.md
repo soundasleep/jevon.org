@@ -2,7 +2,7 @@
 layout: page
 title:  "Google OAuth2 with Ruby on Rails"
 author: jevon
-date:   2015-06-25 19:06:16 +1200
+date:   2015-06-25 19:07:17 +1200
 ---
 
 [[Ruby on Rails]] / [[OAuth2]]
@@ -97,7 +97,7 @@ And put your secrets into `/.env`:
 [code]
 OAUTH_CLIENT_ID: "xyz"
 OAUTH_CLIENT_SECRET: "xyz"
-APPLICATION_CONFIG_SECRET_TOKEN: "xyz"
+APPLICATION_CONFIG_SECRET_TOKEN: "<A LONG SECRET>"
 [/code]
 
 7. Enable Omniauth to use Googleauth2 as a provider (`approval_prompt` must be an empty string <a href="http://blog.myitcv.org.uk/2013/02/19/omniauth-google-oauth2-example.html">otherwise it will force a prompt on every login</a>):
