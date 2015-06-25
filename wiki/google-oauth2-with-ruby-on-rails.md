@@ -2,7 +2,7 @@
 layout: page
 title:  "Google OAuth2 with Ruby on Rails"
 author: jevon
-date:   2015-02-24 17:51:44 +1300
+date:   2015-06-25 19:03:04 +1200
 ---
 
 [[Ruby on Rails]] / [[OAuth2]]
@@ -81,11 +81,22 @@ end
 6. Edit `config/application.yml` with these Google keys (`figaro` will make all of these settings available through `ENV[property]`):
 
 [code yml]
-# config/application.yml
+# config/secrets.yml
 
-OAUTH_CLIENT_ID: "<CLIENT_ID>"
-OAUTH_CLIENT_SECRET: "<CLIENT_SECRET>"
-APPLICATION_CONFIG_SECRET_TOKEN: "<A LONG SECRET>"
+# Do not keep production secrets in the repository,
+# instead read values from the environment.
+production:
+  OAUTH_CLIENT_ID: <%= ENV["OAUTH_CLIENT_ID"] %>
+  OAUTH_CLIENT_SECRET: <%= ENV["OAUTH_CLIENT_SECRET"] %>
+  APPLICATION_CONFIG_SECRET_TOKEN: <%= ENV["APPLICATION_CONFIG_SECRET_TOKEN"] %>
+[/code]
+
+And put your secrets into `/.env`:
+
+[code]
+OAUTH_CLIENT_ID: "xyz"
+OAUTH_CLIENT_SECRET: "xyz"
+APPLICATION_CONFIG_SECRET_TOKEN: "xyz"
 [/code]
 
 7. Enable Omniauth to use Googleauth2 as a provider (`approval_prompt` must be an empty string <a href="http://blog.myitcv.org.uk/2013/02/19/omniauth-google-oauth2-example.html">otherwise it will force a prompt on every login</a>):
