@@ -2,7 +2,7 @@
 layout: page
 title:  "Google OAuth2 with Ruby on Rails"
 author: jevon
-date:   2015-06-25 19:03:04 +1200
+date:   2015-06-25 19:06:16 +1200
 ---
 
 [[Ruby on Rails]] / [[OAuth2]]
@@ -86,6 +86,7 @@ end
 # Do not keep production secrets in the repository,
 # instead read values from the environment.
 production:
+  secret_key_base: <%= ENV["SECRET_KEY_BASE"] %>
   OAUTH_CLIENT_ID: <%= ENV["OAUTH_CLIENT_ID"] %>
   OAUTH_CLIENT_SECRET: <%= ENV["OAUTH_CLIENT_SECRET"] %>
   APPLICATION_CONFIG_SECRET_TOKEN: <%= ENV["APPLICATION_CONFIG_SECRET_TOKEN"] %>
