@@ -2,7 +2,7 @@
 layout: page
 title:  "Google OAuth2 with Ruby on Rails"
 author: jevon
-date:   2015-06-25 19:07:17 +1200
+date:   2015-06-25 19:12:32 +1200
 ---
 
 [[Ruby on Rails]] / [[OAuth2]]
@@ -15,6 +15,7 @@ Instead I got it working with just the `omniauth-google-oauth2` gem. Based on <a
 
 [code]
 gem 'haml'
+gem 'dotenv-rails'
 gem 'figaro'
 gem 'omniauth-google-oauth2'
 gem 'activerecord-session_store'         # necessary for Rails 4+
