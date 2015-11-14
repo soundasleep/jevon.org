@@ -2,11 +2,13 @@
 layout: page
 title:  "Web Development"
 author: jevon
-date:   2015-01-09 19:51:01 +1300
+date:   2015-11-15 10:05:44 +1300
 ---
 
 A partial list of the sites that [[Jevon Wright|I have worked on]]:
 
+# http://www.powershop.co.nz
+# http://www.retail.org.nz
 # http://www.metroinfo.co.nz/journeyplanner/index.html?region=christchurch#/journey_plans/new
 # https://cryptfolio.com
 # http://openclerk.org
