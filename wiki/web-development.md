@@ -2,7 +2,7 @@
 layout: page
 title:  "Web Development"
 author: jevon
-date:   2015-11-15 10:06:34 +1300
+date:   2015-11-15 10:06:45 +1300
 ---
 
 A partial list of the sites that [[Jevon Wright|I have worked on]]:
@@ -24,7 +24,7 @@ A partial list of the sites that [[Jevon Wright|I have worked on]]:
 # http://www.mgham.co.nz
 # http:// hospitality4sale.co.nz (now defunct)
 # http://www.propertiesonline.co.nz
-# http:// shorerentals.co.nz now {{httpwww}}www.rentexnz.com/ now http://www.rentex.net.nz/
+# http:// shorerentals.co.nz now http:// www.rentexnz.com now http://www.rentex.net.nz/
 # http:// awcmee.massey.ac.nz/nzgc/ (now defunct, backed up at http://jevon.org/nzgc/)
 # http:// thebestshares.com (now defunct)
 # http:// evolution2007.com (now defunct)
