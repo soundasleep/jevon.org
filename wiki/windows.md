@@ -2,10 +2,12 @@
 layout: page
 title:  "Windows"
 author: jevon
-date:   2015-06-15 19:01:05 +1200
+date:   2015-11-15 09:49:19 +1300
 ---
 
 [[Articles]]
+
+# [[Essential Software for Windows]]
 
 ==Failed to format the selected partition 0x8004242d==
 
