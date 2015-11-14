@@ -2,17 +2,16 @@
 layout: page
 title:  "Jevon Wright"
 author: jevon
-date:   2014-10-19 17:20:23 +1300
+date:   2015-11-15 09:56:47 +1300
 ---
 
 Hey, that's me ^_^
 
 ==Vitals==
 
-* '''Age:''' 29
+* '''Age:''' 30
 * '''Star Sign:''' Gemini
 * '''E-mail:''' jevon@jevon.org
-* *<a href="http://talk.google.com">Google Talk</a>*: soundasleep@gmail.com
 * '''Occupation:''' [[Research|Researcher]], [[Web Development|Software Engineer]]
 * '''Location:''' [[Wellington]], New Zealand at <a href="http://maps.google.com/maps?f=q&hl=en&geocode=&q=Wellington&sll=-41.293382,174.775679&sspn=0.088691,0.160675&ie=UTF8&t=k&z=13&iwloc=addr">174.78, -41.29</a>
 * '''Journal:''' [user=jevon]
