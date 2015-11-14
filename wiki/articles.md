@@ -2,7 +2,7 @@
 layout: page
 title:  "Articles"
 author: jevon
-date:   2015-06-15 19:00:44 +1200
+date:   2015-11-15 09:49:40 +1300
 ---
 
 Some random ramblings... under construction, and I'm always adding more.
@@ -44,6 +44,7 @@ Some random ramblings... under construction, and I'm always adding more.
 # [[Windows]]
 # [[Linux]]
 # [[Mac OS X]]
+# [[Essential Software for Windows]]
 
 <h2 class="heading-gaming">Gaming</h2>
 # [[Converting Webshots files to JPEGs]]
