@@ -2,12 +2,14 @@
 layout: page
 title:  "Computer"
 author: jevon
-date:   2015-10-18 04:05:31 +1300
+date:   2015-11-15 09:49:05 +1300
 ---
 
 [[Jevon Wright|About me]]
 
 Over time, I will try and fill the details of my current machine on this page.
+
+# [[Essential Software for Windows]]
 
 ==Machine 1==
 
