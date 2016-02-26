@@ -2,7 +2,7 @@
 layout: page
 title:  "Unreal Engine 4"
 author: jevon
-date:   2016-02-27 05:06:39 +1300
+date:   2016-02-27 05:11:14 +1300
 ---
 
 [[Unreal Engine 4]] is a game development engine that's shiny.
@@ -31,6 +31,14 @@ I found the best fix for this was to edit the blueprint for the `FirstPersonProj
 If you don't currently have a VR device connected, and/or you haven't installed the Oculus/SteamVR SDKs, you can enable this option by enabling the "SimpleHMD" plugin (through Project Settings) and restarting.
 
 This will allow you to view an emulated VR stereo view.
+
+==Show FPS in game==
+
+In the console (by default, press tilde ~), type in `stat game` and/or `stat fps`.
+
+==Change/remove FPS cap from 62 frames per second==
+
+This is available in your project settings.
 
 [[Category:Games]]
 [[Category:Game Development]]
