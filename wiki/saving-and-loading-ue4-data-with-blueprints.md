@@ -2,7 +2,7 @@
 layout: page
 title:  "Saving and Loading UE4 Data with Blueprints"
 author: jevon
-date:   2016-02-27 19:44:32 +1300
+date:   2016-02-27 19:53:22 +1300
 ---
 
 [[Unreal Engine 4]]
@@ -20,6 +20,8 @@ The full `MySaveGame` blueprint flow for saving and loading, by triggering event
 Triggering custom events within other blueprints from an existing blueprint - because you won't have access to the KeyInputs from the `MySaveGame` blueprint (they're only available for `Actor`s, but the `MySaveGame` needs to extend from `SaveGame`):
 
 <img src="/img/ue4/triggering-events.png">
+
+If classes or events are not showing up, make sure that you hit "Compile" every now and again, so that these classes and events can be picked up.
 
 [[Category:Unreal Engine 4]]
 [[Category:Game Development]]
