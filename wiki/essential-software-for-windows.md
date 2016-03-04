@@ -2,7 +2,7 @@
 layout: page
 title:  "Essential Software for Windows"
 author: jevon
-date:   2015-11-15 09:55:55 +1300
+date:   2016-03-04 18:06:28 +1300
 ---
 
 [[Windows]]
@@ -26,7 +26,8 @@ Tools
 * <a href="http://www.oldversion.com/windows/paint-shop-pro-7-0">Paint Shop Pro 7</a>
 * <a href="http://www.winamp.com/">Winamp 5.63</a>
 * LibreOffice
-* WhatPulse
+* <a href="https://whatpulse.org/downloads/">WhatPulse</a>
+* <a href="http://7-zip.org/download.html">7zip</a>
 
 [[Category:Windows]]
 [[Category:Articles]]
