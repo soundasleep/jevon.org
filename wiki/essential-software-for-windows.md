@@ -2,7 +2,7 @@
 layout: page
 title:  "Essential Software for Windows"
 author: jevon
-date:   2016-03-04 18:06:28 +1300
+date:   2016-03-06 01:14:31 +1300
 ---
 
 [[Windows]]
@@ -17,7 +17,7 @@ System essentials
 
 Dev
 
-* <a href="http://www.sublimetext.com/2">Sublime Text 2</a>
+* <a href="http://www.sublimetext.com/2">Sublime Text 2</a> with <a href="https://packagecontrol.io/">Package Control</a>
 * Apache 2.x
 * PHP
 
