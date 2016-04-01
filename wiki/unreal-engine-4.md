@@ -2,12 +2,36 @@
 layout: page
 title:  "Unreal Engine 4"
 author: jevon
-date:   2016-02-27 19:26:41 +1300
+date:   2016-04-01 17:43:23 +1300
 ---
 
 [[Unreal Engine 4]] is a game development engine that's shiny.
 
 # [[Saving and Loading UE4 Data with Blueprints]]
+
+==Things for me to learn==
+
+* How difficult to compile code?
+* Rama load/save?
+* Navigating between levels?
+* Modular/bundler plugins? (half done)
+* Moving objects? Moving platforms?
+* Saving and loading instances?
+* Multiplayer?
+* Making materials?
+* Painting terrain?
+* Accessing VR controllers?
+* Supporting both VR controllers and mouse/keyboard?
+
+==Things I've tried out===
+
+* Committing to GitHub? Viewing diffs?
+* Saving and loading games?
+* Packaging & distributing?
+* Built in tools for Git?
+* Player movement?
+* Rolling balls?
+* Mobile support? - Needs VS 2015, keeps on crashing during build
 
 ==Making objects move after they stop==
 
