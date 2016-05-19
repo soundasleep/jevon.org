@@ -2,7 +2,7 @@
 layout: page
 title:  "Last.fm"
 author: jevon
-date:   2013-01-07 02:32:02 +1300
+date:   2016-05-19 18:59:32 +1200
 ---
 
 # {{lastfm}} <a href="http://www.last.fm/user/jdub_dub">My last.fm (jdub_dub)</a>
@@ -25,6 +25,11 @@ It uses code written by <a href="http://www.webdeveloper.com/forum/archive/index
 This is an updated version of the above code. <a href="javascript:(function(){window.setInterval(%20function()%20{%20try%20{%20if%20(document.getElementsByClassName("icon%20dismiss_icon").length%20==%200)%20return;%20document.getElementsByClassName("icon%20dismiss_icon")[0].parentNode.onclick();%20}%20catch%20(e)%20{throw%20e}%20},%201000);})();">draggable link</a>
 
 [code]javascript:(function(){window.setInterval(%20function()%20{%20try%20{%20if%20(document.getElementsByClassName("icon%20dismiss_icon").length%20==%200)%20return;%20document.getElementsByClassName("icon%20dismiss_icon")[0].parentNode.onclick();%20}%20catch%20(e)%20{throw%20e}%20},%201000);})();[/code]
+
+==Part 3==
+This works on the most recent last.fm website. Uses [jQuery] to be more straightforward.
+
+[code]jQuery(".chartlist-delete-button").each(function(i, e) { window.setTimeout(function() { e.click(); }, 300 * i); })[/code]
 
 [[Category:Code Snippets]]
 [[Category:Javascript]]
