@@ -22,6 +22,8 @@ gem "jekyll-coffeescript"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+	# NOTE Github Pages only supports a whitelist of plugins here:
+	# https://github.com/github/pages-gem/blob/bd1018072aab370ddf63aa9c3938867e2133ac80/lib/github-pages/configuration.rb#L15
   gem "jekyll-feed", "~> 0.6"
 end
 

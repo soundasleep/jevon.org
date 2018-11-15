@@ -11,3 +11,8 @@ Source code for https://jevon.org in [Jekyll](https://jekyllrb.com/).
 ```
 bundle exec jekyll serve
 ```
+
+## Developing
+
+If hosted on GitHub pages, you can't import anything from `node_modules`, so there's no point in having
+a `package.json`.

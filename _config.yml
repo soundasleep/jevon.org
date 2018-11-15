@@ -33,6 +33,12 @@ plugins:
 sass:
   style: compressed
 
+browserify:
+  command: "$(npm bin)/browserify" # -t [ babelify --presets es2015 ]"
+
+  # target exts to convert
+  exts: [".js"]
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
