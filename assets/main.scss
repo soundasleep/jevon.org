@@ -2,9 +2,14 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "minima";
 @import "variables";
+@import "minima";
+
+span.menu-icon {
+  background: url('/assets/images/hamburger.svg') 50% 50% no-repeat;
+  background-size: 18px;
+}
 
 footer.site-footer {
-	background: mix($background, $highlight, 90%);
+  background: mix($background, $highlight, 90%);
 }
