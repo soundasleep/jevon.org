@@ -49,12 +49,16 @@ date:   #{updated}
 #{content}"
 end
 
+def shell_escape(s)
+  "\"" + s.gsub("\"", "\\\"") + "\""
+end
+
 def git_add_and_commit(filename, git_updated, git_author, git_reason)
   # This sets GIT_AUTHOR_DATE but not GIT_COMMITTER_DATE.
   # It's a bit unclear, but 'The author is the person who originally wrote the work,
   # whereas the committer is the person who last applied the work.'
   # So I think this is technically correct? I am committing the change today, but I'm not the author.
-  system("git add #{filename} && git commit --date \"#{git_updated}\" --author \"#{git_author}\" --message \"#{git_reason}\"")
+  system("git add #{shell_escape(filename)} && git commit --date #{shell_escape(git_updated)} --author #{shell_escape(git_author)} --message #{shell_escape(git_reason})")
 end
 
 def process_edit_or_page(row)
