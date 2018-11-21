@@ -35,11 +35,15 @@ def select_git_author(username)
   end
 end
 
-def select_git_reason(reason)
+def select_git_reason(reason, filename, title)
   if reason.nil? || reason.empty?
-    "Edit imported from jevon.org"
+    if File.exists?(filename)
+      "Updated '#{title}'\n\nEdit imported from jevon.org using export_and_commit.rb"
+    else
+      "Created '#{title}'\n\nEdit imported from jevon.org using export_and_commit.rb"
+    end
   else
-    "#{reason}\n\nEdit imported from jevon.org"
+    "#{reason}\n\nEdit imported from jevon.org using export_and_commit.rb"
   end
 end
 
@@ -50,6 +54,7 @@ title:  \"#{title}\"
 author: #{author}
 date:   #{updated}
 ---
+
 #{content}"
 end
 
@@ -73,12 +78,12 @@ def process_edit_or_page(row)
   content = row['content']
   updated = row['updated'] || $earliest_edit
 
-  git_author = select_git_author(author)
-  git_updated = updated
-  git_reason = select_git_reason(reason)
-
   slug = select_slug(title)
   filename = select_filename(slug)
+
+  git_author = select_git_author(author)
+  git_updated = updated
+  git_reason = select_git_reason(reason, filename, title)
 
   puts "Updating #{filename} with '#{title}' (#{author} -> #{git_author})"
 
