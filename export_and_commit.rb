@@ -20,6 +20,10 @@ def select_slug(title)
   title.downcase.gsub(' ', '-')
 end
 
+def select_filename(slug)
+  "wiki/#{slug.gsub(/[^A-Z0-9\-\/]+/i, '-')}.md" # allow / for folders
+end
+
 def select_git_author(username)
   case username
   when "jevon"
@@ -50,7 +54,7 @@ date:   #{updated}
 end
 
 def shell_escape(s)
-  "\"" + s.gsub("\"", "\\\"") + "\""
+  "\"" + "#{s}".gsub("\"", "\\\"") + "\""
 end
 
 def git_add_and_commit(filename, git_updated, git_author, git_reason)
@@ -58,7 +62,7 @@ def git_add_and_commit(filename, git_updated, git_author, git_reason)
   # It's a bit unclear, but 'The author is the person who originally wrote the work,
   # whereas the committer is the person who last applied the work.'
   # So I think this is technically correct? I am committing the change today, but I'm not the author.
-  system("git add #{shell_escape(filename)} && git commit --date #{shell_escape(git_updated)} --author #{shell_escape(git_author)} --message #{shell_escape(git_reason})")
+  system("git add #{shell_escape(filename)} && git commit --date #{shell_escape(git_updated)} --author #{shell_escape(git_author)} --message #{shell_escape(git_reason)}")
 end
 
 def process_edit_or_page(row)
@@ -74,7 +78,7 @@ def process_edit_or_page(row)
   git_reason = select_git_reason(reason)
 
   slug = select_slug(title)
-  filename = "wiki/#{slug}.md"
+  filename = select_filename(slug)
 
   puts "Updating #{filename} with '#{title}' (#{author} -> #{git_author})"
 
