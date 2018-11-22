@@ -3,9 +3,10 @@ layout: page
 title:  "Having a bidirectional computed property on an EmberJS text field"
 author: jevon
 date:   2014-04-01 21:28:52 +1300
+tags:   [Javascript]
 ---
 
-[[EmberJS]]
+[EmberJS](emberjs.md)
 
 We had an issue where we had an EmberJS model with an attribute `time`, but we wanted to display this as a human-readable time that was also user-editable. 
 
@@ -13,7 +14,7 @@ We couldn't just add a computed property and use an `{<!-- -->{input valueBindin
 
 The solution was to first create a computed property `timeHumanReadable` on the original Ember model:
 
-[code coffee]
+```
 App.MyModel = DS.Model.extend
   # this HAS to be format '11:00'
   time: DS.attr('string', {
@@ -23,11 +24,11 @@ App.MyModel = DS.Model.extend
   timeHumanReadable: ( ->
     moment(@get("time"), "HH:mm").format("h:mma")
   ).property("time")
-[/code]
+```
 
 And then create a new View called _TextFieldTime_, which would get a reference to the original model object and update times accordingly:
 
-[code coffee]
+```
 App.TextFieldTime = Ember.TextField.extend
   init: ->
     @_super()
@@ -40,12 +41,10 @@ App.TextFieldTime = Ember.TextField.extend
     # setting 'time' in focusOut doesn't seem to update listening properties, and setting it through @$().val
     # will not persist across page transitions, so we just update the computed property directly - seems to work
     @model.set('timeHumanReadable', moment(converted, 'HH:mm').format('h:mma'))
-[/code]
+```
 
-Finally, using this in a [[Handlebars]] template:
+Finally, using this in a [Handlebars](handlebars.md) template:
 
-[code handlebars]
-{{view App.TextFieldTime valueBinding="timeHumanReadable" isVisibleBinding="isNormalTime" class="my-time-input-class"}}
-[/code]
-
-[[Category:Javascript]]
+```
+{{ "{{" }}view App.TextFieldTime valueBinding="timeHumanReadable" isVisibleBinding="isNormalTime" class="my-time-input-class"}}
+```

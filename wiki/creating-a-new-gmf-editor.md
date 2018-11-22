@@ -3,16 +3,17 @@ layout: page
 title:  "Creating a new GMF Editor"
 author: jevon
 date:   2008-06-18 12:43:37 +1200
+tags:   [Technology, Eclipse, GMF]
 ---
 
-Also see [[GMF]] for more details. Having issues? Look at [[GMF Troubleshooting]].
+Also see [GMF](gmf.md) for more details. Having issues? Look at [GMF Troubleshooting](gmf-troubleshooting.md).
 
-This tutorial applies to [[GMF]] 2.0.2; [[GEF]] SDK 3.3.2.
+This tutorial applies to [GMF](gmf.md) 2.0.2; [GEF](gef.md) SDK 3.3.2.
 
 Some more tutorials:
-# [[GMF Diagram Partitioning]]
+1. [GMF Diagram Partitioning](gmf-diagram-partitioning.md)
 
-{{gmf-css}}<div class="gmf_code"><ul>
+{% include gmf-css.md %}<div class="gmf_code"><ul>
 <li>Open up the GMF cheat sheet (CS), we will use this to do most of the work.</li>
 <li>Create a new project (CS)</li>
 <li>Create an ecore model, either by hand or through Java annotations</li>
@@ -23,17 +24,17 @@ Some more tutorials:
       <ul>
       <li>[class Application]</li>
         <ul>
-        <li>reference pages [0..*] : Page '''(make sure you set 'containment' to true!)'''</li>
+        <li>reference pages [0..*] : Page **(make sure you set 'containment' to true!)**</li>
         </ul>
       <li>[class Page]</li>
         <ul>
         <li>attribute title : String</li>
         <li>attribute content : String</li>
-        <li>reference links [0..*] : Link '''(again with containment to true)'''</li>
+        <li>reference links [0..*] : Link **(again with containment to true)**</li>
         </ul>
       <li>[class Link]</li>
         <ul>
-        <li>reference page [0..1] : Page '''(containment to false)'''</li>
+        <li>reference page [0..1] : Page **(containment to false)**</li>
         </ul>
       </ul>
      </ul>
@@ -47,7 +48,7 @@ Some more tutorials:
     <li>Generate model code</li>
     <li>Generate edit code</li>
     </ul>
-  <li>''If there are any errors, make sure your .ecore model is behaving. Once you do this, make sure you do the following:''</li>
+  <li>_If there are any errors, make sure your .ecore model is behaving. Once you do this, make sure you do the following:_</li>
     <ul>
     <li>Delete the .genmodel, plugin.xml, MANIFEST.MF files</li>
     <li>Delete the .edit project</li>
@@ -88,7 +89,7 @@ Some more tutorials:
     <li>Canvas mapping: [package foo] / Application</li>
     <li>Nodes area: select Page</li>
     <li>Links area: select Link</li>
-    <li>''If you don't have any Nodes or Links displaying here... I haven't worked out why yet.''</li>
+    <li>_If you don't have any Nodes or Links displaying here... I haven't worked out why yet._</li>
     </ul>
   <li>Edit feature label mapping</li>
     <ul>
@@ -110,9 +111,10 @@ Some more tutorials:
 </ul>
 </div>
 
-This will allow the generation of the following [[ecore]]-based [[XML]] model:
+This will allow the generation of the following [ecore](ecore.md)-based [XML](xml.md) model:
 
-[code]<?xml version="1.0" encoding="UTF-8"?>
+```
+<?xml version="1.0" encoding="UTF-8"?>
 <org.package.bar:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.package.bar="http://jevon.org/package">
   <pages title="a page" content="some content">
     <links page="//@pages.1"/>
@@ -120,10 +122,7 @@ This will allow the generation of the following [[ecore]]-based [[XML]] model:
   </pages>
   <pages title="another page" content="some content"/>
   <pages title="yet another"/>
-</org.package.bar:Application>[/code]
+</org.package.bar:Application>
+```
 
-If you are having any issues, try looking at [[GMF Troubleshooting]].
-
-[[Category:Technology]]
-[[Category:Eclipse]]
-[[Category:GMF]]
+If you are having any issues, try looking at [GMF Troubleshooting](gmf-troubleshooting.md).

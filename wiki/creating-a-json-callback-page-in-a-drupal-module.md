@@ -3,13 +3,14 @@ layout: page
 title:  "Creating a JSON callback page in a Drupal module"
 author: jevon
 date:   2014-04-02 14:57:51 +1300
+tags:   [Drupal, PHP, Web development, JSON]
 ---
 
-[[Drupal]]
+[Drupal](drupal.md)
 
-This can useful for [[AJAX]] scripts or [[REST]] applications that need [[JSON]] output. In your `my_module.module`, extend your `hook_menu()`:
+This can useful for [AJAX](ajax.md) scripts or [REST](rest.md) applications that need [JSON](json.md) output. In your `my_module.module`, extend your `hook_menu()`:
 
-[code php]
+```
 /**
  * Implements hook_menu().
  */
@@ -30,11 +31,11 @@ function my_module_menu() {
 
   return $items;
 }
-[/code]
+```
 
 And then in `my_module.inc`, <a href="https://drupal.org/node/1613408">use `drupal_json_output`</a>:
 
-[code php]
+```
 /**
  * Page callback.
  */
@@ -46,11 +47,6 @@ function my_module_json_callback() {
 
   drupal_json_output($json);
 }
-[/code]
+```
 
 You can then access your callback (after clearing your caches) by calling http://localhost/drupal/my/callback.
-
-[[Category:Drupal]]
-[[Category:PHP]]
-[[Category:Web development]]
-[[Category:JSON]]

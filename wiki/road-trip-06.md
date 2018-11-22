@@ -3,9 +3,10 @@ layout: page
 title:  "Road Trip '06"
 author: jevon
 date:   2006-01-21 11:21:00 +1300
+tags:   [Protected]
 ---
 
-==February [[2006]]==
+## February [2006](2006.md)
 
 <style>.roadtrip { border-collapse: collapse; width: 100%; } .roadtrip TR, .roadtrip TD.map { border: 1px solid gray; background: white; } .roadtrip TH { font-size: 0.8em; } .roadtrip TR.a { background: #dddddd; } .roadtrip TR.w { background:  #ffcc99; } .roadtrip TR TD, .roadtrip TR TH { padding: 3px; text-align: left; padding-left: 10px; } .roadtrip TR + TH { background: #cccccc; } TD.map { width: 240px; } TD.map IMG { width: 238px; height: 339px; } TD.map IMG:hover { width: 477px; height: 678px; }</style><table style="width:100%;"><tr valign="top"><td rowspan="2">
 <table class="roadtrip">
@@ -108,5 +109,3 @@ date:   2006-01-21 11:21:00 +1300
 <td></td></tr>
 </table>
 </td><td class="map"></td></table>
-
-[[Category:Protected]]

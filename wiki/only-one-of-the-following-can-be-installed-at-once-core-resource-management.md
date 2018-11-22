@@ -3,13 +3,15 @@ layout: page
 title:  "Only one of the following can be installed at once: Core Resource Management"
 author: jevon
 date:   2011-09-26 16:18:37 +1300
+tags:   [Eclipse]
 ---
 
-[[Eclipse]]
+[Eclipse](eclipse.md)
 
-{{gmf-css}}<img src="/img/gmf/eclipse-crm.png" class="gmf" style="max-width: 40%;">When trying to <a href="http://code.google.com/p/iaml/wiki/Installation">install the IAML project</a>, I was getting the following error from the [[Eclipse]] update wizard:
+{% include gmf-css.md %}<img src="/img/gmf/eclipse-crm.png" class="gmf" style="max-width: 40%;">When trying to <a href="http://code.google.com/p/iaml/wiki/Installation">install the IAML project</a>, I was getting the following error from the [Eclipse](eclipse.md) update wizard:
 
-[code]Cannot complete the install because of a conflicting dependency.
+```
+Cannot complete the install because of a conflicting dependency.
   Only one of the following can be installed at once:
     Core Resource Management 3.5.0.v20090512
     Core Resource Management 3.5.2.R35x_v20091203-1235
@@ -25,8 +27,7 @@ date:   2011-09-26 16:18:37 +1300
     To: org.eclipse.sdk.feature.group
   Cannot satisfy dependency:
     From: IAML Modelling Platform 0.6.0.201109262029
-    To: org.eclipse.core.resources[/code]
+    To: org.eclipse.core.resources
+```
 
-I think the problem is that I was trying to install a plugin that requires 3.5.2 onto an [[Eclipse]] that is only at version 3.5.0. If you first update your Eclipse to 3.5.2 (Help > Check for Updates), you will be able to install the plugin without problems.
-
-[[Category:Eclipse]]
+I think the problem is that I was trying to install a plugin that requires 3.5.2 onto an [Eclipse](eclipse.md) that is only at version 3.5.0. If you first update your Eclipse to 3.5.2 (Help > Check for Updates), you will be able to install the plugin without problems.

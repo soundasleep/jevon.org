@@ -3,6 +3,7 @@ layout: page
 title:  "Enterprise"
 author: jevon
 date:   2006-05-31 07:33:12 +1200
+tags:   [Technology]
 ---
 
 "How ignorant I have been all these years! My definition of an enterprise class application was that it
@@ -18,5 +19,3 @@ c) uses every conceivable technology/design pattern the "architect" picked up at
 d) crawls between its frequent breakdowns (so the support folks and on call people will have something to do)"
 
 Source: http://thedailywtf.com/forums/permalink/75070/75091/ShowThread.aspx#75091
-
-[[Category:Technology]]

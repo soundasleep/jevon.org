@@ -3,13 +3,15 @@ layout: page
 title:  "Eclipse Popup Menu Subtrees"
 author: jevon
 date:   2009-08-07 17:09:26 +1200
+tags:   [Eclipse, Code Samples]
 ---
 
-[[Eclipse]]
+[Eclipse](eclipse.md)
 
 If you want popup menu items to appear in the top-level of the menu, just use the ID of the menu contribution itself:
 
-[code]<extension point="org.eclipse.ui.popupMenus">
+```
+<extension point="org.eclipse.ui.popupMenus">
   <objectContribution
       adaptable="false"
       id="org.openiaml.model.codegen.objectContribution1"
@@ -29,11 +31,13 @@ If you want popup menu items to appear in the top-level of the menu, just use th
         menubarPath="org.openiaml.model.diagram.custom.menu1">
     </action>
   </objectContribution>
-</extension>[/code]
+</extension>
+```
 
-If however, you want menu items to appear as a sub-tree of your menu, create a "separator" and use the ''menuPath'' attribute as in "ID/group":
+If however, you want menu items to appear as a sub-tree of your menu, create a "separator" and use the _menuPath_ attribute as in "ID/group":
 
-[code]...
+```
+...
 
     <menu
         id="org.openiaml.model.diagram.custom.menu1"
@@ -47,7 +51,5 @@ If however, you want menu items to appear as a sub-tree of your menu, create a "
         id="org.openiaml.model.diagram.custom.action4"
         label="Infer all elements in-place"
         menubarPath="org.openiaml.model.diagram.custom.menu1/group1"> <!-- changed -->
-    </action>[/code]
-
-[[Category:Eclipse]]
-[[Category:Code Samples]]
+    </action>
+```

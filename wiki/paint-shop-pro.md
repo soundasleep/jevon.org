@@ -3,16 +3,14 @@ layout: page
 title:  "Paint Shop Pro"
 author: jevon
 date:   2007-09-19 11:02:42 +1200
+tags:   [Software, Internet]
 ---
 
-[[Paint Shop Pro]] is a cheap, awesome graphic editor for [[Windows]] with its roots based in [[Web Development]].
+[Paint Shop Pro](paint-shop-pro.md) is a cheap, awesome graphic editor for [Windows](windows.md) with its roots based in [Web Development](web-development.md).
 
-==Creating Alpha PNG Images in Paint Shop Pro 7==
-# Create an image
-# Create a mask (this is the [[alpha]] layer)
-# Save the mask to an alpha channel
-# '''IMPORTANT:''' Delete the current mask, and don't merge it into the current layer. If you don't do this, the resulting image will be double-alphad.
-# Save the image to a [[PNG]] file.
-
-[[Category:Software]]
-[[Category:Internet]]
+## Creating Alpha PNG Images in Paint Shop Pro 7
+1. Create an image
+1. Create a mask (this is the [alpha](alpha.md) layer)
+1. Save the mask to an alpha channel
+1. **IMPORTANT:** Delete the current mask, and don't merge it into the current layer. If you don't do this, the resulting image will be double-alphad.
+1. Save the image to a [PNG](png.md) file.

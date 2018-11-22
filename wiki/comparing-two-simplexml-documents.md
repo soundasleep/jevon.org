@@ -3,35 +3,41 @@ layout: page
 title:  "Comparing Two SimpleXML Documents"
 author: jevon
 date:   2013-11-03 19:29:41 +1300
+tags:   [Article, PHP, Programming Snippets]
 ---
 
-[[Articles]] > [[PHP]]
+[Articles](articles.md) > [PHP](php.md)
 
 As far as I know, there's no simple way to compare two <a href="http://nz.php.net/manual/en/ref.simplexml.php">SimpleXML</a> documents for equality. This fails:
 
-[code]$xml1 = new SimpleXMLElement(file_get_contents('file1.xml'));
+```
+$xml1 = new SimpleXMLElement(file_get_contents('file1.xml'));
 $xml2 = new SimpleXMLElement(file_get_contents('file2.xml'));
-return $xml1 == $xml2;[/code]
+return $xml1 == $xml2;
+```
 
 And this might too, because whitespace around the tags or swapped attribute order might screw around with the text output:
 
-[code]return $xml1->asXml() == $xml2->asXml();[/code]
+`return $xml1->asXml() == $xml2->asXml();`
 
-Technically, even if this was to work (i.e. check that they have the same structure, not the same resource identifier), but the order of the [[XML]] documents were different, then it should still fail - XML documents have order.
+Technically, even if this was to work (i.e. check that they have the same structure, not the same resource identifier), but the order of the [XML](xml.md) documents were different, then it should still fail - XML documents have order.
 
 So I wrote a function which will allow you to check two XML documents and make sure they have the same structure, attributes and children, but in any order (below). Use the optional parameter "$text_strict" to test explicitly for all leading and trailing whitespace.
 
-=Usage=
-[code]$result = xml_is_equal($xml1, $xml2);
+# Usage
+```
+$result = xml_is_equal($xml1, $xml2);
 if ($result === true) {
    // the XML documents are the same
 } else {
    // they are different: print the reason why
    printf(STDERR, "XML documents are different: $result");
-}[/code]
+}
+```
 
-=Code Listing=
-[code]function xml_is_equal(SimpleXMLElement $xml1, SimpleXMLElement $xml2, $text_strict = false) {
+# Code Listing
+```
+function xml_is_equal(SimpleXMLElement $xml1, SimpleXMLElement $xml2, $text_strict = false) {
 	// compare text content
 	if ($text_strict) {
 		if ("$xml1" != "$xml2") return "mismatched text content (strict)";
@@ -146,12 +152,9 @@ if ($result === true) {
 	
 	// if we've got through all of THIS, then we can say that xml1 has the same attributes and children as xml2.
 	return true;
-}[/code]
+}
+```
 
-{{tag-todo|put code onto SVN and link to actual SVN code}}
+{% include tag-todo.md comment="put code onto SVN and link to actual SVN code" %}
 
 License: MIT
-
-[[Category:Article]]
-[[Category:PHP]]
-[[Category:Programming Snippets]]

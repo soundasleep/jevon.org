@@ -3,15 +3,17 @@ layout: page
 title:  "Setting up an EMF/JET testing project with JUnit and Eclipse"
 author: jevon
 date:   2008-10-17 08:29:17 +1300
+tags:   [Article, Technology, GMF, EMF]
 ---
 
-[[GMF Code Samples]] / [[GMF]] / [[EMF]]
+[GMF Code Samples](gmf-code-samples.md) / [GMF](gmf.md) / [EMF](emf.md)
 
-So the idea of this article is to set up an environment where you can test a [[JET]] plugin in terms of its [[code generation]] from an [[EMF]] model, using [[JUnit]] so it is easy to test the output.
+So the idea of this article is to set up an environment where you can test a [JET](jet.md) plugin in terms of its [```
+] from an [[EMF]] model, using [[JUnit]] so it is easy to test the output.
 
-# Get a [[JET]] plugin working through Eclipse and making it possible to run it in a runtime application (''org.openiaml.test.uml3.generate.ejet''). {{tag-todo|link to actual project}}
+# Get a [[JET]] plugin working through Eclipse and making it possible to run it in a runtime application (''org.openiaml.test.uml3.generate.ejet''). {{ "{{" }}tag-todo|link to actual project}}
 
-{{gmf-css}}<img src="/img/gmf/jet-testing.png" class="gmf">'''Create the project with dependencies:'''
+{{ "{{" }}gmf-css}}<img src="/img/gmf/jet-testing.png" class="gmf">'''Create the project with dependencies:'''
 
 # Create a new project for your tests (''org.openiaml.test.uml3.tests'').
 # Right click the project and go PDE tools > Convert Projects to Plug-in Projects...
@@ -49,8 +51,8 @@ You should now be able to run the JUnit test and it will generate the content in
 There's an easier way to do most of this -- in particular, we can just get the [[JUnit]] test to create the runtime workspace and associated files by itself! But this will only work if you are running your test cases as JUnit Plug-in Test in [[Eclipse]]. (Reference: <a href="http://wiki.eclipse.org/FAQ_How_are_resources_created%3F">Creating Eclipse projects</a>)
 
 In your setUp(), you can create a new project programatically:
-
-[code]protected IProject createProject() throws CoreException {
+```
+protected IProject createProject() throws CoreException {
   // create a new project automatically
   IWorkspace workspace = ResourcesPlugin.getWorkspace();
   IWorkspaceRoot root = workspace.getRoot();
@@ -66,19 +68,15 @@ In your setUp(), you can create a new project programatically:
   project.open(monitor);
 
   return project;
-}[/code]
-
+}
+```
 You can now access files in this created project easily:
 
 [code]public void testSitemap() {
   doTransform("models/simple.iaml");
   IFile sitemap = project.getFile("output/sitemap.html");
   assertTrue("sitemap " + sitemap + " exists", sitemap.exists());
-}[/code]
+}
+```
 
 The source code for this easier-to-run JUnit test is <a href="http://code.google.com/p/iaml/source/browse/branches/2008-10-codegen-jet/org.openiaml.model.tests.codegen/src/org/openiaml/model/tests/codegen/SimpleTestCase.java?spec=svn184&r=184">available on SVN</a>.
-
-[[Category:Article]]
-[[Category:Technology]]
-[[Category:GMF]]
-[[Category:EMF]]

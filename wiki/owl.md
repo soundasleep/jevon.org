@@ -3,23 +3,25 @@ layout: page
 title:  "OWL"
 author: jevon
 date:   2011-07-12 11:21:25 +1200
+tags:   [Semantic, OWL]
 ---
 
-[[OWL]] is the [[Web Ontology Language]].
+[OWL](owl.md) is the [Web Ontology Language](web-ontology-language.md).
 
-# [[Closed world assumption in OWL]]
-# [[Inferring properties based on types in OWL]]
-# [[OWL Functional Pygments Style]]
+1. [Closed world assumption in OWL](closed-world-assumption-in-owl.md)
+1. [Inferring properties based on types in OWL](inferring-properties-based-on-types-in-owl.md)
+1. [OWL Functional Pygments Style](owl-functional-pygments-style.md)
 
 External references:
-# <a href="http://article.gmane.org/gmane.comp.misc.ontology.protege.owl/30337">Integrating Protege with SWRL/OWL rules into Java</a>
-# <a href="http://clarkparsia.com/pellet/tutorial/">Pellet/OWL Tutorial</a>
-# <a href="http://clarkparsia.com/pellet/tutorial/iswc09">Pellet/OWL Tutorial (2)</a>
+1. <a href="http://article.gmane.org/gmane.comp.misc.ontology.protege.owl/30337">Integrating Protege with SWRL/OWL rules into Java</a>
+1. <a href="http://clarkparsia.com/pellet/tutorial/">Pellet/OWL Tutorial</a>
+1. <a href="http://clarkparsia.com/pellet/tutorial/iswc09">Pellet/OWL Tutorial (2)</a>
 
-==Data type cannot be the empty string==
+## Data type cannot be the empty string
 Works in Protege 4.0.
 
-[code]Declaration(Class(Page))
+```
+Declaration(Class(Page))
 SubClassOf(Page Node)
 SubClassOf(Page ObjectComplementOf(DataHasValue(name ""^^xsd:string)))
 
@@ -32,12 +34,14 @@ DataPropertyAssertion(name ValidPage "test")
 
 Declaration(Individual(InvalidPage))
 ClassAssertion(InvalidPage Page)
-DataPropertyAssertion(name InvalidPage "")[/code]
+DataPropertyAssertion(name InvalidPage "")
+```
 
-==Edge source cannot be Edge target==
+## Edge source cannot be Edge target
 i.e., Edge.source != Edge.target. Works in Protege 4.0.
 
-[code]FunctionalObjectProperty(from)
+```
+FunctionalObjectProperty(from)
 ObjectPropertyDomain(from Wire)
 ObjectPropertyRange(from Node)
 DisjointObjectProperties(from to)
@@ -56,7 +60,5 @@ Declaration(Individual(NodeB))
 ClassAssertion(NodeB Node)
 
 Declaration(Individual(NodeA))
-ClassAssertion(NodeA Node)[/code]
-
-[[Category:Semantic]]
-[[Category:OWL]]
+ClassAssertion(NodeA Node)
+```

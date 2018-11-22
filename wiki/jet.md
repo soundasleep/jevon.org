@@ -3,21 +3,23 @@ layout: page
 title:  "JET"
 author: jevon
 date:   2010-04-16 11:27:32 +1200
+tags:   [Java, Technology]
 ---
 
-[[JET]] stands for '''Java Emitter Templates''' that is based entirely in [[Eclipse]]. It is meant to be run with workspaces. This example '''.javajet''' is what a JET template <a href="http://code.google.com/p/iaml/source/browse/trunk/org.openiaml.model/templates-emf/model/FactoryClass.javajet?spec=svn1905&r=1905">can look like</a> (from [[EMF]]).
+[JET](jet.md) stands for **Java Emitter Templates** that is based entirely in [Eclipse](eclipse.md). It is meant to be run with workspaces. This example **.javajet** is what a JET template <a href="http://code.google.com/p/iaml/source/browse/trunk/org.openiaml.model/templates-emf/model/FactoryClass.javajet?spec=svn1905&r=1905">can look like</a> (from [EMF](emf.md)).
 
 Some more articles:
-# [[Setting up an EMF/JET testing project with JUnit and Eclipse]]
+1. [Setting up an EMF/JET testing project with JUnit and Eclipse](setting-up-an-emf/jet-testing-project-with-junit-and-eclipse.md)
 
-==Creating a JET code generation plugin for an [[EMF]] model==
+## Creating a JET code generation plugin for an [EMF](emf.md) model
 JET transforms are stored as Eclipse plugin projects, so you need to make a new plugin project first.
 
-# Select New > ''EMFT JET Transformation Project''.
-# This project will automatically add some basic templates (dump.jet) and plugin.xml.
-# To plugin.xml, add:
+1. Select New > _EMFT JET Transformation Project_.
+1. This project will automatically add some basic templates (dump.jet) and plugin.xml.
+1. To plugin.xml, add:
 
-[code]<plugin>
+```
+<plugin>
    <extension
          id=""
          name=""
@@ -36,20 +38,22 @@ JET transforms are stored as Eclipse plugin projects, so you need to make a new 
          </tagLibraries>
       </transform>
    </extension>
-</plugin>[/code]
+</plugin>
+```
 
-# This will add the imported libraries. Most importantly is that you set ''modelExtension'' to the extension of your [[EMF]] models, and ''modelLoader'' to the EMF loader -- '''org.eclipse.jet.emf'''.
+1. This will add the imported libraries. Most importantly is that you set _modelExtension_ to the extension of your [EMF](emf.md) models, and _modelLoader_ to the EMF loader -- **org.eclipse.jet.emf**.
 
-{{tag-todo|add link to real world project on SVN}}
+{% include tag-todo.md comment="add link to real world project on SVN" %}
 
-The rest of these instructions are for making a contribution to [[Eclipse]] to add a Right Click menu to files in order to generate code.
+The rest of these instructions are for making a contribution to [Eclipse](eclipse.md) to add a Right Click menu to files in order to generate code.
 
-# Create a new project (or edit the existing project).
-# Add the ''org.eclipse.jet'' dependency to required plug-ins.
-# Add to the ''org.eclipse.ui.popupMenus'' extension point (in plugin.xml) a menu item that points to a ''IViewActionDelegate''.
-# Use the following code to call a JET template programatically:
+1. Create a new project (or edit the existing project).
+1. Add the _org.eclipse.jet_ dependency to required plug-ins.
+1. Add to the _org.eclipse.ui.popupMenus_ extension point (in plugin.xml) a menu item that points to a _IViewActionDelegate_.
+1. Use the following code to call a JET template programatically:
 
-[code]private IStatus generateCodeFrom(IFile o, IAction action, IProgressMonitor monitor) {
+```
+private IStatus generateCodeFrom(IFile o, IAction action, IProgressMonitor monitor) {
   if (o.getFileExtension().equals("model")) {
     Map<String,Object> variables = new HashMap<String,Object>();
     variables.put("somevar", "a variable");
@@ -57,29 +61,29 @@ The rest of these instructions are for making a contribution to [[Eclipse]] to a
   }
 
   return null;
-}[/code]
+}
+```
 
 The full implementation of this can be accessed on SVN:
-# http://iaml.svn.sourceforge.net/viewvc/iaml/trunk/examples/jet/GenerateCodeAction.java?view=markup (Java)
-# http://iaml.svn.sourceforge.net/viewvc/iaml/trunk/examples/jet/plugin.xml?view=markup (plugin.xml)
+1. http://iaml.svn.sourceforge.net/viewvc/iaml/trunk/examples/jet/GenerateCodeAction.java?view=markup (Java)
+1. http://iaml.svn.sourceforge.net/viewvc/iaml/trunk/examples/jet/plugin.xml?view=markup (plugin.xml)
 
-(See more code examples at [[GMF Code Samples]].)
+(See more code examples at [GMF Code Samples](gmf-code-samples.md).)
 
-{{tag-todo|add link to real world project on SVN}}
+{% include tag-todo.md comment="add link to real world project on SVN" %}
 
-==Could not load JET template loader==
+## Could not load JET template loader
 Look at your Error Log in Eclipse to try and find out what the problem is. If you don't get any error logs, you can start a new workspace in debug mode, and debug from there. The line you are looking for is 
-[code]org.eclipse.jet.internal.runtime.JETBundleManager.getTemplateLoader(java.lang.String) line: 454[/code]
+`org.eclipse.jet.internal.runtime.JETBundleManager.getTemplateLoader(java.lang.String) line: 454`
 
 For example, I got this exception stack trace:
-[code]java.lang.ClassNotFoundException: Cannot load "org.eclipse.jet.compiled._jet_transformation" because the bundle "file:C:/Documents and Settings/Jevon/runtime-uml3debug/org.openiaml.test.uml3.generate.ejet" cannot be resolved.[/code]
+`java.lang.ClassNotFoundException: Cannot load "org.eclipse.jet.compiled._jet_transformation" because the bundle "file:C:/Documents and Settings/Jevon/runtime-uml3debug/org.openiaml.test.uml3.generate.ejet" cannot be resolved.`
 
 Which I then found out, that by looking at my development environment, I was getting these errors:
-[code]Could not find matching bundle for Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.4.0,4.0.0)"
+```
+Could not find matching bundle for Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.4.0,4.0.0)"
 Could not find matching bundle for Require-Bundle: org.eclipse.emf.edit.ui; bundle-version="[2.4.0,3.0.0)"
-...[/code]
+...
+```
 
 Since I am running Eclipse 3.3, it means that JET is looking for the wrong version of the Eclipse plugin.
-
-[[Category:Java]]
-[[Category:Technology]]

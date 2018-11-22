@@ -3,50 +3,53 @@ layout: page
 title:  "Converting Bases"
 author: jevon
 date:   2005-07-06 08:57:10 +1200
+tags:   [Article, Todo]
 ---
 
-[[Articles]]
+[Articles](articles.md)
 
-Here's an assortment of code to convert between different base systems. I have provided code in both [[Visual Basic]] and [[PHP]]. The original articles were quite old (written in 2002!) so this code may be quite outdated, but it still works.
+Here's an assortment of code to convert between different base systems. I have provided code in both [Visual Basic](visual-basic.md) and [PHP](php.md). The original articles were quite old (written in 2002!) so this code may be quite outdated, but it still works.
 
-==Decimal to Hexadecimal==
-=Visual Basic=
-[code]output = Hex(number)[/code]
+## Decimal to Hexadecimal
+# Visual Basic
+`output = Hex(number)`
 
-=PHP=
-[code]$output = sprintf("%x", $number);[/code]
+# PHP
+`$output = sprintf("%x", $number);`
 
-==Hexadecimal to Decimal==
-=Visual Basic=
-[code]decimal = Val("&H" & hexnumber)[/code]
+## Hexadecimal to Decimal
+# Visual Basic
+`decimal = Val("&H" & hexnumber)`
 
-=PHP=
-[code]sscanf($input, "%x", $decimal);[/code]
+# PHP
+`sscanf($input, "%x", $decimal);`
 
-==Decimal to Binary==
-=Visual Basic=
-[code]For i = 7 To 0 Step -1
+## Decimal to Binary
+# Visual Basic
+```
+For i = 7 To 0 Step -1
 	If n >= 2 ^ i Then
 		n = n - (2 ^ i)
 		output = output & "1"
 	Else
 		output = output & "0"
 	End If
-Next[/code]
+Next
+```
 
-=PHP=
-[code]$output = sprintf("%b", $number);[/code]
+# PHP
+`$output = sprintf("%b", $number);`
 
-==Binary to Decimal==
-=Visual Basic=
-[code]For i = Len(bin) To 1 Step -1
+## Binary to Decimal
+# Visual Basic
+```
+For i = Len(bin) To 1 Step -1
 	If Mid(bin, i, 1) = "1" Then
 		n = n + (2 ^ (Len(bin) - i))
 	End If
-Next[/code]
+Next
+```
 
-=PHP=
-[code]sscanf($input, "%b", $num);[/code]
+# PHP
+`sscanf($input, "%b", $num);`
 ----
-[[Category:Article]]
-[[Category:Todo]]

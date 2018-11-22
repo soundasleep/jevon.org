@@ -3,28 +3,28 @@ layout: page
 title:  "From HTML 4 to XHTML 1"
 author: jevon
 date:   2005-12-09 08:14:42 +1300
+tags:   [Article, HTML]
 ---
 
-[[Articles]]
+[Articles](articles.md)
 
-Recently I made a [[Journals]] style that had to be valid to [[XHTML]] (strict) instead of just [[HTML]]. While working on this, I made a couple of observations.
+Recently I made a [Journals](journals.md) style that had to be valid to [XHTML](xhtml.md) (strict) instead of just [HTML](html.md). While working on this, I made a couple of observations.
 
-==DOCTYPE==
-The doctype for [[XHTML]] strict documents:
-[code]<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">[/code]
+## DOCTYPE
+The doctype for [XHTML](xhtml.md) strict documents:
+`<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">`
 
-==IFRAME==
-''IFRAME'' is no longer permitted in [[XHTML]], but you can do the same thing with the ''OBJECT'' tag (<a href="http://archivist.incutio.com/viewlist/css-discuss/42402">source</a>):
-[code]<object data="sourcefile.html" type="text/html">
+## IFRAME
+_IFRAME_ is no longer permitted in [XHTML](xhtml.md), but you can do the same thing with the _OBJECT_ tag (<a href="http://archivist.incutio.com/viewlist/css-discuss/42402">source</a>):
+```
+<object data="sourcefile.html" type="text/html">
 (text for other browsers)
-</object>[/code]
+</object>
+```
 
-==NOBR==
-''NOBR'' was never part of the [[HTML]] 4.0 standard anyway. To do the same thing in [[CSS]]:
-[code].nobr { white-space: nowrap; }[/code]
+## NOBR
+_NOBR_ was never part of the [HTML](html.md) 4.0 standard anyway. To do the same thing in [CSS](css.md):
+`.nobr { white-space: nowrap; }`
 
-==IMG==
-The ''align="absmiddle"'' attribute is not supported in XHTML, but using ''middle'' seems to work just as well. Also, you can't use a ''border'' attribute on an ''IMG'' tag (use [[CSS]] instead).
-
-[[Category:Article]]
-[[Category:HTML]]
+## IMG
+The _align="absmiddle"_ attribute is not supported in XHTML, but using _middle_ seems to work just as well. Also, you can't use a _border_ attribute on an _IMG_ tag (use [CSS](css.md) instead).

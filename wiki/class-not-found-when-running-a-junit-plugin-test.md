@@ -3,13 +3,15 @@ layout: page
 title:  "Class Not Found when running a JUnit Plugin Test"
 author: jevon
 date:   2010-02-11 12:00:36 +1300
+tags:   [Java, Testing, Troubleshooting]
 ---
 
-[[Eclipse]] / [[JUnit]]
+[Eclipse](eclipse.md) / [JUnit](junit.md)
 
-I was getting the following stack trace from trying to run a JUnit Plugin Test in [[Eclipse]]:
+I was getting the following stack trace from trying to run a JUnit Plugin Test in [Eclipse](eclipse.md):
 
-[code]Class not found org.openiaml.model.tests.inference.model0_4.LoginHandlerKey
+```
+Class not found org.openiaml.model.tests.inference.model0_4.LoginHandlerKey
 java.lang.ClassNotFoundException: org.openiaml.model.tests.inference.model0_4.LoginHandlerKey
   at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:489)
   at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:405)
@@ -30,12 +32,9 @@ java.lang.ClassNotFoundException: org.openiaml.model.tests.inference.model0_4.Lo
   at org.eclipse.pde.internal.junit.runtime.RemotePluginTestRunner.main(RemotePluginTestRunner.java:62)
   at org.eclipse.pde.internal.junit.runtime.NonUIThreadTestApplication.runTests(NonUIThreadTestApplication.java:23)
   at org.eclipse.ui.internal.testing.WorkbenchTestable$1.run(WorkbenchTestable.java:71)
-  at java.lang.Thread.run(Unknown Source)[/code]
+  at java.lang.Thread.run(Unknown Source)
+```
 
-After about two hours of searches turned up nothing, I finally managed to find the solution. Somehow, the "source" entry in my '''build.properties''' in the given project had been deleted. The solution was to add the following line to '''build.properties''':
+After about two hours of searches turned up nothing, I finally managed to find the solution. Somehow, the "source" entry in my **build.properties** in the given project had been deleted. The solution was to add the following line to **build.properties**:
 
-[code]source.. = src/[/code]
-
-[[Category:Java]]
-[[Category:Testing]]
-[[Category:Troubleshooting]]
+`source.. = src/`

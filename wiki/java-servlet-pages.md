@@ -3,9 +3,10 @@ layout: page
 title:  "Java Servlet Pages"
 author: jevon
 date:   2006-03-21 22:26:16 +1300
+tags:   [Technology]
 ---
 
-==JSP Page Directive Reference==
+## JSP Page Directive Reference
 <%@ page
   [ language="java" ]
   [ extends="package.class" ]
@@ -22,5 +23,3 @@ date:   2006-03-21 22:26:16 +1300
   [ pageEncoding="characterSet | ISO-8859-1" ]
 %>
 From: http://java.sun.com/products/jsp/syntax/1.2/syntaxref1210.html
-
-[[Category:Technology]]

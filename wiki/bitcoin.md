@@ -3,11 +3,9 @@ layout: page
 title:  "Bitcoin"
 author: jevon
 date:   2013-10-23 19:35:20 +1300
+tags:   [Cryptocurrency, Bitcoin]
 ---
 
-[[Bitcoin]] is a [[cryptocurrency]]. Also see: [[Litecoin]]
+[Bitcoin](bitcoin.md) is a [cryptocurrency](cryptocurrency.md). Also see: [Litecoin](litecoin.md)
 
-# [[Registering with Bitcoin-otc]]
-
-[[Category:Cryptocurrency]]
-[[Category:Bitcoin]]
+1. [Registering with Bitcoin-otc](registering-with-bitcoin-otc.md)

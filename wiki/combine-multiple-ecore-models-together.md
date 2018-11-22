@@ -3,18 +3,20 @@ layout: page
 title:  "Combine Multiple Ecore Models Together"
 author: jevon
 date:   2007-10-30 10:27:50 +1300
+tags:   [Research, EMF, Todo, Published Code, PHP]
 ---
 
-Here is a quick script that can be used to combine multiple [[EMF]] [[Ecore]] models together into one super model. This uses the [[PHP]] scripting language, because this was easy!
+Here is a quick script that can be used to combine multiple [EMF](emf.md) [Ecore](ecore.md) models together into one super model. This uses the [PHP](php.md) scripting language, because this was easy!
 
-This could be useful when developing models visually, as this allows you to work on multiple independent models at once. Each successively loaded '''.ecore''' file will be merged with the file before it, retaining information such as packages, classifiers and structural features.
+This could be useful when developing models visually, as this allows you to work on multiple independent models at once. Each successively loaded **.ecore** file will be merged with the file before it, retaining information such as packages, classifiers and structural features.
 
 To execute, use it on a command line like so:
-[code]php -f combine.php model1.ecore model2.ecore model3.ecore > combined.ecore[/code]
+`php -f combine.php model1.ecore model2.ecore model3.ecore > combined.ecore`
 
 In the future this will most likely go onto a public repository somewhere. <a href="mailto:support@jevon.org">E-mail me</a> if you have any suggestions.
 
-[code]<?php
+```
+<?php
 
 $model = false;
 
@@ -258,10 +260,5 @@ class EPackage extends EThing {
 	function toXml() {
 		return $this->node->asXml();
 	}
-}[/code]
-
-[[Category:Research]]
-[[Category:EMF]]
-[[Category:Todo]]
-[[Category:Published Code]]
-[[Category:PHP]]
+}
+```

@@ -3,11 +3,12 @@ layout: page
 title:  "Software"
 author: jevon
 date:   2014-03-13 20:09:39 +1300
+tags:   [Software]
 ---
 
-As [[Jevon Wright|I'm]] a software developer, I use the Internet to distribute my work around. Here's a list of some of the programs I've made.
+As [I'm](jevon-wright.md) a software developer, I use the Internet to distribute my work around. Here's a list of some of the programs I've made.
 
-==Open Source==
+## Open Source
 <ul><li><a href="https://github.com/soundasleep">Projects on Github</a></li></ul>
 
 <ul><li><a href="http://code.google.com/u/soundasleep/">Projects on Google Code</a>
@@ -23,28 +24,26 @@ As [[Jevon Wright|I'm]] a software developer, I use the Internet to distribute m
   <li><a href="http://sourceforge.net/projects/simplectest/">Simple C++ Testing Framework</a></li>
   <li><a href="http://sourceforge.net/projects/jwebunit/">JWebUnit</a> (<a href="http://jwebunit.sourceforge.net">home page</a>)</li></ul></li></ul>
 
-==Major Releases==
-# <a href="http://cryptfolio.com">CryptFolio</a>
-# <a href="https://play.google.com/store/apps/details?id=com.cryptfolio.calculator">Crypto Converter</a> (Android)
-# [[Text Deformer]]
-# [[Galaxy Games Online]]
-# <a href="http://simplectest.sf.net">Simple C++ Testing Framework (simplectest)</a>
-# [[Software/Notes 2003]] 
-# [[Journals]]
-# [[Link:Music|Music Wiki]]
+## Major Releases
+1. <a href="http://cryptfolio.com">CryptFolio</a>
+1. <a href="https://play.google.com/store/apps/details?id=com.cryptfolio.calculator">Crypto Converter</a> (Android)
+1. [Text Deformer](text-deformer.md)
+1. [Galaxy Games Online](galaxy-games-online.md)
+1. <a href="http://simplectest.sf.net">Simple C++ Testing Framework (simplectest)</a>
+1. [Software/Notes 2003](software/notes-2003.md) 
+1. [Journals](journals.md)
+1. [Music Wiki](link-music.md)
 
-==Minor Releases==
-# [[Software/Font Selector]]
-# [[Software/Character Count]]
-# [[Software/Psychadelic]]
-# [[Software/Clipboard Set]]
-# [[Software/Calculate BPM]]
+## Minor Releases
+1. [Software/Font Selector](software/font-selector.md)
+1. [Software/Character Count](software/character-count.md)
+1. [Software/Psychadelic](software/psychadelic.md)
+1. [Software/Clipboard Set](software/clipboard-set.md)
+1. [Software/Calculate BPM](software/calculate-bpm.md)
 
-==No Longer Supported==
-# [[Software/GTA3 Mod]]
-# [[Software/DC++ Upload Counter]]
-# [[Software/Your IP]] and [[Software/Your IP 2]]
+## No Longer Supported
+1. [Software/GTA3 Mod](software/gta3-mod.md)
+1. [Software/DC++ Upload Counter](software/dc-upload-counter.md)
+1. [Software/Your IP](software/your-ip.md) and [Software/Your IP 2](software/your-ip-2.md)
 
-Also see: [[Web Development]] for my web projects.
-
-[[Category:Software]]
+Also see: [Web Development](web-development.md) for my web projects.

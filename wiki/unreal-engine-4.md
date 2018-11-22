@@ -3,13 +3,14 @@ layout: page
 title:  "Unreal Engine 4"
 author: jevon
 date:   2016-04-01 17:43:23 +1300
+tags:   [Games, Game Development, Virtual Reality]
 ---
 
-[[Unreal Engine 4]] is a game development engine that's shiny.
+[Unreal Engine 4](unreal-engine-4.md) is a game development engine that's shiny.
 
-# [[Saving and Loading UE4 Data with Blueprints]]
+1. [Saving and Loading UE4 Data with Blueprints](saving-and-loading-ue4-data-with-blueprints.md)
 
-==Things for me to learn==
+## Things for me to learn
 
 * How difficult to compile code?
 * Rama load/save?
@@ -23,7 +24,7 @@ date:   2016-04-01 17:43:23 +1300
 * Accessing VR controllers?
 * Supporting both VR controllers and mouse/keyboard?
 
-==Things I've tried out===
+## Things I've tried out=
 
 * Committing to GitHub? Viewing diffs?
 * Saving and loading games?
@@ -33,7 +34,7 @@ date:   2016-04-01 17:43:23 +1300
 * Rolling balls?
 * Mobile support? - Needs VS 2015, keeps on crashing during build
 
-==Making objects move after they stop==
+## Making objects move after they stop
 
 <a href="https://answers.unrealengine.com/questions/41352/making-objects-move-after-theyve-stopped.html">The fix that worked for me</a> was:
 
@@ -45,27 +46,23 @@ Next, you'll want to make the projectiles physics actors. In the Components tab,
 Lastly, make sure that Simulate Physics is enabled in the Physics settings.
 </blockquote>
 
-==Balls never stop rolling==
+## Balls never stop rolling
 
 I found the best fix for this was to edit the blueprint for the `FirstPersonProjectile` and in the `Class Defaults` for the `CollisionComponent`, under `Physics`:
 
 * Set a `Linear Dampening` and `Angular Dampening` value to something like 0.6
 * Set the `Sleep Family` to `Custom` and set the `Custom Sleep Threshhold` to something ridiculous like `5000`.
 
-=="VR Preview" is greyed out==
+## "VR Preview" is greyed out
 
 If you don't currently have a VR device connected, and/or you haven't installed the Oculus/SteamVR SDKs, you can enable this option by enabling the "SimpleHMD" plugin (through Project Settings) and restarting.
 
 This will allow you to view an emulated VR stereo view.
 
-==Show FPS in game==
+## Show FPS in game
 
 In the console (by default, press tilde ~), type in `stat game` and/or `stat fps`.
 
-==Change/remove FPS cap from 62 frames per second==
+## Change/remove FPS cap from 62 frames per second
 
 This is available in your project settings.
-
-[[Category:Games]]
-[[Category:Game Development]]
-[[Category:Virtual Reality]]

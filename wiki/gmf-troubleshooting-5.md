@@ -3,92 +3,99 @@ layout: page
 title:  "GMF Troubleshooting 5"
 author: jevon
 date:   2009-05-01 12:43:17 +1200
+tags:   [GMF, Technology]
 ---
 
-[[GMF]]
+[GMF](gmf.md)
 
-{{gmf-troubleshooting}}
+{% include gmf-troubleshooting.md %}
 
-''' Ambiguous definitions Runtime::fqn FOR LabeledContainer and Runtime::fqn FOR Label for param types []'''
+** Ambiguous definitions Runtime::fqn FOR LabeledContainer and Runtime::fqn FOR Label for param types []**
 
-In your .gmfgraph, you have a ''Basic Font'' attribute that has an empty ''Face Name''.
-
----
-'''Ambiguous definitions Runtime::fqn FOR FlowLayout and Runtime::fqn FOR PolylineDecoration for param types []'''
-
-In your .gmfgraph, you have a ''Child Access'' that has an empty ''Figure''.
+In your .gmfgraph, you have a _Basic Font_ attribute that has an empty _Face Name_.
 
 ---
-'''"The method getFigureDomainObjectNameFigure() is undefined for the type InputFormEditPart.InputFormFigure" in EditPart.addFixedChild(EditPart childEditPart)'''
+**Ambiguous definitions Runtime::fqn FOR FlowLayout and Runtime::fqn FOR PolylineDecoration for param types []**
 
-This can be caused when your ''Label Feature Mapping'' in .gmfmap is set to render a different attribute to the one that is available. For example, an InputForm trying to render the name attribute of a DomainObject rather than the InputForm itself. Check your .gmfmap's ''Label Feature Mapping'''s ''Diagram Label'' properties.
+In your .gmfgraph, you have a _Child Access_ that has an empty _Figure_.
 
 ---
-'''When using [[GMF Diagram Partitioning]] on a diagram editor that has multiple sub-elements, I can only get one diagram editor to work.'''
+**"The method getFigureDomainObjectNameFigure() is undefined for the type InputFormEditPart.InputFormFigure" in EditPart.addFixedChild(EditPart childEditPart)**
+
+This can be caused when your _Label Feature Mapping_ in .gmfmap is set to render a different attribute to the one that is available. For example, an InputForm trying to render the name attribute of a DomainObject rather than the InputForm itself. Check your .gmfmap's _Label Feature Mapping_'s _Diagram Label_ properties.
+
+---
+**When using [GMF Diagram Partitioning](gmf-diagram-partitioning.md) on a diagram editor that has multiple sub-elements, I can only get one diagram editor to work.**
 
 For example, you have a Root node that contains Pages and Classes, but when double clicking either Page or Class, you only get the Class editor.
 
-The problem is that the OpenEditPolicy for your Root diagram editor is being overwritten; go into ''.gmfgen > Gen Editor Generator > Gen Diagram > the appropriate Top Level Node'' and make sure each ''Open Diagram Behaviour'' has a unique ''Edit Policy Class Name''.
+The problem is that the OpenEditPolicy for your Root diagram editor is being overwritten; go into _.gmfgen > Gen Editor Generator > Gen Diagram > the appropriate Top Level Node_ and make sure each _Open Diagram Behaviour_ has a unique _Edit Policy Class Name_.
 
 ---
-'''My links are going backwards!'''
+**My links are going backwards!**
 
 E.g. you are getting this:
-[code]- A
+```
+- A
 - B
-  - link to: A[/code]
+  - link to: A
+```
 
 instead of:
-[code]- A
+```
+- A
   - link to: B
-- B[/code]
+- B
+```
 
-You probably have a mistake in your .gmfmap, where the ''Source Meta Feature'' and ''Target Meta Feature''s of the links are reversed.
+You probably have a mistake in your .gmfmap, where the _Source Meta Feature_ and _Target Meta Feature_s of the links are reversed.
 
 
 ---
-'''Error: Can't find genClass for class 'XYZ' in package xyz.'''
+**Error: Can't find genClass for class 'XYZ' in package xyz.**
 
 Your .genmodel may be invalid or old - recreate it.
 
-I also came across this problem when my ''.gmfmap > Canvas Mapping > Domain Model'' package property was set to a package that did not contain the canvas element specified in ''Element''.
+I also came across this problem when my _.gmfmap > Canvas Mapping > Domain Model_ package property was set to a package that did not contain the canvas element specified in _Element_.
 
-This problem also occured when my entire ''.gmfmap'' was pointing to the wrong .ecore file in my workspace.
+This problem also occured when my entire _.gmfmap_ was pointing to the wrong .ecore file in my workspace.
 
 ---
-'''Error: Plug-in XYZ.diagram was unable to load class XYZ.diagram.part.SomeWizard'''
+**Error: Plug-in XYZ.diagram was unable to load class XYZ.diagram.part.SomeWizard**
 
 You may have not recently generated your Model and Edit code from your .genmodel. Regenerate them.
 
 ---
-'''Steps required to rename an element (e.g. A -> B)'''
+**Steps required to rename an element (e.g. A -> B)**
 
-# Edit the .ecore to change the element name
-# Reload the .genmodel
-# Regenerate the Model and Edit Code
-# Organise the imports in the Model and Edit code to make sure you aren't referring to old imports
-# Load each .gmfmap
-# Look for previous references to the old element: its likely the containment feature has been set to null
-# Save each .gmfmap
-# Diff each .gmfmap to make sure you haven't lost any changes
-# Regenerate the code for each plugin
-# Organise the imports in each plugin to make sure you aren't referring to old imports
+1. Edit the .ecore to change the element name
+1. Reload the .genmodel
+1. Regenerate the Model and Edit Code
+1. Organise the imports in the Model and Edit code to make sure you aren't referring to old imports
+1. Load each .gmfmap
+1. Look for previous references to the old element: its likely the containment feature has been set to null
+1. Save each .gmfmap
+1. Diff each .gmfmap to make sure you haven't lost any changes
+1. Regenerate the code for each plugin
+1. Organise the imports in each plugin to make sure you aren't referring to old imports
 
 ---
-'''Unexpected state came across, have no idea how to deal with that'''
+**Unexpected state came across, have no idea how to deal with that**
 
 Make sure that you aren't trying to generate code into an Eclipse project which is currently closed :)
 
 ---
-'''I can't create links between some shortcut elements'''
+**I can't create links between some shortcut elements**
 
 I had this problem when I had a model like so:
 
-[code]- Edge
+```
+- Edge
 - A
   - aEdges: 0..* Edge
 - B
-  - bEdges: 0..* Edge[/code]
+  - bEdges: 0..* Edge
+```
 
 I did this because otherwise I couldn't tell the difference between A.edges and B.edges while working on my gmfmap. But as a result, if I went into A's editor and dragged B's on, I couldn't create links starting from shortcut B's. 
 
@@ -96,13 +103,12 @@ After some investigation I found it was because since the gmfmap for A set the c
 
 The straightforward - and possibly correct - solution was to do this:
 
-[code]- Edge
+```
+- Edge
 - abstract ContainsEdges
   - edges: 0..*
 - A <- ContainsEdges
-- B <- ContainsEdges[/code]
+- B <- ContainsEdges
+```
 
 By doing this, it seems, EMF can store the connections in either A or B without any problem; since they both refer to the same element (ContainsEdges.edges), you can now create shortcuts between the elements in either diagram.
-
-[[Category:GMF]]
-[[Category:Technology]]

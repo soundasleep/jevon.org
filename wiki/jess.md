@@ -3,18 +3,15 @@ layout: page
 title:  "Jess"
 author: jevon
 date:   2011-03-10 13:11:01 +1300
+tags:   [Jess, Rule engine, Software]
 ---
 
-[[Jess]] is a [[rule engine]] for [[Java]].
+[Jess](jess.md) is a [rule engine](rule-engine.md) for [Java](java.md).
 
-# [[Jess Pygments Lexer]]
+1. [Jess Pygments Lexer](jess-pygments-lexer.md)
 
-==Null==
+## Null
 
 The equivalent of `null` in Jess <a href="http://www.mail-archive.com/jess-users@sandia.gov/msg07977.html">is `nil`</a>:
 
-[code](if (neq ?x nil) then ...[/code]
-
-[[Category:Jess]]
-[[Category:Rule engine]]
-[[Category:Software]]
+`(if (neq ?x nil) then ...`

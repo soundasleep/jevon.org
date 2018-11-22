@@ -3,8 +3,7 @@ layout: page
 title:  "OAW"
 author: jevon
 date:   2013-01-06 15:45:49 +1300
+tags:   [Redirect]
 ---
 
-#REDIRECT [[openArchitectureWare]]
-
-[[Category:Redirect]]
+#REDIRECT [openArchitectureWare](openarchitectureware.md)

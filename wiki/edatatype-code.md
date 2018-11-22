@@ -3,9 +3,11 @@ layout: page
 title:  "edatatype-code"
 author: jevon
 date:   2009-01-29 10:09:41 +1300
+tags:   []
 ---
 
-[code]public CellEditor createPropertyEditor(Composite composite) {
+```
+public CellEditor createPropertyEditor(Composite composite) {
   EClassifier eType = ((EStructuralFeature) itemPropertyDescriptor.getFeature(object)).getEType();
 
   final EDataType dataType = (EDataType) eType;
@@ -29,4 +31,5 @@ date:   2009-01-29 10:09:41 +1300
     return result;
   }
   return super.createPropertyEditor(composite);
-}[/code]
+}
+```

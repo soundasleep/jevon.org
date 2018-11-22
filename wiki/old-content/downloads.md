@@ -3,9 +3,10 @@ layout: page
 title:  "Old Content/Downloads"
 author: jevon
 date:   2007-11-21 12:43:35 +1300
+tags:   [Downloads, Todo]
 ---
 
-{{old content header}}
+{% include old-content-header.md %}
 
 <style>.file-table { background: #4682b4; width: 80%; } .file-table2 { background: #ffffee; } /* a6e2ff */ .file-headtd { background: #86c2f4; font-weight: bold; } .file-title { font-size: 10pt; width: 38%; } /* 29 */ .file-author { font-size: 8pt; width: 18%; } /* 15 */ .file-desc { font-size: 7pt; width: 12%; } /* 18 */ .file-stat { font-size: 7pt; width: 12%; } /* 23 */ .file-dl { font-size: 8pt; font-weight: bold; width: 20%; text-align: center; } /* 15 */ .file-link, .file-link:visited, .file-link:active { color: black; text-decoration: none; } .file-link:hover { color: black; text-decoration: underline; } .file-tr0 { background: #ffffee; } .file-tr1 { background: #fff0cf; } .file-info { margin-left: 6px; margin-right: 6px; padding-bottom: 3px; font-size: 7pt; } .file-more, .file-more:visited, .file-more:active { color: black; text-decoration: underline; } .file-more:hover { color: black; text-decoration: none; }</style> 
 
@@ -363,6 +364,3 @@ date:   2007-11-21 12:43:35 +1300
 </table></td>
 </tr>
 </table>
-
-[[Category:Downloads]]
-[[Category:Todo]]

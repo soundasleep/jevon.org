@@ -3,17 +3,18 @@ layout: page
 title:  "Mac OS X"
 author: jevon
 date:   2015-06-15 19:01:15 +1200
+tags:   [Operating Systems, Software]
 ---
 
-[[Articles]]
+[Articles](articles.md)
 
-==Home/End keybindings==
+## Home/End keybindings
 
-Here's my custom keyboard bindings to make my external keyboard behave more sensibly like [[Windows]], based off <a href="http://lifehacker.com/225873/mac-switchers-tip--remap-the-home-and-end-keys">this guide</a> and another guide I can't find. 
+Here's my custom keyboard bindings to make my external keyboard behave more sensibly like [Windows](windows.md), based off <a href="http://lifehacker.com/225873/mac-switchers-tip--remap-the-home-and-end-keys">this guide</a> and another guide I can't find. 
 
 Put these into `~/Library/KeyBindings/DefaultKeyBinding.dict`, creating the file if it doesn't exist:
 
-[code]
+```
 {
     /* home */
     "UF729"  = "moveToBeginningOfLine:";
@@ -31,7 +32,4 @@ Put these into `~/Library/KeyBindings/DefaultKeyBinding.dict`, creating the file
     "UF72C"  = "pageUp:";
     "UF72D"  = "pageDown:";
 }
-[/code]
-
-[[Category:Operating Systems]]
-[[Category:Software]]
+```

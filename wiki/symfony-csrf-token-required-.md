@@ -3,15 +3,17 @@ layout: page
 title:  "Symfony: csrf token: Required."
 author: jevon
 date:   2012-04-25 13:33:51 +1200
+tags:   [Symfony, PHP]
 ---
 
-[[Symfony]]
+[Symfony](symfony.md)
 
 I was getting this error while trying to create a custom form in Symfony 1.4.
 
 Firstly, make sure that you define the widgets, the validators, the schema labels, _and_ the name format in the form class:
 
-[code]class LoginForm extends BaseForm {
+```
+class LoginForm extends BaseForm {
 
     public function configure() {
         
@@ -34,11 +36,13 @@ Firstly, make sure that you define the widgets, the validators, the schema label
     
     }
 
-}[/code]
+}
+```
 
 Secondly, make sure that you are rendering the form using _both_ `echo $form` and `echo $form->renderHiddenFields();`:
 
-[code]<?php use_stylesheets_for_form($form) ?>
+```
+<?php use_stylesheets_for_form($form) ?>
 <?php use_javascripts_for_form($form) ?>
 
 <form action="<?php echo url_for('user/login'); ?>" method="post" <?php $form->isMultipart() and print 'enctype="multipart/form-data" ' ?>>
@@ -46,11 +50,12 @@ Secondly, make sure that you are rendering the form using _both_ `echo $form` an
 <input type="submit" value="Login" />
 <?php echo $form ?>
 </form>
-[/code]
+```
 
 Finally, ensure that you have the correct logic in your `actions.class.php`:
 
-[code]  public function executeLogin(sfWebRequest $request) {
+```
+public function executeLogin(sfWebRequest $request) {
     $this->form = new LoginForm();
     
     // it's important to check for POST method, rather than the existence of parameters, e.g. $request->hasParameter()
@@ -71,7 +76,5 @@ Finally, ensure that you have the correct logic in your `actions.class.php`:
 
       $this->redirect('user/show?id='.$User->getId());
     }
-  }[/code]
-
-[[Category:Symfony]]
-[[Category:PHP]]
+  }
+```

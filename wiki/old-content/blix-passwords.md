@@ -3,15 +3,17 @@ layout: page
 title:  "Old Content/Blix Passwords"
 author: jevon
 date:   2007-11-21 12:33:19 +1300
+tags:   [Articles, Fun Stuff, Games]
 ---
 
-{{old content header|date=23 August 2002}}
+{% include old-content-header.md date="23 August 2002" %}
 
 In the game "Blix", you might want to jump to a certain level. It takes a significant amount of time to get to a high level, so what if you want to skip all the boring starting levels and jump to something more challenging - say, level 296? :D
 
-Well now you can! These are the level passwords for Blix (for the software version, at least; I'm not sure about the Shockwave version). It goes without saying, '''spoiler alert!'''
+Well now you can! These are the level passwords for Blix (for the software version, at least; I'm not sure about the Shockwave version). It goes without saying, **spoiler alert!**
 
-[code]Level 005 - ASTRO
+```
+Level 005 - ASTRO
 Level 010 - OUTER
 Level 015 - SPACE
 Level 020 - LASER
@@ -69,10 +71,7 @@ Level 275 - RAINY
 Level 280 - STORM
 Level 285 - MECHA
 Level 290 - TECNO
-Level 295 - AMAZE[/code]
+Level 295 - AMAZE
+```
 
 How did I get these, I hear you anxiously ask? I viewed one of the library files that Blix came with. :)
-
-[[Category:Articles]]
-[[Category:Fun Stuff]]
-[[Category:Games]]

@@ -3,11 +3,12 @@ layout: page
 title:  "Simcity 4 Music Track Names"
 author: jevon
 date:   2009-10-15 11:03:06 +1300
+tags:   [Article, Games]
 ---
 
-[[Articles]]
+[Articles](articles.md)
 
-Here is a list of the music tracks in [[Simcity 4]], all by <a href="http://www.last.fm/music/Jerry+Martin">Jerry Martin</a>:
+Here is a list of the music tracks in [Simcity 4](simcity-4.md), all by <a href="http://www.last.fm/music/Jerry+Martin">Jerry Martin</a>:
 
 <blockquote>SC4g1 - Above The Clouds
 SC4g2 - Shape Shifter
@@ -48,6 +49,3 @@ SC4m16 - Landfill
 SC4m17 - Oasis</blockquote>
 
 Source: http://forums.winamp.com/showthread.php?threadid=258334
-
-[[Category:Article]]
-[[Category:Games]]

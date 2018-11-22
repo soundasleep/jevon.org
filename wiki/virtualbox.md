@@ -3,11 +3,12 @@ layout: page
 title:  "Virtualbox"
 author: jevon
 date:   2014-09-23 21:05:18 +1200
+tags:   [Linux]
 ---
 
-[[Virtualbox]] allows you to run a [[VM]] for [[Linux]], [[Windows]] or anything else.
+[Virtualbox](virtualbox.md) allows you to run a [VM](vm.md) for [Linux](linux.md), [Windows](windows.md) or anything else.
 
-==Getting Shared Folders working==
+## Getting Shared Folders working
 
 * Guest OS: Ubuntu 12.04
 * Host OS: Windows 7 x64
@@ -25,26 +26,24 @@ date:   2014-09-23 21:05:18 +1200
 
 4. <a href="http://askubuntu.com/questions/22743/how-do-i-install-guest-additions-in-a-virtualbox-vm/22745#22745">Install the Linux Guest Additions</a> from your Linux terminal (as `root`):
 
-[code]
+```
 mount /dev/cdrom /mnt              # or any other mountpoint
 cd /mnt
 ./VBoxLinuxAdditions.run
 reboot
-[/code]
+```
 
 5. You should now have a new system path `/media/sf_vm` but you won't be able to access it except as `root`. You need to <a href="http://www.cyberciti.biz/faq/howto-linux-add-user-to-group/">add your user ID</a> to the `vboxsf` user group:
 
-[code]
+```
 usermod -a -G vboxsf jevon
 id jevon                       # list groups
-[/code]
+```
 
 6. Finally, you need to restart your SSH session so that the new groups can be picked up.
 
 7. Optionally, create a symlink to the media folder so it's easier to find:
 
-[code]
+```
 ln -s /media/sf_vm ~/vm
-[/code]
-
-[[Category:Linux]]
+```

@@ -3,17 +3,19 @@ layout: page
 title:  "Controlling logging in OAW"
 author: jevon
 date:   2009-04-23 11:47:10 +1200
+tags:   [Code Snippets, OAW, Java]
 ---
 
-[[openArchitectureWare]]
+[openArchitectureWare](openarchitectureware.md)
 
-We have to do some magic to enable OAW logging to go through our own logging class. Since OAW instantiates the logs at runtime, and this instantiation is far away from any Eclipse plugin we are using to run it, we have to provide this information to [[commons.logging]] directly.
+We have to do some magic to enable OAW logging to go through our own logging class. Since OAW instantiates the logs at runtime, and this instantiation is far away from any Eclipse plugin we are using to run it, we have to provide this information to [commons.logging](commons-logging.md) directly.
 
-In <a href="http://code.google.com/p/iaml/source/detail?r=613">r613</a> of [[IAML]] I managed to implement this, following the instructions on <a href="http://oaw-forum.itemis.de/forum/viewtopic.php?forum=1&showtopic=1486">a German OAW forum</a>.
+In <a href="http://code.google.com/p/iaml/source/detail?r=613">r613</a> of [IAML](iaml.md) I managed to implement this, following the instructions on <a href="http://oaw-forum.itemis.de/forum/viewtopic.php?forum=1&showtopic=1486">a German OAW forum</a>.
 
 Create your <a href="http://code.google.com/p/iaml/source/browse/trunk/org.openiaml.model.codegen.oaw/src/org/openiaml/model/codegen/oaw/MyLog.java?spec=svn613&r=613">own Log class</a>:
 
-[code]public class MyLog extends SimpleLog implements org.apache.commons.logging.Log, Serializable {
+```
+public class MyLog extends SimpleLog implements org.apache.commons.logging.Log, Serializable {
   private static final long serialVersionUID = 9181448189753075665L;
   
   private static String lastLogFactory = null;
@@ -62,11 +64,13 @@ Create your <a href="http://code.google.com/p/iaml/source/browse/trunk/org.openi
     // TODO Auto-generated method stub
     super.log(type, "[my log] " + message, t);
   }
-}[/code]
+}
+```
 
-<a href="http://code.google.com/p/iaml/source/diff?spec=svn613&r=613&format=side&path=/trunk/org.openiaml.model.codegen.oaw/src/org/openiaml/model/codegen/oaw/OawCodeGenerator.java#43">Around your WorkflowRunner instantiation</a>, specify [[commons.logging]] to use the current ClassLoader, and register the log with [[commons.logging]]:
+<a href="http://code.google.com/p/iaml/source/diff?spec=svn613&r=613&format=side&path=/trunk/org.openiaml.model.codegen.oaw/src/org/openiaml/model/codegen/oaw/OawCodeGenerator.java#43">Around your WorkflowRunner instantiation</a>, specify [commons.logging](commons-logging.md) to use the current ClassLoader, and register the log with [commons.logging](commons-logging.md):
 
-[code]ClassLoader oldcl = Thread.currentThread().getContextClassLoader();
+```
+ClassLoader oldcl = Thread.currentThread().getContextClassLoader();
 try {
   // to enable custom logging
   Thread.currentThread().setContextClassLoader(OawCodeGenerator.class.getClassLoader());
@@ -80,8 +84,5 @@ try {
   // reset the classloader/log
   Thread.currentThread().setContextClassLoader(oldcl);
   MyLog.unregisterFromLogFactory();
-}[/code]
-
-[[Category:Code Snippets]]
-[[Category:OAW]]
-[[Category:Java]]
+}
+```

@@ -3,9 +3,10 @@ layout: page
 title:  "Essential Software for Windows"
 author: jevon
 date:   2016-03-06 01:14:31 +1300
+tags:   [Windows, Articles]
 ---
 
-[[Windows]]
+[Windows](windows.md)
 
 System essentials
 
@@ -28,6 +29,3 @@ Tools
 * LibreOffice
 * <a href="https://whatpulse.org/downloads/">WhatPulse</a>
 * <a href="http://7-zip.org/download.html">7zip</a>
-
-[[Category:Windows]]
-[[Category:Articles]]

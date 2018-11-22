@@ -3,16 +3,13 @@ layout: page
 title:  "Refreshing Nodes and Connections in a GMF Edit Part"
 author: jevon
 date:   2008-08-06 14:31:35 +1200
+tags:   [GMF, Technology, Code to Clean Up]
 ---
 
-[[GMF]]
+[GMF](gmf.md)
 
-Here is some code which will automatically refresh all the nodes and connections visible in a given GMF [[EditPart]].
+Here is some code which will automatically refresh all the nodes and connections visible in a given GMF [EditPart](editpart.md).
 
-# http://iaml.svn.sourceforge.net/viewvc/iaml/trunk/examples/gmf/RefreshElementCommand.java?view=markup
+1. http://iaml.svn.sourceforge.net/viewvc/iaml/trunk/examples/gmf/RefreshElementCommand.java?view=markup
 
 It could probably be cleaned up somewhat :D
-
-[[Category:GMF]]
-[[Category:Technology]]
-[[Category:Code to Clean Up]]

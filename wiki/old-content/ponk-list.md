@@ -3,9 +3,10 @@ layout: page
 title:  "Old Content/Ponk List"
 author: jevon
 date:   2008-07-02 13:06:26 +1200
+tags:   []
 ---
 
-{{old content header|date=5 November 2003}}
+{% include old-content-header.md date="5 November 2003" %}
 
 <table border=0 cellspacing=2 cellpadding=2>
 <tr valign=top><td>

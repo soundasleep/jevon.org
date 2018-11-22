@@ -3,14 +3,16 @@ layout: page
 title:  "Tomcat"
 author: jevon
 date:   2012-01-25 09:56:52 +1300
+tags:   [Technology, Web]
 ---
 
-A web server for hosting [[Java]] or [[servlet]] applications.
+A web server for hosting [Java](java.md) or [servlet](servlet.md) applications.
 
-# [[Installing SSL on Tomcat 7]]
+1. [Installing SSL on Tomcat 7](installing-ssl-on-tomcat-7.md)
 
-==I get the following exception when trying to start SSL on Tomcat5==
-[code]SEVERE: Exception trying to load keystore /usr/share/tomcat5/.keystore
+## I get the following exception when trying to start SSL on Tomcat5
+```
+SEVERE: Exception trying to load keystore /usr/share/tomcat5/.keystore
 java.security.KeyStoreException: JKS
    at java.security.KeyStore.getInstance(libgcj.so.7rh)
 ...
@@ -19,28 +21,30 @@ java.io.IOException: Exception trying to load keystore /usr/share/tomcat5/.keyst
 ...
 SEVERE: Catalina.start: 
 LifecycleException:  service.getName(): "Catalina";  Protocol handler start failed: java.io.IOException: Exception trying to load keystore /usr/share/tomcat5/.keystore: JKS
-...[/code]
+...
+```
 
 Solution:
 
-# Use '''keytool''' to generate a SSL certificate at /usr/share/tomcat5/.keystore. <a href="http://jakarta.apache-korea.org/tomcat/tomcat-5.0-doc/printer/ssl-howto.html">more information</a>
-# Switch JVMs from the GNU JVM to the real Sun JVM. <a href="http://www.mail-archive.com/users@tomcat.apache.org/msg33556.html">source</a>, <a href="http://wiki.centos.org/HowTos/JavaOnCentOS">how to</a>
-# Edit /etc/tomcat5/tomcat5.conf to point to the new JVM:
+1. Use **keytool** to generate a SSL certificate at /usr/share/tomcat5/.keystore. <a href="http://jakarta.apache-korea.org/tomcat/tomcat-5.0-doc/printer/ssl-howto.html">more information</a>
+1. Switch JVMs from the GNU JVM to the real Sun JVM. <a href="http://www.mail-archive.com/users@tomcat.apache.org/msg33556.html">source</a>, <a href="http://wiki.centos.org/HowTos/JavaOnCentOS">how to</a>
+1. Edit /etc/tomcat5/tomcat5.conf to point to the new JVM:
 
-[code]# you could also override JAVA_HOME here
+```
+# you could also override JAVA_HOME here
 # Where your java installation lives
 # JAVA_HOME="/usr/lib/jvm/java"
-JAVA_HOME="/usr/java/jdk1.6.0_06/jre/"[/code]
+JAVA_HOME="/usr/java/jdk1.6.0_06/jre/"
+```
 
-==Setting the Tomcat Proxy==
+## Setting the Tomcat Proxy
 If you have a web application that needs to go through a Proxy but hasn't been <a href="http://www.javaworld.com/javaworld/javatips/jw-javatip42.html">set manually in the code</a>, you can add it to Java's startup command line switches:
 
-# Open the Tomcat service manager in the toolbar, and select ''Configure...''
-# Select the ''Java'' tab
-# <a href="http://www.innovation.ch/java/HTTPClient/getting_started.html">Add the following lines</a> to your ''Java Options'':
+1. Open the Tomcat service manager in the toolbar, and select _Configure..._
+1. Select the _Java_ tab
+1. <a href="http://www.innovation.ch/java/HTTPClient/getting_started.html">Add the following lines</a> to your _Java Options_:
 
-[code]-Dhttp.proxyHost=yourproxy.com
--Dhttp.proxyPort=8080[/code]
-
-[[Category:Technology]]
-[[Category:Web]]
+```
+-Dhttp.proxyHost=yourproxy.com
+-Dhttp.proxyPort=8080
+```

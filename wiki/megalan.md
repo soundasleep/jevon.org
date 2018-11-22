@@ -3,19 +3,20 @@ layout: page
 title:  "MegaLAN"
 author: jevon
 date:   2005-12-10 07:07:35 +1300
+tags:   []
 ---
 
-'''The "MegaLAN" approaches...'''
+**The "MegaLAN" approaches...**
 
 Hey all, 
 
 On the 10th of December 2005 (this weekend) we will be holding the MegaLAN. This will be a LAN where everybody is invited. We will try to play whatever games people want to play. People may be split up into groups to play different games if there is division in what people want to play and what peoples computers can run. Also a separate mac LAN may be warranted (there is room in the bathroom for them).
 
-I ([[Jevon Wright|Jevon]]) will be hosting the LAN at my flat, but Michael (michaeljamesallen@gmail.com) is the official organiser.
+I ([Jevon](jevon-wright.md)) will be hosting the LAN at my flat, but Michael (michaeljamesallen@gmail.com) is the official organiser.
 
 If you are planning on coming, please send jevon@jevon.org an RSVP ASAP so I can see how many people will be coming. So far estimates are at 10-20 attendees. 
 
-=Details=
+# Details
 Place: ---, Palmerston North (Roughly at http://tinyurl.com/cjzaq :P)
 Time: Setup begins at 11am, LAN begins at noon
 
@@ -33,7 +34,7 @@ Please bring, if it is possible:
 * Possibly furniture to set up your stuff on - we only have a few proper LANable tables and chairs.
 * Food etc. We will probably be having pizza for dinner @ 6pm from Dominoes since it is just across the road.
 
-=Itinerary=
+# Itinerary
 10 Dec
 11am Begin LAN setup
 12pm LAN begins; leeching ensues
@@ -47,7 +48,7 @@ Please bring, if it is possible:
 12pm LAN officially ends
 5pm Final end time
 
-=Games=
+# Games
 * Dawn of War
 * Total Annihilation
 * Quake 4, if peoples computers can handle it
@@ -55,6 +56,6 @@ Please bring, if it is possible:
 * Battlefield 1942
 * Other games by popular demand - e-mail suggestions to michaeljamesallen@gmail.com 
 
-==Attending==
+## Attending
 Maybe: Flare, Meow, <strike>[user=leash], [user=simon]</strike>
 Definately: [user=jevon], Michael, Adam, Mango, Bloodrage, [user=thewickerman], Cam, Freeman, Alistair

@@ -3,14 +3,15 @@ layout: page
 title:  "GMF Diagram Partitioning"
 author: jevon
 date:   2008-09-25 07:03:51 +1200
+tags:   [GMF, Article, Technology]
 ---
 
-{{gmf-css}}The goal of this tutorial is to be able to create a [[GMF]] editor, where you can expand certain boxes to edit their contents, like so:
+{% include gmf-css.md %}The goal of this tutorial is to be able to create a [GMF](gmf.md) editor, where you can expand certain boxes to edit their contents, like so:
 
 <img src="/img/gmf/demo1.png" class="gmf-left">
 <img src="/img/gmf/demo2.png" class="gmf-left">
 
-This tutorial was based on an excellent [[Eclipse]] <a href="http://dev.eclipse.org/newslists/news.eclipse.modeling.gmf/msg06184.html">news posting</a> (<a href="http://wiki.eclipse.org/Diagram_Partitioning">reposted</a>) and <a href="http://dev.eclipse.org/newslists/news.eclipse.modeling.gmf/msg05492.html">another discussion</a>. Also see [[GMF]], [[GMF Troubleshooting]] and [[Creating a new GMF Editor]].
+This tutorial was based on an excellent [Eclipse](eclipse.md) <a href="http://dev.eclipse.org/newslists/news.eclipse.modeling.gmf/msg06184.html">news posting</a> (<a href="http://wiki.eclipse.org/Diagram_Partitioning">reposted</a>) and <a href="http://dev.eclipse.org/newslists/news.eclipse.modeling.gmf/msg05492.html">another discussion</a>. Also see [GMF](gmf.md), [GMF Troubleshooting](gmf-troubleshooting.md) and [Creating a new GMF Editor](creating-a-new-gmf-editor.md).
 
 If you want to add nodes within a node itself, try the second part of the GMF tutorial: http://wiki.eclipse.org/GMF_Tutorial_Part_2
 
@@ -70,7 +71,7 @@ Now we create the super diagramming code.
 <li>Generate super.gmfgen from super.gmfmap</li>
   <ul>
   <li>Right click super.gmfmap and select Create Generator</li>
-  <li>Generate the diagram code to test everything is working OK (see [[GMF Troubleshooting]])</li>
+  <li>Generate the diagram code to test everything is working OK (see [GMF Troubleshooting](gmf-troubleshooting.md))</li>
   </ul>
 </ul></div>
 
@@ -118,24 +119,24 @@ We now need to do some configuration to link the two diagram codes together.
 <div class="gmf_code"><ul>
 <li>First, we need to make sub.gmfgen unique:</li>
   <ul>
-  <li>Change ''sub.gmfgen > Gen Editor Generator > Domain File Extension''</li>
-  <li>Change ''sub.gmfgen > Gen Editor Generator > ModelID'' [1] <input type="text"></li>
-  <li>Change ''sub.gmfgen > Gen Editor Generator > Package Name Prefix''</li>
-  <li>Change ''sub.gmfgen > Gen Editor Generator > Plugin Diagram > ID''</li>
-  <li>Change ''sub.gmfgen > Gen Editor Generator > Plugin Diagram > Name''</li>
-  <li>Look at the value for ''sub.gmfgen > Gen Editor Generator > Gen Editor View > ID'' <input type="text"></li>
+  <li>Change _sub.gmfgen > Gen Editor Generator > Domain File Extension_</li>
+  <li>Change _sub.gmfgen > Gen Editor Generator > ModelID_ [1] <input type="text"></li>
+  <li>Change _sub.gmfgen > Gen Editor Generator > Package Name Prefix_</li>
+  <li>Change _sub.gmfgen > Gen Editor Generator > Plugin Diagram > ID_</li>
+  <li>Change _sub.gmfgen > Gen Editor Generator > Plugin Diagram > Name_</li>
+  <li>Look at the value for _sub.gmfgen > Gen Editor Generator > Gen Editor View > ID_ <input type="text"></li>
   </ul>
 
 <li>Now, link them together:</li>
   <ul>
   <li>Open super.gmfgen</li>
-  <li>Go to the corresponding ''super.gmfgen > Gen Editor Generator > Gen Diagram > Gen Top Level Node'' for the sub element</li>
-  <li>Right click the node and create a new ''Open Diagram Behaviour''</li>
+  <li>Go to the corresponding _super.gmfgen > Gen Editor Generator > Gen Diagram > Gen Top Level Node_ for the sub element</li>
+  <li>Right click the node and create a new _Open Diagram Behaviour_</li>
   <li>On the new node, set the following properties:</li>
     <ul>
-    <li>Change ''Diagram Kind'' to ''sub.gmfgen > Gen Editor Generator > ModelID'' [1]</li>
-    <li>Change ''Editor ID'' to ''sub.gmfgen > Gen Editor Generator > Gen Editor View > ID''</li>
-    <li>If you have more than one diagram editor for ''super.gmfgen'', make sure you also make ''Edit Policy Class Name'' unique in ''sub.gmfgen > Gen Editor Generator > Gen Editor View > ID''</li>
+    <li>Change _Diagram Kind_ to _sub.gmfgen > Gen Editor Generator > ModelID_ [1]</li>
+    <li>Change _Editor ID_ to _sub.gmfgen > Gen Editor Generator > Gen Editor View > ID_</li>
+    <li>If you have more than one diagram editor for _super.gmfgen_, make sure you also make _Edit Policy Class Name_ unique in _sub.gmfgen > Gen Editor Generator > Gen Editor View > ID_</li>
     </ul>
   </ul>
 </ul></div>
@@ -147,17 +148,15 @@ Finally we can get everything working:
 <li>You now need to start a new Eclipse application which includes BOTH of these new packages</li>
 </ul></div>
 
-This setup will allow users to create the following type of [[ecore]] [[XML]]:
+This setup will allow users to create the following type of [ecore](ecore.md) [XML](xml.md):
 
-[code]<?xml version="1.0" encoding="UTF-8"?>
+```
+<?xml version="1.0" encoding="UTF-8"?>
 <org.openiaml.test.two:WebApplication xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.openiaml.test.two="http://openiaml.org/two">
   <tables name="my table">
     <columns name="my column"/>
   </tables>
-</org.openiaml.test.two:WebApplication>[/code]
+</org.openiaml.test.two:WebApplication>
+```
 
-If you have any issues, look into [[GMF Troubleshooting]].
-
-[[Category:GMF]]
-[[Category:Article]]
-[[Category:Technology]]
+If you have any issues, look into [GMF Troubleshooting](gmf-troubleshooting.md).

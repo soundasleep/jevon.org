@@ -3,15 +3,17 @@ layout: page
 title:  "Basic non-trivial Drupal form validation example"
 author: jevon
 date:   2013-09-11 17:16:26 +1200
+tags:   [Drupal, PHP]
 ---
 
-[[Drupal]]
+[Drupal](drupal.md)
 
 Recall that in Drupal, hooks are defined through function naming patterns. This covers the basic implementation of a form (included on a page) with non-trivial validation (i.e. not just through <a href="https://api.drupal.org/api/drupal/developer!topics!forms_api_reference.html/7">`#maxlength`</a> etc) necessary before successful form submission. We also split up the module into `my_hook.module` (core hooks) and `my_hook.inc` (necessary includes).
 
 Define the Drupal pages in `my_hook.module`:
 
-[code php]/**
+```
+/**
  * Implements hook_menu().
  */
 function my_hook_menu() {
@@ -31,17 +33,21 @@ function my_hook_menu() {
    );
 
    return $items;
-}[/code]
+}
+```
 
 Define the page in `my_hook.inc`, which generates and returns just a form:
 
-[code php]function my_hook_page_subscribe() {
+```
+function my_hook_page_subscribe() {
    return drupal_get_form('my_hook_my_form');
-}[/code]
+}
+```
 
 Define the form in `my_hook.inc`:
 
-[code php]function my_hook_my_form($form, &$form_state) {
+```
+function my_hook_my_form($form, &$form_state) {
    $form['email'] = array(
       '#type' => 'textfield',
       '#default_value' => '',
@@ -56,20 +62,24 @@ Define the form in `my_hook.inc`:
    $form['submit'] = array('#type' => 'submit', '#value' => t('Subscribe'));
 
    return $form;
-}[/code]
+}
+```
 
 Define the validate function in `my_hook.inc`:
 
-[code php]function my_hook_my_form_validate($form, &$form_state) {
+```
+function my_hook_my_form_validate($form, &$form_state) {
    if (!valid_email_address($form_state['values']['email'])) {
       // prevents form submission
       form_set_error('email', t('Please enter a valid e-mail address.'));
    }
-}[/code]
+}
+```
 
 Finally define the submit function in `my_hook.inc`:
 
-[code php]function my_hook_my_form_submit($form, &$form_state) {
+```
+function my_hook_my_form_submit($form, &$form_state) {
    $_SESSION['my_email'] = $form_state['values']['email'];
 
    // display message on next load
@@ -77,9 +87,7 @@ Finally define the submit function in `my_hook.inc`:
 
    // redirect to another page in my module
    drupal_goto('my_hook/list');
-}[/code]
+}
+```
 
 This code would all be in a module `sites/all/modules/my_hook/` and implements the hook functions `hook_menu()`, `hook_form()`, `hook_form_submit()` and `hook_form_validate()`.
-
-[[Category:Drupal]]
-[[Category:PHP]]

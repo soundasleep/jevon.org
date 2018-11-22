@@ -3,11 +3,12 @@ layout: page
 title:  "Public Key"
 author: jevon
 date:   2014-03-27 16:18:41 +1300
+tags:   [Security, Privacy]
 ---
 
-Here's my [[GPG]] public key. Use this if you'd like to encrypt any communications sent to me. Also see https://keybase.io/jevon
+Here's my [GPG](gpg.md) public key. Use this if you'd like to encrypt any communications sent to me. Also see https://keybase.io/jevon
 
-[code]
+```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1.4.13 (Cygwin)
 
@@ -38,7 +39,4 @@ cdRGhkysFh+rvju3CUCTqybp1+T4TIZjOJaMZVeEKd4snCIifNi011bHGKPknsnJ
 AlTKLYxz9hioVKrViUEX97Cv6KyPxdHyS9B/R58=
 =VKVq
 -----END PGP PUBLIC KEY BLOCK-----
-[/code]
-
-[[Category:Security]]
-[[Category:Privacy]]
+```

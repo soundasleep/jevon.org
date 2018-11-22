@@ -3,13 +3,14 @@ layout: page
 title:  "Changing Open Dialog Default Sort Order in Windows"
 author: jevon
 date:   2007-11-28 07:57:45 +1300
+tags:   [Windows]
 ---
 
-[[Articles]]
+[Articles](articles.md)
 
-This was bugging me for weeks... finally, a [[Google]] search revealed how to fix this...
+This was bugging me for weeks... finally, a [Google](google.md) search revealed how to fix this...
 
-{{begin-quote}}Somehow or another, the sort order of the files can get changed in the File Open Dialog Box, as well as any other common dialog box that lists files based on the same control.
+{% include begin-quote.md %}Somehow or another, the sort order of the files can get changed in the File Open Dialog Box, as well as any other common dialog box that lists files based on the same control.
 
 Anyway, the fix:
 
@@ -26,8 +27,6 @@ Explorer.
 
 Then you can reopen explorer and set whatever default view you want in explorer.
 
-The key here, is that the file open dialog box, and all other similar controls, use the sort method saved when in "List" view. Nowhere else have I seen this. If you do it using "Details" view, it won't fix the dialog box sort order.{{end-quote}}
+The key here, is that the file open dialog box, and all other similar controls, use the sort method saved when in "List" view. Nowhere else have I seen this. If you do it using "Details" view, it won't fix the dialog box sort order.{% include end-quote.md %}
 
 Source: http://www.tabletquestions.com/windows-xp/15828-file-sort-order-reversed-wrong-file-open-file-save-dialog-box.html
-
-[[Category:Windows]]

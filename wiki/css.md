@@ -3,12 +3,14 @@ layout: page
 title:  "CSS"
 author: jevon
 date:   2014-05-14 22:29:55 +1200
+tags:   [Technology, Internet]
 ---
 
-Cascading Stylesheets is a way to specify presentational aspects of [[HTML]] pages. See also [[SASS]]
+Cascading Stylesheets is a way to specify presentational aspects of [HTML](html.md) pages. See also [SASS](sass.md)
 
-==Reference==
-[code]h2               { /* style all h2 elements */ }
+## Reference
+```
+h2               { /* style all h2 elements */ }
 h2.foo           { /* ...with className=foo */ }
 h2#foo           { /* ...with id=foo */ }
 *                { /* style all elements */ }
@@ -29,14 +31,16 @@ h2:link, h2:visited, h2:hover, h2:active    { /* links */ }
 h2:focus                                    { /* element has focus */ }
 h2:lang(en}                                 { /* ?? */ }
 h2:before, h2:after                         { /* insert content: before and after element */ }
-h2:checked                                  { /* element is checked */ }[/code]
+h2:checked                                  { /* element is checked */ }
+```
 
 Sources:
-# http://css.maxdesign.com.au/selectutorial/
-# http://kimblim.dk/csstest/
+1. http://css.maxdesign.com.au/selectutorial/
+1. http://kimblim.dk/csstest/
 
-==Positioning Floats==
-[code]div {            /* will move the object up 120px, but a 120px gap will remain */
+## Positioning Floats
+```
+div {            /* will move the object up 120px, but a 120px gap will remain */
    position: relative;
    top: -120px;
 }
@@ -44,7 +48,5 @@ Sources:
 div {            /* will move the object up 120px, and there will be no gap */
    float: right;
    margin-top: -120px;
-}[/code]
-
-[[Category:Technology]]
-[[Category:Internet]]
+}
+```

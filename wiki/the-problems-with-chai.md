@@ -3,13 +3,14 @@ layout: page
 title:  "The Problems with Chai"
 author: jevon
 date:   2014-06-29 16:35:17 +1200
+tags:   [Testing, Chai]
 ---
 
-[[Javascript]] - [[EmberJS]] - [[Testing]]
+[Javascript](javascript.md) - [EmberJS](emberjs.md) - [Testing](testing.md)
 
-[[Chai]] is a pretty reasonable testing framework. But there are some key problems that make it much harder than it should be to test.
+[Chai](chai.md) is a pretty reasonable testing framework. But there are some key problems that make it much harder than it should be to test.
 
-==Very few methods provide an optional message==
+## Very few methods provide an optional message
 
 * `expect(true).to.be.false('message')`
 * `expect(undefined).to.exist('message')`
@@ -18,18 +19,18 @@ Both of these assertions will fail with "is not a function". This means the only
 
 *Update:* It may be the best way to do this is `expect(true).to.equal(true, 'message')`.
 
-==`define` and `it` cannot have parameterised tests==
+## `define` and `it` cannot have parameterised tests
 
-[code coffeescript]
+```
 define 'my thing', ->
   for i in [0..6]
     it 'tests ' + i, ->
       expect(i).to.equal(i)
-[/code]
+```
 
 This won't work. <strike>I haven't found a way to do parameterised tests yet.</strike> One option is to use `async.each`: http://stackoverflow.com/a/17573188/39531
 
-[code javascript]
+```
 async.each([1,2,3], function(itemNumber, callback) {
   describe('Test # ' + itemNumber, function () {
     it("should be a number", function (done) {
@@ -39,33 +40,30 @@ async.each([1,2,3], function(itemNumber, callback) {
   });
 callback()
 });
-[/code]
+```
 
 Or, you can use Array#forEach (thanks <a href="https://twitter.com/jamesotron/status/482042859017625601">@jamesotron</a>):
 
-[code coffeescript]
+```
 define 'my thing', ->
   [0..6].forEach (i) ->
     it 'tests ' + i, ->
       expect(i).to.equal(i)
-[/code]
+```
 
-==Chaining your own properties is way too hard==
+## Chaining your own properties is way too hard
 
 It's easy enough to define a basic assertion, for example `expect(foo).to.be.present`.
 
 But if you want to also support `expect(foo).to.not.be.present`, then you have to go through a huge amount of work to store these properties through the assertion chains or something.
 
-==All assertions are defined in terms of the expect() object==
+## All assertions are defined in terms of the expect() object
 
 That means you cannot (easily) have a new assertion like `expect(".class").to.be.present`, because we need to define the ".present" w.r.t. the `".class"` string, and not what would eventually be a $() selector.
 
 That also means that you can not have an easy-to-understand message for the presence (or not) of elements, because the only context that you have available is the tested object.
 
-(In our project, we could not use the `chai-jquery` plugin because it interfered with [[EmberJS]]: it messes up `expect(find(...)).to.be.empty` from EmberJS (`find()` returns a JQuery object).)
+(In our project, we could not use the `chai-jquery` plugin because it interfered with [EmberJS](emberjs.md): it messes up `expect(find(...)).to.be.empty` from EmberJS (`find()` returns a JQuery object).)
 
-==You cannot run partial tests or rerun failed tests==
-This is probably a problem with [[Mocha]] instead.
-
-[[Category:Testing]]
-[[Category:Chai]]
+## You cannot run partial tests or rerun failed tests
+This is probably a problem with [Mocha](mocha.md) instead.

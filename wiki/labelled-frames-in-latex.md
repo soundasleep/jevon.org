@@ -3,21 +3,23 @@ layout: page
 title:  "Labelled Frames in Latex"
 author: jevon
 date:   2010-05-28 11:29:15 +1200
+tags:   [Latex, Code Snippets]
 ---
 
-[[Articles]] > [[Latex]]
+[Articles](articles.md) > [Latex](latex.md)
 
-{{gmf-css}}<img src="/img/gmf/latex-frame.png" class="gmf">I wanted to have a frame with a label in [[Latex]], as in the image to the right.
+{% include gmf-css.md %}<img src="/img/gmf/latex-frame.png" class="gmf">I wanted to have a frame with a label in [Latex](latex.md), as in the image to the right.
 
 One solution provided by the <a href="http://ctan.tug.org/tex-archive/info/visualFAQ/visualFAQ.pdf">VisualFAQ</a> is to use the fancy verbatim class:
 
-[code]\begin{Verbatim}[frame=single,label={\texttt{equidem.tex}}][/code]
+`\begin{Verbatim}[frame=single,label={\texttt{equidem.tex}}]`
 
 However, I didn't want text; I wanted an image, and I wanted in a consistent font.
 
-I found the solution was the following [[Latex]]:
+I found the solution was the following [Latex](latex.md):
 
-[code]\begin{figure}[htb]
+```
+\begin{figure}[htb]
 \centering
   \begin{tabular}{@{}lllr@{}}
     
@@ -30,20 +32,22 @@ I found the solution was the following [[Latex]]:
   \end{tabular}
   \caption{Figure Caption}
   \label{fig:reference}
-\end{figure}[/code]
+\end{figure}
+```
 
-==Making it Coloured==
-I also wanted the frame to be a shade of gray. By using '''\arrayrulecolor''', the \hlines of a table can be coloured:
+## Making it Coloured
+I also wanted the frame to be a shade of gray. By using **\arrayrulecolor**, the \hlines of a table can be coloured:
 
-[code]\arrayrulecolor{gray}[/code]
+`\arrayrulecolor{gray}`
 
-Using '''\color''' directly allows you to change the colour of vertical lines (but NOT horizontal lines through '''\cline'''):
+Using **\color** directly allows you to change the colour of vertical lines (but NOT horizontal lines through **\cline**):
 
-[code]{\color{gray}\vline}[/code]
+`{\color{gray}\vline}`
 
-I also wanted to change the font of the label to a sans-serif font through '''\sffamily'''. My solution was thus:
+I also wanted to change the font of the label to a sans-serif font through **\sffamily**. My solution was thus:
 
-[code]\begin{figure}[htb]
+```
+\begin{figure}[htb]
 \centering
   \begin{tabular}{@{}lllr@{}}
     
@@ -59,12 +63,13 @@ I also wanted to change the font of the label to a sans-serif font through '''\s
   \end{tabular}
   \caption{Figure Caption}
   \label{fig:reference}
-\end{figure}[/code]
+\end{figure}
+```
 
-==Making it a Command==
+## Making it a Command
 Finally, I wanted to make this a re-usable command:
 
-[code]
+```
 \begin{figure}[htb]
   % param1: the frame caption
   % param2: the image width
@@ -76,9 +81,7 @@ Finally, I wanted to make this a re-usable command:
     {models/autocomplete/Source.ps}
     {Autocomplete: Connecting a Domain Source}
     {fig:autocomplete-source2}
-\end{figure}[/code]
+\end{figure}
+```
 
 This is achieved by adding <a href="http://code.google.com/p/iaml/source/browse/trunk/org.openiaml.docs.tools/latex/framedimage.tex?r=2306">the following source code</a> to your prelude.
-
-[[Category:Latex]]
-[[Category:Code Snippets]]

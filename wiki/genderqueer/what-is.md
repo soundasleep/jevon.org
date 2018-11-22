@@ -3,12 +3,13 @@ layout: page
 title:  "Genderqueer/What is"
 author: jevon
 date:   2013-06-08 07:21:30 +1200
+tags:   [Genderqueer, Gender]
 ---
 
-{{genderqueer-heading}}
-To me, _*[[Genderqueer]]* is an umbrella term that a person may use to label or identify themselves as someone who does not conform to the _genders_ defined by their culture._ But to first understand genderqueer, one first needs to understand _gender_, and how it differs from _sex_ and _sexuality_.
+{% include genderqueer-heading.md %}
+To me, _*[Genderqueer](genderqueer.md)* is an umbrella term that a person may use to label or identify themselves as someone who does not conform to the _genders_ defined by their culture._ But to first understand genderqueer, one first needs to understand _gender_, and how it differs from _sex_ and _sexuality_.
 
-==Sex and Sexuality==
+## Sex and Sexuality
 *Sexuality* is a pretty easy one. Someone's _gender_ does not necessarily define who they are _sexually_ attracted to. While Western society prefers heterosexuality on one's gender, and in many places it is still illegal to break this preference -- i.e. male-gendered people should be attracted to female-gendered people -- a male-gendered person may identify as gay and be attracted to other male-gendered people.
 
 *Sex*, on the other hand, is usually defined as the biological components of a person. For example, if you have a penis, then you are male; if you have ovaries, you are female. Western society expects sex to be strictly binary, but this is a lie: <a href="http://en.wikipedia.org/wiki/Intersex">intersexed people</a> (0.1-1.9% of people) do not conform to this binary.
@@ -17,7 +18,7 @@ To me, _*[[Genderqueer]]* is an umbrella term that a person may use to label or 
 
 It's easy to see that _sex_ can be completely independent from _sexuality_. Just because you have a particular set of genitals, doesn't mean that you must only be attracted to people with the opposite set of genitals.
 
-==Gender Identity==
+## Gender Identity
 Gender is a whole different kettle of fish, and a concept that most people have rarely considered. Most people consider _gender_ to be synonymous with _sex_, but that is extremely inaccurate.
 
 _Gender identity_ is rather a set of social roles, expectations and traits that a person identifies with. The specific roles expected vary between different cultures, different groups and different people; for example, some people consider things like paying for dates and holding doors open a necessity, others consider it an archaic tradition, and others consider it offensive. This means that gender is not fixed, but is always changing, and everybody will have different ideas of what gender means to them.
@@ -28,14 +29,14 @@ These roles disintegrate when you introduce non-normative biology into the mix. 
 
 *One of my favourite concepts* is the following: If somebody identifies as a woman, than they are one. There are no absolute tests or checklists for womanhood, and you don't need to pass a course or achieve a certificate to become one. (The idea of being accepted _as_ a woman is a much more difficult story.)
 
-==Sources of Gender==
-[[Genderqueer/Resources|Julia Serano]] argues very successfully that while gender should be considered independently from biological sex, gender probably does have roots in biological sex. For example, it's reasonable to consider that the "female" gender is often associated with nurturing and the "male" gender associated with protection, because these traits consistently occur across most cultures and even many species.
+## Sources of Gender
+[Julia Serano](genderqueer/resources.md) argues very successfully that while gender should be considered independently from biological sex, gender probably does have roots in biological sex. For example, it's reasonable to consider that the "female" gender is often associated with nurturing and the "male" gender associated with protection, because these traits consistently occur across most cultures and even many species.
 
 However, it is _unreasonable_ to therefore conclude that gender _must_ only be based on biological sex. Male gendered people are just as capable of nurturing and female gendered people capable of protection, and in some cases may strongly identify or prefer those roles.
 
 The source of one's identity is a much more interesting question that will never have a complete answer. Spirituality, religion, culture, experiences, and pretty much everything else may all impact one's self-identity and aspects of that identity, and this includes gender.
 
-==Genderqueer==
+## Genderqueer
 Now that we understand sex, sexuality and gender a little bit better, we can start to understand the label _genderqueer_.
 
 The term genderqueer is generally used as an umbrella term by people who identify in any gender-nonconforming way. This can include (*in a non-exclusive sense*):
@@ -47,11 +48,11 @@ The term genderqueer is generally used as an umbrella term by people who identif
 * Having an overlap of gender, sexuality or sex
 * People who "queer" gender through physical and/or political expression and/or self-identity
 
-Optimistically, genderqueer is a place where diverse gender identities are explored, shared, respected and encouraged. [[Genderqueer/Am I?|There is *no* single definition or checklist for being genderqueer.]]
+Optimistically, genderqueer is a place where diverse gender identities are explored, shared, respected and encouraged. [There is *no* single definition or checklist for being genderqueer.](genderqueer/am-i-.md)
 
-*For example,* I identify with the androgyne, non-gendered, genderfluid, non-binary, [[Genderqueer/Transgender|transgendered]] and queer labels. I try not to let binary gender roles define how I should act; I just try to be myself and act the way that I want to act, regardless of roles.
+*For example,* I identify with the androgyne, non-gendered, genderfluid, non-binary, [transgendered](genderqueer/transgender.md) and queer labels. I try not to let binary gender roles define how I should act; I just try to be myself and act the way that I want to act, regardless of roles.
 
-==Was that so difficult?==
+## Was that so difficult?
 Many people struggle with the concept of gender, of genderqueer people, or of non-conforming gender. Everybody is different and will have different reasons for disliking the concept, but some of the most common are:
 
 *Fear of the unknown.* Some people may not know anything about gender or genderqueer people. There are so few publicly genderqueer people that it is hard to normalise the concept. Hopefully reading up on resources and sites like this one will provide useful and practical information to reduce this fear.
@@ -62,9 +63,6 @@ Many people struggle with the concept of gender, of genderqueer people, or of no
 
 *Disapproval of different world views.* Some people may feel that _their_ view of the world is the "correct" view, and that genderqueer people have an "incorrect" view. However, _everybody is different_ and everyone should respect others' opinions and views, even if they conflict with your own.
 
-==More information==
+## More information
 
 * <a href="http://genderqueerid.com/what-is-gq">Genderqueer Identities: What is Genderqueer?</a> is a _fantastic_ resource for understanding more about the label genderqueer.
-
-[[Category:Genderqueer]]
-[[Category:Gender]]

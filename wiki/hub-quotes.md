@@ -3,9 +3,10 @@ layout: page
 title:  "Hub Quotes"
 author: jevon
 date:   2010-06-08 19:39:11 +1200
+tags:   [Old, Todo]
 ---
 
-[[Direct Connect]]
+[Direct Connect](direct-connect.md)
 
 Raw data from the quote logs...
 
@@ -527,6 +528,3 @@ Raw data from the quote logs...
 5 Binty 2003 10 02 <ohdarn> Two fonts walk into a bar. The bartender says to them, "Get out! We don't serve your type here." 
 8 MrPhreak 2003 10 03 <[mad]crank> dude, dating is like prostotution.... but you dont always get what you pay for
 9 [128k]ame 2003 10 03 <[128k]ame> "the square open bracket destroyed my life"
-
-[[Category:Old]]
-[[Category:Todo]]

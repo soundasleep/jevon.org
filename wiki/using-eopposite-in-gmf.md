@@ -3,49 +3,53 @@ layout: page
 title:  "Using EOpposite in GMF"
 author: jevon
 date:   2009-04-07 19:15:18 +1200
+tags:   [GMF, EMF, Ecore, Technology]
 ---
 
-[[GMF]] / [[EMF]] / [[Ecore]]
+[GMF](gmf.md) / [EMF](emf.md) / [Ecore](ecore.md)
 
-{{gmf-css}}<img src="/img/gmf/eopposite-4.png" class="gmf">By using the "EOpposite" feature, you can have models instead of:
-[code]- Page A
+{% include gmf-css.md %}<img src="/img/gmf/eopposite-4.png" class="gmf">By using the "EOpposite" feature, you can have models instead of:
+```
+- Page A
   - Link Z to: Page B
-- Page B[/code]
+- Page B
+```
 
 To be instead:
-[code]- Page A
+```
+- Page A
   - Link Z to: Page B
-- Page B in: Z[/code]
+- Page B in: Z
+```
 
-More information about this is available in the article on [[Ecore]], specifically [[Ecore|I want to be able to go backwards through a reference]].
+More information about this is available in the article on [Ecore](ecore.md), specifically [I want to be able to go backwards through a reference](ecore.md).
 
-==Set EOpposite properly in the Ecore model==
+## Set EOpposite properly in the Ecore model
 
 <img src="/img/gmf/eopposite-3.png" class="gmf">In the example above, you want the following model:
-[code]- Page
+```
+- Page
   - reference "in": 0..* of type Link
   - containment reference "links": 0..* of type Link, containment is true
 - Link
-  - reference "to": 1 of type Page[/code]
+  - reference "to": 1 of type Page
+```
 
 To set EOpposite properly, you want to change this to:
-[code]- Page
+```
+- Page
   - reference "in": 0..* of type Link, EOpposite is Link.to
   - containment reference "links": 0..* of type Link, containment is true, EOpposite is Link.from
 - Link
   - reference "to": 1 of type Page, EOpposite is Page.in
-  - reference "from": 1 of type Page, EOpposite is Page.links[/code]
+  - reference "from": 1 of type Page, EOpposite is Page.links
+```
 
-# Regenerate the .genmodel from your changed .ecore file
-# Regenerate the Model, Edit and Editor code
+1. Regenerate the .genmodel from your changed .ecore file
+1. Regenerate the Model, Edit and Editor code
 
-==Set the Link Mapping properly in .gmfmap==
+## Set the Link Mapping properly in .gmfmap
 
-# In Link Mapping, make sure ''Source Feature'' and ''Target Feature'' are properly set.
-# Regenerate the .gmfmap file
-# Regenerate the diagram code
-
-[[Category:GMF]]
-[[Category:EMF]]
-[[Category:Ecore]]
-[[Category:Technology]]
+1. In Link Mapping, make sure _Source Feature_ and _Target Feature_ are properly set.
+1. Regenerate the .gmfmap file
+1. Regenerate the diagram code

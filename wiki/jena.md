@@ -3,17 +3,19 @@ layout: page
 title:  "Jena"
 author: jevon
 date:   2011-03-10 14:05:17 +1300
+tags:   [Java, Semantic Web]
 ---
 
-[[Jena]] is a [[rule]] inference engine for [[Java]], useful for the [[Semantic Web]]. It handles [[RDF]] and [[OWL]]. It can be integrated with [[Pellet]].
+[Jena](jena.md) is a [rule](rule.md) inference engine for [Java](java.md), useful for the [Semantic Web](semantic-web.md). It handles [RDF](rdf.md) and [OWL](owl.md). It can be integrated with [Pellet](pellet.md).
 
-# [[OWL Validation with Jena]]
-# [[Jena Pygments Lexer]]
+1. [OWL Validation with Jena](owl-validation-with-jena.md)
+1. [Jena Pygments Lexer](jena-pygments-lexer.md)
 
-==Sample Jena validation code==
+## Sample Jena validation code
 From http://tech.groups.yahoo.com/group/jena-dev/message/17639.
 
-[code]OntModel model = MomUtil.leOnto("ruleTest.owl");
+```
+OntModel model = MomUtil.leOnto("ruleTest.owl");
 
 String validationRule = "[validationRule: (?v rb:validation on()) -> " +
   "[(?X rb:violation error('conflict', 'x86 with MacOs', ?X)) <- " +
@@ -34,36 +36,40 @@ if (!validityReport.isValid()) {
   while (iterator.hasNext()) {
   System.out.println(iterator.next());
   }
-}[/code]
+}
+```
 
 You can also see the code involved in <a href="http://code.google.com/p/iaml/source/browse/branches/2009-08-owl/org.openiaml.model.owl/src/org/openiaml/model/owl/tests/TransformEcoreToOwl.java?spec=svn1046&r=1042#98">integrating Jena validation rules into IAML</a>.
 
-==Relative URIs are not permitted in RDF==
+## Relative URIs are not permitted in RDF
 If you get this error when trying to load a model like so:
-[code]Model model = FileManager.get().loadModel("file:tests/invalid.simple");[/code]
+`Model model = FileManager.get().loadModel("file:tests/invalid.simple");`
 
 With the following model:
-[code]<?xml version="1.0" encoding="UTF-8"?>
+```
+<?xml version="1.0" encoding="UTF-8"?>
 <s:InternetApplication xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:s="http://openiaml.org/simple">
   <pages name="page 1"/>
   <pages name="page 1"/>
-</s:InternetApplication>[/code]
+</s:InternetApplication>
+```
 
-This may be because your model does not have a root [[XML]] namespace:
-[code]<?xml version="1.0" encoding="UTF-8"?>
+This may be because your model does not have a root [XML](xml.md) namespace:
+```
+<?xml version="1.0" encoding="UTF-8"?>
 <s:InternetApplication xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:s="http://openiaml.org/simple">
   <s:pages s:name="page 1"/>
   <s:pages s:name="page 1"/>
-</s:InternetApplication>[/code]
+</s:InternetApplication>
+```
 
-You might also be able to get around it by adding a root [[XML]] namespace through '''xmlns="http://openiaml.org/simple"'''.
+You might also be able to get around it by adding a root [XML](xml.md) namespace through **xmlns="http://openiaml.org/simple"**.
 
-==Enabling debug messages with Jena==
-[code]Reasoner reasoner = ReasonerRegistry.getOWLReasoner();
+## Enabling debug messages with Jena
+```
+Reasoner reasoner = ReasonerRegistry.getOWLReasoner();
 reasoner.setParameter(ReasonerVocabulary.PROPtraceOn, true);
-reasoner = reasoner.bindSchema(schema);[/code]
+reasoner = reasoner.bindSchema(schema);
+```
 
-You will also need to set up [[Log4J]].
-
-[[Category:Java]]
-[[Category:Semantic Web]]
+You will also need to set up [Log4J](log4j.md).

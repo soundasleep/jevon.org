@@ -3,19 +3,20 @@ layout: page
 title:  "Windows"
 author: jevon
 date:   2015-11-15 09:49:19 +1300
+tags:   [Windows, Troubleshooting]
 ---
 
-[[Articles]]
+[Articles](articles.md)
 
-# [[Essential Software for Windows]]
+1. [Essential Software for Windows](essential-software-for-windows.md)
 
-==Failed to format the selected partition 0x8004242d==
+## Failed to format the selected partition 0x8004242d
 
 I came across this error while trying to install Windows 7. It wouldn't let me install over my previous install on a SSD disk, I think because it was BIOS formatted and I now had to install Windows 7 using UEFI. I also could not create a USB bootable disk that would allow BIOS startup (it would report just "Disk error"). How annoying!!
 
 To fix this error, instead of trying to "format" the partition, I just deleted it and then created it new. Now I have three partitions: one System, one MSR (Reserved) and one Primary.
 
-==Windows could not complete the installation. To install Windows on this computer, restart the installation.==
+## Windows could not complete the installation. To install Windows on this computer, restart the installation.
 This took me two hours to debug and finally resolve. This error can mean almost anything. There are some important tools that will help you solve this error:
 
 * Shift-F10 - opens up a command prompt
@@ -27,10 +28,10 @@ If you are installing Windows pre-SP1, the most common answer on the Internet is
 
 You can also use `tracerpt` to translate the setup log (binary) <a href="http://theblownlightbulb.com/2011/01/03/fix-windows-could-not-finish-configuring-the-system-oobe-error-message/">into a human-readable format</a>, you can do this all within the command prompt. This can help you find invalid/bad registry keys that you can delete with `REG DELETE <key>`:
 
-[code]
+```
 cd /windows/panther
 tracerpt setup.etl -o logfile.csv -of CSV
-[/code]
+```
 
 Another option is to install Windows 7 <a href="http://social.technet.microsoft.com/Forums/en-US/w7itproinstall/thread/67b56539-d7e6-4642-890c-d4600ba7f6a1/">in legacy mode</a> instead of UEFI mode. I've never had a single problem installing Windows in legacy/BIOS mode. There are some <a href="http://superuser.com/questions/429003/sysprepped-image-will-not-complete-setup">other steps that didn't help me</a>.
 
@@ -60,10 +61,10 @@ Should be good to go.
 
 My next idea after this was to check my BIOS settings and turn off any SSD performance options - my `setuperr.log` file was reporting only the following line (which I don't actually think was fatal):
 
-[code]
+```
 2012-07-29 15:49:51, Error      [0x0606cc] IBS    ApplyDiskOperationUsingService: Failed to correctly apply disk operation of type [0xe]; hr = 0x8007009a[gle=0x0000009a]
 2012-07-29 15:49:51, Error      [0x060492] IBS    PerformDiskOperation:Disk operation of type [14] failed; hr = 0x8007009a
-[/code]
+```
 
 My next three options after this were to:
 
@@ -71,15 +72,12 @@ My next three options after this were to:
 * Try to Repair Install using the same install media (not confident this would have worked)
 * Use a different install media (e.g. Windows 7 without SP1) to reinstall
 * Re-slipstream the ISO image and add all of the device drivers specific to my new hardware (I would have had to learn how to slipstream drivers into an ISO), rewrite the ISO to USB and then reinstall - to verify that it wasn't a driver issue
-* Install [[Linux]] instead.
+* Install [Linux](linux.md) instead.
 
 A lot of the other solutions required access to another existing Windows 7 machine, which I did not have.
 
-==Creating a symbolic directory link==
+## Creating a symbolic directory link
 
 Within a command prompt as administrator:
 
-[code]mklink /j "c:/virtual directory" "c:/actual source directory"[/code]
-
-[[Category:Windows]]
-[[Category:Troubleshooting]]
+`mklink /j "c:/virtual directory" "c:/actual source directory"`

@@ -3,14 +3,15 @@ layout: page
 title:  "Old Content/Jevon Computers"
 author: jevon
 date:   2007-11-21 12:17:34 +1300
+tags:   [Jevon, Computers]
 ---
 
-{{old content header}}
-{{old content jevon}}
+{% include old-content-header.md %}
+{% include old-content-jevon.md %}
 
 Ever since I was seven years old, I've been playing around with computers. As I am now taking a degree in Software Engineering at Massey University, computers are now a permanent part of my life. At the moment I have two computers:
 
-'''Computer 1''' is a custom-built computer, which I put together myself. It features:
+**Computer 1** is a custom-built computer, which I put together myself. It features:
 * Athlon XP 1800+ (1.53GHz) CPU
 * Epox 8K3A VIA KT333 Motherboard
 * Thermaltake Volcano 7+ for CPU Cooling
@@ -22,7 +23,7 @@ Ever since I was seven years old, I've been playing around with computers. As I 
 * 6x/32x BTC DVD Drive
 * Generic 17" CRT Monitor
 
-'''Computer 2''' used to be a PC Company retail computer, purchased two years ago, which has now become redundant (when I upgraded to the nice little box above!) and is now a personal file server/web server. It features:
+**Computer 2** used to be a PC Company retail computer, purchased two years ago, which has now become redundant (when I upgraded to the nice little box above!) and is now a personal file server/web server. It features:
 * Celeron 433MHz @ 481MHz CPU
 * Epox 3VBM Motherboard
 * Generic 320MB PC100/PC133 SDRAM Memory
@@ -30,7 +31,4 @@ Ever since I was seven years old, I've been playing around with computers. As I 
 * Maxtor 5400rpm 10GB Hard Drive
 * Dynalink ADSL modem
 
-In the software-based side of things, I like to do [[Software|software development]] and [[Web Development|web scripting]], and also tinkering with the computers themselves. I enjoy software development in [[Visual Basic]] and C/C++; but low-level [[Assembly]] and even digital logic and machine code interests me. I prefer web scripting in [[PHP]] and [[ASP]]. I prefer [[MySQL]] for database access in [[PHP]].
-
-[[Category:Jevon]]
-[[Category:Computers]]
+In the software-based side of things, I like to do [software development](software.md) and [web scripting](web-development.md), and also tinkering with the computers themselves. I enjoy software development in [Visual Basic](visual-basic.md) and C/C++; but low-level [Assembly](assembly.md) and even digital logic and machine code interests me. I prefer web scripting in [PHP](php.md) and [ASP](asp.md). I prefer [MySQL](mysql.md) for database access in [PHP](php.md).
