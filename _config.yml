@@ -29,15 +29,12 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-relative-links
+
+permalink: /:categories/:year/:month/:day/:title
 
 sass:
   style: compressed
-
-browserify:
-  command: "$(npm bin)/browserify" # -t [ babelify --presets es2015 ]"
-
-  # target exts to convert
-  exts: [".js"]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

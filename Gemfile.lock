@@ -248,6 +248,7 @@ DEPENDENCIES
   github-pages
   jekyll-coffeescript
   jekyll-feed (~> 0.6)
+  jekyll-relative-links
   jekyll-reload
   minima (~> 2.0)
   tzinfo-data
