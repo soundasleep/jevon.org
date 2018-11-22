@@ -17,11 +17,11 @@ ignored_titles = [
 ].map { |s| "'#{s}'" }.join(", ")
 
 def select_slug(title)
-  title.downcase.gsub(' ', '-')
+  title.downcase.gsub(/[^A-Z0-9\-_\/]+/i, '-') # allow / for folders
 end
 
 def select_filename(slug)
-  "wiki/#{slug.gsub(/[^A-Z0-9\-\/]+/i, '-')}.md" # allow / for folders
+  "wiki/#{slug}.md"
 end
 
 def select_git_author(username)
@@ -110,6 +110,40 @@ def generate_markdown(bbcode)
   end
   markdown = frontmatter.last.strip
 
+  # Strip out categories
+  tags = []
+  markdown = markdown.gsub(/\[\[Category:([^|\[\]]+)\]\]/i) do |match|
+    tags << $1 # includes spaces, capitalisation
+    ""
+  end
+  tags = tags.uniq
+
+  # Code blocks
+  markdown = markdown
+    .gsub(/\[code\]([^\n]+?)\[\/code\]/i, "`\\1`") # single-line version
+    .gsub(/\[code ([^\]]+)\]\n*(.+?)\n*\[\/code\]/im, "```\\1\n\\2\n```")
+    .gsub(/\[code\]\n*(.+?)\n*\[\/code\]/im, "```\n\\1\n```")
+
+  code_blocks = {}
+
+  # Escape invalid {% and %} in code blocks, and then remove it from further matching
+  # https://stackoverflow.com/questions/3426182/how-to-escape-liquid-template-tags
+  markdown = markdown.gsub(/```([^\n]*)\n(.+?)```/im) do |match|
+    key = sprintf("%09d", code_blocks.length)
+    replaced = $2.strip
+      .gsub("{{", "{{ \"{{\" }}")
+      .gsub("{%", "{{ \"{%\" }}")
+
+    code_blocks[key] = "```#{$1}\n#{replaced}\n```"
+
+    "__CODE_BLOCK_#{key}__"
+  end
+
+  # Lists
+  markdown = markdown
+    .gsub(/^# (.+)$/i, "1. \\1")
+    .gsub(/^( |  |\t)# *(.+)$/i, "  1. \\1")
+
   # Headers
   markdown = markdown
     .gsub(/^==== *(.+) *====$/i, "#### \\1")
@@ -122,12 +156,6 @@ def generate_markdown(bbcode)
     .gsub(/'''(.+?)'''/i, "**\\1**")
     .gsub(/''(.+?)''/i, "_\\1_")
 
-  # Code blocks
-  markdown = markdown
-    .gsub(/\[code\]([^\n]+?)\[\/code\]/i, "`\\1`") # single-line version
-    .gsub(/\[code ([^\]]+)\]\n*(.+?)\n*\[\/code\]/im, "```\\1\n\\2\n```")
-    .gsub(/\[code\]\n*(.+?)\n*\[\/code\]/im, "```\n\\1\n```")
-
   # Replace [[link|title]] with [markdown links](markdown link)
   markdown = markdown.gsub(/\[\[([^|\[\]]+)\|([^|\[\]]+)\]\]/i) do |match|
     "[#{$2}](#{select_slug($1)}.md)"
@@ -139,29 +167,39 @@ def generate_markdown(bbcode)
   end
 
   # Replace old {{include|var=value}} format with jekyll {% include filename %}
-  # markdown = markdown.gsub(/\{\{([^|}]+)\|(.+?)=(.*)\}\}/i) do |match|
-  #   # "{% include #{select_slug($1)}.md #{$2}=\"#{$3}\" %}"
-  #   "<!-- #{match} -->"
-  # end
+  markdown = markdown.gsub(/\{\{([^|}]+)\|(.+?)=(.*)\}\}/i) do |match|
+    "{% include #{select_slug($1)}.md #{$2}=\"#{$3}\" %}"
+    # "<!-- #{match} -->"
+  end
 
-  # # Replace old {{include|random text}} format with jekyll {% include filename %}
-  # markdown = markdown.gsub(/\{\{([^|}]+)\|(.+?)\}\}/i) do |match|
-  #   # "{% include #{select_slug($1)}.md comment=\"#{$2}\" %}"
-  #   "<!-- #{match} -->"
-  # end
+  # Replace old {{include|random text}} format with jekyll {% include filename %}
+  markdown = markdown.gsub(/\{\{([^|}]+)\|(.+?)\}\}/i) do |match|
+    "{% include #{select_slug($1)}.md comment=\"#{$2}\" %}"
+    # "<!-- #{match} -->"
+  end
 
   # Replace old {{include}} format with jekyll {% include filename %}
   markdown = markdown.gsub(/\{\{([^}]+)\}\}/i) do |match|
-    # "{% include #{select_slug($1)}.md %}"
-    "<!-- #{match.gsub("{{", "include ").gsub("}}", "")} -->"
+    "{% include #{select_slug($1)}.md %}"
+    # "<!-- #{match.gsub("{{", "include ").gsub("}}", "")} -->"
+  end
+
+  # Replace old {stub} -> include
+  markdown = markdown.gsub("{stub}", "{% include stub.md %}")
+
+  # Return code blocks
+  markdown = markdown.gsub(/__CODE_BLOCK_([0-9]+)__/) do |match|
+    key = $1
+    code_blocks[$1]
   end
 
   # Join them all back together
   return "---
 #{frontmatter[1].strip}
+tags:   [#{tags.join(", ")}]
 ---
 
-#{markdown}
+#{markdown.strip}
 "
 end
 
@@ -180,7 +218,7 @@ edits.each do |row|
 end
 
 # Finally, do a quick and dirty bbcode -> markdown reformat
-Dir.glob("wiki/**/old-content/**/*.md") do |filename|
+Dir.glob("wiki/**/*.md") do |filename|
   input = File.read(filename)
 
   markdown = generate_markdown(input)
@@ -194,11 +232,4 @@ Dir.glob("wiki/**/old-content/**/*.md") do |filename|
   # We don't create an individual commit for each markdown; that's useless.
   # It's much better to have a single commit that does ALL of it at once.
   # We'll leave it up to the person running the script to do the commit.
-
-  # unless $no_pause_between_commits
-  #   puts "Press enter to continue..."
-  #   ignored = STDIN.gets
-  # end
 end
-
-# TODO reformat bbcode format as markdown format automatically
