@@ -1,2 +1,13 @@
-$background: white;
-$highlight: blue;
+// override Minima defaults from https://github.com/jekyll/minima/blob/master/_sass/minima.scss
+
+$background-color: white;
+$text-color: #111;
+$brand-color: purple;
+
+// Our own variables
+$highlight: $brand-color;
+
+// Aliases
+$background: $background-color;
+$text: $text-color;
+$link-color: $brand-color;
