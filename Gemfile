@@ -28,7 +28,9 @@ group :jekyll_plugins do
   gem "jekyll-relative-links"
 
   # Not whitelisted
-  gem "jekyll-reload"
+  group :development do
+    gem "jekyll-reload"
+  end
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
