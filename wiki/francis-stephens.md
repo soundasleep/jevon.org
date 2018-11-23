@@ -1,0 +1,9 @@
+---
+layout: page
+title:  "Francis Stephens"
+author: jevon
+date:   2005-12-13 08:02:28 +1300
+tags:   [Article]
+---
+
+<center><img src="http://www.sharlot.org/archives/rosegarden/images/FRANCIS%20VIRGINIA%20WINGFIELD%20STEPHENS.jpg" class="photo"></img></center>

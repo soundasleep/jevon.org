@@ -1,0 +1,9 @@
+---
+layout: page
+title:  "Jevon"
+author: jevon
+date:   2013-01-07 02:45:24 +1300
+tags:   [Redirect]
+---
+
+#REDIRECT [Jevon Wright](jevon-wright.md)
