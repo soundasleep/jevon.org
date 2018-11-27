@@ -6,7 +6,8 @@ permalink: /sitemap
 
 {%- if site.posts.size > 0 -%}
   <ul class="post-list">
-    {%- for post in site.posts -%}
+    {%- assign all_posts = site.posts | concat: site.pages | sort: "date" | reverse -%}
+    {%- for post in all_posts -%}
     <li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <span class="post-meta">{{ post.date | date: date_format }}</span>
