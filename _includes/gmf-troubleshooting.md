@@ -1,11 +1,3 @@
----
-layout: page
-title:  "gmf-troubleshooting"
-author: jevon
-date:   2011-07-21 10:57:42 +1200
-tags:   [GMF, Template]
----
-
 1. [GMF Troubleshooting](gmf-troubleshooting.md)
 1. [GMF Troubleshooting 2](gmf-troubleshooting-2.md)
 1. [GMF Troubleshooting 3](gmf-troubleshooting-3.md)

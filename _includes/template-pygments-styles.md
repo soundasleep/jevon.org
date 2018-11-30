@@ -1,11 +1,3 @@
----
-layout: page
-title:  "template:Pygments styles"
-author: jevon
-date:   2011-10-06 14:22:37 +1300
-tags:   [Template]
----
-
 1. [Eclipse Pygments Style](eclipse-pygments-style.md)
 1. Lexers<ol>
 1. [Drools Pygments Lexer](drools-pygments-lexer.md)

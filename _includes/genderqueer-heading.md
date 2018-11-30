@@ -1,11 +1,3 @@
----
-layout: page
-title:  "genderqueer-heading"
-author: jevon
-date:   2013-06-08 07:22:20 +1200
-tags:   [Template]
----
-
 <div class="genderqueer">*[Genderqueer](genderqueer.md):*
 * [What is?](genderqueer/what-is-.md)
 * [Am I?](genderqueer/am-i-.md)
