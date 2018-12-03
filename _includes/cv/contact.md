@@ -3,8 +3,8 @@
 Name
 : Dr Jevon Wright
 
-{%- if jekyll.environment != 'production' -%}
-  {% include cv/address.md %}
+{% if jekyll.environment != 'production' %}
+{% include cv/address.md %}
 {% endif %}
 
 Email
@@ -20,4 +20,4 @@ LinkedIn
 : [https://nz.linkedin.com/in/jevonwright](https://nz.linkedin.com/in/jevonwright)
 
 Member of
-: IEEE (2009&ndash;), InternetNZ (2010&ndash;), IITP (formerly NZSC, 2010&ndash;)
+: InternetNZ (2010&ndash;), IITP (formerly NZSC, 2010&ndash;)
