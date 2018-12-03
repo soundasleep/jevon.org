@@ -26,7 +26,7 @@ permalink: /cv
   {% capture temp %}{% include cv/skills.md %}{% endcapture %}
   {{ temp | markdownify }}
 </section>
-<section>
+<section class="open-source">
   {% capture temp %}{% include cv/open-source.md %}{% endcapture %}
   {{ temp | markdownify }}
 </section>

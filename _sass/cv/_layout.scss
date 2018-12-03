@@ -1,3 +1,6 @@
+// To get the PDF to print out correctly:
+// A4, 110% percent, normal margins.
+
 html, body {
   background: $body-background;
   color: $body-color;
@@ -19,7 +22,7 @@ body {
   }
 }
 
-.content {
+div.content {
   margin: 20px auto;
   max-width: 650px;
 
@@ -28,10 +31,11 @@ body {
   background: $content-background;
   padding: 30px;
   color: $content-color;
-  line-height: 130%;
+  font-weight: 400;
+  line-height: 140%;
 
   @media print {
-    padding: 20px 25px;
+    padding: 0;
     margin: 0;
   }
 
@@ -42,8 +46,17 @@ body {
 
   h1 {
     margin-top: 0;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 200%;
     line-height: 140%;
+  }
+
+  h2 {
+    font-weight: 600;
+  }
+
+  b, strong {
+    font-weight: 600;
   }
 }
 

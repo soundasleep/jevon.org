@@ -12,10 +12,10 @@ Web
 : [https://jevon.org](https://jevon.org)
 
 Twitter
-: [@soundasleep]("https://twitter.com/soundasleep")
+: [@soundasleep](https://twitter.com/soundasleep)
 
 LinkedIn
-: [https://nz.linkedin.com/in/jevonwright](https://nz.linkedin.com/in/jevonwright")
+: [https://nz.linkedin.com/in/jevonwright](https://nz.linkedin.com/in/jevonwright)
 
 Member of
 : IEEE (2009&ndash;), InternetNZ (2010&ndash;), IITP (formerly NZSC, 2010&ndash;)

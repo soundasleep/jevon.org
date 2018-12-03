@@ -13,8 +13,8 @@
 - Facilitation and leadership
 - Event management
 - Database and systems administration
-- Research
 - Community management
+- Research
 {% endcapture %}
 
 <div class="columns2 key-skills">

@@ -1,13 +1,30 @@
 ## Recent Employment History
 
-2015 &ndash;
-: - **Senior Developer, Team Lead, Functional Lead**
+2013 &ndash;
+: - **Founder**
+  - _[CryptFolio](https://cryptfolio.com)_
+  - Wellington, New Zealand
+
+  CryptFolio is a secure platform for traders, developers, fund managers
+  and businesses to manage their cryptocurrencies, such as Bitcoin and Ethereum.
+  As the founder, I am responsible for the design, development,
+  deployment, maintenance, marketing, and strategy for the company.
+
+  {% comment %}
+  / This involves software/web engineering, system administration, database replication,
+  / project management, UI design, marketing and Android development. Uses PHP, Javascript, CSS, SCSS, MySQL, Composer, APIs,
+  / Android, JQuery etc.
+  {% endcomment %}
+
+2015 &ndash; 2017
+: - **Senior Developer; Team Lead; Functional Lead**
   - _[Powershop](https://powershop.co.nz)_
   - Wellington, New Zealand
 
-  Senior software developer for public-facing and in-house software products
-  for the electricity market, to engage customers and improve their customer experience.
-  Operating in New Zealand and Australia.
+  Senior software developer, team lead, and then functional lead for public-facing and in-house software products
+  for the electricity market.
+  Operating in New Zealand, Australia, and the UK; later rebranded to Flux Federation.
+
   {% comment %}
   Using Ruby on Rails, Javascript, React, SCSS etc.
   {% endcomment %}
@@ -18,27 +35,13 @@
   - Wellington, New Zealand
 
   Full-stack software developer for a number of projects, such as the Environment Canterbury
-  _[Journey Planner](http://metroinfo.co.nz/journeyplanner/index.html?region=christchurch)_
+  _[Journey Planner](http://metroinfo.co.nz/journeyplanner/index.html?region=christchurch)_,
   for their bus network;
   Android applications; the Retail NZ website; and various smaller projects.
+
   {% comment %}
   Introduced using wikis for sharing knowledge within the company.
   Using EmberJS, Ruby on Rails, Javascript, Coffeescript, JQuery, Grunt, HAML, SCSS, PostgreSQL, Mocha, Android, Cordova etc.
-  {% endcomment %}
-
-2013 &ndash;
-: - **Founder**
-  - _[CryptFolio](https://cryptfolio.com)_
-  - Wellington, New Zealand
-
-  The primary designer, developer and maintainer of open source software and tools used
-  to track cryptocurrencies, such as Bitcoin and Litecoin. This software is also used
-  by my commercial startup
-  _CryptFolio._
-  {% comment %}
-  / This involves software/web engineering, system administration, database replication,
-  / project management, UI design, marketing and Android development. Uses PHP, Javascript, CSS, SCSS, MySQL, Composer, APIs,
-  / Android, JQuery etc.
   {% endcomment %}
 
 2011 &ndash; 2014
@@ -47,8 +50,9 @@
       Massey University
   - Palmerston North, New Zealand
 
-  Worked as a self-employed contractor on a World Bank-funded project, helping researchers
-  in seven South Asia countries communicate and collaborate on epidemiology research.
+  Lead developer on a World Bank-funded project, helping researchers
+  in seven South Asia countries communicate and collaborate on epidemiology research, using two custom web platforms (based on Alfresco and Drupal).
+
   {% comment %}
   As the primary developer, I developed extensions,
   performed upgrades, fixed OSS bugs and interfaced with field hardware.
@@ -63,9 +67,8 @@
       Canterbury University
   - Christchurch, New Zealand
 
-  Visited Christchurch every week to teach
-  _COSC415 Information & Software Visualisation_
-  as the sole lecturer for a class of eight students.
+  The sole lecturer for a class of eight students, teaching
+  _COSC415 Information & Software Visualisation_.
   {% comment %}
   This involved writing notes & tests, teaching, tutoring and marking.
   Used a variety of information visualisation tools, VRML, X3D, LaTeX.
