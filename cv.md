@@ -42,8 +42,9 @@ permalink: /cv
   {% capture temp %}{% include cv/community.md %}{% endcapture %}
   {{ temp | markdownify }}
 </section>
-<section class="references">
-  {% capture temp %}{% include cv/references.md %}{% endcapture %}
-  {{ temp | markdownify }}
-</section>
-
+{%- if jekyll.environment != 'production' -%}
+  <section class="references">
+    {% capture temp %}{% include cv/references.md %}{% endcapture %}
+    {{ temp | markdownify }}
+  </section>
+{% endif %}

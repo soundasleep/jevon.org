@@ -3,7 +3,9 @@
 Name
 : Dr Jevon Wright
 
-{% include cv/address.md %}
+{%- if jekyll.environment != 'production' -%}
+  {% include cv/address.md %}
+{% endif %}
 
 Email
 : [jevon@jevon.org](mailto:jevon@jevon.org)
