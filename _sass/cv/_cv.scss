@@ -1,0 +1,160 @@
+.title {
+  text-align: center;
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    margin-top: 5px;
+  }
+
+  @media print {
+    margin-top: 20px;
+  }
+}
+
+.section {
+  clear: both;
+
+  h2, dl, dt, dd, td, ul, li {
+    line-height: 140%;
+  }
+
+  &.history {
+    $history-ratio: 0.75;
+
+    dt {
+      width: $term-width * $history-ratio;
+    }
+    dd {
+      width: (100% - ($term-width * $history-ratio)) * 0.95;
+    }
+  }
+
+  dd {
+    p {
+      margin: 5px 0;
+    }
+  }
+}
+
+.private {
+  background: #fee;
+
+  @media print {
+    background: default;
+  }
+}
+
+h2 {
+  font-size: 120%;
+  margin-top: 15px;
+}
+
+dl {
+  width: 100%;
+
+  dt, dd {
+    margin: 0;
+    padding: 3px 0;
+  }
+
+  dt {
+    width: $term-width;
+    display: inline-block;
+    clear: both;
+    text-align: right;
+    vertical-align: top;
+
+    @media all and (max-width: $tablet) {
+      width: $term-width-mobile;
+    }
+  }
+
+  dd {
+    width: (100% - $term-width) * 0.95;
+    display: inline-block;
+    border-left: thin solid #999;
+    margin-left: 10px;
+    padding-left: 10px;
+
+    @media all and (max-width: $tablet) {
+      width: (100% - $term-width-mobile) * 0.90;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        text-indent: -20px;
+        padding-left: 20px;
+      }
+    }
+
+    p {
+      clear: both;
+      text-align: justify;
+    }
+  }
+}
+
+table {
+  width: 100%;
+  td {
+    width: 50%;
+    padding-bottom: 20px;
+    vertical-align: top;
+  }
+}
+
+section.skills {
+  .key-skills {
+    margin: 0 20px;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  }
+
+  ul {
+    li:first-child {
+      margin-top: 0;
+    }
+    li {
+      margin: 3px 0;
+    }
+  }
+}
+
+section.history {
+  ul {
+    text-align: right;
+    margin-top: -3px;
+  }
+}
+
+section.references {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.float-right {
+  text-align: right;
+}
+
+.small {
+  font-size: 90%;
+}
+
+.page-break-after {
+  page-break-after: always;
+}
+

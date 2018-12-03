@@ -1,0 +1,20 @@
+---
+# No parent layout
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include cv/head.html -%}
+
+  <body>
+
+    {%- include cv/navigation.html -%}
+
+    <div class="content">
+      {{ content }}
+    </div>
+
+  </body>
+
+</html>

@@ -1,3 +1,7 @@
 _site
 .sass-cache
 .jekyll-metadata
+
+# private data!
+_includes/cv/references.md
+_includes/cv/address.md

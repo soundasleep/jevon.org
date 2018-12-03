@@ -1,0 +1,25 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@viewport{
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+@-ms-viewport{
+  width: extend-to-zoom;
+  zoom: 1.0;
+}
+
+// level 0
+@import "cv/variables";
+
+// level 1
+@import "cv/reset";
+
+// level 2
+@import "cv/layout";
+@import "cv/links";
+
+// level 3
+@import "cv/cv";
