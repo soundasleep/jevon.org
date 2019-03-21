@@ -9,6 +9,7 @@ Source code for https://jevon.org in [Jekyll](https://jekyllrb.com/).
 ## Running locally
 
 ```
+bundle install
 bundle exec jekyll serve
 ```
 
@@ -17,4 +18,4 @@ And then visit http://localhost:4000.
 ## Developing
 
 If hosted on GitHub pages, you can't import anything from `node_modules`, so there's no point in having
-a `package.json`.
+a `package.json` (unless you compile `bundle.{js,css}` first on travis-ci etc).
