@@ -23,14 +23,10 @@ gem "jekyll-coffeescript"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
 	# NOTE Github Pages only supports a whitelist of plugins here:
-	# https://github.com/github/pages-gem/blob/bd1018072aab370ddf63aa9c3938867e2133ac80/lib/github-pages/configuration.rb#L15
+	# https://github.com/github/pages-gem/blob/master/lib/github-pages/plugins.rb
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-relative-links"
-
-  # Not whitelisted
-  group :development do
-    gem "jekyll-reload"
-  end
+  gem "jekyll-redirect-from"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

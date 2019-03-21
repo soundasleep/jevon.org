@@ -8,7 +8,7 @@ tags:   [Protected]
 
 <table class="home-table"><tr valign="top"><td class="left-bar">Hello!
 
-My name's [Jevon Wright](jevon-wright.md) and I'm the creator of <a href="http://cryptfolio.com">CryptFolio</a>, the [Journals](journals.md), the [Lyrics Wiki](link-music.md) and many other things. This is my home page! ;)
+My name's [Jevon Wright](jevon-wright.md) and I'm the creator of <a href="http://cryptfolio.com">CryptFolio</a>, the [Journals](journals.md), the [Lyrics Wiki](link-music.md) and many other things. This is my home page! ;) ;)
 
 I'm passionate about software engineering, open source, gender studies, cryptocurrencies, computer gaming and music. Recently completed my [PhD in Computer Science](research.md), and am now the founder of <a href="https://cryptfolio.com">CryptFolio</a> and a team leader at <a href="http://www.powershop.com">Powershop</a>. Drummer for <a href="http://www.breaklikewaves.com">Break Like Waves</a> and living in <a href="http://www.wellingtonnz.com/">Wellington</a>. Contact me at jevon@jevon.org and use my [Public Key](public-key.md).
 

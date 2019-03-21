@@ -2,6 +2,6 @@ _site
 .sass-cache
 .jekyll-metadata
 
-# private data!
+# private data! not available on production
 _includes/cv/references.md
 _includes/cv/address.md

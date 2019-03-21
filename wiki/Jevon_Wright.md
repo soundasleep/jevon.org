@@ -4,6 +4,9 @@ title:  "Jevon Wright"
 author: jevon
 date:   2015-11-15 09:56:47 +1300
 tags:   [Protected]
+redirect_from:
+  - /wiki/contact
+  - /wiki/Contact
 ---
 
 Hey, that's me ^_^
