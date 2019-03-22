@@ -1,13 +1,15 @@
 ---
 layout: page
-title:  "Genderqueer/What is"
+title:  Genderqueer/What is
 author: jevon
-date:   2013-06-08 07:21:30 +1200
-tags:   [Genderqueer, Gender]
+date:   2013-06-08 07:21:30 +12:00
+tags:
+  - Genderqueer
+  - Gender
 ---
 
 {% include genderqueer-heading.md %}
-To me, _*[Genderqueer](genderqueer.md)* is an umbrella term that a person may use to label or identify themselves as someone who does not conform to the _genders_ defined by their culture._ But to first understand genderqueer, one first needs to understand _gender_, and how it differs from _sex_ and _sexuality_.
+To me, _*[Genderqueer](Genderqueer.md)* is an umbrella term that a person may use to label or identify themselves as someone who does not conform to the _genders_ defined by their culture._ But to first understand genderqueer, one first needs to understand _gender_, and how it differs from _sex_ and _sexuality_.
 
 ## Sex and Sexuality
 *Sexuality* is a pretty easy one. Someone's _gender_ does not necessarily define who they are _sexually_ attracted to. While Western society prefers heterosexuality on one's gender, and in many places it is still illegal to break this preference -- i.e. male-gendered people should be attracted to female-gendered people -- a male-gendered person may identify as gay and be attracted to other male-gendered people.

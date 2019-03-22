@@ -1,14 +1,15 @@
 ---
 layout: page
-title:  "Incompatible List can't be Unboxed in LaTeX"
+title:  Incompatible List can't be Unboxed in LaTeX
 author: jevon
-date:   2011-10-13 16:06:52 +1300
-tags:   [LaTeX]
+date:   2011-10-13 16:06:52 +13:00
+tags:
+  - LaTeX
 ---
 
-[LaTeX](latex.md)
+[LaTeX](Latex.md)
 
-I was getting the following error from [LaTeX](latex.md):
+I was getting the following error from [LaTeX](Latex.md):
 
 ```
 ! Incompatible list can't be unboxed.

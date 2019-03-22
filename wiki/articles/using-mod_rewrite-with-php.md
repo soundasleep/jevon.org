@@ -1,14 +1,19 @@
 ---
 layout: page
-title:  "Articles/Using mod_rewrite With PHP"
+title:  Articles/Using mod_rewrite With PHP
 author: jevon
-date:   2013-01-07 01:22:59 +1300
-tags:   [Article, Apache, PHP]
+date:   2013-01-07 01:22:59 +13:00
+tags:
+  - Article
+  - Apache
+  - PHP
+redirect_from:
+  - "/wiki/articles/using-mod rewrite-with-php"
 ---
 
-[Articles](articles.md)
+[Articles](Articles.md)
 
-After a LOT of trial and error, I've come to a few conclusions about using <a href="http://httpd.apache.org/docs-2.0/mod/mod_rewrite.html">mod_rewrite</a> with [PHP](php.md):
+After a LOT of trial and error, I've come to a few conclusions about using <a href="http://httpd.apache.org/docs-2.0/mod/mod_rewrite.html">mod_rewrite</a> with [PHP](PHP.md):
 
 1. If you have a folder /foo/, you can't have both /foo/index.php and /foo/Rewrite very easily. It makes it much easier if you have /foo/Rewrite and /f/index.php. (Source: <a href="http://meta.wikimedia.org/wiki/Rewrite_Rules">Wikimedia</a>)
 

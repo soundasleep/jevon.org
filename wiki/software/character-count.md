@@ -1,12 +1,13 @@
 ---
 layout: page
-title:  "Software/Character Count"
+title:  Software/Character Count
 author: jevon
-date:   2007-08-14 13:18:07 +1200
-tags:   [Software]
+date:   2007-08-14 13:18:07 +12:00
+tags:
+  - Software
 ---
 
-[My Software](software.md)
+[My Software](Software.md)
 
 ## Description
 Character Count is a very simple and small program that, quite simply, counts the number of characters and words in any text that you enter in. (That's about it, really. :D)

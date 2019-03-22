@@ -1,12 +1,13 @@
 ---
 layout: page
-title:  "Software/Clipboard Set"
+title:  Software/Clipboard Set
 author: jevon
-date:   2007-08-14 13:18:25 +1200
-tags:   [Software]
+date:   2007-08-14 13:18:25 +12:00
+tags:
+  - Software
 ---
 
-[My Software](software.md)
+[My Software](Software.md)
 
 ## Description
 This simple program copies the command line arguments to the system clipboard.

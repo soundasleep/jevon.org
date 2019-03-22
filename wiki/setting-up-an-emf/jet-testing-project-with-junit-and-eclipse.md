@@ -1,14 +1,18 @@
 ---
 layout: page
-title:  "Setting up an EMF/JET testing project with JUnit and Eclipse"
+title:  Setting up an EMF/JET testing project with JUnit and Eclipse
 author: jevon
-date:   2008-10-17 08:29:17 +1300
-tags:   [Article, Technology, GMF, EMF]
+date:   2008-10-17 08:29:17 +13:00
+tags:
+  - Article
+  - Technology
+  - GMF
+  - EMF
 ---
 
-[GMF Code Samples](gmf-code-samples.md) / [GMF](gmf.md) / [EMF](emf.md)
+[GMF Code Samples](GMF_Code_Samples.md) / [GMF](GMF.md) / [EMF](EMF.md)
 
-So the idea of this article is to set up an environment where you can test a [JET](jet.md) plugin in terms of its [```
+So the idea of this article is to set up an environment where you can test a [JET](JET.md) plugin in terms of its [```
 ] from an [[EMF]] model, using [[JUnit]] so it is easy to test the output.
 
 # Get a [[JET]] plugin working through Eclipse and making it possible to run it in a runtime application (''org.openiaml.test.uml3.generate.ejet''). {{ "{{" }}tag-todo|link to actual project}}

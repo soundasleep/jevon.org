@@ -1,9 +1,9 @@
 ---
 layout: page
-title:  "Old Content/Ponk List"
+title:  Old Content/Ponk List
 author: jevon
-date:   2008-07-02 13:06:26 +1200
-tags:   []
+date:   2008-07-02 13:06:26 +12:00
+tags: []
 ---
 
 {% include old-content-header.md date="5 November 2003" %}

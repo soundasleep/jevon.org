@@ -1,0 +1,42 @@
+---
+layout: page
+title:  Home
+author: jevon
+date:   2016-06-06 23:22:40 +12:00
+tags:
+  - Protected
+---
+
+<table class="home-table"><tr valign="top"><td class="left-bar">Hello!
+
+My name's [Jevon Wright](Jevon_Wright.md) and I'm the creator of <a href="http://cryptfolio.com">CryptFolio</a>, the [Journals](Journals.md), the [Lyrics Wiki](link-music.md) and many other things. This is my home page! ;) ;)
+
+I'm passionate about software engineering, open source, gender studies, cryptocurrencies, computer gaming and music. Recently completed my [PhD in Computer Science](Research.md), and am now the founder of <a href="https://cryptfolio.com">CryptFolio</a> and a team leader at <a href="http://www.powershop.com">Powershop</a>. Drummer for <a href="http://www.breaklikewaves.com">Break Like Waves</a> and living in <a href="http://www.wellingtonnz.com/">Wellington</a>. Contact me at jevon@jevon.org and use my [Public Key](Public_Key.md).
+
+<a href="http://www.last.fm/user/jdub_dub"><img src="http://imagegen.last.fm/sideRed/artists/jdub_dub.gif" border="0" alt="jdub_dub's Last.fm Weekly Artists Chart" /></a>
+
+<a href='https://www.ohloh.net/accounts/24901?ref=Detailed'><img alt='Ohloh profile for jevon' src='https://www.ohloh.net/accounts/24901/widgets/account_detailed.gif' /></a>
+</td><td class="right-bar">
+[widget user=jevon id=570]<span class="ipv6"><a href="http://ipv6-test.com/validate.php?url=referer"><img src="http://ipv6-test.com/button-ipv6-80x15.png" alt="IPv6 ready" border="0"></a></span>
+* [About Me](Jevon_Wright.md)
+* [user=jevon] - my journal [widget user=jevon id=457]
+* [Research](Research.md)
+* [My Software](Software.md)
+* [Articles](Articles.md)
+* [GPG Public Key](Public_Key.md)
+* [Downloads](Downloads.md)
+
+* [Link:Journals](link-journals.md) - free online journals for anybody
+* [Link:Music](link-music.md) - online music wiki
+
+### My Activity
+<div class="social-media"><a href="http://www.last.fm/user/jdub_dub" title="My last.fm profile">jdub_dub</a>
+<a href="http://twitter.com/soundasleep" title="My Twitter account">@soundasleep</a>
+<a href="http://www.linkedin.com/in/jevonwright" title="My LinkedIn profile">LinkedIn</a>
+<a href="http://www.delicious.com/jevonwright/" title="My Delicious bookmarks">jevonwright</a>
+<a href="https://www.ohloh.net/accounts/jevon" title="My Ohloh profile">jevon</a>
+<a href="https://github.com/soundasleep" title="My GitHub profile">soundasleep</a></div>
+
+### Friends
+* <a href="http://www.jngaio.com">Jessie Ngaio</a>
+</td></tr></table>

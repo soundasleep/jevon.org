@@ -1,12 +1,13 @@
 ---
 layout: page
-title:  "Setting up Master/Slave Replication from an existing MySQL server"
+title:  Setting up Master/Slave Replication from an existing MySQL server
 author: jevon
-date:   2014-09-29 22:06:44 +1300
-tags:   [MySQL]
+date:   2014-09-29 22:06:44 +13:00
+tags:
+  - MySQL
 ---
 
-[MySQL](mysql.md)
+[MySQL](MySQL.md)
 
 1. <a href="http://firelitdesign.blogspot.co.nz/2011/04/how-to-fix-mysql-replication-error-1236.html">Got fatal error 1236: 'Client requested master to start replication from impossible position'</a>
 

@@ -1,12 +1,13 @@
 ---
 layout: page
-title:  "Software/Font Selector"
+title:  Software/Font Selector
 author: jevon
-date:   2007-08-14 13:18:06 +1200
-tags:   [Software]
+date:   2007-08-14 13:18:06 +12:00
+tags:
+  - Software
 ---
 
-[My Software](software.md)
+[My Software](Software.md)
 
 ## Description
 "Font Selector" is a simple program that lists all the fonts available on your system, and lets you select any font. It shows a font preview, and lets you select a number of modifications. It's meant for HTML work, allowing you to select a font, a size, and any number of bold/italic/underline attributes.

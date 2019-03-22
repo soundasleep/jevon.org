@@ -1,9 +1,9 @@
 ---
 layout: page
-title:  "Custom/Meta/Home"
+title:  Custom/Meta/Home
 author: jevon
-date:   2013-01-07 02:31:35 +1300
-tags:   []
+date:   2013-01-07 02:31:35 +13:00
+tags: []
 ---
 
 <meta name="geo.position" content="174.775679,-41.293382"><!-- http://www.a2b.cc/help-searching-addurl-metatags.a2b: position from google earth -->
