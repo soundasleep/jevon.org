@@ -9,7 +9,7 @@ redirect_from:
   - "/wiki/Adding UML Guillemots in Latex"
 ---
 
-[Latex](Latex.md){% include gmf-CSS.md %}
+[Latex](Latex.md){% include gmf-css.md %}
 
 ## Within Text
 <img src="/img/gmf/minted-1.png" class="gmf">

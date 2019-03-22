@@ -10,7 +10,7 @@ redirect_from:
   - "/wiki/Having Multiple Containments of the Same Domain Element in GMF"
 ---
 
-{% include gmf-CSS.md %}[GMF](GMF.md)
+{% include gmf-css.md %}[GMF](GMF.md)
 
 I wanted to be able to specify an [Ecore](Ecore.md) language that would allow me to specify the following:
 
@@ -36,7 +36,7 @@ at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalComman
 ...
 ```
 
-Following a discussion on the GMF mailing list, the problem seems to be that in this case, GMF does not have the necessary [OCL](OCL.md) constraints in order to select which type of Event to display. 
+Following a discussion on the GMF mailing list, the problem seems to be that in this case, GMF does not have the necessary [OCL](OCL.md) constraints in order to select which type of Event to display.
 
 However, until <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=256461">Eclipse bug 256461</a> is resolved, you cannot add an OCL constraint like the following:
 

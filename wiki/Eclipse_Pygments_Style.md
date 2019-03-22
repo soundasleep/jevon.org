@@ -15,7 +15,7 @@ redirect_from:
 
 {% include template-pygments-styles.md %}
 
-{% include gmf-CSS.md %}<a href="http://pygments.org/docs/styles/">Pygments</a> is a [Python](Python.md)-based colour syntax highlighter, which can also be connected via <a href="http://tug.ctan.org/tex-archive/macros/latex/contrib/minted/">Minted</a> to perform colour syntax highlighting for [Latex](Latex.md). I wanted a style similar to the [Eclipse](Eclipse.md) style:
+{% include gmf-css.md %}<a href="http://pygments.org/docs/styles/">Pygments</a> is a [Python](Python.md)-based colour syntax highlighter, which can also be connected via <a href="http://tug.ctan.org/tex-archive/macros/latex/contrib/minted/">Minted</a> to perform colour syntax highlighting for [Latex](Latex.md). I wanted a style similar to the [Eclipse](Eclipse.md) style:
 
 <img src="/img/gmf/pygmentize.png" class="gmf-left">
 

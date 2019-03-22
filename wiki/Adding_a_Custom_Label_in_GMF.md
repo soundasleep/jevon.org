@@ -12,9 +12,9 @@ redirect_from:
 
 [GMF](GMF.md) > [GMF Code Samples](GMF_Code_Samples.md)
 
-{% include gmf-CSS.md %}<img src="/img/gmf/custom-label-3.png" class="gmf">It's not too difficult to directly add a custom label to your [GMF](GMF.md) editor (as pictured to the right). 
+{% include gmf-css.md %}<img src="/img/gmf/custom-label-3.png" class="gmf">It's not too difficult to directly add a custom label to your [GMF](GMF.md) editor (as pictured to the right).
 
-In the _.gmfgraph_ > _Figure Descriptor_ for your given element node, add a new _Label_ for your new label, along with a _Child Access_. Also add this new Label to the root. If you don't want the editor to render an icon (as shown above), disable this here. 
+In the _.gmfgraph_ > _Figure Descriptor_ for your given element node, add a new _Label_ for your new label, along with a _Child Access_. Also add this new Label to the root. If you don't want the editor to render an icon (as shown above), disable this here.
 
 Then, in your _.gmfmap_, add a new _Label Mapping_ for this new Label, and set Read Only to true (unless you want the label to actually be editable).
 

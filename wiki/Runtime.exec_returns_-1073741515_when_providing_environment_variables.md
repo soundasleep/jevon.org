@@ -17,7 +17,7 @@ After a bit of digging, it turns out that the <a href="http://social.msdn.micros
 
 Using <a href="http://technet.microsoft.com/en-us/sysinternals/bb896645">Process Monitor</a>, I added a filter to check for the target `.exe` and found that it was failing to load `cygwin1.dll`:
 
-{% include gmf-CSS.md %}<img src="/img/gmf/cygwin-dll.png" class="gmf-left" style="max-width: 100%;">
+{% include gmf-css.md %}<img src="/img/gmf/cygwin-dll.png" class="gmf-left" style="max-width: 100%;">
 
 The problem is that `Runtime.exec(String[], String[])` does _not_ copy over any existing environment variables, whereas `Runtime.exec(String[])` does. You therefore have to copy existing environment variables yourself:
 

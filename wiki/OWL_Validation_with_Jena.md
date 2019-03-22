@@ -12,7 +12,7 @@ redirect_from:
   - "/wiki/OWL Validation with Jena"
 ---
 
-[OWL](OWL.md), [Jena](Jena.md), [Protege](Protege.md), [Semantic Web](semantic-web.md){% include gmf-CSS.md %}{% include tag-Todo.md comment="join the code together into one block" %}
+[OWL](OWL.md), [Jena](Jena.md), [Protege](Protege.md), [Semantic Web](semantic-web.md){% include gmf-css.md %}{% include tag-todo.md comment="join the code together into one block" %}
 
 If we have an [OWL](OWL.md) model in **source.owl**, we can use [Protege](Protege.md) to extend instances of classes in this model like so:
 

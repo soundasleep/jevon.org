@@ -40,7 +40,7 @@ For more information on activating shortcuts in GMF and what they can achieve, c
 1. [Using Platform Resources as EReferences in GMF](using-platform-resources-as-ereferences-in-GMF.md)
 1. [Putting Generated GMF Diagram Editors into a New Category](Putting_Generated_GMF_Diagram_Editors_into_a_New_Category.md)
 
-{% include tag-Todo.md comment="export example" %}
+{% include tag-todo.md comment="export example" %}
 
 ## Automatically refresh a GMF EditPart
 Here is some code which will automatically refresh all the nodes and connections visible in a given GMF [EditPart](editpart.md).
@@ -48,7 +48,7 @@ Here is some code which will automatically refresh all the nodes and connections
 1. http://iaml.svn.sourceforge.net/viewvc/iaml/trunk/examples/gmf/RefreshElementCommand.java?view=markup
 
 ## Create Missing Shortcuts for a View
-{% include gmf-CSS.md %}<img src="/img/gmf/shortcuts-1.png" class="gmf">If you would like to automatically create shortcuts for a given EditPart, such as to the images on the right, you can use the code provided below.
+{% include gmf-css.md %}<img src="/img/gmf/shortcuts-1.png" class="gmf">If you would like to automatically create shortcuts for a given EditPart, such as to the images on the right, you can use the code provided below.
 
 1. http://iaml.svn.sourceforge.net/viewvc/iaml/trunk/examples/gmf/CreateMissingShortcutsAction.java?view=markup
 1. http://iaml.svn.sourceforge.net/viewvc/iaml/trunk/examples/gmf/CreateMissingShortcutsCommand.java?view=markup
@@ -110,4 +110,4 @@ As an extension to the code sample above. This code isn't complete; it will happ
 The code that is particularly interesting is:
 `if (part instanceof LinkComponentEditPart) { ... }`
 
-{% include tag-Todo.md comment="point to actual SVN project code" %}
+{% include tag-todo.md comment="point to actual SVN project code" %}

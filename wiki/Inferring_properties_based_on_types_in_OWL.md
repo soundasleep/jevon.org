@@ -13,7 +13,7 @@ redirect_from:
 
 [OWL](OWL.md), [Pellet](Pellet.md), [Jena](Jena.md)
 
-Consider that your ontology is structured similar to the following:{% include gmf-CSS.md %}
+Consider that your ontology is structured similar to the following:{% include gmf-css.md %}
 
 <img src="/img/gmf/owl-chains1.png" class="gmf-left">
 
@@ -39,7 +39,7 @@ Finally, we define an "eventToPage" property, which is all "outEdges" that conne
 
 <img src="/img/gmf/owl-chains-protege3.png" class="gmf-left">
 
-To check that instances of this is actually being created, you can <a href="http://lists.owldl.com/pipermail/pellet-users/2009-October/004027.html">query the Jena API</a> like so: (More code forthcoming.) {% include tag-Todo.md comment="add actual Jena code in SVN somewhere" %}
+To check that instances of this is actually being created, you can <a href="http://lists.owldl.com/pipermail/pellet-users/2009-October/004027.html">query the Jena API</a> like so: (More code forthcoming.) {% include tag-todo.md comment="add actual Jena code in SVN somewhere" %}
 
 ```
 OntModel schema = ModelFactory.createOntologyModel( PelletReasonerFactory.THE_SPEC );

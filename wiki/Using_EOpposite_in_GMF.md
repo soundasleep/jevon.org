@@ -14,7 +14,7 @@ redirect_from:
 
 [GMF](GMF.md) / [EMF](EMF.md) / [Ecore](Ecore.md)
 
-{% include gmf-CSS.md %}<img src="/img/gmf/eopposite-4.png" class="gmf">By using the "EOpposite" feature, you can have models instead of:
+{% include gmf-css.md %}<img src="/img/gmf/eopposite-4.png" class="gmf">By using the "EOpposite" feature, you can have models instead of:
 ```
 - Page A
   - Link Z to: Page B

@@ -12,7 +12,7 @@ redirect_from:
 
 [Articles](Articles.md) > [Latex](Latex.md)
 
-{% include gmf-CSS.md %}<img src="/img/gmf/latex-frame.png" class="gmf">I wanted to have a frame with a label in [Latex](Latex.md), as in the image to the right.
+{% include gmf-css.md %}<img src="/img/gmf/latex-frame.png" class="gmf">I wanted to have a frame with a label in [Latex](Latex.md), as in the image to the right.
 
 One solution provided by the <a href="http://ctan.tug.org/tex-archive/info/visualFAQ/visualFAQ.pdf">VisualFAQ</a> is to use the fancy verbatim class:
 
@@ -26,12 +26,12 @@ I found the solution was the following [Latex](Latex.md):
 \begin{figure}[htb]
 \centering
   \begin{tabular}{@{}lllr@{}}
-    
+
   & \multirow{2}{*}{Internet Application 'root'} & & \\
   \cline{1-1} \cline{3-4}
   \vline & & & \vline \\
   \vline & \multicolumn{2}{c}{\includegraphics[width=80mm]{models/Source.ps}} & \vline \\
-    
+
   \hline
   \end{tabular}
   \caption{Figure Caption}
@@ -54,7 +54,7 @@ I also wanted to change the font of the label to a sans-serif font through **\sf
 \begin{figure}[htb]
 \centering
   \begin{tabular}{@{}lllr@{}}
-    
+
   & \multirow{2}{*}{\color{gray}\sffamily Internet Application 'root'} & & \\
   \arrayrulecolor{gray}
   \cline{1-1} \cline{3-4}
@@ -62,7 +62,7 @@ I also wanted to change the font of the label to a sans-serif font through **\sf
   {\color{gray}\vline} & & & {\color{gray}\vline} \\
   \arrayrulecolor{gray}
   {\color{gray}\vline} & \multicolumn{2}{c}{\includegraphics[width=80mm]{models/Source.ps}} & {\color{gray}\vline} \\
-    
+
   \hline
   \end{tabular}
   \caption{Figure Caption}

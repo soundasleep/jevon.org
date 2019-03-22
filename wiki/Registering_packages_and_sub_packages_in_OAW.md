@@ -17,7 +17,7 @@ redirect_from:
 I was having troubles with trying to register a metamodel in OAW; in particular,
 1. My saved model files did not have the <a href="http://www.openarchitectureware.org/forum/print.php?id=9122">_xsi:<!-- -->schemaLocation_ attribute set</a>, so OAW couldn't find it in them
 1. I wanted to use an external .ecore file to specify the metamodel
-1. My .ecore consisted of multiple sub packages {% include tag-Todo.md comment="add link from 'my ecore file' to a pretty visual representation of the IAML ecore file" %}
+1. My .ecore consisted of multiple sub packages {% include tag-todo.md comment="add link from 'my ecore file' to a pretty visual representation of the IAML ecore file" %}
 1. Ideally, I would like to have used the .ecore from a separate Eclipse plugin
 1. I was using < EMF 2.4 so I couldn't use <a href="http://www.eclipsezone.com/eclipse/forums/t107146.html">org.eclipse.emf.ecore.dynamic_package</a>
 

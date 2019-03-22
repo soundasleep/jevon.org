@@ -11,7 +11,7 @@ redirect_from:
 
 [Visio](Visio.md)
 
-{% include gmf-CSS.md %}It is not too difficult to <a href="http://office.microsoft.com/en-us/visio-help/add-a-new-fill-pattern-line-pattern-or-line-ends-pattern-HP001231262.aspx">create a new line-end shape</a> in [Visio](Visio.md). Firstly, you need to open up the _Drawing Explorer Window_:
+{% include gmf-css.md %}It is not too difficult to <a href="http://office.microsoft.com/en-us/visio-help/add-a-new-fill-pattern-line-pattern-or-line-ends-pattern-HP001231262.aspx">create a new line-end shape</a> in [Visio](Visio.md). Firstly, you need to open up the _Drawing Explorer Window_:
 
 <img src="/img/gmf/visio-1.png" class="gmf-left">
 
