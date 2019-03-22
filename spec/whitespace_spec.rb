@@ -159,20 +159,23 @@ RSpec.describe "pages with whitespace" do
 
       if false # enable to rewrite pages as a script
         it "can rewrite the whitespace options" do
-          frontmatter["redirect_from"] ||= []
-          frontmatter["redirect_from"] += alternates
-          frontmatter["redirect_from"].uniq!
+          unless alternates.empty?
+            frontmatter["redirect_from"] ||= []
+            frontmatter["redirect_from"] += alternates
+            frontmatter["redirect_from"].uniq!
 
-          pretty_frontmatter = YAML.dump(frontmatter)
-              .gsub(/\n- /i, "\n  - ")
-              .gsub(/\ntitle: /i, "\ntitle:  ") # common formatting
-              .gsub(/\ndate: /i,  "\ndate:   ")
-              .gsub(".000000000", "") # no need to have all these ms
+            pretty_frontmatter = YAML.dump(frontmatter)
+                .gsub(/\n- /i, "\n  - ")
+                .gsub(/\ntitle: /i, "\ntitle:  ") # common formatting
+                .gsub(/\ndate: /i,  "\ndate:   ")
+                .gsub(/\tags: /i,   "\tags:  ") # common formatting
+                .gsub(".000000000", "") # no need to have all these ms
 
-          content = "#{pretty_frontmatter}---\n\n#{matter}\n"
+            content = "#{pretty_frontmatter}---\n\n#{matter}\n"
 
-          File.write(file, content)
-          puts "Rewrote #{file}"
+            File.write(file, content)
+            puts "Rewrote #{file}"
+          end
         end
       end
     end

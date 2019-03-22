@@ -1,9 +1,15 @@
 ---
 layout: page
-title:  "Javascript"
+title:  Javascript
 author: jevon
-date:   2014-06-17 16:57:46 +1200
-tags:   [Languages, Programming Snippets, Technology, Javascript]
+date:   2014-06-17 16:57:46 +12:00
+tags:
+  - Languages
+  - Programming Snippets
+  - Technology
+  - Javascript
+redirect_from:
+  - "/wiki/javascript"
 ---
 
 Also see [Coffeescript](coffeescript.md).

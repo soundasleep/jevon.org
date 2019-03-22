@@ -1,9 +1,17 @@
 ---
 layout: page
-title:  "Adding properties to a model within an EmberJS router"
+title:  Adding properties to a model within an EmberJS router
 author: jevon
-date:   2014-01-21 21:00:26 +1300
-tags:   [Web Development, Javascript, EmberJS]
+date:   2014-01-21 21:00:26 +13:00
+tags:
+  - Web Development
+  - Javascript
+  - EmberJS
+redirect_from:
+  - "/wiki/adding_properties_to_a_model_within_an_emberjs_router"
+  - "/wiki/Adding Properties To A Model Within An Emberjs Router"
+  - "/wiki/adding properties to a model within an emberjs router"
+  - "/wiki/Adding_Properties_To_A_Model_Within_An_Emberjs_Router"
 ---
 
 [EmberJS](EmberJS.md)

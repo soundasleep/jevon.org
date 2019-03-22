@@ -1,9 +1,18 @@
 ---
 layout: page
-title:  "Creating a JSON callback page in a Drupal module"
+title:  Creating a JSON callback page in a Drupal module
 author: jevon
-date:   2014-04-02 14:57:51 +1300
-tags:   [Drupal, PHP, Web development, JSON]
+date:   2014-04-02 14:57:51 +13:00
+tags:
+  - Drupal
+  - PHP
+  - Web development
+  - JSON
+redirect_from:
+  - "/wiki/creating_a_json_callback_page_in_a_drupal_module"
+  - "/wiki/Creating A Json Callback Page In A Drupal Module"
+  - "/wiki/creating a json callback page in a drupal module"
+  - "/wiki/Creating_A_Json_Callback_Page_In_A_Drupal_Module"
 ---
 
 [Drupal](Drupal.md)

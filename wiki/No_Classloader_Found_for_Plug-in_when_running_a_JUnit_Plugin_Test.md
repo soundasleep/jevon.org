@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "No Classloader Found for Plug-in when running a JUnit Plugin Test"
+title:  No Classloader Found for Plug-in when running a JUnit Plugin Test
 author: jevon
-date:   2011-01-31 06:05:10 +1300
-tags:   [JUnit, Java]
+date:   2011-01-31 06:05:10 +13:00
+tags:
+  - JUnit
+  - Java
+redirect_from:
+  - "/wiki/no_classloader_found_for_plug-in_when_running_a_junit_plugin_test"
+  - "/wiki/No Classloader Found For Plug-in When Running A Junit Plugin Test"
+  - "/wiki/no classloader found for plug-in when running a junit plugin test"
+  - "/wiki/No_Classloader_Found_For_Plug-in_When_Running_A_Junit_Plugin_Test"
 ---
 
 [JUnit](junit.md) / [Eclipse](Eclipse.md)

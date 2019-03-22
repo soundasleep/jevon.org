@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Software/Font Selector"
+title:  Software/Font Selector
 author: jevon
-date:   2007-08-14 13:18:06 +1200
-tags:   [Software]
+date:   2007-08-14 13:18:06 +12:00
+tags:
+  - Software
+redirect_from:
+  - "/wiki/software/Font-selector"
 ---
 
 [My Software](software.md)

@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "Testing Mocha applications with Grunt using Jenkins"
+title:  Testing Mocha applications with Grunt using Jenkins
 author: jevon
-date:   2014-05-08 20:43:03 +1200
-tags:   [Javascript, Testing]
+date:   2014-05-08 20:43:03 +12:00
+tags:
+  - Javascript
+  - Testing
+redirect_from:
+  - "/wiki/testing_mocha_applications_with_grunt_using_jenkins"
+  - "/wiki/Testing Mocha Applications With Grunt Using Jenkins"
+  - "/wiki/testing mocha applications with grunt using jenkins"
+  - "/wiki/Testing_Mocha_Applications_With_Grunt_Using_Jenkins"
 ---
 
 [Grunt](Grunt.md) / [Jenkins](Jenkins.md) / [Mocha](Mocha.md)

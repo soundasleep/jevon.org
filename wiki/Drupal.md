@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Drupal"
+title:  Drupal
 author: jevon
-date:   2014-05-07 17:27:26 +1200
-tags:   [Drupal, PHP]
+date:   2014-05-07 17:27:26 +12:00
+tags:
+  - Drupal
+  - PHP
+redirect_from:
+  - "/wiki/drupal"
 ---
 
 [Drupal](drupal.md) is a [PHP](php.md)-based web application framework, similar to [Symfony](symfony.md) (but also wildly different and with much worse documentation).

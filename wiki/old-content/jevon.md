@@ -1,29 +1,16 @@
 ---
 layout: page
-title:  "Old Content/Jevon"
+title:  Old Content/Jevon
 author: jevon
-date:   2007-11-21 12:15:02 +1300
-tags:   [Old, Jevon]
+date:   2007-11-21 12:15:02 +13:00
+tags:
+  - Old
+  - Jevon
+redirect_from:
+  - "/wiki/old-content/Jevon"
 ---
 
-{% include old-content-header.md date="April 2004" %}
-{% include old-content-jevon.md %}
-
-# Vitals...
-**Full Name:** Jevon Wright
-**Nicknames:** Klinkon, poot, Jev's, j.dub
-**Day of Birth:** 
-**Star Sign:** Gemini
-**Gender:** Male
-**Hair:** 
-**Eyes:**
-**Height:**
-**E-mail:** support at jevon.org
-**Location:** Palmerston North, New Zealand
-	
-# Favourites...
-**Bands:** Too many... [Music:Chemical Brothers](music-chemical-brothers.md), [Music:Groove Armada](music-groove-armada.md), [Music:Evanescence](music-evanescence.md), [Music:Linkin Park](music-linkin-park.md), [Music:Sonic Mayhem](music-sonic-mayhem.md), [Music:Delerium](music-delerium.md), [Music:Nightwish](music-nightwish.md)
-**Albums:** [Music:Evanescence - Fallen](music-evanescence---fallen.md)
+fallen.md)
 **Music:** Rock, ambient, gothic. Some R&B, Hiphop, Dance, Breakbeat, D&B. NOT popular!
 **Food:** None
 **Fast Food:** Burger King

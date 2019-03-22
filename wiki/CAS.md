@@ -1,9 +1,17 @@
 ---
 layout: page
-title:  "CAS"
+title:  CAS
 author: jevon
-date:   2012-01-30 09:18:07 +1300
-tags:   [CAS, Java, Tomcat, J2EE, Maven]
+date:   2012-01-30 09:18:07 +13:00
+tags:
+  - CAS
+  - Java
+  - Tomcat
+  - J2EE
+  - Maven
+redirect_from:
+  - "/wiki/cas"
+  - "/wiki/Cas"
 ---
 
 [CAS](cas.md) is a [Java](java.md)/[Tomcat](tomcat.md)-based single sign on ([SSO](sso.md)) project that can integrate with [Drupal](drupal.md), [Liferay](liferay.md), [LDAP](ldap.md) and lots more, but unfortunately requires [Maven](maven.md) to configure and build.

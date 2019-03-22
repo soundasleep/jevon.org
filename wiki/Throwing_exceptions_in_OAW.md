@@ -1,9 +1,17 @@
 ---
 layout: page
-title:  "Throwing exceptions in OAW"
+title:  Throwing exceptions in OAW
 author: jevon
-date:   2010-03-10 11:44:03 +1300
-tags:   [OAW, Code samples, Technology]
+date:   2010-03-10 11:44:03 +13:00
+tags:
+  - OAW
+  - Code samples
+  - Technology
+redirect_from:
+  - "/wiki/throwing_exceptions_in_oaw"
+  - "/wiki/Throwing Exceptions In Oaw"
+  - "/wiki/throwing exceptions in oaw"
+  - "/wiki/Throwing_Exceptions_In_Oaw"
 ---
 
 [openArchitectureWare](openArchitectureWare.md)

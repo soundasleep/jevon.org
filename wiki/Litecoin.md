@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Litecoin"
+title:  Litecoin
 author: jevon
-date:   2013-05-27 05:50:59 +1200
-tags:   [Python, Cryptocurrencies]
+date:   2013-05-27 05:50:59 +12:00
+tags:
+  - Python
+  - Cryptocurrencies
+redirect_from:
+  - "/wiki/litecoin"
 ---
 
 ## Configuring Abe to work with Litecoin using [MySQL](mysql.md)

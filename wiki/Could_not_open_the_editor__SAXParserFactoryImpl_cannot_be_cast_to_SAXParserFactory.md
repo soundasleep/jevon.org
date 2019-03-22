@@ -1,9 +1,17 @@
 ---
 layout: page
-title:  "Could not open the editor: SAXParserFactoryImpl cannot be cast to SAXParserFactory"
+title:  'Could not open the editor: SAXParserFactoryImpl cannot be cast to SAXParserFactory'
 author: jevon
-date:   2009-10-08 10:45:16 +1300
-tags:   [Java, Eclipse, Troubleshooting]
+date:   2009-10-08 10:45:16 +13:00
+tags:
+  - Java
+  - Eclipse
+  - Troubleshooting
+redirect_from:
+  - "/wiki/could_not_open_the_editor__saxparserfactoryimpl_cannot_be_cast_to_saxparserfactory"
+  - "/wiki/Could Not Open The Editor  Saxparserfactoryimpl Cannot Be Cast To Saxparserfactory"
+  - "/wiki/could not open the editor  saxparserfactoryimpl cannot be cast to saxparserfactory"
+  - "/wiki/Could_Not_Open_The_Editor__Saxparserfactoryimpl_Cannot_Be_Cast_To_Saxparserfactory"
 ---
 
 [Eclipse](Eclipse.md)

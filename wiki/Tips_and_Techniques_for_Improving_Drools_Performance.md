@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "Tips and Techniques for Improving Drools Performance"
+title:  Tips and Techniques for Improving Drools Performance
 author: jevon
-date:   2010-07-12 13:53:28 +1200
-tags:   [Articles, Drools]
+date:   2010-07-12 13:53:28 +12:00
+tags:
+  - Articles
+  - Drools
+redirect_from:
+  - "/wiki/tips_and_techniques_for_improving_drools_performance"
+  - "/wiki/Tips And Techniques For Improving Drools Performance"
+  - "/wiki/tips and techniques for improving drools performance"
+  - "/wiki/Tips_And_Techniques_For_Improving_Drools_Performance"
 ---
 
 [Drools](Drools.md)

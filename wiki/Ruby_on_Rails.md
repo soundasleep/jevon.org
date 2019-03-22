@@ -1,9 +1,18 @@
 ---
 layout: page
-title:  "Ruby on Rails"
+title:  Ruby on Rails
 author: jevon
-date:   2015-06-09 21:12:08 +1200
-tags:   [Ruby, Rails, Programming, Web Development]
+date:   2015-06-09 21:12:08 +12:00
+tags:
+  - Ruby
+  - Rails
+  - Programming
+  - Web Development
+redirect_from:
+  - "/wiki/ruby_on_rails"
+  - "/wiki/Ruby On Rails"
+  - "/wiki/ruby on rails"
+  - "/wiki/Ruby_On_Rails"
 ---
 
 [Ruby](Ruby.md)

@@ -1,9 +1,17 @@
 ---
 layout: page
-title:  "Google OAuth2 with Ruby on Rails"
+title:  Google OAuth2 with Ruby on Rails
 author: jevon
-date:   2015-06-25 19:12:32 +1200
-tags:   [Ruby on Rails, Ruby, OAuth2]
+date:   2015-06-25 19:12:32 +12:00
+tags:
+  - Ruby on Rails
+  - Ruby
+  - OAuth2
+redirect_from:
+  - "/wiki/google_oauth2_with_ruby_on_rails"
+  - "/wiki/Google Oauth2 With Ruby On Rails"
+  - "/wiki/google oauth2 with ruby on rails"
+  - "/wiki/Google_Oauth2_With_Ruby_On_Rails"
 ---
 
 [Ruby on Rails](Ruby_on_Rails.md) / [OAuth2](oauth2.md)

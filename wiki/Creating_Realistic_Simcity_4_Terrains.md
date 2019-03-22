@@ -1,9 +1,15 @@
 ---
 layout: page
-title:  "Creating Realistic Simcity 4 Terrains"
+title:  Creating Realistic Simcity 4 Terrains
 author: jevon
-date:   2007-04-23 13:01:41 +1200
-tags:   [Games, Articles]
+date:   2007-04-23 13:01:41 +12:00
+tags:
+  - Games
+  - Articles
+redirect_from:
+  - "/wiki/creating_realistic_simcity_4_terrains"
+  - "/wiki/Creating Realistic Simcity 4 Terrains"
+  - "/wiki/creating realistic simcity 4 terrains"
 ---
 
 [Articles](Articles.md)

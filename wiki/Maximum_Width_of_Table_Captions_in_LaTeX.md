@@ -1,9 +1,15 @@
 ---
 layout: page
-title:  "Maximum Width of Table Captions in LaTeX"
+title:  Maximum Width of Table Captions in LaTeX
 author: jevon
-date:   2011-09-23 14:27:35 +1200
-tags:   [LaTeX]
+date:   2011-09-23 14:27:35 +12:00
+tags:
+  - LaTeX
+redirect_from:
+  - "/wiki/maximum_width_of_table_captions_in_latex"
+  - "/wiki/Maximum Width Of Table Captions In Latex"
+  - "/wiki/maximum width of table captions in latex"
+  - "/wiki/Maximum_Width_Of_Table_Captions_In_Latex"
 ---
 
 [LaTeX](Latex.md)

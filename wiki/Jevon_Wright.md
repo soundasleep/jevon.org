@@ -1,13 +1,16 @@
 ---
 layout: page
-title:  "Jevon Wright"
+title:  Jevon Wright
 author: jevon
-date:   2015-11-15 09:56:47 +1300
-tags:   [Protected]
+date:   2015-11-15 09:56:47 +13:00
+tags:
+  - Protected
 redirect_from:
-  - /wiki/contact
-  - /wiki/Contact
-  - /wiki/Jevon Wright
+  - "/wiki/contact"
+  - "/wiki/Contact"
+  - "/wiki/Jevon Wright"
+  - "/wiki/jevon_wright"
+  - "/wiki/jevon wright"
 ---
 
 Hey, that's me ^_^

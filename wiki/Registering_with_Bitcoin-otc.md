@@ -1,9 +1,17 @@
 ---
 layout: page
-title:  "Registering with Bitcoin-otc"
+title:  Registering with Bitcoin-otc
 author: jevon
-date:   2013-10-23 19:48:51 +1300
-tags:   [Bitcoin, Trust, Cryptocurrencies]
+date:   2013-10-23 19:48:51 +13:00
+tags:
+  - Bitcoin
+  - Trust
+  - Cryptocurrencies
+redirect_from:
+  - "/wiki/registering_with_bitcoin-otc"
+  - "/wiki/Registering With Bitcoin-otc"
+  - "/wiki/registering with bitcoin-otc"
+  - "/wiki/Registering_With_Bitcoin-otc"
 ---
 
 [Bitcoin](Bitcoin.md)

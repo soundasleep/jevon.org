@@ -1,9 +1,17 @@
 ---
 layout: page
-title:  "Dynamic Templates in EMF"
+title:  Dynamic Templates in EMF
 author: jevon
-date:   2010-04-16 12:35:25 +1200
-tags:   [Java, EMF, Code Snippets]
+date:   2010-04-16 12:35:25 +12:00
+tags:
+  - Java
+  - EMF
+  - Code Snippets
+redirect_from:
+  - "/wiki/dynamic_templates_in_emf"
+  - "/wiki/Dynamic Templates In Emf"
+  - "/wiki/dynamic templates in emf"
+  - "/wiki/Dynamic_Templates_In_Emf"
 ---
 
 This is the ability to use [Dynamic Templates](Dynamic_Templates.md) when generating the model generated automatically by the [EMF](EMF.md) framework. 

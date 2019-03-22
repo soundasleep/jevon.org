@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Java"
+title:  Java
 author: jevon
-date:   2013-02-17 20:40:29 +1300
-tags:   [Technology, Languages, Programming Snippets]
+date:   2013-02-17 20:40:29 +13:00
+tags:
+  - Technology
+  - Languages
+  - Programming Snippets
+redirect_from:
+  - "/wiki/java"
 ---
 
 Is a programming language. See also [Eclipse](eclipse.md), [EMF](emf.md), [JMonkeyEngine](jmonkeyengine.md).

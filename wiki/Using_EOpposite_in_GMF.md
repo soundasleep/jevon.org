@@ -1,9 +1,18 @@
 ---
 layout: page
-title:  "Using EOpposite in GMF"
+title:  Using EOpposite in GMF
 author: jevon
-date:   2009-04-07 19:15:18 +1200
-tags:   [GMF, EMF, Ecore, Technology]
+date:   2009-04-07 19:15:18 +12:00
+tags:
+  - GMF
+  - EMF
+  - Ecore
+  - Technology
+redirect_from:
+  - "/wiki/using_eopposite_in_gmf"
+  - "/wiki/Using Eopposite In Gmf"
+  - "/wiki/using eopposite in gmf"
+  - "/wiki/Using_Eopposite_In_Gmf"
 ---
 
 [GMF](GMF.md) / [EMF](EMF.md) / [Ecore](Ecore.md)

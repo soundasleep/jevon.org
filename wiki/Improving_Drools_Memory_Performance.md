@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Improving Drools Memory Performance"
+title:  Improving Drools Memory Performance
 author: jevon
-date:   2011-05-04 11:50:49 +1200
-tags:   [Drools]
+date:   2011-05-04 11:50:49 +12:00
+tags:
+  - Drools
+redirect_from:
+  - "/wiki/improving_drools_memory_performance"
+  - "/wiki/Improving Drools Memory Performance"
+  - "/wiki/improving drools memory performance"
 ---
 
 [Drools](Drools.md)

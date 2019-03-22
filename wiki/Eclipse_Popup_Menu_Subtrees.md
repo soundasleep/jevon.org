@@ -1,9 +1,15 @@
 ---
 layout: page
-title:  "Eclipse Popup Menu Subtrees"
+title:  Eclipse Popup Menu Subtrees
 author: jevon
-date:   2009-08-07 17:09:26 +1200
-tags:   [Eclipse, Code Samples]
+date:   2009-08-07 17:09:26 +12:00
+tags:
+  - Eclipse
+  - Code Samples
+redirect_from:
+  - "/wiki/eclipse_popup_menu_subtrees"
+  - "/wiki/Eclipse Popup Menu Subtrees"
+  - "/wiki/eclipse popup menu subtrees"
 ---
 
 [Eclipse](Eclipse.md)

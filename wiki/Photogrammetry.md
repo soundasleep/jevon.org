@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Photogrammetry"
+title:  Photogrammetry
 author: jevon
-date:   2016-03-27 21:51:58 +1300
-tags:   [VR, 3D, Graphics]
+date:   2016-03-27 21:51:58 +13:00
+tags:
+  - VR
+  - 3D
+  - Graphics
+redirect_from:
+  - "/wiki/photogrammetry"
 ---
 
 1. <a href="http://www.agisoft.com/features/standard-edition/">AgiSoft PhotoScan</a>

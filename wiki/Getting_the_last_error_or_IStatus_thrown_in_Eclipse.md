@@ -1,9 +1,17 @@
 ---
 layout: page
-title:  "Getting the last error or IStatus thrown in Eclipse"
+title:  Getting the last error or IStatus thrown in Eclipse
 author: jevon
-date:   2009-01-27 09:36:53 +1300
-tags:   [Code Samples, Eclipse, Java]
+date:   2009-01-27 09:36:53 +13:00
+tags:
+  - Code Samples
+  - Eclipse
+  - Java
+redirect_from:
+  - "/wiki/getting_the_last_error_or_istatus_thrown_in_eclipse"
+  - "/wiki/Getting The Last Error Or Istatus Thrown In Eclipse"
+  - "/wiki/getting the last error or istatus thrown in eclipse"
+  - "/wiki/Getting_The_Last_Error_Or_Istatus_Thrown_In_Eclipse"
 ---
 
 [Articles](Articles.md) > [Eclipse](Eclipse.md)

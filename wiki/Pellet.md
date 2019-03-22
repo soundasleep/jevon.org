@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "Pellet"
+title:  Pellet
 author: jevon
-date:   2009-10-15 10:57:24 +1300
-tags:   [Java, Semantic Web, Reasoners, Logic, OWL]
+date:   2009-10-15 10:57:24 +13:00
+tags:
+  - Java
+  - Semantic Web
+  - Reasoners
+  - Logic
+  - OWL
+redirect_from:
+  - "/wiki/pellet"
 ---
 
 See also [OWL](owl.md), [Jena](jena.md).

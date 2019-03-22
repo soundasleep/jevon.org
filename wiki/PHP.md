@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "PHP"
+title:  PHP
 author: jevon
-date:   2014-04-17 17:56:52 +1200
-tags:   [Technology, Languages, PHP, Programming Snippets]
+date:   2014-04-17 17:56:52 +12:00
+tags:
+  - Technology
+  - Languages
+  - PHP
+  - Programming Snippets
+redirect_from:
+  - "/wiki/php"
+  - "/wiki/Php"
 ---
 
 [Articles](articles.md)

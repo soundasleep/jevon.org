@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Caroline's Beef Goulash"
+title:  Caroline's Beef Goulash
 author: jevon
-date:   2007-09-14 11:41:59 +1200
-tags:   [Recipes]
+date:   2007-09-14 11:41:59 +12:00
+tags:
+  - Recipes
+redirect_from:
+  - "/wiki/Caroline-s-beef-goulash"
 ---
 
 [Recipes](recipes.md)

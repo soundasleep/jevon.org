@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Android"
+title:  Android
 author: jevon
-date:   2014-03-13 20:07:58 +1300
-tags:   [Android]
+date:   2014-03-13 20:07:58 +13:00
+tags:
+  - Android
+redirect_from:
+  - "/wiki/android"
 ---
 
 [Articles](articles.md)

@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "Displaying an Eclipse MessageDialog in a Non-UI Thread"
+title:  Displaying an Eclipse MessageDialog in a Non-UI Thread
 author: jevon
-date:   2009-09-11 14:36:26 +1200
-tags:   [Eclipse, Java]
+date:   2009-09-11 14:36:26 +12:00
+tags:
+  - Eclipse
+  - Java
+redirect_from:
+  - "/wiki/displaying_an_eclipse_messagedialog_in_a_non-ui_thread"
+  - "/wiki/Displaying An Eclipse Messagedialog In A Non-ui Thread"
+  - "/wiki/displaying an eclipse messagedialog in a non-ui thread"
+  - "/wiki/Displaying_An_Eclipse_Messagedialog_In_A_Non-ui_Thread"
 ---
 
 [Eclipse](Eclipse.md)

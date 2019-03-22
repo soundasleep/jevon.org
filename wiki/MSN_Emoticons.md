@@ -1,9 +1,15 @@
 ---
 layout: page
-title:  "MSN Emoticons"
+title:  MSN Emoticons
 author: jevon
-date:   2007-05-26 12:34:27 +1200
-tags:   [Article]
+date:   2007-05-26 12:34:27 +12:00
+tags:
+  - Article
+redirect_from:
+  - "/wiki/msn_emoticons"
+  - "/wiki/Msn Emoticons"
+  - "/wiki/msn emoticons"
+  - "/wiki/Msn_Emoticons"
 ---
 
 In my spare time I create [MSN](MSN.md) emoticons. Here's a collection:

@@ -1,9 +1,15 @@
 ---
 layout: page
-title:  "ATL"
+title:  ATL
 author: jevon
-date:   2009-08-26 08:21:43 +1200
-tags:   [Java, MDE, Eclipse]
+date:   2009-08-26 08:21:43 +12:00
+tags:
+  - Java
+  - MDE
+  - Eclipse
+redirect_from:
+  - "/wiki/atl"
+  - "/wiki/Atl"
 ---
 
 [ATL](atl.md) is a model transformation language based in [Eclipse](eclipse.md) and using [EMF](emf.md)/[Ecore](ecore.md).

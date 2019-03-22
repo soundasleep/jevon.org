@@ -1,9 +1,15 @@
 ---
 layout: page
-title:  "Bower"
+title:  Bower
 author: jevon
-date:   2014-04-17 17:57:16 +1200
-tags:   [Dependencies, Git, Web development, Javascript]
+date:   2014-04-17 17:57:16 +12:00
+tags:
+  - Dependencies
+  - Git
+  - Web development
+  - Javascript
+redirect_from:
+  - "/wiki/bower"
 ---
 
 [Bower](bower.md) is a package manager, similar to [npm](npm.md) and [composer](composer.md), but seems to be more about client side stuff.

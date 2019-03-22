@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "Toshiba NB300"
+title:  Toshiba NB300
 author: jevon
-date:   2010-07-20 20:19:48 +1200
-tags:   [Hardware, Article]
+date:   2010-07-20 20:19:48 +12:00
+tags:
+  - Hardware
+  - Article
+redirect_from:
+  - "/wiki/toshiba_nb300"
+  - "/wiki/Toshiba Nb300"
+  - "/wiki/toshiba nb300"
+  - "/wiki/Toshiba_Nb300"
 ---
 
 The [Toshiba NB300](Toshiba_NB300.md) is a netbook that I just bought.

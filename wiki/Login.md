@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Login"
+title:  Login
 author: jevon
-date:   2013-02-17 20:43:53 +1300
-tags:   [Meta]
+date:   2013-02-17 20:43:53 +13:00
+tags:
+  - Meta
+redirect_from:
+  - "/wiki/login"
 ---
 
 To login, <a href="login.php">click here</a>.

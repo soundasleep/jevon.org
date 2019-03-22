@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "Adding a Custom Label in GMF"
+title:  Adding a Custom Label in GMF
 author: jevon
-date:   2009-05-06 12:18:24 +1200
-tags:   [GMF, Technology]
+date:   2009-05-06 12:18:24 +12:00
+tags:
+  - GMF
+  - Technology
+redirect_from:
+  - "/wiki/adding_a_custom_label_in_gmf"
+  - "/wiki/Adding A Custom Label In Gmf"
+  - "/wiki/adding a custom label in gmf"
+  - "/wiki/Adding_A_Custom_Label_In_Gmf"
 ---
 
 [GMF](GMF.md) > [GMF Code Samples](GMF_Code_Samples.md)

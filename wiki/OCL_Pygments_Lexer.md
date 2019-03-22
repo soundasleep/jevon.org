@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "OCL Pygments Lexer"
+title:  OCL Pygments Lexer
 author: jevon
-date:   2011-07-13 12:53:29 +1200
-tags:   [Code Snippets, Todo]
+date:   2011-07-13 12:53:29 +12:00
+tags:
+  - Code Snippets
+  - Todo
+redirect_from:
+  - "/wiki/ocl_pygments_lexer"
+  - "/wiki/Ocl Pygments Lexer"
+  - "/wiki/ocl pygments lexer"
+  - "/wiki/Ocl_Pygments_Lexer"
 ---
 
 [Python](Python.md) / [Latex](Latex.md)

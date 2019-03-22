@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "Test"
+title:  Test
 author: jevon
-date:   2015-05-05 19:19:15 +1200
-tags:   []
+date:   2015-05-05 19:19:15 +12:00
+tags: []
+redirect_from:
+  - "/wiki/test"
 ---
 
 <a href="geo:0,0?q=http://code.google.com/apis/kml/documentation/KML_Samples.kml">test</a>

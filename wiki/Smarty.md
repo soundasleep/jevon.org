@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "Smarty"
+title:  Smarty
 author: anonymous
-date:   2006-11-05 05:59:52 +1300
-tags:   []
+date:   2006-11-05 05:59:52 +13:00
+tags: []
+redirect_from:
+  - "/wiki/smarty"
 ---
 
 <table width=100% border=0 cellpadding=5>

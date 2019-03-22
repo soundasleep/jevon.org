@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "Putting Generated GMF Diagram Editors into a New Category"
+title:  Putting Generated GMF Diagram Editors into a New Category
 author: jevon
-date:   2010-04-28 15:04:16 +1200
-tags:   [GMF, Code Snippets]
+date:   2010-04-28 15:04:16 +12:00
+tags:
+  - GMF
+  - Code Snippets
+redirect_from:
+  - "/wiki/putting_generated_gmf_diagram_editors_into_a_new_category"
+  - "/wiki/Putting Generated Gmf Diagram Editors Into A New Category"
+  - "/wiki/putting generated gmf diagram editors into a new category"
+  - "/wiki/Putting_Generated_Gmf_Diagram_Editors_Into_A_New_Category"
 ---
 
 [GMF](GMF.md)

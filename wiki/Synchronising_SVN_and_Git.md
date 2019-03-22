@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "Synchronising SVN and Git"
+title:  Synchronising SVN and Git
 author: jevon
-date:   2014-08-05 17:57:48 +1200
-tags:   [Subversion, Git]
+date:   2014-08-05 17:57:48 +12:00
+tags:
+  - Subversion
+  - Git
+redirect_from:
+  - "/wiki/synchronising_svn_and_git"
+  - "/wiki/Synchronising Svn And Git"
+  - "/wiki/synchronising svn and git"
+  - "/wiki/Synchronising_Svn_And_Git"
 ---
 
 [SVN](SVN.md) / [Git](Git.md)

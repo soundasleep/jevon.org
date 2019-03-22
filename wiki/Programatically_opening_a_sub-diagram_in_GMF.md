@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "Programatically opening a sub-diagram in GMF"
+title:  Programatically opening a sub-diagram in GMF
 author: jevon
-date:   2008-11-11 06:54:36 +1300
-tags:   [GMF, Technology]
+date:   2008-11-11 06:54:36 +13:00
+tags:
+  - GMF
+  - Technology
+redirect_from:
+  - "/wiki/programatically_opening_a_sub-diagram_in_gmf"
+  - "/wiki/Programatically Opening A Sub-diagram In Gmf"
+  - "/wiki/programatically opening a sub-diagram in gmf"
+  - "/wiki/Programatically_Opening_A_Sub-diagram_In_Gmf"
 ---
 
 [GMF](GMF.md)

@@ -1,9 +1,15 @@
 ---
 layout: page
-title:  "Web Development"
+title:  Web Development
 author: jevon
-date:   2015-11-15 10:06:57 +1300
-tags:   [Internet, Web Development]
+date:   2015-11-15 10:06:57 +13:00
+tags:
+  - Internet
+  - Web Development
+redirect_from:
+  - "/wiki/web_development"
+  - "/wiki/Web Development"
+  - "/wiki/web development"
 ---
 
 A partial list of the sites that [I have worked on](Jevon_Wright.md):

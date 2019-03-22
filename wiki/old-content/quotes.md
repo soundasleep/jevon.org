@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Old Content/Quotes"
+title:  Old Content/Quotes
 author: jevon
-date:   2007-11-08 11:36:45 +1300
-tags:   [Old, Todo, Fun Stuff]
+date:   2007-11-08 11:36:45 +13:00
+tags:
+  - Old
+  - Todo
+  - Fun Stuff
+redirect_from:
+  - "/wiki/old-content/Quotes"
 ---
 
 {% include old-content-header.md %}

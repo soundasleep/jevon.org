@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "EditorConfig"
+title:  EditorConfig
 author: jevon
-date:   2015-02-22 18:38:42 +1300
-tags:   [Javascript, Programming]
+date:   2015-02-22 18:38:42 +13:00
+tags:
+  - Javascript
+  - Programming
+redirect_from:
+  - "/wiki/editorconfig"
+  - "/wiki/Editorconfig"
 ---
 
 <a href="http://editorconfig.org">EditorConfig</a> is cool.

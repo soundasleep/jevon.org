@@ -1,9 +1,17 @@
 ---
 layout: page
-title:  "Using EDataTypes in GMF"
+title:  Using EDataTypes in GMF
 author: jevon
-date:   2009-01-29 10:28:41 +1300
-tags:   [GMF, Technology, EMF]
+date:   2009-01-29 10:28:41 +13:00
+tags:
+  - GMF
+  - Technology
+  - EMF
+redirect_from:
+  - "/wiki/using_edatatypes_in_gmf"
+  - "/wiki/Using Edatatypes In Gmf"
+  - "/wiki/using edatatypes in gmf"
+  - "/wiki/Using_Edatatypes_In_Gmf"
 ---
 
 [GMF](GMF.md)

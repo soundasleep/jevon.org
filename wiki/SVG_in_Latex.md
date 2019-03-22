@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "SVG in Latex"
+title:  SVG in Latex
 author: jevon
-date:   2010-05-24 13:45:12 +1200
-tags:   [Latex, Code Snippets]
+date:   2010-05-24 13:45:12 +12:00
+tags:
+  - Latex
+  - Code Snippets
+redirect_from:
+  - "/wiki/svg_in_latex"
+  - "/wiki/Svg In Latex"
+  - "/wiki/svg in latex"
+  - "/wiki/Svg_In_Latex"
 ---
 
 [Articles](Articles.md) > [Latex](Latex.md)

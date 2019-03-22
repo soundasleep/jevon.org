@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "java.lang.LinkageError in a JUnit Plug-in Test Case with a redeployed Eclipse application"
+title:  java.lang.LinkageError in a JUnit Plug-in Test Case with a redeployed Eclipse
+  application
 author: jevon
-date:   2009-09-10 09:31:04 +1200
-tags:   [Eclipse]
+date:   2009-09-10 09:31:04 +12:00
+tags:
+  - Eclipse
+redirect_from:
+  - "/wiki/Java"
 ---
 
 [Eclipse](Eclipse.md)

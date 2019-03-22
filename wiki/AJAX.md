@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "AJAX"
+title:  AJAX
 author: jevon
-date:   2014-04-02 14:59:15 +1300
-tags:   [Technology, Javascript]
+date:   2014-04-02 14:59:15 +13:00
+tags:
+  - Technology
+  - Javascript
+redirect_from:
+  - "/wiki/ajax"
+  - "/wiki/Ajax"
 ---
 
 [AJAX](ajax.md) stands for _Asynchronous [Javascript](javascript.md) and [XML](xml.md)_.

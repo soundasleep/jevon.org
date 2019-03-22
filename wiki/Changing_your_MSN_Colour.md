@@ -1,9 +1,15 @@
 ---
 layout: page
-title:  "Changing your MSN Colour"
+title:  Changing your MSN Colour
 author: anonymous
-date:   2006-09-02 06:57:30 +1200
-tags:   [Article]
+date:   2006-09-02 06:57:30 +12:00
+tags:
+  - Article
+redirect_from:
+  - "/wiki/changing_your_msn_colour"
+  - "/wiki/Changing Your Msn Colour"
+  - "/wiki/changing your msn colour"
+  - "/wiki/Changing_Your_Msn_Colour"
 ---
 
 [Articles](Articles.md)

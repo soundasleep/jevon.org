@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Jess Pygments Lexer"
+title:  Jess Pygments Lexer
 author: jevon
-date:   2011-03-10 13:10:44 +1300
-tags:   [Code Snippets]
+date:   2011-03-10 13:10:44 +13:00
+tags:
+  - Code Snippets
+redirect_from:
+  - "/wiki/jess_pygments_lexer"
+  - "/wiki/Jess Pygments Lexer"
+  - "/wiki/jess pygments lexer"
 ---
 
 [Python](Python.md) / [Latex](Latex.md) / [Jess](Jess.md)

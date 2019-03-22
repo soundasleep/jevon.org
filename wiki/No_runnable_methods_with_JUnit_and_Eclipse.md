@@ -1,9 +1,15 @@
 ---
 layout: page
-title:  "No runnable methods with JUnit and Eclipse"
+title:  No runnable methods with JUnit and Eclipse
 author: jevon
-date:   2009-08-10 10:05:29 +1200
-tags:   [Troubleshooting]
+date:   2009-08-10 10:05:29 +12:00
+tags:
+  - Troubleshooting
+redirect_from:
+  - "/wiki/no_runnable_methods_with_junit_and_eclipse"
+  - "/wiki/No Runnable Methods With Junit And Eclipse"
+  - "/wiki/no runnable methods with junit and eclipse"
+  - "/wiki/No_Runnable_Methods_With_Junit_And_Eclipse"
 ---
 
 [Eclipse](Eclipse.md) / [JUnit](junit.md)

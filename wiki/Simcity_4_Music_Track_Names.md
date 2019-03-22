@@ -1,9 +1,15 @@
 ---
 layout: page
-title:  "Simcity 4 Music Track Names"
+title:  Simcity 4 Music Track Names
 author: jevon
-date:   2009-10-15 11:03:06 +1300
-tags:   [Article, Games]
+date:   2009-10-15 11:03:06 +13:00
+tags:
+  - Article
+  - Games
+redirect_from:
+  - "/wiki/simcity_4_music_track_names"
+  - "/wiki/Simcity 4 Music Track Names"
+  - "/wiki/simcity 4 music track names"
 ---
 
 [Articles](Articles.md)

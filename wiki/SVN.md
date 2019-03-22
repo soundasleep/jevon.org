@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "SVN"
+title:  SVN
 author: jevon
-date:   2014-01-30 19:36:00 +1300
-tags:   [Technology]
+date:   2014-01-30 19:36:00 +13:00
+tags:
+  - Technology
+redirect_from:
+  - "/wiki/svn"
+  - "/wiki/Svn"
 ---
 
 [SVN](svn.md) is the acronym for [Subversion](subversion.md). Also see [Git](git.md).

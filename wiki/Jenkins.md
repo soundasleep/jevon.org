@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Jenkins"
+title:  Jenkins
 author: jevon
-date:   2014-10-15 17:24:16 +1300
-tags:   [Software Engineering, Build]
+date:   2014-10-15 17:24:16 +13:00
+tags:
+  - Software Engineering
+  - Build
+redirect_from:
+  - "/wiki/jenkins"
 ---
 
 Also see [Ant](ant.md), [grunt](grunt.md)

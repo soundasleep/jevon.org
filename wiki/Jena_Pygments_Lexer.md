@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Jena Pygments Lexer"
+title:  Jena Pygments Lexer
 author: jevon
-date:   2011-03-10 14:05:06 +1300
-tags:   [Code Snippets]
+date:   2011-03-10 14:05:06 +13:00
+tags:
+  - Code Snippets
+redirect_from:
+  - "/wiki/jena_pygments_lexer"
+  - "/wiki/Jena Pygments Lexer"
+  - "/wiki/jena pygments lexer"
 ---
 
 [Python](Python.md) / [Latex](Latex.md) / [Jena](Jena.md)

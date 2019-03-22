@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Old Content/Blix Passwords"
+title:  Old Content/Blix Passwords
 author: jevon
-date:   2007-11-21 12:33:19 +1300
-tags:   [Articles, Fun Stuff, Games]
+date:   2007-11-21 12:33:19 +13:00
+tags:
+  - Articles
+  - Fun Stuff
+  - Games
+redirect_from:
+  - "/wiki/old-content/Blix-passwords"
 ---
 
 {% include old-content-header.md date="23 August 2002" %}

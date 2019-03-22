@@ -1,9 +1,15 @@
 ---
 layout: page
-title:  "Pitchfork for Winamp"
+title:  Pitchfork for Winamp
 author: jevon
-date:   2007-08-14 13:32:16 +1200
-tags:   [Download]
+date:   2007-08-14 13:32:16 +12:00
+tags:
+  - Download
+redirect_from:
+  - "/wiki/pitchfork_for_winamp"
+  - "/wiki/Pitchfork For Winamp"
+  - "/wiki/pitchfork for winamp"
+  - "/wiki/Pitchfork_For_Winamp"
 ---
 
 [Downloads](Downloads.md)

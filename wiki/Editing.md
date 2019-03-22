@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Editing"
+title:  Editing
 author: jevon
-date:   2013-01-06 05:40:01 +1300
-tags:   [Protected]
+date:   2013-01-06 05:40:01 +13:00
+tags:
+  - Protected
+redirect_from:
+  - "/wiki/editing"
 ---
 
 All of the pages on this site are user-editable. That means that _you_ can change pages yourself if they're incorrect. You have to login to the site to edit all pages using your [Journals](journals.md) account.

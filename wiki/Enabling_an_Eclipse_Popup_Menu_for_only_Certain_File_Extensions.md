@@ -1,9 +1,17 @@
 ---
 layout: page
-title:  "Enabling an Eclipse Popup Menu for only Certain File Extensions"
+title:  Enabling an Eclipse Popup Menu for only Certain File Extensions
 author: jevon
-date:   2008-11-07 04:33:22 +1300
-tags:   [Eclipse, Java, Technology]
+date:   2008-11-07 04:33:22 +13:00
+tags:
+  - Eclipse
+  - Java
+  - Technology
+redirect_from:
+  - "/wiki/enabling_an_eclipse_popup_menu_for_only_certain_file_extensions"
+  - "/wiki/Enabling An Eclipse Popup Menu For Only Certain File Extensions"
+  - "/wiki/enabling an eclipse popup menu for only certain file extensions"
+  - "/wiki/Enabling_An_Eclipse_Popup_Menu_For_Only_Certain_File_Extensions"
 ---
 
 [Eclipse](Eclipse.md)

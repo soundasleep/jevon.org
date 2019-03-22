@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Software"
+title:  Software
 author: jevon
-date:   2014-03-13 20:09:39 +1300
-tags:   [Software]
+date:   2014-03-13 20:09:39 +13:00
+tags:
+  - Software
+redirect_from:
+  - "/wiki/software"
 ---
 
 As [I'm](jevon-wright.md) a software developer, I use the Internet to distribute my work around. Here's a list of some of the programs I've made.

@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Site Credits"
+title:  Site Credits
 author: jevon
-date:   2013-01-07 01:19:59 +1300
-tags:   [Meta]
+date:   2013-01-07 01:19:59 +13:00
+tags:
+  - Meta
+redirect_from:
+  - "/wiki/site_credits"
+  - "/wiki/Site Credits"
+  - "/wiki/site credits"
 ---
 
 There are a number of open source and external projects used in the development of this site, which I will now credit here:

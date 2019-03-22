@@ -1,9 +1,15 @@
 ---
 layout: page
-title:  "Crocopat Pygments Lexer"
+title:  Crocopat Pygments Lexer
 author: jevon
-date:   2010-06-14 13:57:53 +1200
-tags:   [Code Snippets, Todo]
+date:   2010-06-14 13:57:53 +12:00
+tags:
+  - Code Snippets
+  - Todo
+redirect_from:
+  - "/wiki/crocopat_pygments_lexer"
+  - "/wiki/Crocopat Pygments Lexer"
+  - "/wiki/crocopat pygments lexer"
 ---
 
 [Python](Python.md) / [Latex](Latex.md)

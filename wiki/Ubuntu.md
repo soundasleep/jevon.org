@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Ubuntu"
+title:  Ubuntu
 author: jevon
-date:   2015-01-20 15:40:08 +1300
-tags:   [Linux]
+date:   2015-01-20 15:40:08 +13:00
+tags:
+  - Linux
+redirect_from:
+  - "/wiki/ubuntu"
 ---
 
 [Ubuntu](ubuntu.md) is a [Linux](linux.md) distribution.

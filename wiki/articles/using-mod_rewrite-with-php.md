@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "Articles/Using mod_rewrite With PHP"
+title:  Articles/Using mod_rewrite With PHP
 author: jevon
-date:   2013-01-07 01:22:59 +1300
-tags:   [Article, Apache, PHP]
+date:   2013-01-07 01:22:59 +13:00
+tags:
+  - Article
+  - Apache
+  - PHP
+redirect_from:
+  - "/wiki/articles/Using-mod Rewrite-with-php"
+  - "/wiki/articles/using-mod rewrite-with-php"
+  - "/wiki/articles/Using-mod_Rewrite-with-php"
 ---
 
 [Articles](articles.md)

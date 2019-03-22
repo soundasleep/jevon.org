@@ -1,9 +1,15 @@
 ---
 layout: page
-title:  "Signs of ugly HTML"
+title:  Signs of ugly HTML
 author: anonymous
-date:   2006-08-18 09:35:12 +1200
-tags:   [Technology]
+date:   2006-08-18 09:35:12 +12:00
+tags:
+  - Technology
+redirect_from:
+  - "/wiki/signs_of_ugly_html"
+  - "/wiki/Signs Of Ugly Html"
+  - "/wiki/signs of ugly html"
+  - "/wiki/Signs_Of_Ugly_Html"
 ---
 
 ## Severe

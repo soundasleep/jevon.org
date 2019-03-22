@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Simcity 4"
+title:  Simcity 4
 author: jevon
-date:   2007-09-19 13:10:20 +1200
-tags:   [Games]
+date:   2007-09-19 13:10:20 +12:00
+tags:
+  - Games
+redirect_from:
+  - "/wiki/simcity_4"
+  - "/wiki/Simcity 4"
+  - "/wiki/simcity 4"
 ---
 
 [Simcity 4](Simcity_4.md) is a rather addictive city-building simulation game. Some of my articles on this game include:

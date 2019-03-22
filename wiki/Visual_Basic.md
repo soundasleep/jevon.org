@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "Visual Basic"
+title:  Visual Basic
 author: jevon
-date:   2014-10-16 18:28:12 +1300
-tags:   [Technology, Languages, Programming Snippets]
+date:   2014-10-16 18:28:12 +13:00
+tags:
+  - Technology
+  - Languages
+  - Programming Snippets
+redirect_from:
+  - "/wiki/visual_basic"
+  - "/wiki/Visual Basic"
+  - "/wiki/visual basic"
 ---
 
 1. [Visual Basic Runtimes](Visual_Basic_Runtimes.md)

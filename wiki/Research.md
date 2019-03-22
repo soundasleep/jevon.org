@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Research"
+title:  Research
 author: jevon
-date:   2013-01-07 02:47:52 +1300
-tags:   [Research, Protected]
+date:   2013-01-07 02:47:52 +13:00
+tags:
+  - Research
+  - Protected
+redirect_from:
+  - "/wiki/research"
 ---
 
 In 2007, I started a [PhD research program](research.md) into developing a modelling language for interactive web applications with the <a href="http://www-ist.massey.ac.nz">Institute of Information Sciences and Technology</a> at <a href="http://www.massey.ac.nz">Massey University</a>, Palmerston North, New Zealand. I successfully completed in 2011, and <a href="http://www.youtube.com/watch?v=d9Vlo4pkYIA#t=85m32s" class="youtube">graduated</a> with a Doctor of Philosophy in 2012. The project summary follows.

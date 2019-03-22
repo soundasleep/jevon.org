@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Nokia 2730"
+title:  Nokia 2730
 author: jevon
-date:   2010-05-11 07:21:08 +1200
-tags:   [Mobile]
+date:   2010-05-11 07:21:08 +12:00
+tags:
+  - Mobile
+redirect_from:
+  - "/wiki/nokia_2730"
+  - "/wiki/Nokia 2730"
+  - "/wiki/nokia 2730"
 ---
 
 [Articles](Articles.md)

@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated"
+title:  'javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated'
 author: jevon
-date:   2013-09-11 17:18:41 +1200
-tags:   [Java]
+date:   2013-09-11 17:18:41 +12:00
+tags:
+  - Java
+redirect_from:
+  - "/wiki/Javax"
 ---
 
 [Java](Java.md) / [SSL](ssl.md)

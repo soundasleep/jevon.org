@@ -1,9 +1,17 @@
 ---
 layout: page
-title:  "Writing to a Console in Eclipse"
+title:  Writing to a Console in Eclipse
 author: anonymous
-date:   2006-11-21 04:16:04 +1300
-tags:   [Eclipse, Java, Article]
+date:   2006-11-21 04:16:04 +13:00
+tags:
+  - Eclipse
+  - Java
+  - Article
+redirect_from:
+  - "/wiki/writing_to_a_console_in_eclipse"
+  - "/wiki/Writing To A Console In Eclipse"
+  - "/wiki/writing to a console in eclipse"
+  - "/wiki/Writing_To_A_Console_In_Eclipse"
 ---
 
 [Articles](Articles.md)

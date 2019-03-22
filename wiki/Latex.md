@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Latex"
+title:  Latex
 author: jevon
-date:   2014-04-21 16:49:18 +1200
-tags:   [Article, Programming, Latex]
+date:   2014-04-21 16:49:18 +12:00
+tags:
+  - Article
+  - Programming
+  - Latex
+redirect_from:
+  - "/wiki/latex"
 ---
 
 [Latex](latex.md) is both a great typesetting system which separates presentation from content, and also makes it as difficult as machinely possible to let you properly present your content.

@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "JMonkeyEngine"
+title:  JMonkeyEngine
 author: jevon
-date:   2012-12-08 19:19:08 +1300
-tags:   [Game Development, Java, Ruby, 3D]
+date:   2012-12-08 19:19:08 +13:00
+tags:
+  - Game Development
+  - Java
+  - Ruby
+  - 3D
+redirect_from:
+  - "/wiki/jmonkeyengine"
+  - "/wiki/Jmonkeyengine"
 ---
 
 [Articles](articles.md)

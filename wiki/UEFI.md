@@ -1,9 +1,15 @@
 ---
 layout: page
-title:  "UEFI"
+title:  UEFI
 author: jevon
-date:   2013-05-27 01:14:22 +1200
-tags:   [Linux, Ubuntu, Troubleshooting]
+date:   2013-05-27 01:14:22 +12:00
+tags:
+  - Linux
+  - Ubuntu
+  - Troubleshooting
+redirect_from:
+  - "/wiki/uefi"
+  - "/wiki/Uefi"
 ---
 
 ## My experiences with Ubuntu 12.04 LTS and UEFI

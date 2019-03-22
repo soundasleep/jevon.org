@@ -1,30 +1,19 @@
 ---
 layout: page
-title:  "GMF Troubleshooting 6"
+title:  GMF Troubleshooting 6
 author: jevon
-date:   2008-12-09 12:46:25 +1300
-tags:   [GMF, Technology, Code Snippets]
+date:   2008-12-09 12:46:25 +13:00
+tags:
+  - GMF
+  - Technology
+  - Code Snippets
+redirect_from:
+  - "/wiki/gmf_troubleshooting_6"
+  - "/wiki/Gmf Troubleshooting 6"
+  - "/wiki/gmf troubleshooting 6"
+  - "/wiki/Gmf_Troubleshooting_6"
 ---
 
-[GMF](GMF.md)
-
-{% include gmf-troubleshooting.md %}
-
-**org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: java.net.MalformedURLException: unknown protocol: c**
-
-This exception can appear when trying to create a URI of the wrong type (the 'c' is from 'c:/foo/bar.txt'):
-
-```
-IFile target = project.getFile("bar.txt");
-ResourceSet resSet = new ResourceSetImpl();          
-Resource res = resSet.getResource(URI.createURI(target.getLocation().toString()), true);
-```
-
-The solution is to use _createFileURI_ instead:
-
-`Resource res = resSet.getResource(URI.createFileURI(target.getLocation().toString()), true);`
-
----
 **Converting from an IFile to an EMF resource in order to load a diagram file programatically**
 
 The code is strikingly similar to that above ;)

@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "Installing SSL on Apache"
+title:  Installing SSL on Apache
 author: jevon
-date:   2013-11-26 19:49:51 +1300
-tags:   [Apache, Web Development]
+date:   2013-11-26 19:49:51 +13:00
+tags:
+  - Apache
+  - Web Development
+redirect_from:
+  - "/wiki/installing_ssl_on_apache"
+  - "/wiki/Installing Ssl On Apache"
+  - "/wiki/installing ssl on apache"
+  - "/wiki/Installing_Ssl_On_Apache"
 ---
 
 [Apache](Apache.md) / [SSL](ssl.md)

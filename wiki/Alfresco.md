@@ -1,9 +1,19 @@
 ---
 layout: page
-title:  "Alfresco"
+title:  Alfresco
 author: jevon
-date:   2014-04-02 16:18:32 +1300
-tags:   [Alfresco, Java, Hubnet, Javascript, Drupal, Tomcat, J2EE, JSON]
+date:   2014-04-02 16:18:32 +13:00
+tags:
+  - Alfresco
+  - Java
+  - Hubnet
+  - Javascript
+  - Drupal
+  - Tomcat
+  - J2EE
+  - JSON
+redirect_from:
+  - "/wiki/alfresco"
 ---
 
 [Alfresco](alfresco.md) is a content management system for [Tomcat](tomcat.md) and written in [Java](java.md).

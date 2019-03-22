@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "GMF Drag Drop"
+title:  GMF Drag Drop
 author: jevon
-date:   2008-12-15 07:37:08 +1300
-tags:   [GMF, Technology]
+date:   2008-12-15 07:37:08 +13:00
+tags:
+  - GMF
+  - Technology
+redirect_from:
+  - "/wiki/gmf_drag_drop"
+  - "/wiki/Gmf Drag Drop"
+  - "/wiki/gmf drag drop"
+  - "/wiki/Gmf_Drag_Drop"
 ---
 
 Part of a never-ending series of articles on [GMF](GMF.md).

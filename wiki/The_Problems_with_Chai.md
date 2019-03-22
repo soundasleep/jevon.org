@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "The Problems with Chai"
+title:  The Problems with Chai
 author: jevon
-date:   2014-06-29 16:35:17 +1200
-tags:   [Testing, Chai]
+date:   2014-06-29 16:35:17 +12:00
+tags:
+  - Testing
+  - Chai
+redirect_from:
+  - "/wiki/the_problems_with_chai"
+  - "/wiki/The Problems With Chai"
+  - "/wiki/the problems with chai"
+  - "/wiki/The_Problems_With_Chai"
 ---
 
 [Javascript](Javascript.md) - [EmberJS](EmberJS.md) - [Testing](testing.md)

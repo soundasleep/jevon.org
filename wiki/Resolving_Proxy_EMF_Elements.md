@@ -1,9 +1,15 @@
 ---
 layout: page
-title:  "Resolving Proxy EMF Elements"
+title:  Resolving Proxy EMF Elements
 author: jevon
-date:   2011-05-01 15:09:57 +1200
-tags:   [EMF]
+date:   2011-05-01 15:09:57 +12:00
+tags:
+  - EMF
+redirect_from:
+  - "/wiki/resolving_proxy_emf_elements"
+  - "/wiki/Resolving Proxy Emf Elements"
+  - "/wiki/resolving proxy emf elements"
+  - "/wiki/Resolving_Proxy_Emf_Elements"
 ---
 
 [EMF](EMF.md) / [Ecore](Ecore.md) / [openArchitectureWare](openArchitectureWare.md)

@@ -1,23 +1,18 @@
 ---
 layout: page
-title:  "Setting up a Networked Laserjet 4M Printer"
+title:  Setting up a Networked Laserjet 4M Printer
 author: jevon
-date:   2007-04-12 12:27:18 +1200
-tags:   [Article]
+date:   2007-04-12 12:27:18 +12:00
+tags:
+  - Article
+redirect_from:
+  - "/wiki/setting_up_a_networked_laserjet_4m_printer"
+  - "/wiki/Setting Up A Networked Laserjet 4m Printer"
+  - "/wiki/setting up a networked laserjet 4m printer"
+  - "/wiki/Setting_Up_A_Networked_Laserjet_4m_Printer"
 ---
 
-[Articles](Articles.md)
-
-To set up a networked LaserJet 4M Plus printer, you need to have the printer's IP address. You can then use (in Windows XP) the Add Printer wizard:
-
-1. Select a local printer (not a networked printer).
-1. When it fails to find a Plug and Play printer, select Create a New Port; type of port should be a **Standard TCP/IP Port**.
-1. Enter in the IP address of the Printer (in my case, 192.168.0.19).
-1. Follow the rest of the wizard like normal.
-
-It probably helps to have had the printer drivers installed previously.
-
-----
+-
 
 To find out the IP address of your LaserJet 4M printer:
 

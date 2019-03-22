@@ -1,9 +1,17 @@
 ---
 layout: page
-title:  "Refreshing Nodes and Connections in a GMF Edit Part"
+title:  Refreshing Nodes and Connections in a GMF Edit Part
 author: jevon
-date:   2008-08-06 14:31:35 +1200
-tags:   [GMF, Technology, Code to Clean Up]
+date:   2008-08-06 14:31:35 +12:00
+tags:
+  - GMF
+  - Technology
+  - Code to Clean Up
+redirect_from:
+  - "/wiki/refreshing_nodes_and_connections_in_a_gmf_edit_part"
+  - "/wiki/Refreshing Nodes And Connections In A Gmf Edit Part"
+  - "/wiki/refreshing nodes and connections in a gmf edit part"
+  - "/wiki/Refreshing_Nodes_And_Connections_In_A_Gmf_Edit_Part"
 ---
 
 [GMF](GMF.md)

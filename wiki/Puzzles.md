@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Puzzles"
+title:  Puzzles
 author: jevon
-date:   2013-02-17 20:37:51 +1300
-tags:   [Removed Features]
+date:   2013-02-17 20:37:51 +13:00
+tags:
+  - Removed Features
+redirect_from:
+  - "/wiki/puzzles"
 ---
 
 This site used to have a service where you could automatically generate crossword puzzles.

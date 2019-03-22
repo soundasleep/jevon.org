@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Dynamic Toolbar"
+title:  Dynamic Toolbar
 author: jevon
-date:   2007-06-11 08:45:02 +1200
-tags:   [Protected]
+date:   2007-06-11 08:45:02 +12:00
+tags:
+  - Protected
+redirect_from:
+  - "/wiki/dynamic_toolbar"
+  - "/wiki/Dynamic Toolbar"
+  - "/wiki/dynamic toolbar"
 ---
 
 [Jevon](Jevon_Wright.md) - [Special:Recent Changes](special-recent-changes.md) - [Help](Help.md) - [Search](Search.md) - [Lyrics](link-MusiC.md) - [Link:Journals](link-Journals.md)

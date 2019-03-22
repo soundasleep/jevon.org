@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Leaflet"
+title:  Leaflet
 author: jevon
-date:   2014-04-09 19:59:46 +1200
-tags:   [Javascript]
+date:   2014-04-09 19:59:46 +12:00
+tags:
+  - Javascript
+redirect_from:
+  - "/wiki/leaflet"
 ---
 
 [Leaflet](leaflet.md) is an abstraction layer for [Google Maps](google-maps.md) and other maps.

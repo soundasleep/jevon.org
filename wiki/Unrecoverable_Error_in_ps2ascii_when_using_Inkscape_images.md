@@ -1,9 +1,17 @@
 ---
 layout: page
-title:  "Unrecoverable Error in ps2ascii when using Inkscape images"
+title:  Unrecoverable Error in ps2ascii when using Inkscape images
 author: jevon
-date:   2011-01-12 15:16:13 +1300
-tags:   [Latex, Inkscape, Articles]
+date:   2011-01-12 15:16:13 +13:00
+tags:
+  - Latex
+  - Inkscape
+  - Articles
+redirect_from:
+  - "/wiki/unrecoverable_error_in_ps2ascii_when_using_inkscape_images"
+  - "/wiki/Unrecoverable Error In Ps2ascii When Using Inkscape Images"
+  - "/wiki/unrecoverable error in ps2ascii when using inkscape images"
+  - "/wiki/Unrecoverable_Error_In_Ps2ascii_When_Using_Inkscape_Images"
 ---
 
 [Articles](Articles.md) > [Latex](Latex.md)

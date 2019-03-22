@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Incompatible List can't be Unboxed in LaTeX"
+title:  Incompatible List can't be Unboxed in LaTeX
 author: jevon
-date:   2011-10-13 16:06:52 +1300
-tags:   [LaTeX]
+date:   2011-10-13 16:06:52 +13:00
+tags:
+  - LaTeX
+redirect_from:
+  - "/wiki/Incompatible-list-can-t-be-unboxed-in-latex"
 ---
 
 [LaTeX](latex.md)

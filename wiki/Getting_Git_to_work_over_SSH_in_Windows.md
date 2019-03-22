@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "Getting Git to work over SSH in Windows"
+title:  Getting Git to work over SSH in Windows
 author: jevon
-date:   2015-03-03 14:28:08 +1300
-tags:   [Git, Windows]
+date:   2015-03-03 14:28:08 +13:00
+tags:
+  - Git
+  - Windows
+redirect_from:
+  - "/wiki/getting_git_to_work_over_ssh_in_windows"
+  - "/wiki/Getting Git To Work Over Ssh In Windows"
+  - "/wiki/getting git to work over ssh in windows"
+  - "/wiki/Getting_Git_To_Work_Over_Ssh_In_Windows"
 ---
 
 [Git](Git.md) / [Windows](Windows.md)

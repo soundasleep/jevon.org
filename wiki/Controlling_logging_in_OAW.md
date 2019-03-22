@@ -1,9 +1,17 @@
 ---
 layout: page
-title:  "Controlling logging in OAW"
+title:  Controlling logging in OAW
 author: jevon
-date:   2009-04-23 11:47:10 +1200
-tags:   [Code Snippets, OAW, Java]
+date:   2009-04-23 11:47:10 +12:00
+tags:
+  - Code Snippets
+  - OAW
+  - Java
+redirect_from:
+  - "/wiki/controlling_logging_in_oaw"
+  - "/wiki/Controlling Logging In Oaw"
+  - "/wiki/controlling logging in oaw"
+  - "/wiki/Controlling_Logging_In_Oaw"
 ---
 
 [openArchitectureWare](openArchitectureWare.md)

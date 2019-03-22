@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Chef"
+title:  Chef
 author: jevon
-date:   2014-08-11 21:15:22 +1200
-tags:   [Chef]
+date:   2014-08-11 21:15:22 +12:00
+tags:
+  - Chef
+redirect_from:
+  - "/wiki/chef"
 ---
 
 [Chef](chef.md) is similar to [Puppet](puppet.md), an open source server configuration manager thing.

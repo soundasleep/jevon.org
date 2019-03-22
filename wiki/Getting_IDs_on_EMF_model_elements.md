@@ -1,9 +1,17 @@
 ---
 layout: page
-title:  "Getting IDs on EMF model elements"
+title:  Getting IDs on EMF model elements
 author: jevon
-date:   2008-10-16 11:56:46 +1300
-tags:   [GMF, EMF, Code Samples]
+date:   2008-10-16 11:56:46 +13:00
+tags:
+  - GMF
+  - EMF
+  - Code Samples
+redirect_from:
+  - "/wiki/getting_ids_on_emf_model_elements"
+  - "/wiki/Getting Ids On Emf Model Elements"
+  - "/wiki/getting ids on emf model elements"
+  - "/wiki/Getting_Ids_On_Emf_Model_Elements"
 ---
 
 [GMF Code Samples](GMF_Code_Samples.md) / [GMF](GMF.md) / [EMF](EMF.md)

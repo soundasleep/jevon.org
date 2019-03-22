@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "Using Radio Buttons in EmberJS"
+title:  Using Radio Buttons in EmberJS
 author: jevon
-date:   2014-04-13 17:24:06 +1200
-tags:   [EmberJS, Javascript]
+date:   2014-04-13 17:24:06 +12:00
+tags:
+  - EmberJS
+  - Javascript
+redirect_from:
+  - "/wiki/using_radio_buttons_in_emberjs"
+  - "/wiki/Using Radio Buttons In Emberjs"
+  - "/wiki/using radio buttons in emberjs"
+  - "/wiki/Using_Radio_Buttons_In_Emberjs"
 ---
 
 [EmberJS](EmberJS.md)

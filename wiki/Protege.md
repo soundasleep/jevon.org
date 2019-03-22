@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Protege"
+title:  Protege
 author: jevon
-date:   2009-10-15 11:46:53 +1300
-tags:   [Java, OWL]
+date:   2009-10-15 11:46:53 +13:00
+tags:
+  - Java
+  - OWL
+redirect_from:
+  - "/wiki/protege"
 ---
 
 [Protege](protege.md) is an [OWL](owl.md) editor written in [Java](java.md). See also [Jena](jena.md) and [Pellet](pellet.md).{% include gmf-css.md %}

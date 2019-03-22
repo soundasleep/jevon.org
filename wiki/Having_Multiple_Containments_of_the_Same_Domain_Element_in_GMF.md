@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "Having Multiple Containments of the Same Domain Element in GMF"
+title:  Having Multiple Containments of the Same Domain Element in GMF
 author: jevon
-date:   2010-02-24 13:17:22 +1300
-tags:   [GMF, Java]
+date:   2010-02-24 13:17:22 +13:00
+tags:
+  - GMF
+  - Java
+redirect_from:
+  - "/wiki/having_multiple_containments_of_the_same_domain_element_in_gmf"
+  - "/wiki/Having Multiple Containments Of The Same Domain Element In Gmf"
+  - "/wiki/having multiple containments of the same domain element in gmf"
+  - "/wiki/Having_Multiple_Containments_Of_The_Same_Domain_Element_In_Gmf"
 ---
 
 {% include gmf-CSS.md %}[GMF](GMF.md)

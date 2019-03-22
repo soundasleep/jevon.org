@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "Eclipse Pygments Style"
+title:  Eclipse Pygments Style
 author: jevon
-date:   2010-06-14 13:51:25 +1200
-tags:   [Latex, Python, Code Snippets]
+date:   2010-06-14 13:51:25 +12:00
+tags:
+  - Latex
+  - Python
+  - Code Snippets
+redirect_from:
+  - "/wiki/eclipse_pygments_style"
+  - "/wiki/Eclipse Pygments Style"
+  - "/wiki/eclipse pygments style"
 ---
 
 [Latex](Latex.md) / [Python](Python.md)

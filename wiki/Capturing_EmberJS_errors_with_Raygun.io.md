@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "Capturing EmberJS errors with Raygun.io"
+title:  Capturing EmberJS errors with Raygun.io
 author: jevon
-date:   2014-05-05 19:23:43 +1200
-tags:   [EmberJS, Javascript]
+date:   2014-05-05 19:23:43 +12:00
+tags:
+  - EmberJS
+  - Javascript
+redirect_from:
+  - "/wiki/capturing_emberjs_errors_with_raygun"
+  - "/wiki/Capturing Emberjs Errors With Raygun"
+  - "/wiki/capturing emberjs errors with raygun"
+  - "/wiki/Capturing_Emberjs_Errors_With_Raygun"
 ---
 
 [EmberJS](EmberJS.md)

@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Software/Your IP 2"
+title:  Software/Your IP 2
 author: jevon
-date:   2007-08-14 13:21:37 +1200
-tags:   [Software]
+date:   2007-08-14 13:21:37 +12:00
+tags:
+  - Software
+redirect_from:
+  - "/wiki/software/Your-ip-2"
 ---
 
 [My Software](software.md)

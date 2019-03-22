@@ -1,9 +1,15 @@
 ---
 layout: page
-title:  "Drools"
+title:  Drools
 author: jevon
-date:   2011-03-10 13:11:25 +1300
-tags:   [Java, Technology, Rules, Drools]
+date:   2011-03-10 13:11:25 +13:00
+tags:
+  - Java
+  - Technology
+  - Rules
+  - Drools
+redirect_from:
+  - "/wiki/drools"
 ---
 
 A [rule engine](rule-engine.md) for [Java](java.md).

@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "Labelled Frames in Latex"
+title:  Labelled Frames in Latex
 author: jevon
-date:   2010-05-28 11:29:15 +1200
-tags:   [Latex, Code Snippets]
+date:   2010-05-28 11:29:15 +12:00
+tags:
+  - Latex
+  - Code Snippets
+redirect_from:
+  - "/wiki/labelled_frames_in_latex"
+  - "/wiki/Labelled Frames In Latex"
+  - "/wiki/labelled frames in latex"
+  - "/wiki/Labelled_Frames_In_Latex"
 ---
 
 [Articles](Articles.md) > [Latex](Latex.md)

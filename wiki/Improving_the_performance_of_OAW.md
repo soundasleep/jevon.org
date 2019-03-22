@@ -1,9 +1,17 @@
 ---
 layout: page
-title:  "Improving the performance of OAW"
+title:  Improving the performance of OAW
 author: jevon
-date:   2010-02-03 15:35:25 +1300
-tags:   [OAW, Performance, Code Snippets]
+date:   2010-02-03 15:35:25 +13:00
+tags:
+  - OAW
+  - Performance
+  - Code Snippets
+redirect_from:
+  - "/wiki/improving_the_performance_of_oaw"
+  - "/wiki/Improving The Performance Of Oaw"
+  - "/wiki/improving the performance of oaw"
+  - "/wiki/Improving_The_Performance_Of_Oaw"
 ---
 
 [openArchitectureWare](openArchitectureWare.md)

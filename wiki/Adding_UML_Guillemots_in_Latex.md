@@ -1,9 +1,15 @@
 ---
 layout: page
-title:  "Adding UML Guillemots in Latex"
+title:  Adding UML Guillemots in Latex
 author: jevon
-date:   2011-07-19 15:20:58 +1200
-tags:   [Latex]
+date:   2011-07-19 15:20:58 +12:00
+tags:
+  - Latex
+redirect_from:
+  - "/wiki/adding_uml_guillemots_in_latex"
+  - "/wiki/Adding Uml Guillemots In Latex"
+  - "/wiki/adding uml guillemots in latex"
+  - "/wiki/Adding_Uml_Guillemots_In_Latex"
 ---
 
 [Latex](Latex.md){% include gmf-CSS.md %}

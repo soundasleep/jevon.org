@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Help"
+title:  Help
 author: jevon
-date:   2013-02-17 20:43:35 +1300
-tags:   [Help, Todo, Meta]
+date:   2013-02-17 20:43:35 +13:00
+tags:
+  - Help
+  - Todo
+  - Meta
+redirect_from:
+  - "/wiki/help"
 ---
 
 These pages can help you in your wiki quest. If you have any good ideas or suggestions, add them! :)

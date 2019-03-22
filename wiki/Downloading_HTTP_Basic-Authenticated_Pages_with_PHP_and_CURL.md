@@ -1,9 +1,17 @@
 ---
 layout: page
-title:  "Downloading HTTP Basic-Authenticated Pages with PHP and CURL"
+title:  Downloading HTTP Basic-Authenticated Pages with PHP and CURL
 author: jevon
-date:   2007-11-09 10:11:09 +1300
-tags:   [PHP, Article, Published Code]
+date:   2007-11-09 10:11:09 +13:00
+tags:
+  - PHP
+  - Article
+  - Published Code
+redirect_from:
+  - "/wiki/downloading_http_basic-authenticated_pages_with_php_and_curl"
+  - "/wiki/Downloading Http Basic-authenticated Pages With Php And Curl"
+  - "/wiki/downloading http basic-authenticated pages with php and curl"
+  - "/wiki/Downloading_Http_Basic-authenticated_Pages_With_Php_And_Curl"
 ---
 
 [Articles](Articles.md) > [PHP](PHP.md)

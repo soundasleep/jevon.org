@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "Audio 8 DJ"
+title:  Audio 8 DJ
 author: jevon
-date:   2016-03-21 21:47:45 +1300
-tags:   [Music, Hardware]
+date:   2016-03-21 21:47:45 +13:00
+tags:
+  - Music
+  - Hardware
+redirect_from:
+  - "/wiki/audio_8_dj"
+  - "/wiki/Audio 8 Dj"
+  - "/wiki/audio 8 dj"
+  - "/wiki/Audio_8_Dj"
 ---
 
 ## Can't open Audio 8 DJ settings to take off software lock

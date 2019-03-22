@@ -1,9 +1,18 @@
 ---
 layout: page
-title:  "Disabling DTD validation for Ant xmlvalidate task within Eclipse"
+title:  Disabling DTD validation for Ant xmlvalidate task within Eclipse
 author: jevon
-date:   2012-03-09 10:22:52 +1300
-tags:   [Ant, Eclipse, XML, Apache]
+date:   2012-03-09 10:22:52 +13:00
+tags:
+  - Ant
+  - Eclipse
+  - XML
+  - Apache
+redirect_from:
+  - "/wiki/disabling_dtd_validation_for_ant_xmlvalidate_task_within_eclipse"
+  - "/wiki/Disabling Dtd Validation For Ant Xmlvalidate Task Within Eclipse"
+  - "/wiki/disabling dtd validation for ant xmlvalidate task within eclipse"
+  - "/wiki/Disabling_Dtd_Validation_For_Ant_Xmlvalidate_Task_Within_Eclipse"
 ---
 
 If you define an [XML](XML.md) validation task within an [Ant](Ant.md) build script like so:

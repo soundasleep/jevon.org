@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Windows"
+title:  Windows
 author: jevon
-date:   2015-11-15 09:49:19 +1300
-tags:   [Windows, Troubleshooting]
+date:   2015-11-15 09:49:19 +13:00
+tags:
+  - Windows
+  - Troubleshooting
+redirect_from:
+  - "/wiki/windows"
 ---
 
 [Articles](articles.md)

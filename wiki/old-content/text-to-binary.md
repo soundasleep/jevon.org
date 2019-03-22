@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Old Content/Text to Binary"
+title:  Old Content/Text to Binary
 author: jevon
-date:   2007-11-21 12:31:01 +1300
-tags:   [Article]
+date:   2007-11-21 12:31:01 +13:00
+tags:
+  - Article
+redirect_from:
+  - "/wiki/old-content/Text-to-binary"
 ---
 
 {% include old-content-header.md date="22 October 2002" %}

@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "Search"
+title:  Search
 author: jevon
-date:   2013-01-20 15:21:10 +1300
-tags:   []
+date:   2013-01-20 15:21:10 +13:00
+tags: []
+redirect_from:
+  - "/wiki/search"
 ---
 
 Here you can search for page titles on this site.

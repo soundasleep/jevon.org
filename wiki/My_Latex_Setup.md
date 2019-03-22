@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "My Latex Setup"
+title:  My Latex Setup
 author: jevon
-date:   2010-05-24 13:46:37 +1200
-tags:   [Technology, Latex, Jevon]
+date:   2010-05-24 13:46:37 +12:00
+tags:
+  - Technology
+  - Latex
+  - Jevon
+redirect_from:
+  - "/wiki/my_latex_setup"
+  - "/wiki/My Latex Setup"
+  - "/wiki/my latex setup"
 ---
 
 [Articles](Articles.md) > [Latex](Latex.md)

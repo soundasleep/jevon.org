@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Selectize"
+title:  Selectize
 author: jevon
-date:   2014-06-17 16:58:40 +1200
-tags:   [Javascript]
+date:   2014-06-17 16:58:40 +12:00
+tags:
+  - Javascript
+redirect_from:
+  - "/wiki/selectize"
 ---
 
 [Javascript](javascript.md)

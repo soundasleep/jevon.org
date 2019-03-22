@@ -1,9 +1,18 @@
 ---
 layout: page
-title:  "OWL Validation with Jena"
+title:  OWL Validation with Jena
 author: jevon
-date:   2009-10-14 09:53:39 +1300
-tags:   [Semantic Web, Code Snippets, Java, OWL]
+date:   2009-10-14 09:53:39 +13:00
+tags:
+  - Semantic Web
+  - Code Snippets
+  - Java
+  - OWL
+redirect_from:
+  - "/wiki/owl_validation_with_jena"
+  - "/wiki/Owl Validation With Jena"
+  - "/wiki/owl validation with jena"
+  - "/wiki/Owl_Validation_With_Jena"
 ---
 
 [OWL](OWL.md), [Jena](Jena.md), [Protege](Protege.md), [Semantic Web](semantic-web.md){% include gmf-CSS.md %}{% include tag-Todo.md comment="join the code together into one block" %}

@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "Unable to Create EcoreEditorID Editor"
+title:  Unable to Create EcoreEditorID Editor
 author: jevon
-date:   2009-08-19 11:09:42 +1200
-tags:   [Java, Eclipse]
+date:   2009-08-19 11:09:42 +12:00
+tags:
+  - Java
+  - Eclipse
+redirect_from:
+  - "/wiki/unable_to_create_ecoreeditorid_editor"
+  - "/wiki/Unable To Create Ecoreeditorid Editor"
+  - "/wiki/unable to create ecoreeditorid editor"
+  - "/wiki/Unable_To_Create_Ecoreeditorid_Editor"
 ---
 
 [Eclipse](Eclipse.md)

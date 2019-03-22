@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Citadel"
+title:  Citadel
 author: jevon
-date:   2013-04-30 03:21:29 +1200
-tags:   [Linux]
+date:   2013-04-30 03:21:29 +12:00
+tags:
+  - Linux
+redirect_from:
+  - "/wiki/citadel"
 ---
 
 [Citadel](citadel.md) is a mail server and groupware thing for [Linux](linux.md). It supports [SMTP](smtp.md), [IMAP](imap.md), [POP3](pop3.md) and [SSL](ssl.md).

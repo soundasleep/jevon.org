@@ -1,9 +1,17 @@
 ---
 layout: page
-title:  "Loading EMF XSD Models at Runtime"
+title:  Loading EMF XSD Models at Runtime
 author: jevon
-date:   2010-04-11 16:22:13 +1200
-tags:   [Java, EMF, Code Snippets]
+date:   2010-04-11 16:22:13 +12:00
+tags:
+  - Java
+  - EMF
+  - Code Snippets
+redirect_from:
+  - "/wiki/loading_emf_xsd_models_at_runtime"
+  - "/wiki/Loading Emf Xsd Models At Runtime"
+  - "/wiki/loading emf xsd models at runtime"
+  - "/wiki/Loading_Emf_Xsd_Models_At_Runtime"
 ---
 
 [EMF](EMF.md) [XML Schema](xml-schema.md) [XSD](xsd.md)
