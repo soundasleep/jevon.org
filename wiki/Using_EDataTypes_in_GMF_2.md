@@ -13,7 +13,7 @@ redirect_from:
 
 [GMF](GMF.md)
 
-{% include gmf-CSS.md %}<img src="/img/gmf/edatatype-2.png" align="right" class="gmf">In our [previous page](using-edatatypes-in-GMF.md), we successfully created an EDataType and the structure to link it up to a custom editor. However, in order to deal with EDataTypes, you also need to deal with the values you get through an EDataTypeValueHandler. As <a href="http://dev.eclipse.org/newslists/news.eclipse.modeling.gmf/msg16435.html">discussed in my thread on the GMF mailing list</a>, the solution can be something like the following:
+{% include gmf-css.md %}<img src="/img/gmf/edatatype-2.png" align="right" class="gmf">In our [previous page](using-edatatypes-in-GMF.md), we successfully created an EDataType and the structure to link it up to a custom editor. However, in order to deal with EDataTypes, you also need to deal with the values you get through an EDataTypeValueHandler. As <a href="http://dev.eclipse.org/newslists/news.eclipse.modeling.gmf/msg16435.html">discussed in my thread on the GMF mailing list</a>, the solution can be something like the following:
 
 ```
 public CellEditor createPropertyEditor(Composite composite) {

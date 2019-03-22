@@ -11,7 +11,7 @@ redirect_from:
 
 [GMF](GMF.md)
 
-{% include gmf-CSS.md %}<img src="/img/gmf/custom-figure-1.png" class="gmf">Custom figures are very easy in [GMF](GMF.md) if you want to use polygon-based representations. <a href="http://code.google.com/p/iaml/issues/detail?id=93">I wanted a custom figure</a> as in the diagram on the right.
+{% include gmf-css.md %}<img src="/img/gmf/custom-figure-1.png" class="gmf">Custom figures are very easy in [GMF](GMF.md) if you want to use polygon-based representations. <a href="http://code.google.com/p/iaml/issues/detail?id=93">I wanted a custom figure</a> as in the diagram on the right.
 
 The solution was to replace the _Rectangle_ with a new _Scalable Polygon_ and keep the previous contents. You also need to add _Template Points_ for each point in the polygon, noting that the first and last points will join up, i.e.:
 

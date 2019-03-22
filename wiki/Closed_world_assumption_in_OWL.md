@@ -41,6 +41,6 @@ NegativeObjectPropertyAssertion(contains SampleContainer Node2)
 NegativeObjectPropertyAssertion(contains SampleContainer SampleContainer)
 ```
 
-{% include gmf-CSS.md %}<img src="/img/gmf/protege-oneOf.png" class="gmf-left">
+{% include gmf-css.md %}<img src="/img/gmf/protege-oneOf.png" class="gmf-left">
 
 <img src="/img/gmf/protege-individuals.png" class="gmf-left">

@@ -17,7 +17,7 @@ So the idea of this article is to set up an environment where you can test a [JE
 
 # Get a [[JET]] plugin working through Eclipse and making it possible to run it in a runtime application (''org.openiaml.test.uml3.generate.ejet''). {{ "{{" }}tag-todo|link to actual project}}
 
-{{ "{{" }}gmf-css}}<img src="/img/gmf/jet-testing.png" class="gmf">'''Create the project with dependencies:'''
+{% include gmf-css.md %}<img src="/img/gmf/jet-testing.png" class="gmf">'''Create the project with dependencies:'''
 
 # Create a new project for your tests (''org.openiaml.test.uml3.tests'').
 # Right click the project and go PDE tools > Convert Projects to Plug-in Projects...

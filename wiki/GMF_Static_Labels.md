@@ -12,7 +12,7 @@ redirect_from:
 
 Yet another article on [GMF](GMF.md).
 
-{% include gmf-CSS.md %}<img src="/img/gmf/static-label.png" class="gmf">If you want to add a static label to a GMF connection, like on the right:
+{% include gmf-css.md %}<img src="/img/gmf/static-label.png" class="gmf">If you want to add a static label to a GMF connection, like on the right:
 
 1. _.gmfgraph > Figure Gallery > Figure Descriptor your_figure > Polyline Connection_: Add a Label, set _Descriptor_ and _Name_, and with the desired _Text_ (e.g. "navigate").
 1. _.gmfgraph > Figure Gallery > Figure Descriptor your_figure_: Add a _Child Access_ to the new Label that you created, and give it a name.

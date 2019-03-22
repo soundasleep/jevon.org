@@ -12,7 +12,7 @@ redirect_from:
 
 [Latex](Latex.md)
 
-{% include gmf-CSS.md %}<img src="/img/gmf/latex-table-images.png" class="gmf">I had a problem where I was trying to layout inline images within a [Latex](Latex.md) table, as illustrated to the right. In the bottom row, you can see that the image is vertically aligned completely opposite to the wrapped text!
+{% include gmf-css.md %}<img src="/img/gmf/latex-table-images.png" class="gmf">I had a problem where I was trying to layout inline images within a [Latex](Latex.md) table, as illustrated to the right. In the bottom row, you can see that the image is vertically aligned completely opposite to the wrapped text!
 
 It seems the solution is to <a href="http://stackoverflow.com/questions/1467351/latex-tabular-vertical-alignment-to-top/1470320#1470320">use the `\imagetop` command</a> and then wrap everything in a `minipage`:
 
@@ -34,12 +34,12 @@ It seems the solution is to <a href="http://stackoverflow.com/questions/1467351/
     \end{minipage}
   } \\
 
-  \imagetop{\includegraphics{images/shapes/rounded-rectangle.ps}} 
-  & \textit{Rounded Rectangle} 
+  \imagetop{\includegraphics{images/shapes/rounded-rectangle.ps}}
+  & \textit{Rounded Rectangle}
   & Operations; roles; scopes; operational modelling. \\
 
-  \includegraphics{images/shapes/ellipse.ps} 
-  & \textit{Ellipse} 
+  \includegraphics{images/shapes/ellipse.ps}
+  & \textit{Ellipse}
   & The default shape. Visual elements, domain modelling; parameters; components; data in operational modelling \\
 \hline
 \end{tabular}

@@ -12,7 +12,7 @@ redirect_from:
 
 [GMF](GMF.md) > [GMF Code Samples](GMF_Code_Samples.md)
 
-{% include gmf-CSS.md %}If you have [added a label to your GMF editor](Adding_a_Custom_Label_in_GMF.md), but you want it to open up a sub-diagram when double-clicking (for example, when using [GMF Diagram Partitioning](GMF_Diagram_Partitioning.md)), it is not too straightforward.
+{% include gmf-css.md %}If you have [added a label to your GMF editor](Adding_a_Custom_Label_in_GMF.md), but you want it to open up a sub-diagram when double-clicking (for example, when using [GMF Diagram Partitioning](GMF_Diagram_Partitioning.md)), it is not too straightforward.
 
 First, you need to add an OpenDiagramEditPolicy to the Label itself in your .gmfgen (similarly to how you need to add OpenDiagramEditPolicies to your nodes). _This information is lost between .gmfgen generations._
 

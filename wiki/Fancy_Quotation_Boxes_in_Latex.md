@@ -12,7 +12,7 @@ redirect_from:
 
 [Latex](Latex.md)
 
-{% include gmf-CSS.md %}<img src="/img/gmf/latex-fancy-quote.png" class="gmf">I wanted to have some fancy boxes for displaying particular definitions - in my case, formal definitions - that would be readable, span pages, and easy to use. I wanted a left-hand margin border and background shading for the entire box.
+{% include gmf-css.md %}<img src="/img/gmf/latex-fancy-quote.png" class="gmf">I wanted to have some fancy boxes for displaying particular definitions - in my case, formal definitions - that would be readable, span pages, and easy to use. I wanted a left-hand margin border and background shading for the entire box.
 
 After much searching and modification, I found that the **framed** package worked well, after some modifications. I can then use the following [Latex](Latex.md) code:
 

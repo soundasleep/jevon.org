@@ -11,7 +11,7 @@ redirect_from:
 
 [Eclipse](Eclipse.md)
 
-{% include gmf-CSS.md %}<img src="/img/gmf/eclipse-crm.png" class="gmf" style="max-width: 40%;">When trying to <a href="http://code.google.com/p/iaml/wiki/Installation">install the IAML project</a>, I was getting the following error from the [Eclipse](Eclipse.md) update wizard:
+{% include gmf-css.md %}<img src="/img/gmf/eclipse-crm.png" class="gmf" style="max-width: 40%;">When trying to <a href="http://code.google.com/p/iaml/wiki/Installation">install the IAML project</a>, I was getting the following error from the [Eclipse](Eclipse.md) update wizard:
 
 ```
 Cannot complete the install because of a conflicting dependency.

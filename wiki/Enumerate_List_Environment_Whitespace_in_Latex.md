@@ -11,7 +11,7 @@ redirect_from:
 
 [Latex](Latex.md)
 
-{% include gmf-CSS.md %}Here are a number of ways to reduce the horizontal and vertical whitespace around `enumerate` (and probably `itemize`) lists in [LaTeX](Latex.md). These all assume you are using a list of `compactenum`.
+{% include gmf-css.md %}Here are a number of ways to reduce the horizontal and vertical whitespace around `enumerate` (and probably `itemize`) lists in [LaTeX](Latex.md). These all assume you are using a list of `compactenum`.
 
 ## Default
 

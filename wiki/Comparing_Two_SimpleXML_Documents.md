@@ -60,7 +60,7 @@ function xml_is_equal(SimpleXMLElement $xml1, SimpleXMLElement $xml2, $text_stri
 		$search2[$a] = "$b";
 	}
 	if ($search1 != $search2) return "mismatched attributes";
-	
+
 	// check all namespaces
 	$ns1 = array();
 	$ns2 = array();
@@ -71,7 +71,7 @@ function xml_is_equal(SimpleXMLElement $xml1, SimpleXMLElement $xml2, $text_stri
 		$ns2[$a] = "$b";
 	}
 	if ($ns1 != $ns2) return "mismatched namespaces";
-	
+
 	// get all namespace attributes
 	foreach ($ns1 as $ns) {			// don't need to cycle over ns2, since its identical to ns1
 		$search1 = array();
@@ -84,7 +84,7 @@ function xml_is_equal(SimpleXMLElement $xml1, SimpleXMLElement $xml2, $text_stri
 		}
 		if ($search1 != $search2) return "mismatched ns:$ns attributes";
 	}
-	
+
 	// get all children
 	$search1 = array();
 	$search2 = array();
@@ -119,8 +119,8 @@ function xml_is_equal(SimpleXMLElement $xml1, SimpleXMLElement $xml2, $text_stri
 			if (!$found_match) return "xml2 does not have specific $child_name child: " . implode("; ", $reasons);
 		}
 	}
-	
-	// finally, cycle over namespaced children 
+
+	// finally, cycle over namespaced children
 	foreach ($ns1 as $ns) {			// don't need to cycle over ns2, since its identical to ns1
 		// get all children
 		$search1 = array();
@@ -153,13 +153,13 @@ function xml_is_equal(SimpleXMLElement $xml1, SimpleXMLElement $xml2, $text_stri
 				if (!$found_match) return "xml2 does not have specific ns:$ns $child_name child";
 			}
 		}
-	}	
-	
+	}
+
 	// if we've got through all of THIS, then we can say that xml1 has the same attributes and children as xml2.
 	return true;
 }
 ```
 
-{% include tag-Todo.md comment="put code onto SVN and link to actual SVN code" %}
+{% include tag-todo.md comment="put code onto SVN and link to actual SVN code" %}
 
 License: MIT

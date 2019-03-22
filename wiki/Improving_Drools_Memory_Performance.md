@@ -57,8 +57,8 @@ This made a huge difference in both execution time and memory usage.
 Similar to `connectsSet`, this rule allowed me to select bidirectional edges. The function was written as:
 
 ```
-return object.getFrom() != null && object.getTo() != null 
-    && (object.getFrom().equals(a) && object.getTo().equals(b)) 
+return object.getFrom() != null && object.getTo() != null
+    && (object.getFrom().equals(a) && object.getTo().equals(b))
     || (object.getTo().equals(a) && object.getFrom().equals(b));
 ```
 
@@ -69,7 +69,7 @@ This could be rewritten, <a href="http://code.google.com/p/iaml/source/detail?r=
 I found this didn't make as much of an effect as `connectsSet`. I think this is because `connectsSet` is unidirectional so the selects can be applied very effectively, whereas `connects` is essentially rewritten as an `eval()` condition (since it uses `&&` and `||` conditionals directly).
 
 ## Comparison
-{% include gmf-CSS.md %}To compare, I made some graphs. These metrics are not very reliable, as each test was only executed once, and garbage collection was not completely accounted for; however, I think it represents a realistic collection of data for comparison purposes. The first graph compares the execution time for inferring two different models.
+{% include gmf-css.md %}To compare, I made some graphs. These metrics are not very reliable, as each test was only executed once, and garbage collection was not completely accounted for; however, I think it represents a realistic collection of data for comparison purposes. The first graph compares the execution time for inferring two different models.
 
 <img src="/img/gmf/drools-time.png" class="gmf-left">
 

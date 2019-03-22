@@ -15,7 +15,7 @@ redirect_from:
 
 **EDataType**s in [GMF](GMF.md) allow you to specify custom data types in an [Ecore](Ecore.md) model. In this page I will try and describe the steps to create your own editor to a custom data type, in particular an editor that allows the user to select a file.
 
-{% include gmf-CSS.md %}<img src="/img/gmf/edatatype-1.png" align="right" class="gmf">
+{% include gmf-css.md %}<img src="/img/gmf/edatatype-1.png" align="right" class="gmf">
 
 1. Create an EDataType, specifying the _Name_ and the _Instance Class Name_.
 1. Create the new data types somewhere in your project, e.g. <a href="http://code.google.com/p/iaml/source/browse/trunk/org.openiaml.model/src/org/openiaml/model/FileReference.java?spec=svn414&r=414">FileReference interface</a> and the <a href="http://code.google.com/p/iaml/source/browse/trunk/org.openiaml.model/src/org/openiaml/model/impl/FileReferenceImpl.java?spec=svn414&r=414">FileReferenceImpl implementation</a>.

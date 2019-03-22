@@ -11,7 +11,7 @@ redirect_from:
   - "/wiki/GMF Diagram Partitioning"
 ---
 
-{% include gmf-CSS.md %}The goal of this tutorial is to be able to create a [GMF](GMF.md) editor, where you can expand certain boxes to edit their contents, like so:
+{% include gmf-css.md %}The goal of this tutorial is to be able to create a [GMF](GMF.md) editor, where you can expand certain boxes to edit their contents, like so:
 
 <img src="/img/gmf/demo1.png" class="gmf-left">
 <img src="/img/gmf/demo2.png" class="gmf-left">
@@ -26,7 +26,7 @@ If you want to add nodes within a node itself, try the second part of the GMF tu
   <li>We are using the following example .ecore:</li>
   <li><img src="/img/gmf/ecore.png" class="gmf-left"></li>
   </ul>
-  
+
 <li>Create your source.genmodel</li>
   <ul>
   <li>Make sure you set the package</li>
@@ -50,7 +50,7 @@ Now we create the super diagramming code.
     <li>DataTable.name as a label</li>
     </ul>
   </ul>
-    
+
 <li>Generate super.gmftool from super.gmfgraph</li>
   <ul>
   <li>Right click super.gmfgraph and select New > GMF > Simple Tooling Definition Model</li>
@@ -95,7 +95,7 @@ We have created the super diagramming code, now we want to generate the sub-diag
     <li>DataColumn.type as a label</li>
     </ul>
   </ul>
-    
+
 <li>Generate sub.gmftool from sub.gmfgraph</li>
   <ul>
   <li>Select the sub container object</li>

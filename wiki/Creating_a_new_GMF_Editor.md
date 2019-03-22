@@ -18,7 +18,7 @@ This tutorial applies to [GMF](GMF.md) 2.0.2; [GEF](gef.md) SDK 3.3.2.
 Some more tutorials:
 1. [GMF Diagram Partitioning](GMF_Diagram_Partitioning.md)
 
-{% include gmf-CSS.md %}<div class="gmf_code"><ul>
+{% include gmf-css.md %}<div class="gmf_code"><ul>
 <li>Open up the GMF cheat sheet (CS), we will use this to do most of the work.</li>
 <li>Create a new project (CS)</li>
 <li>Create an ecore model, either by hand or through Java annotations</li>
@@ -44,7 +44,7 @@ Some more tutorials:
       </ul>
      </ul>
    </ul>
-        
+
 <li>Create .genmodel (CS)</li>
   <ul>
   <li>Set the package manually to org.foo - this will create the edit code in org.foo.*</li>
@@ -60,7 +60,7 @@ Some more tutorials:
     <li>Try creating the model again</li>
     </ul>
   </ul>
-    
+
 <li>Create .gmfgraph (CS)</li>
   <ul>
   <li>Select "Application" as the diagram element</li>
@@ -68,14 +68,14 @@ Some more tutorials:
     <ul>
     <li>Application (the root): all to blank</li>
     <li>Page: set as node</li>
-      <ul>  
+      <ul>
       <li>title: set as label</li>
       <li>content: set as label</li>
       </ul>
     <li>Link: set as link</li>
     </ul>
   </ul>
-      
+
 <li>Create .gmftool (CS)</li>
   <ul>
   <li>Select "Application" as the diagram element</li>
@@ -86,7 +86,7 @@ Some more tutorials:
     <li>Link: set as link</li>
     </ul>
   </ul>
-      
+
 <li>Create .gmfmap (CS)</li>
   <ul>
   <li>Wizard properties</li>
@@ -104,13 +104,13 @@ Some more tutorials:
       </ul>
     </ul>
   </ul>
-      
+
 <li>Generate code (CS)</li>
   <ul>
   <li>gmfmap > create generator</li>
   <li>gmfgen > generate diagram code</li>
   </ul>
-  
+
 <li>Run as Eclipse application</li>
 <li>Create a new diagram by selecting New > Examples > Foo diagram</li>
 </ul>

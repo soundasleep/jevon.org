@@ -14,7 +14,7 @@ redirect_from:
 In particular, getting an InputStream from a String:
 
 ```
-InputStream source = new ByteArrayInputStream(myString.getBytes("UTF-8")); 
+InputStream source = new ByteArrayInputStream(myString.getBytes("UTF-8"));
 IFile out = project.getFile(f + ".xml");
 out.create(source, true, monitor);
 ```
@@ -26,4 +26,4 @@ The major problem is that InputStreams know nothing of character encoding, thus 
 To achieve this without using Eclipse's framework, <a href="http://code.google.com/p/iaml/source/browse/trunk/org.openiaml.model.tests/src/org/openiaml/model/tests/XmlTestCase.java?spec=svn676&r=676#285">see this code</a>.
 
 
-{% include tag-Todo.md comment="put into the proper categories, and rewrite to be Eclipse-based" %}
+{% include tag-todo.md comment="put into the proper categories, and rewrite to be Eclipse-based" %}
