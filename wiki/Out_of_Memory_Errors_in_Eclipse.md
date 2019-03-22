@@ -6,10 +6,7 @@ date:   2009-07-23 12:13:04 +12:00
 tags:
   - Eclipse
 redirect_from:
-  - "/wiki/out_of_memory_errors_in_eclipse"
-  - "/wiki/Out Of Memory Errors In Eclipse"
-  - "/wiki/out of memory errors in eclipse"
-  - "/wiki/Out_Of_Memory_Errors_In_Eclipse"
+  - "/wiki/Out of Memory Errors in Eclipse"
 ---
 
 [Eclipse](Eclipse.md)

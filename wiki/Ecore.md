@@ -7,8 +7,6 @@ tags:
   - GMF
   - EMF
   - Technology
-redirect_from:
-  - "/wiki/ecore"
 ---
 
 See also [GMF](gmf.md).

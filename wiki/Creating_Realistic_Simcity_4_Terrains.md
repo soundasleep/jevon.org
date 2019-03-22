@@ -7,9 +7,7 @@ tags:
   - Games
   - Articles
 redirect_from:
-  - "/wiki/creating_realistic_simcity_4_terrains"
   - "/wiki/Creating Realistic Simcity 4 Terrains"
-  - "/wiki/creating realistic simcity 4 terrains"
 ---
 
 [Articles](Articles.md)

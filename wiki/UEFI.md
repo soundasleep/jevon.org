@@ -7,9 +7,6 @@ tags:
   - Linux
   - Ubuntu
   - Troubleshooting
-redirect_from:
-  - "/wiki/uefi"
-  - "/wiki/Uefi"
 ---
 
 ## My experiences with Ubuntu 12.04 LTS and UEFI

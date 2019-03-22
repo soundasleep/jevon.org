@@ -8,10 +8,7 @@ tags:
   - Article
   - Code Sample
 redirect_from:
-  - "/wiki/force_an_iproject_file_system_refresh_in_eclipse"
-  - "/wiki/Force An Iproject File System Refresh In Eclipse"
-  - "/wiki/force an iproject file system refresh in eclipse"
-  - "/wiki/Force_An_Iproject_File_System_Refresh_In_Eclipse"
+  - "/wiki/Force an IProject file system refresh in Eclipse"
 ---
 
 [Eclipse](Eclipse.md)

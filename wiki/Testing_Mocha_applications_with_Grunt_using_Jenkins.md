@@ -7,10 +7,7 @@ tags:
   - Javascript
   - Testing
 redirect_from:
-  - "/wiki/testing_mocha_applications_with_grunt_using_jenkins"
-  - "/wiki/Testing Mocha Applications With Grunt Using Jenkins"
-  - "/wiki/testing mocha applications with grunt using jenkins"
-  - "/wiki/Testing_Mocha_Applications_With_Grunt_Using_Jenkins"
+  - "/wiki/Testing Mocha applications with Grunt using Jenkins"
 ---
 
 [Grunt](Grunt.md) / [Jenkins](Jenkins.md) / [Mocha](Mocha.md)

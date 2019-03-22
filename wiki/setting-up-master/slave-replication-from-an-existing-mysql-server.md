@@ -5,8 +5,6 @@ author: jevon
 date:   2014-09-29 22:06:44 +13:00
 tags:
   - MySQL
-redirect_from:
-  - "/wiki/setting-up-master/Slave-replication-from-an-existing-mysql-server"
 ---
 
 [MySQL](mysql.md)

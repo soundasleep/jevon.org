@@ -7,8 +7,6 @@ tags:
   - Languages
   - Technology
   - Programming Snippets
-redirect_from:
-  - "/wiki/c"
 ---
 
 ## Convert a C array a&#91;0..5] to b&#91;1..6]

@@ -8,9 +8,7 @@ tags:
   - Latex
   - Jevon
 redirect_from:
-  - "/wiki/my_latex_setup"
   - "/wiki/My Latex Setup"
-  - "/wiki/my latex setup"
 ---
 
 [Articles](Articles.md) > [Latex](Latex.md)

@@ -6,9 +6,6 @@ date:   2011-05-07 09:09:53 +12:00
 tags:
   - GMF
   - Todo
-redirect_from:
-  - "/wiki/simplegmf"
-  - "/wiki/Simplegmf"
 ---
 
 **java.lang.ClassCastException: org.eclipse.gmf.gmfgraph.impl.NodeImpl cannot be cast to org.eclipse.gmf.gmfgraph.Connection**

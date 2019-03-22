@@ -7,10 +7,7 @@ tags:
   - GMF
   - Technology
 redirect_from:
-  - "/wiki/gmf_troubleshooting_5"
-  - "/wiki/Gmf Troubleshooting 5"
-  - "/wiki/gmf troubleshooting 5"
-  - "/wiki/Gmf_Troubleshooting_5"
+  - "/wiki/GMF Troubleshooting 5"
 ---
 
 **I can't create links between some shortcut elements**

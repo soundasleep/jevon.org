@@ -8,10 +8,7 @@ tags:
   - Game Development
   - Visual Programming
 redirect_from:
-  - "/wiki/saving_and_loading_ue4_data_with_blueprints"
-  - "/wiki/Saving And Loading Ue4 Data With Blueprints"
-  - "/wiki/saving and loading ue4 data with blueprints"
-  - "/wiki/Saving_And_Loading_Ue4_Data_With_Blueprints"
+  - "/wiki/Saving and Loading UE4 Data with Blueprints"
 ---
 
 [Unreal Engine 4](Unreal_Engine_4.md)

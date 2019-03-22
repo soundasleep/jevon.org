@@ -8,10 +8,7 @@ tags:
   - Technology
   - Code to Clean Up
 redirect_from:
-  - "/wiki/gmf_code_samples"
-  - "/wiki/Gmf Code Samples"
-  - "/wiki/gmf code samples"
-  - "/wiki/Gmf_Code_Samples"
+  - "/wiki/GMF Code Samples"
 ---
 
 [GMF](GMF.md)

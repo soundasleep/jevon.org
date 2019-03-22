@@ -8,10 +8,7 @@ tags:
   - Technology
   - Code to Clean Up
 redirect_from:
-  - "/wiki/refreshing_nodes_and_connections_in_a_gmf_edit_part"
-  - "/wiki/Refreshing Nodes And Connections In A Gmf Edit Part"
-  - "/wiki/refreshing nodes and connections in a gmf edit part"
-  - "/wiki/Refreshing_Nodes_And_Connections_In_A_Gmf_Edit_Part"
+  - "/wiki/Refreshing Nodes and Connections in a GMF Edit Part"
 ---
 
 [GMF](GMF.md)

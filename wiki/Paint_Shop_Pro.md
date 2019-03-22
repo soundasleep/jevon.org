@@ -7,9 +7,7 @@ tags:
   - Software
   - Internet
 redirect_from:
-  - "/wiki/paint_shop_pro"
   - "/wiki/Paint Shop Pro"
-  - "/wiki/paint shop pro"
 ---
 
 [Paint Shop Pro](Paint_Shop_Pro.md) is a cheap, awesome graphic editor for [Windows](Windows.md) with its roots based in [Web Development](Web_Development.md).

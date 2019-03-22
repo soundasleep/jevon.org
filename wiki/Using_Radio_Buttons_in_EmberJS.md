@@ -7,10 +7,7 @@ tags:
   - EmberJS
   - Javascript
 redirect_from:
-  - "/wiki/using_radio_buttons_in_emberjs"
-  - "/wiki/Using Radio Buttons In Emberjs"
-  - "/wiki/using radio buttons in emberjs"
-  - "/wiki/Using_Radio_Buttons_In_Emberjs"
+  - "/wiki/Using Radio Buttons in EmberJS"
 ---
 
 [EmberJS](EmberJS.md)

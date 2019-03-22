@@ -8,10 +8,7 @@ tags:
   - Java
   - Article
 redirect_from:
-  - "/wiki/writing_to_a_console_in_eclipse"
-  - "/wiki/Writing To A Console In Eclipse"
-  - "/wiki/writing to a console in eclipse"
-  - "/wiki/Writing_To_A_Console_In_Eclipse"
+  - "/wiki/Writing to a Console in Eclipse"
 ---
 
 [Articles](Articles.md)

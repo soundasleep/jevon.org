@@ -7,8 +7,6 @@ tags:
   - Todo
   - Removed Features
   - Meta
-redirect_from:
-  - "/wiki/todo"
 ---
 
 The site is currently under construction (started on 3/07/05). I'm in the process of copying content from the old site to the new one, but some parts of it haven't been done yet...

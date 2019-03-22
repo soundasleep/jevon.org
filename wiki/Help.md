@@ -7,8 +7,6 @@ tags:
   - Help
   - Todo
   - Meta
-redirect_from:
-  - "/wiki/help"
 ---
 
 These pages can help you in your wiki quest. If you have any good ideas or suggestions, add them! :)

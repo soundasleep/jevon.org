@@ -7,10 +7,7 @@ tags:
   - Article
   - HTML
 redirect_from:
-  - "/wiki/from_html_4_to_xhtml_1"
-  - "/wiki/From Html 4 To Xhtml 1"
-  - "/wiki/from html 4 to xhtml 1"
-  - "/wiki/From_Html_4_To_Xhtml_1"
+  - "/wiki/From HTML 4 to XHTML 1"
 ---
 
 [Articles](Articles.md)

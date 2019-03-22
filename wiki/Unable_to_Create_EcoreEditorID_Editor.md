@@ -7,10 +7,7 @@ tags:
   - Java
   - Eclipse
 redirect_from:
-  - "/wiki/unable_to_create_ecoreeditorid_editor"
-  - "/wiki/Unable To Create Ecoreeditorid Editor"
-  - "/wiki/unable to create ecoreeditorid editor"
-  - "/wiki/Unable_To_Create_Ecoreeditorid_Editor"
+  - "/wiki/Unable to Create EcoreEditorID Editor"
 ---
 
 [Eclipse](Eclipse.md)

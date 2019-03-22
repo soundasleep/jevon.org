@@ -8,9 +8,6 @@ tags:
   - Java
   - Ruby
   - 3D
-redirect_from:
-  - "/wiki/jmonkeyengine"
-  - "/wiki/Jmonkeyengine"
 ---
 
 [Articles](articles.md)

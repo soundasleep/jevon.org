@@ -8,8 +8,6 @@ tags:
   - Technology
   - GMF
   - EMF
-redirect_from:
-  - "/wiki/setting-up-an-emf/Jet-testing-project-with-junit-and-eclipse"
 ---
 
 [GMF Code Samples](gmf-code-samples.md) / [GMF](gmf.md) / [EMF](emf.md)

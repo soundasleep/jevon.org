@@ -8,10 +8,7 @@ tags:
   - Testing
   - Troubleshooting
 redirect_from:
-  - "/wiki/class_not_found_when_running_a_junit_plugin_test"
-  - "/wiki/Class Not Found When Running A Junit Plugin Test"
-  - "/wiki/class not found when running a junit plugin test"
-  - "/wiki/Class_Not_Found_When_Running_A_Junit_Plugin_Test"
+  - "/wiki/Class Not Found when running a JUnit Plugin Test"
 ---
 
 [Eclipse](Eclipse.md) / [JUnit](junit.md)

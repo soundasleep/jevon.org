@@ -6,10 +6,7 @@ date:   2009-08-19 11:04:03 +12:00
 tags:
   - Java
 redirect_from:
-  - "/wiki/accessing_the_ast_of_a_oaw_checks_file"
-  - "/wiki/Accessing The Ast Of A Oaw Checks File"
-  - "/wiki/accessing the ast of a oaw checks file"
-  - "/wiki/Accessing_The_Ast_Of_A_Oaw_Checks_File"
+  - "/wiki/Accessing the AST of a OAW checks file"
 ---
 
 [OpenArchitectureWare](openArchitectureWare.md)

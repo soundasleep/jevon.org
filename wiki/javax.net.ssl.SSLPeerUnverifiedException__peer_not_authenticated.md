@@ -6,7 +6,7 @@ date:   2013-09-11 17:18:41 +12:00
 tags:
   - Java
 redirect_from:
-  - "/wiki/Javax"
+  - "/wiki/javax.net.ssl.SSLPeerUnverifiedException  peer not authenticated"
 ---
 
 [Java](Java.md) / [SSL](ssl.md)

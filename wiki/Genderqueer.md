@@ -4,8 +4,6 @@ title:  Genderqueer
 author: jevon
 date:   2013-06-08 06:20:36 +12:00
 tags: []
-redirect_from:
-  - "/wiki/genderqueer"
 ---
 
 {% include genderqueer-heading.md %}

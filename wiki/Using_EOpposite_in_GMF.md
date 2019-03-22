@@ -9,10 +9,7 @@ tags:
   - Ecore
   - Technology
 redirect_from:
-  - "/wiki/using_eopposite_in_gmf"
-  - "/wiki/Using Eopposite In Gmf"
-  - "/wiki/using eopposite in gmf"
-  - "/wiki/Using_Eopposite_In_Gmf"
+  - "/wiki/Using EOpposite in GMF"
 ---
 
 [GMF](GMF.md) / [EMF](EMF.md) / [Ecore](Ecore.md)

@@ -5,8 +5,6 @@ author: jevon
 date:   2013-01-07 02:41:23 +13:00
 tags:
   - Protected
-redirect_from:
-  - "/wiki/photos"
 ---
 
 Some photos that I have taken:

@@ -9,10 +9,7 @@ tags:
   - Article
   - Code Sample
 redirect_from:
-  - "/wiki/registering_packages_and_sub_packages_in_oaw"
-  - "/wiki/Registering Packages And Sub Packages In Oaw"
-  - "/wiki/registering packages and sub packages in oaw"
-  - "/wiki/Registering_Packages_And_Sub_Packages_In_Oaw"
+  - "/wiki/Registering packages and sub packages in OAW"
 ---
 
 [OpenArchitectureWare](openArchitectureWare.md)

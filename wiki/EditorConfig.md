@@ -6,9 +6,6 @@ date:   2015-02-22 18:38:42 +13:00
 tags:
   - Javascript
   - Programming
-redirect_from:
-  - "/wiki/editorconfig"
-  - "/wiki/Editorconfig"
 ---
 
 <a href="http://editorconfig.org">EditorConfig</a> is cool.

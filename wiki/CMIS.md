@@ -5,9 +5,6 @@ author: jevon
 date:   2014-05-22 17:45:28 +12:00
 tags:
   - CMIS
-redirect_from:
-  - "/wiki/cmis"
-  - "/wiki/Cmis"
 ---
 
 [CMIS](cmis.md) is an [API](api.md) for interacting mostly with [Alfresco](alfresco.md); there is a [Drupal](drupal.md) CMIS module which I have forked and extended: https://github.com/soundasleep/cmis

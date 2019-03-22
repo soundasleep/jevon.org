@@ -9,10 +9,7 @@ tags:
   - XML
   - Apache
 redirect_from:
-  - "/wiki/disabling_dtd_validation_for_ant_xmlvalidate_task_within_eclipse"
-  - "/wiki/Disabling Dtd Validation For Ant Xmlvalidate Task Within Eclipse"
-  - "/wiki/disabling dtd validation for ant xmlvalidate task within eclipse"
-  - "/wiki/Disabling_Dtd_Validation_For_Ant_Xmlvalidate_Task_Within_Eclipse"
+  - "/wiki/Disabling DTD validation for Ant xmlvalidate task within Eclipse"
 ---
 
 If you define an [XML](XML.md) validation task within an [Ant](Ant.md) build script like so:

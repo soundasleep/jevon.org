@@ -6,10 +6,7 @@ date:   2011-05-17 14:11:08 +12:00
 tags:
   - EMF
 redirect_from:
-  - "/wiki/emf_validation_framework"
-  - "/wiki/Emf Validation Framework"
-  - "/wiki/emf validation framework"
-  - "/wiki/Emf_Validation_Framework"
+  - "/wiki/EMF Validation Framework"
 ---
 
 [EMF](EMF.md)

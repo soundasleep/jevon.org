@@ -5,8 +5,6 @@ author: jevon
 date:   2015-06-09 21:11:21 +12:00
 tags:
   - Ruby
-redirect_from:
-  - "/wiki/ruby"
 ---
 
 [Ruby](ruby.md) is a programming language which is used as the basis of [Ruby on Rails](ruby-on-rails.md).

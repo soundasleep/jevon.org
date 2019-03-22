@@ -6,8 +6,6 @@ date:   2015-03-09 15:17:58 +13:00
 tags:
   - Article
   - Linux
-redirect_from:
-  - "/wiki/linux"
 ---
 
 [Articles](articles.md)

@@ -5,8 +5,6 @@ author: jevon
 date:   2016-06-06 23:22:40 +12:00
 tags:
   - Protected
-redirect_from:
-  - "/wiki/home"
 ---
 
 <table class="home-table"><tr valign="top"><td class="left-bar">Hello!

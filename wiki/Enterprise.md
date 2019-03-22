@@ -5,8 +5,6 @@ author: jevon
 date:   2006-05-31 07:33:12 +12:00
 tags:
   - Technology
-redirect_from:
-  - "/wiki/enterprise"
 ---
 
 "How ignorant I have been all these years! My definition of an enterprise class application was that it

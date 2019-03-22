@@ -7,10 +7,7 @@ tags:
   - GMF
   - Technology
 redirect_from:
-  - "/wiki/breadcrumbs_in_gmf_editors"
-  - "/wiki/Breadcrumbs In Gmf Editors"
-  - "/wiki/breadcrumbs in gmf editors"
-  - "/wiki/Breadcrumbs_In_Gmf_Editors"
+  - "/wiki/Breadcrumbs in GMF Editors"
 ---
 
 [GMF](GMF.md)

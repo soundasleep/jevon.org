@@ -7,10 +7,7 @@ tags:
   - Troubleshooting
   - Windows
 redirect_from:
-  - "/wiki/slow_subversion_performance_over_https"
-  - "/wiki/Slow Subversion Performance Over Https"
-  - "/wiki/slow subversion performance over https"
-  - "/wiki/Slow_Subversion_Performance_Over_Https"
+  - "/wiki/Slow Subversion Performance over HTTPS"
 ---
 
 [SVN](SVN.md)

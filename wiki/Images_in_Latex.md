@@ -5,10 +5,7 @@ author: jevon
 date:   2010-05-24 13:32:46 +12:00
 tags: []
 redirect_from:
-  - "/wiki/images_in_latex"
-  - "/wiki/Images In Latex"
-  - "/wiki/images in latex"
-  - "/wiki/Images_In_Latex"
+  - "/wiki/Images in Latex"
 ---
 
 [Articles](Articles.md) > [Latex](Latex.md)

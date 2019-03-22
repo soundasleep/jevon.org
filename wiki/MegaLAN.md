@@ -4,9 +4,6 @@ title:  MegaLAN
 author: jevon
 date:   2005-12-10 07:07:35 +13:00
 tags: []
-redirect_from:
-  - "/wiki/megalan"
-  - "/wiki/Megalan"
 ---
 
 , Palmerston North (Roughly at http://tinyurl.com/cjzaq :P)

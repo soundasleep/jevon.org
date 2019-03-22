@@ -7,10 +7,7 @@ tags:
   - Latex
   - Article
 redirect_from:
-  - "/wiki/aligning_images_in_tables_in_latex"
-  - "/wiki/Aligning Images In Tables In Latex"
-  - "/wiki/aligning images in tables in latex"
-  - "/wiki/Aligning_Images_In_Tables_In_Latex"
+  - "/wiki/Aligning Images in Tables in Latex"
 ---
 
 [Latex](Latex.md)

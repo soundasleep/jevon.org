@@ -6,9 +6,7 @@ date:   2013-02-27 15:43:29 +13:00
 tags:
   - Mobile
 redirect_from:
-  - "/wiki/galaxy_s3"
   - "/wiki/Galaxy S3"
-  - "/wiki/galaxy s3"
 ---
 
 [Articles](Articles.md)

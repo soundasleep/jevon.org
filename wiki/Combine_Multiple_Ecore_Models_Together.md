@@ -10,9 +10,7 @@ tags:
   - Published Code
   - PHP
 redirect_from:
-  - "/wiki/combine_multiple_ecore_models_together"
   - "/wiki/Combine Multiple Ecore Models Together"
-  - "/wiki/combine multiple ecore models together"
 ---
 
 Here is a quick script that can be used to combine multiple [EMF](EMF.md) [Ecore](Ecore.md) models together into one super model. This uses the [PHP](PHP.md) scripting language, because this was easy!

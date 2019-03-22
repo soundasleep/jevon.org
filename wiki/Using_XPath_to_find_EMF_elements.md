@@ -7,10 +7,7 @@ tags:
   - EMF
   - XML
 redirect_from:
-  - "/wiki/using_xpath_to_find_emf_elements"
-  - "/wiki/Using Xpath To Find Emf Elements"
-  - "/wiki/using xpath to find emf elements"
-  - "/wiki/Using_Xpath_To_Find_Emf_Elements"
+  - "/wiki/Using XPath to find EMF elements"
 ---
 
 [EMF](EMF.md) / [XPath](XPath.md)

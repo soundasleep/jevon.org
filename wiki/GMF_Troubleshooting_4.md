@@ -7,10 +7,7 @@ tags:
   - GMF
   - Technology
 redirect_from:
-  - "/wiki/gmf_troubleshooting_4"
-  - "/wiki/Gmf Troubleshooting 4"
-  - "/wiki/gmf troubleshooting 4"
-  - "/wiki/Gmf_Troubleshooting_4"
+  - "/wiki/GMF Troubleshooting 4"
 ---
 
 Some helpful tips for working with [GMF](GMF.md).

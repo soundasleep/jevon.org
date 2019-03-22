@@ -7,10 +7,7 @@ tags:
   - Todo
   - Article
 redirect_from:
-  - "/wiki/html_entities"
-  - "/wiki/Html Entities"
-  - "/wiki/html entities"
-  - "/wiki/Html_Entities"
+  - "/wiki/HTML Entities"
 ---
 
 [Articles](Articles.md)

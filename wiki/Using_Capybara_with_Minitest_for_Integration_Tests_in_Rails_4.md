@@ -8,10 +8,7 @@ tags:
   - Ruby on Rails
   - Testing
 redirect_from:
-  - "/wiki/using_capybara_with_minitest_for_integration_tests_in_rails_4"
-  - "/wiki/Using Capybara With Minitest For Integration Tests In Rails 4"
-  - "/wiki/using capybara with minitest for integration tests in rails 4"
-  - "/wiki/Using_Capybara_With_Minitest_For_Integration_Tests_In_Rails_4"
+  - "/wiki/Using Capybara with Minitest for Integration Tests in Rails 4"
 ---
 
 [Ruby on Rails](Ruby_on_Rails.md) / [Capybara](capybara.md)

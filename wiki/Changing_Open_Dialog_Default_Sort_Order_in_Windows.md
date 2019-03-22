@@ -6,10 +6,7 @@ date:   2007-11-28 07:57:45 +13:00
 tags:
   - Windows
 redirect_from:
-  - "/wiki/changing_open_dialog_default_sort_order_in_windows"
-  - "/wiki/Changing Open Dialog Default Sort Order In Windows"
-  - "/wiki/changing open dialog default sort order in windows"
-  - "/wiki/Changing_Open_Dialog_Default_Sort_Order_In_Windows"
+  - "/wiki/Changing Open Dialog Default Sort Order in Windows"
 ---
 
 [Articles](Articles.md)

@@ -6,10 +6,7 @@ date:   2011-07-12 11:21:14 +12:00
 tags:
   - Code Snippets
 redirect_from:
-  - "/wiki/owl_functional_pygments_style"
-  - "/wiki/Owl Functional Pygments Style"
-  - "/wiki/owl functional pygments style"
-  - "/wiki/Owl_Functional_Pygments_Style"
+  - "/wiki/OWL Functional Pygments Style"
 ---
 
 [Python](Python.md) / [Latex](Latex.md) / [Alloy](alloy.md)

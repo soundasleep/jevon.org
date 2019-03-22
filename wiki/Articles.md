@@ -5,8 +5,6 @@ author: jevon
 date:   2016-02-27 05:16:32 +13:00
 tags:
   - Article
-redirect_from:
-  - "/wiki/articles"
 ---
 
 Some random ramblings... under construction, and I'm always adding more.

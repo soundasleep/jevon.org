@@ -7,10 +7,7 @@ tags:
   - Article
   - Windows
 redirect_from:
-  - "/wiki/windows_xp_automatically_logs_out"
-  - "/wiki/Windows Xp Automatically Logs Out"
-  - "/wiki/windows xp automatically logs out"
-  - "/wiki/Windows_Xp_Automatically_Logs_Out"
+  - "/wiki/Windows XP Automatically Logs Out"
 ---
 
 [Articles](Articles.md)

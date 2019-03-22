@@ -7,10 +7,7 @@ tags:
   - Code Snippets
   - Todo
 redirect_from:
-  - "/wiki/ltl_pygments_lexer"
-  - "/wiki/Ltl Pygments Lexer"
-  - "/wiki/ltl pygments lexer"
-  - "/wiki/Ltl_Pygments_Lexer"
+  - "/wiki/LTL Pygments Lexer"
 ---
 
 [Python](Python.md) / [Latex](Latex.md)

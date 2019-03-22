@@ -8,9 +8,7 @@ tags:
   - Languages
   - Programming Snippets
 redirect_from:
-  - "/wiki/visual_basic"
   - "/wiki/Visual Basic"
-  - "/wiki/visual basic"
 ---
 
 1. [Visual Basic Runtimes](Visual_Basic_Runtimes.md)

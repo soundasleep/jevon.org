@@ -6,8 +6,6 @@ date:   2014-10-15 17:24:16 +13:00
 tags:
   - Software Engineering
   - Build
-redirect_from:
-  - "/wiki/jenkins"
 ---
 
 Also see [Ant](ant.md), [grunt](grunt.md)

@@ -7,10 +7,7 @@ tags:
   - EMF
   - Java
 redirect_from:
-  - "/wiki/edatatype_serializable"
-  - "/wiki/Edatatype Serializable"
-  - "/wiki/edatatype serializable"
-  - "/wiki/Edatatype_Serializable"
+  - "/wiki/EDataType Serializable"
 ---
 
 [EMF](EMF.md)

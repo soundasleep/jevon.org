@@ -5,9 +5,6 @@ author: jevon
 date:   2007-08-14 13:32:19 +12:00
 tags:
   - Download
-redirect_from:
-  - "/wiki/winkey"
-  - "/wiki/Winkey"
 ---
 
 [Downloads](downloads.md)

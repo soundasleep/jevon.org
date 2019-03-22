@@ -7,10 +7,7 @@ tags:
   - Javascript
   - EmberJS
 redirect_from:
-  - "/wiki/multiple_jquery_versions_with_emberjs"
-  - "/wiki/Multiple Jquery Versions With Emberjs"
-  - "/wiki/multiple jquery versions with emberjs"
-  - "/wiki/Multiple_Jquery_Versions_With_Emberjs"
+  - "/wiki/Multiple JQuery versions with EmberJS"
 ---
 
 To load different versions of [JQuery](JQuery.md) on a page while still letting [EmberJS](EmberJS.md) load (which requires JQuery 1.9+), based on <a href="http://jsfiddle.net/gerry3/aLdy8/2/">this jsfiddle</a>:

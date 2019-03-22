@@ -6,10 +6,7 @@ date:   2009-08-20 21:33:31 +12:00
 tags:
   - Technology
 redirect_from:
-  - "/wiki/setting_up_a_bluetooth_wireless_network"
-  - "/wiki/Setting Up A Bluetooth Wireless Network"
-  - "/wiki/setting up a bluetooth wireless network"
-  - "/wiki/Setting_Up_A_Bluetooth_Wireless_Network"
+  - "/wiki/Setting up a Bluetooth Wireless Network"
 ---
 
 [Articles](Articles.md)

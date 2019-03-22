@@ -6,10 +6,7 @@ date:   2010-04-01 07:56:00 +13:00
 tags:
   - Technology
 redirect_from:
-  - "/wiki/samsung_zv10"
-  - "/wiki/Samsung Zv10"
-  - "/wiki/samsung zv10"
-  - "/wiki/Samsung_Zv10"
+  - "/wiki/Samsung ZV10"
 ---
 
 [Articles](Articles.md)

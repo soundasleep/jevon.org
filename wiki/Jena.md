@@ -6,8 +6,6 @@ date:   2011-03-10 14:05:17 +13:00
 tags:
   - Java
   - Semantic Web
-redirect_from:
-  - "/wiki/jena"
 ---
 
 [Jena](jena.md) is a [rule](rule.md) inference engine for [Java](java.md), useful for the [Semantic Web](semantic-web.md). It handles [RDF](rdf.md) and [OWL](owl.md). It can be integrated with [Pellet](pellet.md).

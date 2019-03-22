@@ -8,10 +8,7 @@ tags:
   - OWL
   - Code Snippets
 redirect_from:
-  - "/wiki/inferring_properties_based_on_types_in_owl"
-  - "/wiki/Inferring Properties Based On Types In Owl"
-  - "/wiki/inferring properties based on types in owl"
-  - "/wiki/Inferring_Properties_Based_On_Types_In_Owl"
+  - "/wiki/Inferring properties based on types in OWL"
 ---
 
 [OWL](OWL.md), [Pellet](Pellet.md), [Jena](Jena.md)

@@ -6,8 +6,6 @@ date:   2013-07-22 22:37:48 +12:00
 tags:
   - Web Sites
   - Facebook
-redirect_from:
-  - "/wiki/facebook"
 ---
 
 [Facebook](facebook.md) is a social networking site which is dumb.

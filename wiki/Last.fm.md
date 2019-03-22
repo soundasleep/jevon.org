@@ -6,8 +6,6 @@ date:   2016-05-19 18:59:32 +12:00
 tags:
   - Code Snippets
   - Javascript
-redirect_from:
-  - "/wiki/last"
 ---
 
 1. {% include lastfm.md %} <a href="http://www.last.fm/user/jdub_dub">My last.fm (jdub_dub)</a>

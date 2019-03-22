@@ -8,10 +8,7 @@ tags:
   - Inkscape
   - Articles
 redirect_from:
-  - "/wiki/unrecoverable_error_in_ps2ascii_when_using_inkscape_images"
-  - "/wiki/Unrecoverable Error In Ps2ascii When Using Inkscape Images"
-  - "/wiki/unrecoverable error in ps2ascii when using inkscape images"
-  - "/wiki/Unrecoverable_Error_In_Ps2ascii_When_Using_Inkscape_Images"
+  - "/wiki/Unrecoverable Error in ps2ascii when using Inkscape images"
 ---
 
 [Articles](Articles.md) > [Latex](Latex.md)

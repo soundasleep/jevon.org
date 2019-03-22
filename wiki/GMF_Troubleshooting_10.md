@@ -8,10 +8,7 @@ tags:
   - Technology
   - Code Snippets
 redirect_from:
-  - "/wiki/gmf_troubleshooting_10"
-  - "/wiki/Gmf Troubleshooting 10"
-  - "/wiki/gmf troubleshooting 10"
-  - "/wiki/Gmf_Troubleshooting_10"
+  - "/wiki/GMF Troubleshooting 10"
 ---
 
 [GMF](GMF.md)

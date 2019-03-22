@@ -6,10 +6,7 @@ date:   2011-05-09 15:28:33 +12:00
 tags:
   - GMF
 redirect_from:
-  - "/wiki/using_platform_resources_as_ereferences_in_gmf"
-  - "/wiki/Using Platform Resources As Ereferences In Gmf"
-  - "/wiki/using platform resources as ereferences in gmf"
-  - "/wiki/Using_Platform_Resources_As_Ereferences_In_Gmf"
+  - "/wiki/Using Platform Resources as EReferences in GMF"
 ---
 
 [GMF](GMF.md) - [EMF](EMF.md)

@@ -4,8 +4,6 @@ title:  Old Content/Ponk List
 author: jevon
 date:   2008-07-02 13:06:26 +12:00
 tags: []
-redirect_from:
-  - "/wiki/old-content/Ponk-list"
 ---
 
 {% include old-content-header.md date="5 November 2003" %}

@@ -6,9 +6,7 @@ date:   2008-07-22 07:27:09 +12:00
 tags:
   - Article
 redirect_from:
-  - "/wiki/jevon_online_whatpulse_team"
   - "/wiki/Jevon Online Whatpulse Team"
-  - "/wiki/jevon online whatpulse team"
 ---
 
 [Articles](Articles.md)

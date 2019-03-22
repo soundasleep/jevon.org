@@ -6,9 +6,7 @@ date:   2006-03-21 21:26:16 +12:00
 tags:
   - Technology
 redirect_from:
-  - "/wiki/java_servlet_pages"
   - "/wiki/Java Servlet Pages"
-  - "/wiki/java servlet pages"
 ---
 
 ## JSP Page Directive Reference

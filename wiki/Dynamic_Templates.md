@@ -6,9 +6,7 @@ date:   2010-04-16 11:30:29 +12:00
 tags:
   - Todo
 redirect_from:
-  - "/wiki/dynamic_templates"
   - "/wiki/Dynamic Templates"
-  - "/wiki/dynamic templates"
 ---
 
 Did you mean:

@@ -8,9 +8,7 @@ tags:
   - Technology
   - Troubleshooting
 redirect_from:
-  - "/wiki/google_maps"
   - "/wiki/Google Maps"
-  - "/wiki/google maps"
 ---
 
 [Articles](Articles.md)

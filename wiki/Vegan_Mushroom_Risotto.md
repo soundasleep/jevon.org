@@ -6,9 +6,7 @@ date:   2015-04-10 18:35:10 +12:00
 tags:
   - Recipes
 redirect_from:
-  - "/wiki/vegan_mushroom_risotto"
   - "/wiki/Vegan Mushroom Risotto"
-  - "/wiki/vegan mushroom risotto"
 ---
 
 [Recipes](Recipes.md)

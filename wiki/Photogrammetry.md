@@ -7,8 +7,6 @@ tags:
   - VR
   - 3D
   - Graphics
-redirect_from:
-  - "/wiki/photogrammetry"
 ---
 
 1. <a href="http://www.agisoft.com/features/standard-edition/">AgiSoft PhotoScan</a>

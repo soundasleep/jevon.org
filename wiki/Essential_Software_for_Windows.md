@@ -7,10 +7,7 @@ tags:
   - Windows
   - Articles
 redirect_from:
-  - "/wiki/essential_software_for_windows"
-  - "/wiki/Essential Software For Windows"
-  - "/wiki/essential software for windows"
-  - "/wiki/Essential_Software_For_Windows"
+  - "/wiki/Essential Software for Windows"
 ---
 
 [Windows](Windows.md)

@@ -6,8 +6,6 @@ date:   2014-10-22 19:16:14 +13:00
 tags:
   - Android
   - Cordova
-redirect_from:
-  - "/wiki/parse"
 ---
 
 [Parse](parse.md) is a data/push framework for [Android](android.md).

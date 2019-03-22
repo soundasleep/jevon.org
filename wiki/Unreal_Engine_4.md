@@ -8,9 +8,7 @@ tags:
   - Game Development
   - Virtual Reality
 redirect_from:
-  - "/wiki/unreal_engine_4"
   - "/wiki/Unreal Engine 4"
-  - "/wiki/unreal engine 4"
 ---
 
 [Unreal Engine 4](Unreal_Engine_4.md) is a game development engine that's shiny.

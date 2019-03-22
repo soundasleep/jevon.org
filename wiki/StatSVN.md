@@ -5,9 +5,6 @@ author: jevon
 date:   2010-04-12 07:07:32 +12:00
 tags:
   - Technology
-redirect_from:
-  - "/wiki/statsvn"
-  - "/wiki/Statsvn"
 ---
 
 [StatSVN](statsvn.md) is a statistics generation tool for [SVN](svn.md).

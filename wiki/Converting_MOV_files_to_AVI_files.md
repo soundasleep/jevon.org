@@ -6,10 +6,7 @@ date:   2007-03-16 10:49:04 +13:00
 tags:
   - Articles
 redirect_from:
-  - "/wiki/converting_mov_files_to_avi_files"
-  - "/wiki/Converting Mov Files To Avi Files"
-  - "/wiki/converting mov files to avi files"
-  - "/wiki/Converting_Mov_Files_To_Avi_Files"
+  - "/wiki/Converting MOV files to AVI files"
 ---
 
 [Articles](Articles.md)

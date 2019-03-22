@@ -7,9 +7,7 @@ tags:
   - Eclipse
   - Java
 redirect_from:
-  - "/wiki/increasing_eclipse_plug-in_performance"
   - "/wiki/Increasing Eclipse Plug-in Performance"
-  - "/wiki/increasing eclipse plug-in performance"
 ---
 
 [Eclipse](Eclipse.md)

@@ -7,10 +7,7 @@ tags:
   - JUnit
   - Java
 redirect_from:
-  - "/wiki/no_classloader_found_for_plug-in_when_running_a_junit_plugin_test"
-  - "/wiki/No Classloader Found For Plug-in When Running A Junit Plugin Test"
-  - "/wiki/no classloader found for plug-in when running a junit plugin test"
-  - "/wiki/No_Classloader_Found_For_Plug-in_When_Running_A_Junit_Plugin_Test"
+  - "/wiki/No Classloader Found for Plug-in when running a JUnit Plugin Test"
 ---
 
 [JUnit](junit.md) / [Eclipse](Eclipse.md)

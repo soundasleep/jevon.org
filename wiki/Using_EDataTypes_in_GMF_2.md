@@ -8,10 +8,7 @@ tags:
   - Technology
   - EMF
 redirect_from:
-  - "/wiki/using_edatatypes_in_gmf_2"
-  - "/wiki/Using Edatatypes In Gmf 2"
-  - "/wiki/using edatatypes in gmf 2"
-  - "/wiki/Using_Edatatypes_In_Gmf_2"
+  - "/wiki/Using EDataTypes in GMF 2"
 ---
 
 [GMF](GMF.md)

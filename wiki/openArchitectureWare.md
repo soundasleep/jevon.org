@@ -6,9 +6,6 @@ date:   2011-05-02 14:40:17 +12:00
 tags:
   - Technology
   - OAW
-redirect_from:
-  - "/wiki/openarchitectureware"
-  - "/wiki/Openarchitectureware"
 ---
 
 A [Java](java.md)-based project to "simplify" the use of [EMF](emf.md) in generating code in Eclipse from models using [MDA](mda.md).

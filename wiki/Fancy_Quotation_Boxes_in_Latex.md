@@ -7,10 +7,7 @@ tags:
   - Latex
   - Article
 redirect_from:
-  - "/wiki/fancy_quotation_boxes_in_latex"
-  - "/wiki/Fancy Quotation Boxes In Latex"
-  - "/wiki/fancy quotation boxes in latex"
-  - "/wiki/Fancy_Quotation_Boxes_In_Latex"
+  - "/wiki/Fancy Quotation Boxes in Latex"
 ---
 
 [Latex](Latex.md)

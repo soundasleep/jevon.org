@@ -7,10 +7,7 @@ tags:
   - Testing
   - Chai
 redirect_from:
-  - "/wiki/the_problems_with_chai"
-  - "/wiki/The Problems With Chai"
-  - "/wiki/the problems with chai"
-  - "/wiki/The_Problems_With_Chai"
+  - "/wiki/The Problems with Chai"
 ---
 
 [Javascript](Javascript.md) - [EmberJS](EmberJS.md) - [Testing](testing.md)

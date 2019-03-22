@@ -7,10 +7,7 @@ tags:
   - Latex
   - Code Snippets
 redirect_from:
-  - "/wiki/labelled_frames_in_latex"
-  - "/wiki/Labelled Frames In Latex"
-  - "/wiki/labelled frames in latex"
-  - "/wiki/Labelled_Frames_In_Latex"
+  - "/wiki/Labelled Frames in Latex"
 ---
 
 [Articles](Articles.md) > [Latex](Latex.md)

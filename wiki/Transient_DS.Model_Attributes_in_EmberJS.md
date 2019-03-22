@@ -6,10 +6,7 @@ date:   2014-06-12 15:13:47 +12:00
 tags:
   - EmberJS
 redirect_from:
-  - "/wiki/transient_ds"
-  - "/wiki/Transient Ds"
-  - "/wiki/transient ds"
-  - "/wiki/Transient_Ds"
+  - "/wiki/Transient DS.Model Attributes in EmberJS"
 ---
 
 [EmberJS](EmberJS.md)

@@ -8,10 +8,7 @@ tags:
   - EMF
   - Code Samples
 redirect_from:
-  - "/wiki/getting_ids_on_emf_model_elements"
-  - "/wiki/Getting Ids On Emf Model Elements"
-  - "/wiki/getting ids on emf model elements"
-  - "/wiki/Getting_Ids_On_Emf_Model_Elements"
+  - "/wiki/Getting IDs on EMF model elements"
 ---
 
 [GMF Code Samples](GMF_Code_Samples.md) / [GMF](GMF.md) / [EMF](EMF.md)

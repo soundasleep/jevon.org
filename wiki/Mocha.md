@@ -6,8 +6,6 @@ date:   2014-06-17 16:57:59 +12:00
 tags:
   - Javascript
   - Tests
-redirect_from:
-  - "/wiki/mocha"
 ---
 
 [Mocha](mocha.md) is a [Javascript](javascript.md) testing framework that works well with [Chai](chai.md).

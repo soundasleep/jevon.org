@@ -8,10 +8,7 @@ tags:
   - Technology
   - Code Samples
 redirect_from:
-  - "/wiki/extending_java"
-  - "/wiki/Extending Java"
-  - "/wiki/extending java"
-  - "/wiki/Extending_Java"
+  - "/wiki/Extending java.text.MessageFormat"
 ---
 
 [Java](Java.md)

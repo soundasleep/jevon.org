@@ -7,10 +7,7 @@ tags:
   - Subversion
   - Git
 redirect_from:
-  - "/wiki/synchronising_svn_and_git"
-  - "/wiki/Synchronising Svn And Git"
-  - "/wiki/synchronising svn and git"
-  - "/wiki/Synchronising_Svn_And_Git"
+  - "/wiki/Synchronising SVN and Git"
 ---
 
 [SVN](SVN.md) / [Git](Git.md)

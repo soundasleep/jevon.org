@@ -7,10 +7,7 @@ tags:
   - GMF
   - QVT
 redirect_from:
-  - "/wiki/migrating_dynamic_templates_to_gmf_2"
-  - "/wiki/Migrating Dynamic Templates To Gmf 2"
-  - "/wiki/migrating dynamic templates to gmf 2"
-  - "/wiki/Migrating_Dynamic_Templates_To_Gmf_2"
+  - "/wiki/Migrating Dynamic Templates to GMF 2.2"
 ---
 
 [GMF](GMF.md) provides [Dynamic Templates](Dynamic_Templates.md) - see [Enabling Dynamic Templates in GMF](enabling-dynamic-templates-in-GMF.md).

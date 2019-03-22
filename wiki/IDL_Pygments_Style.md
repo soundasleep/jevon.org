@@ -6,10 +6,7 @@ date:   2011-07-12 11:20:55 +12:00
 tags:
   - Code Snippets
 redirect_from:
-  - "/wiki/idl_pygments_style"
-  - "/wiki/Idl Pygments Style"
-  - "/wiki/idl pygments style"
-  - "/wiki/Idl_Pygments_Style"
+  - "/wiki/IDL Pygments Style"
 ---
 
 [Python](Python.md) / [Latex](Latex.md) / [IDL](idl.md)

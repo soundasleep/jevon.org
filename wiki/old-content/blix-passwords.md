@@ -7,8 +7,6 @@ tags:
   - Articles
   - Fun Stuff
   - Games
-redirect_from:
-  - "/wiki/old-content/Blix-passwords"
 ---
 
 {% include old-content-header.md date="23 August 2002" %}

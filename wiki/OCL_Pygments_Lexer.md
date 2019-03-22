@@ -7,10 +7,7 @@ tags:
   - Code Snippets
   - Todo
 redirect_from:
-  - "/wiki/ocl_pygments_lexer"
-  - "/wiki/Ocl Pygments Lexer"
-  - "/wiki/ocl pygments lexer"
-  - "/wiki/Ocl_Pygments_Lexer"
+  - "/wiki/OCL Pygments Lexer"
 ---
 
 [Python](Python.md) / [Latex](Latex.md)

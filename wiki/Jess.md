@@ -7,8 +7,6 @@ tags:
   - Jess
   - Rule engine
   - Software
-redirect_from:
-  - "/wiki/jess"
 ---
 
 [Jess](jess.md) is a [rule engine](rule-engine.md) for [Java](java.md).

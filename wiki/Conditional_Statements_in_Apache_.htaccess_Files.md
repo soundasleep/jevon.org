@@ -8,11 +8,7 @@ tags:
   - Web
   - Technology
 redirect_from:
-  - "/wiki/conditional_statements_in_apache_"
-  - "/wiki/Conditional Statements In Apache"
-  - "/wiki/conditional statements in apache"
-  - "/wiki/Conditional_Statements_In_Apache"
-  - "/wiki/conditional_statements_in_apache"
+  - "/wiki/Conditional Statements in Apache .htaccess Files"
 ---
 
 ## Problem

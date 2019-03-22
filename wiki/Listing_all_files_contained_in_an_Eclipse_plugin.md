@@ -8,10 +8,7 @@ tags:
   - Code Snippets
   - Java
 redirect_from:
-  - "/wiki/listing_all_files_contained_in_an_eclipse_plugin"
-  - "/wiki/Listing All Files Contained In An Eclipse Plugin"
-  - "/wiki/listing all files contained in an eclipse plugin"
-  - "/wiki/Listing_All_Files_Contained_In_An_Eclipse_Plugin"
+  - "/wiki/Listing all files contained in an Eclipse plugin"
 ---
 
 [Eclipse](Eclipse.md)

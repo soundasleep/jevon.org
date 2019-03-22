@@ -7,10 +7,7 @@ tags:
   - Articles
   - Drools
 redirect_from:
-  - "/wiki/tips_and_techniques_for_improving_drools_performance"
-  - "/wiki/Tips And Techniques For Improving Drools Performance"
-  - "/wiki/tips and techniques for improving drools performance"
-  - "/wiki/Tips_And_Techniques_For_Improving_Drools_Performance"
+  - "/wiki/Tips and Techniques for Improving Drools Performance"
 ---
 
 [Drools](Drools.md)

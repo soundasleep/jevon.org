@@ -4,8 +4,6 @@ title:  edatatype-code
 author: jevon
 date:   2009-01-29 10:09:41 +13:00
 tags: []
-redirect_from:
-  - "/wiki/Edatatype-code"
 ---
 
 ```

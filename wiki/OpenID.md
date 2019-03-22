@@ -5,9 +5,6 @@ author: jevon
 date:   2010-04-23 11:33:41 +12:00
 tags:
   - Technology
-redirect_from:
-  - "/wiki/openid"
-  - "/wiki/Openid"
 ---
 
 <a href="http://openid.net">OpenID</a> is a distributed authentication (but not trust) technology, implemented by <a href="http://www.livejournal.com">LiveJournal</a> and other providers.

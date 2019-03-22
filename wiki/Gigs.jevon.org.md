@@ -6,8 +6,6 @@ date:   2013-02-17 20:44:26 +13:00
 tags:
   - Removed Features
   - Web Development
-redirect_from:
-  - "/wiki/gigs"
 ---
 
 The **Gigs.jevon.org** website was a site that automatically retrieved event listings from local <a href="http://www.myspace.com">MySpace</a> bands, integrated them with <a href="http://www.last.fm">last.fm data</a>, and sent out weekly e-mails about upcoming events in your area.

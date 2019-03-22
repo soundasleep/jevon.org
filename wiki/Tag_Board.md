@@ -6,9 +6,7 @@ date:   2006-03-21 21:25:37 +12:00
 tags:
   - Todo
 redirect_from:
-  - "/wiki/tag_board"
   - "/wiki/Tag Board"
-  - "/wiki/tag board"
 ---
 
 This site used to have a tag board. I've reset it and the new one is available below. Maybe some other time I'll put a copy of the archived information from the old tagboard online ;)

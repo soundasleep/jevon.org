@@ -7,10 +7,7 @@ tags:
   - Symfony
   - PHP
 redirect_from:
-  - "/wiki/symfony__csrf_token__required"
-  - "/wiki/Symfony  Csrf Token  Required"
-  - "/wiki/symfony  csrf token  required"
-  - "/wiki/Symfony__Csrf_Token__Required"
+  - "/wiki/Symfony  csrf token  Required."
 ---
 
 [Symfony](Symfony.md)

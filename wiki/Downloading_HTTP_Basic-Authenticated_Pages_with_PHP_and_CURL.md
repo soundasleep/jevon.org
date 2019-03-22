@@ -8,10 +8,7 @@ tags:
   - Article
   - Published Code
 redirect_from:
-  - "/wiki/downloading_http_basic-authenticated_pages_with_php_and_curl"
-  - "/wiki/Downloading Http Basic-authenticated Pages With Php And Curl"
-  - "/wiki/downloading http basic-authenticated pages with php and curl"
-  - "/wiki/Downloading_Http_Basic-authenticated_Pages_With_Php_And_Curl"
+  - "/wiki/Downloading HTTP Basic-Authenticated Pages with PHP and CURL"
 ---
 
 [Articles](Articles.md) > [PHP](PHP.md)

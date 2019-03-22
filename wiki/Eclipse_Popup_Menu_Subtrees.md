@@ -7,9 +7,7 @@ tags:
   - Eclipse
   - Code Samples
 redirect_from:
-  - "/wiki/eclipse_popup_menu_subtrees"
   - "/wiki/Eclipse Popup Menu Subtrees"
-  - "/wiki/eclipse popup menu subtrees"
 ---
 
 [Eclipse](Eclipse.md)

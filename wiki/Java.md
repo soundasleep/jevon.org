@@ -7,8 +7,6 @@ tags:
   - Technology
   - Languages
   - Programming Snippets
-redirect_from:
-  - "/wiki/java"
 ---
 
 Is a programming language. See also [Eclipse](eclipse.md), [EMF](emf.md), [JMonkeyEngine](jmonkeyengine.md).

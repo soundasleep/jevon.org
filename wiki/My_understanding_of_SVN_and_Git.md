@@ -7,10 +7,7 @@ tags:
   - Git
   - Subversion
 redirect_from:
-  - "/wiki/my_understanding_of_svn_and_git"
-  - "/wiki/My Understanding Of Svn And Git"
-  - "/wiki/my understanding of svn and git"
-  - "/wiki/My_Understanding_Of_Svn_And_Git"
+  - "/wiki/My understanding of SVN and Git"
 ---
 
 [SVN](SVN.md) / [Git](Git.md)

@@ -5,8 +5,6 @@ author: jevon
 date:   2011-10-13 10:04:57 +13:00
 tags:
   - LaTeX
-redirect_from:
-  - "/wiki/Addcontentsline-doesn-t-work-in-latex"
 ---
 
 [LaTeX](latex.md)

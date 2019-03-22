@@ -5,8 +5,6 @@ author: jevon
 date:   2009-06-15 17:27:49 +12:00
 tags:
   - Mobile
-redirect_from:
-  - "/wiki/vodafone"
 ---
 
 [Vodafone](vodafone.md) is a mobile phone provider in lots of countries, including [Australia](australia.md) and [New Zealand](new-zealand.md).

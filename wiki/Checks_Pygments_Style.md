@@ -6,9 +6,7 @@ date:   2011-03-30 08:16:55 +13:00
 tags:
   - Code Snippets
 redirect_from:
-  - "/wiki/checks_pygments_style"
   - "/wiki/Checks Pygments Style"
-  - "/wiki/checks pygments style"
 ---
 
 [Python](Python.md) / [Latex](Latex.md) / [openArchitectureWare](openArchitectureWare.md)

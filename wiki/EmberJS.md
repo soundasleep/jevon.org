@@ -7,9 +7,6 @@ tags:
   - EmberJS
   - Web Development
   - Javascript
-redirect_from:
-  - "/wiki/emberjs"
-  - "/wiki/Emberjs"
 ---
 
 [Javascript](javascript.md)

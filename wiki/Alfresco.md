@@ -12,8 +12,6 @@ tags:
   - Tomcat
   - J2EE
   - JSON
-redirect_from:
-  - "/wiki/alfresco"
 ---
 
 [Alfresco](alfresco.md) is a content management system for [Tomcat](tomcat.md) and written in [Java](java.md).

@@ -7,10 +7,7 @@ tags:
   - Javascript
   - EmberJS
 redirect_from:
-  - "/wiki/waiting_for_emberjs_to_update_its_views_manually"
-  - "/wiki/Waiting For Emberjs To Update Its Views Manually"
-  - "/wiki/waiting for emberjs to update its views manually"
-  - "/wiki/Waiting_For_Emberjs_To_Update_Its_Views_Manually"
+  - "/wiki/Waiting for EmberJS to update its views manually"
 ---
 
 [EmberJS](EmberJS.md)

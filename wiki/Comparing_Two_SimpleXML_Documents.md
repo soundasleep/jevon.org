@@ -8,10 +8,7 @@ tags:
   - PHP
   - Programming Snippets
 redirect_from:
-  - "/wiki/comparing_two_simplexml_documents"
-  - "/wiki/Comparing Two Simplexml Documents"
-  - "/wiki/comparing two simplexml documents"
-  - "/wiki/Comparing_Two_Simplexml_Documents"
+  - "/wiki/Comparing Two SimpleXML Documents"
 ---
 
 [Articles](Articles.md) > [PHP](PHP.md)

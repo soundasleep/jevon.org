@@ -8,10 +8,7 @@ tags:
   - GMF
   - Technology
 redirect_from:
-  - "/wiki/gmf_troubleshooting_3"
-  - "/wiki/Gmf Troubleshooting 3"
-  - "/wiki/gmf troubleshooting 3"
-  - "/wiki/Gmf_Troubleshooting_3"
+  - "/wiki/GMF Troubleshooting 3"
 ---
 
 **When trying to generate my .gmfmap, my concrete nodes that subclass abstract supertypes which are contained in the root object are not displayed in the .gmfmap wizard!**

@@ -8,8 +8,6 @@ tags:
   - Git
   - Web development
   - Javascript
-redirect_from:
-  - "/wiki/bower"
 ---
 
 [Bower](bower.md) is a package manager, similar to [npm](npm.md) and [composer](composer.md), but seems to be more about client side stuff.

@@ -6,9 +6,6 @@ date:   2007-05-26 12:35:27 +12:00
 tags:
   - Internet
   - Chat
-redirect_from:
-  - "/wiki/msn"
-  - "/wiki/Msn"
 ---
 
 [MSN](msn.md) is a chat program by [Microsoft](microsoft.md).

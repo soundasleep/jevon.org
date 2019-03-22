@@ -6,10 +6,7 @@ date:   2010-04-16 14:32:40 +12:00
 tags:
   - GMF
 redirect_from:
-  - "/wiki/gmf_custom_figures"
-  - "/wiki/Gmf Custom Figures"
-  - "/wiki/gmf custom figures"
-  - "/wiki/Gmf_Custom_Figures"
+  - "/wiki/GMF Custom Figures"
 ---
 
 [GMF](GMF.md)

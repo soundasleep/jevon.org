@@ -7,9 +7,7 @@ tags:
   - Article
   - Programming Snippets
 redirect_from:
-  - "/wiki/programming_snippets"
   - "/wiki/Programming Snippets"
-  - "/wiki/programming snippets"
 ---
 
 [Articles](Articles.md)

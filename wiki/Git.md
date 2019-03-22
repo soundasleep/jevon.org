@@ -6,8 +6,6 @@ date:   2015-01-21 15:03:24 +13:00
 tags:
   - Git
   - Subversion
-redirect_from:
-  - "/wiki/git"
 ---
 
 1. [Synchronising SVN and Git](synchronising-svn-and-git.md)

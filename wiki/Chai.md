@@ -6,8 +6,6 @@ date:   2014-06-17 16:56:49 +12:00
 tags:
   - Javascript
   - Redirect
-redirect_from:
-  - "/wiki/chai"
 ---
 
 See [The Problems with Chai](the-problems-with-chai.md).

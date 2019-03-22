@@ -7,10 +7,7 @@ tags:
   - Music
   - Hardware
 redirect_from:
-  - "/wiki/audio_8_dj"
-  - "/wiki/Audio 8 Dj"
-  - "/wiki/audio 8 dj"
-  - "/wiki/Audio_8_Dj"
+  - "/wiki/Audio 8 DJ"
 ---
 
 ## Can't open Audio 8 DJ settings to take off software lock

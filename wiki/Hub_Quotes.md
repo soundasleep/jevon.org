@@ -7,9 +7,7 @@ tags:
   - Old
   - Todo
 redirect_from:
-  - "/wiki/hub_quotes"
   - "/wiki/Hub Quotes"
-  - "/wiki/hub quotes"
 ---
 
 - Jevon

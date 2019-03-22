@@ -6,8 +6,6 @@ date:   2012-01-25 09:56:52 +13:00
 tags:
   - Technology
   - Web
-redirect_from:
-  - "/wiki/tomcat"
 ---
 
 A web server for hosting [Java](java.md) or [servlet](servlet.md) applications.

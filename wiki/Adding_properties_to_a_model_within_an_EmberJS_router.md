@@ -8,10 +8,7 @@ tags:
   - Javascript
   - EmberJS
 redirect_from:
-  - "/wiki/adding_properties_to_a_model_within_an_emberjs_router"
-  - "/wiki/Adding Properties To A Model Within An Emberjs Router"
-  - "/wiki/adding properties to a model within an emberjs router"
-  - "/wiki/Adding_Properties_To_A_Model_Within_An_Emberjs_Router"
+  - "/wiki/Adding properties to a model within an EmberJS router"
 ---
 
 [EmberJS](EmberJS.md)

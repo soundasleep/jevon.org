@@ -8,9 +8,7 @@ tags:
   - Python
   - Code Snippets
 redirect_from:
-  - "/wiki/eclipse_pygments_style"
   - "/wiki/Eclipse Pygments Style"
-  - "/wiki/eclipse pygments style"
 ---
 
 [Latex](Latex.md) / [Python](Python.md)

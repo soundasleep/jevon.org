@@ -9,10 +9,7 @@ tags:
   - Programming
   - Web Development
 redirect_from:
-  - "/wiki/ruby_on_rails"
-  - "/wiki/Ruby On Rails"
-  - "/wiki/ruby on rails"
-  - "/wiki/Ruby_On_Rails"
+  - "/wiki/Ruby on Rails"
 ---
 
 [Ruby](Ruby.md)

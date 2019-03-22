@@ -7,10 +7,7 @@ tags:
   - GMF
   - Technology
 redirect_from:
-  - "/wiki/gmf_label_opendiagrameditpolicies"
-  - "/wiki/Gmf Label Opendiagrameditpolicies"
-  - "/wiki/gmf label opendiagrameditpolicies"
-  - "/wiki/Gmf_Label_Opendiagrameditpolicies"
+  - "/wiki/GMF Label OpenDiagramEditPolicies"
 ---
 
 [GMF](GMF.md) > [GMF Code Samples](GMF_Code_Samples.md)

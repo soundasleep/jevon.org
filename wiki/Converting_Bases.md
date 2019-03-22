@@ -7,9 +7,7 @@ tags:
   - Article
   - Todo
 redirect_from:
-  - "/wiki/converting_bases"
   - "/wiki/Converting Bases"
-  - "/wiki/converting bases"
 ---
 
 -

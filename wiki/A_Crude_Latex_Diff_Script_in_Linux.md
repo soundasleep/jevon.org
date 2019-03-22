@@ -8,10 +8,7 @@ tags:
   - Latex
   - Linux
 redirect_from:
-  - "/wiki/a_crude_latex_diff_script_in_linux"
-  - "/wiki/A Crude Latex Diff Script In Linux"
-  - "/wiki/a crude latex diff script in linux"
-  - "/wiki/A_Crude_Latex_Diff_Script_In_Linux"
+  - "/wiki/A Crude Latex Diff Script in Linux"
 ---
 
 [Articles](Articles.md) > [Latex](Latex.md)

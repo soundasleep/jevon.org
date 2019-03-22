@@ -7,10 +7,7 @@ tags:
   - Apache
   - Web Development
 redirect_from:
-  - "/wiki/installing_ssl_on_apache"
-  - "/wiki/Installing Ssl On Apache"
-  - "/wiki/installing ssl on apache"
-  - "/wiki/Installing_Ssl_On_Apache"
+  - "/wiki/Installing SSL on Apache"
 ---
 
 [Apache](Apache.md) / [SSL](ssl.md)

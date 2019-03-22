@@ -7,10 +7,7 @@ tags:
   - Javascript
   - EmberJS
 redirect_from:
-  - "/wiki/listing_the_attributes_of_an_emberjs_ds"
-  - "/wiki/Listing The Attributes Of An Emberjs Ds"
-  - "/wiki/listing the attributes of an emberjs ds"
-  - "/wiki/Listing_The_Attributes_Of_An_Emberjs_Ds"
+  - "/wiki/Listing the Attributes of an EmberJS DS.Model at Runtime"
 ---
 
 [EmberJS](EmberJS.md)

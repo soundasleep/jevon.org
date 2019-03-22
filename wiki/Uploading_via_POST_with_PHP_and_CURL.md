@@ -8,10 +8,7 @@ tags:
   - Article
   - Published Code
 redirect_from:
-  - "/wiki/uploading_via_post_with_php_and_curl"
-  - "/wiki/Uploading Via Post With Php And Curl"
-  - "/wiki/uploading via post with php and curl"
-  - "/wiki/Uploading_Via_Post_With_Php_And_Curl"
+  - "/wiki/Uploading via POST with PHP and CURL"
 ---
 
 [Articles](Articles.md) > [PHP](PHP.md)

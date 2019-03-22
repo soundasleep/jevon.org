@@ -8,10 +8,7 @@ tags:
   - Eclipse
   - GMF
 redirect_from:
-  - "/wiki/gmf_troubleshooting_2"
-  - "/wiki/Gmf Troubleshooting 2"
-  - "/wiki/gmf troubleshooting 2"
-  - "/wiki/Gmf_Troubleshooting_2"
+  - "/wiki/GMF Troubleshooting 2"
 ---
 
 **Changing the title of the wizard in "Create New"**

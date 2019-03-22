@@ -8,10 +8,7 @@ tags:
   - Code Generation
   - OAW
 redirect_from:
-  - "/wiki/ambiguous_templates_in_oaw"
-  - "/wiki/Ambiguous Templates In Oaw"
-  - "/wiki/ambiguous templates in oaw"
-  - "/wiki/Ambiguous_Templates_In_Oaw"
+  - "/wiki/Ambiguous templates in OAW"
 ---
 
 [OpenArchitectureWare](openArchitectureWare.md) has the problem where templates can be ambiguous.

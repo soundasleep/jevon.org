@@ -8,10 +8,7 @@ tags:
   - Technology
   - Code Snippets
 redirect_from:
-  - "/wiki/gmf_troubleshooting_7"
-  - "/wiki/Gmf Troubleshooting 7"
-  - "/wiki/gmf troubleshooting 7"
-  - "/wiki/Gmf_Troubleshooting_7"
+  - "/wiki/GMF Troubleshooting 7"
 ---
 
 **My gmfgen is generating code that refers to an ItemProviderAdapterFactory that does not exist.**

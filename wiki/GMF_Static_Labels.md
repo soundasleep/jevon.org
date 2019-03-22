@@ -7,10 +7,7 @@ tags:
   - GMF
   - Technology
 redirect_from:
-  - "/wiki/gmf_static_labels"
-  - "/wiki/Gmf Static Labels"
-  - "/wiki/gmf static labels"
-  - "/wiki/Gmf_Static_Labels"
+  - "/wiki/GMF Static Labels"
 ---
 
 Yet another article on [GMF](GMF.md).

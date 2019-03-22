@@ -7,10 +7,7 @@ tags:
   - GMF
   - Java
 redirect_from:
-  - "/wiki/having_multiple_containments_of_the_same_domain_element_in_gmf"
-  - "/wiki/Having Multiple Containments Of The Same Domain Element In Gmf"
-  - "/wiki/having multiple containments of the same domain element in gmf"
-  - "/wiki/Having_Multiple_Containments_Of_The_Same_Domain_Element_In_Gmf"
+  - "/wiki/Having Multiple Containments of the Same Domain Element in GMF"
 ---
 
 {% include gmf-CSS.md %}[GMF](GMF.md)

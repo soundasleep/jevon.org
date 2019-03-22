@@ -7,10 +7,7 @@ tags:
   - Git
   - Windows
 redirect_from:
-  - "/wiki/getting_git_to_work_over_ssh_in_windows"
-  - "/wiki/Getting Git To Work Over Ssh In Windows"
-  - "/wiki/getting git to work over ssh in windows"
-  - "/wiki/Getting_Git_To_Work_Over_Ssh_In_Windows"
+  - "/wiki/Getting Git to work over SSH in Windows"
 ---
 
 [Git](Git.md) / [Windows](Windows.md)

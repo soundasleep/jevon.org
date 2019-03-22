@@ -7,9 +7,7 @@ tags:
   - Code Snippets
   - Todo
 redirect_from:
-  - "/wiki/crocopat_pygments_lexer"
   - "/wiki/Crocopat Pygments Lexer"
-  - "/wiki/crocopat pygments lexer"
 ---
 
 [Python](Python.md) / [Latex](Latex.md)

@@ -6,10 +6,7 @@ date:   2009-07-23 11:05:12 +12:00
 tags:
   - Eclipse
 redirect_from:
-  - "/wiki/launching_failed"
-  - "/wiki/Launching Failed"
-  - "/wiki/launching failed"
-  - "/wiki/Launching_Failed"
+  - "/wiki/Launching failed. Bootstrap code cannot be found."
 ---
 
 [Eclipse](Eclipse.md)

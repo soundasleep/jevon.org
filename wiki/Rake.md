@@ -5,8 +5,6 @@ author: jevon
 date:   2014-09-11 16:43:03 +12:00
 tags:
   - Ruby
-redirect_from:
-  - "/wiki/rake"
 ---
 
 [Ruby](ruby.md)

@@ -5,9 +5,6 @@ author: jevon
 date:   2012-08-12 20:03:18 +12:00
 tags:
   - Technology
-redirect_from:
-  - "/wiki/xml"
-  - "/wiki/Xml"
 ---
 
 Related XML technologies:

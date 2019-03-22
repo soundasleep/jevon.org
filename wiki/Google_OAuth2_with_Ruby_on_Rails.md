@@ -8,10 +8,7 @@ tags:
   - Ruby
   - OAuth2
 redirect_from:
-  - "/wiki/google_oauth2_with_ruby_on_rails"
-  - "/wiki/Google Oauth2 With Ruby On Rails"
-  - "/wiki/google oauth2 with ruby on rails"
-  - "/wiki/Google_Oauth2_With_Ruby_On_Rails"
+  - "/wiki/Google OAuth2 with Ruby on Rails"
 ---
 
 [Ruby on Rails](Ruby_on_Rails.md) / [OAuth2](oauth2.md)

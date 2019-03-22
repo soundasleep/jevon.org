@@ -4,8 +4,6 @@ title:  Winamp
 author: jevon
 date:   2008-06-09 09:11:39 +12:00
 tags: []
-redirect_from:
-  - "/wiki/winamp"
 ---
 
 [Winamp](winamp.md) is a cool free music player for [Windows](windows.md) available at www.winamp.com.

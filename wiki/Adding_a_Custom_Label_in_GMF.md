@@ -7,10 +7,7 @@ tags:
   - GMF
   - Technology
 redirect_from:
-  - "/wiki/adding_a_custom_label_in_gmf"
-  - "/wiki/Adding A Custom Label In Gmf"
-  - "/wiki/adding a custom label in gmf"
-  - "/wiki/Adding_A_Custom_Label_In_Gmf"
+  - "/wiki/Adding a Custom Label in GMF"
 ---
 
 [GMF](GMF.md) > [GMF Code Samples](GMF_Code_Samples.md)

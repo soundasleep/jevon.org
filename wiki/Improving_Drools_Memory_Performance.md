@@ -6,9 +6,7 @@ date:   2011-05-04 11:50:49 +12:00
 tags:
   - Drools
 redirect_from:
-  - "/wiki/improving_drools_memory_performance"
   - "/wiki/Improving Drools Memory Performance"
-  - "/wiki/improving drools memory performance"
 ---
 
 [Drools](Drools.md)

@@ -6,9 +6,7 @@ date:   2006-03-21 21:32:54 +12:00
 tags:
   - Software
 redirect_from:
-  - "/wiki/text_deformer"
   - "/wiki/Text Deformer"
-  - "/wiki/text deformer"
 ---
 
 [My Software](Software.md)

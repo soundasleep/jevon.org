@@ -6,9 +6,7 @@ date:   2006-03-21 21:32:38 +12:00
 tags:
   - Software
 redirect_from:
-  - "/wiki/galaxy_games_online"
   - "/wiki/Galaxy Games Online"
-  - "/wiki/galaxy games online"
 ---
 
 Galaxy Games Online (GGO) is a role-playing game (RPG), text-based, online game playing tool. It includes fully featured text chat, online/offline capabilities, dynamic character sheets, powerful statistics, an integrated programming language, and much more. It's free to use, and comes with a comprehensive help file and sample character sheets.

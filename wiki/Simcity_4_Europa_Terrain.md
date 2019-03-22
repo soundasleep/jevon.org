@@ -8,9 +8,7 @@ tags:
   - Articles
   - Simcity
 redirect_from:
-  - "/wiki/simcity_4_europa_terrain"
   - "/wiki/Simcity 4 Europa Terrain"
-  - "/wiki/simcity 4 europa terrain"
 ---
 
 [Articles](Articles.md)

@@ -6,9 +6,7 @@ date:   2007-08-14 13:38:29 +12:00
 tags:
   - Download
 redirect_from:
-  - "/wiki/visual_basic_runtimes"
   - "/wiki/Visual Basic Runtimes"
-  - "/wiki/visual basic runtimes"
 ---
 
 [Downloads](Downloads.md)

@@ -6,10 +6,7 @@ date:   2015-02-17 19:12:57 +13:00
 tags:
   - Hardware
 redirect_from:
-  - "/wiki/hp_laserjet_1022n"
-  - "/wiki/Hp Laserjet 1022n"
-  - "/wiki/hp laserjet 1022n"
-  - "/wiki/Hp_Laserjet_1022n"
+  - "/wiki/HP LaserJet 1022n"
 ---
 
 A printer.

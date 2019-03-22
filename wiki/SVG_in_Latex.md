@@ -7,10 +7,7 @@ tags:
   - Latex
   - Code Snippets
 redirect_from:
-  - "/wiki/svg_in_latex"
-  - "/wiki/Svg In Latex"
-  - "/wiki/svg in latex"
-  - "/wiki/Svg_In_Latex"
+  - "/wiki/SVG in Latex"
 ---
 
 [Articles](Articles.md) > [Latex](Latex.md)

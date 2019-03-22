@@ -6,10 +6,7 @@ date:   2010-03-23 10:55:48 +13:00
 tags:
   - Articles
 redirect_from:
-  - "/wiki/installing_php_5"
-  - "/wiki/Installing Php 5"
-  - "/wiki/installing php 5"
-  - "/wiki/Installing_Php_5"
+  - "/wiki/Installing PHP 5.2 on CentOS"
 ---
 
 [Articles](Articles.md) > [Linux](Linux.md)

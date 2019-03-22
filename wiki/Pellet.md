@@ -9,8 +9,6 @@ tags:
   - Reasoners
   - Logic
   - OWL
-redirect_from:
-  - "/wiki/pellet"
 ---
 
 See also [OWL](owl.md), [Jena](jena.md).

@@ -7,10 +7,7 @@ tags:
   - Ruby on Rails
   - Testing
 redirect_from:
-  - "/wiki/enabling_jenkins_support_with_ruby_on_rails_tests"
-  - "/wiki/Enabling Jenkins Support With Ruby On Rails Tests"
-  - "/wiki/enabling jenkins support with ruby on rails tests"
-  - "/wiki/Enabling_Jenkins_Support_With_Ruby_On_Rails_Tests"
+  - "/wiki/Enabling Jenkins support with Ruby on Rails tests"
 ---
 
 [Ruby on Rails](Ruby_on_Rails.md)

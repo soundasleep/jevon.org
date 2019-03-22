@@ -8,9 +8,6 @@ tags:
   - Languages
   - PHP
   - Programming Snippets
-redirect_from:
-  - "/wiki/php"
-  - "/wiki/Php"
 ---
 
 [Articles](articles.md)

@@ -8,8 +8,6 @@ tags:
   - Ruby
   - Hosting
   - Web Development
-redirect_from:
-  - "/wiki/heroku"
 ---
 
 [Heroku](heroku.md) is a free cloud hosting service that lets you scale and things.

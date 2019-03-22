@@ -8,10 +8,7 @@ tags:
   - EMF
   - Code Snippets
 redirect_from:
-  - "/wiki/dynamic_templates_in_emf"
-  - "/wiki/Dynamic Templates In Emf"
-  - "/wiki/dynamic templates in emf"
-  - "/wiki/Dynamic_Templates_In_Emf"
+  - "/wiki/Dynamic Templates in EMF"
 ---
 
 This is the ability to use [Dynamic Templates](Dynamic_Templates.md) when generating the model generated automatically by the [EMF](EMF.md) framework. 

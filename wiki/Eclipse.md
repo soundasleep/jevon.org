@@ -6,8 +6,6 @@ date:   2013-02-11 18:34:12 +13:00
 tags:
   - Article
   - Technology
-redirect_from:
-  - "/wiki/eclipse"
 ---
 
 [Articles](articles.md)

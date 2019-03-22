@@ -7,10 +7,7 @@ tags:
   - EmberJS
   - Javascript
 redirect_from:
-  - "/wiki/capturing_emberjs_errors_with_raygun"
-  - "/wiki/Capturing Emberjs Errors With Raygun"
-  - "/wiki/capturing emberjs errors with raygun"
-  - "/wiki/Capturing_Emberjs_Errors_With_Raygun"
+  - "/wiki/Capturing EmberJS errors with Raygun.io"
 ---
 
 [EmberJS](EmberJS.md)

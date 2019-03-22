@@ -5,8 +5,6 @@ author: jevon
 date:   2013-12-02 15:01:12 +13:00
 tags:
   - Internet
-redirect_from:
-  - "/wiki/apache"
 ---
 
 [Apache](apache.md) is a web server.

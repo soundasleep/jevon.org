@@ -5,9 +5,6 @@ author: jevon
 date:   2016-06-02 16:25:08 +12:00
 tags:
   - Technology
-redirect_from:
-  - "/wiki/mysql"
-  - "/wiki/Mysql"
 ---
 
 [MySQL](mysql.md) is a free [SQL](sql.md) relational database for [Windows](windows.md), [Linux](linux.md) etc.

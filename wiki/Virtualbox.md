@@ -5,8 +5,6 @@ author: jevon
 date:   2014-09-23 21:05:18 +12:00
 tags:
   - Linux
-redirect_from:
-  - "/wiki/virtualbox"
 ---
 
 [Virtualbox](virtualbox.md) allows you to run a [VM](vm.md) for [Linux](linux.md), [Windows](windows.md) or anything else.

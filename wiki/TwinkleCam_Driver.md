@@ -6,10 +6,7 @@ date:   2007-08-14 13:31:16 +12:00
 tags:
   - Download
 redirect_from:
-  - "/wiki/twinklecam_driver"
-  - "/wiki/Twinklecam Driver"
-  - "/wiki/twinklecam driver"
-  - "/wiki/Twinklecam_Driver"
+  - "/wiki/TwinkleCam Driver"
 ---
 
 [Downloads](Downloads.md)

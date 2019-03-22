@@ -6,8 +6,6 @@ date:   2013-12-02 21:00:32 +13:00
 tags:
   - Software
   - Web
-redirect_from:
-  - "/wiki/Awstats"
 ---
 
 [awstats](awstats.md) is a web statistics program.

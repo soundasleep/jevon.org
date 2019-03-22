@@ -7,10 +7,7 @@ tags:
   - Article
   - Troubleshooting
 redirect_from:
-  - "/wiki/installing_soundblaster_live!_drivers_in_windows_xp"
-  - "/wiki/Installing Soundblaster Live! Drivers In Windows Xp"
-  - "/wiki/installing soundblaster live! drivers in windows xp"
-  - "/wiki/Installing_Soundblaster_Live!_Drivers_In_Windows_Xp"
+  - "/wiki/Installing Soundblaster Live! Drivers in Windows XP"
 ---
 
 [Articles](Articles.md)

@@ -8,8 +8,6 @@ tags:
   - Programming Snippets
   - Technology
   - Javascript
-redirect_from:
-  - "/wiki/javascript"
 ---
 
 Also see [Coffeescript](coffeescript.md).

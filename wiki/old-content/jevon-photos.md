@@ -5,8 +5,6 @@ author: jevon
 date:   2007-11-21 12:15:19 +13:00
 tags:
   - Jevon
-redirect_from:
-  - "/wiki/old-content/Jevon-photos"
 ---
 
 {% include old-content-header.md %}

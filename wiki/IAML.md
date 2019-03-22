@@ -6,9 +6,6 @@ date:   2008-07-30 08:44:34 +12:00
 tags:
   - Research
   - Technology
-redirect_from:
-  - "/wiki/iaml"
-  - "/wiki/Iaml"
 ---
 
 [Research](research.md)

@@ -8,9 +8,7 @@ tags:
   - Template Languages
   - TODO
 redirect_from:
-  - "/wiki/freemarker_templates"
   - "/wiki/Freemarker Templates"
-  - "/wiki/freemarker templates"
 ---
 
 See [FTL](FTL.md).

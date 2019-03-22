@@ -6,10 +6,7 @@ date:   2006-09-02 06:57:30 +12:00
 tags:
   - Article
 redirect_from:
-  - "/wiki/changing_your_msn_colour"
-  - "/wiki/Changing Your Msn Colour"
-  - "/wiki/changing your msn colour"
-  - "/wiki/Changing_Your_Msn_Colour"
+  - "/wiki/Changing your MSN Colour"
 ---
 
 [Articles](Articles.md)

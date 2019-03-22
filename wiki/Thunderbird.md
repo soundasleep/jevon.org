@@ -5,8 +5,6 @@ author: jevon
 date:   2013-11-24 13:31:45 +13:00
 tags:
   - Applications
-redirect_from:
-  - "/wiki/thunderbird"
 ---
 
 An [email](email.md) client from [Mozilla](mozilla.md).

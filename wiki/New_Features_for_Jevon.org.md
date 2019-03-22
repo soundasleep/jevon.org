@@ -6,10 +6,7 @@ date:   2013-01-07 01:14:34 +13:00
 tags:
   - TODO
 redirect_from:
-  - "/wiki/new_features_for_jevon"
-  - "/wiki/New Features For Jevon"
-  - "/wiki/new features for jevon"
-  - "/wiki/New_Features_For_Jevon"
+  - "/wiki/New Features for Jevon.org"
 ---
 
 Some ideas that I'd like to implement for the new Jevon.org...

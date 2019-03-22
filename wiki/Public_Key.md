@@ -7,9 +7,7 @@ tags:
   - Security
   - Privacy
 redirect_from:
-  - "/wiki/public_key"
   - "/wiki/Public Key"
-  - "/wiki/public key"
 ---
 
 --

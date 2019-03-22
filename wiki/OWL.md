@@ -6,9 +6,6 @@ date:   2011-07-12 11:21:25 +12:00
 tags:
   - Semantic
   - OWL
-redirect_from:
-  - "/wiki/owl"
-  - "/wiki/Owl"
 ---
 
 [OWL](owl.md) is the [Web Ontology Language](web-ontology-language.md).

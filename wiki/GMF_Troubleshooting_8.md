@@ -8,10 +8,7 @@ tags:
   - Technology
   - Code Snippets
 redirect_from:
-  - "/wiki/gmf_troubleshooting_8"
-  - "/wiki/Gmf Troubleshooting 8"
-  - "/wiki/gmf troubleshooting 8"
-  - "/wiki/Gmf_Troubleshooting_8"
+  - "/wiki/GMF Troubleshooting 8"
 ---
 
 **My diagram editor is rendering elements that are not contained within the current diagram**

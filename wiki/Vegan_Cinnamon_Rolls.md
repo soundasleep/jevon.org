@@ -6,9 +6,7 @@ date:   2011-11-16 07:17:13 +13:00
 tags:
   - Recipes
 redirect_from:
-  - "/wiki/vegan_cinnamon_rolls"
   - "/wiki/Vegan Cinnamon Rolls"
-  - "/wiki/vegan cinnamon rolls"
 ---
 
 [Recipes](Recipes.md)

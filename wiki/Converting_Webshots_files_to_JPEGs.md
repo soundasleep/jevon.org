@@ -6,10 +6,7 @@ date:   2007-03-19 12:00:07 +12:00
 tags:
   - Article
 redirect_from:
-  - "/wiki/converting_webshots_files_to_jpegs"
-  - "/wiki/Converting Webshots Files To Jpegs"
-  - "/wiki/converting webshots files to jpegs"
-  - "/wiki/Converting_Webshots_Files_To_Jpegs"
+  - "/wiki/Converting Webshots files to JPEGs"
 ---
 
 [Articles](Articles.md)

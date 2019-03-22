@@ -8,10 +8,7 @@ tags:
   - Todo
   - Archived
 redirect_from:
-  - "/wiki/icq_contacts_in_xml"
-  - "/wiki/Icq Contacts In Xml"
-  - "/wiki/icq contacts in xml"
-  - "/wiki/Icq_Contacts_In_Xml"
+  - "/wiki/ICQ Contacts in XML"
 ---
 
 It takes this page:

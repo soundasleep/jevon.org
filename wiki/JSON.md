@@ -6,9 +6,6 @@ date:   2014-04-02 14:58:39 +13:00
 tags:
   - JSON
   - Web Development
-redirect_from:
-  - "/wiki/json"
-  - "/wiki/Json"
 ---
 
 [JSON](json.md) is a structured data format based in [Javascript](javascript.md) and similar to [YAML](yaml.md) (and in some ways, [XML](xml.md), but it lacks namespaces and validation and stylesheets).

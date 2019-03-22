@@ -5,8 +5,6 @@ author: jevon
 date:   2014-04-17 17:57:38 +12:00
 tags:
   - PHP
-redirect_from:
-  - "/wiki/composer"
 ---
 
 [PHP](php.md)

@@ -5,8 +5,6 @@ author: jevon
 date:   2007-08-14 13:18:25 +12:00
 tags:
   - Software
-redirect_from:
-  - "/wiki/software/Clipboard-set"
 ---
 
 [My Software](software.md)

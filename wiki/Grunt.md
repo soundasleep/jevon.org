@@ -7,8 +7,6 @@ tags:
   - Javascript
   - Coffeescript
   - Build tools
-redirect_from:
-  - "/wiki/grunt"
 ---
 
 [Grunt](grunt.md) is a build tool much like [Ant](ant.md) or [Maven](maven.md), but using the beauty of [Javascript](javascript.md).

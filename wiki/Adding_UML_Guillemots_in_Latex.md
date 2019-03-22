@@ -6,10 +6,7 @@ date:   2011-07-19 15:20:58 +12:00
 tags:
   - Latex
 redirect_from:
-  - "/wiki/adding_uml_guillemots_in_latex"
-  - "/wiki/Adding Uml Guillemots In Latex"
-  - "/wiki/adding uml guillemots in latex"
-  - "/wiki/Adding_Uml_Guillemots_In_Latex"
+  - "/wiki/Adding UML Guillemots in Latex"
 ---
 
 [Latex](Latex.md){% include gmf-CSS.md %}

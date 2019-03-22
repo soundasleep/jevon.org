@@ -5,9 +5,6 @@ author: jevon
 date:   2013-02-17 20:40:48 +13:00
 tags:
   - Technology
-redirect_from:
-  - "/wiki/emf"
-  - "/wiki/Emf"
 ---
 
 [EMF](emf.md) is the [Eclipse](eclipse.md) Modelling Framework. It is based on the [Ecore](ecore.md) metamodelling language. Also have a look at [GMF](gmf.md) for the Graphical Modelling Framework. Also see [openArchitectureWare](openarchitectureware.md).

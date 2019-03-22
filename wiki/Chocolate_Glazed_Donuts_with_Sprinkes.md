@@ -6,10 +6,7 @@ date:   2007-09-14 12:05:56 +12:00
 tags:
   - Recipes
 redirect_from:
-  - "/wiki/chocolate_glazed_donuts_with_sprinkes"
-  - "/wiki/Chocolate Glazed Donuts With Sprinkes"
-  - "/wiki/chocolate glazed donuts with sprinkes"
-  - "/wiki/Chocolate_Glazed_Donuts_With_Sprinkes"
+  - "/wiki/Chocolate Glazed Donuts with Sprinkes"
 ---
 
 [Recipes](Recipes.md)

@@ -6,10 +6,7 @@ date:   2007-08-14 13:32:16 +12:00
 tags:
   - Download
 redirect_from:
-  - "/wiki/pitchfork_for_winamp"
-  - "/wiki/Pitchfork For Winamp"
-  - "/wiki/pitchfork for winamp"
-  - "/wiki/Pitchfork_For_Winamp"
+  - "/wiki/Pitchfork for Winamp"
 ---
 
 [Downloads](Downloads.md)

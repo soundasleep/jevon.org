@@ -6,9 +6,6 @@ date:   2014-05-14 22:29:55 +12:00
 tags:
   - Technology
   - Internet
-redirect_from:
-  - "/wiki/css"
-  - "/wiki/Css"
 ---
 
 Cascading Stylesheets is a way to specify presentational aspects of [HTML](html.md) pages. See also [SASS](sass.md)

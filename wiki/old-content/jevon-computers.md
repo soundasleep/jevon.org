@@ -6,8 +6,6 @@ date:   2007-11-21 12:17:34 +13:00
 tags:
   - Jevon
   - Computers
-redirect_from:
-  - "/wiki/old-content/Jevon-computers"
 ---
 
 {% include old-content-header.md %}

@@ -6,10 +6,7 @@ date:   2015-02-11 17:46:50 +13:00
 tags:
   - Ubuntu
 redirect_from:
-  - "/wiki/why_i_switched_back_from_ubuntu_to_windows_7"
-  - "/wiki/Why I Switched Back From Ubuntu To Windows 7"
-  - "/wiki/why i switched back from ubuntu to windows 7"
-  - "/wiki/Why_I_Switched_Back_From_Ubuntu_To_Windows_7"
+  - "/wiki/Why I switched back from Ubuntu to Windows 7"
 ---
 
 I tried [Ubuntu](Ubuntu.md) 14.04 LTS at work pretty seriously for a couple of months on my [Lenovo T430s laptop](Computer.md). I really wanted it to work out and found <a href="https://delicious.com/jevonwright/ubuntu">a lot of tricks and guides</a> to clean up the default install; [Ruby](Ruby.md) development on [Windows](Windows.md) is a pain and package management with `apt` is very comfortable.

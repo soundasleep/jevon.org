@@ -9,10 +9,7 @@ tags:
   - Web development
   - JSON
 redirect_from:
-  - "/wiki/creating_a_json_callback_page_in_a_drupal_module"
-  - "/wiki/Creating A Json Callback Page In A Drupal Module"
-  - "/wiki/creating a json callback page in a drupal module"
-  - "/wiki/Creating_A_Json_Callback_Page_In_A_Drupal_Module"
+  - "/wiki/Creating a JSON callback page in a Drupal module"
 ---
 
 [Drupal](Drupal.md)

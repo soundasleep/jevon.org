@@ -8,9 +8,6 @@ tags:
   - Linux
   - Networking
   - Troubleshooting
-redirect_from:
-  - "/wiki/ipv6"
-  - "/wiki/Ipv6"
 ---
 
 ## Setting up IPv6 on a [Linode](linode.md) node

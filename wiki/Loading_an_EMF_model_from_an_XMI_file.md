@@ -8,10 +8,7 @@ tags:
   - EMF
   - Code Samples
 redirect_from:
-  - "/wiki/loading_an_emf_model_from_an_xmi_file"
-  - "/wiki/Loading An Emf Model From An Xmi File"
-  - "/wiki/loading an emf model from an xmi file"
-  - "/wiki/Loading_An_Emf_Model_From_An_Xmi_File"
+  - "/wiki/Loading an EMF model from an XMI file"
 ---
 
 [GMF Code Samples](GMF_Code_Samples.md) / [GMF](GMF.md) / [EMF](EMF.md)

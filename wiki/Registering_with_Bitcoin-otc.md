@@ -8,10 +8,7 @@ tags:
   - Trust
   - Cryptocurrencies
 redirect_from:
-  - "/wiki/registering_with_bitcoin-otc"
-  - "/wiki/Registering With Bitcoin-otc"
-  - "/wiki/registering with bitcoin-otc"
-  - "/wiki/Registering_With_Bitcoin-otc"
+  - "/wiki/Registering with Bitcoin-otc"
 ---
 
 [Bitcoin](Bitcoin.md)

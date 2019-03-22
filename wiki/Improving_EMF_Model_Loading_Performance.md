@@ -8,10 +8,7 @@ tags:
   - Eclipse
   - EMF
 redirect_from:
-  - "/wiki/improving_emf_model_loading_performance"
-  - "/wiki/Improving Emf Model Loading Performance"
-  - "/wiki/improving emf model loading performance"
-  - "/wiki/Improving_Emf_Model_Loading_Performance"
+  - "/wiki/Improving EMF Model Loading Performance"
 ---
 
 [EMF](EMF.md)

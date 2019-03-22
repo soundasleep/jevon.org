@@ -6,10 +6,7 @@ date:   2008-10-02 16:41:43 +13:00
 tags:
   - GMF
 redirect_from:
-  - "/wiki/gmf_refactoring"
-  - "/wiki/Gmf Refactoring"
-  - "/wiki/gmf refactoring"
-  - "/wiki/Gmf_Refactoring"
+  - "/wiki/GMF Refactoring"
 ---
 
 [GMF](GMF.md)

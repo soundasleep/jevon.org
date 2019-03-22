@@ -7,10 +7,7 @@ tags:
   - GMF
   - Technology
 redirect_from:
-  - "/wiki/programatically_opening_a_sub-diagram_in_gmf"
-  - "/wiki/Programatically Opening A Sub-diagram In Gmf"
-  - "/wiki/programatically opening a sub-diagram in gmf"
-  - "/wiki/Programatically_Opening_A_Sub-diagram_In_Gmf"
+  - "/wiki/Programatically opening a sub-diagram in GMF"
 ---
 
 [GMF](GMF.md)

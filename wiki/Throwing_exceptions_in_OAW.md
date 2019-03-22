@@ -8,10 +8,7 @@ tags:
   - Code samples
   - Technology
 redirect_from:
-  - "/wiki/throwing_exceptions_in_oaw"
-  - "/wiki/Throwing Exceptions In Oaw"
-  - "/wiki/throwing exceptions in oaw"
-  - "/wiki/Throwing_Exceptions_In_Oaw"
+  - "/wiki/Throwing exceptions in OAW"
 ---
 
 [openArchitectureWare](openArchitectureWare.md)

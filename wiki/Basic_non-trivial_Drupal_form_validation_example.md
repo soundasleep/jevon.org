@@ -7,10 +7,7 @@ tags:
   - Drupal
   - PHP
 redirect_from:
-  - "/wiki/basic_non-trivial_drupal_form_validation_example"
-  - "/wiki/Basic Non-trivial Drupal Form Validation Example"
-  - "/wiki/basic non-trivial drupal form validation example"
-  - "/wiki/Basic_Non-trivial_Drupal_Form_Validation_Example"
+  - "/wiki/Basic non-trivial Drupal form validation example"
 ---
 
 [Drupal](Drupal.md)

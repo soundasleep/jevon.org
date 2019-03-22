@@ -8,10 +8,7 @@ tags:
   - Tomcat
   - J2EE
 redirect_from:
-  - "/wiki/installing_ssl_on_tomcat_7"
-  - "/wiki/Installing Ssl On Tomcat 7"
-  - "/wiki/installing ssl on tomcat 7"
-  - "/wiki/Installing_Ssl_On_Tomcat_7"
+  - "/wiki/Installing SSL on Tomcat 7"
 ---
 
 --

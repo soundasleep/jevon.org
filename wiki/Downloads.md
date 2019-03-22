@@ -5,8 +5,6 @@ author: jevon
 date:   2007-08-14 12:45:39 +12:00
 tags:
   - Downloads
-redirect_from:
-  - "/wiki/downloads"
 ---
 
 Here are some random downloads that are lying around my web server. Enjoy! Or go back [home](home.md).

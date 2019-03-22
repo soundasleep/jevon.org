@@ -5,8 +5,6 @@ author: jevon
 date:   2013-02-17 20:39:46 +13:00
 tags:
   - Java
-redirect_from:
-  - "/wiki/debug"
 ---
 
 Did you mean:

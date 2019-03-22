@@ -8,8 +8,6 @@ tags:
   - Liferay
   - Tomcat
   - J2EE
-redirect_from:
-  - "/wiki/liferay"
 ---
 
 [Liferay](liferay.md) is a [portlet](portlet.md) and web application server written in [Java](java.md).

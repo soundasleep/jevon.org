@@ -8,10 +8,7 @@ tags:
   - Technology
   - Code Snippets
 redirect_from:
-  - "/wiki/gmf_troubleshooting_6"
-  - "/wiki/Gmf Troubleshooting 6"
-  - "/wiki/gmf troubleshooting 6"
-  - "/wiki/Gmf_Troubleshooting_6"
+  - "/wiki/GMF Troubleshooting 6"
 ---
 
 **Converting from an IFile to an EMF resource in order to load a diagram file programatically**

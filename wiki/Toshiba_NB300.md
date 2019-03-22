@@ -7,10 +7,7 @@ tags:
   - Hardware
   - Article
 redirect_from:
-  - "/wiki/toshiba_nb300"
-  - "/wiki/Toshiba Nb300"
-  - "/wiki/toshiba nb300"
-  - "/wiki/Toshiba_Nb300"
+  - "/wiki/Toshiba NB300"
 ---
 
 The [Toshiba NB300](Toshiba_NB300.md) is a netbook that I just bought.

@@ -6,9 +6,7 @@ date:   2013-01-07 01:24:46 +13:00
 tags:
   - Technology
 redirect_from:
-  - "/wiki/stop_internet_explorer"
   - "/wiki/Stop Internet Explorer"
-  - "/wiki/stop internet explorer"
 ---
 
 Alright, that's it, I've had enough of this "browser" called [Internet Explorer](internet-explorer.md).

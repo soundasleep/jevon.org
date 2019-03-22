@@ -8,8 +8,6 @@ tags:
   - Technology
   - Rules
   - Drools
-redirect_from:
-  - "/wiki/drools"
 ---
 
 A [rule engine](rule-engine.md) for [Java](java.md).

@@ -6,9 +6,7 @@ date:   2011-03-30 08:17:27 +13:00
 tags:
   - Code Snippets
 redirect_from:
-  - "/wiki/xtend_pygments_style"
   - "/wiki/Xtend Pygments Style"
-  - "/wiki/xtend pygments style"
 ---
 
 [Python](Python.md) / [Latex](Latex.md) / [openArchitectureWare](openArchitectureWare.md)

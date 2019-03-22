@@ -6,10 +6,7 @@ date:   2009-07-20 12:46:41 +12:00
 tags:
   - GMF
 redirect_from:
-  - "/wiki/enabling_dynamic_templates_in_gmf"
-  - "/wiki/Enabling Dynamic Templates In Gmf"
-  - "/wiki/enabling dynamic templates in gmf"
-  - "/wiki/Enabling_Dynamic_Templates_In_Gmf"
+  - "/wiki/Enabling Dynamic Templates in GMF"
 ---
 
 Also known as [Aspect Oriented Programming](aspect-oriented-programming.md), [GMF](GMF.md) allows you to specify a location for custom _dynamic templates_, which are compiled and added to your plugin when the .gmfgen is being used to generate the diagram code.

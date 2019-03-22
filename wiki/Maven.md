@@ -7,8 +7,6 @@ tags:
   - Building
   - Releasing
   - Tools
-redirect_from:
-  - "/wiki/maven"
 ---
 
 **[INFO] Cannot find matching toolchain definitions for the following toolchain types:**

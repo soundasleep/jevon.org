@@ -6,10 +6,7 @@ date:   2007-04-12 12:27:18 +12:00
 tags:
   - Article
 redirect_from:
-  - "/wiki/setting_up_a_networked_laserjet_4m_printer"
-  - "/wiki/Setting Up A Networked Laserjet 4m Printer"
-  - "/wiki/setting up a networked laserjet 4m printer"
-  - "/wiki/Setting_Up_A_Networked_Laserjet_4m_Printer"
+  - "/wiki/Setting up a Networked Laserjet 4M Printer"
 ---
 
 -

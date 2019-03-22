@@ -5,9 +5,6 @@ author: jevon
 date:   2011-05-11 08:09:45 +12:00
 tags:
   - Technology
-redirect_from:
-  - "/wiki/gmf"
-  - "/wiki/Gmf"
 ---
 
 [GMF](gmf.md) is the Graphical Modelling Framework used in Eclipse; also see [EMF](emf.md) for the framework itself.

@@ -5,8 +5,6 @@ author: jevon
 date:   2013-01-07 02:45:24 +13:00
 tags:
   - Redirect
-redirect_from:
-  - "/wiki/jevon"
 ---
 
 #REDIRECT [Jevon Wright](jevon-wright.md)

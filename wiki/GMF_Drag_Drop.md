@@ -7,10 +7,7 @@ tags:
   - GMF
   - Technology
 redirect_from:
-  - "/wiki/gmf_drag_drop"
-  - "/wiki/Gmf Drag Drop"
-  - "/wiki/gmf drag drop"
-  - "/wiki/Gmf_Drag_Drop"
+  - "/wiki/GMF Drag Drop"
 ---
 
 Part of a never-ending series of articles on [GMF](GMF.md).

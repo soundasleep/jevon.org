@@ -6,10 +6,7 @@ date:   2013-02-17 20:36:36 +13:00
 tags:
   - Games
 redirect_from:
-  - "/wiki/black_sun_in_morrowind_steam"
-  - "/wiki/Black Sun In Morrowind Steam"
-  - "/wiki/black sun in morrowind steam"
-  - "/wiki/Black_Sun_In_Morrowind_Steam"
+  - "/wiki/Black Sun in Morrowind Steam"
 ---
 
 [Morrowind](morrowind.md) is a computer game. When I bought my copy off [Steam](steam.md), I had "the issue" with the sun appearing black. After some time, this is what was finally necessary to run it in [widescreen](widescreen.md) on [Windows 7](windows-7.md), and without the black sun:

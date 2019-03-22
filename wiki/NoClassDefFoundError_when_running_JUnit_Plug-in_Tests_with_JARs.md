@@ -7,10 +7,7 @@ tags:
   - Eclipse
   - Java
 redirect_from:
-  - "/wiki/noclassdeffounderror_when_running_junit_plug-in_tests_with_jars"
-  - "/wiki/Noclassdeffounderror When Running Junit Plug-in Tests With Jars"
-  - "/wiki/noclassdeffounderror when running junit plug-in tests with jars"
-  - "/wiki/Noclassdeffounderror_When_Running_Junit_Plug-in_Tests_With_Jars"
+  - "/wiki/NoClassDefFoundError when running JUnit Plug-in Tests with JARs"
 ---
 
 [Eclipse](Eclipse.md)

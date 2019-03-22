@@ -8,9 +8,6 @@ tags:
   - Testing
   - Code Snippets
   - Articles
-redirect_from:
-  - "/wiki/jwebunit"
-  - "/wiki/Jwebunit"
 ---
 
 [Articles](articles.md)

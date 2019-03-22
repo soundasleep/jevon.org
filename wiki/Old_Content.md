@@ -8,9 +8,7 @@ tags:
   - Articles
   - Todo
 redirect_from:
-  - "/wiki/old_content"
   - "/wiki/Old Content"
-  - "/wiki/old content"
 ---
 
 [Articles](Articles.md)

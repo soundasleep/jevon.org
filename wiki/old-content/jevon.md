@@ -6,8 +6,6 @@ date:   2007-11-21 12:15:02 +13:00
 tags:
   - Old
   - Jevon
-redirect_from:
-  - "/wiki/old-content/Jevon"
 ---
 
 fallen.md)

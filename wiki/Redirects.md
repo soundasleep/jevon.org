@@ -5,8 +5,6 @@ author: jevon
 date:   2013-09-11 20:10:35 +12:00
 tags:
   - Protected
-redirect_from:
-  - "/wiki/redirects"
 ---
 
 This is a list of redirects that visitors to the old Jevon.org will come across. They are applied in order (with regular expression matching). Hits that don't match these will show up in [Redirects Broken](redirects-broken.md).

@@ -8,9 +8,7 @@ tags:
   - Apache
   - PHP
 redirect_from:
-  - "/wiki/articles/Using-mod Rewrite-with-php"
   - "/wiki/articles/using-mod rewrite-with-php"
-  - "/wiki/articles/Using-mod_Rewrite-with-php"
 ---
 
 [Articles](articles.md)

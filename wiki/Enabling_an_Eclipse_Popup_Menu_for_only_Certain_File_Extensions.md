@@ -8,10 +8,7 @@ tags:
   - Java
   - Technology
 redirect_from:
-  - "/wiki/enabling_an_eclipse_popup_menu_for_only_certain_file_extensions"
-  - "/wiki/Enabling An Eclipse Popup Menu For Only Certain File Extensions"
-  - "/wiki/enabling an eclipse popup menu for only certain file extensions"
-  - "/wiki/Enabling_An_Eclipse_Popup_Menu_For_Only_Certain_File_Extensions"
+  - "/wiki/Enabling an Eclipse Popup Menu for only Certain File Extensions"
 ---
 
 [Eclipse](Eclipse.md)

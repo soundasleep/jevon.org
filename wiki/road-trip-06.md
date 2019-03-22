@@ -5,8 +5,6 @@ author: jevon
 date:   2006-01-21 11:21:00 +13:00
 tags:
   - Protected
-redirect_from:
-  - "/wiki/Road-trip-06"
 ---
 
 ## February [2006](2006.md)

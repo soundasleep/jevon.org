@@ -6,7 +6,7 @@ date:   2011-09-26 17:37:44 +13:00
 tags:
   - Java
 redirect_from:
-  - "/wiki/runtime"
+  - "/wiki/Runtime.exec returns -1073741515 when providing environment variables"
 ---
 
 [Java](Java.md)

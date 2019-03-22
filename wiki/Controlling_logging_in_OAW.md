@@ -8,10 +8,7 @@ tags:
   - OAW
   - Java
 redirect_from:
-  - "/wiki/controlling_logging_in_oaw"
-  - "/wiki/Controlling Logging In Oaw"
-  - "/wiki/controlling logging in oaw"
-  - "/wiki/Controlling_Logging_In_Oaw"
+  - "/wiki/Controlling logging in OAW"
 ---
 
 [openArchitectureWare](openArchitectureWare.md)

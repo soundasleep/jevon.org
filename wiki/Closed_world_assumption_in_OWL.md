@@ -7,10 +7,7 @@ tags:
   - OWL
   - Semantic Web
 redirect_from:
-  - "/wiki/closed_world_assumption_in_owl"
-  - "/wiki/Closed World Assumption In Owl"
-  - "/wiki/closed world assumption in owl"
-  - "/wiki/Closed_World_Assumption_In_Owl"
+  - "/wiki/Closed world assumption in OWL"
 ---
 
 [OWL](OWL.md)

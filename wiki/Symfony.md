@@ -8,8 +8,6 @@ tags:
   - Language
   - Programming
   - Web Development
-redirect_from:
-  - "/wiki/symfony"
 ---
 
 110816 15:53:44 Error in foreign key constraint of table ticketsfmini/ticket:

@@ -6,8 +6,6 @@ date:   2014-06-03 17:32:36 +12:00
 tags:
   - EmberJS
   - Javascript
-redirect_from:
-  - "/wiki/Extending-app-reset-in-emberjs"
 ---
 
 [EmberJS](emberjs.md)

@@ -7,10 +7,7 @@ tags:
   - Linux
   - Ubuntu
 redirect_from:
-  - "/wiki/setting_up_a_samba_client_on_ubuntu_12"
-  - "/wiki/Setting Up A Samba Client On Ubuntu 12"
-  - "/wiki/setting up a samba client on ubuntu 12"
-  - "/wiki/Setting_Up_A_Samba_Client_On_Ubuntu_12"
+  - "/wiki/Setting up a Samba client on Ubuntu 12.04"
 ---
 
 [Linux](Linux.md) / [Ubuntu](Ubuntu.md) / [Samba](samba.md)

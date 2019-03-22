@@ -6,8 +6,6 @@ date:   2007-11-21 12:43:35 +13:00
 tags:
   - Downloads
   - Todo
-redirect_from:
-  - "/wiki/old-content/Downloads"
 ---
 
 {% include old-content-header.md %}

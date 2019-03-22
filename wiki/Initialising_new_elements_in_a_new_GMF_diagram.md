@@ -7,10 +7,7 @@ tags:
   - GMF
   - Code Samples
 redirect_from:
-  - "/wiki/initialising_new_elements_in_a_new_gmf_diagram"
-  - "/wiki/Initialising New Elements In A New Gmf Diagram"
-  - "/wiki/initialising new elements in a new gmf diagram"
-  - "/wiki/Initialising_New_Elements_In_A_New_Gmf_Diagram"
+  - "/wiki/Initialising new elements in a new GMF diagram"
 ---
 
 [GMF](GMF.md)

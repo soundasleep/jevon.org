@@ -8,10 +8,7 @@ tags:
   - Performance
   - Code Snippets
 redirect_from:
-  - "/wiki/improving_the_performance_of_oaw"
-  - "/wiki/Improving The Performance Of Oaw"
-  - "/wiki/improving the performance of oaw"
-  - "/wiki/Improving_The_Performance_Of_Oaw"
+  - "/wiki/Improving the performance of OAW"
 ---
 
 [openArchitectureWare](openArchitectureWare.md)

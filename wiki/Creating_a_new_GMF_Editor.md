@@ -8,10 +8,7 @@ tags:
   - Eclipse
   - GMF
 redirect_from:
-  - "/wiki/creating_a_new_gmf_editor"
-  - "/wiki/Creating A New Gmf Editor"
-  - "/wiki/creating a new gmf editor"
-  - "/wiki/Creating_A_New_Gmf_Editor"
+  - "/wiki/Creating a new GMF Editor"
 ---
 
 Also see [GMF](GMF.md) for more details. Having issues? Look at [GMF Troubleshooting](gmf-troubleshooting.md).

@@ -8,10 +8,7 @@ tags:
   - Games
   - Article
 redirect_from:
-  - "/wiki/rollercoaster_tycoon_on_windows_xp"
-  - "/wiki/Rollercoaster Tycoon On Windows Xp"
-  - "/wiki/rollercoaster tycoon on windows xp"
-  - "/wiki/Rollercoaster_Tycoon_On_Windows_Xp"
+  - "/wiki/Rollercoaster Tycoon on Windows XP"
 ---
 
 ## Problem

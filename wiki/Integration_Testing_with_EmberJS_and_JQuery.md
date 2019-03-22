@@ -8,10 +8,7 @@ tags:
   - Testing
   - EmberJS
 redirect_from:
-  - "/wiki/integration_testing_with_emberjs_and_jquery"
-  - "/wiki/Integration Testing With Emberjs And Jquery"
-  - "/wiki/integration testing with emberjs and jquery"
-  - "/wiki/Integration_Testing_With_Emberjs_And_Jquery"
+  - "/wiki/Integration Testing with EmberJS and JQuery"
 ---
 
 [EmberJS](EmberJS.md) / [JQuery](JQuery.md)

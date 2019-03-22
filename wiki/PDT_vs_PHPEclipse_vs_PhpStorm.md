@@ -8,10 +8,7 @@ tags:
   - IDE
   - Eclipse
 redirect_from:
-  - "/wiki/pdt_vs_phpeclipse_vs_phpstorm"
-  - "/wiki/Pdt Vs Phpeclipse Vs Phpstorm"
-  - "/wiki/pdt vs phpeclipse vs phpstorm"
-  - "/wiki/Pdt_Vs_Phpeclipse_Vs_Phpstorm"
+  - "/wiki/PDT vs PHPEclipse vs PhpStorm"
 ---
 
 I did a quick test of three leading [PHP](PHP.md) editors: [PDT](pdt.md), [PHPEclipse](phpEclipse.md) (both based on [Eclipse](Eclipse.md)), and [PhpStorm](phpstorm.md) (based on IntelliJ). This isn't intended to be a complete review or test, I just wanted to see if I could find a better IDE than [Textpad](Textpad.md).

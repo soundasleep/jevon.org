@@ -7,9 +7,7 @@ tags:
   - Applications
   - IDEs
 redirect_from:
-  - "/wiki/sublime_text_2"
   - "/wiki/Sublime Text 2"
-  - "/wiki/sublime text 2"
 ---
 
 [Sublime Text 2](Sublime_Text_2.md) is a lightweight text-based IDE.

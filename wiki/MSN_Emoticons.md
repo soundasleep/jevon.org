@@ -6,10 +6,7 @@ date:   2007-05-26 12:34:27 +12:00
 tags:
   - Article
 redirect_from:
-  - "/wiki/msn_emoticons"
-  - "/wiki/Msn Emoticons"
-  - "/wiki/msn emoticons"
-  - "/wiki/Msn_Emoticons"
+  - "/wiki/MSN Emoticons"
 ---
 
 In my spare time I create [MSN](MSN.md) emoticons. Here's a collection:

@@ -7,10 +7,7 @@ tags:
   - Operating Systems
   - Software
 redirect_from:
-  - "/wiki/mac_os_x"
-  - "/wiki/Mac Os X"
-  - "/wiki/mac os x"
-  - "/wiki/Mac_Os_X"
+  - "/wiki/Mac OS X"
 ---
 
 [Articles](Articles.md)

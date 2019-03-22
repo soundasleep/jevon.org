@@ -5,9 +5,6 @@ author: jevon
 date:   2014-07-28 17:36:45 +12:00
 tags:
   - Javascript
-redirect_from:
-  - "/wiki/jquery"
-  - "/wiki/Jquery"
 ---
 
 [JQuery](jquery.md) is a [Javascript](javascript.md) framework for interacting with the [DOM](dom.md), doing [AJAX](ajax.md) requests and lots of new modern things.

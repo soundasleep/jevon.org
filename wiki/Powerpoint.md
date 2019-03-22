@@ -5,8 +5,6 @@ author: jevon
 date:   2010-03-31 07:52:17 +13:00
 tags:
   - Software
-redirect_from:
-  - "/wiki/powerpoint"
 ---
 
 [Microsoft](microsoft.md) [Powerpoint](powerpoint.md) is a software for designing and presenting presentations.

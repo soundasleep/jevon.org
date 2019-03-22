@@ -7,10 +7,7 @@ tags:
   - EmberJS
   - Javascript
 redirect_from:
-  - "/wiki/adding_a_select2_view_in_emberjs"
-  - "/wiki/Adding A Select2 View In Emberjs"
-  - "/wiki/adding a select2 view in emberjs"
-  - "/wiki/Adding_A_Select2_View_In_Emberjs"
+  - "/wiki/Adding a Select2 View in EmberJS"
 ---
 
 [EmberJS](EmberJS.md)

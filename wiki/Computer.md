@@ -6,8 +6,6 @@ date:   2016-01-06 19:29:11 +13:00
 tags:
   - Technology
   - Todo
-redirect_from:
-  - "/wiki/computer"
 ---
 
 [About me](jevon-wright.md)

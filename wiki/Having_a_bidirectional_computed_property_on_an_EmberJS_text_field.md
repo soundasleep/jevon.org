@@ -6,10 +6,7 @@ date:   2014-04-01 21:28:52 +13:00
 tags:
   - Javascript
 redirect_from:
-  - "/wiki/having_a_bidirectional_computed_property_on_an_emberjs_text_field"
-  - "/wiki/Having A Bidirectional Computed Property On An Emberjs Text Field"
-  - "/wiki/having a bidirectional computed property on an emberjs text field"
-  - "/wiki/Having_A_Bidirectional_Computed_Property_On_An_Emberjs_Text_Field"
+  - "/wiki/Having a bidirectional computed property on an EmberJS text field"
 ---
 
 [EmberJS](EmberJS.md)
