@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Setting up a Samba client on Ubuntu 12.04"
+title:  Setting up a Samba client on Ubuntu 12.04
 author: jevon
-date:   2014-08-24 19:38:39 +1200
-tags:   [Linux, Ubuntu]
+date:   2014-08-24 19:38:39 +12:00
+tags:
+  - Linux
+  - Ubuntu
+redirect_from:
+  - "/wiki/Setting up a Samba client on Ubuntu 12.04"
 ---
 
 [Linux](Linux.md) / [Ubuntu](Ubuntu.md) / [Samba](samba.md)

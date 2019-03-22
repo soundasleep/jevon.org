@@ -206,7 +206,7 @@ RSpec.describe "pages with whitespace" do
         end
       end
 
-      if false # enable to rewrite pages as a script
+      if true # enable to rewrite pages as a script
         it "can rewrite the whitespace options" do
           if alternates.empty?
             frontmatter.delete("redirect_from")

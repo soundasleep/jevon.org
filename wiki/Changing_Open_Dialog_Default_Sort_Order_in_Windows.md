@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Changing Open Dialog Default Sort Order in Windows"
+title:  Changing Open Dialog Default Sort Order in Windows
 author: jevon
-date:   2007-11-28 07:57:45 +1300
-tags:   [Windows]
+date:   2007-11-28 07:57:45 +13:00
+tags:
+  - Windows
+redirect_from:
+  - "/wiki/Changing Open Dialog Default Sort Order in Windows"
 ---
 
 [Articles](Articles.md)

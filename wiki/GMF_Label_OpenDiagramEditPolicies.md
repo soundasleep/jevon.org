@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "GMF Label OpenDiagramEditPolicies"
+title:  GMF Label OpenDiagramEditPolicies
 author: jevon
-date:   2009-05-07 10:53:47 +1200
-tags:   [GMF, Technology]
+date:   2009-05-07 10:53:47 +12:00
+tags:
+  - GMF
+  - Technology
+redirect_from:
+  - "/wiki/GMF Label OpenDiagramEditPolicies"
 ---
 
 [GMF](GMF.md) > [GMF Code Samples](GMF_Code_Samples.md)

@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Essential Software for Windows"
+title:  Essential Software for Windows
 author: jevon
-date:   2016-03-06 01:14:31 +1300
-tags:   [Windows, Articles]
+date:   2016-03-06 01:14:31 +13:00
+tags:
+  - Windows
+  - Articles
+redirect_from:
+  - "/wiki/Essential Software for Windows"
 ---
 
 [Windows](Windows.md)

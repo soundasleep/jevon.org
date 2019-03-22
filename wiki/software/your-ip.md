@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "Software/Your IP"
+title:  Software/Your IP
 author: jevon
-date:   2007-08-14 13:26:32 +1200
-tags:   [Software]
+date:   2007-08-14 13:26:32 +12:00
+tags:
+  - Software
 ---
 
 [My Software](Software.md)

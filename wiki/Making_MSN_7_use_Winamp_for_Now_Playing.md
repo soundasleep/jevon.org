@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Making MSN 7 use Winamp for Now Playing"
+title:  Making MSN 7 use Winamp for Now Playing
 author: jevon
-date:   2005-10-02 20:56:51 +1300
-tags:   [Article]
+date:   2005-10-02 20:56:51 +13:00
+tags:
+  - Article
+redirect_from:
+  - "/wiki/Making MSN 7 use Winamp for Now Playing"
 ---
 
 I just installed <a href="http://messenger.msn.com/Download/Default.aspx">MSN 7.0</a>, and one of the features that it has (as well as lame winks and nudges) is the ability to display what you're currently listening to.

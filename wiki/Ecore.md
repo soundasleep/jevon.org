@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Ecore"
+title:  Ecore
 author: jevon
-date:   2011-04-29 13:16:49 +1200
-tags:   [GMF, EMF, Technology]
+date:   2011-04-29 13:16:49 +12:00
+tags:
+  - GMF
+  - EMF
+  - Technology
 ---
 
 See also [GMF](GMF.md).

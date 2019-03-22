@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "File Property Editor for GMF"
+title:  File Property Editor for GMF
 author: jevon
-date:   2009-01-30 08:37:37 +1300
-tags:   [GMF, Technology, EMF]
+date:   2009-01-30 08:37:37 +13:00
+tags:
+  - GMF
+  - Technology
+  - EMF
+redirect_from:
+  - "/wiki/File Property Editor for GMF"
 ---
 
 [GMF](GMF.md)

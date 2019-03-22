@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "Computer"
+title:  Computer
 author: jevon
-date:   2016-01-06 19:29:11 +1300
-tags:   [Technology, Todo]
+date:   2016-01-06 19:29:11 +13:00
+tags:
+  - Technology
+  - Todo
 ---
 
 [About me](Jevon_Wright.md)

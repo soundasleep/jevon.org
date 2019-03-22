@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Listing the Attributes of an EmberJS DS.Model at Runtime"
+title:  Listing the Attributes of an EmberJS DS.Model at Runtime
 author: jevon
-date:   2014-06-29 21:19:26 +1200
-tags:   [Javascript, EmberJS]
+date:   2014-06-29 21:19:26 +12:00
+tags:
+  - Javascript
+  - EmberJS
+redirect_from:
+  - "/wiki/Listing the Attributes of an EmberJS DS.Model at Runtime"
 ---
 
 [EmberJS](EmberJS.md)

@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Using XPath to find EMF elements"
+title:  Using XPath to find EMF elements
 author: jevon
-date:   2011-03-08 11:50:43 +1300
-tags:   [EMF, XML]
+date:   2011-03-08 11:50:43 +13:00
+tags:
+  - EMF
+  - XML
+redirect_from:
+  - "/wiki/Using XPath to find EMF elements"
 ---
 
 [EMF](EMF.md) / [XPath](XPath.md)

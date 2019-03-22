@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Integration Testing with EmberJS and JQuery"
+title:  Integration Testing with EmberJS and JQuery
 author: jevon
-date:   2014-04-30 19:31:05 +1200
-tags:   [Javascript, Testing, EmberJS]
+date:   2014-04-30 19:31:05 +12:00
+tags:
+  - Javascript
+  - Testing
+  - EmberJS
+redirect_from:
+  - "/wiki/Integration Testing with EmberJS and JQuery"
 ---
 
 [EmberJS](EmberJS.md) / [JQuery](JQuery.md)

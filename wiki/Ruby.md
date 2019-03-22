@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "Ruby"
+title:  Ruby
 author: jevon
-date:   2015-06-09 21:11:21 +1200
-tags:   [Ruby]
+date:   2015-06-09 21:11:21 +12:00
+tags:
+  - Ruby
 ---
 
 [Ruby](Ruby.md) is a programming language which is used as the basis of [Ruby on Rails](Ruby_on_Rails.md).

@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Installing PHP 5.2 on CentOS"
+title:  Installing PHP 5.2 on CentOS
 author: jevon
-date:   2010-03-23 10:55:48 +1300
-tags:   [Articles]
+date:   2010-03-23 10:55:48 +13:00
+tags:
+  - Articles
+redirect_from:
+  - "/wiki/Installing PHP 5.2 on CentOS"
 ---
 
 [Articles](Articles.md) > [Linux](Linux.md)

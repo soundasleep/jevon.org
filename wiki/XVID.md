@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "XVID"
+title:  XVID
 author: jevon
-date:   2007-01-01 10:32:28 +1300
-tags:   [Technology]
+date:   2007-01-01 10:32:28 +13:00
+tags:
+  - Technology
 ---
 
 If you are trying to load an mplayer/mencoder-created AVI into VirtualDub and you get this error:

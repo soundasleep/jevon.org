@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Paint Shop Pro"
+title:  Paint Shop Pro
 author: jevon
-date:   2007-09-19 11:02:42 +1200
-tags:   [Software, Internet]
+date:   2007-09-19 11:02:42 +12:00
+tags:
+  - Software
+  - Internet
+redirect_from:
+  - "/wiki/Paint Shop Pro"
 ---
 
 [Paint Shop Pro](Paint_Shop_Pro.md) is a cheap, awesome graphic editor for [Windows](Windows.md) with its roots based in [Web Development](Web_Development.md).

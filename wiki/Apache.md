@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "Apache"
+title:  Apache
 author: jevon
-date:   2013-12-02 15:01:12 +1300
-tags:   [Internet]
+date:   2013-12-02 15:01:12 +13:00
+tags:
+  - Internet
 ---
 
 [Apache](Apache.md) is a web server.

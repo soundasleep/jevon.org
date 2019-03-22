@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Slow Subversion Performance over HTTPS"
+title:  Slow Subversion Performance over HTTPS
 author: jevon
-date:   2010-04-19 11:55:56 +1200
-tags:   [Troubleshooting, Windows]
+date:   2010-04-19 11:55:56 +12:00
+tags:
+  - Troubleshooting
+  - Windows
+redirect_from:
+  - "/wiki/Slow Subversion Performance over HTTPS"
 ---
 
 [SVN](SVN.md)

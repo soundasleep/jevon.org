@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Using Platform Resources as EReferences in GMF"
+title:  Using Platform Resources as EReferences in GMF
 author: jevon
-date:   2011-05-09 15:28:33 +1200
-tags:   [GMF]
+date:   2011-05-09 15:28:33 +12:00
+tags:
+  - GMF
+redirect_from:
+  - "/wiki/Using Platform Resources as EReferences in GMF"
 ---
 
 [GMF](GMF.md) - [EMF](EMF.md)

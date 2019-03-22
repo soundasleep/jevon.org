@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "EmberJS"
+title:  EmberJS
 author: jevon
-date:   2014-07-28 17:40:42 +1200
-tags:   [EmberJS, Web Development, Javascript]
+date:   2014-07-28 17:40:42 +12:00
+tags:
+  - EmberJS
+  - Web Development
+  - Javascript
 ---
 
 [Javascript](Javascript.md)

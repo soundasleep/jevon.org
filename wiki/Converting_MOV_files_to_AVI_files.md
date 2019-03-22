@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Converting MOV files to AVI files"
+title:  Converting MOV files to AVI files
 author: jevon
-date:   2007-03-16 10:49:04 +1300
-tags:   [Articles]
+date:   2007-03-16 10:49:04 +13:00
+tags:
+  - Articles
+redirect_from:
+  - "/wiki/Converting MOV files to AVI files"
 ---
 
 [Articles](Articles.md)

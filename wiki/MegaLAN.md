@@ -1,23 +1,12 @@
 ---
 layout: page
-title:  "MegaLAN"
+title:  MegaLAN
 author: jevon
-date:   2005-12-10 07:07:35 +1300
-tags:   []
+date:   2005-12-10 07:07:35 +13:00
+tags: []
 ---
 
-**The "MegaLAN" approaches...**
-
-Hey all, 
-
-On the 10th of December 2005 (this weekend) we will be holding the MegaLAN. This will be a LAN where everybody is invited. We will try to play whatever games people want to play. People may be split up into groups to play different games if there is division in what people want to play and what peoples computers can run. Also a separate mac LAN may be warranted (there is room in the bathroom for them).
-
-I ([Jevon](Jevon_Wright.md)) will be hosting the LAN at my flat, but Michael (michaeljamesallen@gmail.com) is the official organiser.
-
-If you are planning on coming, please send jevon@jevon.org an RSVP ASAP so I can see how many people will be coming. So far estimates are at 10-20 attendees. 
-
-# Details
-Place: ---, Palmerston North (Roughly at http://tinyurl.com/cjzaq :P)
+, Palmerston North (Roughly at http://tinyurl.com/cjzaq :P)
 Time: Setup begins at 11am, LAN begins at noon
 
 You need to bring at the very least:

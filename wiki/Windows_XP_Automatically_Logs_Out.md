@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Windows XP Automatically Logs Out"
+title:  Windows XP Automatically Logs Out
 author: jevon
-date:   2010-07-18 15:56:21 +1200
-tags:   [Article, Windows]
+date:   2010-07-18 15:56:21 +12:00
+tags:
+  - Article
+  - Windows
+redirect_from:
+  - "/wiki/Windows XP Automatically Logs Out"
 ---
 
 [Articles](Articles.md)

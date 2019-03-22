@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "Photos"
+title:  Photos
 author: jevon
-date:   2013-01-07 02:41:23 +1300
-tags:   [Protected]
+date:   2013-01-07 02:41:23 +13:00
+tags:
+  - Protected
 ---
 
 Some photos that I have taken:

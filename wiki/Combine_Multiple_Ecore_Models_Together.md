@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "Combine Multiple Ecore Models Together"
+title:  Combine Multiple Ecore Models Together
 author: jevon
-date:   2007-10-30 10:27:50 +1300
-tags:   [Research, EMF, Todo, Published Code, PHP]
+date:   2007-10-30 10:27:50 +13:00
+tags:
+  - Research
+  - EMF
+  - Todo
+  - Published Code
+  - PHP
+redirect_from:
+  - "/wiki/Combine Multiple Ecore Models Together"
 ---
 
 Here is a quick script that can be used to combine multiple [EMF](EMF.md) [Ecore](Ecore.md) models together into one super model. This uses the [PHP](PHP.md) scripting language, because this was easy!

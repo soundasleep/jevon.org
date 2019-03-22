@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "IPv6"
+title:  IPv6
 author: jevon
-date:   2012-06-24 04:39:32 +1200
-tags:   [Sysadmin, Linux, Networking, Troubleshooting]
+date:   2012-06-24 04:39:32 +12:00
+tags:
+  - Sysadmin
+  - Linux
+  - Networking
+  - Troubleshooting
 ---
 
 ## Setting up IPv6 on a [Linode](linode.md) node

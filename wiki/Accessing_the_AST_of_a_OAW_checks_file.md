@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Accessing the AST of a OAW checks file"
+title:  Accessing the AST of a OAW checks file
 author: jevon
-date:   2009-08-19 11:04:03 +1200
-tags:   [Java]
+date:   2009-08-19 11:04:03 +12:00
+tags:
+  - Java
+redirect_from:
+  - "/wiki/Accessing the AST of a OAW checks file"
 ---
 
 [OpenArchitectureWare](openArchitectureWare.md)

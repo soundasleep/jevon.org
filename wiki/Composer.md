@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "Composer"
+title:  Composer
 author: jevon
-date:   2014-04-17 17:57:38 +1200
-tags:   [PHP]
+date:   2014-04-17 17:57:38 +12:00
+tags:
+  - PHP
 ---
 
 [PHP](PHP.md)

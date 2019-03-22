@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Liferay"
+title:  Liferay
 author: jevon
-date:   2012-01-25 12:58:00 +1300
-tags:   [Java, Liferay, Tomcat, J2EE]
+date:   2012-01-25 12:58:00 +13:00
+tags:
+  - Java
+  - Liferay
+  - Tomcat
+  - J2EE
 ---
 
 [Liferay](Liferay.md) is a [portlet](portlet.md) and web application server written in [Java](Java.md).

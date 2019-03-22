@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "Visio"
+title:  Visio
 author: jevon
-date:   2011-10-05 10:55:22 +1300
-tags:   [Software]
+date:   2011-10-05 10:55:22 +13:00
+tags:
+  - Software
 ---
 
 Microsoft [Visio](Visio.md) is a commercial vector/diagram software for [Windows](Windows.md). In some cases its UI is better than [Inkscape](inkscape.md), but it's [SVG](svg.md) export feature is pretty hit and miss.

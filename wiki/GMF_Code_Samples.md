@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "GMF Code Samples"
+title:  GMF Code Samples
 author: jevon
-date:   2010-04-28 14:49:05 +1200
-tags:   [GMF, Technology, Code to Clean Up]
+date:   2010-04-28 14:49:05 +12:00
+tags:
+  - GMF
+  - Technology
+  - Code to Clean Up
+redirect_from:
+  - "/wiki/GMF Code Samples"
 ---
 
 [GMF](GMF.md)

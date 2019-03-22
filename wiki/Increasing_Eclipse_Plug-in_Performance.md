@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Increasing Eclipse Plug-in Performance"
+title:  Increasing Eclipse Plug-in Performance
 author: jevon
-date:   2010-04-20 07:37:16 +1200
-tags:   [Eclipse, Java]
+date:   2010-04-20 07:37:16 +12:00
+tags:
+  - Eclipse
+  - Java
+redirect_from:
+  - "/wiki/Increasing Eclipse Plug-in Performance"
 ---
 
 [Eclipse](Eclipse.md)

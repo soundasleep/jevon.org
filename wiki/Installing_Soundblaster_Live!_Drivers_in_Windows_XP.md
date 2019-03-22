@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Installing Soundblaster Live! Drivers in Windows XP"
+title:  Installing Soundblaster Live! Drivers in Windows XP
 author: jevon
-date:   2008-06-18 07:40:06 +1200
-tags:   [Article, Troubleshooting]
+date:   2008-06-18 07:40:06 +12:00
+tags:
+  - Article
+  - Troubleshooting
+redirect_from:
+  - "/wiki/Installing Soundblaster Live! Drivers in Windows XP"
 ---
 
 [Articles](Articles.md)

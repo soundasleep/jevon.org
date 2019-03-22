@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "HTML Entities"
+title:  HTML Entities
 author: jevon
-date:   2006-03-21 22:26:09 +1300
-tags:   [Todo, Article]
+date:   2006-03-21 21:26:09 +12:00
+tags:
+  - Todo
+  - Article
+redirect_from:
+  - "/wiki/HTML Entities"
 ---
 
 [Articles](Articles.md)

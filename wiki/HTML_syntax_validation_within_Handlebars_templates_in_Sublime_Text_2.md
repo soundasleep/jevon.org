@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "HTML syntax validation within Handlebars templates in Sublime Text 2"
+title:  HTML syntax validation within Handlebars templates in Sublime Text 2
 author: jevon
-date:   2014-01-15 18:37:23 +1300
-tags:   [Sublime Text, HTML, IDEs]
+date:   2014-01-15 18:37:23 +13:00
+tags:
+  - Sublime Text
+  - HTML
+  - IDEs
+redirect_from:
+  - "/wiki/HTML syntax validation within Handlebars templates in Sublime Text 2"
 ---
 
 To enable [HTML](html.md) syntax validation within [Handlebars](handlebars.md) templates in [Sublime Text 2](Sublime_Text_2.md), follow similar instructions to http://stackoverflow.com/questions/5578472/amend-html-grammar-based-on-attributes-in-textmate.

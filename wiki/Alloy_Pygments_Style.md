@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Alloy Pygments Style"
+title:  Alloy Pygments Style
 author: jevon
-date:   2011-03-30 10:40:11 +1300
-tags:   [Code Snippets]
+date:   2011-03-30 10:40:11 +13:00
+tags:
+  - Code Snippets
+redirect_from:
+  - "/wiki/Alloy Pygments Style"
 ---
 
 [Python](Python.md) / [Latex](Latex.md) / [Alloy](alloy.md)

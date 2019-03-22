@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Vegan Cinnamon Rolls"
+title:  Vegan Cinnamon Rolls
 author: jevon
-date:   2011-11-16 07:17:13 +1300
-tags:   [Recipes]
+date:   2011-11-16 07:17:13 +13:00
+tags:
+  - Recipes
+redirect_from:
+  - "/wiki/Vegan Cinnamon Rolls"
 ---
 
 [Recipes](Recipes.md)

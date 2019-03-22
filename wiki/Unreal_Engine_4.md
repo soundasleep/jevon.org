@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Unreal Engine 4"
+title:  Unreal Engine 4
 author: jevon
-date:   2016-04-01 17:43:23 +1300
-tags:   [Games, Game Development, Virtual Reality]
+date:   2016-04-01 17:43:23 +13:00
+tags:
+  - Games
+  - Game Development
+  - Virtual Reality
+redirect_from:
+  - "/wiki/Unreal Engine 4"
 ---
 
 [Unreal Engine 4](Unreal_Engine_4.md) is a game development engine that's shiny.

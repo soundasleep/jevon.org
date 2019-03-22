@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Random Pages to Integrate"
+title:  Random Pages to Integrate
 author: jevon
-date:   2006-03-21 22:25:00 +1300
-tags:   [Todo]
+date:   2006-03-21 21:25:00 +12:00
+tags:
+  - Todo
+redirect_from:
+  - "/wiki/Random Pages to Integrate"
 ---
 
 http://www.verisign.com/support/payflow/manager/selfHelp/testCardNum.html

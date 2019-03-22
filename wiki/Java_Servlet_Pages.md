@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Java Servlet Pages"
+title:  Java Servlet Pages
 author: jevon
-date:   2006-03-21 22:26:16 +1300
-tags:   [Technology]
+date:   2006-03-21 21:26:16 +12:00
+tags:
+  - Technology
+redirect_from:
+  - "/wiki/Java Servlet Pages"
 ---
 
 ## JSP Page Directive Reference

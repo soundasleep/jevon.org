@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "SASS"
+title:  SASS
 author: jevon
-date:   2014-05-14 22:29:42 +1200
-tags:   [CSS]
+date:   2014-05-14 22:29:42 +12:00
+tags:
+  - CSS
 ---
 
 [SASS](SASS.md) is a language for writing better [CSS](CSS.md) stylesheets.

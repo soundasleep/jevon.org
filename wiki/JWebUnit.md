@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "JWebUnit"
+title:  JWebUnit
 author: jevon
-date:   2014-03-17 20:03:30 +1300
-tags:   [Java, Testing, Code Snippets, Articles]
+date:   2014-03-17 20:03:30 +13:00
+tags:
+  - Java
+  - Testing
+  - Code Snippets
+  - Articles
 ---
 
 [Articles](Articles.md)

@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "GMF"
+title:  GMF
 author: jevon
-date:   2011-05-11 08:09:45 +1200
-tags:   [Technology]
+date:   2011-05-11 08:09:45 +12:00
+tags:
+  - Technology
 ---
 
 [GMF](GMF.md) is the Graphical Modelling Framework used in Eclipse; also see [EMF](EMF.md) for the framework itself.

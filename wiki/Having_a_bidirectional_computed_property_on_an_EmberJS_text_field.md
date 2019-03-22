@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Having a bidirectional computed property on an EmberJS text field"
+title:  Having a bidirectional computed property on an EmberJS text field
 author: jevon
-date:   2014-04-01 21:28:52 +1300
-tags:   [Javascript]
+date:   2014-04-01 21:28:52 +13:00
+tags:
+  - Javascript
+redirect_from:
+  - "/wiki/Having a bidirectional computed property on an EmberJS text field"
 ---
 
 [EmberJS](EmberJS.md)

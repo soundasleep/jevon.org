@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Programming Snippets"
+title:  Programming Snippets
 author: jevon
-date:   2007-10-24 12:52:18 +1300
-tags:   [Article, Programming Snippets]
+date:   2007-10-24 12:52:18 +13:00
+tags:
+  - Article
+  - Programming Snippets
+redirect_from:
+  - "/wiki/Programming Snippets"
 ---
 
 [Articles](Articles.md)

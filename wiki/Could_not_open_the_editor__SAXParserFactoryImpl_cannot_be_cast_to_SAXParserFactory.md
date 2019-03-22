@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Could not open the editor: SAXParserFactoryImpl cannot be cast to SAXParserFactory"
+title:  'Could not open the editor: SAXParserFactoryImpl cannot be cast to SAXParserFactory'
 author: jevon
-date:   2009-10-08 10:45:16 +1300
-tags:   [Java, Eclipse, Troubleshooting]
+date:   2009-10-08 10:45:16 +13:00
+tags:
+  - Java
+  - Eclipse
+  - Troubleshooting
+redirect_from:
+  - "/wiki/Could not open the editor  SAXParserFactoryImpl cannot be cast to SAXParserFactory"
 ---
 
 [Eclipse](Eclipse.md)

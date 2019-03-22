@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Creating a Custom Visio Line End Shape"
+title:  Creating a Custom Visio Line End Shape
 author: jevon
-date:   2011-10-05 11:04:17 +1300
-tags:   [Visio]
+date:   2011-10-05 11:04:17 +13:00
+tags:
+  - Visio
+redirect_from:
+  - "/wiki/Creating a Custom Visio Line End Shape"
 ---
 
 [Visio](Visio.md)

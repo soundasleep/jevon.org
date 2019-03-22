@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "From HTML 4 to XHTML 1"
+title:  From HTML 4 to XHTML 1
 author: jevon
-date:   2005-12-09 08:14:42 +1300
-tags:   [Article, HTML]
+date:   2005-12-09 08:14:42 +13:00
+tags:
+  - Article
+  - HTML
+redirect_from:
+  - "/wiki/From HTML 4 to XHTML 1"
 ---
 
 [Articles](Articles.md)

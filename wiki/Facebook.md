@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "Facebook"
+title:  Facebook
 author: jevon
-date:   2013-07-22 22:37:48 +1200
-tags:   [Web Sites, Facebook]
+date:   2013-07-22 22:37:48 +12:00
+tags:
+  - Web Sites
+  - Facebook
 ---
 
 [Facebook](Facebook.md) is a social networking site which is dumb.

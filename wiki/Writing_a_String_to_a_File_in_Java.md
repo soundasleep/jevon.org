@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Writing a String to a File in Java"
+title:  Writing a String to a File in Java
 author: jevon
-date:   2009-05-11 10:55:20 +1200
-tags:   [Java]
+date:   2009-05-11 10:55:20 +12:00
+tags:
+  - Java
+redirect_from:
+  - "/wiki/Writing a String to a File in Java"
 ---
 
 [Java](Java.md)

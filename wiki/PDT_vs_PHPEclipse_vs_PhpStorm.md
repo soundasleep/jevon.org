@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "PDT vs PHPEclipse vs PhpStorm"
+title:  PDT vs PHPEclipse vs PhpStorm
 author: jevon
-date:   2013-12-05 20:55:17 +1300
-tags:   [PHP, IDE, Eclipse]
+date:   2013-12-05 20:55:17 +13:00
+tags:
+  - PHP
+  - IDE
+  - Eclipse
+redirect_from:
+  - "/wiki/PDT vs PHPEclipse vs PhpStorm"
 ---
 
 I did a quick test of three leading [PHP](PHP.md) editors: [PDT](pdt.md), [PHPEclipse](phpEclipse.md) (both based on [Eclipse](Eclipse.md)), and [PhpStorm](phpstorm.md) (based on IntelliJ). This isn't intended to be a complete review or test, I just wanted to see if I could find a better IDE than [Textpad](Textpad.md).

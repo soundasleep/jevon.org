@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "EMF Validation Framework"
+title:  EMF Validation Framework
 author: jevon
-date:   2011-05-17 14:11:08 +1200
-tags:   [EMF]
+date:   2011-05-17 14:11:08 +12:00
+tags:
+  - EMF
+redirect_from:
+  - "/wiki/EMF Validation Framework"
 ---
 
 [EMF](EMF.md)

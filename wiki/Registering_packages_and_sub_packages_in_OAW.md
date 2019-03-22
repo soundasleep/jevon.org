@@ -1,9 +1,15 @@
 ---
 layout: page
-title:  "Registering packages and sub packages in OAW"
+title:  Registering packages and sub packages in OAW
 author: jevon
-date:   2008-10-21 08:05:03 +1300
-tags:   [Technology, OAW, Article, Code Sample]
+date:   2008-10-21 08:05:03 +13:00
+tags:
+  - Technology
+  - OAW
+  - Article
+  - Code Sample
+redirect_from:
+  - "/wiki/Registering packages and sub packages in OAW"
 ---
 
 [OpenArchitectureWare](openArchitectureWare.md)

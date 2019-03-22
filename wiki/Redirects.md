@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "Redirects"
+title:  Redirects
 author: jevon
-date:   2013-09-11 20:10:35 +1200
-tags:   [Protected]
+date:   2013-09-11 20:10:35 +12:00
+tags:
+  - Protected
 ---
 
 This is a list of redirects that visitors to the old Jevon.org will come across. They are applied in order (with regular expression matching). Hits that don't match these will show up in [Redirects Broken](Redirects_Broken.md).

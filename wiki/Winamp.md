@@ -1,9 +1,9 @@
 ---
 layout: page
-title:  "Winamp"
+title:  Winamp
 author: jevon
-date:   2008-06-09 09:11:39 +1200
-tags:   []
+date:   2008-06-09 09:11:39 +12:00
+tags: []
 ---
 
 [Winamp](Winamp.md) is a cool free music player for [Windows](Windows.md) available at www.winamp.com.

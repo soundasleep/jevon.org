@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Transient DS.Model Attributes in EmberJS"
+title:  Transient DS.Model Attributes in EmberJS
 author: jevon
-date:   2014-06-12 15:13:47 +1200
-tags:   [EmberJS]
+date:   2014-06-12 15:13:47 +12:00
+tags:
+  - EmberJS
+redirect_from:
+  - "/wiki/Transient DS.Model Attributes in EmberJS"
 ---
 
 [EmberJS](EmberJS.md)

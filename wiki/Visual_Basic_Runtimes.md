@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Visual Basic Runtimes"
+title:  Visual Basic Runtimes
 author: jevon
-date:   2007-08-14 13:38:29 +1200
-tags:   [Download]
+date:   2007-08-14 13:38:29 +12:00
+tags:
+  - Download
+redirect_from:
+  - "/wiki/Visual Basic Runtimes"
 ---
 
 [Downloads](Downloads.md)

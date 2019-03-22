@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Simple Right Click Convert WAV to MP3 in Windows"
+title:  Simple Right Click Convert WAV to MP3 in Windows
 author: jevon
-date:   2015-02-20 12:25:07 +1300
-tags:   [Article, Technology]
+date:   2015-02-20 12:25:07 +13:00
+tags:
+  - Article
+  - Technology
+redirect_from:
+  - "/wiki/Simple Right Click Convert WAV to MP3 in Windows"
 ---
 
 ## Problem

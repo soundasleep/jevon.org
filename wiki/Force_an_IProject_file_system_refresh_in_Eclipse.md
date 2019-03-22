@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Force an IProject file system refresh in Eclipse"
+title:  Force an IProject file system refresh in Eclipse
 author: jevon
-date:   2008-10-21 10:19:49 +1300
-tags:   [Eclipse, Article, Code Sample]
+date:   2008-10-21 10:19:49 +13:00
+tags:
+  - Eclipse
+  - Article
+  - Code Sample
+redirect_from:
+  - "/wiki/Force an IProject file system refresh in Eclipse"
 ---
 
 [Eclipse](Eclipse.md)

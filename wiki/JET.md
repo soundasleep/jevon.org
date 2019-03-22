@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "JET"
+title:  JET
 author: jevon
-date:   2010-04-16 11:27:32 +1200
-tags:   [Java, Technology]
+date:   2010-04-16 11:27:32 +12:00
+tags:
+  - Java
+  - Technology
 ---
 
 [JET](JET.md) stands for **Java Emitter Templates** that is based entirely in [Eclipse](Eclipse.md). It is meant to be run with workspaces. This example **.javajet** is what a JET template <a href="http://code.google.com/p/iaml/source/browse/trunk/org.openiaml.model/templates-emf/model/FactoryClass.javajet?spec=svn1905&r=1905">can look like</a> (from [EMF](EMF.md)).

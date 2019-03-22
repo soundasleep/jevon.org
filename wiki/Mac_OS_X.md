@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Mac OS X"
+title:  Mac OS X
 author: jevon
-date:   2015-06-15 19:01:15 +1200
-tags:   [Operating Systems, Software]
+date:   2015-06-15 19:01:15 +12:00
+tags:
+  - Operating Systems
+  - Software
+redirect_from:
+  - "/wiki/Mac OS X"
 ---
 
 [Articles](Articles.md)

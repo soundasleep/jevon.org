@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "A Crude Latex Diff Script in Linux"
+title:  A Crude Latex Diff Script in Linux
 author: jevon
-date:   2007-11-08 08:25:18 +1300
-tags:   [Article, Latex, Linux]
+date:   2007-11-08 08:25:18 +13:00
+tags:
+  - Article
+  - Latex
+  - Linux
+redirect_from:
+  - "/wiki/A Crude Latex Diff Script in Linux"
 ---
 
 [Articles](Articles.md) > [Latex](Latex.md)

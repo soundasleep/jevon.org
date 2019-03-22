@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Text Deformer"
+title:  Text Deformer
 author: jevon
-date:   2006-03-21 22:32:54 +1300
-tags:   [Software]
+date:   2006-03-21 21:32:54 +12:00
+tags:
+  - Software
+redirect_from:
+  - "/wiki/Text Deformer"
 ---
 
 [My Software](Software.md)

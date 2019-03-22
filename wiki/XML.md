@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "XML"
+title:  XML
 author: jevon
-date:   2012-08-12 20:03:18 +1200
-tags:   [Technology]
+date:   2012-08-12 20:03:18 +12:00
+tags:
+  - Technology
 ---
 
 Related XML technologies:

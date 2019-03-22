@@ -6,7 +6,6 @@ date:   2015-11-15 09:56:47 +13:00
 tags:
   - Protected
 redirect_from:
-  - "/wiki/Contact"
   - "/wiki/Jevon Wright"
 ---
 

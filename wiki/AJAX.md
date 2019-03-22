@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "AJAX"
+title:  AJAX
 author: jevon
-date:   2014-04-02 14:59:15 +1300
-tags:   [Technology, Javascript]
+date:   2014-04-02 14:59:15 +13:00
+tags:
+  - Technology
+  - Javascript
 ---
 
 [AJAX](AJAX.md) stands for _Asynchronous [Javascript](Javascript.md) and [XML](XML.md)_.

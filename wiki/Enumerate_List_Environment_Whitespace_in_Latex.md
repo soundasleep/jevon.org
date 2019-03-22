@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Enumerate List Environment Whitespace in Latex"
+title:  Enumerate List Environment Whitespace in Latex
 author: jevon
-date:   2011-07-13 13:24:34 +1200
-tags:   [Latex]
+date:   2011-07-13 13:24:34 +12:00
+tags:
+  - Latex
+redirect_from:
+  - "/wiki/Enumerate List Environment Whitespace in Latex"
 ---
 
 [Latex](Latex.md)

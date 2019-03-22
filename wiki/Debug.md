@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "Debug"
+title:  Debug
 author: jevon
-date:   2013-02-17 20:39:46 +1300
-tags:   [Java]
+date:   2013-02-17 20:39:46 +13:00
+tags:
+  - Java
 ---
 
 Did you mean:

@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Saving and Loading UE4 Data with Blueprints"
+title:  Saving and Loading UE4 Data with Blueprints
 author: jevon
-date:   2016-02-27 19:53:22 +1300
-tags:   [Unreal Engine 4, Game Development, Visual Programming]
+date:   2016-02-27 19:53:22 +13:00
+tags:
+  - Unreal Engine 4
+  - Game Development
+  - Visual Programming
+redirect_from:
+  - "/wiki/Saving and Loading UE4 Data with Blueprints"
 ---
 
 [Unreal Engine 4](Unreal_Engine_4.md)

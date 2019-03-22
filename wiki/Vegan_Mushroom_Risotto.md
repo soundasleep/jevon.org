@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Vegan Mushroom Risotto"
+title:  Vegan Mushroom Risotto
 author: jevon
-date:   2015-04-10 18:35:10 +1200
-tags:   [Recipes]
+date:   2015-04-10 18:35:10 +12:00
+tags:
+  - Recipes
+redirect_from:
+  - "/wiki/Vegan Mushroom Risotto"
 ---
 
 [Recipes](Recipes.md)

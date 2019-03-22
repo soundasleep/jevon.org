@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "GMF Static Labels"
+title:  GMF Static Labels
 author: jevon
-date:   2008-09-11 10:07:55 +1200
-tags:   [GMF, Technology]
+date:   2008-09-11 10:07:55 +12:00
+tags:
+  - GMF
+  - Technology
+redirect_from:
+  - "/wiki/GMF Static Labels"
 ---
 
 Yet another article on [GMF](GMF.md).

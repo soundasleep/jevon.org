@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "Extending App.reset() in EmberJS"
+title:  Extending App.reset() in EmberJS
 author: jevon
-date:   2014-06-03 17:32:36 +1200
-tags:   [EmberJS, Javascript]
+date:   2014-06-03 17:32:36 +12:00
+tags:
+  - EmberJS
+  - Javascript
 ---
 
 [EmberJS](EmberJS.md)

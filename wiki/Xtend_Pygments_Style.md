@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Xtend Pygments Style"
+title:  Xtend Pygments Style
 author: jevon
-date:   2011-03-30 08:17:27 +1300
-tags:   [Code Snippets]
+date:   2011-03-30 08:17:27 +13:00
+tags:
+  - Code Snippets
+redirect_from:
+  - "/wiki/Xtend Pygments Style"
 ---
 
 [Python](Python.md) / [Latex](Latex.md) / [openArchitectureWare](openArchitectureWare.md)

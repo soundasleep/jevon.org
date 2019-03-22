@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Samsung ZV10"
+title:  Samsung ZV10
 author: jevon
-date:   2010-04-01 07:56:00 +1300
-tags:   [Technology]
+date:   2010-04-01 07:56:00 +13:00
+tags:
+  - Technology
+redirect_from:
+  - "/wiki/Samsung ZV10"
 ---
 
 [Articles](Articles.md)

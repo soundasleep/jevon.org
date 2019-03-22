@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "GMF Troubleshooting 10"
+title:  GMF Troubleshooting 10
 author: jevon
-date:   2011-07-21 10:59:30 +1200
-tags:   [GMF, Technology, Code Snippets]
+date:   2011-07-21 10:59:30 +12:00
+tags:
+  - GMF
+  - Technology
+  - Code Snippets
+redirect_from:
+  - "/wiki/GMF Troubleshooting 10"
 ---
 
 [GMF](GMF.md)

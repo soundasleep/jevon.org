@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Using Capybara with Minitest for Integration Tests in Rails 4"
+title:  Using Capybara with Minitest for Integration Tests in Rails 4
 author: jevon
-date:   2014-09-11 21:16:23 +1200
-tags:   [Ruby, Ruby on Rails, Testing]
+date:   2014-09-11 21:16:23 +12:00
+tags:
+  - Ruby
+  - Ruby on Rails
+  - Testing
+redirect_from:
+  - "/wiki/Using Capybara with Minitest for Integration Tests in Rails 4"
 ---
 
 [Ruby on Rails](Ruby_on_Rails.md) / [Capybara](capybara.md)

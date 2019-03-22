@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "Software/Psychadelic"
+title:  Software/Psychadelic
 author: jevon
-date:   2007-08-14 13:18:14 +1200
-tags:   [Software]
+date:   2007-08-14 13:18:14 +12:00
+tags:
+  - Software
 ---
 
 [My Software](Software.md)

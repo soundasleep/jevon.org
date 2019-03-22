@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "Python"
+title:  Python
 author: jevon
-date:   2010-05-25 08:11:52 +1200
-tags:   [Technology]
+date:   2010-05-25 08:11:52 +12:00
+tags:
+  - Technology
 ---
 
 [Articles](Articles.md)

@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "Git"
+title:  Git
 author: jevon
-date:   2015-01-21 15:03:24 +1300
-tags:   [Git, Subversion]
+date:   2015-01-21 15:03:24 +13:00
+tags:
+  - Git
+  - Subversion
 ---
 
 1. [Synchronising SVN and Git](Synchronising_SVN_and_Git.md)

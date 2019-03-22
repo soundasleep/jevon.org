@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "DCP-7065DN"
+title:  DCP-7065DN
 author: jevon
-date:   2014-10-09 19:36:58 +1300
-tags:   [Hardware, Linux]
+date:   2014-10-09 19:36:58 +13:00
+tags:
+  - Hardware
+  - Linux
 ---
 
 ## Installing DCP-7065DN printer drivers on Ubuntu 14.04

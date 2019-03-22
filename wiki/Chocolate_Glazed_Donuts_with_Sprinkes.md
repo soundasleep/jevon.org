@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Chocolate Glazed Donuts with Sprinkes"
+title:  Chocolate Glazed Donuts with Sprinkes
 author: jevon
-date:   2007-09-14 12:05:56 +1200
-tags:   [Recipes]
+date:   2007-09-14 12:05:56 +12:00
+tags:
+  - Recipes
+redirect_from:
+  - "/wiki/Chocolate Glazed Donuts with Sprinkes"
 ---
 
 [Recipes](Recipes.md)

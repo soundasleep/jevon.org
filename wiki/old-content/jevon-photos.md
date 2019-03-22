@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "Old Content/Jevon Photos"
+title:  Old Content/Jevon Photos
 author: jevon
-date:   2007-11-21 12:15:19 +1300
-tags:   [Jevon]
+date:   2007-11-21 12:15:19 +13:00
+tags:
+  - Jevon
 ---
 
 {% include old-content-header.md %}

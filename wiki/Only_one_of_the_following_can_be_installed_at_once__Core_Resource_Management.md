@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Only one of the following can be installed at once: Core Resource Management"
+title:  'Only one of the following can be installed at once: Core Resource Management'
 author: jevon
-date:   2011-09-26 16:18:37 +1300
-tags:   [Eclipse]
+date:   2011-09-26 16:18:37 +13:00
+tags:
+  - Eclipse
+redirect_from:
+  - "/wiki/Only one of the following can be installed at once  Core Resource Management"
 ---
 
 [Eclipse](Eclipse.md)

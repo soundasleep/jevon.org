@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "Recipes"
+title:  Recipes
 author: jevon
-date:   2015-04-10 18:28:33 +1200
-tags:   [Recipes]
+date:   2015-04-10 18:28:33 +12:00
+tags:
+  - Recipes
 ---
 
 Haha, I like cooking sometimes, here are some recipes that I've used in the past.

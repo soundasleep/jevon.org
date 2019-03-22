@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "OWL Functional Pygments Style"
+title:  OWL Functional Pygments Style
 author: jevon
-date:   2011-07-12 11:21:14 +1200
-tags:   [Code Snippets]
+date:   2011-07-12 11:21:14 +12:00
+tags:
+  - Code Snippets
+redirect_from:
+  - "/wiki/OWL Functional Pygments Style"
 ---
 
 [Python](Python.md) / [Latex](Latex.md) / [Alloy](alloy.md)

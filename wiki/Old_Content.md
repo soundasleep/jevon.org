@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Old Content"
+title:  Old Content
 author: jevon
-date:   2007-11-21 12:35:23 +1300
-tags:   [Old, Articles, Todo]
+date:   2007-11-21 12:35:23 +13:00
+tags:
+  - Old
+  - Articles
+  - Todo
+redirect_from:
+  - "/wiki/Old Content"
 ---
 
 [Articles](Articles.md)

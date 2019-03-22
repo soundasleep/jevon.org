@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Out of Memory Errors in Eclipse"
+title:  Out of Memory Errors in Eclipse
 author: jevon
-date:   2009-07-23 12:13:04 +1200
-tags:   [Eclipse]
+date:   2009-07-23 12:13:04 +12:00
+tags:
+  - Eclipse
+redirect_from:
+  - "/wiki/Out of Memory Errors in Eclipse"
 ---
 
 [Eclipse](Eclipse.md)

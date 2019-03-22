@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Symfony: csrf token: Required."
+title:  'Symfony: csrf token: Required.'
 author: jevon
-date:   2012-04-25 13:33:51 +1200
-tags:   [Symfony, PHP]
+date:   2012-04-25 13:33:51 +12:00
+tags:
+  - Symfony
+  - PHP
+redirect_from:
+  - "/wiki/Symfony  csrf token  Required."
 ---
 
 [Symfony](Symfony.md)

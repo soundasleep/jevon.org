@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Heroku"
+title:  Heroku
 author: jevon
-date:   2014-10-09 19:48:27 +1300
-tags:   [Rails, Ruby, Hosting, Web Development]
+date:   2014-10-09 19:48:27 +13:00
+tags:
+  - Rails
+  - Ruby
+  - Hosting
+  - Web Development
 ---
 
 [Heroku](Heroku.md) is a free cloud hosting service that lets you scale and things.

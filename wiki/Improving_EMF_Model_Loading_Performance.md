@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Improving EMF Model Loading Performance"
+title:  Improving EMF Model Loading Performance
 author: jevon
-date:   2009-10-30 10:56:27 +1300
-tags:   [Java, Eclipse, EMF]
+date:   2009-10-30 10:56:27 +13:00
+tags:
+  - Java
+  - Eclipse
+  - EMF
+redirect_from:
+  - "/wiki/Improving EMF Model Loading Performance"
 ---
 
 [EMF](EMF.md)

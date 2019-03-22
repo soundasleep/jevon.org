@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "HP LaserJet 1022n"
+title:  HP LaserJet 1022n
 author: jevon
-date:   2015-02-17 19:12:57 +1300
-tags:   [Hardware]
+date:   2015-02-17 19:12:57 +13:00
+tags:
+  - Hardware
+redirect_from:
+  - "/wiki/HP LaserJet 1022n"
 ---
 
 A printer.

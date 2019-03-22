@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Aligning Images in Tables in Latex"
+title:  Aligning Images in Tables in Latex
 author: jevon
-date:   2010-07-23 15:27:38 +1200
-tags:   [Latex, Article]
+date:   2010-07-23 15:27:38 +12:00
+tags:
+  - Latex
+  - Article
+redirect_from:
+  - "/wiki/Aligning Images in Tables in Latex"
 ---
 
 [Latex](Latex.md)

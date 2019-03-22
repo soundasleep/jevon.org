@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "Last.fm"
+title:  Last.fm
 author: jevon
-date:   2016-05-19 18:59:32 +1200
-tags:   [Code Snippets, Javascript]
+date:   2016-05-19 18:59:32 +12:00
+tags:
+  - Code Snippets
+  - Javascript
 ---
 
 1. {% include lastfm.md %} <a href="http://www.last.fm/user/jdub_dub">My last.fm (jdub_dub)</a>

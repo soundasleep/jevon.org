@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Enabling Jenkins support with Ruby on Rails tests"
+title:  Enabling Jenkins support with Ruby on Rails tests
 author: jevon
-date:   2015-03-24 20:25:56 +1300
-tags:   [Ruby on Rails, Testing]
+date:   2015-03-24 20:25:56 +13:00
+tags:
+  - Ruby on Rails
+  - Testing
+redirect_from:
+  - "/wiki/Enabling Jenkins support with Ruby on Rails tests"
 ---
 
 [Ruby on Rails](Ruby_on_Rails.md)

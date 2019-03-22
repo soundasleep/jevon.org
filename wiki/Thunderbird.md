@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "Thunderbird"
+title:  Thunderbird
 author: jevon
-date:   2013-11-24 13:31:45 +1300
-tags:   [Applications]
+date:   2013-11-24 13:31:45 +13:00
+tags:
+  - Applications
 ---
 
 An [email](email.md) client from [Mozilla](mozilla.md).

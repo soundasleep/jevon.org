@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "openArchitectureWare"
+title:  openArchitectureWare
 author: jevon
-date:   2011-05-02 14:40:17 +1200
-tags:   [Technology, OAW]
+date:   2011-05-02 14:40:17 +12:00
+tags:
+  - Technology
+  - OAW
 ---
 
 A [Java](Java.md)-based project to "simplify" the use of [EMF](EMF.md) in generating code in Eclipse from models using [MDA](mda.md).

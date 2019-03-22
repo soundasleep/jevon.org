@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "EMF"
+title:  EMF
 author: jevon
-date:   2013-02-17 20:40:48 +1300
-tags:   [Technology]
+date:   2013-02-17 20:40:48 +13:00
+tags:
+  - Technology
 ---
 
 [EMF](EMF.md) is the [Eclipse](Eclipse.md) Modelling Framework. It is based on the [Ecore](Ecore.md) metamodelling language. Also have a look at [GMF](GMF.md) for the Graphical Modelling Framework. Also see [openArchitectureWare](openArchitectureWare.md).

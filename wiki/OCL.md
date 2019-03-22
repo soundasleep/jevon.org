@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "OCL"
+title:  OCL
 author: jevon
-date:   2011-05-17 14:06:18 +1200
-tags:   [OCL, GMF, Technology]
+date:   2011-05-17 14:06:18 +12:00
+tags:
+  - OCL
+  - GMF
+  - Technology
 ---
 
 [OCL](OCL.md) stands for the Object Constraint Language. It is useful in [MOF](mof.md) as a platform-independent way of specify operations and constraints. [GMF](GMF.md) can use OCL somewhat: [GMF Troubleshooting 3](GMF_Troubleshooting_3.md). Also see: [EMF Validation Framework](EMF_Validation_Framework.md)

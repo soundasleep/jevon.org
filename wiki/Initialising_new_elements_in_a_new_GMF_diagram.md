@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Initialising new elements in a new GMF diagram"
+title:  Initialising new elements in a new GMF diagram
 author: jevon
-date:   2009-08-07 13:35:49 +1200
-tags:   [GMF, Code Samples]
+date:   2009-08-07 13:35:49 +12:00
+tags:
+  - GMF
+  - Code Samples
+redirect_from:
+  - "/wiki/Initialising new elements in a new GMF diagram"
 ---
 
 [GMF](GMF.md)

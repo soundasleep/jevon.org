@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Sublime Text 2"
+title:  Sublime Text 2
 author: jevon
-date:   2014-01-15 18:02:42 +1300
-tags:   [Applications, IDEs]
+date:   2014-01-15 18:02:42 +13:00
+tags:
+  - Applications
+  - IDEs
+redirect_from:
+  - "/wiki/Sublime Text 2"
 ---
 
 [Sublime Text 2](Sublime_Text_2.md) is a lightweight text-based IDE.

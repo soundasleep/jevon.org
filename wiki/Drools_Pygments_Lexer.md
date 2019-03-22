@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Drools Pygments Lexer"
+title:  Drools Pygments Lexer
 author: jevon
-date:   2010-06-14 13:58:21 +1200
-tags:   [Code Snippets]
+date:   2010-06-14 13:58:21 +12:00
+tags:
+  - Code Snippets
+redirect_from:
+  - "/wiki/Drools Pygments Lexer"
 ---
 
 [Python](Python.md) / [Latex](Latex.md)

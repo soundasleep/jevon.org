@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "EDataType Serializable"
+title:  EDataType Serializable
 author: jevon
-date:   2011-04-29 13:15:40 +1200
-tags:   [EMF, Java]
+date:   2011-04-29 13:15:40 +12:00
+tags:
+  - EMF
+  - Java
+redirect_from:
+  - "/wiki/EDataType Serializable"
 ---
 
 [EMF](EMF.md)

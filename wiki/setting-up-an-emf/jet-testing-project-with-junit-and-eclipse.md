@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Setting up an EMF/JET testing project with JUnit and Eclipse"
+title:  Setting up an EMF/JET testing project with JUnit and Eclipse
 author: jevon
-date:   2008-10-17 08:29:17 +1300
-tags:   [Article, Technology, GMF, EMF]
+date:   2008-10-17 08:29:17 +13:00
+tags:
+  - Article
+  - Technology
+  - GMF
+  - EMF
 ---
 
 [GMF Code Samples](GMF_Code_Samples.md) / [GMF](GMF.md) / [EMF](EMF.md)

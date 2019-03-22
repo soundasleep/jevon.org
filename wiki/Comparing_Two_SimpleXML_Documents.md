@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Comparing Two SimpleXML Documents"
+title:  Comparing Two SimpleXML Documents
 author: jevon
-date:   2013-11-03 19:29:41 +1300
-tags:   [Article, PHP, Programming Snippets]
+date:   2013-11-03 19:29:41 +13:00
+tags:
+  - Article
+  - PHP
+  - Programming Snippets
+redirect_from:
+  - "/wiki/Comparing Two SimpleXML Documents"
 ---
 
 [Articles](Articles.md) > [PHP](PHP.md)

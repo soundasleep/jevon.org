@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Listing all files contained in an Eclipse plugin"
+title:  Listing all files contained in an Eclipse plugin
 author: jevon
-date:   2009-07-26 19:19:59 +1200
-tags:   [Eclipse, Code Snippets, Java]
+date:   2009-07-26 19:19:59 +12:00
+tags:
+  - Eclipse
+  - Code Snippets
+  - Java
+redirect_from:
+  - "/wiki/Listing all files contained in an Eclipse plugin"
 ---
 
 [Eclipse](Eclipse.md)

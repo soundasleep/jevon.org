@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "FTL"
+title:  FTL
 author: jevon
-date:   2012-08-23 21:32:44 +1200
-tags:   [Java, Template Languages]
+date:   2012-08-23 21:32:44 +12:00
+tags:
+  - Java
+  - Template Languages
 ---
 
 Also known as [Freemarker Templates](Freemarker_Templates.md).

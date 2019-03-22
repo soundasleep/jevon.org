@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Removing the Coloured Boxes around Hyperref links in Latex"
+title:  Removing the Coloured Boxes around Hyperref links in Latex
 author: jevon
-date:   2010-01-27 13:16:34 +1300
-tags:   [Latex]
+date:   2010-01-27 13:16:34 +13:00
+tags:
+  - Latex
+redirect_from:
+  - "/wiki/Removing the Coloured Boxes around Hyperref links in Latex"
 ---
 
 [Latex](Latex.md)

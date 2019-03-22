@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Basic non-trivial Drupal form validation example"
+title:  Basic non-trivial Drupal form validation example
 author: jevon
-date:   2013-09-11 17:16:26 +1200
-tags:   [Drupal, PHP]
+date:   2013-09-11 17:16:26 +12:00
+tags:
+  - Drupal
+  - PHP
+redirect_from:
+  - "/wiki/Basic non-trivial Drupal form validation example"
 ---
 
 [Drupal](Drupal.md)

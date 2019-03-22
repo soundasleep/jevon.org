@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Waiting for EmberJS to update its views manually"
+title:  Waiting for EmberJS to update its views manually
 author: jevon
-date:   2014-05-06 18:20:02 +1200
-tags:   [Javascript, EmberJS]
+date:   2014-05-06 18:20:02 +12:00
+tags:
+  - Javascript
+  - EmberJS
+redirect_from:
+  - "/wiki/Waiting for EmberJS to update its views manually"
 ---
 
 [EmberJS](EmberJS.md)

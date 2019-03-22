@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "Software/Calculate BPM"
+title:  Software/Calculate BPM
 author: jevon
-date:   2007-08-14 13:19:31 +1200
-tags:   [Software]
+date:   2007-08-14 13:19:31 +12:00
+tags:
+  - Software
 ---
 
 [My Software](Software.md)

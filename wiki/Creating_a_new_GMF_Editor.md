@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Creating a new GMF Editor"
+title:  Creating a new GMF Editor
 author: jevon
-date:   2008-06-18 12:43:37 +1200
-tags:   [Technology, Eclipse, GMF]
+date:   2008-06-18 12:43:37 +12:00
+tags:
+  - Technology
+  - Eclipse
+  - GMF
+redirect_from:
+  - "/wiki/Creating a new GMF Editor"
 ---
 
 Also see [GMF](GMF.md) for more details. Having issues? Look at [GMF Troubleshooting](gmf-troubleshooting.md).

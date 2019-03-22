@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Fancy Quotation Boxes in Latex"
+title:  Fancy Quotation Boxes in Latex
 author: jevon
-date:   2010-12-21 12:23:24 +1300
-tags:   [Latex, Article]
+date:   2010-12-21 12:23:24 +13:00
+tags:
+  - Latex
+  - Article
+redirect_from:
+  - "/wiki/Fancy Quotation Boxes in Latex"
 ---
 
 [Latex](Latex.md)

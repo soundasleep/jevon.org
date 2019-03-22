@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Google Maps"
+title:  Google Maps
 author: jevon
-date:   2010-04-07 17:08:16 +1200
-tags:   [Google, Technology, Troubleshooting]
+date:   2010-04-07 17:08:16 +12:00
+tags:
+  - Google
+  - Technology
+  - Troubleshooting
+redirect_from:
+  - "/wiki/Google Maps"
 ---
 
 [Articles](Articles.md)

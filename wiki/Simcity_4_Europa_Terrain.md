@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Simcity 4 Europa Terrain"
+title:  Simcity 4 Europa Terrain
 author: jevon
-date:   2007-04-23 12:54:35 +1200
-tags:   [Games, Articles, Simcity]
+date:   2007-04-23 12:54:35 +12:00
+tags:
+  - Games
+  - Articles
+  - Simcity
+redirect_from:
+  - "/wiki/Simcity 4 Europa Terrain"
 ---
 
 [Articles](Articles.md)

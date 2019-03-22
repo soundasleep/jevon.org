@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "Ant"
+title:  Ant
 author: jevon
-date:   2013-02-17 20:36:19 +1300
-tags:   [Technology]
+date:   2013-02-17 20:36:19 +13:00
+tags:
+  - Technology
 ---
 
 [Ant](Ant.md) allows for [build](build.md) scripts.

@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "Setting up Master/Slave Replication from an existing MySQL server"
+title:  Setting up Master/Slave Replication from an existing MySQL server
 author: jevon
-date:   2014-09-29 22:06:44 +1300
-tags:   [MySQL]
+date:   2014-09-29 22:06:44 +13:00
+tags:
+  - MySQL
 ---
 
 [MySQL](MySQL.md)

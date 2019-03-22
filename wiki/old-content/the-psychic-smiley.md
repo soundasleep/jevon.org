@@ -1,9 +1,9 @@
 ---
 layout: page
-title:  "Old Content/The Psychic Smiley"
+title:  Old Content/The Psychic Smiley
 author: jevon
-date:   2007-11-21 12:26:50 +1300
-tags:   []
+date:   2007-11-21 12:26:50 +13:00
+tags: []
 ---
 
 <div align="center">

@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Breadcrumbs in GMF Editors"
+title:  Breadcrumbs in GMF Editors
 author: jevon
-date:   2009-02-03 06:19:16 +1300
-tags:   [GMF, Technology]
+date:   2009-02-03 06:19:16 +13:00
+tags:
+  - GMF
+  - Technology
+redirect_from:
+  - "/wiki/Breadcrumbs in GMF Editors"
 ---
 
 [GMF](GMF.md)

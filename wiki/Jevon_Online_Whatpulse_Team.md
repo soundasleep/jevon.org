@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Jevon Online Whatpulse Team"
+title:  Jevon Online Whatpulse Team
 author: jevon
-date:   2008-07-22 07:27:09 +1200
-tags:   [Article]
+date:   2008-07-22 07:27:09 +12:00
+tags:
+  - Article
+redirect_from:
+  - "/wiki/Jevon Online Whatpulse Team"
 ---
 
 [Articles](Articles.md)

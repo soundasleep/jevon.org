@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "Tomcat"
+title:  Tomcat
 author: jevon
-date:   2012-01-25 09:56:52 +1300
-tags:   [Technology, Web]
+date:   2012-01-25 09:56:52 +13:00
+tags:
+  - Technology
+  - Web
 ---
 
 A web server for hosting [Java](Java.md) or [servlet](servlet.md) applications.

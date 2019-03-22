@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "Jena"
+title:  Jena
 author: jevon
-date:   2011-03-10 14:05:17 +1300
-tags:   [Java, Semantic Web]
+date:   2011-03-10 14:05:17 +13:00
+tags:
+  - Java
+  - Semantic Web
 ---
 
 [Jena](Jena.md) is a [rule](rule.md) inference engine for [Java](Java.md), useful for the [Semantic Web](semantic-web.md). It handles [RDF](rdf.md) and [OWL](OWL.md). It can be integrated with [Pellet](Pellet.md).

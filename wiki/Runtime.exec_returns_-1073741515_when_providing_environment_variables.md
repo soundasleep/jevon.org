@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Runtime.exec returns -1073741515 when providing environment variables"
+title:  Runtime.exec returns -1073741515 when providing environment variables
 author: jevon
-date:   2011-09-26 17:37:44 +1300
-tags:   [Java]
+date:   2011-09-26 17:37:44 +13:00
+tags:
+  - Java
+redirect_from:
+  - "/wiki/Runtime.exec returns -1073741515 when providing environment variables"
 ---
 
 [Java](Java.md)

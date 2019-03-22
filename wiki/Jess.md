@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Jess"
+title:  Jess
 author: jevon
-date:   2011-03-10 13:11:01 +1300
-tags:   [Jess, Rule engine, Software]
+date:   2011-03-10 13:11:01 +13:00
+tags:
+  - Jess
+  - Rule engine
+  - Software
 ---
 
 [Jess](Jess.md) is a [rule engine](rule-engine.md) for [Java](Java.md).

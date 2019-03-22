@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Stop Internet Explorer"
+title:  Stop Internet Explorer
 author: jevon
-date:   2013-01-07 01:24:46 +1300
-tags:   [Technology]
+date:   2013-01-07 01:24:46 +13:00
+tags:
+  - Technology
+redirect_from:
+  - "/wiki/Stop Internet Explorer"
 ---
 
 Alright, that's it, I've had enough of this "browser" called [Internet Explorer](internet-explorer.md).

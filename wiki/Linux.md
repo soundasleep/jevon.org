@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "Linux"
+title:  Linux
 author: jevon
-date:   2015-03-09 15:17:58 +1300
-tags:   [Article, Linux]
+date:   2015-03-09 15:17:58 +13:00
+tags:
+  - Article
+  - Linux
 ---
 
 [Articles](Articles.md)

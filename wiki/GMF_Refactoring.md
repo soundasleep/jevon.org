@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "GMF Refactoring"
+title:  GMF Refactoring
 author: jevon
-date:   2008-10-02 16:41:43 +1300
-tags:   [GMF]
+date:   2008-10-02 16:41:43 +13:00
+tags:
+  - GMF
+redirect_from:
+  - "/wiki/GMF Refactoring"
 ---
 
 [GMF](GMF.md)

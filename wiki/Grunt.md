@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Grunt"
+title:  Grunt
 author: jevon
-date:   2014-12-15 14:47:06 +1300
-tags:   [Javascript, Coffeescript, Build tools]
+date:   2014-12-15 14:47:06 +13:00
+tags:
+  - Javascript
+  - Coffeescript
+  - Build tools
 ---
 
 [Grunt](Grunt.md) is a build tool much like [Ant](Ant.md) or [Maven](Maven.md), but using the beauty of [Javascript](Javascript.md).

@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "IAML"
+title:  IAML
 author: jevon
-date:   2008-07-30 08:44:34 +1200
-tags:   [Research, Technology]
+date:   2008-07-30 08:44:34 +12:00
+tags:
+  - Research
+  - Technology
 ---
 
 [Research](Research.md)

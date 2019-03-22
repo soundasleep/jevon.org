@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Uploading via POST with PHP and CURL"
+title:  Uploading via POST with PHP and CURL
 author: jevon
-date:   2007-11-09 10:11:17 +1300
-tags:   [PHP, Article, Published Code]
+date:   2007-11-09 10:11:17 +13:00
+tags:
+  - PHP
+  - Article
+  - Published Code
+redirect_from:
+  - "/wiki/Uploading via POST with PHP and CURL"
 ---
 
 [Articles](Articles.md) > [PHP](PHP.md)

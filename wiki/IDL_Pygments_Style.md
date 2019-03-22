@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "IDL Pygments Style"
+title:  IDL Pygments Style
 author: jevon
-date:   2011-07-12 11:20:55 +1200
-tags:   [Code Snippets]
+date:   2011-07-12 11:20:55 +12:00
+tags:
+  - Code Snippets
+redirect_from:
+  - "/wiki/IDL Pygments Style"
 ---
 
 [Python](Python.md) / [Latex](Latex.md) / [IDL](idl.md)

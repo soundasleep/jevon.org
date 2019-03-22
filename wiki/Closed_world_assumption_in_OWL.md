@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Closed world assumption in OWL"
+title:  Closed world assumption in OWL
 author: jevon
-date:   2009-08-05 07:46:19 +1200
-tags:   [OWL, Semantic Web]
+date:   2009-08-05 07:46:19 +12:00
+tags:
+  - OWL
+  - Semantic Web
+redirect_from:
+  - "/wiki/Closed world assumption in OWL"
 ---
 
 [OWL](OWL.md)

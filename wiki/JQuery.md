@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "JQuery"
+title:  JQuery
 author: jevon
-date:   2014-07-28 17:36:45 +1200
-tags:   [Javascript]
+date:   2014-07-28 17:36:45 +12:00
+tags:
+  - Javascript
 ---
 
 [JQuery](JQuery.md) is a [Javascript](Javascript.md) framework for interacting with the [DOM](dom.md), doing [AJAX](AJAX.md) requests and lots of new modern things.

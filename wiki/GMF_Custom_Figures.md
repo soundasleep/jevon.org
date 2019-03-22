@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "GMF Custom Figures"
+title:  GMF Custom Figures
 author: jevon
-date:   2010-04-16 14:32:40 +1200
-tags:   [GMF]
+date:   2010-04-16 14:32:40 +12:00
+tags:
+  - GMF
+redirect_from:
+  - "/wiki/GMF Custom Figures"
 ---
 
 [GMF](GMF.md)

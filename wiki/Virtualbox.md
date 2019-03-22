@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "Virtualbox"
+title:  Virtualbox
 author: jevon
-date:   2014-09-23 21:05:18 +1200
-tags:   [Linux]
+date:   2014-09-23 21:05:18 +12:00
+tags:
+  - Linux
 ---
 
 [Virtualbox](Virtualbox.md) allows you to run a [VM](vm.md) for [Linux](Linux.md), [Windows](Windows.md) or anything else.

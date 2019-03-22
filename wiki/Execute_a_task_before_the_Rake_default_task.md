@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Execute a task before the Rake default task"
+title:  Execute a task before the Rake default task
 author: jevon
-date:   2014-09-11 16:43:53 +1200
-tags:   [Ruby]
+date:   2014-09-11 16:43:53 +12:00
+tags:
+  - Ruby
+redirect_from:
+  - "/wiki/Execute a task before the Rake default task"
 ---
 
 [Ruby](Ruby.md) / [Rake](Rake.md)

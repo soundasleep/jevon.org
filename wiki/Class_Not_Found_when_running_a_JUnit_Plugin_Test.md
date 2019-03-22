@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Class Not Found when running a JUnit Plugin Test"
+title:  Class Not Found when running a JUnit Plugin Test
 author: jevon
-date:   2010-02-11 12:00:36 +1300
-tags:   [Java, Testing, Troubleshooting]
+date:   2010-02-11 12:00:36 +13:00
+tags:
+  - Java
+  - Testing
+  - Troubleshooting
+redirect_from:
+  - "/wiki/Class Not Found when running a JUnit Plugin Test"
 ---
 
 [Eclipse](Eclipse.md) / [JUnit](junit.md)

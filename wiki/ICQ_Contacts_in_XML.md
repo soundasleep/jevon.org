@@ -1,14 +1,16 @@
 ---
 layout: page
-title:  "ICQ Contacts in XML"
+title:  ICQ Contacts in XML
 author: jevon
-date:   2013-01-07 01:23:51 +1300
-tags:   [Article, Todo, Archived]
+date:   2013-01-07 01:23:51 +13:00
+tags:
+  - Article
+  - Todo
+  - Archived
+redirect_from:
+  - "/wiki/ICQ Contacts in XML"
 ---
 
-This site used to host a quick and dirty hack, which would allow you to retrieve some basic contact information about a user in ICQ via [XML](XML.md). It no longer works and I don't plan on supporting it again in the future. The remaining content is archived for historical purposes only.
-
----
 It takes this page:
 <blockquote>http://www.icq.com/whitepages/about_me.php?uin=41466024</blockquote>
 And returns this:

@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Conditional Statements in Apache .htaccess Files"
+title:  Conditional Statements in Apache .htaccess Files
 author: jevon
-date:   2007-06-14 09:48:11 +1200
-tags:   [Programming, Web, Technology]
+date:   2007-06-14 09:48:11 +12:00
+tags:
+  - Programming
+  - Web
+  - Technology
+redirect_from:
+  - "/wiki/Conditional Statements in Apache .htaccess Files"
 ---
 
 ## Problem

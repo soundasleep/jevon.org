@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Adding the source rule to elements inserted by Drools"
+title:  Adding the source rule to elements inserted by Drools
 author: jevon
-date:   2009-04-08 19:04:41 +1200
-tags:   [Drools, Code Snippets]
+date:   2009-04-08 19:04:41 +12:00
+tags:
+  - Drools
+  - Code Snippets
+redirect_from:
+  - "/wiki/Adding the source rule to elements inserted by Drools"
 ---
 
 In [Drools](Drools.md), if you are inserting/updating lots of elements in the working memory, it's possible to keep track of which rules have been modifying the elements, by adding a listener to the workflow.

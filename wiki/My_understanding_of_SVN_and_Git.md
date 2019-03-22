@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "My understanding of SVN and Git"
+title:  My understanding of SVN and Git
 author: jevon
-date:   2014-04-08 20:52:14 +1200
-tags:   [Git, Subversion]
+date:   2014-04-08 20:52:14 +12:00
+tags:
+  - Git
+  - Subversion
+redirect_from:
+  - "/wiki/My understanding of SVN and Git"
 ---
 
 [SVN](SVN.md) / [Git](Git.md)

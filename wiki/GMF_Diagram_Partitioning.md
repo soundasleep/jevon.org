@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "GMF Diagram Partitioning"
+title:  GMF Diagram Partitioning
 author: jevon
-date:   2008-09-25 07:03:51 +1200
-tags:   [GMF, Article, Technology]
+date:   2008-09-25 07:03:51 +12:00
+tags:
+  - GMF
+  - Article
+  - Technology
+redirect_from:
+  - "/wiki/GMF Diagram Partitioning"
 ---
 
 {% include gmf-CSS.md %}The goal of this tutorial is to be able to create a [GMF](GMF.md) editor, where you can expand certain boxes to edit their contents, like so:

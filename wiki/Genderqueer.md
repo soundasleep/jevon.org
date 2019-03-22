@@ -1,9 +1,9 @@
 ---
 layout: page
-title:  "Genderqueer"
+title:  Genderqueer
 author: jevon
-date:   2013-06-08 06:20:36 +1200
-tags:   []
+date:   2013-06-08 06:20:36 +12:00
+tags: []
 ---
 
 {% include genderqueer-heading.md %}

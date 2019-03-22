@@ -1,9 +1,16 @@
 ---
 layout: page
-title:  "Unit testing of GMF diagram editors and shortcuts with JUnit"
+title:  Unit testing of GMF diagram editors and shortcuts with JUnit
 author: jevon
-date:   2008-11-11 12:10:12 +1300
-tags:   [GMF, Technology, Testing, Java, Code Samples]
+date:   2008-11-11 12:10:12 +13:00
+tags:
+  - GMF
+  - Technology
+  - Testing
+  - Java
+  - Code Samples
+redirect_from:
+  - "/wiki/Unit testing of GMF diagram editors and shortcuts with JUnit"
 ---
 
 [GMF](GMF.md) / [GMF Code Samples](GMF_Code_Samples.md)

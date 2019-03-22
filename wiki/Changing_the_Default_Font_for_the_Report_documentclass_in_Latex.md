@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Changing the Default Font for the Report documentclass in Latex"
+title:  Changing the Default Font for the Report documentclass in Latex
 author: jevon
-date:   2010-01-27 13:20:29 +1300
-tags:   [Latex]
+date:   2010-01-27 13:20:29 +13:00
+tags:
+  - Latex
+redirect_from:
+  - "/wiki/Changing the Default Font for the Report documentclass in Latex"
 ---
 
 [Latex](Latex.md)

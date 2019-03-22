@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "LTL Pygments Lexer"
+title:  LTL Pygments Lexer
 author: jevon
-date:   2011-10-06 14:21:46 +1300
-tags:   [Code Snippets, Todo]
+date:   2011-10-06 14:21:46 +13:00
+tags:
+  - Code Snippets
+  - Todo
+redirect_from:
+  - "/wiki/LTL Pygments Lexer"
 ---
 
 [Python](Python.md) / [Latex](Latex.md)

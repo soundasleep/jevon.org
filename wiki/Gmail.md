@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "Gmail"
+title:  Gmail
 author: jevon
-date:   2013-11-24 13:36:34 +1300
-tags:   [Web Applications, Google]
+date:   2013-11-24 13:36:34 +13:00
+tags:
+  - Web Applications
+  - Google
 ---
 
 [Gmail](Gmail.md) is a web [email](email.md) client by [Google](google.md).

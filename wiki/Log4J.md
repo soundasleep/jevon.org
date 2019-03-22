@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "Log4J"
+title:  Log4J
 author: jevon
-date:   2009-08-31 16:03:27 +1200
-tags:   [Java, Eclipse]
+date:   2009-08-31 16:03:27 +12:00
+tags:
+  - Java
+  - Eclipse
 ---
 
 [Log4J](Log4J.md) is a logging framework for [Java](Java.md) which can be quite a challenge to set up. Because it is based on files, rather than Java code, there is a lot of trickery and witchery needed to set it up.

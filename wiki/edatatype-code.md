@@ -1,9 +1,9 @@
 ---
 layout: page
-title:  "edatatype-code"
+title:  edatatype-code
 author: jevon
-date:   2009-01-29 10:09:41 +1300
-tags:   []
+date:   2009-01-29 10:09:41 +13:00
+tags: []
 ---
 
 ```

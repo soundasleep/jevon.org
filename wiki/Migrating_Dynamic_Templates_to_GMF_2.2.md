@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Migrating Dynamic Templates to GMF 2.2"
+title:  Migrating Dynamic Templates to GMF 2.2
 author: jevon
-date:   2009-08-09 12:57:03 +1200
-tags:   [GMF, QVT]
+date:   2009-08-09 12:57:03 +12:00
+tags:
+  - GMF
+  - QVT
+redirect_from:
+  - "/wiki/Migrating Dynamic Templates to GMF 2.2"
 ---
 
 [GMF](GMF.md) provides [Dynamic Templates](Dynamic_Templates.md) - see [Enabling Dynamic Templates in GMF](enabling-dynamic-templates-in-GMF.md).

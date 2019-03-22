@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Horizonal Spacing in Latex Tables"
+title:  Horizonal Spacing in Latex Tables
 author: jevon
-date:   2011-03-16 08:31:01 +1300
-tags:   [Latex]
+date:   2011-03-16 08:31:01 +13:00
+tags:
+  - Latex
+redirect_from:
+  - "/wiki/Horizonal Spacing in Latex Tables"
 ---
 
 [Latex](Latex.md)

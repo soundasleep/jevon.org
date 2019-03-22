@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "Road Trip '06"
+title:  Road Trip '06
 author: jevon
-date:   2006-01-21 11:21:00 +1300
-tags:   [Protected]
+date:   2006-01-21 11:21:00 +13:00
+tags:
+  - Protected
 ---
 
 ## February [2006](2006.md)

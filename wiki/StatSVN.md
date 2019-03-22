@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "StatSVN"
+title:  StatSVN
 author: jevon
-date:   2010-04-12 07:07:32 +1200
-tags:   [Technology]
+date:   2010-04-12 07:07:32 +12:00
+tags:
+  - Technology
 ---
 
 [StatSVN](StatSVN.md) is a statistics generation tool for [SVN](SVN.md).

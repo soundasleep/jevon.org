@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "OWL"
+title:  OWL
 author: jevon
-date:   2011-07-12 11:21:25 +1200
-tags:   [Semantic, OWL]
+date:   2011-07-12 11:21:25 +12:00
+tags:
+  - Semantic
+  - OWL
 ---
 
 [OWL](OWL.md) is the [Web Ontology Language](web-ontology-language.md).

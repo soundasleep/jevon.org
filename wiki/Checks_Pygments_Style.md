@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Checks Pygments Style"
+title:  Checks Pygments Style
 author: jevon
-date:   2011-03-30 08:16:55 +1300
-tags:   [Code Snippets]
+date:   2011-03-30 08:16:55 +13:00
+tags:
+  - Code Snippets
+redirect_from:
+  - "/wiki/Checks Pygments Style"
 ---
 
 [Python](Python.md) / [Latex](Latex.md) / [openArchitectureWare](openArchitectureWare.md)

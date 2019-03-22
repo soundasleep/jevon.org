@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Loading an EMF model from an XMI file"
+title:  Loading an EMF model from an XMI file
 author: jevon
-date:   2008-10-16 11:57:18 +1300
-tags:   [GMF, EMF, Code Samples]
+date:   2008-10-16 11:57:18 +13:00
+tags:
+  - GMF
+  - EMF
+  - Code Samples
+redirect_from:
+  - "/wiki/Loading an EMF model from an XMI file"
 ---
 
 [GMF Code Samples](GMF_Code_Samples.md) / [GMF](GMF.md) / [EMF](EMF.md)

@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  "Genderqueer/What is"
+title:  Genderqueer/What is
 author: jevon
-date:   2013-06-08 07:21:30 +1200
-tags:   [Genderqueer, Gender]
+date:   2013-06-08 07:21:30 +12:00
+tags:
+  - Genderqueer
+  - Gender
 ---
 
 {% include genderqueer-heading.md %}

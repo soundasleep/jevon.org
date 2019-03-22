@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "C"
+title:  C
 author: jevon
-date:   2007-10-24 12:50:20 +1300
-tags:   [Languages, Technology, Programming Snippets]
+date:   2007-10-24 12:50:20 +13:00
+tags:
+  - Languages
+  - Technology
+  - Programming Snippets
 ---
 
 ## Convert a C array a&#91;0..5] to b&#91;1..6]

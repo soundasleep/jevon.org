@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Setting up a Bluetooth Wireless Network"
+title:  Setting up a Bluetooth Wireless Network
 author: jevon
-date:   2009-08-20 21:33:31 +1200
-tags:   [Technology]
+date:   2009-08-20 21:33:31 +12:00
+tags:
+  - Technology
+redirect_from:
+  - "/wiki/Setting up a Bluetooth Wireless Network"
 ---
 
 [Articles](Articles.md)

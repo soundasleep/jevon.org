@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "WinKey"
+title:  WinKey
 author: jevon
-date:   2007-08-14 13:32:19 +1200
-tags:   [Download]
+date:   2007-08-14 13:32:19 +12:00
+tags:
+  - Download
 ---
 
 [Downloads](Downloads.md)

@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Adding an Index to an each iteration over a computed property in EmberJS"
+title:  Adding an Index to an each iteration over a computed property in EmberJS
 author: jevon
-date:   2014-04-30 22:07:24 +1200
-tags:   [Javascript, EmberJS]
+date:   2014-04-30 22:07:24 +12:00
+tags:
+  - Javascript
+  - EmberJS
+redirect_from:
+  - "/wiki/Adding an Index to an each iteration over a computed property in EmberJS"
 ---
 
 [EmberJS](EmberJS.md)

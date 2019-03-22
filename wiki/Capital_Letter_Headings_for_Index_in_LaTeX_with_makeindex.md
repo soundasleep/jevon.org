@@ -1,9 +1,12 @@
 ---
 layout: page
-title:  "Capital Letter Headings for Index in LaTeX with makeindex"
+title:  Capital Letter Headings for Index in LaTeX with makeindex
 author: jevon
-date:   2011-09-29 13:36:35 +1300
-tags:   [LaTeX]
+date:   2011-09-29 13:36:35 +13:00
+tags:
+  - LaTeX
+redirect_from:
+  - "/wiki/Capital Letter Headings for Index in LaTeX with makeindex"
 ---
 
 [LaTeX](Latex.md)

@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "GMF Troubleshooting 4"
+title:  GMF Troubleshooting 4
 author: jevon
-date:   2008-09-23 11:38:49 +1200
-tags:   [GMF, Technology]
+date:   2008-09-23 11:38:49 +12:00
+tags:
+  - GMF
+  - Technology
+redirect_from:
+  - "/wiki/GMF Troubleshooting 4"
 ---
 
 Some helpful tips for working with [GMF](GMF.md).

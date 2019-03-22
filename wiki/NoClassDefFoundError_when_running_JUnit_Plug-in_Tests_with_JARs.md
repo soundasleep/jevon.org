@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "NoClassDefFoundError when running JUnit Plug-in Tests with JARs"
+title:  NoClassDefFoundError when running JUnit Plug-in Tests with JARs
 author: jevon
-date:   2009-07-23 10:38:45 +1200
-tags:   [Eclipse, Java]
+date:   2009-07-23 10:38:45 +12:00
+tags:
+  - Eclipse
+  - Java
+redirect_from:
+  - "/wiki/NoClassDefFoundError when running JUnit Plug-in Tests with JARs"
 ---
 
 [Eclipse](Eclipse.md)

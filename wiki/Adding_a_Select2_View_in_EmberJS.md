@@ -1,9 +1,13 @@
 ---
 layout: page
-title:  "Adding a Select2 View in EmberJS"
+title:  Adding a Select2 View in EmberJS
 author: jevon
-date:   2014-04-13 17:06:18 +1200
-tags:   [EmberJS, Javascript]
+date:   2014-04-13 17:06:18 +12:00
+tags:
+  - EmberJS
+  - Javascript
+redirect_from:
+  - "/wiki/Adding a Select2 View in EmberJS"
 ---
 
 [EmberJS](EmberJS.md)

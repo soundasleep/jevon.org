@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "Extending java.text.MessageFormat"
+title:  Extending java.text.MessageFormat
 author: jevon
-date:   2008-11-06 10:34:19 +1300
-tags:   [Java, Technology, Code Samples]
+date:   2008-11-06 10:34:19 +13:00
+tags:
+  - Java
+  - Technology
+  - Code Samples
+redirect_from:
+  - "/wiki/Extending java.text.MessageFormat"
 ---
 
 [Java](Java.md)
