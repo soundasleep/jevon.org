@@ -6,14 +6,14 @@ date:   2015-01-21 15:03:24 +1300
 tags:   [Git, Subversion]
 ---
 
-1. [Synchronising SVN and Git](synchronising-svn-and-git.md)
+1. [Synchronising SVN and Git](Synchronising_SVN_and_Git.md)
 1. <a href="http://www.uvd.co.uk/blog/labs/configuring-jenkins-continuous-integration-server-to-work-with-git/">Configuring Jenkins CI to work with Git on Ubuntu</a>
 1. To check out: <a href="https://github.com/nvie/gitflow/wiki/Windows">Using Git on Windows</a>
-1. [My understanding of SVN and Git](my-understanding-of-svn-and-git.md)
+1. [My understanding of SVN and Git](My_understanding_of_SVN_and_Git.md)
 1. <a href="https://github.com/soundasleep/statgit/" class="github">statgit</a> - generate Git development statistics
-1. [Getting Git to work over SSH in Windows](getting-git-to-work-over-ssh-in-windows.md)
+1. [Getting Git to work over SSH in Windows](Getting_Git_to_work_over_SSH_in_Windows.md)
 
-## Things [SVN](svn.md) can do that [Git](git.md) can't
+## Things [SVN](SVN.md) can do that [Git](Git.md) can't
 
 1. Checkout into a non-empty directory; you have to checkout into a temporary directory, move the .git folder into the non-empty directory, and run a `git reset --hard`
 1. Add an empty folder. <a href="http://stackoverflow.com/a/115992/39531">It's impossible in Git</a>! `.keep` files everywhere!
@@ -79,7 +79,7 @@ Other commands:
 
 ## Merging with TortoiseMerge
 
-I really like [TortoiseSVN](svn.md)'s merge tool, and with a bit of wrangling <a href="http://stackoverflow.com/questions/5190188/why-cant-i-use-tortoisemerge-as-my-git-merge-tool-on-windows">you can get Git to use it too</a>.
+I really like [TortoiseSVN](SVN.md)'s merge tool, and with a bit of wrangling <a href="http://stackoverflow.com/questions/5190188/why-cant-i-use-tortoisemerge-as-my-git-merge-tool-on-windows">you can get Git to use it too</a>.
 
 Add the following files to `Program Files (x86)/Git/share/git-gui/lib/mergetool.tcl` just before the `error_popup [mc "Unsupported merge tool '%s'" $tool]` block:
 

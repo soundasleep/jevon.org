@@ -6,11 +6,11 @@ date:   2013-05-27 05:50:59 +1200
 tags:   [Python, Cryptocurrencies]
 ---
 
-## Configuring Abe to work with Litecoin using [MySQL](mysql.md)
+## Configuring Abe to work with Litecoin using [MySQL](MySQL.md)
 
-<a href="https://github.com/jtobey/bitcoin-abe">Abe</a> is a cryptocurrency block explorer for [Bitcoin](bitcoin.md) and any other related chain.
+<a href="https://github.com/jtobey/bitcoin-abe">Abe</a> is a cryptocurrency block explorer for [Bitcoin](Bitcoin.md) and any other related chain.
 
-1. Install [python](python.md)
+1. Install [python](Python.md)
 1. Install <a href="https://www.dlitz.net/software/pycrypto/">pycrypto</a> to prevent `ImportError: No module named Crypto.Hash.SHA256`
 1. Install `python-mysqldb` (e.g. `<a href="http://stackoverflow.com/questions/454854/no-module-named-mysqldb">http://stackoverflow.com/questions/454854/no-module-named-mysqldb</a>`) to prevent `ImportError: No module named MySQLdb`
 1. Create a new MySQL database named `abe`.
@@ -42,7 +42,7 @@ References: <a href="https://bitcointalk.org/index.php?topic=131781.0">Configuri
 ## Setting up Litecoin mining on Ubuntu 12.04.2 LTS
 
 * I followed <a href="http://www.reddit.com/r/litecoinmining/comments/1c4n7i/guide_getting_started_with_n_x_radeon_7950_on/">this guide mainly</a>, with some help from <a href="http://www.reddit.com/r/litecoinmining/comments/1c4n7i/guide_getting_started_with_n_x_radeon_7950_on/ca6t3hb">my comment</a> and <a href="http://www.cryptobadger.com/2013/04/build-a-litecoin-mining-rig-linux/">this guide</a> and <a href="https://docs.google.com/document/d/1Gw7YPYgMgNNU42skibULbJJUx_suP_CpjSEdSi8_z9U/preview?sle=true#">this guide</a>.
-* I had to install the [Linux](linux.md) beta drivers (13.3 Beta 3) from ATI to get things to work.
+* I had to install the [Linux](Linux.md) beta drivers (13.3 Beta 3) from ATI to get things to work.
 * If you installed the server package, you need to have an X server. The easiest way to set this up is to install a desktop manager (Gnome) along with <a href="https://help.ubuntu.com/community/ServerGUI#X11_Server_Installation">a minimal X</a>: `sudo apt-get install xorg gdm`
 * After installing new drivers, execute `sudo aticonfig --adapter=all --initial -f` and restart.
 

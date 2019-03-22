@@ -18,7 +18,7 @@ It's easy to import an old Thunderbird profile into a fresh new install.
 Thunderbird will automatically load the old profile information (including saved passwords and mail filters, along with all old e-mails).
 
 ## Invalid SSL Certificates with Avast and Thunderbird
-[Avast](avast.md) and Thunderbird don't play well together at all, because Avast decides to intercept SSL mail connections and insert in their own certificate. You may get the following errors:
+[Avast](Avast.md) and Thunderbird don't play well together at all, because Avast decides to intercept SSL mail connections and insert in their own certificate. You may get the following errors:
 
 ```
 An error occurred during a connection to imap.gmail.com:993. 

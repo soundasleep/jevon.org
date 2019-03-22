@@ -6,9 +6,9 @@ date:   2013-02-17 20:44:47 +1300
 tags:   [Article, Language, Programming, Web Development]
 ---
 
-[Symfony](symfony.md) is a neat little web application framework for [PHP](php.md). More information: http://www.symfony-project.com/
+[Symfony](Symfony.md) is a neat little web application framework for [PHP](PHP.md). More information: http://www.symfony-project.com/
 
-1. [Symfony: csrf token: Required.](symfony-csrf-token-required-.md)
+1. [Symfony: csrf token: Required.](Symfony__csrf_token__Required..md)
 1. <a href="http://www.delicious.com/jevonwright/symfony" class="delicious">Other pages tagged as "symfony"</a>
 
 ## Notice: Array to string conversion sfToolkit.class.php on line 329
@@ -95,7 +95,7 @@ fields:
 ```
 
 ## "[propel-sql-exec] SQLSTATE[HY000]: General error: 1005 Can't create table"
-For more information on the error, you can log into [MySQL](mysql.md) as root and <a href="http://oldforum.symfony-project.org/index.php/m/88845/">execute the command `SHOW ENGINE INNODB STATUS`</a>:
+For more information on the error, you can log into [MySQL](MySQL.md) as root and <a href="http://oldforum.symfony-project.org/index.php/m/88845/">execute the command `SHOW ENGINE INNODB STATUS`</a>:
 
 ```
 ------------------------

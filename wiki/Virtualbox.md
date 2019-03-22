@@ -6,7 +6,7 @@ date:   2014-09-23 21:05:18 +1200
 tags:   [Linux]
 ---
 
-[Virtualbox](virtualbox.md) allows you to run a [VM](vm.md) for [Linux](linux.md), [Windows](windows.md) or anything else.
+[Virtualbox](Virtualbox.md) allows you to run a [VM](vm.md) for [Linux](Linux.md), [Windows](Windows.md) or anything else.
 
 ## Getting Shared Folders working
 

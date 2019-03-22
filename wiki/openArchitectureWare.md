@@ -6,7 +6,7 @@ date:   2011-05-02 14:40:17 +1200
 tags:   [Technology, OAW]
 ---
 
-A [Java](java.md)-based project to "simplify" the use of [EMF](emf.md) in generating code in Eclipse from models using [MDA](mda.md).
+A [Java](Java.md)-based project to "simplify" the use of [EMF](EMF.md) in generating code in Eclipse from models using [MDA](mda.md).
 
 The easiest way to play around with OAW is to:
 
@@ -16,15 +16,15 @@ The easiest way to play around with OAW is to:
 
 You can see what changes I needed to do in order to <a href="http://code.google.com/p/iaml/source/detail?r=216">support my custom metamodel</a>.
 
-1. [Registering packages and sub packages in OAW](registering-packages-and-sub-packages-in-oaw.md)
-1. [Throwing exceptions in OAW](throwing-exceptions-in-oaw.md)
-1. [Controlling logging in OAW](controlling-logging-in-oaw.md)
-1. [Accessing the AST of a OAW checks file](accessing-the-ast-of-a-oaw-checks-file.md)
-1. [Improving the performance of OAW](improving-the-performance-of-oaw.md)
-1. [Ambiguous templates in OAW](ambiguous-templates-in-oaw.md)
-1. [Resolving Proxy EMF Elements](resolving-proxy-emf-elements.md)
-1. [Checks Pygments Style](checks-pygments-style.md)
-1. [Xtend Pygments Style](xtend-pygments-style.md)
+1. [Registering packages and sub packages in OAW](Registering_packages_and_sub_packages_in_OAW.md)
+1. [Throwing exceptions in OAW](Throwing_exceptions_in_OAW.md)
+1. [Controlling logging in OAW](Controlling_logging_in_OAW.md)
+1. [Accessing the AST of a OAW checks file](Accessing_the_AST_of_a_OAW_checks_file.md)
+1. [Improving the performance of OAW](Improving_the_performance_of_OAW.md)
+1. [Ambiguous templates in OAW](Ambiguous_templates_in_OAW.md)
+1. [Resolving Proxy EMF Elements](Resolving_Proxy_EMF_Elements.md)
+1. [Checks Pygments Style](Checks_Pygments_Style.md)
+1. [Xtend Pygments Style](Xtend_Pygments_Style.md)
 
 External notes:
 1. <a href="http://www.openarchitectureware.org/pub/documentation/4.3.1/html/contents/r52.html">Integrating OAW checks into the GMF Validation Framework</a>

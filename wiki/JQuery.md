@@ -6,10 +6,10 @@ date:   2014-07-28 17:36:45 +1200
 tags:   [Javascript]
 ---
 
-[JQuery](jquery.md) is a [Javascript](javascript.md) framework for interacting with the [DOM](dom.md), doing [AJAX](ajax.md) requests and lots of new modern things.
+[JQuery](JQuery.md) is a [Javascript](Javascript.md) framework for interacting with the [DOM](dom.md), doing [AJAX](AJAX.md) requests and lots of new modern things.
 
-1. [Integration Testing with EmberJS and JQuery](integration-testing-with-emberjs-and-jquery.md)
-1. [Multiple JQuery versions with EmberJS](multiple-jquery-versions-with-emberjs.md)
+1. [Integration Testing with EmberJS and JQuery](Integration_Testing_with_EmberJS_and_JQuery.md)
+1. [Multiple JQuery versions with EmberJS](Multiple_JQuery_versions_with_EmberJS.md)
 
 ## Checking JQuery version
 

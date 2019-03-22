@@ -6,7 +6,7 @@ date:   2013-04-30 03:21:29 +1200
 tags:   [Linux]
 ---
 
-[Citadel](citadel.md) is a mail server and groupware thing for [Linux](linux.md). It supports [SMTP](smtp.md), [IMAP](imap.md), [POP3](pop3.md) and [SSL](ssl.md).
+[Citadel](Citadel.md) is a mail server and groupware thing for [Linux](Linux.md). It supports [SMTP](smtp.md), [IMAP](imap.md), [POP3](pop3.md) and [SSL](ssl.md).
 
 ## Citadel removes "From" name or replaces it with username
 While apparently you can fix this by correctly specifying the users' address book entry, this didn't fix it for me at all on _any_ account. Just turn off <a href="http://www.citadel.org/doku.php/faq:everydayuse:citadel_sends_my_mail_out_with_a_different_from_than_i_specified_in_my_email_client">"Correct forged From: lines during authenticated SMTP"</a>. Perhaps if you were less braindead, Citadel, this feature would actually be useful.
@@ -17,7 +17,7 @@ The <a href="http://www.citadel.org/doku.php/faq:systemadmin:how_to_install_a_ce
 ## Configuring Certificate Chain File
 If your SSL certificate needs to be installed alongside a `SSLCertificateChainFile` provided by your SSL provider, then to configure the certficate chain file, you need to <a href="http://www.aerospacesoftware.com/howtos/citadel-ssl-certificate.html">_append_</a> the providers certificate into the same `/etc/ssl/citadel/citadel.cer`.
 
-If you don't do this, you may get errors from [Gmail](gmail.md) saying <a href="http://productforums.google.com/d/topic/gmail/lE1ogJCo-o0/discussion">"SSL error: unable to verify the first certificate"</a> (<a href="http://productforums.google.com/d/topic/gmail/uPP9EsiY1rA/discussion">more discussion</a>).
+If you don't do this, you may get errors from [Gmail](Gmail.md) saying <a href="http://productforums.google.com/d/topic/gmail/lE1ogJCo-o0/discussion">"SSL error: unable to verify the first certificate"</a> (<a href="http://productforums.google.com/d/topic/gmail/uPP9EsiY1rA/discussion">more discussion</a>).
 
 ## Cannot forward/receive abuse@domain emails
 By default, Citadel defines five addresses which are given "aide" permissions, meaning that incoming messages will not be subject to the normal server-side email filters: `bbs`, `root`, `Auto`, `postmaster`, and `abuse`. When replying within Webcit, the error message _Higher access is required to post in this room_ will also be displayed; otherwise, the e-mail message may simply bounce back with a similar error.

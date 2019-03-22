@@ -163,7 +163,7 @@ RSpec.describe "pages with whitespace" do
       # (and it's also how jevon.org worked before).
       # Rather than re-export the old content, we'll rewrite them in rspec,
       # because that's easier
-      if true # enable to rewrite pages from camel_case to Proper_Case
+      if false # enable to rewrite pages from camel_case to Proper_Case
         let(:old_to_new_filename_mapping) do
           # Dir['wiki/**/*.md'].map do |file|
           #   puts "Loading #{file}..."
@@ -182,23 +182,24 @@ RSpec.describe "pages with whitespace" do
         end
 
         let(:formatted_filename) { frontmatter["title"].gsub(/[ :]/, '_') }
-        let(:new_filename) { "#{file_path}#{formatted_filename}.md" }
+        #let(:new_filename) { "#{file_path}#{formatted_filename}.md" }
+        let(:new_filename) { file }
 
         it "can rename file names" do
           expect(old_to_new_filename_mapping).to_not be_empty
           #File.write(".mapping.yml", YAML.dump(old_to_new_filename_mapping))
 
-          puts "Rename #{file} -> #{new_filename}"
-          out = `git mv "#{file}" #{new_filename}`
+          # puts "Rename #{file} -> #{new_filename}"
+          # out = `git mv "#{file}" #{new_filename}`
 
-          expect(File.exist?(file)).to eq false
-          expect(File.exist?(new_filename)).to eq true
+          # expect(File.exist?(file)).to eq false
+          # expect(File.exist?(new_filename)).to eq true
 
           # and then rewrite any () hrefs
           puts "Rewriting any internal links..."
           input_file = File.read(new_filename)
           old_to_new_filename_mapping.each do |expected_file, new_file|
-            input_file = input_file.gsub(expected_file, new_file)
+            input_file = input_file.gsub("(#{expected_file})", "(#{new_file})")
           end
 
           File.write(new_filename, input_file)

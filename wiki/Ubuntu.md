@@ -6,11 +6,11 @@ date:   2015-01-20 15:40:08 +1300
 tags:   [Linux]
 ---
 
-[Ubuntu](ubuntu.md) is a [Linux](linux.md) distribution.
+[Ubuntu](Ubuntu.md) is a [Linux](Linux.md) distribution.
 
-1. [Setting up a Samba client on Ubuntu 12.04](setting-up-a-samba-client-on-ubuntu-12-04.md)
+1. [Setting up a Samba client on Ubuntu 12.04](Setting_up_a_Samba_client_on_Ubuntu_12.04.md)
 1. <a href="https://delicious.com/jevonwright/ubuntu" class="delicious">Various Ubuntu tricks and tips</a>
-1. [Why I switched back from Ubuntu to Windows 7](why-i-switched-back-from-ubuntu-to-windows-7.md)
+1. [Why I switched back from Ubuntu to Windows 7](Why_I_switched_back_from_Ubuntu_to_Windows_7.md)
 
 ## New windows don't appear on top
 

@@ -6,9 +6,9 @@ date:   2012-01-25 09:56:52 +1300
 tags:   [Technology, Web]
 ---
 
-A web server for hosting [Java](java.md) or [servlet](servlet.md) applications.
+A web server for hosting [Java](Java.md) or [servlet](servlet.md) applications.
 
-1. [Installing SSL on Tomcat 7](installing-ssl-on-tomcat-7.md)
+1. [Installing SSL on Tomcat 7](Installing_SSL_on_Tomcat_7.md)
 
 ## I get the following exception when trying to start SSL on Tomcat5
 ```

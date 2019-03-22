@@ -6,41 +6,41 @@ date:   2014-04-21 16:49:18 +1200
 tags:   [Article, Programming, Latex]
 ---
 
-[Latex](latex.md) is both a great typesetting system which separates presentation from content, and also makes it as difficult as machinely possible to let you properly present your content.
+[Latex](Latex.md) is both a great typesetting system which separates presentation from content, and also makes it as difficult as machinely possible to let you properly present your content.
 
-[Articles](articles.md)
+[Articles](Articles.md)
 
-1. [A Crude Latex Diff Script in Linux](a-crude-latex-diff-script-in-linux.md)
-1. [Images in Latex](images-in-latex.md)
-1. [SVG in Latex](svg-in-latex.md)
+1. [A Crude Latex Diff Script in Linux](A_Crude_Latex_Diff_Script_in_Linux.md)
+1. [Images in Latex](Images_in_Latex.md)
+1. [SVG in Latex](SVG_in_Latex.md)
 1. <a href="http://www.msu.edu/~harris41/latex_tablespacing.html">Vertical Spacing in Latex Tables</a>
-1. [Horizonal Spacing in Latex Tables](horizonal-spacing-in-latex-tables.md)
+1. [Horizonal Spacing in Latex Tables](Horizonal_Spacing_in_Latex_Tables.md)
 1. <a href="http://www.univie.ac.at/nuhag-php/bibtex/bibstyles.pdf">A reference of different types of bibliography styles in Latex</a> {% include pdf-icon.md %}
 1. <a href="http://www.imsc.res.in/Computer/symbols-letter.pdf">Comprehensive Latex Symbol List</a> {% include pdf-icon.md %}
-1. [My Latex Setup](my-latex-setup.md)
-1. [Changing the Default Font for the Report documentclass in Latex](changing-the-default-font-for-the-report-documentclass-in-latex.md)
-1. [Removing the Coloured Boxes around Hyperref links in Latex](removing-the-coloured-boxes-around-hyperref-links-in-latex.md)
-1. [Eclipse Pygments Style](eclipse-pygments-style.md)
-1. [Labelled Frames in Latex](labelled-frames-in-latex.md)
+1. [My Latex Setup](My_Latex_Setup.md)
+1. [Changing the Default Font for the Report documentclass in Latex](Changing_the_Default_Font_for_the_Report_documentclass_in_Latex.md)
+1. [Removing the Coloured Boxes around Hyperref links in Latex](Removing_the_Coloured_Boxes_around_Hyperref_links_in_Latex.md)
+1. [Eclipse Pygments Style](Eclipse_Pygments_Style.md)
+1. [Labelled Frames in Latex](Labelled_Frames_in_Latex.md)
 1. <a href="http://stackoverflow.com/questions/2611276/latex-beamer-way-to-change-the-bullet-indentation/2613397#2613397">Changing list indent, spacing, etc, using `enumitem`</a>
-1. [Aligning Images in Tables in Latex](aligning-images-in-tables-in-latex.md)
-1. [Fancy Quotation Boxes in Latex](fancy-quotation-boxes-in-latex.md)
-1. [Unrecoverable Error in ps2ascii when using Inkscape images](unrecoverable-error-in-ps2ascii-when-using-inkscape-images.md)
+1. [Aligning Images in Tables in Latex](Aligning_Images_in_Tables_in_Latex.md)
+1. [Fancy Quotation Boxes in Latex](Fancy_Quotation_Boxes_in_Latex.md)
+1. [Unrecoverable Error in ps2ascii when using Inkscape images](Unrecoverable_Error_in_ps2ascii_when_using_Inkscape_images.md)
 1. <a href="http://ask.metafilter.com/60851/How-to-center-vertically-in-a-LaTeX-table">Aligning table cells vertically center in LaTeX</a>
-1. [Adding UML Guillemots in Latex](adding-uml-guillemots-in-latex.md) and [Adding Special Symbols to Minted Environments](adding-uml-guillemots-in-latex.md)
-1. [Enumerate List Environment Whitespace in Latex](enumerate-list-environment-whitespace-in-latex.md)
-1. [Maximum Width of Table Captions in LaTeX](maximum-width-of-table-captions-in-latex.md)
-1. [Capital Letter Headings for Index in LaTeX with makeindex](capital-letter-headings-for-index-in-latex-with-makeindex.md)
-1. [addcontentsline Doesn't Work in LaTeX](addcontentsline-doesn-t-work-in-latex.md)
-1. [Incompatible List can't be Unboxed in LaTeX](incompatible-list-can-t-be-unboxed-in-latex.md)
+1. [Adding UML Guillemots in Latex](Adding_UML_Guillemots_in_Latex.md) and [Adding Special Symbols to Minted Environments](Adding_UML_Guillemots_in_Latex.md)
+1. [Enumerate List Environment Whitespace in Latex](Enumerate_List_Environment_Whitespace_in_Latex.md)
+1. [Maximum Width of Table Captions in LaTeX](Maximum_Width_of_Table_Captions_in_LaTeX.md)
+1. [Capital Letter Headings for Index in LaTeX with makeindex](Capital_Letter_Headings_for_Index_in_LaTeX_with_makeindex.md)
+1. [addcontentsline Doesn't Work in LaTeX](addcontentsline_Doesn't_Work_in_LaTeX.md)
+1. [Incompatible List can't be Unboxed in LaTeX](Incompatible_List_can't_be_Unboxed_in_LaTeX.md)
 1. <a href="http://elena.aut.ac.nz/ctan/macros/latex/contrib/tocloft/tocloft.pdf">Controlling the Whitespace and Layout of LaTeX Table of Contents</a> {% include pdf-icon.md %}
 1. {% include delicious.md %} <a href="http://delicious.com/jevonwright/latex">More Latex bookmarks on delicious</a>
 
-My extensions to [Pygments](pygments.md) to support code formatting and highlighting for various lanuages in [Latex](latex.md):
+My extensions to [Pygments](pygments.md) to support code formatting and highlighting for various lanuages in [Latex](Latex.md):
 
 {% include template-pygments-styles.md %}
 
-Here are some tips I've found when using [Latex](latex.md).
+Here are some tips I've found when using [Latex](Latex.md).
 
 ## References
 Using the **natbib** package, you can use these commands... see the **natbib.sty** file for more details:
@@ -66,7 +66,7 @@ If you want to get rid of the date field, just add
 `date{}`
 
 ## Clickable Wrapped URLs in Bibtex Bibliography
-Argh. For every hour you gain from abandoning [Microsoft Word](microsoft-word.md), you lose trying to configure [Latex](latex.md) to do things that would otherwise be trivial.
+Argh. For every hour you gain from abandoning [Microsoft Word](microsoft-word.md), you lose trying to configure [Latex](Latex.md) to do things that would otherwise be trivial.
 
 If you are using the **latex > dvips > ps2pdf** compilation route for your documents, you may have problems trying to <a href="http://www.tex.ac.uk/cgi-bin/texfaq2html?label=setURL">have URLs in your bibliography</a> that are very long. One option is to manually wrap them yourself (using a space). However, this is better, put at the end of your .tex preamble:
 
@@ -182,7 +182,7 @@ If you are using **vline**, this won't work; you need to wrap the **vline** with
 `{color{green}vline}`
 
 ## Cannot use -dPDFSETTINGS in Ghostscript
-On [Windows](windows.md), you cannot use the **=** character <a href="http://pages.cs.wisc.edu/~ghost/doc/cvs/Use.htm#MS_Windows">in the command line</a>; <a href="http://freshmeat.net/articles/making-presentations-with-latex-and-prosper">you need to use **#**</a>. i.e.:
+On [Windows](Windows.md), you cannot use the **=** character <a href="http://pages.cs.wisc.edu/~ghost/doc/cvs/Use.htm#MS_Windows">in the command line</a>; <a href="http://freshmeat.net/articles/making-presentations-with-latex-and-prosper">you need to use **#**</a>. i.e.:
 
 `ps2pdf -dPDFSETTINGS#/prepress %1.ps %1.pdf`
 

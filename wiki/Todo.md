@@ -10,4 +10,4 @@ The site is currently under construction (started on 3/07/05). I'm in the proces
 
 Everything in the  category is marked as "to be done later". Also see  to find features that have been removed.
 
-Feel free to log in above and [help](editing.md).
+Feel free to log in above and [help](Editing.md).

@@ -6,12 +6,12 @@ date:   2016-06-02 16:25:08 +1200
 tags:   [Technology]
 ---
 
-[MySQL](mysql.md) is a free [SQL](sql.md) relational database for [Windows](windows.md), [Linux](linux.md) etc.
+[MySQL](MySQL.md) is a free [SQL](sql.md) relational database for [Windows](Windows.md), [Linux](Linux.md) etc.
 
-1. [Setting up Master/Slave Replication from an existing MySQL server](setting-up-master/slave-replication-from-an-existing-mysql-server.md)
+1. [Setting up Master/Slave Replication from an existing MySQL server](Setting_up_Master/Slave_Replication_from_an_existing_MySQL_server.md)
 
 ## Importing SQL into MySQL
-On [Windows](windows.md):
+On [Windows](Windows.md):
 `mysqlbinmysql database_name < database_file.sql`
 
 ## dpkg: dependency problems prevent configuration of mysql-server-5.5

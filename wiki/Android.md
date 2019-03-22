@@ -6,9 +6,9 @@ date:   2014-03-13 20:07:58 +1300
 tags:   [Android]
 ---
 
-[Articles](articles.md)
+[Articles](Articles.md)
 
-Also see [Java](java.md), [Eclipse](eclipse.md), [Galaxy S3](galaxy-s3.md)
+Also see [Java](Java.md), [Eclipse](Eclipse.md), [Galaxy S3](Galaxy_S3.md)
 
 1. <a href="http://developer.android.com/tools/building/index.html">Building and Releasing with Eclipse ADT</a>
 1. <a href="http://stackoverflow.com/a/11493625/39531">Attaching source to `android.jar`</a> (does not require any additional software installation; just link through to `android-sdk/sources/android-18/`)

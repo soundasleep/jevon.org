@@ -6,7 +6,7 @@ date:   2007-08-14 13:21:37 +1200
 tags:   [Software]
 ---
 
-[My Software](software.md)
+[My Software](Software.md)
 
 ## Description
 Your IP, quite simply, displays your current [IP](ip.md) address, as well as letting to press a button to copy it to the clipboard. Most useful for finding out your current IP address.

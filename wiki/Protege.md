@@ -6,7 +6,7 @@ date:   2009-10-15 11:46:53 +1300
 tags:   [Java, OWL]
 ---
 
-[Protege](protege.md) is an [OWL](owl.md) editor written in [Java](java.md). See also [Jena](jena.md) and [Pellet](pellet.md).{% include gmf-css.md %}
+[Protege](Protege.md) is an [OWL](OWL.md) editor written in [Java](Java.md). See also [Jena](Jena.md) and [Pellet](Pellet.md).{% include gmf-css.md %}
 
 1. <a href="http://article.gmane.org/gmane.comp.misc.ontology.protege.owl/30337">Integrating Protege SWRL rules into a Java application</a>
 

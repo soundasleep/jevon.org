@@ -8,7 +8,7 @@ tags:   [Recipes]
 
 Haha, I like cooking sometimes, here are some recipes that I've used in the past.
 
-1. [Caroline's Beef Goulash](caroline-s-beef-goulash.md)
-1. [Chocolate Glazed Donuts with Sprinkes](chocolate-glazed-donuts-with-sprinkes.md)
-1. [Vegan Cinnamon Rolls](vegan-cinnamon-rolls.md)
-1. [Vegan Mushroom Risotto](vegan-mushroom-risotto.md)
+1. [Caroline's Beef Goulash](Caroline's_Beef_Goulash.md)
+1. [Chocolate Glazed Donuts with Sprinkes](Chocolate_Glazed_Donuts_with_Sprinkes.md)
+1. [Vegan Cinnamon Rolls](Vegan_Cinnamon_Rolls.md)
+1. [Vegan Mushroom Risotto](Vegan_Mushroom_Risotto.md)

@@ -6,13 +6,13 @@ date:   2011-03-10 13:11:25 +1300
 tags:   [Java, Technology, Rules, Drools]
 ---
 
-A [rule engine](rule-engine.md) for [Java](java.md).
+A [rule engine](rule-engine.md) for [Java](Java.md).
 
 1. <a href="http://www.jboss.org/community/docs/DOC-11903">Minimum runtime requirements for Drools</a>
-1. [Adding the source rule to elements inserted by Drools](adding-the-source-rule-to-elements-inserted-by-drools.md)
-1. [Tips and Techniques for Improving Drools Performance](tips-and-techniques-for-improving-drools-performance.md)
-1. [Improving Drools Memory Performance](improving-drools-memory-performance.md)
-1. [Drools Pygments Lexer](drools-pygments-lexer.md)
+1. [Adding the source rule to elements inserted by Drools](Adding_the_source_rule_to_elements_inserted_by_Drools.md)
+1. [Tips and Techniques for Improving Drools Performance](Tips_and_Techniques_for_Improving_Drools_Performance.md)
+1. [Improving Drools Memory Performance](Improving_Drools_Memory_Performance.md)
+1. [Drools Pygments Lexer](Drools_Pygments_Lexer.md)
 
 ## Important Hints
 If you use the following in a Drools rule:

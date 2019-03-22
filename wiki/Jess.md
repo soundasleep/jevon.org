@@ -6,9 +6,9 @@ date:   2011-03-10 13:11:01 +1300
 tags:   [Jess, Rule engine, Software]
 ---
 
-[Jess](jess.md) is a [rule engine](rule-engine.md) for [Java](java.md).
+[Jess](Jess.md) is a [rule engine](rule-engine.md) for [Java](Java.md).
 
-1. [Jess Pygments Lexer](jess-pygments-lexer.md)
+1. [Jess Pygments Lexer](Jess_Pygments_Lexer.md)
 
 ## Null
 

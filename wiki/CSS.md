@@ -6,7 +6,7 @@ date:   2014-05-14 22:29:55 +1200
 tags:   [Technology, Internet]
 ---
 
-Cascading Stylesheets is a way to specify presentational aspects of [HTML](html.md) pages. See also [SASS](sass.md)
+Cascading Stylesheets is a way to specify presentational aspects of [HTML](html.md) pages. See also [SASS](SASS.md)
 
 ## Reference
 ```

@@ -6,15 +6,15 @@ date:   2015-03-09 15:17:58 +1300
 tags:   [Article, Linux]
 ---
 
-[Articles](articles.md)
+[Articles](Articles.md)
 
-1. [A Crude Latex Diff Script in Linux](a-crude-latex-diff-script-in-linux.md)
-1. [Installing PHP 5.2 on CentOS](installing-php-5-2-on-centos.md)
-1. [Setting up a Samba client on Ubuntu 12.04](setting-up-a-samba-client-on-ubuntu-12-04.md)
-1. [Citadel](citadel.md)
-1. [Ubuntu](ubuntu.md)
-1. [Why I switched back from Ubuntu to Windows 7](why-i-switched-back-from-ubuntu-to-windows-7.md)
-1. [UEFI](uefi.md)
+1. [A Crude Latex Diff Script in Linux](A_Crude_Latex_Diff_Script_in_Linux.md)
+1. [Installing PHP 5.2 on CentOS](Installing_PHP_5.2_on_CentOS.md)
+1. [Setting up a Samba client on Ubuntu 12.04](Setting_up_a_Samba_client_on_Ubuntu_12.04.md)
+1. [Citadel](Citadel.md)
+1. [Ubuntu](Ubuntu.md)
+1. [Why I switched back from Ubuntu to Windows 7](Why_I_switched_back_from_Ubuntu_to_Windows_7.md)
+1. [UEFI](UEFI.md)
 1. <a href="http://www.delicious.com/jevonwright/linux" class="delicious">Other pages tagged as "linux"</a>
 
 ```
@@ -31,7 +31,7 @@ apt-mark hold jenkins       # hold a package at the current version
 If this fails, the version of tar may not support gzip compression. In this case, you can use the traditional two-stage command:
 gzip -dc filename.tar.gz | tar xf -
 
-## Commit directories to [SVN](svn.md) individually
+## Commit directories to [SVN](SVN.md) individually
 ```
 find . -maxdepth 1 -regex ./[A-Za-z0-9].+ -exec svn commit '{}' --message "Adding {} pictures folder to repository" ;
 ```
@@ -57,7 +57,7 @@ gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=out.pdf in1.pdf in2.pdf i
 ./configure: line 23: syntax error near unexpected token `$'inr''
 ```
 
-The configure file line endings has changed from Unix style to [Windows](windows.md) style (probably winzip being stupid). To fix:
+The configure file line endings has changed from Unix style to [Windows](Windows.md) style (probably winzip being stupid). To fix:
 
 ```
 $ vim ./configure
@@ -124,7 +124,7 @@ spamd: still running as root: user not specified with -u, not found, or set to r
 plugin: eval failed: bayes: (in learn) locker: safe_lock: cannot create tmp lockfile /nonexistent/.spamassassin/bayes.lock.my.domain.6304 for /nonexistent/.spamassassin/bayes.lock: No such file or directory
 ```
 
-This is because [spamassassin](spamassassin.md) is not being run as a particular user, or is being run as root. According to `/usr/share/doc/spamassassin/README.spamd` this is technically OK, but it's easier just to create a new user for spamd to run as. Create a new user with `adduser --system`, and then modify `/etc/default/spamassassin` (<a href="http://superuser.com/questions/354944/what-is-the-purpose-of-etc-default">designed to be edited</a> on [Ubuntu](ubuntu.md)):
+This is because [spamassassin](spamassassin.md) is not being run as a particular user, or is being run as root. According to `/usr/share/doc/spamassassin/README.spamd` this is technically OK, but it's easier just to create a new user for spamd to run as. Create a new user with `adduser --system`, and then modify `/etc/default/spamassassin` (<a href="http://superuser.com/questions/354944/what-is-the-purpose-of-etc-default">designed to be edited</a> on [Ubuntu](Ubuntu.md)):
 
 ```
 OPTIONS="--create-prefs --max-children 5 --helper-home-dir -u spamd"

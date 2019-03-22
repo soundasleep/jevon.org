@@ -6,11 +6,11 @@ date:   2016-01-06 19:29:11 +1300
 tags:   [Technology, Todo]
 ---
 
-[About me](jevon-wright.md)
+[About me](Jevon_Wright.md)
 
 Over time, I will try and fill the details of my current machine on this page.
 
-1. [Essential Software for Windows](essential-software-for-windows.md)
+1. [Essential Software for Windows](Essential_Software_for_Windows.md)
 
 ## Machine 1
 
@@ -24,7 +24,7 @@ Over time, I will try and fill the details of my current machine on this page.
 1. **Kingston 4GB 1333MHz DDR3 Non-ECC CL9 DIMM (Kit of 2) Single Rank** from <a href="http://www.itexpress.co.nz/epages/shop.sf/?ObjectPath=/Shops/itexpress/Products/57947">itexpress</a>
 1. **Kingston 8GB 1600MHz DDR3 Non-ECC DIMM (K2)** from <a href="http://www.alphacity.co.nz/index.php?main_page=product_info&cPath=117_312_120&products_id=101620">AlphaCity</a>
 1. **ADATA SP900 256GB SATA3 SSD 2.5** (SSD hard drive) from <a href="http://www.alphacity.co.nz/index.php?main_page=product_info&cPath=39_46&products_id=104151">AlphaCity</a>
-1. **[HP LaserJet 1022n](hp-laserjet-1022n.md)**
+1. **[HP LaserJet 1022n](HP_LaserJet_1022n.md)**
 1. Other less interesting parts
 
 ## Machine 2

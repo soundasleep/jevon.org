@@ -6,7 +6,7 @@ date:   2007-08-14 13:18:14 +1200
 tags:   [Software]
 ---
 
-[My Software](software.md)
+[My Software](Software.md)
 
 ## Description
 "Psychedelic" is a pretty weird piece of software. It's hard to explain, so it'd be better to just download the software and have a go. Psychedelic displays custom text on a window, which covers the screen, and "follows" the mouse.

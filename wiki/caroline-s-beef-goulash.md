@@ -6,7 +6,7 @@ date:   2007-09-14 11:41:59 +1200
 tags:   [Recipes]
 ---
 
-[Recipes](recipes.md)
+[Recipes](Recipes.md)
 
 I shamelessly borrowed this recipe off Caroline. It's super tasty and good for winter, if stew meat is cheap!
 

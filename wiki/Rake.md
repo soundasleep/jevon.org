@@ -6,6 +6,6 @@ date:   2014-09-11 16:43:03 +1200
 tags:   [Ruby]
 ---
 
-[Ruby](ruby.md)
+[Ruby](Ruby.md)
 
-1. [Execute a task before the Rake default task](execute-a-task-before-the-rake-default-task.md)
+1. [Execute a task before the Rake default task](Execute_a_task_before_the_Rake_default_task.md)

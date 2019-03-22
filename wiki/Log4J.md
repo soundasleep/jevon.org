@@ -6,10 +6,10 @@ date:   2009-08-31 16:03:27 +1200
 tags:   [Java, Eclipse]
 ---
 
-[Log4J](log4j.md) is a logging framework for [Java](java.md) which can be quite a challenge to set up. Because it is based on files, rather than Java code, there is a lot of trickery and witchery needed to set it up.
+[Log4J](Log4J.md) is a logging framework for [Java](Java.md) which can be quite a challenge to set up. Because it is based on files, rather than Java code, there is a lot of trickery and witchery needed to set it up.
 
 ## Eclipse and Log4J
-I have found a solution which is the easiest way to specify a _log4j.properties_ configuration if you are running an [Eclipse](eclipse.md) JUnit Plugin Test. Essentially, you create a basic log4j.properties like so:
+I have found a solution which is the easiest way to specify a _log4j.properties_ configuration if you are running an [Eclipse](Eclipse.md) JUnit Plugin Test. Essentially, you create a basic log4j.properties like so:
 
 ```
 # Set root logger level to DEBUG and its only appender to A1.

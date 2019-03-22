@@ -6,7 +6,7 @@ date:   2014-10-09 19:48:27 +1300
 tags:   [Rails, Ruby, Hosting, Web Development]
 ---
 
-[Heroku](heroku.md) is a free cloud hosting service that lets you scale and things.
+[Heroku](Heroku.md) is a free cloud hosting service that lets you scale and things.
 
 ## Using MySQL with Rails applications on Heroku
 

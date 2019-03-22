@@ -6,7 +6,7 @@ date:   2013-11-16 16:08:21 +1300
 tags:   [Software]
 ---
 
-[Textpad](textpad.md) is a very slim and efficient text editor for [Windows](windows.md).
+[Textpad](Textpad.md) is a very slim and efficient text editor for [Windows](Windows.md).
 
 My default file name filter:
 

@@ -6,7 +6,7 @@ date:   2014-08-11 21:15:22 +1200
 tags:   [Chef]
 ---
 
-[Chef](chef.md) is similar to [Puppet](puppet.md), an open source server configuration manager thing.
+[Chef](Chef.md) is similar to [Puppet](puppet.md), an open source server configuration manager thing.
 
 1. <a href="http://gettingstartedwithchef.com/first-steps-with-chef.html">Getting started with Chef</a> (excellent tutorial)
 1. <a href="https://github.com/applicationsonline/librarian-chef" class="github">librarian-chef</a> (manage `Cheffile`s rather than manually managing a repository of download cookbooks)

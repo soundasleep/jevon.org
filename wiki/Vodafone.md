@@ -6,7 +6,7 @@ date:   2009-06-15 17:27:49 +1200
 tags:   [Mobile]
 ---
 
-[Vodafone](vodafone.md) is a mobile phone provider in lots of countries, including [Australia](australia.md) and [New Zealand](new-zealand.md).
+[Vodafone](Vodafone.md) is a mobile phone provider in lots of countries, including [Australia](australia.md) and [New Zealand](new-zealand.md).
 
 ## Internet Settings in New Zealand
 From my phone's settings:

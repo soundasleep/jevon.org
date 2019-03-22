@@ -6,10 +6,10 @@ date:   2014-12-15 14:47:06 +1300
 tags:   [Javascript, Coffeescript, Build tools]
 ---
 
-[Grunt](grunt.md) is a build tool much like [Ant](ant.md) or [Maven](maven.md), but using the beauty of [Javascript](javascript.md).
+[Grunt](Grunt.md) is a build tool much like [Ant](Ant.md) or [Maven](Maven.md), but using the beauty of [Javascript](Javascript.md).
 
 1. <a href="http://gruntjs.com/api/grunt.file">grunt.file</a> - reading, writing files
-1. [Testing Mocha applications with Grunt using Jenkins](testing-mocha-applications-with-grunt-using-jenkins.md)
+1. [Testing Mocha applications with Grunt using Jenkins](Testing_Mocha_applications_with_Grunt_using_Jenkins.md)
 
 My Grunt plugins:
 

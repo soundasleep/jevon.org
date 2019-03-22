@@ -6,7 +6,7 @@ date:   2014-05-22 17:45:28 +1200
 tags:   [CMIS]
 ---
 
-[CMIS](cmis.md) is an [API](api.md) for interacting mostly with [Alfresco](alfresco.md); there is a [Drupal](drupal.md) CMIS module which I have forked and extended: https://github.com/soundasleep/cmis
+[CMIS](CMIS.md) is an [API](api.md) for interacting mostly with [Alfresco](Alfresco.md); there is a [Drupal](Drupal.md) CMIS module which I have forked and extended: https://github.com/soundasleep/cmis
 
 ## Selector must be specified for child constraint (IN_TREE) and join
 

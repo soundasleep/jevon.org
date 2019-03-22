@@ -6,7 +6,7 @@ date:   2009-10-15 10:57:24 +1300
 tags:   [Java, Semantic Web, Reasoners, Logic, OWL]
 ---
 
-See also [OWL](owl.md), [Jena](jena.md).
+See also [OWL](OWL.md), [Jena](Jena.md).
 
 1. <a href="http://clarkparsia.com/pellet/tutorial/">Pellet/OWL Tutorial</a>
 1. <a href="http://clarkparsia.com/pellet/tutorial/iswc09">Pellet/OWL Tutorial (2)</a>
@@ -24,7 +24,7 @@ WARNING: No query handler found for http://www.w3.org/2000/01/rdf-schema#subClas
 WARNING: No query handler found for http://www.w3.org/2002/07/owl#equivalentClass http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
 ```
 
-The code that I was using to execute my Pellet/[Jena](jena.md) reasoner was the following:
+The code that I was using to execute my Pellet/[Jena](Jena.md) reasoner was the following:
 
 ```
 IFile f = project.getFile("input.owl");

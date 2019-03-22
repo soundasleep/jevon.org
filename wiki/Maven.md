@@ -6,11 +6,11 @@ date:   2014-03-17 16:02:32 +1300
 tags:   [Building, Releasing, Tools]
 ---
 
-[Maven](maven.md) is a build/release tool mostly for [Java](java.md), but <a href="http://twitter.com/soundasleep/status/9608999562">I don't like it very much</a>.
+[Maven](Maven.md) is a build/release tool mostly for [Java](Java.md), but <a href="http://twitter.com/soundasleep/status/9608999562">I don't like it very much</a>.
 
 ## Commands
 
-* **mvn eclipse:eclipse** - does something to do with [Eclipse](eclipse.md), I'm not sure what
+* **mvn eclipse:eclipse** - does something to do with [Eclipse](Eclipse.md), I'm not sure what
 * **mvn install** - build the software into a .jar
 * **mvn test** - run all the test cases
 * **mvn dependency:copy-dependencies** - <a href="http://old.nabble.com/export-dependency-libs-td20341759.html">download and copy all dependencies into the target folder</a>
@@ -25,7 +25,7 @@ This means there is no "pom.xml" in the current directory. Perhaps you are not i
 **jdk [ vendor='sun'  version='1.5' ]**
 **Please make sure you define the required toolchains in your ~/.m2/toolchains.xml file.**
 
-<a href="http://docs.codehaus.org/display/MAVEN/Toolchains">[Maven](maven.md) is complaining</a> that it can't find a [Sun JDK 1.5](java.md). If you create a _toolchains.xml_ in your _.m2_ directory with the following:
+<a href="http://docs.codehaus.org/display/MAVEN/Toolchains">[Maven](Maven.md) is complaining</a> that it can't find a [Sun JDK 1.5](Java.md). If you create a _toolchains.xml_ in your _.m2_ directory with the following:
 
 ```
 <toolchains>

@@ -31,4 +31,4 @@ Ever since I was seven years old, I've been playing around with computers. As I 
 * Maxtor 5400rpm 10GB Hard Drive
 * Dynalink ADSL modem
 
-In the software-based side of things, I like to do [software development](software.md) and [web scripting](web-development.md), and also tinkering with the computers themselves. I enjoy software development in [Visual Basic](visual-basic.md) and C/C++; but low-level [Assembly](assembly.md) and even digital logic and machine code interests me. I prefer web scripting in [PHP](php.md) and [ASP](asp.md). I prefer [MySQL](mysql.md) for database access in [PHP](php.md).
+In the software-based side of things, I like to do [software development](Software.md) and [web scripting](Web_Development.md), and also tinkering with the computers themselves. I enjoy software development in [Visual Basic](Visual_Basic.md) and C/C++; but low-level [Assembly](assembly.md) and even digital logic and machine code interests me. I prefer web scripting in [PHP](PHP.md) and [ASP](asp.md). I prefer [MySQL](MySQL.md) for database access in [PHP](PHP.md).

@@ -6,7 +6,7 @@ date:   2013-02-17 20:38:26 +1300
 tags:   [Article]
 ---
 
-[Articles](articles.md)
+[Articles](Articles.md)
 
 From a _certain_ character on [Direct Connect](direct-connect.md) ;)...
 

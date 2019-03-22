@@ -6,13 +6,13 @@ date:   2008-06-09 09:11:39 +1200
 tags:   []
 ---
 
-[Winamp](winamp.md) is a cool free music player for [Windows](windows.md) available at www.winamp.com.
+[Winamp](Winamp.md) is a cool free music player for [Windows](Windows.md) available at www.winamp.com.
 
 Articles about Winamp:
-1. [Making MSN 7 use Winamp for Now Playing](making-msn-7-use-winamp-for-now-playing.md)
-1. [Playing Deus Ex Music in Winamp](playing-deus-ex-music-in-winamp.md)
+1. [Making MSN 7 use Winamp for Now Playing](Making_MSN_7_use_Winamp_for_Now_Playing.md)
+1. [Playing Deus Ex Music in Winamp](Playing_Deus_Ex_Music_in_Winamp.md)
 
-When using [Winamp](winamp.md), I tend to use this for a title format:
+When using [Winamp](Winamp.md), I tend to use this for a title format:
 `[%artist% - ][%album% - ][%tracknumber% - ]$if2(%title%,$filepart(%filename%))`
 
 ## Slow Winamp Playlist Scroll

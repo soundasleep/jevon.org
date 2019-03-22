@@ -6,36 +6,36 @@ date:   2014-07-28 17:40:42 +1200
 tags:   [EmberJS, Web Development, Javascript]
 ---
 
-[Javascript](javascript.md)
+[Javascript](Javascript.md)
 
-1. [Adding properties to a model within an EmberJS router](adding-properties-to-a-model-within-an-emberjs-router.md)
+1. [Adding properties to a model within an EmberJS router](Adding_properties_to_a_model_within_an_EmberJS_router.md)
 1. <a href="http://stackoverflow.com/questions/17923340/how-to-sort-model-in-ember-js">Sorting controller model results in EmberJS with `sortProperties`</a>
-1. [Having a bidirectional computed property on an EmberJS text field](having-a-bidirectional-computed-property-on-an-emberjs-text-field.md)
+1. [Having a bidirectional computed property on an EmberJS text field](Having_a_bidirectional_computed_property_on_an_EmberJS_text_field.md)
 1. <a href="http://www.akshay.cc/blog/2013-02-22-debugging-ember-js-and-ember-data.html">EmberJS debugging tips</a>
-1. [Adding a Select2 View in EmberJS](adding-a-select2-view-in-emberjs.md)
-1. [Using Radio Buttons in EmberJS](using-radio-buttons-in-emberjs.md)
-1. [Capturing EmberJS errors with Raygun.io](capturing-emberjs-errors-with-raygun-io.md)
-1. [Integration Testing with EmberJS and JQuery](integration-testing-with-emberjs-and-jquery.md)
-1. [Adding an Index to an each iteration over a computed property in EmberJS](adding-an-index-to-an-each-iteration-over-a-computed-property-in-emberjs.md)
+1. [Adding a Select2 View in EmberJS](Adding_a_Select2_View_in_EmberJS.md)
+1. [Using Radio Buttons in EmberJS](Using_Radio_Buttons_in_EmberJS.md)
+1. [Capturing EmberJS errors with Raygun.io](Capturing_EmberJS_errors_with_Raygun.io.md)
+1. [Integration Testing with EmberJS and JQuery](Integration_Testing_with_EmberJS_and_JQuery.md)
+1. [Adding an Index to an each iteration over a computed property in EmberJS](Adding_an_Index_to_an_each_iteration_over_a_computed_property_in_EmberJS.md)
 1. <a href="https://github.com/soundasleep/emberjs-handlebars-sanity">EmberJS Handlebars sanity tests with Grunt</a>
-1. [Waiting for EmberJS to update its views manually](waiting-for-emberjs-to-update-its-views-manually.md)
-1. [Testing Mocha applications with Grunt using Jenkins](testing-mocha-applications-with-grunt-using-jenkins.md)
-1. [Extending App.reset() in EmberJS](extending-app-reset-in-emberjs.md)
+1. [Waiting for EmberJS to update its views manually](Waiting_for_EmberJS_to_update_its_views_manually.md)
+1. [Testing Mocha applications with Grunt using Jenkins](Testing_Mocha_applications_with_Grunt_using_Jenkins.md)
+1. [Extending App.reset() in EmberJS](Extending_App.reset()_in_EmberJS.md)
 1. <a href="http://www.cerebris.com/blog/2012/03/06/understanding-ember-object/">Understanding Ember.Object</a>
-1. [Transient DS.Model Attributes in EmberJS](transient-ds-model-attributes-in-emberjs.md)
-1. [Listing the Attributes of an EmberJS DS.Model at Runtime](listing-the-attributes-of-an-emberjs-ds-model-at-runtime.md)
-1. [The Problems with Chai](the-problems-with-chai.md)
+1. [Transient DS.Model Attributes in EmberJS](Transient_DS.Model_Attributes_in_EmberJS.md)
+1. [Listing the Attributes of an EmberJS DS.Model at Runtime](Listing_the_Attributes_of_an_EmberJS_DS.Model_at_Runtime.md)
+1. [The Problems with Chai](The_Problems_with_Chai.md)
 1. <a href="http://stackoverflow.com/questions/14999745/emberjs-loading-screen-at-the-beginning">Adding an 'application loading' screen to an EmberJS application</a>
-1. [Multiple JQuery versions with EmberJS](multiple-jquery-versions-with-emberjs.md)
-1. [npm](npm.md), [bower](bower.md), [Handlebars](handlebars.md), [Grunt](grunt.md), [JQuery](jquery.md)
+1. [Multiple JQuery versions with EmberJS](Multiple_JQuery_versions_with_EmberJS.md)
+1. [npm](npm.md), [bower](Bower.md), [Handlebars](handlebars.md), [Grunt](Grunt.md), [JQuery](JQuery.md)
 
-## How I learnt EmberJS and [Coffeescript](coffeescript.md) and [Git](git.md)
+## How I learnt EmberJS and [Coffeescript](coffeescript.md) and [Git](Git.md)
 
 I'll be using the tutorial at http://emberjs.com/guides/getting-started.
 
-1. Install [Sublime Text 2](sublime-text-2.md) as an IDE.
-1. Install [git](git.md) and [nano](nano.md). Use [nano](nano.md) as the default git commit message editor, because vim support on the Windows command prompt is pretty poor: `git config --global core.editor nano`
-1. Install the Sublime Linter plugin for ST2, which will provide syntax checking support, --by checking out <a href="https://github.com/SublimeLinter/SublimeLinter">SublimeLinter</a> into your ST2 packages directory (since Sublime Linter is ST3 now): `%APPDATA%/Sublime Text 2/Packages`-- by installing <a href="https://sublime.wbond.net/installation#st2">Package Control</a> and installing _Preferences > Package Control > Install Package > (wait for list to load) > Sublime Linter for ST3_ (seems to work OK). This will give you things like [PHP](php.md) syntax error checking.
+1. Install [Sublime Text 2](Sublime_Text_2.md) as an IDE.
+1. Install [git](Git.md) and [nano](nano.md). Use [nano](nano.md) as the default git commit message editor, because vim support on the Windows command prompt is pretty poor: `git config --global core.editor nano`
+1. Install the Sublime Linter plugin for ST2, which will provide syntax checking support, --by checking out <a href="https://github.com/SublimeLinter/SublimeLinter">SublimeLinter</a> into your ST2 packages directory (since Sublime Linter is ST3 now): `%APPDATA%/Sublime Text 2/Packages`-- by installing <a href="https://sublime.wbond.net/installation#st2">Package Control</a> and installing _Preferences > Package Control > Install Package > (wait for list to load) > Sublime Linter for ST3_ (seems to work OK). This will give you things like [PHP](PHP.md) syntax error checking.
 1. <a href="http://nodejs.org/download/">Install Node.js</a> which will also install NPM (Node.js package manager)
 1. Use npm to install coffeescript: `npm install -g coffee-script`
 1. Check that coffeescript is working: `coffee -v`
@@ -48,14 +48,14 @@ I'll be using the tutorial at http://emberjs.com/guides/getting-started.
 1. Update push.default on git to <a href="http://stackoverflow.com/questions/13148066/warning-push-default-is-unset-its-implicit-value-is-changing-in-git-2-0">a more intuitive value</a> (and also removes a warning): `git config --global push.default simple`
 1. Follow the instructions in the <a href="http://emberjs.com/guides/getting-started">EmberJS getting started tutorial</a>, committing and pushing as necessary.
 1. Try to <a href="http://arcturo.github.io/library/coffeescript/05_compiling.html">Cake building</a>; unfortunately I couldn't get this to work <a href="http://stackoverflow.com/questions/17516772/using-nodejss-spawn-causes-unknown-option-and-error-spawn-enoent-err">because of win32 problems</a>
-1. Install [Grunt](grunt.md) for <a href="http://takazudo.github.io/blog/entry/2012-04-14-grunt-coffee.html">building Coffeescript</a> instead: `npm install -g grunt`
+1. Install [Grunt](Grunt.md) for <a href="http://takazudo.github.io/blog/entry/2012-04-14-grunt-coffee.html">building Coffeescript</a> instead: `npm install -g grunt`
 1. Install the Grunt CLI: `npm install -g grunt-cli`
 1. Create a <a href="https://github.com/soundasleep/todomvc-emberjs-coffee/blob/7a7f44bfa9d935e38e523bf57311d84cffaa7848/package.json">package.json</a>. <a href="http://package.json.nodejitsu.com/">Understanding package.json</a>
 1. Create a <a href="https://github.com/soundasleep/todomvc-emberjs-coffee/blob/7a7f44bfa9d935e38e523bf57311d84cffaa7848/Gruntfile.js">Gruntfile.js</a>.
 1. Install all of the necessary packages referenced in the Gruntfile: `npm install grunt-contrib-uglify grunt-contrib-qunit grunt-contrib-concat grunt-contrib-watch --save-dev`. `--save-dev` will also modify `package.json` with the new dependencies (under `devDependencies`).
 1. Install https://github.com/gruntjs/grunt-contrib-coffee to compile coffeescript in Grunt: `npm install grunt-contrib-coffee --save-dev`
 1. You can now compile Coffeescript by running `grunt coffee`. You can also configure Grunt to watch for new files by <a href="https://github.com/soundasleep/todomvc-emberjs-coffee/commit/8d1a7b2ed0134d310d619f4a7a180a9ea61a448c#diff-35b4a816e0441e6a375cd925af50752c">modifying your Gruntfile</a> and running `grunt watch`.
-1. Configure Sublime Text to treat [Handlebars](handlebars.md) templates as HTML: [HTML syntax validation within Handlebars templates in Sublime Text 2](html-syntax-validation-within-handlebars-templates-in-sublime-text-2.md)
+1. Configure Sublime Text to treat [Handlebars](handlebars.md) templates as HTML: [HTML syntax validation within Handlebars templates in Sublime Text 2](HTML_syntax_validation_within_Handlebars_templates_in_Sublime_Text_2.md)
 1. Use the <a href="http://js2coffee.org/">js2coffee</a> interpreter a lot
 1. You will have problems with things like `function(){...}.property("x")`; <a href="http://stackoverflow.com/questions/12777782/ember-computed-properties-in-coffeescript">wrap the function with brackets</a>
 
@@ -247,7 +247,7 @@ App.FooFormView = Ember.View.extend
 
 ## TypeError: cyclic object value
 
-Make sure that you aren't trying to save an object property that isn't a DS.Model object. If you are, you may need to define a transient flag on the property, so that the JSONSerializer does not try to serialize the cycle: see [Transient DS.Model Attributes in EmberJS](transient-ds-model-attributes-in-emberjs.md).
+Make sure that you aren't trying to save an object property that isn't a DS.Model object. If you are, you may need to define a transient flag on the property, so that the JSONSerializer does not try to serialize the cycle: see [Transient DS.Model Attributes in EmberJS](Transient_DS.Model_Attributes_in_EmberJS.md).
 
 ## Untested
 

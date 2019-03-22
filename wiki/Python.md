@@ -6,8 +6,8 @@ date:   2010-05-25 08:11:52 +1200
 tags:   [Technology]
 ---
 
-[Articles](articles.md)
+[Articles](Articles.md)
 
-[Python](python.md) is a programming language which is pretty easy to get into.
+[Python](Python.md) is a programming language which is pretty easy to get into.
 
-1. [Eclipse Pygments Style](eclipse-pygments-style.md)
+1. [Eclipse Pygments Style](Eclipse_Pygments_Style.md)

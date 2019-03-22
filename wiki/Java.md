@@ -6,18 +6,18 @@ date:   2013-02-17 20:40:29 +1300
 tags:   [Technology, Languages, Programming Snippets]
 ---
 
-Is a programming language. See also [Eclipse](eclipse.md), [EMF](emf.md), [JMonkeyEngine](jmonkeyengine.md).
+Is a programming language. See also [Eclipse](Eclipse.md), [EMF](EMF.md), [JMonkeyEngine](JMonkeyEngine.md).
 
 1. <a href="http://code.google.com/p/iaml/source/browse/branches/2008-11-versioning/org.openiaml.model.diagram.custom/src/org/openiaml/model/diagram/custom/actions/MigrateModelAction.java?spec=svn337&r=337#189">Loading an XML DOM Document from an InputStream or IFile</a>
 1. <a href="http://code.google.com/p/iaml/source/browse/branches/2008-11-versioning/org.openiaml.model.diagram.custom/src/org/openiaml/model/diagram/custom/migrate/Migrate0To1.java?spec=svn337&r=337#72">Writing an XML DOM Document into an InputStream or IFile</a>
 1. <a href="http://code.google.com/p/iaml/source/browse/branches/2008-11-versioning/org.openiaml.model.diagram.custom/src/org/openiaml/model/diagram/custom/migrate/Migrate0To1.java?spec=svn337&r=337#192">Traversing an XML DOM document and creating new elements</a>
 1. <a href="http://code.google.com/p/iaml/source/browse/trunk/org.openiaml.model.tests/src/org/openiaml/model/tests/DijkstraAlgorithm.java">An Abstract implementation of Dijkstra's Algorithm in Java</a> and <a href="http://code.google.com/p/iaml/source/browse/trunk/org.openiaml.model.tests/src/org/openiaml/model/tests/TestComposition.java?spec=svn498&r=498#81">a concrete implementation using EClass composition</a>.
-1. [Writing a String to a File in Java](writing-a-string-to-a-file-in-java.md)
+1. [Writing a String to a File in Java](Writing_a_String_to_a_File_in_Java.md)
 1. <a href="http://code.google.com/p/iaml/source/browse/trunk/org.openiaml.model.tests/src/org/openiaml/model/tests/XmlTestCase.java?spec=svn676&r=676#285">Reading and Writing Strings to Files in Java</a> (<a href="http://www.javapractices.com/topic/TopicAction.do?Id=42">reference</a>)
 1. [Out of Memory in Java](out-of-memory-in-java.md)
 1. <a href="http://journals.jevon.org/users/jevon-phd/entry/19755">A Memory-sensitive HashMap Cache for Java</a>
 1. <a href="http://www.javaworld.com/javaworld/jw-12-2000/jw-1229-traps.html">When Process.waitFor() hangs forever</a>
-1. [Runtime.exec returns -1073741515 when providing environment variables](runtime-exec-returns--1073741515-when-providing-environment-variables.md)
+1. [Runtime.exec returns -1073741515 when providing environment variables](Runtime.exec_returns_-1073741515_when_providing_environment_variables.md)
 1. <a href="http://www.ibm.com/developerworks/java/library/os-eclipse-javadebug/index.html">Debugging Java applications remotely with Eclipse</a>
 1. <a href="http://www.delicious.com/jevonwright/java" class="delicious">Other pages tagged as "java"</a>
 

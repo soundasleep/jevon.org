@@ -6,13 +6,13 @@ date:   2014-05-07 17:27:26 +1200
 tags:   [Drupal, PHP]
 ---
 
-[Drupal](drupal.md) is a [PHP](php.md)-based web application framework, similar to [Symfony](symfony.md) (but also wildly different and with much worse documentation).
+[Drupal](Drupal.md) is a [PHP](PHP.md)-based web application framework, similar to [Symfony](Symfony.md) (but also wildly different and with much worse documentation).
 
-1. [Basic non-trivial Drupal form validation example](basic-non-trivial-drupal-form-validation-example.md)
-1. [Creating a JSON callback page in a Drupal module](creating-a-json-callback-page-in-a-drupal-module.md)
+1. [Basic non-trivial Drupal form validation example](Basic_non-trivial_Drupal_form_validation_example.md)
+1. [Creating a JSON callback page in a Drupal module](Creating_a_JSON_callback_page_in_a_Drupal_module.md)
 
 ## Disabling Broken Drupal Modules
-Enabled modules are stored within the database (such as [MySQL](mysql.md)), so you will need to edit the database manually. To list all the currently enabled modules:
+Enabled modules are stored within the database (such as [MySQL](MySQL.md)), so you will need to edit the database manually. To list all the currently enabled modules:
 
 `select name,status from system where type='module';`
 

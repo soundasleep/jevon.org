@@ -6,7 +6,7 @@ date:   2014-04-09 19:59:46 +1200
 tags:   [Javascript]
 ---
 
-[Leaflet](leaflet.md) is an abstraction layer for [Google Maps](google-maps.md) and other maps.
+[Leaflet](Leaflet.md) is an abstraction layer for [Google Maps](Google_Maps.md) and other maps.
 
 ## L.control.locate is not a function
 Make sure that you have the `L.Control.Locate.js` included.

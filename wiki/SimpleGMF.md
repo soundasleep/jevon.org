@@ -6,7 +6,7 @@ date:   2011-05-07 09:09:53 +1200
 tags:   [GMF, Todo]
 ---
 
-[SimpleGMF](simplegmf.md) is a metamodel for the abstraction of [GMF](gmf.md) diagrams. At some point in the future I will write up about this approach.
+[SimpleGMF](SimpleGMF.md) is a metamodel for the abstraction of [GMF](GMF.md) diagrams. At some point in the future I will write up about this approach.
 
 ---
 **java.lang.ClassCastException: org.eclipse.gmf.gmfgraph.impl.NodeImpl cannot be cast to org.eclipse.gmf.gmfgraph.Connection**

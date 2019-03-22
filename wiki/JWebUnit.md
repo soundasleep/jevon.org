@@ -6,11 +6,11 @@ date:   2014-03-17 20:03:30 +1300
 tags:   [Java, Testing, Code Snippets, Articles]
 ---
 
-[Articles](articles.md)
+[Articles](Articles.md)
 
-<a href="http://jwebunit.sourceforge.net/">JWebUnit</a> is a web application testing framework written in [Java](java.md), which essentially tries to provide a simple API to the powerful [HtmlUnit](htmlunit.md) framework. <a href="http://jwebunit.sourceforge.net/team-list.html">I am a committer</a> to the project.
+<a href="http://jwebunit.sourceforge.net/">JWebUnit</a> is a web application testing framework written in [Java](Java.md), which essentially tries to provide a simple API to the powerful [HtmlUnit](htmlunit.md) framework. <a href="http://jwebunit.sourceforge.net/team-list.html">I am a committer</a> to the project.
 
-1. [javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated](javax-net-ssl-sslpeerunverifiedexception-peer-not-authenticated.md)
+1. [javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated](javax.net.ssl.SSLPeerUnverifiedException__peer_not_authenticated.md)
 
 ## Google Maps
 By default, JWebUnit can't handle Google Maps, because the Google Maps Javascript has a syntax error. One solution is to turn off throwing script exceptions:

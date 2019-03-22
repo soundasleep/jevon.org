@@ -6,9 +6,9 @@ date:   2011-10-13 10:04:57 +1300
 tags:   [LaTeX]
 ---
 
-[LaTeX](latex.md)
+[LaTeX](Latex.md)
 
-{% include gmf-css.md %}<img src="/img/gmf/addcontents.png" class="gmf" />I was having a problem with [LaTeX](latex.md) where `\addcontentsline` wasn't correctly adding a bookmark entry in the resulting PDF. My original code was like this:
+{% include gmf-css.md %}<img src="/img/gmf/addcontents.png" class="gmf" />I was having a problem with [LaTeX](Latex.md) where `\addcontentsline` wasn't correctly adding a bookmark entry in the resulting PDF. My original code was like this:
 
 ```
 \cleardoublepage

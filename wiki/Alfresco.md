@@ -6,7 +6,7 @@ date:   2014-04-02 16:18:32 +1300
 tags:   [Alfresco, Java, Hubnet, Javascript, Drupal, Tomcat, J2EE, JSON]
 ---
 
-[Alfresco](alfresco.md) is a content management system for [Tomcat](tomcat.md) and written in [Java](java.md).
+[Alfresco](Alfresco.md) is a content management system for [Tomcat](Tomcat.md) and written in [Java](Java.md).
 
 ## Adding Calendars, Wikis and Blogs to a Site
 You can't add calendars, wikis or blogs to an Alfresco site through the Explorer application; they can only be added (and used) with the Share application.
@@ -14,7 +14,7 @@ You can't add calendars, wikis or blogs to an Alfresco site through the Explorer
 To add the content, go to the site in Share, select More > Customise Site, and then drag content from the _Available Site Pages_.
 
 ## Liferay Integration into a Subfolder
-It's impossible to specify [Liferay](liferay.md) to use a subfolder of Alfresco for its site. For example:
+It's impossible to specify [Liferay](Liferay.md) to use a subfolder of Alfresco for its site. For example:
 
 `dl.store.cmis.system.root.dir=Root Folder/Folder 1/Folder 2/Liferay Home`
 
@@ -26,7 +26,7 @@ Invalid property value:
 ```
 
 ## Disabling Javascript Minification in Alfresco
-<a href="https://forums.alfresco.com/en/viewtopic.php?f=48&t=23323">As discussed here</a>, to enable [Javascript](javascript.md) debugging (and to disable the minification of Alfresco Javascript), add this code to `webscript-framework-config-custom.xml` <a href="http://wiki.alfresco.com/wiki/Web_Scripts#Global_and_Scoped_Config">for Alfresco explorer</a>:
+<a href="https://forums.alfresco.com/en/viewtopic.php?f=48&t=23323">As discussed here</a>, to enable [Javascript](Javascript.md) debugging (and to disable the minification of Alfresco Javascript), add this code to `webscript-framework-config-custom.xml` <a href="http://wiki.alfresco.com/wiki/Web_Scripts#Global_and_Scoped_Config">for Alfresco explorer</a>:
 
 ```
 <config>
@@ -39,7 +39,7 @@ Invalid property value:
 For [Alfresco Share](alfresco-share.md), the <a href="https://forums.alfresco.com/en/viewtopic.php?f=48&t=23323&p=124149#p124149">relevant file is</a> `<tomcat>/shared/classes/alfresco/web-extension/share-config-custom.xml`.
 
 ## Call to undefined function `alfresco_repository_access()`
-You may get this error when trying to install the Alfresco 6.x module within [Drupal](drupal.md) 6.x.
+You may get this error when trying to install the Alfresco 6.x module within [Drupal](Drupal.md) 6.x.
 
 This is caused by not having the `alfresco` module enabled; but even if you specifically enable it, it still may fail.
 
@@ -47,7 +47,7 @@ The root cause is that the [SOAP](soap.md) extension may not be enabled; enable 
 
 `extension=php_soap.dll`
 
-To disable [Drupal](drupal.md) modules that are enabled but cause your site to crash (so you can't disable them), see [Drupal](drupal.md).
+To disable [Drupal](Drupal.md) modules that are enabled but cause your site to crash (so you can't disable them), see [Drupal](Drupal.md).
 
 ## ReferenceError: "json" is not defined.
 If you get this error while trying to call a Remote Alfresco API script, such as the following:
@@ -93,7 +93,7 @@ return (s + "").replace(/[]/g, "")
 ```
 
 ## Importing JQuery into an Alfresco Share page
-You need to add an import for the [JQuery](jquery.md) library in the `xxx.get.head.ftl` template, for example:
+You need to add an import for the [JQuery](JQuery.md) library in the `xxx.get.head.ftl` template, for example:
 
 `<@script type="text/javascript" src="${page.url.context}/res/jquery/jquery-1.6.2.js"></@script>`
 
@@ -116,7 +116,7 @@ This error can occur if you try to start the alfresco.war web application agains
 `drop database alfresco; create database alfresco;`
 
 ## com.gargoylesoftware.htmlunit.ScriptException: TypeError: Cannot find default value for object. (http://localhost:8080/share/res/yui/event/event-debug.js#385)
-This error occurred when I was trying to test my Alfresco Share application using [JWebUnit](jwebunit.md). One proposed solution was to <a href="https://github.com/jenkinsci/jenkins/commit/01c64271a104ae1cace42ca3b59ad6dd957be2c1">apply this patch</a> to prevent `null` objects from being used in a `toString()` method.
+This error occurred when I was trying to test my Alfresco Share application using [JWebUnit](JWebUnit.md). One proposed solution was to <a href="https://github.com/jenkinsci/jenkins/commit/01c64271a104ae1cace42ca3b59ad6dd957be2c1">apply this patch</a> to prevent `null` objects from being used in a `toString()` method.
 
 However I found that this patch wasn't enough. My solution was to patch `event-debug.js` itself, and replace the failing code with:
 
@@ -169,7 +169,7 @@ The problem is the "*" parameter for the site type filter. The correct way to se
 `var all_sites = siteService.listSites(value, "", 250 /* max results */);`
 
 ## Type Error: items is undefined
-If you receive this [Javascript](javascript.md) exception when running a Share client-side page, then the problem may be that you are trying to read an invalid [JSON](json.md) response. Check [Firebug](firebug.md) and  double check the syntax of the JSON the script is trying to process.
+If you receive this [Javascript](Javascript.md) exception when running a Share client-side page, then the problem may be that you are trying to read an invalid [JSON](JSON.md) response. Check [Firebug](firebug.md) and  double check the syntax of the JSON the script is trying to process.
 
 ## Secure FTP connection fails: bad record MAC
 I was getting this error when trying to connect to an Alfresco Secure [FTP](ftp.md) server using [FireFTP](fireftp.md) (using Auth TLS or Auth [SSL](ssl.md)). However using Filezilla (explicit secure FTP) worked fine. The error log that I was receiving:
@@ -184,7 +184,7 @@ I was getting this error when trying to connect to an Alfresco Secure [FTP](ftp.
 
 ## How to run a server-side Javascript in Alfresco Explorer
 
-1. Upload the [Javascript](javascript.md) to `Company Home/Data Dictionary/Scripts`.
+1. Upload the [Javascript](Javascript.md) to `Company Home/Data Dictionary/Scripts`.
 1. View "More Details" on the Javascript.
 1. Select "Run Action"
 1. Select the action "Run a script"

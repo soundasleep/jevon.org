@@ -6,12 +6,12 @@ date:   2010-04-16 11:27:32 +1200
 tags:   [Java, Technology]
 ---
 
-[JET](jet.md) stands for **Java Emitter Templates** that is based entirely in [Eclipse](eclipse.md). It is meant to be run with workspaces. This example **.javajet** is what a JET template <a href="http://code.google.com/p/iaml/source/browse/trunk/org.openiaml.model/templates-emf/model/FactoryClass.javajet?spec=svn1905&r=1905">can look like</a> (from [EMF](emf.md)).
+[JET](JET.md) stands for **Java Emitter Templates** that is based entirely in [Eclipse](Eclipse.md). It is meant to be run with workspaces. This example **.javajet** is what a JET template <a href="http://code.google.com/p/iaml/source/browse/trunk/org.openiaml.model/templates-emf/model/FactoryClass.javajet?spec=svn1905&r=1905">can look like</a> (from [EMF](EMF.md)).
 
 Some more articles:
-1. [Setting up an EMF/JET testing project with JUnit and Eclipse](setting-up-an-emf/jet-testing-project-with-junit-and-eclipse.md)
+1. [Setting up an EMF/JET testing project with JUnit and Eclipse](Setting_up_an_EMF/JET_testing_project_with_JUnit_and_Eclipse.md)
 
-## Creating a JET code generation plugin for an [EMF](emf.md) model
+## Creating a JET code generation plugin for an [EMF](EMF.md) model
 JET transforms are stored as Eclipse plugin projects, so you need to make a new plugin project first.
 
 1. Select New > _EMFT JET Transformation Project_.
@@ -41,11 +41,11 @@ JET transforms are stored as Eclipse plugin projects, so you need to make a new 
 </plugin>
 ```
 
-1. This will add the imported libraries. Most importantly is that you set _modelExtension_ to the extension of your [EMF](emf.md) models, and _modelLoader_ to the EMF loader -- **org.eclipse.jet.emf**.
+1. This will add the imported libraries. Most importantly is that you set _modelExtension_ to the extension of your [EMF](EMF.md) models, and _modelLoader_ to the EMF loader -- **org.eclipse.jet.emf**.
 
 {% include tag-todo.md comment="add link to real world project on SVN" %}
 
-The rest of these instructions are for making a contribution to [Eclipse](eclipse.md) to add a Right Click menu to files in order to generate code.
+The rest of these instructions are for making a contribution to [Eclipse](Eclipse.md) to add a Right Click menu to files in order to generate code.
 
 1. Create a new project (or edit the existing project).
 1. Add the _org.eclipse.jet_ dependency to required plug-ins.
@@ -68,7 +68,7 @@ The full implementation of this can be accessed on SVN:
 1. http://iaml.svn.sourceforge.net/viewvc/iaml/trunk/examples/jet/GenerateCodeAction.java?view=markup (Java)
 1. http://iaml.svn.sourceforge.net/viewvc/iaml/trunk/examples/jet/plugin.xml?view=markup (plugin.xml)
 
-(See more code examples at [GMF Code Samples](gmf-code-samples.md).)
+(See more code examples at [GMF Code Samples](GMF_Code_Samples.md).)
 
 {% include tag-todo.md comment="add link to real world project on SVN" %}
 

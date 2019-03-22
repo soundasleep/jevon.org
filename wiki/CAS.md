@@ -6,7 +6,7 @@ date:   2012-01-30 09:18:07 +1300
 tags:   [CAS, Java, Tomcat, J2EE, Maven]
 ---
 
-[CAS](cas.md) is a [Java](java.md)/[Tomcat](tomcat.md)-based single sign on ([SSO](sso.md)) project that can integrate with [Drupal](drupal.md), [Liferay](liferay.md), [LDAP](ldap.md) and lots more, but unfortunately requires [Maven](maven.md) to configure and build.
+[CAS](CAS.md) is a [Java](Java.md)/[Tomcat](Tomcat.md)-based single sign on ([SSO](sso.md)) project that can integrate with [Drupal](Drupal.md), [Liferay](Liferay.md), [LDAP](ldap.md) and lots more, but unfortunately requires [Maven](Maven.md) to configure and build.
 
 ## Could not resolve dependencies for project XXX: Could not find artifact :cas-server-support-ldap:jar
 If you just copy the `pom.xml` as in <a href="https://wiki.jasig.org/display/CASUM/Best+Practice+-+Setting+Up+CAS+Locally+using+the+Maven2+WAR+Overlay+Method">the instructions to create a WAR Overlay</a> for [LDAP](ldap.md) authentication:
@@ -50,4 +50,4 @@ You should already have been redirected to the CAS server. Click here to continu
 phpCAS 1.2.2 using server https://localhost:8443:8444/cas/ (CAS 2.0)
 ```
 
-The key information is that there are two port numbers listed. The problem was that my [Drupal](drupal.md) configuration had the incorrect port number specified (8444 rather than 8443).
+The key information is that there are two port numbers listed. The problem was that my [Drupal](Drupal.md) configuration had the incorrect port number specified (8444 rather than 8443).

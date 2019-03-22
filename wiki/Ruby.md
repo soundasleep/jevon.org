@@ -6,9 +6,9 @@ date:   2015-06-09 21:11:21 +1200
 tags:   [Ruby]
 ---
 
-[Ruby](ruby.md) is a programming language which is used as the basis of [Ruby on Rails](ruby-on-rails.md).
+[Ruby](Ruby.md) is a programming language which is used as the basis of [Ruby on Rails](Ruby_on_Rails.md).
 
-1. [Rake](rake.md)
+1. [Rake](Rake.md)
 1. [Rspec](rspec.md)
 
 ## ERROR:  While executing gem ... (Gem::RemoteFetcher::FetchError) too many connection resets 

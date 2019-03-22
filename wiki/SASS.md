@@ -6,7 +6,7 @@ date:   2014-05-14 22:29:42 +1200
 tags:   [CSS]
 ---
 
-[SASS](sass.md) is a language for writing better [CSS](css.md) stylesheets.
+[SASS](SASS.md) is a language for writing better [CSS](CSS.md) stylesheets.
 
 ## SASS Math
 

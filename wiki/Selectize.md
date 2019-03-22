@@ -6,9 +6,9 @@ date:   2014-06-17 16:58:40 +1200
 tags:   [Javascript]
 ---
 
-[Javascript](javascript.md)
+[Javascript](Javascript.md)
 
-[Selectize](selectize.md) is a [Javascript](javascript.md) component, similar to [Select2](select2.md), that provides a "better" `&lt;select&gt;` element, or something.
+[Selectize](Selectize.md) is a [Javascript](Javascript.md) component, similar to [Select2](select2.md), that provides a "better" `&lt;select&gt;` element, or something.
 
 It seems that `selectize` is a smaller and simpler component, but is dreadful to restyle.
 

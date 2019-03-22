@@ -6,9 +6,9 @@ date:   2014-04-17 17:57:38 +1200
 tags:   [PHP]
 ---
 
-[PHP](php.md)
+[PHP](PHP.md)
 
-<a href="https://getcomposer.org/">Composer</a> is a package management software similar to [bower](bower.md) or [npm](npm.md).
+<a href="https://getcomposer.org/">Composer</a> is a package management software similar to [bower](Bower.md) or [npm](npm.md).
 
 ## The requested package could not be found in any version, there may be a typo in the package name.
 

@@ -6,7 +6,7 @@ date:   2012-08-23 21:32:44 +1200
 tags:   [Java, Template Languages]
 ---
 
-Also known as [Freemarker Templates](freemarker-templates.md).
+Also known as [Freemarker Templates](Freemarker_Templates.md).
 
 **freemarker.core.NonStringException: Error on line 12, column 31 in my.ftl: Expecting a string, date or number here, Expression p.enabled is instead a freemarker.template.TemplateBooleanModel$2**
 

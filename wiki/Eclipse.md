@@ -6,36 +6,36 @@ date:   2013-02-11 18:34:12 +1300
 tags:   [Article, Technology]
 ---
 
-[Articles](articles.md)
+[Articles](Articles.md)
 
-[Eclipse](eclipse.md) is a great [IDE](ide.md) to develop [Java](java.md) and [Android](android.md) applications in. It is also the base for technologies like [EMF](emf.md), [JET](jet.md), [GMF](gmf.md), [OAW](oaw.md) and lots more...
+[Eclipse](Eclipse.md) is a great [IDE](ide.md) to develop [Java](Java.md) and [Android](Android.md) applications in. It is also the base for technologies like [EMF](EMF.md), [JET](JET.md), [GMF](GMF.md), [OAW](OAW.md) and lots more...
 
 Also see:
-1. [Increasing Eclipse Plug-in Performance](increasing-eclipse-plug-in-performance.md)
+1. [Increasing Eclipse Plug-in Performance](Increasing_Eclipse_Plug-in_Performance.md)
 1. [Basic Eclipse Plugin Activator Structure](basic-eclipse-plugin-activator-structure.md)
-1. [Displaying an Eclipse MessageDialog in a Non-UI Thread](displaying-an-eclipse-messagedialog-in-a-non-ui-thread.md)
-1. [Writing to a Console in Eclipse](writing-to-a-console-in-eclipse.md)
-1. [Force an IProject file system refresh in Eclipse](force-an-iproject-file-system-refresh-in-eclipse.md)
-1. [Enabling an Eclipse Popup Menu for only Certain File Extensions](enabling-an-eclipse-popup-menu-for-only-certain-file-extensions.md)
-1. [Eclipse Popup Menu Subtrees](eclipse-popup-menu-subtrees.md)
-1. [Getting the last error or IStatus thrown in Eclipse](getting-the-last-error-or-istatus-thrown-in-eclipse.md)
-1. [Writing a String to a File in Java](writing-a-string-to-a-file-in-java.md) (really for Eclipse)
+1. [Displaying an Eclipse MessageDialog in a Non-UI Thread](Displaying_an_Eclipse_MessageDialog_in_a_Non-UI_Thread.md)
+1. [Writing to a Console in Eclipse](Writing_to_a_Console_in_Eclipse.md)
+1. [Force an IProject file system refresh in Eclipse](Force_an_IProject_file_system_refresh_in_Eclipse.md)
+1. [Enabling an Eclipse Popup Menu for only Certain File Extensions](Enabling_an_Eclipse_Popup_Menu_for_only_Certain_File_Extensions.md)
+1. [Eclipse Popup Menu Subtrees](Eclipse_Popup_Menu_Subtrees.md)
+1. [Getting the last error or IStatus thrown in Eclipse](Getting_the_last_error_or_IStatus_thrown_in_Eclipse.md)
+1. [Writing a String to a File in Java](Writing_a_String_to_a_File_in_Java.md) (really for Eclipse)
 1. <a href="http://www.eclipse.org/articles/Article-Progress-Monitors/article.html">Correctly using IProgressMonitors in Eclipse</a>, and <a href="http://book.javanb.com/eclipse-rich-client-platform-designing-coding-and-packaging-java-applications-oct-2005/ch17lev1sec8.html">Reporting Progress in Eclipse (modal, non-modal, jobs)</a>
-1. [NoClassDefFoundError when running JUnit Plug-in Tests with JARs](noclassdeffounderror-when-running-junit-plug-in-tests-with-jars.md)
-1. [Launching failed. Bootstrap code cannot be found.](launching-failed-bootstrap-code-cannot-be-found-.md)
-1. [java.lang.LinkageError in a JUnit Plug-in Test Case with a redeployed Eclipse application](java-lang-linkageerror-in-a-junit-plug-in-test-case-with-a-redeployed-eclipse-application.md)
+1. [NoClassDefFoundError when running JUnit Plug-in Tests with JARs](NoClassDefFoundError_when_running_JUnit_Plug-in_Tests_with_JARs.md)
+1. [Launching failed. Bootstrap code cannot be found.](Launching_failed._Bootstrap_code_cannot_be_found..md)
+1. [java.lang.LinkageError in a JUnit Plug-in Test Case with a redeployed Eclipse application](java.lang.LinkageError_in_a_JUnit_Plug-in_Test_Case_with_a_redeployed_Eclipse_application.md)
 1. <a href="http://www.mularien.com/blog/2007/12/05/quick-tip-convert-an-eclipse-general-project-to-a-java-project/">Converting an Eclipse General Project to a Java Project</a>
-1. [Out of Memory Errors in Eclipse](out-of-memory-errors-in-eclipse.md)
-1. [Listing all files contained in an Eclipse plugin](listing-all-files-contained-in-an-eclipse-plugin.md)
-1. [No runnable methods with JUnit and Eclipse](no-runnable-methods-with-junit-and-eclipse.md)
-1. [Unable to Create EcoreEditorID Editor](unable-to-create-ecoreeditorid-editor.md)
+1. [Out of Memory Errors in Eclipse](Out_of_Memory_Errors_in_Eclipse.md)
+1. [Listing all files contained in an Eclipse plugin](Listing_all_files_contained_in_an_Eclipse_plugin.md)
+1. [No runnable methods with JUnit and Eclipse](No_runnable_methods_with_JUnit_and_Eclipse.md)
+1. [Unable to Create EcoreEditorID Editor](Unable_to_Create_EcoreEditorID_Editor.md)
 1. <a href="http://www.wdev91.com/?p=cpw">Automatically adding copyright/licence information to Eclipse projects</a>
 1. <a href="http://www.vogella.de/articles/EclipsePDEBuild/article.html">Using PDE to automatically build Eclipse plugins</a>
-1. [Could not open the editor: SAXParserFactoryImpl cannot be cast to SAXParserFactory](could-not-open-the-editor-saxparserfactoryimpl-cannot-be-cast-to-saxparserfactory.md)
-1. [Class Not Found when running a JUnit Plugin Test](class-not-found-when-running-a-junit-plugin-test.md)
-1. [No Classloader Found for Plug-in when running a JUnit Plugin Test](no-classloader-found-for-plug-in-when-running-a-junit-plugin-test.md)
-1. [Only one of the following can be installed at once: Core Resource Management](only-one-of-the-following-can-be-installed-at-once-core-resource-management.md)
-1. [Disabling DTD validation for Ant xmlvalidate task within Eclipse](disabling-dtd-validation-for-ant-xmlvalidate-task-within-eclipse.md)
+1. [Could not open the editor: SAXParserFactoryImpl cannot be cast to SAXParserFactory](Could_not_open_the_editor__SAXParserFactoryImpl_cannot_be_cast_to_SAXParserFactory.md)
+1. [Class Not Found when running a JUnit Plugin Test](Class_Not_Found_when_running_a_JUnit_Plugin_Test.md)
+1. [No Classloader Found for Plug-in when running a JUnit Plugin Test](No_Classloader_Found_for_Plug-in_when_running_a_JUnit_Plugin_Test.md)
+1. [Only one of the following can be installed at once: Core Resource Management](Only_one_of_the_following_can_be_installed_at_once__Core_Resource_Management.md)
+1. [Disabling DTD validation for Ant xmlvalidate task within Eclipse](Disabling_DTD_validation_for_Ant_xmlvalidate_task_within_Eclipse.md)
 1. <a href="http://www.ibm.com/developerworks/java/library/os-eclipse-javadebug/index.html">Debugging Java applications remotely with Eclipse</a>
 
 ## Null Argument with IWizardPage

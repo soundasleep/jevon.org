@@ -6,29 +6,29 @@ date:   2011-05-11 08:09:45 +1200
 tags:   [Technology]
 ---
 
-[GMF](gmf.md) is the Graphical Modelling Framework used in Eclipse; also see [EMF](emf.md) for the framework itself.
+[GMF](GMF.md) is the Graphical Modelling Framework used in Eclipse; also see [EMF](EMF.md) for the framework itself.
 
 Some key tutorials that I have found to be helpful when working out how the crazy beast called GMF works:
-1. The cheat sheet in [Eclipse](eclipse.md) itself: **Help > Cheat Sheets**
+1. The cheat sheet in [Eclipse](Eclipse.md) itself: **Help > Cheat Sheets**
 1. http://wiki.eclipse.org/index.php/GMF_Tutorial -- the basics
 1. http://wiki.eclipse.org/GMF_Documentation -- especially the rest of the tutorial parts
 1. http://www.eclipse.org/articles/Article-FromFrontendToCode-MDSDInPractice/article.html -- integrating GMF etc into an actual project
 
 These might be helpful, because GMF is a little rough around the edges:
-1. [Creating a new GMF Editor](creating-a-new-gmf-editor.md)
-1. [GMF Diagram Partitioning](gmf-diagram-partitioning.md)
-1. [GMF Drag Drop](gmf-drag-drop.md) (Shortcuts)
-1. [GMF Static Labels](gmf-static-labels.md)
-1. [Enabling Dynamic Templates in GMF](enabling-dynamic-templates-in-gmf.md)
-1. [Migrating Dynamic Templates to GMF 2.2](migrating-dynamic-templates-to-gmf-2-2.md)
-1. [Having Multiple Containments of the Same Domain Element in GMF](having-multiple-containments-of-the-same-domain-element-in-gmf.md)
-1. [GMF Code Samples](gmf-code-samples.md) (lots in here)
-1. [GMF Refactoring](gmf-refactoring.md)
-1. [Using EOpposite in GMF](using-eopposite-in-gmf.md)
-1. [Ecore](ecore.md)
-1. [GMFGraph](gmfgraph.md)
-1. [Using Platform Resources as EReferences in GMF](using-platform-resources-as-ereferences-in-gmf.md)
-1. [GMF Custom Figures](gmf-custom-figures.md)
+1. [Creating a new GMF Editor](Creating_a_new_GMF_Editor.md)
+1. [GMF Diagram Partitioning](GMF_Diagram_Partitioning.md)
+1. [GMF Drag Drop](GMF_Drag_Drop.md) (Shortcuts)
+1. [GMF Static Labels](GMF_Static_Labels.md)
+1. [Enabling Dynamic Templates in GMF](Enabling_Dynamic_Templates_in_GMF.md)
+1. [Migrating Dynamic Templates to GMF 2.2](Migrating_Dynamic_Templates_to_GMF_2.2.md)
+1. [Having Multiple Containments of the Same Domain Element in GMF](Having_Multiple_Containments_of_the_Same_Domain_Element_in_GMF.md)
+1. [GMF Code Samples](GMF_Code_Samples.md) (lots in here)
+1. [GMF Refactoring](GMF_Refactoring.md)
+1. [Using EOpposite in GMF](Using_EOpposite_in_GMF.md)
+1. [Ecore](Ecore.md)
+1. [GMFGraph](GMFGraph.md)
+1. [Using Platform Resources as EReferences in GMF](Using_Platform_Resources_as_EReferences_in_GMF.md)
+1. [GMF Custom Figures](GMF_Custom_Figures.md)
 
 Troubleshooting:
 {% include gmf-troubleshooting.md %}
@@ -65,7 +65,7 @@ You can set this property in annotated Java by adding
 I think this means that you are trying to make GMF create an editor for a model element that can't actually be displayed in the current editor. e.g. You are trying to make a model, based in Map, which displays both Topic and TopicConcept, but you cannot currently create TopicConcept in the Map object. Or something... I haven't quite worked this one out yet :)
 
 ## The object 'SomethingImpl' (text: content) is not contained in a resource
-This error occurs in the [Eclipse](eclipse.md) workspace when you try to save a model which has an invalid structure -- commonly when it refered to an old .ecore metamodel. The solution to this is to edit the model with a text editor and remove the invalid model elements.
+This error occurs in the [Eclipse](Eclipse.md) workspace when you try to save a model which has an invalid structure -- commonly when it refered to an old .ecore metamodel. The solution to this is to edit the model with a text editor and remove the invalid model elements.
 
 ## Some random helpful images
 <img src="/img/emf-graphical-definition.png">

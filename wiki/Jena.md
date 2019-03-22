@@ -6,10 +6,10 @@ date:   2011-03-10 14:05:17 +1300
 tags:   [Java, Semantic Web]
 ---
 
-[Jena](jena.md) is a [rule](rule.md) inference engine for [Java](java.md), useful for the [Semantic Web](semantic-web.md). It handles [RDF](rdf.md) and [OWL](owl.md). It can be integrated with [Pellet](pellet.md).
+[Jena](Jena.md) is a [rule](rule.md) inference engine for [Java](Java.md), useful for the [Semantic Web](semantic-web.md). It handles [RDF](rdf.md) and [OWL](OWL.md). It can be integrated with [Pellet](Pellet.md).
 
-1. [OWL Validation with Jena](owl-validation-with-jena.md)
-1. [Jena Pygments Lexer](jena-pygments-lexer.md)
+1. [OWL Validation with Jena](OWL_Validation_with_Jena.md)
+1. [Jena Pygments Lexer](Jena_Pygments_Lexer.md)
 
 ## Sample Jena validation code
 From http://tech.groups.yahoo.com/group/jena-dev/message/17639.
@@ -54,7 +54,7 @@ With the following model:
 </s:InternetApplication>
 ```
 
-This may be because your model does not have a root [XML](xml.md) namespace:
+This may be because your model does not have a root [XML](XML.md) namespace:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <s:InternetApplication xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:s="http://openiaml.org/simple">
@@ -63,7 +63,7 @@ This may be because your model does not have a root [XML](xml.md) namespace:
 </s:InternetApplication>
 ```
 
-You might also be able to get around it by adding a root [XML](xml.md) namespace through **xmlns="http://openiaml.org/simple"**.
+You might also be able to get around it by adding a root [XML](XML.md) namespace through **xmlns="http://openiaml.org/simple"**.
 
 ## Enabling debug messages with Jena
 ```
@@ -72,4 +72,4 @@ reasoner.setParameter(ReasonerVocabulary.PROPtraceOn, true);
 reasoner = reasoner.bindSchema(schema);
 ```
 
-You will also need to set up [Log4J](log4j.md).
+You will also need to set up [Log4J](Log4J.md).

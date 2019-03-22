@@ -6,7 +6,7 @@ date:   2013-11-24 13:36:34 +1300
 tags:   [Web Applications, Google]
 ---
 
-[Gmail](gmail.md) is a web [email](email.md) client by [Google](google.md).
+[Gmail](Gmail.md) is a web [email](email.md) client by [Google](google.md).
 
 ## Deleting mails from the Sent Mail folder
 

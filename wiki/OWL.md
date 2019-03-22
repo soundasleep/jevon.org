@@ -6,11 +6,11 @@ date:   2011-07-12 11:21:25 +1200
 tags:   [Semantic, OWL]
 ---
 
-[OWL](owl.md) is the [Web Ontology Language](web-ontology-language.md).
+[OWL](OWL.md) is the [Web Ontology Language](web-ontology-language.md).
 
-1. [Closed world assumption in OWL](closed-world-assumption-in-owl.md)
-1. [Inferring properties based on types in OWL](inferring-properties-based-on-types-in-owl.md)
-1. [OWL Functional Pygments Style](owl-functional-pygments-style.md)
+1. [Closed world assumption in OWL](Closed_world_assumption_in_OWL.md)
+1. [Inferring properties based on types in OWL](Inferring_properties_based_on_types_in_OWL.md)
+1. [OWL Functional Pygments Style](OWL_Functional_Pygments_Style.md)
 
 External references:
 1. <a href="http://article.gmane.org/gmane.comp.misc.ontology.protege.owl/30337">Integrating Protege with SWRL/OWL rules into Java</a>

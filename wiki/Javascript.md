@@ -9,12 +9,12 @@ tags:   [Languages, Programming Snippets, Technology, Javascript]
 Also see [Coffeescript](coffeescript.md).
 
 1. <a href="http://journals.jevon.org/users/jevon-phd/entry/19924">Block Scope in Javascript</a>
-1. [Grunt](grunt.md)
-1. [EmberJS](emberjs.md)
-1. [Bower](bower.md)
-1. [Chai](chai.md) and [Mocha](mocha.md)
-1. [Leaflet](leaflet.md)
-1. [Selectize](selectize.md) and [Select2](select2.md)
+1. [Grunt](Grunt.md)
+1. [EmberJS](EmberJS.md)
+1. [Bower](Bower.md)
+1. [Chai](Chai.md) and [Mocha](Mocha.md)
+1. [Leaflet](Leaflet.md)
+1. [Selectize](Selectize.md) and [Select2](select2.md)
 
 Some (very old) Javascript snippets:
 
@@ -28,7 +28,7 @@ To pop up a dialog saying "Are you sure you want to navigate away from this page
 <body onbeforeunload="return confirmExit()"> ... </body>
 ```
 
-This is an [Internet Explorer](internet-explorer.md)-only feature (<a href="http://msdn.microsoft.com/workshop/author/dhtml/reference/events/onbeforeunload.asp">not in any public standard</a>) but [Firefox](firefox.md) has implemented it as well.
+This is an [Internet Explorer](internet-explorer.md)-only feature (<a href="http://msdn.microsoft.com/workshop/author/dhtml/reference/events/onbeforeunload.asp">not in any public standard</a>) but [Firefox](Firefox.md) has implemented it as well.
 
 ## Select All Checkboxes
 To select all the checkbox elements in a &lt;select&gt; form (until it reaches an element with a name of 'select_all'):

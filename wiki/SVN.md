@@ -6,12 +6,12 @@ date:   2014-01-30 19:36:00 +1300
 tags:   [Technology]
 ---
 
-[SVN](svn.md) is the acronym for [Subversion](subversion.md). Also see [Git](git.md).
+[SVN](SVN.md) is the acronym for [Subversion](Subversion.md). Also see [Git](Git.md).
 
-1. <a href="http://journals.jevon.org/users/jevon-phd/entry/19739">Subclipse vs Subversive</a> - a discussion on [Eclipse](eclipse.md) plugins
-1. [StatSVN](statsvn.md)
-1. [Slow Subversion Performance over HTTPS](slow-subversion-performance-over-https.md)
-1. [Synchronising SVN and Git](synchronising-svn-and-git.md)
+1. <a href="http://journals.jevon.org/users/jevon-phd/entry/19739">Subclipse vs Subversive</a> - a discussion on [Eclipse](Eclipse.md) plugins
+1. [StatSVN](StatSVN.md)
+1. [Slow Subversion Performance over HTTPS](Slow_Subversion_Performance_over_HTTPS.md)
+1. [Synchronising SVN and Git](Synchronising_SVN_and_Git.md)
 
 ## Error: XYZ has no ancestry information.
 This was using the Eclipse SVN client. I tried and tried and couldn't get around this error. Eventually I gave up and just moved my workspace to a new location, and checked out all my projects again.
@@ -24,7 +24,7 @@ I think I managed to achieve this after moving a folder in Eclipse (which result
 The solution is to delete not only the containing folder of the folder, but the containing folder of _that_ folder as well. You can then update and re-merge your changes as necessary.
 
 ## Error: REPORT of XXX Could not read chunk size: Secure connection  truncated
-If your repository is being served by [Apache](apache.md), _and_ you are using per-directory authentication (such as `AuthzSVNAccessFile foo`), this may be <a href="http://lists.parrot.org/pipermail/parrot-dev/2009-September/002785.html">a bug with the `mod_dav_svn` module</a>:
+If your repository is being served by [Apache](Apache.md), _and_ you are using per-directory authentication (such as `AuthzSVNAccessFile foo`), this may be <a href="http://lists.parrot.org/pipermail/parrot-dev/2009-September/002785.html">a bug with the `mod_dav_svn` module</a>:
 
 <div class="quote">"So someone smarter than I continued where I left off and discovered that I was mostly right, there was a memory leak. But when I had tumbled off to get sleep, exhausted, he soldiered on, and tracked that leak to the DAV module (mod_dav_svn) in Apache. The problem, apparently, is that the DAV module was performing the authentication steps for every directory, every time it was accessed, and the leak was leaking during the auth process. Thus, in a large tree, the dozens or hundreds of auth steps would end up leaking the module into instability. The solution was to tell the DAV module not to reauthenticate for every path underneath the main one once the user had been authenticated into the repository. To do this, add the following statement to the apache config (in the vhost entry for the repo, in our case):
 
@@ -37,7 +37,7 @@ Note that this means that per-path authentication <a href="http://svnbook.red-be
 One possible symptom of this problem is that you can `svn update` individual directories fine, but trying to `svn update` a huge directory fails. Another solution may be to refactor your repository into smaller chunks, to prevent this memory/time/stability leak.
 
 ### Alternately
-You might have a file listed locally as added, but remotely not within the repository. Check your [Apache](apache.md) `error.log` for messages like these:
+You might have a file listed locally as added, but remotely not within the repository. Check your [Apache](Apache.md) `error.log` for messages like these:
 
 ```
 [error] [client 10.1.1.31] Provider encountered an error while streaming a REPORT response.  [404, #0]
@@ -65,7 +65,7 @@ If you get one of the following errors when trying to commit a change:
 Then your repository database may be read-only. This can be resolved by applying a `chmod g+w REPO/db/rep-cache.db` to the repository database. (<a href="http://h3x.no/2010/12/04/svn-gives-attempt-to-write-a-readonly-database-error">more</a>)
 
 ## Error: Error reading spooled REPORT request response: digest mutual authentication failure: client nonce mismatch
-I was getting this wildly unhelpful error only in certain circumstances: SVN was working fine to update, commit and checkout, but it was failing when trying to merge branches. In particular, my SVN was setup to host via [Apache](apache.md) using `mod_dav_svn` and using [Digest authentication](digest-authentication.md) rather than [SSL](ssl.md).
+I was getting this wildly unhelpful error only in certain circumstances: SVN was working fine to update, commit and checkout, but it was failing when trying to merge branches. In particular, my SVN was setup to host via [Apache](Apache.md) using `mod_dav_svn` and using [Digest authentication](digest-authentication.md) rather than [SSL](ssl.md).
 
 One step to try and work out these problems is by only issuing one command at a time:
 

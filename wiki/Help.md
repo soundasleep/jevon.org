@@ -10,7 +10,7 @@ These pages can help you in your wiki quest. If you have any good ideas or sugge
 
 [Music:Adding Pages](music-adding-pages.md)
 [Searching](searching.md)
-[Formatting](formatting.md)
+[Formatting](Formatting.md)
 
 [Special:Recent Changes](special-recent-changes.md)
 [Special:Editing](special-editing.md)

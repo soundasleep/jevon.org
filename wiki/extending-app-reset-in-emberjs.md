@@ -6,7 +6,7 @@ date:   2014-06-03 17:32:36 +1200
 tags:   [EmberJS, Javascript]
 ---
 
-[EmberJS](emberjs.md)
+[EmberJS](EmberJS.md)
 
 If you want to extend `App.reset()` in your EmberJS application, you need to make sure that you extend the _prototype_ of App, rather than the _creation_ of your specific App. That is, instead of:
 
