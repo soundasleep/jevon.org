@@ -11,7 +11,7 @@ and we're not going to fix it with just tech or just law.
 
 _My healing process focuses on concrete action and change... both inwardly, and outwardly._
 
-So, mostly for my own reference, but also perhaps to help someone else, I've reflected and come up with some
+So, mostly for my own reference, but also perhaps to help someone else, I've been reflecting, and have come up with some
 guidelines on how I will interact with the world and with the Internet for the next decade. I've been doing these things
 for the last three weeks and they honestly have made my life, and interaction with the world, a slightly better place.
 
