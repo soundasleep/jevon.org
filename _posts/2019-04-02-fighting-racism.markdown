@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fighting racism and objectionable content"
-date:   2019-04-02 18:00:00 +1300
+date:   2019-04-02 18:35:00 +1300
 categories: 
 ---
 
@@ -13,13 +13,14 @@ _My healing process focuses on concrete action and change... both inwardly, and 
 
 So, mostly for my own reference, but also perhaps to help someone else, I've reflected and come up with some
 guidelines on how I will interact with the world and with the Internet for the next decade. I've been doing these things
-for the last three weeks and they honestly have made my life, and interaction with the world, a better place.
+for the last three weeks and they honestly have made my life, and interaction with the world, a slightly better place.
 
 _*NOTE*: This is a work in progress._
 
 # No more comments
 
-Comments sections encourage extremism and clickbait journalism. Therefore, I will not visit stuff.co.nz or nzherald.co.nz 
+I still prefer my news to come from actual journalism, but comments sections encourage extremism and 
+clickbait journalism. Therefore, I will not visit stuff.co.nz or nzherald.co.nz 
 until they have removed their comments sections. I will use [radionz.co.nz](https://radionz.co.nz) and 
 [newsroom.co.nz](https://newsroom.co.nz) instead.
 
@@ -118,9 +119,3 @@ enable divisiveness, intolerance or enforce US values on global citizens. I will
 I will remember that complacency enables evil, but you also have to look after yourself first. You cannot do activism 24 hours a day.
 
 I will continue to be out and proud. I do not have fear. But I will not tolerate intolerance.
-
-
-
-
-
-
