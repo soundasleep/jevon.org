@@ -5,6 +5,8 @@ author: jevon
 date:   2007-08-14 13:19:31 +12:00
 tags:
   - Software
+redirect_from:
+  - "/wiki/Software/Calculate BPM"
 ---
 
 [My Software](Software.md)

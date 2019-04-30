@@ -5,6 +5,8 @@ author: jevon
 date:   2007-08-14 13:26:32 +12:00
 tags:
   - Software
+redirect_from:
+  - "/wiki/Software/Your IP"
 ---
 
 [My Software](Software.md)

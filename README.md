@@ -19,3 +19,8 @@ And then visit http://localhost:4000.
 
 If hosted on GitHub pages, you can't import anything from `node_modules`, so there's no point in having
 a `package.json` (unless you compile `bundle.{js,css}` first on travis-ci etc).
+
+## Tests
+
+There are a few specs to check that content has been correctly tagged, URLed, etc. They can be run with
+`bundle exec rspec`.

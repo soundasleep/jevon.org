@@ -1,7 +1,6 @@
 require "yaml"
 
 RSpec.describe "pages with whitespace" do
-  #ALL_WHITESPACE_FILES = Dir['wiki/**/*_*.md']
   ALL_WHITESPACE_FILES = Dir['wiki/**/*_*.md']
 
   it "there is at least one page to test" do

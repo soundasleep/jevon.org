@@ -5,6 +5,8 @@ author: jevon
 date:   2007-08-14 13:18:06 +12:00
 tags:
   - Software
+redirect_from:
+  - "/wiki/Software/Font Selector"
 ---
 
 [My Software](Software.md)

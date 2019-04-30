@@ -5,6 +5,10 @@ author: jevon
 date:   2014-09-29 22:06:44 +13:00
 tags:
   - MySQL
+redirect_from:
+  - "/wiki/Setting up Master/Slave Replication from an existing MySQL server"
+  - "/wiki/Setting_up_Master/Slave Replication from an existing MySQL server"
+  - "/wiki/Setting up Master/Slave_Replication_from_an_existing_MySQL_server"
 ---
 
 [MySQL](MySQL.md)
@@ -68,7 +72,7 @@ Make sure you have an existing session open. Also have another command line read
 1. <a href="http://dev.mysql.com/doc/refman/5.5/en/replication-howto-slaveinit.html">Configure the master connection data</a>: `CHANGE MASTER TO master_host='...',master_user='...',master_password='...';` (the log pos and file will have been set with `mysqldump --master-data`)
 1. Start the slave: `START SLAVE;`
 
-`SHOW SLAVE STATUS;` is your friend and primary means to understand what's going on. Interesting keys: 
+`SHOW SLAVE STATUS;` is your friend and primary means to understand what's going on. Interesting keys:
 
 * `Slave_IO_Running` - if _Yes_, then the slave is connected to master (should be Yes)
 * `Slave_SQL_Running`- if _Yes_, then the slave is processing SQL queries from the binlog (should be Yes)
