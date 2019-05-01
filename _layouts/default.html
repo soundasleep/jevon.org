@@ -3,7 +3,13 @@
 
   {%- include head.html -%}
 
-  <body>
+  {% if page.name %}
+    {%- assign body_class = "page-" | append: page.name | replace: ".md", "" | slugify -%}
+  {% else %}
+    {%- assign body_class = "page-" | append: page.id | slugify -%}
+  {% endif %}
+
+  <body class="{{ body_class }}">
 
     {%- include header.html -%}
 

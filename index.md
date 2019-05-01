@@ -1,10 +1,13 @@
 ---
+title: Home
 layout: home
 permalink: /
+redirect_from:
+  - "/wiki/Home"
 ---
 Kia ora!
 
-I'm Jevon Wright, a software engineer and community volunteer based in Wellington, New Zealand. This is my home page! ;)
+I'm [Jevon Wright](/wiki/Jevon_Wright.md), a software engineer and community volunteer based in Wellington, New Zealand. This is my home page! ;)
 
 I have many passions, including:
 
@@ -13,7 +16,7 @@ I have many passions, including:
 - Research - PhD (Computer Science)
 - Empowering communities - treasurer of [OuterSpaces Charitable Trust](http://outerspaces.org.nz); volunteer for [Tranzform](http://www.tranzform.org.nz), [Naming NZ](http://www.naming.nz), and other groups
 - Music - [avid listener](https://last.fm/user/jdub_dub) and musician
-- Writing - grumpy tweeter, [link hoarder](https://pinboard.in/u:jevon), knowledge collator and cat reblogger
+- Writing - [link hoarder](https://pinboard.in/u:jevon), knowledge collator and cat reblogger
 
 Contact me at [support@jevon.org](mailto:support@jevon.org) and use my [public key](wiki/public-key.md).
 
