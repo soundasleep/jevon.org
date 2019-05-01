@@ -31,6 +31,7 @@ plugins:
   - jekyll-feed
   - jekyll-relative-links
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 permalink: /:categories/:year/:month/:day/:title
 
