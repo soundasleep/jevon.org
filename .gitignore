@@ -7,3 +7,5 @@ _site
 # private data! not available on production
 _includes/cv/references.md
 _includes/cv/address.md
+
+**/Thumbs.db
