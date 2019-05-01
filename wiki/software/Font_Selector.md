@@ -19,7 +19,7 @@ When you click the "Copy Tag" button, the required HTML font tag will be copied 
 ## Information
 Version: 0.1 alpha build 4
 Size: 24 KB
-Download: <a href="/files/software/fontlist.exe">fontlist.exe</a>
+Download: <a href="https://github.com/soundasleep/jevon.org/releases/download/old-files/fontlist.exe">fontlist.exe</a>
 {% include require-vb6-runtimes.md %}
 
 ## Screenshot

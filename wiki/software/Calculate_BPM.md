@@ -21,7 +21,7 @@ You will require the [Visual Basic 6.0 Runtimes](Visual_Basic_Runtimes.md) and t
 ## Download
 Version: 1.0 (12 May 2005)
 Size: 20 KB
-Download: <a href="/files/software/calculatebpm.exe">calculatebpm.exe</a>
+Download: <a href="https://github.com/soundasleep/jevon.org/releases/download/old-files/calculatebpm.exe">calculatebpm.exe</a>
 {% include require-vb6-runtimes.md %}
 
 ## Screenshot

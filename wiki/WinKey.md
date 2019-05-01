@@ -15,4 +15,4 @@ For reasons which I can't understand, you cannot download WinKey anymore, and it
 
 ## Download
 Size: 1,227 KB
-Download: <a href="/files/winkey.exe">winkey.exe</a>
+Download: <a href="https://github.com/soundasleep/jevon.org/releases/download/old-files/winkey.exe">winkey.exe</a>

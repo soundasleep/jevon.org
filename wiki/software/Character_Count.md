@@ -17,7 +17,7 @@ Character Count is a very simple and small program that, quite simply, counts th
 ## Download
 Version: 1.0
 Size: 16 KB
-Download: <a href="/files/software/charcount.exe">charcount.exe</a>
+Download: <a href="https://github.com/soundasleep/jevon.org/releases/download/old-files/charcount.exe">charcount.exe</a>
 {% include require-vb6-runtimes.md %}
 
 ## Screenshot

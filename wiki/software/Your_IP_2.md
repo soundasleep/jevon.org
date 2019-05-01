@@ -21,7 +21,7 @@ This is still pretty lame and can't get around the [LAN](lan.md) IP, and a bette
 ## Download
 Version: 1.0
 Size: 36 KB
-Download: <a href="/files/software/yourip2.exe">yourip2.exe</a>
+Download: <a href="https://github.com/soundasleep/jevon.org/releases/download/old-files/yourip2.exe">yourip2.exe</a>
 {% include require-vb6-runtimes.md %}
 
 ## Screenshot

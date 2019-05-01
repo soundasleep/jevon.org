@@ -15,4 +15,4 @@ This is a shareware plugin for [Winamp](Winamp.md) which will allow you to modif
 
 ## Download
 Size: 72 KB
-Download: <a href="/files/Pitchfork_for_Winamp_setup.exe">Pitchfork_for_Winamp_setup.exe</a>
+Download: <a href="https://github.com/soundasleep/jevon.org/releases/download/old-files/Pitchfork_for_Winamp_setup.exe">Pitchfork_for_Winamp_setup.exe</a>

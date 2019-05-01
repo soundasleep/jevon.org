@@ -21,7 +21,7 @@ This software was really quite lame, and was superceded with [Software/Your IP 2
 ## Download
 Version: 1.0
 Size: 24 KB
-Download: <a href="/files/software/yourip.exe">yourip.exe</a>
+Download: <a href="https://github.com/soundasleep/jevon.org/releases/download/old-files/yourip.exe">yourip.exe</a>
 {% include require-vb6-runtimes.md %}
 
 ## Screenshot

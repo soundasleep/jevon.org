@@ -16,4 +16,4 @@ This is some driver software for the webcam range known as TwinkleCams. I got my
 ## Download
 Version: 2.110A
 Size: 1,947 KB
-Download: <a href="/files/twinklecam-Driver2110A.by.snowman[PL].zip">twinklecam-Driver2110A.by.snowman[PL].zip</a>
+Download: <a href="https://github.com/soundasleep/jevon.org/releases/download/old-files/twinklecam-Driver2110A.by.snowman.PL.zip">twinklecam-Driver2110A.by.snowman[PL].zip</a>

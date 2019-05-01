@@ -26,7 +26,7 @@ To make your own, make sure "template.exe" is in the same directory as "psych_ge
 ## Download
 Version: 1.0
 Size: 14 KB
-Download: <a href="/files/software/psych.zip">psych.zip</a>
+Download: <a href="https://github.com/soundasleep/jevon.org/releases/download/old-files/psych.zip">psych.zip</a>
 {% include require-vb6-runtimes.md %}
 
 ## Screenshot
