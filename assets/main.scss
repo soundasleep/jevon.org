@@ -104,7 +104,6 @@ $dotted-links-height-ratio: (1.25 / 1.5);
   }
 }
 
-.post-title,
 .post-content {
   @include dotted-links($base-font-size);
 }
@@ -188,6 +187,12 @@ main.page-content {
   .post-content {
     h1 {
       margin-top: $spacing-unit * 1;
+    }
+
+    h2, h3 {
+      border-top: thin solid mix($background, $text, 90%);
+      margin-top: $spacing-unit * 1;
+      padding-top: $spacing-unit * 0.2;
     }
   }
 }
