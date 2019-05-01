@@ -50,13 +50,14 @@ $dotted-links-height-ratio: (1.25 / 1.5);
   }
 }
 
-@mixin dotted-links($base-font-size) {
+@mixin dotted-links($base-font-size, $link-color: darken($brand-color, 15%), $text-color: $text-color) {
   font-size: $base-font-size;
 
   // special dotted links in the content
   a {
     text-decoration: none;
-    border-bottom: thin dotted darken($brand-color, 15%);
+    color: $link-color;
+    border-bottom: thin dotted $link-color;
     display: inline-block;
     height: $base-font-size * $base-line-height * $dotted-links-height-ratio;
 
@@ -108,28 +109,29 @@ $dotted-links-height-ratio: (1.25 / 1.5);
   @include dotted-links($base-font-size);
 }
 
-.footer-col-wrapper {
-  @include dotted-links($base-font-size * 0.85);
-}
-
-header.site-header {
-  background-color: mix($brand-color, $text-color, 20%);
+@mixin slightly-gradient-background($background, $highlight) {
+  background-color: mix($background, $highlight, 20%);
+  color: $highlight;
 
   background: radial-gradient(farthest-corner at $spacing-unit $spacing-unit,
-      mix($brand-color, $text-color, 20%) 0%,
-      mix($brand-color, $text-color, 30%) 100%);
+      mix($background, $highlight, 20%) 0%,
+      mix($background, $highlight, 30%) 100%);
 
-  border-top-color: mix($brand-color, $text-color, 50%);
+  border-top-color: mix($background, $highlight, 50%);
   color: $background;
   transition: background 0.2s;
 
   &:hover {
-    background-color: mix($brand-color, $text-color, 22%);
+    background-color: mix($background, $highlight, 22%);
 
     background: radial-gradient(farthest-corner at $spacing-unit $spacing-unit,
-        mix($brand-color, $text-color, 22%) 0%,
-        mix($brand-color, $text-color, 32%) 100%);
+        mix($background, $highlight, 22%) 0%,
+        mix($background, $highlight, 32%) 100%);
   }
+}
+
+header.site-header {
+  @include slightly-gradient-background($brand-color, $text-color);
 
   @media screen and (max-width: $tablet) {
     min-height: $spacing-unit * 2;
@@ -198,9 +200,19 @@ main.page-content {
 }
 
 footer.site-footer {
+  $footer-text-color: transparentize($background, 0.5);
+
+  @include slightly-gradient-background($deep-purple, $text-color);
+
+  .footer-col-wrapper {
+    color: $footer-text-color;
+
+    @include dotted-links($base-font-size * 0.85, $link-color: mix($brand-color, $background), $text-color: transparentize($background, 0.2));
+  }
+
   h2.footer-heading {
     a {
-      color: $text;
+      color: transparentize($background, 0.1);
     }
   }
 }
