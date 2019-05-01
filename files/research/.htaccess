@@ -1,0 +1,5 @@
+# redirect all research file requests to openiaml.org
+
+RewriteEngine on
+
+RewriteRule (.*) http://openiaml.org/publications/$1 [R=301,L]
