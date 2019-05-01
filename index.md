@@ -5,6 +5,9 @@ permalink: /
 redirect_from:
   - "/wiki/Home"
 ---
+
+<img src="/img/jevon/facebook-2016.jpg" class="profile-picture" alt="Picture of Jevon Wright">
+
 Kia ora!
 
 I'm [Jevon Wright](/wiki/Jevon_Wright.md), a software engineer and community volunteer based in Wellington, New Zealand. This is my home page! ;)
