@@ -22,7 +22,7 @@ a {
   color: darken($brand-color, 15%);
   text-decoration: none;
 
-  transition: all 0.2s;
+  transition: text-decoration 0.2s, color 0.2s, border 0.2s;
 
   &:visited, &:active {
     color: darken($brand-color, 30%);
@@ -36,8 +36,23 @@ a {
 
 $dotted-links-height-ratio: (1.25 / 1.5);
 
-.post-title,
-.post-content {
+// also applies within bigger/smaller content blocks
+// ratios (e.g. 1.375) are defaults from minima theme
+@mixin relative-link-and-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+  a {
+    height: $base-font-size * $base-line-height * $ratio * $dotted-links-height-ratio * 1.125;
+  }
+
+  // reset
+  @media screen and (min-width: $on-large) {
+    font-size: $base-font-size * $ratio;
+  }
+}
+
+@mixin dotted-links($base-font-size) {
+  font-size: $base-font-size;
+
   // special dotted links in the content
   a {
     text-decoration: none;
@@ -50,19 +65,25 @@ $dotted-links-height-ratio: (1.25 / 1.5);
       text-decoration: none;
       border-bottom: thin solid $text-color;
     }
-  }
 
-  // also applies within bigger/smaller content blocks
-  // ratios (e.g. 1.375) are defaults from minima theme
-  @mixin relative-link-and-font-size($ratio) {
-    font-size: $base-font-size * $ratio;
-    a {
-      height: $base-font-size * $base-line-height * $ratio * $dotted-links-height-ratio * 1.125;
-    }
+    &.highlight-inline {
+      text-decoration: none;
+      border-bottom: none;
 
-    // reset
-    @media screen and (min-width: $on-large) {
-      font-size: $base-font-size * $ratio;
+      > span {
+        display: inline-block;
+        height: $base-font-size * $base-line-height * $dotted-links-height-ratio;
+      }
+
+      &:hover {
+        text-decoration: none;
+        border-bottom: none;
+
+        > span {
+          text-decoration: none;
+          border-bottom: thin solid $text-color;
+        }
+      }
     }
   }
 
@@ -83,14 +104,32 @@ $dotted-links-height-ratio: (1.25 / 1.5);
   }
 }
 
+.post-title,
+.post-content {
+  @include dotted-links($base-font-size);
+}
+
+.footer-col-wrapper {
+  @include dotted-links($base-font-size * 0.85);
+}
+
 header.site-header {
-  background: mix($brand-color, $text-color, 20%);
+  background-color: mix($brand-color, $text-color, 20%);
+
+  background: radial-gradient(farthest-corner at $spacing-unit $spacing-unit,
+      mix($brand-color, $text-color, 20%) 0%,
+      mix($brand-color, $text-color, 30%) 100%);
+
   border-top-color: mix($brand-color, $text-color, 50%);
   color: $background;
   transition: background 0.2s;
 
   &:hover {
-    background: mix($brand-color, $text-color, 22%);
+    background-color: mix($brand-color, $text-color, 22%);
+
+    background: radial-gradient(farthest-corner at $spacing-unit $spacing-unit,
+        mix($brand-color, $text-color, 22%) 0%,
+        mix($brand-color, $text-color, 32%) 100%);
   }
 
   @media screen and (max-width: $tablet) {
@@ -98,12 +137,17 @@ header.site-header {
   }
 
   > .wrapper {
-    margin-top: ($spacing-unit * 0.95);
+    margin-top: $spacing-unit * 0.95;
     margin-bottom: $spacing-unit;
 
     @media screen and (max-width: $tablet) {
-      margin-top: $spacing-unit * 0.5;
-      margin-bottom: $spacing-unit * 0.5;
+      margin-top: $spacing-unit * 0.3 * 0.95;
+      margin-bottom: $spacing-unit * 0.3;
+    }
+
+    @media screen and (max-width: $mobile) {
+      margin-top: $spacing-unit * 0.0 * 0.95;
+      margin-bottom: $spacing-unit * 0.1;
     }
   }
 
@@ -116,8 +160,8 @@ header.site-header {
       color: $background;
     }
 
-    @media screen and (max-width: $tablet) {
-      top: ($spacing-unit * 0.5) + 7.5px;
+    @media screen and (max-width: $mobile) {
+      top: ($spacing-unit * 0.15) + 7.5px;
     }
   }
 
@@ -144,6 +188,14 @@ main.page-content {
   .post-content {
     h1 {
       margin-top: $spacing-unit * 1;
+    }
+  }
+}
+
+footer.site-footer {
+  h2.footer-heading {
+    a {
+      color: $text;
     }
   }
 }
