@@ -46,11 +46,8 @@ $dotted-links-height-ratio: (1.25 / 1.5);
 
 // also applies within bigger/smaller content blocks
 // ratios (e.g. 1.375) are defaults from minima theme
-@mixin relative-link-and-font-size($ratio) {
+@mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
-  a {
-    height: $base-font-size * $base-line-height * $ratio * $dotted-links-height-ratio * 1.125;
-  }
 
   // reset
   @media screen and (min-width: $on-large) {
@@ -58,63 +55,53 @@ $dotted-links-height-ratio: (1.25 / 1.5);
   }
 }
 
-@mixin dotted-links($base-font-size, $link-color: darken($brand-color, 15%), $text-color: $text-color) {
+@mixin dotted-links($base-font-size, $link-color: darken($brand-color, 15%), $hover-color: $text-color, $alpha: 0.3) {
   font-size: $base-font-size;
 
-  // special dotted links in the content
+  // tweak the link style to be cool
   a {
-    text-decoration: none;
     color: $link-color;
-    border-bottom: thin dotted $link-color;
-    display: inline-block;
-    height: $base-font-size * $base-line-height * $dotted-links-height-ratio;
+    text-decoration: underline;
+    text-decoration-color: transparentize($link-color, 1.0 - $alpha); // can't do dotted links
 
     &:hover {
-      color: $text-color;
-      text-decoration: none;
-      border-bottom: thin solid $text-color;
+      color: $hover-color;
+      text-decoration: underline;
+      text-decoration-color: transparentize($hover-color, 1.0 - ($alpha * 2)); // can't do dotted links nicely
 
       > svg.svg-icon {
-        fill: $text-color;
+        fill: $hover-color;
       }
     }
 
     &.highlight-inline {
       text-decoration: none;
-      border-bottom: none;
-
-      > span {
-        display: inline-block;
-        height: $base-font-size * $base-line-height * $dotted-links-height-ratio;
-      }
 
       &:hover {
         text-decoration: none;
-        border-bottom: none;
-        color: $text-color;
 
         > span {
-          text-decoration: none;
-          border-bottom: thin solid $text-color;
+          text-decoration: underline;
+          text-decoration-color: transparentize($hover-color, 1.0 - ($alpha * 2)); // can't do dotted links nicely
         }
       }
     }
   }
 
   h1 {
-    @include relative-link-and-font-size(1.75);
+    @include relative-font-size(1.75);
   }
 
   h2 {
-    @include relative-link-and-font-size(1.5);
+    @include relative-font-size(1.5);
   }
 
   h3 {
-    @include relative-link-and-font-size(1.25);
+    @include relative-font-size(1.25);
   }
 
   h4 {
-    @include relative-link-and-font-size(1.125);
+    @include relative-font-size(1.125);
   }
 }
 
@@ -240,7 +227,7 @@ footer.site-footer {
   .footer-col-wrapper {
     color: $footer-text-color;
 
-    @include dotted-links($base-font-size * 0.85, $link-color: mix($brand-color, $background), $text-color: transparentize($background, 0.2));
+    @include dotted-links($base-font-size * 0.85, $link-color: mix($brand-color, $background), $hover-color: transparentize($background, 0.2));
   }
 
   h2.footer-heading {
