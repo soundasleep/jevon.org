@@ -1,0 +1,17 @@
+body {
+  &.page-index {
+    $profile-picture-size: $spacing-unit * 6;
+
+    img.profile-picture {
+      display: block;
+      max-width: $profile-picture-size;
+      border-radius: $profile-picture-size / 2;
+      margin: $spacing-unit auto;
+      box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+
+      @media screen and (max-width: $mobile) {
+        margin: ($spacing-unit / 2) auto;
+      }
+    }
+  }
+}

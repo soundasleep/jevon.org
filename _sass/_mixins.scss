@@ -1,0 +1,84 @@
+
+$dotted-links-height-ratio: (1.25 / 1.5);
+
+// also applies within bigger/smaller content blocks
+// ratios (e.g. 1.375) are defaults from minima theme
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+
+  // reset
+  @media screen and (min-width: $on-large) {
+    font-size: $base-font-size * $ratio;
+  }
+}
+
+@mixin dotted-links($base-font-size, $link-color: darken($brand-color, 15%), $hover-color: $text-color, $alpha: 0.3) {
+  font-size: $base-font-size;
+
+  // tweak the link style to be cool
+  a {
+    color: $link-color;
+    text-decoration: underline;
+    text-decoration-color: transparentize($link-color, 1.0 - $alpha); // can't do dotted links
+
+    &:hover {
+      color: $hover-color;
+      text-decoration: underline;
+      text-decoration-color: transparentize($hover-color, 1.0 - ($alpha * 2)); // can't do dotted links nicely
+
+      > svg.svg-icon {
+        fill: $hover-color;
+      }
+    }
+
+    &.highlight-inline {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: none;
+
+        > span {
+          text-decoration: underline;
+          text-decoration-color: transparentize($hover-color, 1.0 - ($alpha * 2)); // can't do dotted links nicely
+        }
+      }
+    }
+  }
+
+  h1 {
+    @include relative-font-size(1.75);
+  }
+
+  h2 {
+    @include relative-font-size(1.5);
+  }
+
+  h3 {
+    @include relative-font-size(1.25);
+  }
+
+  h4 {
+    @include relative-font-size(1.125);
+  }
+}
+
+@mixin slightly-gradient-background($background, $highlight) {
+  background-color: mix($background, $highlight, 20%);
+  color: $highlight;
+
+  background: radial-gradient(farthest-corner at $spacing-unit $spacing-unit,
+      mix($background, $highlight, 20%) 0%,
+      mix($background, $highlight, 30%) 100%);
+
+  border-top-color: mix($background, $highlight, 50%);
+  color: $background;
+  transition: background 0.2s;
+
+  &:hover {
+    background-color: mix($background, $highlight, 22%);
+
+    background: radial-gradient(farthest-corner at $spacing-unit $spacing-unit,
+        mix($background, $highlight, 22%) 0%,
+        mix($background, $highlight, 32%) 100%);
+  }
+}

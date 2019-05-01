@@ -1,0 +1,56 @@
+span.menu-icon {
+  background: url('/assets/images/hamburger.svg') 50% 50% no-repeat;
+  background-size: 18px;
+}
+
+header.site-header {
+  @include slightly-gradient-background($brand-color, $text-color);
+
+  @media screen and (max-width: $tablet) {
+    min-height: $spacing-unit * 2;
+  }
+
+  > .wrapper {
+    margin-top: $spacing-unit * 0.95;
+    margin-bottom: $spacing-unit;
+
+    @media screen and (max-width: $tablet) {
+      margin-top: $spacing-unit * 0.3 * 0.95;
+      margin-bottom: $spacing-unit * 0.3;
+    }
+
+    @media screen and (max-width: $mobile) {
+      margin-top: $spacing-unit * 0.0 * 0.95;
+      margin-bottom: $spacing-unit * 0.1;
+    }
+  }
+
+  .site-title {
+    color: $background;
+  }
+
+  nav.site-nav {
+    .page-link {
+      color: $background;
+    }
+
+    @media screen and (max-width: $mobile) {
+      top: ($spacing-unit * 0.15) + 7.5px;
+
+      background: $background;
+      color: $text-color;
+
+      .page-link {
+        color: $text-color;
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
