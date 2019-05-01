@@ -31,6 +31,14 @@ a {
   &:hover {
     color: $text-color;
     text-decoration: underline;
+
+    > svg.svg-icon {
+      fill: $text-color;
+    }
+  }
+
+  > svg.svg-icon {
+    transition: fill 0.2s;
   }
 }
 
@@ -65,6 +73,10 @@ $dotted-links-height-ratio: (1.25 / 1.5);
       color: $text-color;
       text-decoration: none;
       border-bottom: thin solid $text-color;
+
+      > svg.svg-icon {
+        fill: $text-color;
+      }
     }
 
     &.highlight-inline {
@@ -79,6 +91,7 @@ $dotted-links-height-ratio: (1.25 / 1.5);
       &:hover {
         text-decoration: none;
         border-bottom: none;
+        color: $text-color;
 
         > span {
           text-decoration: none;
@@ -231,8 +244,22 @@ footer.site-footer {
   }
 
   h2.footer-heading {
+    line-height: $base-font-size * 1.5; // keep all elements in the heading the same size
+
     a {
       color: transparentize($background, 0.1);
+
+      > svg.svg-icon {
+        vertical-align: middle;
+      }
+
+      &:hover > svg.svg-icon {
+        fill: $background;
+      }
+    }
+
+    .rss-link {
+      float: right;
     }
   }
 }
