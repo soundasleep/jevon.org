@@ -15,6 +15,12 @@ RSpec.describe "all pages" do
         # {% include gmf-css.md %}
         expect(file_contents.match(/\{% include [^ ]*[A-Z][^% ]* %\}/)).to eq nil
       end
+
+      it "uses /wiki/*.md to link to other markdown files" do
+        # [link](wiki/foo.md) is wrong, and won't generate the correct link;
+        # it should be [link](/wiki/foo.md).
+        expect(file_contents.match(/\[([^\]]+)\]\(wiki\/([^)]+)/)).to eq nil
+      end
     end
   end
 end

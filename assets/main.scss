@@ -163,6 +163,13 @@ header.site-header {
 
     @media screen and (max-width: $mobile) {
       top: ($spacing-unit * 0.15) + 7.5px;
+
+      background: $background;
+      color: $text-color;
+
+      .page-link {
+        color: $text-color;
+      }
     }
   }
 

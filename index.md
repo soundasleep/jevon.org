@@ -18,6 +18,6 @@ I have many passions, including:
 - Music - [avid listener](https://last.fm/user/jdub_dub) and musician
 - Writing - [link hoarder](https://pinboard.in/u:jevon), knowledge collator and cat reblogger
 
-Contact me at [support@jevon.org](mailto:support@jevon.org) and use my [public key](wiki/Public_Key.md).
+Contact me at [support@jevon.org](mailto:support@jevon.org) and use my [public key](/wiki/Public_Key.md).
 
 I am not currently looking for additional employment, but please consider [donating](http://www.outerspaces.org.nz/donate) to the groups I'm involved with.
