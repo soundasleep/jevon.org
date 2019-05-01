@@ -46,3 +46,4 @@ exclude:
   - node_modules/
   - vendor/
   - spec/
+  - _site/
