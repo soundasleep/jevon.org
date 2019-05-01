@@ -26,11 +26,12 @@ github_username:  soundasleep
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: minima # minima is the smallest supported theme for Github Pages
 plugins:
   - jekyll-feed
   - jekyll-relative-links
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 permalink: /:categories/:year/:month/:day/:title
 
@@ -46,3 +47,4 @@ exclude:
   - node_modules/
   - vendor/
   - spec/
+  - _site/

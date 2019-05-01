@@ -13,3 +13,219 @@ span.menu-icon {
 footer.site-footer {
   background: mix($background, $highlight, 90%);
 }
+
+/**
+ * Links
+ * built off minima
+ */
+a {
+  color: darken($brand-color, 15%);
+  text-decoration: none;
+
+  transition: text-decoration 0.2s, color 0.2s, border 0.2s;
+
+  &:visited, &:active {
+    color: darken($brand-color, 30%);
+  }
+
+  &:hover {
+    color: $text-color;
+    text-decoration: underline;
+  }
+}
+
+$dotted-links-height-ratio: (1.25 / 1.5);
+
+// also applies within bigger/smaller content blocks
+// ratios (e.g. 1.375) are defaults from minima theme
+@mixin relative-link-and-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+  a {
+    height: $base-font-size * $base-line-height * $ratio * $dotted-links-height-ratio * 1.125;
+  }
+
+  // reset
+  @media screen and (min-width: $on-large) {
+    font-size: $base-font-size * $ratio;
+  }
+}
+
+@mixin dotted-links($base-font-size, $link-color: darken($brand-color, 15%), $text-color: $text-color) {
+  font-size: $base-font-size;
+
+  // special dotted links in the content
+  a {
+    text-decoration: none;
+    color: $link-color;
+    border-bottom: thin dotted $link-color;
+    display: inline-block;
+    height: $base-font-size * $base-line-height * $dotted-links-height-ratio;
+
+    &:hover {
+      color: $text-color;
+      text-decoration: none;
+      border-bottom: thin solid $text-color;
+    }
+
+    &.highlight-inline {
+      text-decoration: none;
+      border-bottom: none;
+
+      > span {
+        display: inline-block;
+        height: $base-font-size * $base-line-height * $dotted-links-height-ratio;
+      }
+
+      &:hover {
+        text-decoration: none;
+        border-bottom: none;
+
+        > span {
+          text-decoration: none;
+          border-bottom: thin solid $text-color;
+        }
+      }
+    }
+  }
+
+  h1 {
+    @include relative-link-and-font-size(1.75);
+  }
+
+  h2 {
+    @include relative-link-and-font-size(1.5);
+  }
+
+  h3 {
+    @include relative-link-and-font-size(1.25);
+  }
+
+  h4 {
+    @include relative-link-and-font-size(1.125);
+  }
+}
+
+.post-content {
+  @include dotted-links($base-font-size);
+}
+
+@mixin slightly-gradient-background($background, $highlight) {
+  background-color: mix($background, $highlight, 20%);
+  color: $highlight;
+
+  background: radial-gradient(farthest-corner at $spacing-unit $spacing-unit,
+      mix($background, $highlight, 20%) 0%,
+      mix($background, $highlight, 30%) 100%);
+
+  border-top-color: mix($background, $highlight, 50%);
+  color: $background;
+  transition: background 0.2s;
+
+  &:hover {
+    background-color: mix($background, $highlight, 22%);
+
+    background: radial-gradient(farthest-corner at $spacing-unit $spacing-unit,
+        mix($background, $highlight, 22%) 0%,
+        mix($background, $highlight, 32%) 100%);
+  }
+}
+
+header.site-header {
+  @include slightly-gradient-background($brand-color, $text-color);
+
+  @media screen and (max-width: $tablet) {
+    min-height: $spacing-unit * 2;
+  }
+
+  > .wrapper {
+    margin-top: $spacing-unit * 0.95;
+    margin-bottom: $spacing-unit;
+
+    @media screen and (max-width: $tablet) {
+      margin-top: $spacing-unit * 0.3 * 0.95;
+      margin-bottom: $spacing-unit * 0.3;
+    }
+
+    @media screen and (max-width: $mobile) {
+      margin-top: $spacing-unit * 0.0 * 0.95;
+      margin-bottom: $spacing-unit * 0.1;
+    }
+  }
+
+  .site-title {
+    color: $background;
+  }
+
+  nav.site-nav {
+    .page-link {
+      color: $background;
+    }
+
+    @media screen and (max-width: $mobile) {
+      top: ($spacing-unit * 0.15) + 7.5px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+main.page-content {
+  padding: ($spacing-unit * 1.5) 0 $spacing-unit;
+
+  @media screen and (max-width: $tablet) {
+    padding: ($spacing-unit * 0.5) 0;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
+    margin-bottom: $spacing-unit * 0.75;
+  }
+
+  nav.actions {
+    float: right;
+    font-size: $base-font-size * 0.8;
+
+    ul, li {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .post-content {
+    h1 {
+      margin-top: $spacing-unit * 1;
+    }
+
+    h2, h3 {
+      border-top: thin solid mix($background, $text, 90%);
+      margin-top: $spacing-unit * 1;
+      padding-top: $spacing-unit * 0.2;
+    }
+  }
+}
+
+footer.site-footer {
+  $footer-text-color: transparentize($background, 0.5);
+
+  @include slightly-gradient-background($deep-purple, mix($text-color, $background, 80%));
+
+  box-shadow: inset 0 ($spacing-unit / 4) ($spacing-unit / 4) rgba(0,0,0,0.1);
+
+  .footer-col-wrapper {
+    color: $footer-text-color;
+
+    @include dotted-links($base-font-size * 0.85, $link-color: mix($brand-color, $background), $text-color: transparentize($background, 0.2));
+  }
+
+  h2.footer-heading {
+    a {
+      color: transparentize($background, 0.1);
+    }
+  }
+}

@@ -3,12 +3,24 @@
 
   {%- include head.html -%}
 
-  <body>
+  {% if page.name %}
+    {%- assign body_class = "page-" | append: page.name | replace: ".md", "" | slugify -%}
+  {% else %}
+    {%- assign body_class = "page-" | append: page.id | slugify -%}
+  {% endif %}
+
+  <body class="{{ body_class }}">
 
     {%- include header.html -%}
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
+        <nav class="actions">
+          <ul>
+            <li><a href="{{site.github.repository_url}}/edit/master/{{page.path}}">Edit</a></li>
+          </ul>
+        </nav>
+
         {{ content }}
       </div>
     </main>
