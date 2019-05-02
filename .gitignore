@@ -3,6 +3,7 @@ _site
 .jekyll-metadata
 .DS_Store
 .mapping.yml
+.byebug_history
 
 # private data! not available on production
 _includes/cv/references.md

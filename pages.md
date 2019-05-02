@@ -8,6 +8,9 @@ permalink: /pages
 
 {%- if site.posts.size > 0 -%}
   <ul class="post-list">
+    {% comment %}
+      Cannot use `sort_natural` until `github-pages` gem upgrades to liquid 4.0.0+: https://github.com/github/pages-gem/issues/638
+    {% endcomment %}
     {%- assign all_posts = site.posts | concat: site.pages | sort: "title" -%}
     {%- for post in all_posts -%}
       {% include post-feed.md post=post %}
