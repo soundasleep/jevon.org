@@ -18,7 +18,7 @@ Hey, that's me ^_^
 * **E-mail:** jevon@jevon.org
 * **Occupation:** [Researcher](Research.md), [Software Engineer](Web_Development.md)
 * **Location:** [Wellington](wellington.md), New Zealand at <a href="http://maps.google.com/maps?f=q&hl=en&geocode=&q=Wellington&sll=-41.293382,174.775679&sspn=0.088691,0.160675&ie=UTF8&t=k&z=13&iwloc=addr">174.78, -41.29</a>
-* **Journal:** [user=jevon]
+* **Journal:** <span>{%- include journals-user.html username="jevon" -%}</span>
 * *Last.fm:* <a href="http://www.last.fm/user/jdub_dub" title="My last.fm profile" class="lastfm">jdub_dub</a>
 * *Twitter:* <a href="http://twitter.com/soundasleep" title="My Twitter account" class="twitter">@soundasleep</a>
 * *LinkedIn:* <a href="http://www.linkedin.com/in/jevonwright" title="My LinkedIn profile" class="linkedin">LinkedIn</a>

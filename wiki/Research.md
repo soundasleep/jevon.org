@@ -10,13 +10,13 @@ tags:
 
 In 2007, I started a [PhD research program](Research.md) into developing a modelling language for interactive web applications with the <a href="http://www-ist.massey.ac.nz">Institute of Information Sciences and Technology</a> at <a href="http://www.massey.ac.nz">Massey University</a>, Palmerston North, New Zealand. I successfully completed in 2011, and <a href="http://www.youtube.com/watch?v=d9Vlo4pkYIA#t=85m32s" class="youtube">graduated</a> with a Doctor of Philosophy in 2012. The project summary follows.
 
-For more information, contact me at jevon@jevon.org. A project website is available at <a href="http://openiaml.org">http://openiaml.org</a>, with the source code of the project available at <a href="http://code.google.com/p/iaml">http://code.google.com/p/iaml</a>. I also have a blog at [user=jevon-phd].
+For more information, contact me at jevon@jevon.org. A project website is available at <a href="http://openiaml.org">http://openiaml.org</a>, with the source code of the project available at <a href="http://code.google.com/p/iaml">http://code.google.com/p/iaml</a>. I also have a blog at <span>{%- include journals-user.html username="jevon-phd" -%}</span>.
 
 ### Project Title
 A Modelling Language for Interactive Web Applications
 
 ### Project Summary
-[Web-based application development](Web_Development.md) has become a well established approach to [software development](Software.md), and several modelling approaches have been proposed, but none of these have become widely accepted in the software engineering community. 
+[Web-based application development](Web_Development.md) has become a well established approach to [software development](Software.md), and several modelling approaches have been proposed, but none of these have become widely accepted in the software engineering community.
 
 Many existing models focus solely on the hypertext structure, but have poor support for important web application-specific concepts, such as sessions and request forwarding. New technologies such as [AJAX](AJAX.md) and [web services](web-services.md) go beyond the abilities of traditional modelling languages.
 
@@ -25,7 +25,7 @@ In this project, we propose to develop or extend a modelling language which is a
 ### Research Methodology
 The first research required will be a study of existing literature, to identify what work has already been done, and potential extension points. This will be performed simultaneously with the development of requirements from a comprehensive selection of real-world use cases for web applications. (This work has already been completed.)
 
-These requirements will be compared with existing approaches (such as [WebML](webml.md) and [UWE](uwe.md)), allowing us to identify if an existing language should be extended, or a new approach should be developed. Prototypes of real-world applications will then be developed as proof-of-concepts, which will be compared with existing work. This approach will be iterated multiple times until a sufficiently concise solution is developed. 
+These requirements will be compared with existing approaches (such as [WebML](webml.md) and [UWE](uwe.md)), allowing us to identify if an existing language should be extended, or a new approach should be developed. Prototypes of real-world applications will then be developed as proof-of-concepts, which will be compared with existing work. This approach will be iterated multiple times until a sufficiently concise solution is developed.
 
 As further proof-of-concept, a [CASE tool](case-tool.md) implementing the language may be developed, most likely through existing platforms such as [ArgoUML](argouml.md) or [EMF](EMF.md).
 

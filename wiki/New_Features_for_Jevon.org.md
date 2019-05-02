@@ -27,7 +27,7 @@ Some ideas that I'd like to implement for the new Jevon.org...
 1. Automatically add links to RFC nnnn, ISO nnnn, DOI nnnn, ISBN
 
 ## Normal Priority
-1. <span class="done">Favicon</span> - done in r4551 (to the icon from [user=jevon])
+1. <span class="done">Favicon</span> - done in r4551 (to the icon from <span>{%- include journals-user.html username="jevon" -%}</span>)
 1. Support Cron jobs, along with an interface to job status
 1. <span class="done">An improved user interface/new design</span> - done in r4558
 1. Allow users to place comments on Wiki pages (with Captcha for spam, etc)
