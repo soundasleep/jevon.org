@@ -21,6 +21,6 @@ _Phone is in use. Please go to the main screen and try to connect again._
 In the end I couldn't solve this problem at all, and had to spend quite some time to try find the [USB](usb.md) cable...
 
 ## Interesting Codes
-*** # 06 #** : IMEI number
-*** # 1234 #**: Software/firmware version
-*** # 7465625 #**: = Check the locks (more information: http://tinyurl.com/dyma5)
+- ** # 06 #** : IMEI number
+- ** # 1234 #**: Software/firmware version
+- ** # 7465625 #**: = Check the locks (more information: http://tinyurl.com/dyma5)

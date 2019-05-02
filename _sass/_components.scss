@@ -1,12 +1,3 @@
-@mixin inline-icon-style($code) {
-  content: ' ';
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  margin-left: 5px;
-  background: url('/img/icons/#{$code}icon.png') no-repeat;
-}
-
-a[href$=".pdf" i]::after {
-  @include inline-icon-style('pdf');
+a {
+  @include with-contextual-link-styles();
 }

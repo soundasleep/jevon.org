@@ -43,13 +43,11 @@ redirect_from:
 
 <a href="https://answers.unrealengine.com/questions/41352/making-objects-move-after-theyve-stopped.html">The fix that worked for me</a> was:
 
-<blockquote>
-First, make sure they don't disappear after a few seconds. In the MyProjectile Blueprint's Defaults tab, change Initial Life Span to a larger number, or to 0.0 if you want them to stay forever.
-
-Next, you'll want to make the projectiles physics actors. In the Components tab, select the [ROOT] CollisionComponent and scroll down to the Collision settings in the Details panel. For Collision Presets, choose `PhysicsActor`.
-
-Lastly, make sure that Simulate Physics is enabled in the Physics settings.
-</blockquote>
+> First, make sure they don't disappear after a few seconds. In the MyProjectile Blueprint's Defaults tab, change Initial Life Span to a larger number, or to 0.0 if you want them to stay forever.
+>
+> Next, you'll want to make the projectiles physics actors. In the Components tab, select the [ROOT] CollisionComponent and scroll down to the Collision settings in the Details panel. For Collision Presets, choose `PhysicsActor`.
+>
+> Lastly, make sure that Simulate Physics is enabled in the Physics settings.
 
 ## Balls never stop rolling
 

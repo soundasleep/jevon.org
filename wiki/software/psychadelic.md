@@ -7,7 +7,7 @@ tags:
   - Software
 ---
 
-[My Software](Software.md)
+[My Software](../Software.md)
 
 ## Description
 "Psychedelic" is a pretty weird piece of software. It's hard to explain, so it'd be better to just download the software and have a go. Psychedelic displays custom text on a window, which covers the screen, and "follows" the mouse.
@@ -24,10 +24,10 @@ To view a sample Psychedelic file, run the "psych.exe" file. (Isn't it awesome? 
 To make your own, make sure "template.exe" is in the same directory as "psych_gen.exe" and run the "psych_gen.exe" program. The "New File" prompt is the location that you'd like the new Psychedelic file to go to, and the "Text" prompt is what text you'd like displayed. Then, just click Generate, and you're done! :)
 
 ## Download
-Version: 1.0
-Size: 14 KB
-Download: <a href="https://github.com/soundasleep/jevon.org/releases/download/old-files/psych.zip">psych.zip</a>
-{% include require-vb6-runtimes.md %}
+- Version: 1.0
+- Size: 14 KB
+- Download: <a href="https://github.com/soundasleep/jevon.org/releases/download/old-files/psych.zip">psych.zip</a>
+- {% include require-vb6-runtimes.md %}
 
 ## Screenshot
 <img src="/img/screenshots/psych.png" alt="Screenshot of Psychadelic software">

@@ -13,4 +13,4 @@ Galaxy Games Online (GGO) is a role-playing game (RPG), text-based, online game 
 
 For more information see the old GGO home page at http://ggo.jevon.org/ .
 
-Note now that the software is pretty much abandoned. It would need a rewrite (it's currently in [Visual Basic](visual-basiC.md) 6) to be useful again in the future.
+Note now that the software is pretty much abandoned. It would need a rewrite (it's currently in [Visual Basic](Visual_Basic.md) 6) to be useful again in the future.

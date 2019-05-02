@@ -6,6 +6,8 @@ date:   2010-05-24 13:32:46 +12:00
 tags: []
 redirect_from:
   - "/wiki/Images in Latex"
+  - "/wiki/Visio Images in Latex"
+  - "/wiki/Visio_Images_in_Latex"
 ---
 
 [Articles](Articles.md) > [Latex](Latex.md)
@@ -29,7 +31,7 @@ Make sure that none of the images have spaces in them! Tex doesn't seem to like 
 ```
 
 ## Visio Images in Latex
-It took me forever but I finally worked out how to get vectorized images from [Visio](Visio.md) into [Latex](Latex.md). 
+It took me forever but I finally worked out how to get vectorized images from [Visio](Visio.md) into [Latex](Latex.md).
 
 1. First, you need to install a [PDF](pdf.md) printer such as [CutePDF](cutepdf.md).
 1. Remove transparency in your Visio file.

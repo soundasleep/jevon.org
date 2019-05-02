@@ -23,8 +23,10 @@ public CellEditor createPropertyEditor(Composite composite) {
   if (dataType.equals(DomainPackage.eINSTANCE.getFileReference())) {
     CellEditor result = new ExtendedDialogCellEditor(composite, getEditLabelProvider()) {
       protected EDataTypeValueHandler valueHandler = new EDataTypeValueHandler(dataType);
-``````
-@Override
+```
+
+```
+      @Override
       protected Object openDialogBox(Control cellEditorWindow) {
         Shell shell = PlatformUI.getWorkbench().getDisplay().getActiveShell();
         FileDialog dialog = new FileDialog(shell, SWT.OPEN);

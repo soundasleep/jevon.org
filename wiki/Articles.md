@@ -79,7 +79,6 @@ Some random ramblings... under construction, and I'm always adding more.
 
 ## Software Development
 1. [Articles/Using mod_rewrite With PHP](Articles/Using_mod_rewrite_With_PHP.md)
-1. [Programming Snippets](Programming_Snippets.md)
 1. [Visual Basic Array Speeds](Visual_Basic_Array_Speeds.md)
 1. [Converting Bases](Converting_Bases.md)
 1. [From HTML 4 to XHTML 1](From_HTML_4_to_XHTML_1.md)

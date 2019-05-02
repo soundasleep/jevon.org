@@ -52,4 +52,4 @@ However I've decided that Ubuntu just isn't ready for me. It's lots of little, t
 1. Running Hangouts as a standalone application on Ubuntu was a mess. Somehow I managed to get it to always run maximized and I couldn't restore it.
 1. [Ruby](Ruby.md) development is actually about as awkward on Ubuntu as it is on Windows, having to deal with binaries across multiple platforms. It seems Ruby is only for MacOS, and Ruby/MySQL is a very awkward combination.
 
-I've now switched back to Windows and I'm using a <a href="https://twitter.com/soundasleep/status/557663609011339266">combination of terminal software</a> to achieve the same excellent terminal experience. --Still need to fix [Git](Git.md) though-- See [Getting Git to work over SSH in Windows](getting-git-to-work-over-ssh-in-Windows.md).
+I've now switched back to Windows and I'm using a <a href="https://twitter.com/soundasleep/status/557663609011339266">combination of terminal software</a> to achieve the same excellent terminal experience. ~~Still need to fix [Git](Git.md) though~~ See [Getting Git to work over SSH in Windows](Getting_Git_to_work_over_SSH_in_Windows.md).

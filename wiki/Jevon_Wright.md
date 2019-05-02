@@ -8,6 +8,7 @@ tags:
 redirect_from:
   - "/wiki/Jevon Wright"
   - "/wiki/Jevon"
+  - "/wiki/Contact"
 ---
 
 Hey, that's me ^_^
@@ -60,7 +61,7 @@ Hey, that's me ^_^
 
 ## Interests
 
-* [Link:Music](link-MusiC.md)
+* Music
 * <a href="http://journals.jevon.org/users/soundasleep/">Playing music</a> (guitar/drums/keyboard/singing)
 * [Computer hardware](Computer.md)
 * Open source

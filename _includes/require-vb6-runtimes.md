@@ -1,1 +1,1 @@
-This software requires some [Visual Basic Runtimes](visual-basic-runtimes.md).
+This software requires some [Visual Basic Runtimes](Visual_Basic_Runtimes.md).

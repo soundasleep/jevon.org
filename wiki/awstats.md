@@ -15,30 +15,40 @@ tags:
 ## How I install awstats
 
 1. Based off the <a href="https://help.ubuntu.com/community/AWStats">Ubuntu awstats wiki page</a>. First install packages:
+
 ```
 sudo apt-get install awstats libnet-ip-perl libnet-dns-perl
 ```
-1. Edit /etc/awstats/awstats.conf, modify `LogFile` to merge archived data, `LogFormat` to use [Apache](Apache.md) log format (see below), and `LoadPlugin="ipv6"` :
+
+1. Edit /etc/awstats/awstats.conf, modify `LogFile` to merge archived data, `LogFormat` to use [Apache](Apache.md) log format (see below), and `LoadPlugin="ipv6"`:
+
 ```
 LogFile="perl /usr/share/awstats/tools/logresolvemerge.pl /var/log/apache2/other_vhosts_access.log /var/log/apache2/other_vhosts_access.log.1 /var/log/apache2/other_vhosts_access.log.2.gz |"
 ```
+
 1. Create a crontab in /root/crontab to set world-readable permissions to your log files (otherwise you have to run awstats as root):
+
 ```
 # every hour at 0:17 every day, fix /var/log/apache2 permissions for awstats
 17 */1 * * * chmod a+r /var/log/apache2/* > /var/log/apache2/fix_permissions.log 2>&1
 ```
+
 1. Create a folder to store generated awstats HTML:
+
 ```
 mkdir /var/www/path/to/awstats
 chmod a+rw /var/www/path/to/awstats (or perhaps chown user /var/www/path/to/awstats)
 ```
+
 1. Create a [bash](bash.md) script to update awstats and generate HTML:
+
 ```
 !/bin/bash
 
 perl /usr/lib/cgi-bin/awstats.pl -config=mydomain.ext -update -showcorrupted
 perl /usr/share/awstats/tools/awstats_buildstaticpages.pl -config=mydomain.ext -dir=/var/www/path/to/awstats -awstatsprog=/usr/lib/cgi-bin/awstats.pl -showcorrupted
 ```
+
 1. Set up a crontab job to execute this script
 1. Configure [Apache](Apache.md) to serve awstats with appropriate `Require: valid-user` permissions as necessary.
 

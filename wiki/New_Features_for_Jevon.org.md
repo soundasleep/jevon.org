@@ -21,7 +21,6 @@ Some ideas that I'd like to implement for the new Jevon.org...
 1. <span class="done">Support syntax highlighting (see <a href="http://code.google.com/p/google-code-prettify/">Google Code syntax highlighting</a>)</span> - [completed](special-Formatting.md) in r4531
 1. Update [profile page](Jevon_Wright.md)
 1. Update [research profile page](Research.md)
-1. Add new [photos](Photos.md)
 1. <span class="done">Use `_italic_` and `*bold*` Wiki syntax instead</span> - completed in r4520
 1. <span class="done">Fix [Special:Recent Changes](special-recent-changes.md)</span> - completed in r4529
 1. Automatically add links to RFC nnnn, ISO nnnn, DOI nnnn, ISBN

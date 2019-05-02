@@ -42,9 +42,9 @@ tags:
 - **I'm not looking forward to:** Winter :P
 
 # Other...
-- **Hobbies:** [Link:Music](link-music.md), friends, [web design](web-development.md), [software development](software.md), chat
-- **Proficient Languages:** [Visual Basic](visual-basic.md), [PHP](php.md), [C](c.md), [C++](c-.md), [Java](java.md), [Javascript](javascript.md), [Lua](lua.md), [ASP](asp.md), [SQL](sql.md)
-- **Interests:** [Software development](software.md), and all my hobbies
+- **Hobbies:** Music, friends, [web design](../Web_Development.md), [software development](../Software.md), chat
+- **Proficient Languages:** [Visual Basic](../Visual_Basic.md), [PHP](../PHP.md), [C](../C.md), [C++](c-.md), [Java](../Java.md), [Javascript](../Javascript.md), [Lua](../Lua.md), [ASP](../ASP.md), [SQL](../SQL.md)
+- **Interests:** [Software development](../Software.md), and all my hobbies
 - **Job:** Student
 - **Education:** <a href="http://www.massey.ac.nz">Massey University</a>
 Family:
