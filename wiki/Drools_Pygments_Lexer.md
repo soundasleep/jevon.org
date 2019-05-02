@@ -7,6 +7,8 @@ tags:
   - Code Snippets
 redirect_from:
   - "/wiki/Drools Pygments Lexer"
+  - "/wiki/Drools Pygments Style"
+  - "/wiki/Drools_Pygments_Style"
 ---
 
 [Python](Python.md) / [Latex](Latex.md)

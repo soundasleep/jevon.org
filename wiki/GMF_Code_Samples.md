@@ -57,7 +57,9 @@ Basically, the code first searches the current EditPart for elements that it nee
 
 The XML file for this example could be something like so:
 
-<img src="/img/gmf/shortcuts-2.png" class="gmf">```
+<img src="/img/gmf/shortcuts-2.png" class="gmf">
+
+```
 <root>
   <view name="external">
     <operation name="external link 1" />

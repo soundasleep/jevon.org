@@ -8,6 +8,8 @@ tags:
   - Troubleshooting
 redirect_from:
   - "/wiki/Installing Soundblaster Live! Drivers in Windows XP"
+  - "/wiki/Installing Soundblaster Live"
+  - "/wiki/Installing Soundblaster_Live"
 ---
 
 [Articles](Articles.md)

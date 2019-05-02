@@ -28,16 +28,12 @@ This is a list of redirects that visitors to the old Jevon.org will come across.
 /psych/: Software/Psychadelic
 /clipboardset/: Software/Clipboard Set
 /id=msncolour/: Changing your MSN Colour
-/id=eaprivacy/: EA Privacy
 /id=software/: Software
-/id=htmlentities/: HTML Entities
 /id=icqxml/: ICQ Contacts in XML
 /id=vbarray/: Visual Basic Array Speeds
 /id=hex/: Converting Bases
 /id=binary/: Converting Bases
-/id=booga/: Booga's Musical Tastes
 /id=pulse/: Jevon Online Whatpulse Team
-/calender.php/: Calendar
 /login.php/: Login
 /register.php/: Login
 /id=ftpsetup/: Setting up the BPFTP FTP Server

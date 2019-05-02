@@ -7,7 +7,7 @@ tags:
   - Downloads
 ---
 
-Here are some random downloads that are lying around my web server. Enjoy! Or go back [home](Home.md).
+Here are some random downloads that are lying around my web server. Enjoy!
 
 1. [WinKey](WinKey.md)
 1. [TwinkleCam Driver](TwinkleCam_Driver.md)

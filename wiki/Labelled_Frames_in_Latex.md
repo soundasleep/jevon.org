@@ -8,6 +8,8 @@ tags:
   - Code Snippets
 redirect_from:
   - "/wiki/Labelled Frames in Latex"
+  - "/wiki/Framed Image in Latex"
+  - "/wiki/Framed_Image_in_Latex"
 ---
 
 [Articles](Articles.md) > [Latex](Latex.md)

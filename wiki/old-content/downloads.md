@@ -110,41 +110,17 @@ tags:
 <td class="file-headtd">Source Code</td>
 </tr><tr class="file-head2">
 <td class="file-table2"><table border=0 cellspacing=0 cellpadding=2 width="100%" class="file-table3"><tr class="file-tr0" valign="middle">
-	<td class="file-title"><a href="/old/download.php?id=2exp-source&filename=2exp.zip" class="file-link"><b>2^x Source Code</b></a><br>
+	<td class="file-title"><a href="/files/2exp.zip" class="file-link"><b>2^x Source Code</b></a><br>
 		<div class="file-info">Code to accurately calculate 2^x. (<a href="article.php?id=2exp" class="file-more">More Info</a>)</div></td>
 	<td class="file-author">By <a href="http://www.jevon.org" class="file-link">Jevon Wright</a></td>
 	<td class="file-desc">Open Source<br>1 KB</td>
 	<td class="file-stat">230 downloads</td>
-	<td class="file-dl"><a href="/old/download.php?id=2exp-source&filename=2exp.zip" class="file-link" title="Download 2^x Source Code">Download</a></td>
+	<td class="file-dl"><a href="/files/2exp.zip" class="file-link" title="Download 2^x Source Code">Download</a></td>
 </tr>
 </table></td>
 </tr>
 <tr class="file-head">
 <td class="file-headtd">Galaxy Games Online</td>
-</tr><tr class="file-head2">
-<td class="file-table2"><table border=0 cellspacing=0 cellpadding=2 width="100%" class="file-table3"><tr class="file-tr0" valign="middle">
-	<td class="file-title"><a href="/old/download.php?id=ggo&filename=ggo120f.exe" class="file-link"><b>Galaxy Games Online 1.02</b></a><br>
-		<div class="file-info">A free role-playing game, text-based, online game playing tool. (<a href="http://ggo.jevon.org" class="file-more">More Info</a>)</div></td>
-	<td class="file-author">By <a href="http://www.jevon.org" class="file-link">Jevon Wright</a></td>
-	<td class="file-desc">Freeware<br>1,135 KB</td>
-	<td class="file-stat">105 downloads</td>
-	<td class="file-dl"><a href="/old/download.php?id=ggo&filename=ggo120f.exe" class="file-link" title="Download Galaxy Games Online 1.02">Download</a></td>
-</tr>
-<tr class="file-tr1" valign="middle">
-	<td class="file-title"><a href="/old/download.php?id=ggo%2F103&filename=ggo126f.exe" class="file-link"><b>Galaxy Games Online 1.03</b></a><br>
-		<div class="file-info">A free role-playing game, text-based, online game playing tool. (<a href="http://ggo.jevon.org" class="file-more">More Info</a>)</div></td>
-	<td class="file-author">By <a href="http://www.jevon.org" class="file-link">Jevon Wright</a></td>
-	<td class="file-desc">Freeware<br>1,140 KB</td>
-	<td class="file-stat">169 downloads</td>
-	<td class="file-dl"><a href="/old/download.php?id=ggo%2F103&filename=ggo126f.exe" class="file-link" title="Download Galaxy Games Online 1.03">Download</a></td>
-</tr>
-<tr class="file-tr0" valign="middle">
-	<td class="file-title"><a href="/old/download.php?id=ggo%2F103upg&filename=ggo126.exe" class="file-link"><b>Galaxy Games Online 1.03 Upgrade</b></a><br>
-		<div class="file-info">Use this if you are upgrading from GGO 1.02 to 1.03. (<a href="http://ggo.jevon.org/" class="file-more">More Info</a>)</div></td>
-	<td class="file-author">By <a href="http://www.jevon.org" class="file-link">Jevon Wright</a></td>
-	<td class="file-desc">Freeware<br>442 KB</td>
-	<td class="file-stat">89 downloads</td>
-	<td class="file-dl"><a href="/old/download.php?id=ggo%2F103upg&filename=ggo126.exe" class="file-link" title="Download Galaxy Games Online 1.03 Upgrade">Download</a></td>
 </tr>
 </table></td>
 </tr>
@@ -152,36 +128,36 @@ tags:
 <td class="file-headtd">AVS Visualisations</td>
 </tr><tr class="file-head2">
 <td class="file-table2"><table border=0 cellspacing=0 cellpadding=2 width="100%" class="file-table3"><tr class="file-tr0" valign="middle">
-	<td class="file-title"><a href="/old/download.php?id=avs%2Fparticle2&filename=jevon+integrated+particle+mk+2.avs" class="file-link"><b>Integrated Particle Mk 2</b></a><br>
+	<td class="file-title"><a href="/files/aws/jevon integrated particle mk 2.avs" class="file-link"><b>Integrated Particle Mk 2</b></a><br>
 		<div class="file-info">A Winamp Advanced Visualisation Studio (AVS) Plugin... (<a href="page.php?id=avs" class="file-more">More Info</a>)</div></td>
 	<td class="file-author">By <a href="http://www.jevon.org" class="file-link">Jevon Wright</a></td>
 	<td class="file-desc">Freeware<br>1 KB</td>
 	<td class="file-stat">494 downloads</td>
-	<td class="file-dl"><a href="/old/download.php?id=avs%2Fparticle2&filename=jevon+integrated+particle+mk+2.avs" class="file-link" title="Download Integrated Particle Mk 2">Download</a></td>
+	<td class="file-dl"><a href="/files/aws/jevon integrated particle mk 2.avs" class="file-link" title="Download Integrated Particle Mk 2">Download</a></td>
 </tr>
 <tr class="file-tr1" valign="middle">
-	<td class="file-title"><a href="/old/download.php?id=avs%2Focean&filename=jevon+light+speed+through+the+ocean+ii.avs" class="file-link"><b>Light Speed Through The Ocean</b></a><br>
+	<td class="file-title"><a href="/files/aws/jevon light speed through the ocean ii.avs" class="file-link"><b>Light Speed Through The Ocean</b></a><br>
 		<div class="file-info">A Winamp Advanced Visualisation Studio (AVS) Plugin... (<a href="page.php?id=avs" class="file-more">More Info</a>)</div></td>
 	<td class="file-author">By <a href="http://www.jevon.org" class="file-link">Jevon Wright</a></td>
 	<td class="file-desc">Freeware<br>1 KB</td>
 	<td class="file-stat">379 downloads</td>
-	<td class="file-dl"><a href="/old/download.php?id=avs%2Focean&filename=jevon+light+speed+through+the+ocean+ii.avs" class="file-link" title="Download Light Speed Through The Ocean">Download</a></td>
+	<td class="file-dl"><a href="/files/aws/jevon light speed through the ocean ii.avs" class="file-link" title="Download Light Speed Through The Ocean">Download</a></td>
 </tr>
 <tr class="file-tr0" valign="middle">
-	<td class="file-title"><a href="/old/download.php?id=avs%2Fnucleon&filename=jevon+nucleon+mk2.avs" class="file-link"><b>Nucleon Mk 2</b></a><br>
+	<td class="file-title"><a href="/files/aws/jevon nucleon mk2.avs" class="file-link"><b>Nucleon Mk 2</b></a><br>
 		<div class="file-info">A Winamp Advanced Visualisation Studio (AVS) Plugin... (<a href="page.php?id=avs" class="file-more">More Info</a>)</div></td>
 	<td class="file-author">By <a href="http://www.jevon.org" class="file-link">Jevon Wright</a></td>
 	<td class="file-desc">Freeware<br>1 KB</td>
 	<td class="file-stat">350 downloads</td>
-	<td class="file-dl"><a href="/old/download.php?id=avs%2Fnucleon&filename=jevon+nucleon+mk2.avs" class="file-link" title="Download Nucleon Mk 2">Download</a></td>
+	<td class="file-dl"><a href="/files/aws/jevon nucleon mk2.avs" class="file-link" title="Download Nucleon Mk 2">Download</a></td>
 </tr>
 <tr class="file-tr1" valign="middle">
-	<td class="file-title"><a href="/old/download.php?id=avs%2Fanomaly&filename=jevon+space+anomaly.avs" class="file-link"><b>Space Anomaly</b></a><br>
+	<td class="file-title"><a href="/files/aws/jevon space anomaly.avs" class="file-link"><b>Space Anomaly</b></a><br>
 		<div class="file-info">A Winamp Advanced Visualisation Studio (AVS) Plugin... (<a href="page.php?id=avs" class="file-more">More Info</a>)</div></td>
 	<td class="file-author">By <a href="http://www.jevon.org" class="file-link">Jevon Wright</a></td>
 	<td class="file-desc">Freeware<br>1 KB</td>
 	<td class="file-stat">349 downloads</td>
-	<td class="file-dl"><a href="/old/download.php?id=avs%2Fanomaly&filename=jevon+space+anomaly.avs" class="file-link" title="Download Space Anomaly">Download</a></td>
+	<td class="file-dl"><a href="/files/aws/jevon space anomaly.avs" class="file-link" title="Download Space Anomaly">Download</a></td>
 </tr>
 </table></td>
 </tr>
@@ -189,28 +165,28 @@ tags:
 <td class="file-headtd">Music</td>
 </tr><tr class="file-head2">
 <td class="file-table2"><table border=0 cellspacing=0 cellpadding=2 width="100%" class="file-table3"><tr class="file-tr0" valign="middle">
-	<td class="file-title"><a href="/old/download.php?id=music%2Fffv&filename=ff5music.zip" class="file-link"><b>Final Fantasy V Music</b></a><br>
+	<td class="file-title"><a href="/files/music/ff5music.zip" class="file-link"><b>Final Fantasy V Music</b></a><br>
 		<div class="file-info">The soundtrack of Final Fantasy V, provided in MIDI format. </div></td>
 	<td class="file-author">By Unknown</td>
 	<td class="file-desc">Freeware<br>136 KB</td>
 	<td class="file-stat">277 downloads</td>
-	<td class="file-dl"><a href="/old/download.php?id=music%2Fffv&filename=ff5music.zip" class="file-link" title="Download Final Fantasy V Music">Download</a></td>
+	<td class="file-dl"><a href="/files/music/ff5music.zip" class="file-link" title="Download Final Fantasy V Music">Download</a></td>
 </tr>
 <tr class="file-tr1" valign="middle">
-	<td class="file-title"><a href="/old/download.php?id=music%2Fkam&filename=kammusic.zip" class="file-link"><b>Knights and Merchants Music</b></a><br>
+	<td class="file-title"><a href="/files/music/kammusic.zip" class="file-link"><b>Knights and Merchants Music</b></a><br>
 		<div class="file-info">The music of Knights and Merchants (Demo), provided in MIDI format. </div></td>
 	<td class="file-author">By Unknown</td>
 	<td class="file-desc">Freeware<br>31 KB</td>
 	<td class="file-stat">521 downloads</td>
-	<td class="file-dl"><a href="/old/download.php?id=music%2Fkam&filename=kammusic.zip" class="file-link" title="Download Knights and Merchants Music">Download</a></td>
+	<td class="file-dl"><a href="/files/music/kammusic.zip" class="file-link" title="Download Knights and Merchants Music">Download</a></td>
 </tr>
 <tr class="file-tr0" valign="middle">
-	<td class="file-title"><a href="/old/download.php?id=music%2Ftycoon&filename=ttmusic.zip" class="file-link"><b>Transport Tycoon Music</b></a><br>
+	<td class="file-title"><a href="/files/music/ttmusic.zip" class="file-link"><b>Transport Tycoon Music</b></a><br>
 		<div class="file-info">The music of Transport Tycoon, provided in MIDI format. </div></td>
 	<td class="file-author">By Unknown</td>
 	<td class="file-desc">Freeware<br>345 KB</td>
 	<td class="file-stat">365 downloads</td>
-	<td class="file-dl"><a href="/old/download.php?id=music%2Ftycoon&filename=ttmusic.zip" class="file-link" title="Download Transport Tycoon Music">Download</a></td>
+	<td class="file-dl"><a href="/files/music/ttmusic.zip" class="file-link" title="Download Transport Tycoon Music">Download</a></td>
 </tr>
 </table></td>
 </tr>
@@ -241,14 +217,6 @@ tags:
 	<td class="file-stat">868 downloads</td>
 	<td class="file-dl"><a href="https://github.com/soundasleep/jevon.org/releases/download/old-files/dao350.zip" class="file-link" title="Download DAO350.DLL">Download</a></td>
 </tr>
-<tr class="file-tr1" valign="middle">
-	<td class="file-title"><a href="/old/download.php?id=mdac&filename=mdac_typ.exe" class="file-link"><b>Data Access Components 2.6</b></a><br>
-		<div class="file-info">Contains files required for accessing a variety of database and database types. (<a href="http://www.microsoft.com/data/download_25SP1.htm" class="file-more">More Info</a>)</div></td>
-	<td class="file-author">By <a href="http://www.microsoft.com" class="file-link">Microsoft</a></td>
-	<td class="file-desc">Freeware<br>7,578 KB</td>
-	<td class="file-stat">190 downloads</td>
-	<td class="file-dl"><a href="/old/download.php?id=mdac&filename=mdac_typ.exe" class="file-link" title="Download Data Access Components 2.6">Download</a></td>
-</tr>
 <tr class="file-tr0" valign="middle">
 	<td class="file-title"><a href="https://github.com/soundasleep/jevon.org/releases/download/old-files/msinet.zip" class="file-link"><b>Inet Control</b></a><br>
 		<div class="file-info">A required file for Visual Basic applications using the Inet Custom Control (OCX). </div></td>
@@ -265,14 +233,6 @@ tags:
 	<td class="file-stat">307 downloads</td>
 	<td class="file-dl"><a href="https://github.com/soundasleep/jevon.org/releases/download/old-files/richtx32.zip" class="file-link" title="Download Richtext Control">Download</a></td>
 </tr>
-<tr class="file-tr0" valign="middle">
-	<td class="file-title"><a href="/old/download.php?id=runtimes&filename=VBRun60sp5.exe" class="file-link"><b>Visual Basic 6 Runtimes</b></a><br>
-		<div class="file-info">Contains files required for all Visual Basic 6.0 applications. </div></td>
-	<td class="file-author">By <a href="http://www.microsoft.com" class="file-link">Microsoft</a></td>
-	<td class="file-desc">Freeware<br>1,020 KB</td>
-	<td class="file-stat">483 downloads</td>
-	<td class="file-dl"><a href="/old/download.php?id=runtimes&filename=VBRun60sp5.exe" class="file-link" title="Download Visual Basic 6 Runtimes">Download</a></td>
-</tr>
 <tr class="file-tr1" valign="middle">
 	<td class="file-title"><a href="https://github.com/soundasleep/jevon.org/releases/download/old-files/mswinsck.zip" class="file-link"><b>Winsock Control</b></a><br>
 		<div class="file-info">A required file for Visual Basic applications using the Winsock Custom Control (OCX). </div></td>
@@ -286,14 +246,7 @@ tags:
 <tr class="file-head">
 <td class="file-headtd">Winamp</td>
 </tr><tr class="file-head2">
-<td class="file-table2"><table border=0 cellspacing=0 cellpadding=2 width="100%" class="file-table3"><tr class="file-tr0" valign="middle">
-	<td class="file-title"><a href="/old/download.php?id=winamp%2Fcdreader&filename=GetFile.cgi%3FName%3Dwacdr195.exe" class="file-link"><b>CD Reader 1.95</b></a><br>
-		<div class="file-info">Lets Winamp read audio CDs digitally, so you can apply output plugins to the stream. (<a href="http://www.url.ru/~copah/CDReader.htm" class="file-more">More Info</a>)</div></td>
-	<td class="file-author">By <a href="http://www.url.ru/~copah/" class="file-link">Vladimir Kopjov</a></td>
-	<td class="file-desc">Freeware<br>84 KB</td>
-	<td class="file-stat">150 downloads</td>
-	<td class="file-dl"><a href="/old/download.php?id=winamp%2Fcdreader&filename=GetFile.cgi%3FName%3Dwacdr195.exe" class="file-link" title="Download CD Reader 1.95">Download</a></td>
-</tr>
+<td class="file-table2"><table border=0 cellspacing=0 cellpadding=2 width="100%" class="file-table3">
 <tr class="file-tr1" valign="middle">
 	<td class="file-title"><a href="https://github.com/soundasleep/jevon.org/releases/download/old-files/out_enc.exe" class="file-link"><b>MP3 Encoder 1.4</b></a><br>
 		<div class="file-info">An output plugin to write from Winamp to the MP3 format. </div></td>
@@ -324,36 +277,28 @@ tags:
 <td class="file-headtd">Miscellaneous</td>
 </tr><tr class="file-head2">
 <td class="file-table2"><table border=0 cellspacing=0 cellpadding=2 width="100%" class="file-table3"><tr class="file-tr0" valign="middle">
-	<td class="file-title"><a href="/old/download.php?id=2exp-1m&filename=2exp1mil.zip" class="file-link"><b>2^1,000,000</b></a><br>
+	<td class="file-title"><a href="/files/2exp1mil.zip" class="file-link"><b>2^1,000,000</b></a><br>
 		<div class="file-info">The result of 2 to the power of one million. (<a href="article.php?id=2exp" class="file-more">More Info</a>)</div></td>
 	<td class="file-author">By <a href="http://www.jevon.org" class="file-link">Jevon Wright</a></td>
 	<td class="file-desc">Freeware<br>140 KB</td>
 	<td class="file-stat">170 downloads</td>
-	<td class="file-dl"><a href="/old/download.php?id=2exp-1m&filename=2exp1mil.zip" class="file-link" title="Download 2^1,000,000">Download</a></td>
+	<td class="file-dl"><a href="/files/2exp1mil.zip" class="file-link" title="Download 2^1,000,000">Download</a></td>
 </tr>
 <tr class="file-tr1" valign="middle">
-	<td class="file-title"><a href="/old/download.php?id=2exp-1k&filename=2exp1k.zip" class="file-link"><b>2^1000</b></a><br>
+	<td class="file-title"><a href="/files/2exp1k.zip" class="file-link"><b>2^1000</b></a><br>
 		<div class="file-info">The result of 2 to the power of one thousand. (<a href="article.php?id=2exp" class="file-more">More Info</a>)</div></td>
 	<td class="file-author">By <a href="http://www.jevon.org" class="file-link">Jevon Wright</a></td>
 	<td class="file-desc">Freeware<br>0 KB</td>
 	<td class="file-stat">75 downloads</td>
-	<td class="file-dl"><a href="/old/download.php?id=2exp-1k&filename=2exp1k.zip" class="file-link" title="Download 2^1000">Download</a></td>
+	<td class="file-dl"><a href="/files/2exp1k.zip" class="file-link" title="Download 2^1000">Download</a></td>
 </tr>
 <tr class="file-tr0" valign="middle">
-	<td class="file-title"><a href="/old/download.php?id=2exp-200k&filename=2exp200k.zip" class="file-link"><b>2^200,000</b></a><br>
+	<td class="file-title"><a href="/files/2exp200k.zip" class="file-link"><b>2^200,000</b></a><br>
 		<div class="file-info">The result of 2 to the power of two hundred thousand. (<a href="article.php?id=2exp" class="file-more">More Info</a>)</div></td>
 	<td class="file-author">By <a href="http://www.jevon.org" class="file-link">Jevon Wright</a></td>
 	<td class="file-desc">Freeware<br>29 KB</td>
 	<td class="file-stat">61 downloads</td>
-	<td class="file-dl"><a href="/old/download.php?id=2exp-200k&filename=2exp200k.zip" class="file-link" title="Download 2^200,000">Download</a></td>
-</tr>
-<tr class="file-tr1" valign="middle">
-	<td class="file-title"><a href="/old/download.php?id=icq2000a&filename=icq2000a.exe" class="file-link"><b>ICQ 2000a</b></a><br>
-		<div class="file-info">An old version of ICQ, which is significantly more stable than the most recent releases! </div></td>
-	<td class="file-author">By <a href="http://www.icq.com/" class="file-link">ICQ, Inc.</a></td>
-	<td class="file-desc">Freeware<br>6,299 KB</td>
-	<td class="file-stat">217 downloads</td>
-	<td class="file-dl"><a href="/old/download.php?id=icq2000a&filename=icq2000a.exe" class="file-link" title="Download ICQ 2000a">Download</a></td>
+	<td class="file-dl"><a href="/files/2exp200k.zip" class="file-link" title="Download 2^200,000">Download</a></td>
 </tr>
 <tr class="file-tr0" valign="middle">
 	<td class="file-title"><a href="https://github.com/soundasleep/jevon.org/releases/download/old-files/uxthemepatcher.zip" class="file-link"><b>UxTheme Patcher</b></a><br>

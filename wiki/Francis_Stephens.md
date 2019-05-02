@@ -9,4 +9,4 @@ redirect_from:
   - "/wiki/Francis Stephens"
 ---
 
-<center><img src="http://www.sharlot.org/archives/rosegarden/images/FRANCIS%20VIRGINIA%20WINGFIELD%20STEPHENS.jpg" class="photo"></img></center>
+<center><img src="http://www.sharlot.org/archives/rosegarden/images/FRANCIS%20VIRGINIA%20WINGFIELD%20STEPHENS.jpg" class="photo"></center>

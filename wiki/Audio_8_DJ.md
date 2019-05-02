@@ -14,8 +14,6 @@ redirect_from:
 
 From https://www.native-instruments.com/forum/threads/cant-open-audio-8-dj-settings-to-take-off-software-lock.145258/#post-961092:
 
-[quote]
-i just figured out that you can hold in the "input mode" when you attach the USB to unlock the "software lock".
-
-just an old trick i've learned over the years working with different devices. Hope it will help anyone in the same situation..
-[/quote]
+> i just figured out that you can hold in the "input mode" when you attach the USB to unlock the "software lock".
+>
+> just an old trick i've learned over the years working with different devices. Hope it will help anyone in the same situation..

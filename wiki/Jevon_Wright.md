@@ -7,6 +7,7 @@ tags:
   - Protected
 redirect_from:
   - "/wiki/Jevon Wright"
+  - "/wiki/Jevon"
 ---
 
 Hey, that's me ^_^

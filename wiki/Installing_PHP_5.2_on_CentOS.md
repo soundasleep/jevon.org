@@ -15,14 +15,14 @@ I had a problem where <a href="http://code.google.com/p/iaml/wiki/InstallationPl
 
 <a href="http://www.freshblurbs.com/install-php-5-2-centos-5-2-using-yum#comment-403">As posted here</a>, one solution is to enable the CentOS testing server:
 
-[quote]To enable centos-dev, you need to create
+> To enable centos-dev, you need to create
 /etc/yum.repos.d/centos-test.repo and enter following lines in it:
-
-```
-[c5-testing]
-name=CentOS-5 Testing 
-baseurl=http://dev.centos.org/centos/5/testing/$basearch/
-enabled=1
-gpgcheck=1
-gpgkey=http://dev.centos.org/centos/RPM-GPG-KEY-CentOS-testing
-```[/quote]
+>
+> ```
+> [c5-testing]
+> name=CentOS-5 Testing
+> baseurl=http://dev.centos.org/centos/5/testing/$basearch/
+> enabled=1
+> gpgcheck=1
+> gpgkey=http://dev.centos.org/centos/RPM-GPG-KEY-CentOS-testing
+> ```

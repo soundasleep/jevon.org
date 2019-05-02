@@ -20,7 +20,9 @@ Then, in your _.gmfmap_, add a new _Label Mapping_ for this new Label, and set R
 
 Finally, all that is left is adding the runtime code to the editor to populate the Label. In the generated code, _diagram.edit.parts.XXXNameEditPart#XXXFigure.createContents()_ is the method which initialises the value of the labels. You can add your code in here manually (or through [Dynamic Templates](Dynamic_Templates.md)):
 
-<img src="/img/gmf/custom-label-1.png" class="gmf">```
+<img src="/img/gmf/custom-label-1.png" class="gmf">
+
+```
 // original code
 fParentNameFigure = new WrapLabel();
 fParentNameFigure.setText("[none]");

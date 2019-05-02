@@ -11,7 +11,62 @@ redirect_from:
   - "/wiki/Installing SSL on Tomcat 7"
 ---
 
---
+[Tomcat](tomcat.md)
+
+This covers installing self-signed certificates on Tomcat 7 using APR against OpenSSL. Entirely based on http://code.google.com/p/jianwikis/wiki/TomcatSSLWithAPR.
+
+In particular, define a file `ssl.cfg` defining the properties of your certificate:
+
+```
+[ req ]
+default_bits           = 2048
+default_keyfile        = key.pem
+distinguished_name     = req_distinguished_name
+attributes             = req_attributes
+req_extensions         = v3_req
+prompt                 = no
+
+[ req_distinguished_name ]
+C                      = NZ
+ST                     = Wellington
+L                      = Wellington
+O                      = Localhost
+OU                     = Security
+CN                     = example.com
+emailAddress           = jevon@example.com
+
+[ req_attributes ]
+challengePassword      = <password>
+
+[ v3_req ]
+#Extensions to add to a certificate request
+
+basicConstraints = CA:FALSE
+keyUsage = nonRepudiation, digitalSignature, keyEncipherment
+
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1                  = alias1.example.com
+DNS.2                  = alias2.example.com
+DNS.3                  = alias3.example.com
+```
+
+CN is particularly important as this will represent the host name check of the certificate. For example, if you are going to https://foo.com, CN should be foo.com.
+
+Once this configuration file is created, execute the following OpenSSL commands:
+
+### Generate the personal private key file (PEM) and certificate request (CSR)
+```
+>openssl req -new -out tomcat.csr -config ssl.cfg
+Loading 'screen' into random state - done
+Generating a 2048 bit RSA private key
+.........................................................+++
+.........................................+++
+writing new private key to 'key.pem'
+Enter PEM pass phrase:
+Verifying - Enter PEM pass phrase:
+-----
 ```
 
 ### Generate the server private key

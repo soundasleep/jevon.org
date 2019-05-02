@@ -39,27 +39,25 @@ Another option is to install Windows 7 <a href="http://social.technet.microsoft.
 
 But if you are post-SP1, there are significantly fewer options. The answer that worked for me <a href="http://answers.microsoft.com/en-us/windows/forum/windows_7-windows_install/windows-could-not-complete-the-installation-to/bf09c3c5-298b-459f-aed5-4f431b8398f5">was posted by MarkBeacom</a>:
 
-[quote]
-Hit SHIFT-F10 to bring up command prompt.
- 
-type MMC
-Click File -> Add/Remove Snap-in... (Or CTRL+M)
-Select Computer Management (Double click and Finish on Local Computer)
-Click OK
-Double click Computer Management (Local) -> System Tools -> Local Users and Groups -> Users -> Double Click Administrator -> Uncheck Account is disabled -> OK
-Now right click Administrator -> Set Password...  ->  Set a decent password to get started.
- 
-Now, restart.  Should be good to go.
- 
-If this doesn't work try next step:
-SHIFT-F10 to bring up command prompt.
-type:  CD C:/windows/system32/oobe
-type msoobe
-enter
-Make a generic account and password.  hit finish (if it requests a product key and you have one, enter it now.  if OEM/No key required, just finish).  Set time/date.  Finish.
-Restart.
-Should be good to go.
-[/quote]
+> Hit SHIFT-F10 to bring up command prompt.
+>
+> type MMC
+> Click File -> Add/Remove Snap-in... (Or CTRL+M)
+> Select Computer Management (Double click and Finish on Local Computer)
+> Click OK
+> Double click Computer Management (Local) -> System Tools -> Local Users and Groups -> Users -> Double Click Administrator -> Uncheck Account is disabled -> OK
+> Now right click Administrator -> Set Password...  ->  Set a decent password to get started.
+>
+> Now, restart.  Should be good to go.
+>
+> If this doesn't work try next step:
+> SHIFT-F10 to bring up command prompt.
+> type:  CD C:/windows/system32/oobe
+> type msoobe
+> enter
+> Make a generic account and password.  hit finish (if it requests a product key and you have one, enter it now.  if OEM/No key required, just finish).  Set time/date.  Finish.
+> Restart.
+> Should be good to go.
 
 My next idea after this was to check my BIOS settings and turn off any SSD performance options - my `setuperr.log` file was reporting only the following line (which I don't actually think was fatal):
 

@@ -4,6 +4,8 @@ title:  "Broken Fisher & Paykel Smartdrive 503"
 author: jevon
 date:   2007-07-27 10:01:04 +1200
 tags:   [DIY, Article]
+redirect_from:
+  - "/wiki/Broken Fisher & Paykel Smartdrive 503"
 ---
 
 [Articles](articles.md)
