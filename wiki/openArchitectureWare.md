@@ -6,6 +6,8 @@ date:   2011-05-02 14:40:17 +12:00
 tags:
   - Technology
   - OAW
+redirect_from:
+  - "/wiki/OAW"
 ---
 
 A [Java](Java.md)-based project to "simplify" the use of [EMF](EMF.md) in generating code in Eclipse from models using [MDA](mda.md).

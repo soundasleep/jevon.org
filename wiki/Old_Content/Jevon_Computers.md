@@ -2,14 +2,13 @@
 layout: page
 title:  Old Content/Jevon Computers
 author: jevon
-date:   2007-11-21 12:17:34 +13:00
+date:   2003-02-01 00:00:00 +0000
 tags:
   - Jevon
   - Computers
 ---
 
 {% include old-content-header.md %}
-{% include old-content-jevon.md %}
 
 Ever since I was seven years old, I've been playing around with computers. As I am now taking a degree in Software Engineering at Massey University, computers are now a permanent part of my life. At the moment I have two computers:
 

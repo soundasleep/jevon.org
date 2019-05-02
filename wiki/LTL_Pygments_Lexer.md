@@ -8,6 +8,8 @@ tags:
   - Todo
 redirect_from:
   - "/wiki/LTL Pygments Lexer"
+  - "/wiki/NuSMV Pygments Lexer"
+  - "/wiki/NuSMV_Pygments_Lexer"
 ---
 
 [Python](Python.md) / [Latex](Latex.md)

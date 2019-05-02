@@ -2,7 +2,7 @@
 layout: page
 title:  Old Content/Quotes
 author: jevon
-date:   2007-11-08 11:36:45 +13:00
+date:   2003-02-01 00:00:00 +0000
 tags:
   - Old
   - Todo

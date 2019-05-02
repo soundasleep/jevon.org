@@ -2,16 +2,14 @@
 layout: page
 title:  Old Content/Ponk List
 author: jevon
-date:   2008-07-02 13:06:26 +12:00
+date:   2003-11-05 00:00:00 +0000
 tags: []
 ---
 
 {% include old-content-header.md date="5 November 2003" %}
 
-<table border=0 cellspacing=2 cellpadding=2>
-<tr valign=top><td>
-<font size="+2"><b>Cherry</b></font>
-</td><td>
+<font size="+2"><b>Cherry</b></font><br>
+
 <font color="orange" face="Wingdings" size="+1">«««««««««««««««««««««««««««««««««««««««
 «««««««««««««««««««««««««««««««««««««««
 «««««««««««««««««««««««««««««««««««««««
@@ -19,4 +17,3 @@ tags: []
 «««««««««««««««««««««««««««««««««««««««
 «««««««««««««««««««««««««««««««««««««««
 ««««««««««««««««««««««««««««««««</font>
-</td></tr></table>

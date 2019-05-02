@@ -18,8 +18,8 @@ tags:
 1. [SVG in Latex](SVG_in_Latex.md)
 1. <a href="http://www.msu.edu/~harris41/latex_tablespacing.html">Vertical Spacing in Latex Tables</a>
 1. [Horizonal Spacing in Latex Tables](Horizonal_Spacing_in_Latex_Tables.md)
-1. <a href="http://www.univie.ac.at/nuhag-php/bibtex/bibstyles.pdf">A reference of different types of bibliography styles in Latex</a> {% include pdf-icon.md %}
-1. <a href="http://www.imsc.res.in/Computer/symbols-letter.pdf">Comprehensive Latex Symbol List</a> {% include pdf-icon.md %}
+1. <a href="http://www.univie.ac.at/nuhag-php/bibtex/bibstyles.pdf">A reference of different types of bibliography styles in Latex</a>
+1. <a href="http://www.imsc.res.in/Computer/symbols-letter.pdf">Comprehensive Latex Symbol List</a>
 1. [My Latex Setup](My_Latex_Setup.md)
 1. [Changing the Default Font for the Report documentclass in Latex](Changing_the_Default_Font_for_the_Report_documentclass_in_Latex.md)
 1. [Removing the Coloured Boxes around Hyperref links in Latex](Removing_the_Coloured_Boxes_around_Hyperref_links_in_Latex.md)
@@ -36,7 +36,7 @@ tags:
 1. [Capital Letter Headings for Index in LaTeX with makeindex](Capital_Letter_Headings_for_Index_in_LaTeX_with_makeindex.md)
 1. [addcontentsline Doesn't Work in LaTeX](addcontentsline_Doesn't_Work_in_LaTeX.md)
 1. [Incompatible List can't be Unboxed in LaTeX](Incompatible_List_can't_be_Unboxed_in_LaTeX.md)
-1. <a href="http://elena.aut.ac.nz/ctan/macros/latex/contrib/tocloft/tocloft.pdf">Controlling the Whitespace and Layout of LaTeX Table of Contents</a> {% include pdf-icon.md %}
+1. <a href="http://elena.aut.ac.nz/ctan/macros/latex/contrib/tocloft/tocloft.pdf">Controlling the Whitespace and Layout of LaTeX Table of Contents</a>
 1. {% include delicious.md %} <a href="http://delicious.com/jevonwright/latex">More Latex bookmarks on delicious</a>
 
 My extensions to [Pygments](pygments.md) to support code formatting and highlighting for various lanuages in [Latex](Latex.md):

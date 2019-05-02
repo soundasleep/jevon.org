@@ -2,7 +2,7 @@
 layout: page
 title:  Old Content/Text to Binary
 author: jevon
-date:   2007-11-21 12:31:01 +13:00
+date:   2002-10-22 00:00:00 +0000
 tags:
   - Article
 ---

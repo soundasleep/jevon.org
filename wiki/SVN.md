@@ -5,6 +5,8 @@ author: jevon
 date:   2014-01-30 19:36:00 +13:00
 tags:
   - Technology
+redirect_from:
+  - "/wiki/Subversion"
 ---
 
 [SVN](SVN.md) is the acronym for [Subversion](Subversion.md). Also see [Git](Git.md).

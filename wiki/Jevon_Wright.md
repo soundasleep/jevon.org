@@ -20,25 +20,24 @@ Hey, that's me ^_^
 * **Occupation:** [Researcher](Research.md), [Software Engineer](Web_Development.md)
 * **Location:** [Wellington](wellington.md), New Zealand at <a href="http://maps.google.com/maps?f=q&hl=en&geocode=&q=Wellington&sll=-41.293382,174.775679&sspn=0.088691,0.160675&ie=UTF8&t=k&z=13&iwloc=addr">174.78, -41.29</a>
 * **Journal:** <span>{%- include journals-user.html username="jevon" -%}</span>
-* *Last.fm:* <a href="http://www.last.fm/user/jdub_dub" title="My last.fm profile" class="lastfm">jdub_dub</a>
-* *Twitter:* <a href="http://twitter.com/soundasleep" title="My Twitter account" class="twitter">@soundasleep</a>
-* *LinkedIn:* <a href="http://www.linkedin.com/in/jevonwright" title="My LinkedIn profile" class="linkedin">LinkedIn</a>
-* *Delicious:* <a href="http://www.delicious.com/jevonwright/" title="My Delicious bookmarks" class="delicious">jevonwright</a>
-* *GitHub:* <a href="https://github.com/soundasleep" title="My GitHub profile" class="github">soundasleep</a>
-* *Ohloh:* <a href="https://www.ohloh.net/accounts/jevon" title="My Ohloh profile" class="ohloh">jevon</a>
-* [GPG](gpg.md): [Public Key](Public_Key.md)
+* **Last.fm:** <a href="http://www.last.fm/user/jdub_dub" title="My last.fm profile" class="lastfm">jdub_dub</a>
+* **Twitter:** <a href="http://twitter.com/soundasleep" title="My Twitter account" class="twitter">@soundasleep</a>
+* **LinkedIn:** <a href="http://www.linkedin.com/in/jevonwright" title="My LinkedIn profile" class="linkedin">LinkedIn</a>
+* **Delicious:** <a href="http://www.delicious.com/jevonwright/" title="My Delicious bookmarks" class="delicious">jevonwright</a>
+* **GitHub:** <a href="https://github.com/soundasleep" title="My GitHub profile" class="github">soundasleep</a>
+* **Ohloh:** <a href="https://www.ohloh.net/accounts/jevon" title="My Ohloh profile" class="ohloh">jevon</a>
+* **[GPG](gpg.md):** [Public Key](Public_Key.md)
 
 ## Favourites
 
-* **Bands:** Ordered by {% include lastfm.md %} <a href="http://www.last.fm/user/jdub_dub">my last.fm profile</a> (top 50): [Music:Nine Inch Nails](music-nine-inch-nails.md), [Music:Foo Fighters](music-foo-fighters.md), [Music:Matt Uelmen](music-matt-uelmen.md), [Music:Red Hot Chili Peppers](music-red-hot-chili-peppers.md), [Music:Deftones](music-deftones.md), [Music:Jerry Martin](music-jerry-martin.md), [Music:Queens of the Stone Age](music-queens-of-the-stone-age.md), [Music:System of a Down](music-system-of-a-down.md), [Music:Tool](music-tool.md), [Music:Radiohead](music-radiohead.md), [Music:Shihad](music-shihad.md), [Music:Opeth](music-opeth.md), [Music:David Rippy & Stephen Rippy](music-david-rippy-stephen-rippy.md), [Music:Pink Floyd](music-pink-floyd.md), [Music:NOFX](music-nofx.md), [Music:Marilyn Manson](music-marilyn-manson.md), [Music:Alexander Brandon](music-alexander-brandon.md), [Music:Muse](music-muse.md), [Music:Jamiroquai](music-jamiroquai.md), [Music:No Doubt](music-no-doubt.md), [Music:Rage Against the Machine](music-rage-against-the-machine.md), [Music:SimCity 4](music-Simcity_4.md), [Music:Minuit](music-minuit.md), [Music:Converge](music-converge.md), [Music:Meshuggah](music-meshuggah.md), [Music:Nirvana](music-nirvana.md), [Music:Korn](music-korn.md), [Music:The Dresden Dolls](music-the-dresden-dolls.md), [Music:Jakob](music-jakob.md), [Music:Linkin Park](music-linkin-park.md), [Music:Placebo](music-placebo.md), [Music:Coldplay](music-coldplay.md), [Music:Nightwish](music-nightwish.md), [Music:Garbage](music-garbage.md), [Music:Them Crooked Vultures](music-them-crooked-vultures.md), [Music:Evanescence](music-evanescence.md), [Music:The Dillinger Escape Plan](music-the-dillinger-escape-plan.md), [Music:Delerium](music-delerium.md), [Music:Air](music-air.md), [Music:Metallica](music-metallica.md), [Music:Sneaker Pimps](music-sneaker-pimps.md), [Music:Blur](music-blur.md), [Music:Mastodon](music-mastodon.md), [Music:Groove Armada](music-groove-armada.md), [Music:The Smashing Pumpkins](music-the-smashing-pumpkins.md), [Music:Eminem](music-eminem.md), [Music:Starcraft](music-starcraft.md), [Music:Sonic Mayhem](music-sonic-mayhem.md), [Music:A Perfect Circle](music-a-perfect-circle.md), [Music:After Forever](music-after-forever.md)
+* **Bands:** See <a href="http://www.last.fm/user/jdub_dub">my last.fm profile</a>
 * **Albums:** Too many to name.
-* **Music:** [Music:Funk](music-funk.md), [Music:Metal](music-metal.md), [Music:Industrial](music-industrial.md), [Music:Rock](music-rock.md), [Music:Ambient](music-ambient.md), [Music:Game Music](music-game-MusiC.md), [Music:Pop](music-pop.md), [Music:Rap](music-rap.md). See also my [Personal Music Page](music-Jevon.md).
 * **Movies:** Princess Mononoke, The Matrix, Prozac Nation, But I'm a Cheerleader
 * **Games:** [Deus Ex](deus-ex.md), [Diablo 2](diablo-2.md), [Starcraft 2](starcraft-2.md), [Terraria](terraria.md)
 
 ## Technology Experience
 
-* **General-purpose languages:** [Java](Java.md), [Ruby](Ruby.md), [Javascript](Javascript.md), [Coffeescript](coffeescript.md), [Lua](lua.md), [C](C.md), [C++](c-.md), [Visual Basic 6](visual-basic-6.md)
+* **General-purpose languages:** [Java](Java.md), [Ruby](Ruby.md), [Javascript](Javascript.md), [Coffeescript](coffeescript.md), [Lua](lua.md), [C](C.md), [C++](c-.md), [Visual Basic 6](Visual_Basic.md)
 * **Web languages:** [PHP](PHP.md), [ASP](asp.md), [JSP](jsp.md), [VBScript](vbscript.md), [CSS](CSS.md), [HTML](html.md), [XML](XML.md), [RSS](rss.md), [Smarty](Smarty.md), [HAML](haml.md)
 * **Server web frameworks:** [Ruby on Rails](Ruby_on_Rails.md) ([Ruby](Ruby.md)), [Drupal](Drupal.md) (PHP), [Alfresco](Alfresco.md) (Java), [Symfony](Symfony.md) (PHP), [JET](JET.md)
 * **Client web frameworks:** [EmberJS](EmberJS.md), [Handlebars](handlebars.md), [JQuery](JQuery.md), [bootstrap](bootstrap.md), [AJAX](AJAX.md), [REST](rest.md) etc.

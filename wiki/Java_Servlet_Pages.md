@@ -10,11 +10,13 @@ redirect_from:
 ---
 
 ## JSP Page Directive Reference
+
+```
 <%@ page
   [ language="java" ]
   [ extends="package.class" ]
   [ import="{package.class | package.*}, ..." ]
-  [ session="true|false" ] 
+  [ session="true|false" ]
   [ buffer="none|8kb|sizekb" ]
   [ autoFlush="true|false" ]
   [ isThreadSafe="true|false" ]
@@ -25,4 +27,6 @@ redirect_from:
   [ isErrorPage="true|false" ]
   [ pageEncoding="characterSet | ISO-8859-1" ]
 %>
+```
+
 From: http://java.sun.com/products/jsp/syntax/1.2/syntaxref1210.html

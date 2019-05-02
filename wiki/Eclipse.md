@@ -6,6 +6,9 @@ date:   2013-02-11 18:34:12 +13:00
 tags:
   - Article
   - Technology
+redirect_from:
+  - "/wiki/Launching failed. Bootstrap code cannot be found."
+  - "/wiki/Launching_failed._Bootstrap_code_cannot_be_found."
 ---
 
 [Articles](Articles.md)
@@ -24,7 +27,6 @@ Also see:
 1. [Writing a String to a File in Java](Writing_a_String_to_a_File_in_Java.md) (really for Eclipse)
 1. <a href="http://www.eclipse.org/articles/Article-Progress-Monitors/article.html">Correctly using IProgressMonitors in Eclipse</a>, and <a href="http://book.javanb.com/eclipse-rich-client-platform-designing-coding-and-packaging-java-applications-oct-2005/ch17lev1sec8.html">Reporting Progress in Eclipse (modal, non-modal, jobs)</a>
 1. [NoClassDefFoundError when running JUnit Plug-in Tests with JARs](NoClassDefFoundError_when_running_JUnit_Plug-in_Tests_with_JARs.md)
-1. [Launching failed. Bootstrap code cannot be found.](Launching_failed._Bootstrap_code_cannot_be_found..md)
 1. [java.lang.LinkageError in a JUnit Plug-in Test Case with a redeployed Eclipse application](java.lang.LinkageError_in_a_JUnit_Plug-in_Test_Case_with_a_redeployed_Eclipse_application.md)
 1. <a href="http://www.mularien.com/blog/2007/12/05/quick-tip-convert-an-eclipse-general-project-to-a-java-project/">Converting an Eclipse General Project to a Java Project</a>
 1. [Out of Memory Errors in Eclipse](Out_of_Memory_Errors_in_Eclipse.md)
@@ -99,3 +101,8 @@ Assuming that you have all the correct .project settings (e.g. the PDE PluginNat
 1. Open all projects in your workspace.
 1. Go into the build menu and clean out all projects: _Project > Clean..._
 1. Rebuild all projects, this problem may be resolved.
+
+## Launching failed. Bootstrap code cannot be found.
+
+This occurs in an Eclipse environment when you haven't loaded up the correct Eclipse plugins. I'm not sure what they are, but simply selecting "org.eclipse.*" plugins works.
+

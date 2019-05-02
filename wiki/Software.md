@@ -31,9 +31,9 @@ As [I'm](Jevon_Wright.md) a software developer, I use the Internet to distribute
 1. [Text Deformer](Text_Deformer.md)
 1. [Galaxy Games Online](Galaxy_Games_Online.md)
 1. <a href="http://simplectest.sf.net">Simple C++ Testing Framework (simplectest)</a>
-1. [Software/Notes 2003](software/notes-2003.md) 
+1. [Software/Notes 2003](software/notes-2003.md)
 1. [Journals](Journals.md)
-1. [Music Wiki](link-music.md)
+1. [Music Wiki](http://music.jevon.org/)
 
 ## Minor Releases
 1. [Software/Font Selector](Software/Font_Selector.md)

@@ -15,16 +15,15 @@ redirect_from:
 
 Here is some miscellaneous old content from older iterations of my website. They used to be available through http://www.jevon.org/old/
 
-1. [Old Content/Jevon](Old_Content/Jevon.md)
-1. [Old Content/Jevon Photos](Old_Content/Jevon_Photos.md)
-1. [Old Content/Jevon Computers](Old_Content/Jevon_Computers.md)
-1. [Old Content/Quotes](Old_Content/Quotes.md)
-1. [Old Content/Downloads](Old_Content/Downloads.md)
+1. [Old Content/Jevon](/wiki/Old_Content/Jevon)
+1. [Old Content/Jevon Computers](/wiki/Old_Content/Jevon_Computers)
+1. [Old Content/Quotes](/wiki/Old_Content/Quotes)
+1. [Old Content/Downloads](/wiki/Old_Content/Downloads)
 
 ## Articles
 
-1. [Old Content/Text to Binary](Old_Content/Text_to_Binary.md)
-1. [Old Content/Ponk List](Old_Content/Ponk_List.md)
-1. [Old Content/The Psychic Smiley](Old_Content/The_Psychic_Smiley.md)
-1. [Old Content/2^1000](Old_Content/2^1000.md)
-1. [Old Content/Blix Passwords](Old_Content/Blix_Passwords.md)
+1. [Old Content/Text to Binary](/wiki/Old_Content/Text_to_Binary)
+1. [Old Content/Ponk List](/wiki/Old_Content/Ponk_List)
+1. [Old Content/The Psychic Smiley](/wiki/Old_Content/The_Psychic_Smiley)
+1. [Old Content/2^1000](/wiki/Old_Content/2^1000)
+1. [Old Content/Blix Passwords](/wiki/Old_Content/Blix_Passwords)
