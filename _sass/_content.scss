@@ -32,5 +32,10 @@ main.page-content {
       margin-top: $spacing-unit * 1;
       padding-top: $spacing-unit * 0.2;
     }
+
+    nav.inline {
+      margin: 0 auto;
+      text-align: center;
+    }
   }
 }

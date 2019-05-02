@@ -10,7 +10,7 @@ Source code for https://jevon.org in [Jekyll](https://jekyllrb.com/).
 
 ```
 bundle install
-bundle exec jekyll serve --livereload
+bundle exec jekyll serve --livereload --incremental
 ```
 
 And then visit http://localhost:4000.

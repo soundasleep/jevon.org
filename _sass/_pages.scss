@@ -1,1 +1,8 @@
 @import "pages/home";
+
+.page-recent-changes .post-content nav a[href*="/recent-changes" i],
+.page-pages .post-content nav a[href*="/pages" i] {
+  font-weight: $font-weight-bold;
+  color: $text-color;
+  text-decoration: none;
+}
