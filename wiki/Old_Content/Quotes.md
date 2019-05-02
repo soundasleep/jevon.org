@@ -7,6 +7,8 @@ tags:
   - Old
   - Todo
   - Fun Stuff
+redirect_from:
+  - "/wiki/Old Content/Quotes"
 ---
 
 {% include old-content-header.md %}

@@ -5,6 +5,10 @@ author: jevon
 date:   2002-10-22 00:00:00 +0000
 tags:
   - Article
+redirect_from:
+  - "/wiki/Old Content/Text to Binary"
+  - "/wiki/Old_Content/Text to Binary"
+  - "/wiki/Old Content/Text_to_Binary"
 ---
 
 {% include old-content-header.md date="22 October 2002" %}

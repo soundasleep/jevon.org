@@ -7,6 +7,10 @@ tags:
   - Articles
   - Fun Stuff
   - Games
+redirect_from:
+  - "/wiki/Old Content/Blix Passwords"
+  - "/wiki/Old_Content/Blix Passwords"
+  - "/wiki/Old Content/Blix_Passwords"
 ---
 
 {% include old-content-header.md date="23 August 2002" %}

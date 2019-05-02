@@ -8,7 +8,7 @@ tags:
   - Gender
 redirect_from:
   - "/wiki/Genderqueer/What is"
-  - "/wiki/Genderqueer/What is"
+  - "/wiki/Genderqueer/What_is"
   - "/wiki/What is Genderqueer"
 ---
 

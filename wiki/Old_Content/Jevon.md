@@ -6,6 +6,8 @@ date:   2004-04-01 00:00:00 +0000
 tags:
   - Old
   - Jevon
+redirect_from:
+  - "/wiki/Old Content/Jevon"
 ---
 
 {% include old-content-header.md date="April 2004" %}

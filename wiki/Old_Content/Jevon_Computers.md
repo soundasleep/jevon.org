@@ -6,6 +6,10 @@ date:   2003-02-01 00:00:00 +0000
 tags:
   - Jevon
   - Computers
+redirect_from:
+  - "/wiki/Old Content/Jevon Computers"
+  - "/wiki/Old_Content/Jevon Computers"
+  - "/wiki/Old Content/Jevon_Computers"
 ---
 
 {% include old-content-header.md %}
