@@ -11,6 +11,25 @@ footer.site-footer {
     @include dotted-links($base-font-size * 0.85, $link-color: mix($brand-color, $background), $hover-color: transparentize($background, 0.2));
   }
 
+  // override minima defaults
+  .footer-col-1 {
+    width: -webkit-calc(70% - (#{$spacing-unit} / 2));
+    width:         calc(70% - (#{$spacing-unit} / 2));
+  }
+
+  .footer-col-2 {
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
+  }
+
+  @include media-query($on-palm) {
+    .footer-col {
+      float: none;
+      width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+      width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+  }
+
   h2.footer-heading {
     line-height: $base-font-size * 1.5; // keep all elements in the heading the same size
 
