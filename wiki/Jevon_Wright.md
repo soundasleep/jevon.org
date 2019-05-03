@@ -3,8 +3,7 @@ layout: page
 title:  Jevon Wright
 author: jevon
 date:   2015-11-15 09:56:47 +13:00
-tags:
-  - Protected
+tags: []
 redirect_from:
   - "/wiki/Jevon Wright"
   - "/wiki/Jevon"

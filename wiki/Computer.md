@@ -70,5 +70,3 @@ The last time I updated this page, my computer was of the following components:
 * 80 GB ATA hard drive
 * External 60 GB ATA hard drive
 * Soundblaster X-Fi XtremeGamer
-
-{% include stub.md %}

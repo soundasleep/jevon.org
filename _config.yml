@@ -35,6 +35,9 @@ google_analytics: UA-139555039-1
 # Build settings
 markdown: kramdown
 theme: minima # minima is the smallest supported theme for Github Pages
+minima:
+  date_format: "%-d %B %Y"
+
 plugins:
   - jekyll-feed
   - jekyll-relative-links
