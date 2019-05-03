@@ -10,7 +10,7 @@ redirect_from:
   - "/wiki/Converting Bases"
 ---
 
-[Articles](articles.md)
+[Articles](Articles.md)
 
 Here's an assortment of code to convert between different base systems. I have provided code in both [Visual Basic](Visual_Basic.md) and [PHP](PHP.md). The original articles were quite old (written in 2002!) so this code may be quite outdated, but it still works.
 

@@ -19,7 +19,7 @@ redirect_from:
 1. [Using Capybara with Minitest for Integration Tests in Rails 4](Using_Capybara_with_Minitest_for_Integration_Tests_in_Rails_4.md)
 1. <a href="http://stackoverflow.com/a/1829515/39531">Loading `seeds.rb` data into test database through `rake test`</a>
 1. <a href="http://stackoverflow.com/questions/11354656/error-error-error-installing-capybara-webkit">Installing capybara-webkit on Ubuntu</a>
-1. [Enabling Jenkins support with Ruby on Rails tests](Enabling_Jenkins_support_with_Ruby_on_Rails_Tests.md)
+1. [Enabling Jenkins support with Ruby on Rails tests](Enabling_Jenkins_support_with_Ruby_on_Rails_tests.md)
 1. <a href="https://github.com/ci-reporter/ci_reporter_minitest">Testing reports with Rails 4 and Minitest</a> (just follow the instructions as is)
 
 ## How I learnt Ruby on Rails

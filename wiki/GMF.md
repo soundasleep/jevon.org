@@ -51,7 +51,7 @@ Advanced references:
 The easiest way to do this is to go to the software update manager thing, and download the GMF SDK -- similar to the method used to install EMF/GMF in the first place.
 
 ## Cannot insert new nodes into an EMF editor
-If you cannot right click and add children to a wizard-generated model in your EMF-generated plugin workspace, ensure that the properties "children", "create child" and "notify" in the .genmodel are set to true. (This may be because "Containment" isn't set to true in the underlying .ecore model: See [GMF Troubleshooting](gmf-troubleshooting.md).)
+If you cannot right click and add children to a wizard-generated model in your EMF-generated plugin workspace, ensure that the properties "children", "create child" and "notify" in the .genmodel are set to true. (This may be because "Containment" isn't set to true in the underlying .ecore model: See [GMF Troubleshooting](GMF_Troubleshooting.md).)
 
 ## DanglingHREFException
 If when creating a new model, trying to add a child to a node, you get a DanglingHREFException, make sure that in the .ecore model, the particular EReference has the "containment" property set to true. (<a href="http://dev.eclipse.org/newslists/news.eclipse.tools.emf/msg18498.html">ref</a>)

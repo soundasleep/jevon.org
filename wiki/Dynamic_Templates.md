@@ -11,5 +11,5 @@ redirect_from:
 
 Did you mean:
 
-1. [Dynamic Templates in EMF](dynamic-templates-in-EMF.md)
-1. [Enabling Dynamic Templates in GMF](enabling-dynamic-templates-in-GMF.md)
+1. [Dynamic Templates in EMF](Dynamic_Templates_in_EMF.md)
+1. [Enabling Dynamic Templates in GMF](Enabling_Dynamic_Templates_in_GMF.md)

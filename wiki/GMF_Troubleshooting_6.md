@@ -11,7 +11,7 @@ redirect_from:
   - "/wiki/GMF Troubleshooting 6"
 ---
 
-[GMF](gmf.md)
+[GMF](GMF.md)
 
 {% include gmf-troubleshooting.md %}
 

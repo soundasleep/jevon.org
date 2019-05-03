@@ -8,7 +8,7 @@ redirect_from:
   - "/wiki/Broken Fisher & Paykel Smartdrive 503"
 ---
 
-[Articles](articles.md)
+[Articles](Articles.md)
 
 Our F&P Smartdrive 503 washing machine wasn't working - it powered up OK, you could use the buttons, but it would not fill up with water.
 

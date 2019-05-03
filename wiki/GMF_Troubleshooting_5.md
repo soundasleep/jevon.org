@@ -10,7 +10,7 @@ redirect_from:
   - "/wiki/GMF Troubleshooting 5"
 ---
 
-[GMF](gmf.md)
+[GMF](GMF.md)
 
 {% include gmf-troubleshooting.md %}
 
@@ -29,7 +29,7 @@ In your .gmfgraph, you have a _Child Access_ that has an empty _Figure_.
 This can be caused when your _Label Feature Mapping_ in .gmfmap is set to render a different attribute to the one that is available. For example, an InputForm trying to render the name attribute of a DomainObject rather than the InputForm itself. Check your .gmfmap's _Label Feature Mapping_'s _Diagram Label_ properties.
 
 ---
-**When using [GMF Diagram Partitioning](gmf-diagram-partitioning.md) on a diagram editor that has multiple sub-elements, I can only get one diagram editor to work.**
+**When using [GMF Diagram Partitioning](GMF_Diagram_Partitioning.md) on a diagram editor that has multiple sub-elements, I can only get one diagram editor to work.**
 
 For example, you have a Root node that contains Pages and Classes, but when double clicking either Page or Class, you only get the Class editor.
 

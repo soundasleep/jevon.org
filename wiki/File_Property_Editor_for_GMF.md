@@ -13,7 +13,7 @@ redirect_from:
 
 [GMF](GMF.md)
 
-In our [previous](using-edatatypes-in-GMF.md) [pages](Using_EDataTypes_in_GMF_2.md), we successfully created an EDataType and the structure to link it up to a custom editor, and a FileDialog in order to select it.
+In our [previous](Using_EDataTypes_in_GMF.md) [pages](Using_EDataTypes_in_GMF_2.md), we successfully created an EDataType and the structure to link it up to a custom editor, and a FileDialog in order to select it.
 
 By default, the values returned here will be absolute paths. If instead you would like them to be relative to the path of the model file itself (this is a good idea for transportability!), here is some code that will let you do this:
 

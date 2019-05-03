@@ -11,7 +11,7 @@ redirect_from:
   - "/wiki/GMF Troubleshooting"
 ---
 
-Part of (Creating a new GMF Editor)[Creating_a_new_GMF Editor.md] and [GMF Diagram Partitioning](GMF_Diagram_Partitioning.md). Also see [GMF](gmf.md).
+Part of (Creating a new GMF Editor)[Creating_a_new_GMF Editor.md] and [GMF Diagram Partitioning](GMF_Diagram_Partitioning.md). Also see [GMF](GMF.md).
 
 {% include gmf-troubleshooting.md %}
 

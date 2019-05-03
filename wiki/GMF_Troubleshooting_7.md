@@ -11,7 +11,7 @@ redirect_from:
   - "/wiki/GMF Troubleshooting 7"
 ---
 
-[GMF](gmf.md)
+[GMF](GMF.md)
 
 {% include gmf-troubleshooting.md %}
 
@@ -32,7 +32,7 @@ This can occur if the .genmodel of the container element does not have 'children
 
 1. Reloading the .genmodel from your .ecore
 1. Deleting the reference in the .genmodel and reloading the .ecore
-1. Making sure that only one .gmfgen/editor has _Generate Domain Model Navigator_ [set to true](gmf-drag-drop.md)
+1. Making sure that only one .gmfgen/editor has _Generate Domain Model Navigator_ [set to true](GMF_Drag_Drop.md)
 
 To see what containment references will be provided in the editor, look at the _model.edit_ plugin: _model.provider.[ContainingObject]ItemProvider#getChildrenFeatures(Object)_ method.
 

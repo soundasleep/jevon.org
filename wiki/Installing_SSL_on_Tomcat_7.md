@@ -11,7 +11,7 @@ redirect_from:
   - "/wiki/Installing SSL on Tomcat 7"
 ---
 
-[Tomcat](tomcat.md)
+[Tomcat](Tomcat.md)
 
 This covers installing self-signed certificates on Tomcat 7 using APR against OpenSSL. Entirely based on http://code.google.com/p/jianwikis/wiki/TomcatSSLWithAPR.
 

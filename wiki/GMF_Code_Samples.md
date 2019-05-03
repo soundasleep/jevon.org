@@ -13,7 +13,7 @@ redirect_from:
 
 [GMF](GMF.md)
 
-Here's lots of code samples for [GMF](GMF.md). Currently they are stored on [SVN](SVN.md) purely as text; in the future, once my [research](reSearch.md) is progressing further, they will actually link to real-world code. Also all this code is pretty messy.
+Here's lots of code samples for [GMF](GMF.md). Currently they are stored on [SVN](SVN.md) purely as text; in the future, once my [research](Research.md) is progressing further, they will actually link to real-world code. Also all this code is pretty messy.
 
 For more information on activating shortcuts in GMF and what they can achieve, check out [GMF Drag Drop](GMF_Drag_Drop.md).
 
@@ -28,8 +28,8 @@ For more information on activating shortcuts in GMF and what they can achieve, c
 1. <a href="http://code.google.com/p/iaml/source/detail?r=345">Programatically exporting a model diagram to one image</a>, or <a href="http://code.google.com/p/iaml/source/browse/trunk/org.openiaml.model.diagram.custom/src/org/openiaml/model/diagram/custom/actions/ExportImagePartsAction.java?spec=svn347&r=347">multiple images</a> (SVN, also see GMF's <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.gmf/plugins/org.eclipse.gmf.runtime.diagram.ui.render/src/org/eclipse/gmf/runtime/diagram/ui/render/actions/CopyToImageAction.java?root=Modeling_Project&view=co">CopyToImageAction</a>)
 1. <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=255745">Automatically re-validating the model when the diagram is saved</a>
 1. <a href="http://code.google.com/p/iaml/source/browse/branches/2008-11-ecore-0.2/org.openiaml.model.tests/src/org/openiaml/model/tests/model/ModelTestCase.java?spec=svn377&r=377">Testing all EMF model elements with JUnit</a>
-1. [Using EDataTypes in GMF](using-edatatypes-in-GMF.md)
-1. [Custom Property Editors for EDataTypes in GMF](using-edatatypes-in-GMF.md)
+1. [Using EDataTypes in GMF](Using_EDataTypes_in_GMF.md)
+1. [Custom Property Editors for EDataTypes in GMF](Using_EDataTypes_in_GMF.md)
 1. [File Property Editor for GMF](File_Property_Editor_for_GMF.md)
 1. [Breadcrumbs in GMF Editors](Breadcrumbs_in_GMF_Editors.md)
 1. <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=272613">Creating Connections from Shortcut Elements in GMF</a>
@@ -37,7 +37,7 @@ For more information on activating shortcuts in GMF and what they can achieve, c
 1. [GMF Label OpenDiagramEditPolicies](GMF_Label_OpenDiagramEditPolicies.md)
 1. [Initialising new elements in a new GMF diagram](Initialising_new_elements_in_a_new_GMF_diagram.md)
 1. <a href="http://code.google.com/p/iaml/source/detail?r=1193">Exporting entire GMF diagrams into clickable HTML</a> (example coming soon)
-1. [Using Platform Resources as EReferences in GMF](using-platform-resources-as-ereferences-in-GMF.md)
+1. [Using Platform Resources as EReferences in GMF](Using_Platform_Resources_as_EReferences_in_GMF.md)
 1. [Putting Generated GMF Diagram Editors into a New Category](Putting_Generated_GMF_Diagram_Editors_into_a_New_Category.md)
 
 {% include tag-todo.md comment="export example" %}

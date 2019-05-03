@@ -11,7 +11,7 @@ redirect_from:
   - "/wiki/GMF Troubleshooting 3"
 ---
 
-Some helpful tips for working with [GMF](gmf.md).
+Some helpful tips for working with [GMF](GMF.md).
 
 {% include gmf-troubleshooting.md %}
 
@@ -80,7 +80,7 @@ Caused by: org.eclipse.jface.util.Assert$AssertionFailedException: null argument
 
 This can occur when the .gmfmap doesn't know where the subclassed element should map to: should it map to the superclass or the subclass?
 
-The solution is to add [OCL](ocl.md) to the superclass mapping (<a href="http://dev.eclipse.org/newslists/news.eclipse.modeling.gmf/msg11905.html">ref</a> and <a href="http://dev.eclipse.org/newslists/news.eclipse.modeling.gmf/msg13169.html">ocl ref</a>) like so:
+The solution is to add [OCL](OCL.md) to the superclass mapping (<a href="http://dev.eclipse.org/newslists/news.eclipse.modeling.gmf/msg11905.html">ref</a> and <a href="http://dev.eclipse.org/newslists/news.eclipse.modeling.gmf/msg13169.html">ocl ref</a>) like so:
 
 `not self.oclIsTypeOf(SubclassName)`
 
@@ -96,7 +96,7 @@ You have an invalid or incomplete installation of GMF (I got this error when I w
 
 ---
 **I can't get an edge/connection to appear between two shortcut elements**
-(In particular, when using [GMF Diagram Partitioning](gmf-diagram-partitioning.md).)
+(In particular, when using [GMF Diagram Partitioning](GMF_Diagram_Partitioning.md).)
 
 <img src="/img/gmf/double-shortcut.png" class="gmf">This is entirely possible! Refer to the code below. But I had a lot of problems trying to get it to work - turns out that, because I had two different plugins generated from the same model, the _Connection_ model element referred to the wrong package (_foo.component.*_ instead of _foo.wire.*_).
 
@@ -117,6 +117,6 @@ This can happen when, for example, you want:
 
 In this case, in the .gmfmap editor where you select the nodes and links to generate, you may only see the option for the Page node and not for the Form node.
 
-This is (somewhat) natural, because the wizard only knows how to generate the code for one of these element containers. You will need to edit the .gmfmap manually and add the new element by yourself, with an [OCL](ocl.md) constraint.
+This is (somewhat) natural, because the wizard only knows how to generate the code for one of these element containers. You will need to edit the .gmfmap manually and add the new element by yourself, with an [OCL](OCL.md) constraint.
 
 See http://wiki.eclipse.org/GMF_Tutorial_Part_2#Link_Constraints for adding constraints to the .gmfmap model.

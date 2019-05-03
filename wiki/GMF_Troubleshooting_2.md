@@ -11,7 +11,7 @@ redirect_from:
   - "/wiki/GMF Troubleshooting 2"
 ---
 
-Following on from [GMF Troubleshooting](gmf-troubleshooting.md). Also see [GMF](gmf.md).
+Following on from [GMF Troubleshooting](GMF_Troubleshooting.md). Also see [GMF](GMF.md).
 
 {% include gmf-troubleshooting.md %}
 

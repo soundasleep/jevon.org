@@ -11,9 +11,9 @@ redirect_from:
   - "/wiki/Dynamic Templates in EMF"
 ---
 
-This is the ability to use [Dynamic Templates](Dynamic_Templates.md) when generating the model generated automatically by the [EMF](EMF.md) framework. 
+This is the ability to use [Dynamic Templates](Dynamic_Templates.md) when generating the model generated automatically by the [EMF](EMF.md) framework.
 
-Compared to [Enabling Dynamic Templates in GMF](enabling-dynamic-templates-in-GMF.md), the EMF approach <strike>uses</strike> sometime uses the [JET](JET.md) language instead of [Xpand](xpand.md), so it is not possible to use an aspect-oriented to modify the generated model; instead, we have to copy the entire template verbatim and use this.
+Compared to [Enabling Dynamic Templates in GMF](Enabling_Dynamic_Templates_in_GMF), the EMF approach <strike>uses</strike> sometime uses the [JET](JET.md) language instead of [Xpand](xpand.md), so it is not possible to use an aspect-oriented to modify the generated model; instead, we have to copy the entire template verbatim and use this.
 
 In some cases, templates can include a sub-template, allowing us to <a href="http://code.google.com/p/iaml/source/browse/trunk/org.openiaml.model/templates-emf/model/Class/insert.javajetinc?r=1907">insert code directly</a>:
 

@@ -11,7 +11,7 @@ redirect_from:
   - "/wiki/GMF Troubleshooting 9"
 ---
 
-[GMF](gmf.md)
+[GMF](GMF.md)
 
 {% include gmf-troubleshooting.md %}
 
@@ -32,7 +32,7 @@ I wrote <a href="http://code.google.com/p/iaml/source/browse/trunk/org.openiaml.
 **java.lang.NullPointerException**
 **at org.eclipse.gmf.runtime.diagram.ui.layout.FreeFormLayoutEx.layout(FreeFormLayoutEx.java:38)**
 
-This occured when I upgraded to [GMF](gmf.md) 2.2.2. The problem is that I was adding an IFigure programatically to another IFigure without properly adding a new Constraint for the LayoutManager.
+This occured when I upgraded to [GMF](GMF.md) 2.2.2. The problem is that I was adding an IFigure programatically to another IFigure without properly adding a new Constraint for the LayoutManager.
 
 The solution was to add a new Rectangle constraint, as in <a href="http://code.google.com/p/iaml/source/detail?r=1740">r1740 of IAML</a>. This also removed the requirement to add a LayoutListener.
 

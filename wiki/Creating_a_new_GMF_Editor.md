@@ -11,7 +11,7 @@ redirect_from:
   - "/wiki/Creating a new GMF Editor"
 ---
 
-Also see [GMF](GMF.md) for more details. Having issues? Look at [GMF Troubleshooting](gmf-troubleshooting.md).
+Also see [GMF](GMF.md) for more details. Having issues? Look at [GMF Troubleshooting](GMF_Troubleshooting.md).
 
 This tutorial applies to [GMF](GMF.md) 2.0.2; [GEF](gef.md) SDK 3.3.2.
 
@@ -130,4 +130,4 @@ This will allow the generation of the following [ecore](Ecore.md)-based [XML](XM
 </org.package.bar:Application>
 ```
 
-If you are having any issues, try looking at [GMF Troubleshooting](gmf-troubleshooting.md).
+If you are having any issues, try looking at [GMF Troubleshooting](GMF_Troubleshooting.md).

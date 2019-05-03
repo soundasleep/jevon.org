@@ -20,4 +20,4 @@ Yet another article on [GMF](GMF.md).
 1. _.gmfmap > Link Mapping &lt;your_link_mapping&gt;_: Add a Design Label Mapping, and link it to the Diagram Label. Set _Read Only_ to true.
 1. Re-generate the .gmfgen and diagram code!
 
-<img src="/img/gmf/static-label-gmf.png" class="gmf">Also see [GMF Troubleshooting](gmf-troubleshooting.md).
+<img src="/img/gmf/static-label-gmf.png" class="gmf">Also see [GMF Troubleshooting](GMF_Troubleshooting.md).

@@ -11,11 +11,11 @@ redirect_from:
   - "/wiki/GMF Troubleshooting 8"
 ---
 
-[GMF](gmf.md)
+[GMF](GMF.md)
 
 {% include gmf-troubleshooting.md %}
 
-**When generating with [GMF Dynamic Templates](gmf-dynamic-templates.md), I get one of the following errors:**
+**When generating with [GMF Dynamic Templates](Enabling_Dynamic_Templates_in_GMF.md), I get one of the following errors:**
 
 ```
 aspects::impl::diagram::editparts::NodeEditPart:org.eclipse.gmf.internal.xpand.util.ParserException (stack trace not available)
@@ -33,7 +33,7 @@ For some reason, the string cannot contain a single apostrophe '. So changing it
 o_O
 
 ---
-**When generating with [GMF Dynamic Templates](gmf-dynamic-templates.md), I get one of the following exceptions:**
+**When generating with [GMF Dynamic Templates](Enabling_Dynamic_Templates_in_GMF.md), I get one of the following exceptions:**
 
 ```
 org.eclipse.gmf.internal.xpand.model.EvaluationException: org.eclipse.gmf.internal.xpand.util.ParserException, @... "oclExpressionCS"is invalid(...)

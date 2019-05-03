@@ -106,7 +106,7 @@ Some random ramblings... under construction, and I'm always adding more.
 1. [GMF](GMF.md)
 1. [Creating a new GMF Editor](Creating_a_new_GMF_Editor.md)
 1. [GMF Diagram Partitioning](GMF_Diagram_Partitioning.md)
-1. [GMF Troubleshooting](gmf-troubleshooting.md)
+1. [GMF Troubleshooting](GMF_Troubleshooting.md)
 1. [GMF Code Samples](GMF_Code_Samples.md)
 
 ## Fun Stuff

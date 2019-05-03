@@ -9,7 +9,7 @@ redirect_from:
   - "/wiki/Setting up the BPFTP FTP Server"
 ---
 
-[Articles](articles.md)
+[Articles](Articles.md)
 
 This (quite old, originally written in 2002) article will outline the steps needed to set up an FTP server, for use at LANs, on the Internet and in other situations. This guide goes through how to setup BPFTP/G6 FTP Server v2.0 (RC1) - it may be accurate for later versions too.
 

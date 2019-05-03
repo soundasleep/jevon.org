@@ -16,7 +16,7 @@ redirect_from:
 <img src="/img/gmf/demo1.png" class="gmf-left">
 <img src="/img/gmf/demo2.png" class="gmf-left">
 
-This tutorial was based on an excellent [Eclipse](Eclipse.md) <a href="http://dev.eclipse.org/newslists/news.eclipse.modeling.gmf/msg06184.html">news posting</a> (<a href="http://wiki.eclipse.org/Diagram_Partitioning">reposted</a>) and <a href="http://dev.eclipse.org/newslists/news.eclipse.modeling.gmf/msg05492.html">another discussion</a>. Also see [GMF](GMF.md), [GMF Troubleshooting](gmf-troubleshooting.md) and [Creating a new GMF Editor](Creating_a_new_GMF_Editor.md).
+This tutorial was based on an excellent [Eclipse](Eclipse.md) <a href="http://dev.eclipse.org/newslists/news.eclipse.modeling.gmf/msg06184.html">news posting</a> (<a href="http://wiki.eclipse.org/Diagram_Partitioning">reposted</a>) and <a href="http://dev.eclipse.org/newslists/news.eclipse.modeling.gmf/msg05492.html">another discussion</a>. Also see [GMF](GMF.md), [GMF Troubleshooting](GMF_Troubleshooting.md) and [Creating a new GMF Editor](Creating_a_new_GMF_Editor.md).
 
 If you want to add nodes within a node itself, try the second part of the GMF tutorial: http://wiki.eclipse.org/GMF_Tutorial_Part_2
 
@@ -76,7 +76,7 @@ Now we create the super diagramming code.
 <li>Generate super.gmfgen from super.gmfmap</li>
   <ul>
   <li>Right click super.gmfmap and select Create Generator</li>
-  <li>Generate the diagram code to test everything is working OK (see [GMF Troubleshooting](gmf-troubleshooting.md))</li>
+  <li>Generate the diagram code to test everything is working OK (see [GMF Troubleshooting](GMF_Troubleshooting.md))</li>
   </ul>
 </ul></div>
 
@@ -164,4 +164,4 @@ This setup will allow users to create the following type of [ecore](Ecore.md) [X
 </org.openiaml.test.two:WebApplication>
 ```
 
-If you have any issues, look into [GMF Troubleshooting](gmf-troubleshooting.md).
+If you have any issues, look into [GMF Troubleshooting](GMF_Troubleshooting.md).
