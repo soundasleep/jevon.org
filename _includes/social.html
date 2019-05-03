@@ -21,6 +21,8 @@
 
   {%- if site.googleplus_username -%}<li><a class="highlight-inline" href="https://plus.google.com/{{ site.googleplus_username| escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#googleplus' | relative_url }}"></use></svg> <span class="username">{{ site.googleplus_username| escape }}</span></a></li>{%- endif -%}
 
+  {%- if site.lastfm_username -%}<li><a class="highlight-inline" href="https://last.fm/user/{{ site.lastfm_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#lastfm' | relative_url }}"></use></svg> <span class="username">{{ site.lastfm_username| escape }}</span></a></li>{%- endif -%}
+
   {%- if site.pinboard_username -%}<li><a class="highlight-inline" href="https://pinboard.in/u:{{ site.pinboard_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#pinboard' | relative_url }}"></use></svg> <span class="username">{{ site.pinboard_username| escape }}</span></a></li>{%- endif -%}
 
   {%- if site.rss -%}<li><a class="highlight-inline" href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg> <span>{{ site.rss | escape }}</span></a></li>{%- endif -%}
