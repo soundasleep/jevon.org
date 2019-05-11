@@ -1,0 +1,204 @@
+/* css stylesheet for incob website */
+BODY, TD, TH {
+	font-family: Verdana; 
+	font-size: 1em;
+	}
+
+BODY {
+	background: white;
+	margin: 0px 0px 10px 0px;
+	}
+	
+A, A:active, A:visited {
+	color: #1e60cf;
+	text-decoration: underline;
+	}
+
+A:hover {
+	color: #1e006f; 
+	text-decoration: underline;
+	}
+
+/** images->photos **/	
+IMG.photo {
+	border: solid 1px black;
+	margin: 0px 20px 10px 20px;
+	}
+
+TABLE.photo TD {
+	text-align: center;
+	font-size: 0.8em;
+	font-weight: bold;
+	x-padding-bottom: 20px;
+	}
+
+TABLE.photo IMG.photo {
+	margin-bottom: 0px;
+	}
+
+.accomm-detail IMG.photo {
+	margin-top: 10px; 
+	}
+	
+/** start new style **/
+.banner-table { background: white url("img/top2/banner_brown4.png") top right no-repeat; }
+.banner-top { height: 105px; }
+
+.banner-left { 
+	font-family: Arial;
+	font-size: 10pt;
+	vertical-align: bottom;
+	text-align: right;
+	padding-right: 15px; 
+	padding-bottom: 8px;
+	}
+
+.banner-left A, .banner-left A:visited, .banner-left A:active {
+	color: #000066;
+	text-decoration: underline;
+	}
+.banner-left A:hover {
+	color: black;
+	text-decoration: underline;
+	}
+	
+.banner-awc { width: 89px; 
+	padding-left: 1px;
+	padding-right: 15px;
+	vertical-align: center;
+	}
+
+.banner-awc2 { width: 89px; 
+	padding-left: 1px;
+	padding-right: 15px;
+	vertical-align: bottom;
+	}
+
+.banner-border { height: 1px; background: #7fcaff; }
+
+.banner-nav {
+	color: #7fcaff;
+	background: #0053B8 url("img/top2/navbar_blue.png") right repeat-y;
+	font-family: Arial;
+	font-size: 10pt;
+	text-align: center;
+	padding: 3px 5px 3px 5px;
+}
+
+.banner-nav A, .banner-nav A:visited, .banner-nav A:active {
+	color: white;
+	text-decoration: none;
+}
+
+.banner-nav A:hover {
+	color: #cceeff;
+	text-decoration: underline;
+}
+/** end new style **/
+
+H1 { 
+	font-family: "Gill Sans MT", "Arial"; 
+	font-weight: normal; 
+	font-size: 2.5em; 
+	text-transform: xuppercase;
+	color: #1e90ff; 
+	font-style: italic;
+	padding-left: 10px;
+	padding-right: 20px;
+	}
+
+H3 {
+	font-family: "Gill Sans MT", "Arial"; 
+	font-weight: bold; 
+	font-size: 1.4em; 
+	color: #1e90ff; 
+	font-style: italic;
+	}
+
+.text {
+	line-height: 1.6em;
+	text-align: justify;
+	padding-left: 40px;
+	padding-right: 50px;
+	}
+
+.copy-table { 
+	clear: all;
+	}
+
+.copy-table TD {
+	background: #0053B8;
+	text-align: center;
+	color: #ffffff;
+	font-family: "Arial";
+	font-size: 8pt;
+	padding: 3px 30px 3px 30px;
+	}
+
+.text-table {
+	width: 70%;
+	}
+
+.text-table TD {
+	font-size: 0.85em;
+	vertical-align: top;
+	line-height: 1.5em;
+	}
+
+.mininav {
+	width: 80%;
+	font-family: Arial;
+	font-size: 9pt;
+	}
+
+.mininav A, .mininav A:visited, .mininav A:active {
+	padding: 0px 3px 0px 3px;
+	color: #0053B8;
+	text-decoration: none;
+	}
+
+.mininav A:hover {
+	color: #000066;
+	text-decoration: underline;
+	}
+
+P.deadline {
+	width: 80%;
+	text-align: center;
+	border: solid 2px red;
+	background: #ffcccc;
+	padding: 8px;
+	}
+
+/* programme-specific stuff */
+.programme-table { width: 80%; }
+.programme-table TD { font-size: 0.85em; vertical-align: top; line-height: 1.5em; }
+.programme-date { font-weight: bold; padding-top: 10px; }
+.programme-time { }
+.programme-event { padding-bottom: 7px; }
+
+/* fee-specific stuff */
+.fee-table { width: 80%; } /* 650 - 90 */
+.fee-table TD { font-size: 0.85em; vertical-align: top; line-height: 1.5em; }
+.fee-table TH { font-size: 0.85em; text-align: center; font-weight: bold; line-height: 1.5em; }
+.fee-class { font-weight: bold; }
+.fee-value { text-align: center; }
+.fee-note { font-style: italic; }
+
+/* accommodation-specific stuff */
+P.accommodation { text-align: center; }
+.accomm-table { width: 80%: }
+.accomm-table TD { vertical-align: middle; }
+.accomm-rate, .accomm-detail { font-size: 0.85em; line-height: 1.5em; }
+.accomm-name { font-size: 1.1em; font-weight: bold; width: 40%; }
+.accomm-rating { font-size: 4em; font-family: "Times New Roman"; width: 20%; }
+.accomm-rate { font-style: italic; }
+.accomm-detail { }
+
+TABLE.speaker-table { width: 80%; }
+TABLE.speaker-table TD {
+	font-size: 0.8em;
+	vertical-align: top;
+	line-height: 1.5em;
+	}
+TABLE.speaker-table TD .institute { font-size: 0.7em; }
