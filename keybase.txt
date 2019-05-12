@@ -1,0 +1,79 @@
+==================================================================
+https://keybase.io/jevon
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jevon.org
+  * I am jevon (https://keybase.io/jevon) on keybase.
+  * I have a public key with fingerprint 2C81 E052 6AB4 1279 9229  C302 66E4 FACF 0E4D D365
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010198ad79c665889b83ee4063e330a1d69b9aa09ef6816588de5040db162b1529a20a",
+      "fingerprint": "2c81e0526ab412799229c30266e4facf0e4dd365",
+      "host": "keybase.io",
+      "key_id": "66e4facf0e4dd365",
+      "kid": "010198ad79c665889b83ee4063e330a1d69b9aa09ef6816588de5040db162b1529a20a",
+      "uid": "69026f7305fbfc3dae42bddd51c57800",
+      "username": "jevon"
+    },
+    "merkle_root": {
+      "ctime": 1557634319,
+      "hash_meta": "2948aec894924eb813e69f5ddcda8d8351f8cc58ddc88c7b469a41264eb2c946",
+      "seqno": 5352142
+    },
+    "revoke": {
+      "sig_ids": [
+        "f32146def5cc7a64432fdf86e6c16439a7765af276fceca515dbc83099be7a5f0f"
+      ]
+    },
+    "service": {
+      "hostname": "jevon.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1557634368,
+  "expire_in": 157680000,
+  "prev": "b127da5dcc44839a69e3025f4fbf5063fe288410051304a8c69845bd1914c35b",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtU2toXEUU3k1VmkJtQohSDUWvFSmkYebO485sERUS1BqlP9pqbGQ7d+bM5u5m
+927vvdmmphFFxYoEfFWUIIWS4oP+6QOUKqVF8VWkiD+svyqt70gxhBq0Ep0bFUX8
+6a9hznznO9/5zpmnVy4rtBXtl7+cvvLuT6F46ruwMPzZy/0TXhibXV5pwqvB0gGj
+BtKsXIuMV/IQRlgKZQKpOWdCyFAQAIo4AUKQwobLUCqFJFgucI4wwBBFJsTcDzHz
+pfKR8no9GzUqkDSTqJE5Wl8LDIj5XIUU+4GUvi81QT7nQK3SFgE1hnDmEkfiNM9w
+4kKVQl8Uu5i7lJfk/Qf+f9Y99kcd6bTZgCBmQ6uJUUD90BjDsGaBQCgHppA0VB0c
+ugqtuOFN9np1SGqjUE7iOMud1VmUv2PGAk4owdJ1p9KRch0ylZsiqVCghaTSpxAK
+TIBLy4zRRgkjCMNWaM2ECwihg5ByqZx73GF9LSl3IlLY0Yi9EiPMx9R3ChInpQZ5
+8TSqOM9Sr7TNs8S9cnOiCZZpHShOKfGtsYID15hTIlUQcKasH3CrQSuGmQm1IEjK
+EALFLLLeA5N5uaQV6SX6fEz/bL8vTipOUDOJs1jHoy48kmXNtJTbku1q5ridEJb/
+ZCiHUcO4DXEZLUjSyNlXwg75L8e46PVgvBklUI5yhIs68xHK60DLUYZumYxiRmtK
+hWuDS3BbxSx1Y2Nu+BZ8IShGiGGCqBKaS0FZaLDEVBMW/m0hdTJVxVE63xoqG0vA
+m1zxZLHnskKxrXDF5W351ymsaO/46z+d+WB54chbs83ojX3Vro0/zbV3738qu/bW
+a4bva9ZvOjNajx7cM3McBpYf6Z8auOsbtf37Vat/fP2G1nG6+5W9nZ9sWFg8NrSv
++2D7hW9JaSIY7H93Hq1d+OL91XP1F75efGhqw+Y1m3u22sX1h7qO6UemB6urbr9w
+ff3SxS23FQ/XkoO3cE1Ky87bo43q4Po3V249N3zi43vE7qm3zz2zHR7e+17P45X5
+2Y7Z52e/evVsaboPZefvH3xCbXlpU2f3gXUzr6258dmxk6VtGz989EA6dHbTnV1X
+T87saevsunRxaHrh5tN+9tGh8fTwQM/nO09N/Hq06K2947l3ft7/W0f1quvG+/T8
+yXsfo+te3PHD3O8=
+=xXMD
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jevon
+
+==================================================================
