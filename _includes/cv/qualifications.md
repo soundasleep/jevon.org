@@ -1,5 +1,10 @@
 ## Qualifications
 
+2019 &ndash;
+: Mental Health First Aid
+  <br>
+  CoLiberate, Wellington, New Zealand
+
 2015 &ndash;
 : Provide First Aid - Level 2
   <br>
