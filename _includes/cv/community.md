@@ -3,6 +3,9 @@
 2018
 : _Member of the Community Advisory Group,_
   Aotearoa New Zealand Trans and Gender Diverse Health Survey
+  <br>
+  _Volunteer_,
+  Rails Bridge Wellington
 
 2017 &ndash;
 : _Mentor_,
@@ -19,12 +22,12 @@
   _Volunteer,_
   Naming New Zealand
 
-2014 &ndash;
-: _Facilitator,_
-  Tranzform Wellington
-  <br>
-  _Volunteer,_
+2014 &ndash; 2017
+: _Organiser and Volunteer,_
   Rails Girls Wellington
+  <br>
+  _Facilitator,_
+  Tranzform Wellington
 
 2012 &ndash; 2014
 : _Moderator,_
