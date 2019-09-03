@@ -1,5 +1,13 @@
 ## Selected Community Activities
 
+2018
+: _Member of the Community Advisory Group,_
+  Aotearoa New Zealand Trans and Gender Diverse Health Survey
+
+2016 &ndash;
+: _Member_,
+  Sex & Gender Diverse Working Group
+
 2015 &ndash;
 : _Treasurer,_
   Outerspaces Charitable Trust
