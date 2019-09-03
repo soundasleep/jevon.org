@@ -2,18 +2,18 @@
 
 {% capture skills1 %}
 - Software engineering and architecture
+- Technical leadership
 - Testing and automation
 - Project management
 - Cryptocurrencies
 - Writing, publishing and teaching
-- Self-management and self-care
 {% endcapture %}
 
 {% capture skills2 %}
 - Facilitation and leadership
+- Community leadership
 - Event management
 - Database and systems administration
-- Community management
 - Research
 {% endcapture %}
 

@@ -1,5 +1,16 @@
 ## Recent Employment History
 
+2019 &ndash;
+: - **Front-end Lead**
+  - _[Flux Federation](https://fluxfederation.com)_
+  - Wellington, New Zealand
+
+  Lead an internal team in the requirements capture,
+  technical architecture, development, and deployment of our
+  internal component library and design system "APL".
+  This design system is used by hundreds of developers
+  and operators across three markets.
+
 2013 &ndash;
 : - **Founder**
   - _[CryptFolio](https://cryptfolio.com)_

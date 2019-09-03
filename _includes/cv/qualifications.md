@@ -1,6 +1,6 @@
 ## Qualifications
 
-2019 &ndash;
+2019
 : Mental Health First Aid
   <br>
   CoLiberate, Wellington, New Zealand

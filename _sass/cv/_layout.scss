@@ -87,7 +87,7 @@ a {
 }
 
 .columns3 {
-  width: 100%;
+  width: calc(100% - (20px * 3));
 
   .column {
     width: 33%;
@@ -97,7 +97,7 @@ a {
 }
 
 .columns2 {
-  width: 100%;
+  width: calc(100% - (20px * 2));
 
   .column {
     width: 50%;

@@ -1,8 +1,8 @@
 ## Selected Community Activities
 
-2018
-: _Member of the Community Advisory Group,_
-  Aotearoa New Zealand Trans and Gender Diverse Health Survey
+2018 &ndash;
+: _Advisory Group Member,_
+  Counting Ourselves Health Survey
   <br>
   _Volunteer_,
   Rails Bridge Wellington
@@ -11,7 +11,7 @@
 : _Mentor_,
   Winter Mentor
 
-2016 &ndash;
+2016 &ndash; 2019
 : _Member_,
   Sex & Gender Diverse Working Group
 
@@ -37,7 +37,6 @@
 2012
 : _Reviewer,_
   AINA 2012
-{% endcomment %}
 
 2011
 : _Student Volunteer,_
@@ -45,11 +44,13 @@
   <br>
   _Social Events Chair,_
   NZCSRSC 2011
+{% endcomment %}
 
 2010 &ndash; 2013
 : _Program Committee,_
   AI Mashup Challenge
 
+{% comment %}
 2008 &ndash; 2011
 : _President,_
   TINA
@@ -58,7 +59,6 @@
 : _Secretary,_
   T-COSY
 
-{% comment %}
 2001
 : _Volunteer,_
   SPCA
