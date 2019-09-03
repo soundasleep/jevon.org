@@ -4,6 +4,10 @@
 : _Member of the Community Advisory Group,_
   Aotearoa New Zealand Trans and Gender Diverse Health Survey
 
+2017 &ndash;
+: _Mentor_,
+  Winter Mentor
+
 2016 &ndash;
 : _Member_,
   Sex & Gender Diverse Working Group
