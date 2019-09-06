@@ -1,14 +1,11 @@
 ## Contact Details
 
-Name
-: Dr Jevon Wright
+Email
+: [jevon@jevon.org](mailto:jevon@jevon.org)
 
 {% if jekyll.environment != 'production' %}
 {% include cv/address.md %}
 {% endif %}
-
-Email
-: [jevon@jevon.org](mailto:jevon@jevon.org)
 
 Web
 : [https://jevon.org](https://jevon.org)

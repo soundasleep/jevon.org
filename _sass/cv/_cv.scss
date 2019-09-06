@@ -1,5 +1,6 @@
 .title {
   text-align: center;
+  margin-bottom: 40px;
 
   h1 {
     margin-bottom: 0;
@@ -80,7 +81,7 @@ dl {
     padding-left: 10px;
 
     @media all and (max-width: $tablet) {
-      width: (100% - $term-width-mobile) * 0.90;
+      width: (100% - $term-width-mobile) * 0.925;
     }
 
     ul {
@@ -153,6 +154,8 @@ section.history {
 }
 
 section.references {
+  margin-top: 20px;
+
   .references {
     margin: 0 20px;
 

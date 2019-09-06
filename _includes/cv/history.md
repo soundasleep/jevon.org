@@ -5,7 +5,7 @@
   - _[Flux Federation](https://fluxfederation.com)_
   - Wellington, New Zealand
 
-  Lead an internal team in the requirements capture,
+  Leading an internal team in the requirements capture,
   technical architecture, development, and deployment of our
   internal component library and design system "APL".
   This design system is used by hundreds of developers
@@ -16,23 +16,23 @@
   - _[CryptFolio](https://cryptfolio.com)_
   - Wellington, New Zealand
 
-  CryptFolio is a secure platform for traders, developers, fund managers
+  CryptFolio is a secure platform for traders, developers, fund managers,
   and businesses to manage their cryptocurrencies, such as Bitcoin and Ethereum.
   As the founder, I am responsible for the design, development,
   deployment, maintenance, marketing, and strategy for the company.
 
   {% comment %}
-  / This involves software/web engineering, system administration, database replication,
-  / project management, UI design, marketing and Android development. Uses PHP, Javascript, CSS, SCSS, MySQL, Composer, APIs,
-  / Android, JQuery etc.
+  This involves software/web engineering, system administration, database replication,
+  project management, UI design, marketing and Android development. Uses PHP, Javascript, CSS, SCSS, MySQL, Composer, APIs,
+  Android, JQuery etc.
   {% endcomment %}
 
 2015 &ndash; 2017
-: - **Senior Developer; Team Lead; Functional Lead**
+: - **Senior Developer, Team Lead**
   - _[Powershop](https://powershop.co.nz)_
   - Wellington, New Zealand
 
-  Senior software developer, team lead, and then functional lead for public-facing and in-house software products
+  Senior Software Developer, Team Lead, and then Functional Lead for public-facing and in-house software products
   for the electricity market.
   Operating in New Zealand, Australia, and the UK; later rebranded to Flux Federation.
 
@@ -45,7 +45,7 @@
   - _[Rabid Technologies](https://rabid.co.nz)_
   - Wellington, New Zealand
 
-  Full-stack software developer for a number of projects, such as the Environment Canterbury
+  Full-stack Software Developer for a number of projects, such as the Environment Canterbury
   _[Journey Planner](http://metroinfo.co.nz/journeyplanner/index.html?region=christchurch)_,
   for their bus network;
   Android applications; the Retail NZ website; and various smaller projects.
@@ -57,11 +57,10 @@
 
 2011 &ndash; 2014
 : - **Open Source Software Developer**
-  - _One Health Project,_
-      Massey University
+  - Massey University
   - Palmerston North, New Zealand
 
-  Lead developer on a World Bank-funded project, helping researchers
+  Lead Developer on the World Bank-funded _One Health_ project, helping researchers
   in seven South Asia countries communicate and collaborate on epidemiology research, using two custom web platforms (based on Alfresco and Drupal).
 
   {% comment %}
@@ -72,6 +71,7 @@
   Apache, Tomcat etc.
   {% endcomment %}
 
+{% comment %}
 2012
 : - **Lecturer**
   - _COSC,_
@@ -85,7 +85,6 @@
   Used a variety of information visualisation tools, VRML, X3D, LaTeX.
   {% endcomment %}
 
-{% comment %}
 2007
 : - **Web Developer**
   - _Inspired Web Solutions_

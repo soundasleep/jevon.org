@@ -10,8 +10,8 @@ permalink: /cv
 ---
 
 <section class="title">
-  <h1>Curriculum Vitae</h1>
-  <h2>{{ site.time | date: "%B %Y" }}</h2>
+  <h1>Dr Jevon Wright</h1>
+  <h2>Curriculum Vitae &ndash; {{ site.time | date: "%B %Y" }}</h2>
 </section>
 
 <section>
@@ -32,6 +32,10 @@ permalink: /cv
 </section>
 <section class="history page-break-after">
   {% capture temp %}{% include cv/history.md %}{% endcapture %}
+  {{ temp | markdownify }}
+</section>
+<section>
+  {% capture temp %}{% include cv/talks.md %}{% endcapture %}
   {{ temp | markdownify }}
 </section>
 <section>
