@@ -22,11 +22,13 @@ permalink: /cv
   {% capture temp %}{% include cv/qualifications.md %}{% endcapture %}
   {{ temp | markdownify }}
 </section>
-<section class="skills page-break-after">
+{% comment %}
+<section class="skills">
   {% capture temp %}{% include cv/skills.md %}{% endcapture %}
   {{ temp | markdownify }}
 </section>
-<section class="open-source">
+{% endcomment %}
+<section class="open-source page-break-after">
   {% capture temp %}{% include cv/open-source.md %}{% endcapture %}
   {{ temp | markdownify }}
 </section>

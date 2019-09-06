@@ -10,9 +10,22 @@ html, body {
   }
 }
 
+html {
+  margin: 0;
+  padding: 0;
+
+  @media print {
+    margin: ($padding * 2);
+
+    .page-break-after + * {
+      margin-top: ($padding * 5);
+    }
+  }
+}
+
 body {
   margin: 0;
-  padding: 30px;
+  padding: ($padding * 4);
   font-size: 15px;
 
   @media print {
@@ -27,7 +40,7 @@ body {
 }
 
 div.content {
-  margin: 20px auto;
+  margin: ($padding * 2) auto;
   max-width: 650px;
 
   border-radius: 20px;
@@ -50,7 +63,7 @@ div.content {
   }
 
   @media all and (max-width: $tablet) {
-    padding: 20px 25px;
+    padding: ($padding * 2) ($padding * 2.5);
     margin: 0;
   }
 
@@ -70,22 +83,6 @@ div.content {
   }
 }
 
-.copyright {
-  width: 50%;
-  margin: 30px auto 0 auto;
-  text-align: center;
-  font-size: 85%;
-  color: darken($content-color, 20%);
-
-  a {
-    font-weight: normal;
-  }
-
-  .terms {
-    margin-top: 10px;
-  }
-}
-
 a {
   color: $link-color;
   text-decoration: none;
@@ -97,22 +94,22 @@ a {
 }
 
 .columns3 {
-  width: calc(100% - (20px * 3));
+  width: calc(100% - (($padding * 2) * 3));
 
   .column {
     width: 33%;
     float: left;
-    margin-bottom: 20px;
+    margin-bottom: ($padding * 2);
   }
 }
 
 .columns2 {
-  width: calc(100% - (20px * 2));
+  width: calc(100% - (($padding * 2) * 2));
 
   .column {
     width: 50%;
     float: left;
-    margin-bottom: 20px;
+    margin-bottom: ($padding * 2);
   }
 }
 

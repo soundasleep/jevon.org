@@ -5,20 +5,20 @@
   - _[Flux Federation](https://fluxfederation.com)_
   - Wellington, New Zealand
 
-  Leading an internal team in the requirements capture,
+  I am currently leading an internal team of six in the requirements capture,
   technical architecture, development, and deployment of our
   internal component library and design system "APL".
-  This design system is used by hundreds of developers
-  and operators across three markets.
+  This design system is being used by hundreds of developers
+  and operators across our three markets.
 
 2013 &ndash;
 : - **Founder**
   - _[CryptFolio](https://cryptfolio.com)_
   - Wellington, New Zealand
 
-  CryptFolio is a secure platform for traders, developers, fund managers,
-  and businesses to manage their cryptocurrencies, such as Bitcoin and Ethereum.
-  As the founder, I am responsible for the design, development,
+  CryptFolio is a global platform for traders, developers, fund managers,
+  and businesses to manage and report on cryptocurrencies.
+  As sole founder, I have been responsible for the design, development,
   deployment, maintenance, marketing, and strategy for the company.
 
   {% comment %}
@@ -32,8 +32,10 @@
   - _[Powershop](https://powershop.co.nz)_
   - Wellington, New Zealand
 
-  Senior Software Developer, Team Lead, and then Functional Lead for public-facing and in-house software products
-  for the electricity market.
+  Over three years I held the roles of
+  Senior Software Developer, Team Lead, and then Functional Lead,
+  for our suite of public and in-house software products
+  for global energy markets.
   Operating in New Zealand, Australia, and the UK; later rebranded to Flux Federation.
 
   {% comment %}
@@ -45,10 +47,13 @@
   - _[Rabid Technologies](https://rabid.co.nz)_
   - Wellington, New Zealand
 
-  Full-stack Software Developer for a number of projects, such as the Environment Canterbury
-  _[Journey Planner](http://metroinfo.co.nz/journeyplanner/index.html?region=christchurch)_,
-  for their bus network;
-  Android applications; the Retail NZ website; and various smaller projects.
+  Full-stack software developer for a number of local and community projects across New Zealand.
+  This included being the key developer for the
+  _[Christchurch Journey Planner](http://metroinfo.co.nz/journeyplanner/index.html?region=christchurch)_;
+  the [_Fish4All_ Android application](https://play.google.com/store/apps/details?id=nz.co.fish4all.app&hl=en);
+  the Retail NZ website;
+  and various smaller projects.
+  Rabid Technologies have now rebranded to Ackama.
 
   {% comment %}
   Introduced using wikis for sharing knowledge within the company.

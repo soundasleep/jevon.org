@@ -14,7 +14,7 @@
 
 2016 &ndash; 2019
 : - _Member_,
-    Sex & Gender Diverse Working Group
+    Sex & Gender Diverse Working Group, CCDHB
 
 2015 &ndash;
 : - _Treasurer,_
@@ -26,7 +26,7 @@
 : - _Organiser and Volunteer,_
     Rails Girls Wellington
   - _Facilitator,_
-   Tranzform Wellington
+    Tranzform Wellington
 
 2012 &ndash; 2014
 : - _Moderator,_

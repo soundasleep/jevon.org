@@ -1,3 +1,9 @@
+<section class="abstract">
+I am an extremely passionate and talented software engineer, architect, teacher, researcher, and
+people-centered leader, with fourteen years experience in delivering software
+and leading communities.
+</section>
+
 ## Contact Details
 
 Email
