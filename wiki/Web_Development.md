@@ -12,6 +12,7 @@ redirect_from:
 
 A partial list of the sites that [I have worked on](Jevon_Wright.md):
 
+1. http://www.aprilfish.co.nz
 1. http://www.powershop.co.nz
 1. http://www.retail.org.nz
 1. http://www.metroinfo.co.nz/journeyplanner/index.html?region=christchurch#/journey_plans/new
