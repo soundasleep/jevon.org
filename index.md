@@ -14,9 +14,9 @@ I'm [Jevon Wright](/wiki/Jevon_Wright.md), a software engineer, architect, and c
 
 I'm passionate about delivering awesome software, supporting community, open source, inclusion and diversity, cryptocurrencies and [music](https://last.fm/user/jdub_dub).
 I have a [PhD in Computer Science](/wiki/Research.md) and am currently
-the founder of [CryptFolio](https://cryptfolio.com),
-treasurer of [OuterSpaces Charitable Trust](https://www.outerspaces.org.nz), and
-front-end lead at [Flux Federation](https://fluxfederation.com).
+solution architect at [Xero](https://xero.com),
+founder of [CryptFolio](https://cryptfolio.com), and
+treasurer of [OuterSpaces Charitable Trust](https://www.outerspaces.org.nz).
 
 Some of my [open source projects](https://github.com/soundasleep) include
 [html2text](https://github.com/soundasleep/html2text),
