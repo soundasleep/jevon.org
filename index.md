@@ -26,6 +26,4 @@ Some of my [open source projects](https://github.com/soundasleep) include
 
 Contact me at [support@jevon.org](mailto:support@jevon.org) and use my [public key](/wiki/Public_Key.md).
 
-{% comment %}
 I am not currently looking for additional employment, but please consider [donating](https://www.outerspaces.org.nz/donate) to the groups I'm involved with.
-{% endcomment %}
