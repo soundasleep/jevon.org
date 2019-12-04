@@ -2,7 +2,7 @@
 
 2018 &ndash;
 : - _Advisory Group Member,_
-    Counting Ourselves Health Survey
+    [Counting Ourselves Health Survey](https://countingourselves.nz/index.php/community-advisory-group/)
   {% comment %}
   - _Volunteer_,
     Rails Bridge Wellington
