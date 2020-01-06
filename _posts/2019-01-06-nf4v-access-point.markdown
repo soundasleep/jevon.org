@@ -14,7 +14,7 @@ I learned heaps from [Using an Old Router to Extend your Wifi](https://www.geekz
 The overall architecture, with each connection being a physical ethernet cable:
 
 ```
-[ Fibre box ] <----> [ Main wifi router ] <----> [ Switch ] <----> [ NF4V router ] <----> additional clients
+[ Fibre box ] <----> [ Primary wifi router ] <----> [ Switch ] <----> [ NF4V router ] <----> additional clients
 ```
 
 The overall process was roughly (assuming you know how to `ping`, and the basics of IPv4/subnets/DHCP):
@@ -24,12 +24,13 @@ The overall process was roughly (assuming you know how to `ping`, and the basics
 3. Give the router a separate LAN address for admin in Advanced Setup > LAN. For example, if you had a network `192.168.0.x`,
    and your main router was `192.168.0.1`:
 
-       IP address:  192.168.0.2 (something different from your main router)
-       Subnet mask: 255.255.255.0 (same as other devices)
-       DHCP server: Disabled - very important!
+       IP address:  192.168.0.2     (something different from your primary router)
+       Subnet mask: 255.255.255.0   (same as other devices)
+       DHCP server: Enabled, but with a different range to your primary DHCP server
     
    The other settings don't matter. (It helps to have ICMP snooping enabled, so you can `ping` all the devices in the network.)
-4. Verify you can still access the admin page through wifi/ethernet, by setting a IPv4 address manually, e.g.:
+3. Configure your primary router to have a DHCP range that is different to the NF4V router.
+4. Verify you can still access the NH4V admin page through wifi/ethernet, by setting a IPv4 address manually, e.g.:
 
        IP address:  192.168.0.100   (something different again)
        Subnet mask: 255.255.255.0   (as above)
@@ -41,18 +42,18 @@ The overall process was roughly (assuming you know how to `ping`, and the basics
 6. Connect the NF4V router, using a normal ethernet cable, from LAN port 1 (called `eth0` by NF4V) into your main router.
 7. You should now be able to:
    - Ping the NF4V router
-   - Ping the main router from the NF4V router, and access its admin page
-   - Ping the NF4V router from the main router, and access its admin page
+   - Ping the primary router from the NF4V router, and access its admin page
+   - Ping the NF4V router from the primary router, and access its admin page
    - Ping other devices on your network
    - NOT be able to ping the outside world
-8. You're still connected with a manual IPv4 address. Turn that off, and reconnect. The main wifi router should serve you a new IP with DHCP.
+8. You're still connected with a manual IPv4 address. Turn that off, and reconnect. You should be served a new IP with DHCP (likely from the NH4V).
 9. You should now be able to:
    - Ping the NF4V router
-   - Ping the main router from the NF4V router, and access its admin page
-   - Ping the NF4V router from the main router, and access its admin page
+   - Ping the primary router from the NF4V router, and access its admin page
+   - Ping the NF4V router from the primary router, and access its admin page
    - Ping other devices on your network
    - Ping the outside world
-10. The final step is to change the NF4V wifi network name to be the same as your main wifi network name.
+10. The final step is to change the NF4V wifi network name/SSID to be the same as your primary wifi network name/SSID.
 
 ### What about setting up an ETH WAN connection using IP over Ethernet (IPoE)?
 
