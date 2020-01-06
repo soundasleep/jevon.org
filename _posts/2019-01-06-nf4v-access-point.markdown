@@ -26,10 +26,10 @@ The overall process was roughly (assuming you know how to `ping`, and the basics
 
        IP address:  192.168.0.2     (something different from your primary router)
        Subnet mask: 255.255.255.0   (same as other devices)
-       DHCP server: Enabled, but with a different range to your primary DHCP server
+       DHCP server: NOT enabled.
+       Mode:        Standard        (NOT blocking - I think this helps DHCP requests get through?)
     
    The other settings don't matter. (It helps to have ICMP snooping enabled, so you can `ping` all the devices in the network.)
-3. Configure your primary router to have a DHCP range that is different to the NF4V router.
 4. Verify you can still access the NH4V admin page through wifi/ethernet, by setting a IPv4 address manually, e.g.:
 
        IP address:  192.168.0.100   (something different again)
