@@ -20,7 +20,7 @@ description: >-
   A collection of articles, musings and development tips.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://soundasleep.jevon.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jevon.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: soundasleep
 github_username: soundasleep
 lastfm_username: jdub_dub
