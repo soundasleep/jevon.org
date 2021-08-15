@@ -10,13 +10,13 @@ redirect_from:
 
 Kia ora!
 
-I'm [Jevon Wright](/wiki/Jevon_Wright.md), a software engineer, architect, and community leader based in [Wellington, New Zealand](https://wellingtonnz.com). This is my home page! ;)
-
-I'm passionate about delivering awesome software, supporting community, open source, inclusion and diversity, cryptocurrencies and [music](https://last.fm/user/jdub_dub).
-I have a [PhD in Computer Science](/wiki/Research.md) and am currently
-solution architect at [Xero](https://xero.com),
+Architect, leader, entrepreneur, cryptocurrency expert, musician, and founder – [Jevon](/wiki/Jevon_Wright.md) wears more tech hats than a professional tech hat wearer. 
+She's worked with the top firms in [Wellington](https://wellingtonnz.com) across multiple stacks and builds teams as well as she builds software. 
+She is passionate about designing and delivering world-leading software; building high-EQ, inclusive, and diverse teams; and actively supporting and empowering communities. 
+She has a [PhD in Computer Science](/wiki/Research.md) 
+and is currently a Solutions Architect at [Xero](https://xero.com),
 founder of [CryptFolio](https://cryptfolio.com), and
-treasurer of [OuterSpaces Charitable Trust](https://www.outerspaces.org.nz).
+treasurer of [OuterSpaces Charitable Trust](https://outerspaces.org.nz).
 
 Some of my [open source projects](https://github.com/soundasleep) include
 [html2text](https://github.com/soundasleep/html2text),
