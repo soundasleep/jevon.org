@@ -28,7 +28,7 @@ Over time, I will try and fill the details of my current machine on this page.
 ## Other parts
 
 1. **13-inch MacBook Pro with Retina display, 2.7GHz Dual-core Intel Core i5, 8GB 1866MHz, 256GB SSD** from <a href="http://www.apple.com/nz/shop/buy-mac/macbook-pro?product=MF840X/A&step=config">Apple</a>
-2. 1. **Antec Three Hundred (Black) Mid-Tower Case** from <a href="http://www.pp.co.nz/products.php?pp_id=AA06578">Paradigm PCs</a> (Apr 2013)
+2. **Antec Three Hundred (Black) Mid-Tower Case** from <a href="http://www.pp.co.nz/products.php?pp_id=AA06578">Paradigm PCs</a> (Apr 2013)
 4. **Intel Core 2 Quad Q9400 2.66Ghz LGA775 6M FSB1333 Retail** from XP Computer
 5. 2x **Apacer 2GB DDR3-1333mhz cl9 (128x8) retail pack w/ lifetime warranty** from UEC
 6. **Intel DP45SG Intel P45 Socket T (LGA775) ATX Motherboard** from Paradigm PCs
