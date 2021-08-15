@@ -15,15 +15,17 @@ Over time, I will try and fill the details of my current machine on this page.
 
 ## Machine 1
 
-1. 2x **Lenovo ThinkVision P24h-10 - LED monitor - 23.8" - 2560 x 1440 WQHD - IPS - 300 cd/m² - 1000:1 - 4 ms - 2xHDMI, DisplayPort, USB-C** from Paradicm PCs (Sep 2018)
-1. **Corsair TX-M Series, TX750M, 750W ATX Power Supply, 80 plus Gold, Black** from Ascent Tech (Feb 2018)
-1. **Intel Core i7 6700K - 4 GHz - 4 cores - 8 threads - 8 MB cache - LGA1151 Socket** from Paradigm PCs (Nov 2016)
-1. **Corsair Vengeance® LPX 16GB (2x8GB) DDR4 DRAM 2400MHz C14** from PC Force Ltd (Nov 2016)
-1. **ASUS MAXIMUS VIII HERO Motherboard** from DTC Online Shop (Nov 2016)
-1. **CORSAIR CARBIDE SERIES 200R MID-TOWER CASE BLACK** from DTC Online Shop (Nov 2016)
-1. **CoolerMaster Hyper 212X** from DTC Online Shop (Nov 2016)
-1. **Gigabyte ATI Radeon R9 390 GV-R939G1 GAMING-8GD - OC Edition 8GB PCI-Express Video Card** from <a href="http://www.pp.co.nz/products.php?pp_id=AA64695">Paradigm PCs</a> (Oct 2015)
-1. Other less interesting parts
+1. **Kingston A2000 1TB M.2 NVMe Gen 3 X 4 Internal Solid State Drive, 5 Years Warranty** from PB Tech (Nov 2020)
+2. 2x **Lenovo ThinkVision P24h-10 - LED monitor - 23.8" - 2560 x 1440 WQHD - IPS - 300 cd/m² - 1000:1 - 4 ms - 2xHDMI, DisplayPort, USB-C** from Paradicm PCs (Sep 2018)
+3. **Corsair TX-M Series, TX750M, 750W ATX Power Supply, 80 plus Gold, Black** from Ascent Tech (Feb 2018)
+4. **Intel Core i7 6700K - 4 GHz - 4 cores - 8 threads - 8 MB cache - LGA1151 Socket** from Paradigm PCs (Nov 2016)
+5. **Corsair Vengeance® LPX 16GB (2x8GB) DDR4 DRAM 2400MHz C14** from PC Force Ltd (Nov 2016)
+6. **ASUS MAXIMUS VIII HERO Motherboard** from DTC Online Shop (Nov 2016)
+7. **CORSAIR CARBIDE SERIES 200R MID-TOWER CASE BLACK** from DTC Online Shop (Nov 2016)
+8. **CoolerMaster Hyper 212X** from DTC Online Shop (Nov 2016)
+9. **SanDisk Ultra II SSD 960GB** from DTC Online Shop (Feb 2016)
+10. **Gigabyte ATI Radeon R9 390 GV-R939G1 GAMING-8GD - OC Edition 8GB PCI-Express Video Card** from <a href="http://www.pp.co.nz/products.php?pp_id=AA64695">Paradigm PCs</a> (Oct 2015)
+11. Other less interesting parts
 
 ## Other parts
 
