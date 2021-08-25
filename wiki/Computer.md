@@ -13,7 +13,7 @@ Over time, I will try and fill the details of my current machine on this page.
 
 1. [Essential Software for Windows](Essential_Software_for_Windows.md)
 
-## Machine 1
+## Machine 1 [benchmark](https://www.userbenchmark.com/UserRun/45717412)
 
 1. **Kingston A2000 1TB M.2 NVMe Gen 3 X 4 Internal Solid State Drive, 5 Years Warranty** from PB Tech (Nov 2020)
 2. **Audio-Technica ATH-M30x Professional Studio Monitoring Headphones** from PB Tech (Apr 2020)
