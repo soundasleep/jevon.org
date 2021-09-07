@@ -13,7 +13,7 @@ Over time, I will try and fill the details of my current machine on this page.
 
 1. [Essential Software for Windows](Essential_Software_for_Windows.md)
 
-## Machine 1 [benchmark](https://www.userbenchmark.com/UserRun/45740752)
+## Machine 1 <small>[benchmark](https://www.userbenchmark.com/UserRun/45740752)</small>
 
 1. **Intel Rocket Lake Core i5-11600K CPU 6 Core / 12 Thread, Max Turbo 4.9GHz, Base Clock 3.9GHz** from [PB Tech](https://www.pbtech.co.nz/product/CPUIT11600K/Intel-Rocket-Lake-Core-i5-11600K-CPU-6-Core--12-Th) (Aug 2021)
 2. **EVGA GeForce RTX 3080 FTW3 Ultra Gaming LHR Graphics Card 10GB GDDR6X, PCIE 4.0, 3X Fan, Upto 1800MHz** from [PB Tech](https://www.pbtech.co.nz/product/VGAEVG3183/EVGA-GeForce-RTX-3080-FTW3-Ultra-Gaming-LHR-Graphi) (Aug 2021)
@@ -28,7 +28,7 @@ Over time, I will try and fill the details of my current machine on this page.
 11. 2x **Lenovo ThinkVision P24h-10 - LED monitor - 23.8" - 2560 x 1440 WQHD - IPS - 300 cd/m² - 1000:1 - 4 ms - 2xHDMI, DisplayPort, USB-C** from Paradicm PCs (Sep 2018)
 12. **Audio-Technica ATH-M30x Professional Studio Monitoring Headphones** from PB Tech (Apr 2020)
 
-## Machine 2 [benchmark](https://www.userbenchmark.com/UserRun/45717412)
+## Machine 2 <small>[benchmark](https://www.userbenchmark.com/UserRun/45717412)</small>
 
 1. **Corsair TX-M Series, TX750M, 750W ATX Power Supply, 80 plus Gold, Black** from Ascent Tech (Feb 2018)
 5. **Intel Core i7 6700K - 4 GHz - 4 cores - 8 threads - 8 MB cache - LGA1151 Socket** from Paradigm PCs (Nov 2016)
