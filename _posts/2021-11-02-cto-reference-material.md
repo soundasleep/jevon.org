@@ -9,6 +9,8 @@ I am not yet a CTO of a medium or large business, but here is a collection of bo
 
 *This is a work in progress. Feel free to contribute.*
 
+**See also: [my pins tagged with 'cto'](https://pinboard.in/u:jevon/t:cto/)**
+
 # Management
 
 ## An Elegant Puzzle - Will Larson
