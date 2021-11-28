@@ -9,7 +9,7 @@ tags:
   - Programming Snippets
 ---
 
-Is a programming language. See also [Eclipse](Eclipse.md), [EMF](EMF.md), [JMonkeyEngine](JMonkeyEngine.md).
+Is a programming language. See also [Eclipse](Eclipse.md), [EMF](EMF.md), [JMonkeyEngine](JMonkeyEngine.md), [Gradle](Gradle.md).
 
 1. <a href="http://code.google.com/p/iaml/source/browse/branches/2008-11-versioning/org.openiaml.model.diagram.custom/src/org/openiaml/model/diagram/custom/actions/MigrateModelAction.java?spec=svn337&r=337#189">Loading an XML DOM Document from an InputStream or IFile</a>
 1. <a href="http://code.google.com/p/iaml/source/browse/branches/2008-11-versioning/org.openiaml.model.diagram.custom/src/org/openiaml/model/diagram/custom/migrate/Migrate0To1.java?spec=svn337&r=337#72">Writing an XML DOM Document into an InputStream or IFile</a>
