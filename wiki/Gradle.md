@@ -1,8 +1,8 @@
 ---
 layout: page
-title:  AJAX
+title:  Gradle
 author: jevon
-date:   2014-04-02 14:59:15 +13:00
+date:   2021-11-28 16:41:00 +13:00
 tags:
   - Technology
   - Java
