@@ -30,8 +30,32 @@ header.site-header {
   }
 
   nav.site-nav {
-    .page-link {
-      color: $background;
+    .trigger {
+      padding-top: 4px;
+
+      @media screen and (max-width: $mobile) {
+        padding-top: initial;
+      }
+
+      .page-link {
+        color: $background;
+
+        &:not(:last-child) {
+          margin-right: 0; // wtf minima
+        }
+
+        @media screen and (max-width: $mobile) {
+          color: $text-color;
+        }
+      }
+
+      .dash {
+        color: transparentize($background, 0.5);
+
+        @media screen and (max-width: $mobile) {
+          display: none;
+        }
+      }
     }
 
     @media screen and (max-width: $mobile) {
@@ -39,10 +63,6 @@ header.site-header {
 
       background: $background;
       color: $text-color;
-
-      .page-link {
-        color: $text-color;
-      }
     }
   }
 

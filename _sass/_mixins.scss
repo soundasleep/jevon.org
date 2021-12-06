@@ -91,18 +91,9 @@ $dotted-links-height-ratio: (1.25 / 1.5);
   color: $highlight;
 
   background: radial-gradient(farthest-corner at $spacing-unit $spacing-unit,
-      mix($background, $highlight, 20%) 0%,
-      mix($background, $highlight, 30%) 100%);
+      mix($background, $highlight, 15%) 0%,
+      mix($background, $highlight, 40%) 200%);
 
-  border-top-color: mix($background, $highlight, 50%);
+  border-top-color: mix($background, $highlight, 0%);
   color: $background;
-  transition: background 0.2s;
-
-  &:hover {
-    background-color: mix($background, $highlight, 22%);
-
-    background: radial-gradient(farthest-corner at $spacing-unit $spacing-unit,
-        mix($background, $highlight, 22%) 0%,
-        mix($background, $highlight, 32%) 100%);
-  }
 }

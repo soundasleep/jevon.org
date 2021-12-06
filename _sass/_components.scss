@@ -1,3 +1,65 @@
 a {
   @include with-contextual-link-styles();
 }
+
+section {
+  &.alert {
+    background: transparentize($alert-color, 0.9);
+    //border: 1px solid $alert-color;
+    margin: $spacing-unit * 0.75;
+    padding: $spacing-unit * 0.75;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+
+    p:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
+
+$column-padding: 10px;
+
+.columns3 {
+  width: calc(100% - (($column-padding * 2) * 3));
+
+  > .column {
+    width: 33%;
+    float: left;
+    margin-bottom: ($column-padding * 2);
+  }
+}
+
+.columns2 {
+  width: calc(100% - (($column-padding * 2) * 2));
+
+  > .column {
+    width: 50%;
+    float: left;
+    margin-bottom: ($column-padding * 2);
+  }
+}
+
+.columns2-1 {
+  width: calc(100% - (($column-padding * 2) * 2));
+
+  > .column, > .column2 {
+    float: left;
+    margin-bottom: ($column-padding * 2);
+  }
+
+  > .column { width: 33%; }
+  > .column2 { width: 67%; }
+
+  @media screen and (max-width: $mobile) {
+    > .column, > .column2 {
+      width: 100%;
+    }
+  }
+}
+
+.columns2, .columns3, .columns2-1 {
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}

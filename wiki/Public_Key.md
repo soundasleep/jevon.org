@@ -10,7 +10,9 @@ redirect_from:
   - "/wiki/Public Key"
 ---
 
-Here's my [GPG](gpg.md) public key. Use this if you'd like to encrypt any communications sent to me. Also see https://keybase.io/jevon
+Here's my [GPG](gpg.md) public key. Use this if you'd like to encrypt any communications sent to me.
+
+Also see [https://keybase.io/jevon](https://keybase.io/jevon)
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----

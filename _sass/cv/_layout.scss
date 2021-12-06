@@ -96,7 +96,7 @@ a {
 .columns3 {
   width: calc(100% - (($padding * 2) * 3));
 
-  .column {
+  > .column {
     width: 33%;
     float: left;
     margin-bottom: ($padding * 2);
@@ -106,14 +106,26 @@ a {
 .columns2 {
   width: calc(100% - (($padding * 2) * 2));
 
-  .column {
+  > .column {
     width: 50%;
     float: left;
     margin-bottom: ($padding * 2);
   }
 }
 
-.columns2, .columns3 {
+.columns2-1 {
+  width: calc(100% - (($padding * 2) * 2));
+
+  > .column, > .column2 {
+    float: left;
+    margin-bottom: ($padding * 2);
+  }
+
+  > .column { width: 33%; }
+  > .column2 { width: 67%; }
+}
+
+.columns2, .columns3, .columns2-1 {
   &:after {
     content: '';
     display: block;
