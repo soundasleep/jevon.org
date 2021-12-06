@@ -5,6 +5,11 @@
   <br>
   St John, Wellington, New Zealand
 
+2021
+: [Advanced Developing on AWS](https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=2opRriJOQEyBI1l7GFz7Ig2)
+  <br>
+  AWS Training and Certification
+
 2019
 : Mental Health First Aid
   <br>
