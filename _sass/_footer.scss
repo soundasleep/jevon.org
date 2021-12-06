@@ -41,8 +41,10 @@ footer.site-footer {
         fill: mix($footer-color, $grey-color, 20%);
       }
 
-      &:hover > svg.svg-icon {
-        fill: $background;
+      &:hover, &:focus {
+        > svg.svg-icon {
+          fill: $background;
+        }
       }
     }
 
@@ -57,8 +59,10 @@ footer.site-footer {
         fill: mix($footer-color, $grey-color, 20%);
       }
 
-      &:hover > svg.svg-icon {
-        fill: $background;
+      &:hover, &:focus {
+        > svg.svg-icon {
+          fill: $background;
+        }
       }
     }
   }

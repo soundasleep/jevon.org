@@ -45,7 +45,7 @@ $dotted-links-height-ratio: (1.25 / 1.5);
     text-decoration: underline;
     text-decoration-color: transparentize($link-color, 1.0 - $alpha); // can't do dotted links
 
-    &:hover {
+    &:hover, &:focus {
       color: $hover-color;
       text-decoration: underline;
       text-decoration-color: transparentize($hover-color, 1.0 - ($alpha * 2)); // can't do dotted links nicely
@@ -58,7 +58,7 @@ $dotted-links-height-ratio: (1.25 / 1.5);
     &.highlight-inline {
       text-decoration: none;
 
-      &:hover {
+      &:hover, &:focus {
         text-decoration: none;
 
         > span {
