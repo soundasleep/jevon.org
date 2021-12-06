@@ -1,6 +1,6 @@
 <section class="abstract">
 I am a passionate, talented, and high-EQ software engineer, architect, teacher, researcher, and
-people-centered leader, with fourteen years experience in delivering software
+people-centered leader, with two decades' experience in delivering software
 and leading communities.
 </section>
 

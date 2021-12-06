@@ -11,7 +11,7 @@ permalink: /cv
 
 <section class="title">
   <h1>Dr Jevon Wright</h1>
-  <h2>Curriculum Vitae &ndash; {{ site.time | date: "%B %Y" }}</h2>
+  <h2>Curriculum Vitae &ndash; November 2021</h2>
 </section>
 
 <section>

@@ -4,6 +4,7 @@ _site
 .DS_Store
 .mapping.yml
 .byebug_history
+.svn
 
 # private data! not available on production
 _includes/cv/references.md

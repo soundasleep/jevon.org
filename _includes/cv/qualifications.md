@@ -1,14 +1,14 @@
 ## Qualifications
 
-2019
-: Mental Health First Aid
-  <br>
-  CoLiberate, Wellington, New Zealand
-
 2015 &ndash;
 : Provide First Aid - Level 2
   <br>
   St John, Wellington, New Zealand
+
+2019
+: Mental Health First Aid
+  <br>
+  CoLiberate, Wellington, New Zealand
 
 2015
 : Te Reo M&#257;ori - Introductory 2

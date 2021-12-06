@@ -1,15 +1,34 @@
 ## Recent Employment History
 
-2019 &ndash;
+2019 &ndash; 2021
+: - **Solutions Architect**
+  - _[Xero](https://xero.com)_
+  - Wellington, New Zealand
+
+  As the key architect for a major, all-of-Xero digital transformation,
+  I supported Xeros working on the modernisation of hundreds of components around the globe.
+  Provided visualised clarity, framing of the future, and bridging between worlds.
+  Supported the development of a new Architecture Practice (EA) team.
+
+  {% comment %}
+  - Visualised clarity
+  - Framing of the future
+  - Systemic cohesion
+  - Goldilocks governance
+  - Demystify complexity
+  - Bridging between worlds
+  {% endcomment %}
+
+2019 &ndash; 2019
 : - **Front-end Lead**
   - _[Flux Federation](https://fluxfederation.com)_
   - Wellington, New Zealand
 
-  I am currently leading an internal team of six in the requirements capture,
-  technical architecture, development, and deployment of our
+  Led an internal team of six in the requirements capture,
+  technical architecture, development, and deployment of an
   internal component library and design system "APL".
-  This design system is being used by hundreds of developers
-  and operators across our three markets.
+  This design system is used by hundreds of developers
+  and operators across three markets.
 
 2013 &ndash;
 : - **Founder**
@@ -60,6 +79,7 @@
   Using EmberJS, Ruby on Rails, Javascript, Coffeescript, JQuery, Grunt, HAML, SCSS, PostgreSQL, Mocha, Android, Cordova etc.
   {% endcomment %}
 
+{% comment %}
 2011 &ndash; 2014
 : - **Open Source Software Developer**
   - Massey University
@@ -76,7 +96,6 @@
   Apache, Tomcat etc.
   {% endcomment %}
 
-{% comment %}
 2012
 : - **Lecturer**
   - _COSC,_
