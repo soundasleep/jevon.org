@@ -6,7 +6,9 @@ a {
   color: darken($brand-color, 15%);
   text-decoration: none;
 
-  transition: text-decoration 0.2s, color 0.2s, border 0.2s;
+  position: relative;
+  top: 0;
+  transition: all 0.2s, top 0.1s;
 
   &:visited, &:active {
     color: darken($brand-color, 30%);
@@ -15,6 +17,7 @@ a {
   &:hover {
     color: $text-color;
     text-decoration: underline;
+    top: -2px;
 
     > svg.svg-icon {
       fill: $text-color;
