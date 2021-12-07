@@ -69,3 +69,7 @@ I found [this interesting solution](https://stackoverflow.com/a/1424078/39531):
 ```
 "C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x86\mt.exe" -manifest DesktopLauncher.exe.manifest -outputresource:"DesktopLauncher.exe;#1"
 ```
+
+## Other solutions
+
+This might be solved by [using lwjgl 3.1.4+, not 2.x](https://github.com/LWJGL/lwjgl3/issues/252).
