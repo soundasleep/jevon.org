@@ -2,7 +2,7 @@
 layout: page
 title:  libgdx
 author: jevon
-date:   2021-07-12 17:19:00 +13:00
+date:   2021-12-07 17:19:00 +13:00
 tags:
   - Technology
   - Java
