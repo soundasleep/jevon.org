@@ -47,9 +47,9 @@ Does running the .jar solve the DPI scaling problem? i.e. `java -jar app/desktop
 
 ## Solution
 
-I found [tis interesting solution](https://stackoverflow.com/a/1424078/39531):
+I found [this interesting solution](https://stackoverflow.com/a/1424078/39531):
 
-1. Install [he Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/)
+1. Install [the Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/)
 2. Create a new manifest file that highlights your application is DPI-aware:
 
 ```xml
