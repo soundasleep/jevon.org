@@ -33,6 +33,12 @@ It assumes that you have the power/authority/structure _to_ delegate, however.
 
 # Being effective
 
+### Fierce Conversations - Susan Scott
+
+<a target="_blank"  href="https://www.amazon.com/gp/product/0425193373/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0425193373&linkCode=as2&tag=jevonorg-20&linkId=a49bec53e29a2cf27962e16f86917268"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0425193373&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=jevonorg-20" ></a>
+
+One of my top-rated books on having effective conversations, both at work and outside. I've struggled with being direct, it wasn't until this book I learned that to be direct _is_ to be kind, if done in the right way. Highly recommended!!
+
 ### Measure What Matters - John Doerr
 
 <a target="_blank"  href="https://www.amazon.com/gp/product/B078FZ9SYB/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B078FZ9SYB&linkCode=as2&tag=jevonorg-20&linkId=1b9b3349e5f161840c17cfc06982203b"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B078FZ9SYB&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=jevonorg-20" ></a>
