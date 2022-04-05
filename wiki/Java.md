@@ -22,7 +22,8 @@ Is a programming language. See also [Eclipse](Eclipse.md), [EMF](EMF.md), [JMonk
 1. <a href="http://www.javaworld.com/javaworld/jw-12-2000/jw-1229-traps.html">When Process.waitFor() hangs forever</a>
 1. [Runtime.exec returns -1073741515 when providing environment variables](Runtime.exec_returns_-1073741515_when_providing_environment_variables.md)
 1. <a href="http://www.ibm.com/developerworks/java/library/os-eclipse-javadebug/index.html">Debugging Java applications remotely with Eclipse</a>
-1. <a href="http://www.delicious.com/jevonwright/java" class="delicious">Other pages tagged as "java"</a>
+2. [Groovy](Groovy.md)
+3. <a href="http://www.delicious.com/jevonwright/java" class="delicious">Other pages tagged as "java"</a>
 
 ```
 private abstract static strictfp class X { public static final synchronized strictfp void x(Object[] e, List x) { 
