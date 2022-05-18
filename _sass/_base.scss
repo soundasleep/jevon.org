@@ -3,6 +3,8 @@
  * built off minima
  */
 a {
+  $hover-link-vertical-offset: 2px;
+
   color: darken($brand-color, 15%);
   text-decoration: none;
 
@@ -17,7 +19,7 @@ a {
   &:hover, &:focus {
     color: $text-color;
     text-decoration: underline;
-    top: -2px;
+    top: -$hover-link-vertical-offset;
 
     > svg.svg-icon {
       fill: $text-color;
@@ -26,6 +28,17 @@ a {
 
   > svg.svg-icon {
     transition: fill 0.2s;
+  }
+
+  > img {
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+    transition: box-shadow 0.1s;
+  }
+
+  &:hover, &:focus {
+    > img {
+      box-shadow: 1px (1px + $hover-link-vertical-offset) (10px + $hover-link-vertical-offset) rgba(0,0,0,0.5);
+    }
   }
 }
 

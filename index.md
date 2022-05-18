@@ -8,7 +8,7 @@ redirect_from:
 
 Tēnā koutou e hoa mā!
 
-I'm a software architect, enterpreneur, musician, [researcher](/wiki/Research.md), and community leader based in beautiful [Te Whanganui-a-Tara, Aotearoa](https://wellingtonnz.com).
+I'm a software architect, [game designer](https://stormcloak.games), enterpreneur, musician, [researcher](/wiki/Research.md), and community leader based in beautiful [Te Whanganui-a-Tara, Aotearoa](https://wellingtonnz.com).
 
 Welcome to my little slice of the Internet.
 
@@ -18,7 +18,9 @@ Welcome to my little slice of the Internet.
   
 The game is called _[Adaptory](https://adaptorygame.com)_, and is a base-building survival game, combining multiple complex simulations with a story-rich world.
 
-I'll be posting updates of my progress on the [website](https://adaptorygame.com), [blog](https://stormcloak.games/blog), or on [Patreon](https://patreon.com/jevon).
+I'll be posting updates of my progress on the [website](https://adaptorygame.com), the [dev blog](https://stormcloak.games/blog), or on [Patreon](https://patreon.com/jevon).
+
+[![Adaptory logo](/img/adaptory pre-alpha 16x9@2x.png)](https://adaptorygame.com)
 {% endcapture %}
 {{ temp | markdownify }}
 </section>
