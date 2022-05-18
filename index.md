@@ -15,10 +15,10 @@ Welcome to my little slice of the Internet.
 <section class="alert">
 {% capture temp %}
 **[I'm making a game! 🙀🎉](https://stormcloak.games/2021/11/17/going-fulltime)**
+  
+The game is called _[Adaptory](https://adaptorygame.com)_, and is a base-building survival game, combining multiple complex simulations with a story-rich world.
 
-As of today it's still missing a name, but it's shaping up to be a base builder/colony sim.
-
-I'll be posting updates of my progress on the [blog](https://stormcloak.games/blog) or on [Patreon](https://patreon.com/jevon).
+I'll be posting updates of my progress on the [website](https://adaptorygame.com), [blog](https://stormcloak.games/blog), or on [Patreon](https://patreon.com/jevon).
 {% endcapture %}
 {{ temp | markdownify }}
 </section>
