@@ -13,6 +13,12 @@
   @media print {
     margin-top: $padding * 2;
   }
+
+  h3 {
+    font-size: 100%;
+    margin-top: $padding * -0.75;
+    font-weight: normal;
+  }
 }
 
 .abstract {

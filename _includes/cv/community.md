@@ -1,5 +1,9 @@
 ## Selected Community Activities
 
+2019 &ndash;
+: - _Musician_ (bass, drums),
+    Various Wellington community theatres
+
 2017 &ndash;
 : - _Mentor_,
     Winter Mentor

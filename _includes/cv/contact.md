@@ -23,4 +23,4 @@ LinkedIn
 : [https://nz.linkedin.com/in/jevonwright](https://nz.linkedin.com/in/jevonwright)
 
 Member of
-: InternetNZ (2010&ndash;), IITP (formerly NZSC, 2010&ndash;)
+: [InternetNZ](https://internetnz.nz/) (2010&ndash;), [IT Professionals NZ](https://itp.nz/) (2010&ndash;), [NZGDA](https://nzgda.com/) (2021&ndash;)

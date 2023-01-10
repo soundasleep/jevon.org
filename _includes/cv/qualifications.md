@@ -1,7 +1,7 @@
 ## Qualifications
 
 2021 &ndash; 
-: Xero advisor certified
+: Xero Advisor certified
   <br>
   Xero Central
 
@@ -27,8 +27,6 @@
 
 2007 &ndash; 2011
 : Ph.D. (Computer Science)
-  <br>
-  School of Engineering and Advanced Technology
   <br>
   Massey University, Palmerston North, New Zealand
   <br>
