@@ -11,7 +11,12 @@ permalink: /cv
 
 <section class="title">
   <h1>Dr Jevon Wright</h1>
-  <h2>Curriculum Vitae &ndash; November 2021</h2>
+  <h2>Curriculum Vitae, January 2023</h2>
+  <h3>
+    <a href="mailto:jevon@jevon.org">jevon@jevon.org</a>
+    &ndash;
+    <a href="https://jevon.org">https://jevon.org</a>
+  </h3>
 </section>
 
 <section>
@@ -28,29 +33,37 @@ permalink: /cv
   {{ temp | markdownify }}
 </section>
 {% endcomment %}
+{% comment %}
 <section class="open-source page-break-after">
   {% capture temp %}{% include cv/open-source.md %}{% endcapture %}
   {{ temp | markdownify }}
 </section>
-<section class="history page-break-after">
+{% endcomment %}
+<section class="history">
   {% capture temp %}{% include cv/history.md %}{% endcapture %}
   {{ temp | markdownify }}
 </section>
+{% comment %}
 <section>
   {% capture temp %}{% include cv/talks.md %}{% endcapture %}
   {{ temp | markdownify }}
 </section>
+{% endcomment %}
+{% comment %}
 <section>
   {% capture temp %}{% include cv/publications.md %}{% endcapture %}
   {{ temp | markdownify }}
 </section>
+{% endcomment %}
 <section>
   {% capture temp %}{% include cv/community.md %}{% endcapture %}
   {{ temp | markdownify }}
 </section>
+{% comment %}
 {%- if jekyll.environment != 'production' -%}
   <section class="references">
     {% capture temp %}{% include cv/references.md %}{% endcapture %}
     {{ temp | markdownify }}
   </section>
 {% endif %}
+{% endcomment %}

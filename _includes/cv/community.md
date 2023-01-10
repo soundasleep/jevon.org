@@ -32,9 +32,11 @@
   - _Facilitator,_
     Tranzform Wellington
 
+{% comment %}
 2012 &ndash; 2014
 : - _Moderator,_
     /r/starcraft
+{% endcomment %}
 
 {% comment %}
 2012
@@ -48,9 +50,11 @@
     NZCSRSC 2011
 {% endcomment %}
 
+{% comment %}
 2010 &ndash; 2013
 : - _Program Committee,_
     AI Mashup Challenge
+{% endcomment %}
 
 {% comment %}
 2008 &ndash; 2011

@@ -1,14 +1,19 @@
 ## Recent Employment History
 
-2019 &ndash; 2021
-: - **Solutions Architect**
-  - _[Xero](https://xero.com)_
+2021 &ndash;
+: - **Director** &ndash; _[Stormcloak Games](https://stormcloak.games)_
   - Wellington, New Zealand
 
+2019 &ndash; 2021
+: - **Solutions Architect** &ndash;  _[Xero](https://xero.com)_
+  - Wellington, New Zealand
+
+  {% comment %}
   As the key architect for a major, all-of-Xero digital transformation,
   I supported Xeros working on the modernisation of hundreds of components around the globe.
   Provided visualised clarity, framing of the future, and bridging between worlds.
   Supported the development of a new Architecture Practice (EA) team.
+  {% endcomment %}
 
   {% comment %}
   - Visualised clarity
@@ -20,37 +25,22 @@
   {% endcomment %}
 
 2019 &ndash; 2019
-: - **Front-end Lead**
-  - _[Flux Federation](https://fluxfederation.com)_
+: - **Front-end Lead** &ndash; _[Flux Federation](https://fluxfederation.com)_
   - Wellington, New Zealand
 
+  {% comment %}
   Led an internal team of six in the requirements capture,
   technical architecture, development, and deployment of an
   internal component library and design system "APL".
   This design system is used by hundreds of developers
   and operators across three markets.
-
-2013 &ndash;
-: - **Founder**
-  - _[CryptFolio](https://cryptfolio.com)_
-  - Wellington, New Zealand
-
-  CryptFolio is a global platform for traders, developers, fund managers,
-  and businesses to manage and report on cryptocurrencies.
-  As sole founder, I have been responsible for the design, development,
-  deployment, maintenance, marketing, and strategy for the company.
-
-  {% comment %}
-  This involves software/web engineering, system administration, database replication,
-  project management, UI design, marketing and Android development. Uses PHP, Javascript, CSS, SCSS, MySQL, Composer, APIs,
-  Android, JQuery etc.
   {% endcomment %}
 
 2015 &ndash; 2017
-: - **Senior Developer, Team Lead**
-  - _[Powershop](https://powershop.co.nz)_
+: - **Senior Developer, Team Lead** &ndash; _[Powershop](https://powershop.co.nz)_
   - Wellington, New Zealand
 
+{% comment %}
   Over three years I held the roles of
   Senior Software Developer, Team Lead, and then Functional Lead,
   for our suite of public and in-house software products
@@ -60,7 +50,9 @@
   {% comment %}
   Using Ruby on Rails, Javascript, React, SCSS etc.
   {% endcomment %}
+{% endcomment %}
 
+{% comment %}
 2014 &ndash; 2015
 : - **Developer**
   - _[Rabid Technologies](https://rabid.co.nz)_
@@ -77,6 +69,24 @@
   {% comment %}
   Introduced using wikis for sharing knowledge within the company.
   Using EmberJS, Ruby on Rails, Javascript, Coffeescript, JQuery, Grunt, HAML, SCSS, PostgreSQL, Mocha, Android, Cordova etc.
+  {% endcomment %}
+{% endcomment %}
+
+2013 &ndash;
+: - **Founder** &ndash; _[CryptFolio](https://cryptfolio.com)_
+  - Wellington, New Zealand
+
+  {% comment %}
+  CryptFolio is a global platform for traders, developers, fund managers,
+  and businesses to manage and report on cryptocurrencies.
+  As sole founder, I have been responsible for the design, development,
+  deployment, maintenance, marketing, and strategy for the company.
+  {% endcomment %}
+
+  {% comment %}
+  This involves software/web engineering, system administration, database replication,
+  project management, UI design, marketing and Android development. Uses PHP, Javascript, CSS, SCSS, MySQL, Composer, APIs,
+  Android, JQuery etc.
   {% endcomment %}
 
 {% comment %}
