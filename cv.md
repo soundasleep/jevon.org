@@ -7,6 +7,9 @@ permalink: /cv
 # jekyll doesn't support including markdown yet. Ugh.
 # This is why we have the nasty { capture } junk.
 # https://github.com/jekyll/jekyll/issues/1303
+#
+# To get the PDF to print out correctly:
+# A4, 93% percent, 0 top/bottom margins, normal left/right margins
 ---
 
 <section class="title">
