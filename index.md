@@ -8,7 +8,7 @@ redirect_from:
 
 Tēnā koutou e hoa mā!
 
-I'm a software architect, [game designer](https://stormcloak.games), enterpreneur, musician, [researcher](/wiki/Research.md), and community leader based in beautiful [Te Whanganui-a-Tara, Aotearoa](https://wellingtonnz.com).
+My name is Jevon (she/her), and I'm a software architect, [game designer](https://stormcloak.games), enterpreneur, musician, [researcher](/wiki/Research.md), and community leader based in beautiful [Te Whanganui-a-Tara, Aotearoa](https://wellingtonnz.com).
 
 Welcome to my little slice of the Internet.
 
