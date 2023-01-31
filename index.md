@@ -20,7 +20,7 @@ The game is called _[Adaptory](https://adaptorygame.com)_, and is a base-buildin
 
 I'll be posting updates of my progress on the [website](https://adaptorygame.com), the [dev blog](https://stormcloak.games/blog), or on [Patreon](https://patreon.com/jevon).
 
-[![Adaptory logo](/img/adaptory pre-alpha 16x9@2x.png)](https://adaptorygame.com)
+[![Adaptory logo](/img/adaptory 16x9 2@2x.png)](https://adaptorygame.com)
 {% endcapture %}
 {{ temp | markdownify }}
 </section>
