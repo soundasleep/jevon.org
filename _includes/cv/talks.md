@@ -1,5 +1,9 @@
 ## Selected Talks
 
+2023
+: _"Indie game production 101,"_
+  Code Camp Wellington
+
 2019
 : _"Some lessons from 15 months of running a startup,"_
   Code Camp Wellington
