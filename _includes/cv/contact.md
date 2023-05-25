@@ -1,8 +1,10 @@
+{% comment %}
 <section class="abstract">
 I am a passionate, talented, and high-EQ software engineer, architect, teacher, researcher, and
 people-centered leader, with two decades' experience in delivering software
 and leading communities.
 </section>
+{% endcomment %}
 
 ## Contact Details
 
@@ -15,9 +17,6 @@ Email
 
 Web
 : [https://jevon.org](https://jevon.org)
-
-Twitter
-: [@soundasleep](https://twitter.com/soundasleep)
 
 LinkedIn
 : [https://nz.linkedin.com/in/jevonwright](https://nz.linkedin.com/in/jevonwright)

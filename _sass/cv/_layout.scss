@@ -15,7 +15,7 @@ html {
   padding: 0;
 
   @media print {
-    margin: ($padding * 2);
+    margin: ($padding * 2) ($padding * 5);
 
     .page-break-after + * {
       margin-top: ($padding * 5);
