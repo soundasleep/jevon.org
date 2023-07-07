@@ -68,4 +68,6 @@ Amazingly this book was released in mid-2021 from a New Zealand perspective. It'
 
 I still want to read and potentially add to this list:
 
-* [Crucial Conversations: Tools for Talking When Stakes are High ](https://www.amazon.com/gp/product/1260474186/ref=as_li_tl?ie=UTF8&tag=jevonorg-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1260474186&linkId=f01ed351c74e3f16529f37796bc36646)
+* [Crucial Conversations: Tools for Talking When Stakes are High ](https://www.amazon.com/gp/product/1260474186/ref=as_li_tl?ie=UTF8&tag=jevonorg-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1260474186&linkId=f01ed351c74e3f16529f37796bc36646
+* Cynefin framework (I have already read this, it's a good framework)
+
