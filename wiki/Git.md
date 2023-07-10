@@ -135,3 +135,28 @@ You have to use one of:
 
 * `git reset --hard COMMIT_HASH`
 * `git reset --hard HEAD~1` (thanks @charliesome)
+
+## Git LFS conflicts from changing tracked assets
+
+```
+$> git reset --hard
+Encountered 1 file(s) that should have been pointers, but weren't:
+        core/assets/tile1.png
+HEAD is now at ...
+
+$> git pull
+Updating aaa..bbb
+error: Your local changes to the following files would be overwritten by merge:
+        core/assets/tile1.png
+Please commit your changes or stash them before you merge.
+Aborting
+```
+
+The only way I found to fix this was to `git rm --cached core/assets/tile1.png` 
+and then immediately `git add core/assets/tile1.png`, and
+then submitting this as a commit `git commit`. ([via StackOverflow](https://stackoverflow.com/q/46704572/39531))
+
+> Note that GitHub doesn't like displaying this commit:
+>
+> ![image](https://github.com/soundasleep/jevon.org/assets/3889656/06d2cdcb-669b-4749-b497-d7709bd0e49c)
+
