@@ -23,6 +23,12 @@ Latest 20 commits, with `git latest`:
 git config --global alias.latest "log --pretty='%C(yellow)%h %C(cyan)%cd %C(green)%aN%C(auto)%d %Creset%s' --graph --date=relative --date-order -20"
 ```
 
+Latest 5 tags, with `git latest-tags`:
+
+```
+git config --global alias.latest-tags "for-each-ref refs/tags/ --count=5 --sort=-refname --format='%(refname:short) - %(contents:subject)'"
+```
+
 ## Things [SVN](SVN.md) can do that [Git](Git.md) can't
 
 1. Checkout into a non-empty directory; you have to checkout into a temporary directory, move the .git folder into the non-empty directory, and run a `git reset --hard`
