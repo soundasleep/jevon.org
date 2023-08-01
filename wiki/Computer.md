@@ -18,7 +18,7 @@ Over time, I will try and fill the details of my current machine on this page.
 1. **Intel Rocket Lake Core i5-11600K CPU 6 Core / 12 Thread, Max Turbo 4.9GHz, Base Clock 3.9GHz** from [PB Tech](https://www.pbtech.co.nz/product/CPUIT11600K/Intel-Rocket-Lake-Core-i5-11600K-CPU-6-Core--12-Th) (Aug 2021)
 2. **EVGA GeForce RTX 3080 FTW3 Ultra Gaming LHR Graphics Card 10GB GDDR6X, PCIE 4.0, 3X Fan, Upto 1800MHz** from [PB Tech](https://www.pbtech.co.nz/product/VGAEVG3183/EVGA-GeForce-RTX-3080-FTW3-Ultra-Gaming-LHR-Graphi) (Aug 2021)
 3. **ASUS TUF GAMING H570-PRO WIFI ATX Form Motherboard** from [PB Tech](https://www.pbtech.co.nz/product/MBDASU57311/ASUS-TUF-GAMING-H570-PRO-WIFI-ATX-Form-For-Intel-1) (Aug 2021)
-4. **Corsair MP600 1TB PCIe Gen4 M.2 NVMe SSD** from [Computer Lounge](https://www.computerlounge.co.nz/shop/components/storage/solid-state-drives/corsair-mp600-core-1tb-pcie-gen4-m2-nvme-ssd) (Aug 2021) (unfortunately DOA and being replaced)
+4. **Corsair MP600 1TB PCIe Gen4 M.2 NVMe SSD** from [Computer Lounge](https://www.computerlounge.co.nz/shop/components/storage/solid-state-drives/corsair-mp600-core-1tb-pcie-gen4-m2-nvme-ssd) (Aug 2021)
 5. **Kingston A2000 1TB M.2 NVMe Gen 3 X 4 Internal Solid State Drive, 5 Years Warranty** from PB Tech (Nov 2020)
 6. **TEAM T-Force DELTA RGB DDR4 32GB (2x16GB) 3600MHz CL18 RAM** from [PC Force](https://www.pcforce.co.nz/team-t-force-delta-rgb-ddr4-32gb-2x16gb-3600mhz-rgb-lighting-effect) (Aug 2021)
 7. **CORSAIR RM750x V2 Fully Modular 80 Plus Gold Power Supply** from [PC Force](https://www.pcforce.co.nz/power-supplies/corsair-rm750x-v2-fully-modular-80-plus-gold-power-supply-cp-9020179-au) (Aug 2021)
