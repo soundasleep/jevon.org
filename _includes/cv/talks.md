@@ -1,6 +1,14 @@
 ## Selected Talks
 
 2023
+: Guest lecturer, _SWEN 225 Software Design_,
+  Victoria University of Wellington
+
+2023
+: _"Studio Wizards:  Unlocking the Game Dev World"_ (panel),
+  NZGDC 2023
+
+2023
 : _"Indie game production 101,"_
   Code Camp Wellington
 
