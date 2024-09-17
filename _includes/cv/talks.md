@@ -1,11 +1,15 @@
 ## Selected Talks
 
+2024
+: Panelist, [_"Inclusion and Diversity in Strategy Games"_](https://www.youtube.com/watch?v=uxchchABHGI),
+  TactiCon 2024
+
 2023
 : Guest lecturer, _SWEN 225 Software Design_,
   Victoria University of Wellington
 
 2023
-: _"Studio Wizards:  Unlocking the Game Dev World"_ (panel),
+: Panelist, _"Studio Wizards:  Unlocking the Game Dev World"_,
   NZGDC 2023
 
 2023
