@@ -106,3 +106,12 @@ Assuming that you have all the correct .project settings (e.g. the PDE PluginNat
 
 This occurs in an Eclipse environment when you haven't loaded up the correct Eclipse plugins. I'm not sure what they are, but simply selecting "org.eclipse.*" plugins works.
 
+## My essential custom keyboard shortcuts
+
+- `Ctrl-P` -> Open Resource (just like Sublime Text)
+- `Ctrl-Alt-Shift-F` -> Format (make it less likely to trigger)
+- `Ctrl-Shift-W` -> Run JUnit Test
+- `Ctrl-Shift-F` -> Generate Constructor using Fields
+- `Ctrl-Shift-G` -> Generate Getters and Setters
+
+Also change the default modifier key for Hyperlinking to `Alt`, not `Ctrl` (I can't remember why, something about performance)
