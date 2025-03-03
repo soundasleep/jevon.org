@@ -113,7 +113,8 @@ This occurs in an Eclipse environment when you haven't loaded up the correct Ecl
 - `Ctrl-Shift-W` -> Run JUnit Test
 - `Ctrl-Shift-F` -> Generate Constructor using Fields
 - `Ctrl-Shift-G` -> Generate Getters and Setters
-- `Ctrl-Shift-I` -> Organise imports
+- `Ctrl-Shift-I` -> Override/Implement Methods
+- `Ctrl-Shift-O` -> Organise imports
 - `Ctrl-Shift-E` -> Show In (Package Explorer)
 
 Also change the default modifier key for Hyperlinking to `Alt`, not `Ctrl` (I can't remember why, something about performance)
