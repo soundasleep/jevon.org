@@ -11,7 +11,7 @@ permalink: /cv
 
 <section class="title">
   <h1>Dr Jevon Wright</h1>
-  <h2>Curriculum Vitae &ndash; May 2023</h2>
+  <h2>Curriculum Vitae &ndash; May 2025</h2>
 </section>
 
 <section>

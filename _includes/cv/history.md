@@ -1,7 +1,7 @@
 ## Recent Employment History
 
 2021 &ndash;
-: - **Director**
+: - **Founder**
   - _[Stormcloak Limited](https://stormcloak.nz)_, Wellington, New Zealand
 
 2019 &ndash; 2021
