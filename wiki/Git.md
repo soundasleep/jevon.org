@@ -15,6 +15,21 @@ tags:
 1. <a href="https://github.com/soundasleep/statgit/" class="github">statgit</a> - generate Git development statistics
 1. [Getting Git to work over SSH in Windows](Getting_Git_to_work_over_SSH_in_Windows.md)
 
+## Nifty aliases
+
+Latest 20 commits, with `git latest`:
+
+```bash
+git config --global alias.latest "log --pretty='%C(yellow)%h %C(cyan)%cd %C(green)%aN%C(auto)%d %Creset%s' --graph --date=relative --date-order -20"
+```
+
+Latest 5 tags, with `git latest-tags`,
+using version order:
+
+```bash
+git config --global alias.latest-tags "for-each-ref refs/tags/ --count=5 --sort=-version:refname --format='%(refname:short) - %(contents:subject)'"
+```
+
 ## Things [SVN](SVN.md) can do that [Git](Git.md) can't
 
 1. Checkout into a non-empty directory; you have to checkout into a temporary directory, move the .git folder into the non-empty directory, and run a `git reset --hard`
@@ -127,3 +142,28 @@ You have to use one of:
 
 * `git reset --hard COMMIT_HASH`
 * `git reset --hard HEAD~1` (thanks @charliesome)
+
+## Git LFS conflicts from changing tracked assets
+
+```
+$> git reset --hard
+Encountered 1 file(s) that should have been pointers, but weren't:
+        core/assets/tile1.png
+HEAD is now at ...
+
+$> git pull
+Updating aaa..bbb
+error: Your local changes to the following files would be overwritten by merge:
+        core/assets/tile1.png
+Please commit your changes or stash them before you merge.
+Aborting
+```
+
+The only way I found to fix this was to `git rm --cached core/assets/tile1.png` 
+and then immediately `git add core/assets/tile1.png`, and
+then submitting this as a commit `git commit`. ([via StackOverflow](https://stackoverflow.com/q/46704572/39531))
+
+> Note that GitHub doesn't like displaying this commit:
+>
+> ![image](https://github.com/soundasleep/jevon.org/assets/3889656/06d2cdcb-669b-4749-b497-d7709bd0e49c)
+

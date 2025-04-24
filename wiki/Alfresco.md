@@ -36,7 +36,7 @@ Invalid property value:
 ## Disabling Javascript Minification in Alfresco
 <a href="https://forums.alfresco.com/en/viewtopic.php?f=48&t=23323">As discussed here</a>, to enable [Javascript](Javascript.md) debugging (and to disable the minification of Alfresco Javascript), add this code to `webscript-framework-config-custom.xml` <a href="http://wiki.alfresco.com/wiki/Web_Scripts#Global_and_Scoped_Config">for Alfresco explorer</a>:
 
-```
+```xml
 <config>
   <flags>
     <client-debug>true</client-debug>
@@ -60,7 +60,7 @@ To disable [Drupal](Drupal.md) modules that are enabled but cause your site to c
 ## ReferenceError: "json" is not defined.
 If you get this error while trying to call a Remote Alfresco API script, such as the following:
 
-```
+```js
 var clientRequest = json.toString();
 var result = remote.connect("alfresco").post("/api/foo/" + encodeURIComponent(user.id) + "/profile/edit",
   clientRequest, "application/json");
@@ -68,7 +68,7 @@ var result = remote.connect("alfresco").post("/api/foo/" + encodeURIComponent(us
 
 The problem is that you need to <a href="http://forums.alfresco.com/en/viewtopic.php?t=15238#p50188">specify `application/json` as a content type</a> and re-encode the page arguments to JSON like so:
 
-```
+```js
 var clientRequest = page.url.args;
 var result = remote.connect("alfresco").post("/api/foo/" + encodeURIComponent(user.id) + "/profile/edit",
   jsonUtils.toJSONString(clientRequest), "application/json");
@@ -89,13 +89,13 @@ status.redirect = true;
 
 ## The choice of Java constructor replace matching JavaScript argument types (function,string) is ambiguous; candidate constructors are: class java.lang.String replace(char,char), class java.lang.String replace(java.lang.CharSequence,java.lang.CharSequence)
 Instead of using this:
-```
+```js
 return s.replace(/[]/g, "")
 		.replace(/["]/g, """);
 ```
 
 First try casting it to a "Javascript" string, like so:
-```
+```js
 return (s + "").replace(/[]/g, "")
 		.replace(/["]/g, """);
 ```
@@ -128,7 +128,7 @@ This error occurred when I was trying to test my Alfresco Share application usin
 
 However I found that this patch wasn't enough. My solution was to patch `event-debug.js` itself, and replace the failing code with:
 
-```
+```js
 /**
      * @method toString
      */
@@ -144,7 +144,7 @@ While not documented, `people.getPeople("filter")` returns a list of NodeRefs, n
 
 From `alfresco/WEB-INF/classes/alfresco/templates/webscripts/org/alfresco/repository/site/membership/potentialmembers.get.js`:
 
-```
+```js
 peopleFound = people.getPeople(filter, maxResults);
 for (i = 0; i < peopleFound.length; i++) {
   username = search.findNode(peopleFound[i]).properties.userName;
@@ -201,7 +201,7 @@ I was getting this error when trying to connect to an Alfresco Secure [FTP](ftp.
 
 ## Loading and deleting a node by reference in Javascript
 
-```
+```js
 var node = utils.getNodeFromString("workspace://SpacesStore/8cf7277f-a753-43dc-b498-f352c8ca815c");
 node.remove();
 ```
@@ -210,12 +210,12 @@ node.remove();
 
 Are you trying to create a Webscript with the following authentication?
 
-```
+```xml
 <authentication>none</authentication>
 ```
 
 _Even if you pass in valid authentication through Basic (etc)_, the Webscript still won't be authorised to do anything. You need to change this Webscript authentication to:
 
-```
+```xml
 <authentication>user</authentication>
 ```
