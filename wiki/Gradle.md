@@ -56,4 +56,19 @@ task distDependencies(type: Copy) {
 }
 ```
 
+## Including `META-INF/services/...` in a multi-project Gradle project
 
+If you have a `core`, and you've put your META-INF files into `src/META-INF`, you can put this into `core/build.gradle` (for example):
+
+```gradle
+sourceCompatibility = 1.17
+
+sourceSets.main.java.srcDirs = [ "src/" ]
+sourceSets.test.java.srcDirs = [ "test/" ]
+
+sourceSets.main.resources.srcDirs = [ "src/" ]  // <-- 
+
+eclipse.project.name = appName + "-core"
+```
+
+This should then include all your `META-INF` files in the built `core-version.jar`. See also https://discuss.gradle.org/t/copying-files-from-meta-inf-to-jar-using-gradle-jar-plugin/11253
