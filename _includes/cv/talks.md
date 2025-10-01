@@ -1,5 +1,9 @@
 ## Selected Talks
 
+2025
+: "Creating games with weird game engines",
+  NZGDC 2025
+
 2024
 : Panelist, [_"Inclusion and Diversity in Strategy Games"_](https://www.youtube.com/watch?v=uxchchABHGI),
   TactiCon 2024
@@ -9,7 +13,7 @@
   Victoria University of Wellington
 
 2023
-: Panelist, _"Studio Wizards:  Unlocking the Game Dev World"_,
+: Panelist, _"Studio Wizards: Unlocking the Game Dev World"_,
   NZGDC 2023
 
 2023
