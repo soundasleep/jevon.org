@@ -42,6 +42,7 @@ Over time, I will try and fill the details of my current machine on this page.
 
 ## Other parts
 
+1. **14-inch 2024 MacBook Pro Apple M4 Chip with 10‑Core CPU and 10‑Core GPU** from <a href="https://support.apple.com/en-nz/121552">Apple</a>
 1. **13-inch 2016 MacBook Pro with Retina display, 2GHz Dual-core Intel Core i5, 8GB 1867MHz, 256GB SSD** from <a href="https://support.apple.com/kb/SP747?locale=en_GB">Apple</a>
 2. **Antec Three Hundred (Black) Mid-Tower Case** from <a href="http://www.pp.co.nz/products.php?pp_id=AA06578">Paradigm PCs</a> (Apr 2013)
 4. **Intel Core 2 Quad Q9400 2.66Ghz LGA775 6M FSB1333 Retail** from XP Computer
