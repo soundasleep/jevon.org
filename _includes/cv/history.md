@@ -1,5 +1,13 @@
 ## Recent Employment History
 
+2021 &ndash;
+: - **Director**
+  - _[Stormcloak Games](https://stormcloak.games)_
+  - Wellington, New Zealand
+
+  The solo developer and game designer on Stormcloak's first title, the
+  indie base-building/simulation game _Adaptory_.
+
 2019 &ndash; 2021
 : - **Solutions Architect**
   - _[Xero](https://xero.com)_
