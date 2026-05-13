@@ -1,7 +1,11 @@
 ## Selected Talks
 
+2026
+: _"Why I didn't use generative AI in my game: And why you shouldn't either"_,
+  Play by Play 2026
+
 2025
-: "Creating games with weird game engines",
+: _"Creating games with weird game engines"_,
   NZGDC 2025
 
 2024
