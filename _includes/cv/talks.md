@@ -1,7 +1,7 @@
 ## Selected Talks
 
 2026
-: _"Why I didn't use generative AI in my game: And why you shouldn't either"_,
+: _["Why I didn't use generative AI in my game: And why you shouldn't either"](https://www.youtube.com/watch?v=DfIHufGp9Vg)_,
   Play by Play 2026
 
 2025
